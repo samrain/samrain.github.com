@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Sam的小窝
 tagline: 
 ---
