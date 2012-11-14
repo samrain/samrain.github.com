@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Sam的小窝
-tagline: Supporting tagline
+tagline: 
 ---
 
 <ul class="posts">
