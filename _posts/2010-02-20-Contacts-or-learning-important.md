@@ -1,7 +1,8 @@
 ---
 layout: post
 category : study
-tags : [人脉,学习,重要]
+tags : [人脉, 学习, 重要]
+title: 学习重要，还是经营人脉重要？
 ---
 
 #(转)李笑來老師的文章
