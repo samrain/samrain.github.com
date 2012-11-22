@@ -1,6 +1,6 @@
 ---
 layout:post
-category:管理
+category:manage
 tags:[选举, 评优, 评选]
 title:什么是差额选举？
 ---
