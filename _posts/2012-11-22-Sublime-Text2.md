@@ -14,15 +14,13 @@ title : Sublime Text2简介
 
 # 安装
 
-- [老家](http://www.sublimetext.com/2)
+- [老窝](http://www.sublimetext.com/2)
 
 - ubuntu PPA
 
-        1. sudo add-apt-repository ppa:webupd8team/sublime-text-2
+        sudo add-apt-repository ppa:webupd8team/sublime-text-2 sudo apt-get update sudo apt-get install sublime-text-2-dev
 
-        2. sudo apt-get update
-
-        3. sudo apt-get install sublime-text-2-dev
+# [学习视频](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
 
 # 美化
 
@@ -124,8 +122,6 @@ title : Sublime Text2简介
 
         通过快捷键从当前PHP代码中生成符合PHPDoc标准的注释
 
-# [学习视频](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
-
 # TIPs
 
 - 快捷的命令面板
@@ -162,25 +158,25 @@ title : Sublime Text2简介
 
         单个选择相同文字
 
-            选中文字
+        选中文字
 
-            连续按Ctrl+d
+        连续按Ctrl+d
 
         选择所有相同文字
 
-            选中文字
+        选中文字
 
-            Alt+F3
+        Alt+F3
 
         单个选择不同文字
 
-            按住Ctrl鼠标选择
+        按住Ctrl鼠标选择
 
         不选择相同文字中的某些
 
-            选中文字
+        选中文字
 
-            连续按Ctrl+K，Ctrl+d
+        连续按Ctrl+K，Ctrl+d
 
 - 安装包控制
 
