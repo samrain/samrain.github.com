@@ -10,7 +10,7 @@ title : Sublime Text2简介
 
 ---
 
-[思维导图文件下载](https://docs.google.com/open?id=0B1DrsqrLRzeIZ0gtcDNyaDY2LXM)
+[思维导图文件下载](https://docs.google.com/open?id=0B1DrsqrLRzeIN1ZzSTg5TmQyVzA)
 
 # 安装
 
