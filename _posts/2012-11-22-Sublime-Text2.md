@@ -14,7 +14,7 @@ title : Sublime Text2简介
 
 # 安装
 
-- [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+- [老家](http://www.sublimetext.com/2)
 
 - ubuntu PPA
 
@@ -26,13 +26,9 @@ title : Sublime Text2简介
 
 # 美化
 
-- 更改图标
+- [更改图标](https://github.com/dmatarazzo/Sublime-Text-2-Icon)
 
-<https://github.com/dmatarazzo/Sublime-Text-2-Icon>
-
-- 添加Soda主题
-
-<https://github.com/buymeasoda/soda-theme>
+- [添加Soda主题](https://github.com/buymeasoda/soda-theme)
 
         运行Packge Control Install,安装Theme-Soda
 
@@ -48,9 +44,7 @@ title : Sublime Text2简介
 
         格式化js
 
-- sFtp
-
-<http://wbond.net/sublime_packages/sftp>
+- [sFtp](http://wbond.net/sublime_packages/sftp)
 
         通过sftp/ftp直接管理远程文件，或者同步本地文件/文件夹到服务器对应目录，可以选择保存本地文件时自动上传
 
@@ -94,9 +88,7 @@ title : Sublime Text2简介
 
         Open a terminal at the current file, or the root of your project. Can be configured to use a custom terminal.
 
-- sublime-text-2-clipboard-history
-
-<https://github.com/kemayo/sublime-text-2-clipboard-history>
+- [sublime-text-2-clipboard-history](https://github.com/kemayo/sublime-text-2-clipboard-history)
 
         保存剪贴板历史，不包含多重选择
 
@@ -110,45 +102,31 @@ title : Sublime Text2简介
 
         generate a UUID v4
 
-- SideBarEnhancements
-
-<https://github.com/titoBouzout/SideBarEnhancements>
+- [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
         边栏增强工具
 
-- sublime-phpsnippets
-
-<https://github.com/stuartherbert/sublime-phpsnippets>
+- [sublime-phpsnippets](https://github.com/stuartherbert/sublime-phpsnippets)
 
         更多的PHP代码片段
 
-- sublime-twitter-bootstrap-snippets
-
-<https://github.com/devtellect/sublime-twitter-bootstrap-snippets>
+- [sublime-twitter-bootstrap-snippets](https://github.com/devtellect/sublime-twitter-bootstrap-snippets)
 
         关于bootstrap的代码片段
 
-- SublimeCTagsPHP
-
-<https://github.com/erichard/SublimeCTagsPHP>
+- [SublimeCTagsPHP](https://github.com/erichard/SublimeCTagsPHP)
 
         PHP专用的CTags插件
 
-- ThinkPHP-Snippets
-
-<https://github.com/yangweijie/ThinkPHP-Snippets>
+- [ThinkPHP-Snippets](https://github.com/yangweijie/ThinkPHP-Snippets)
 
         ThinkPHP的代码片段
 
-- PhpDox
-
-<https://github.com/oct8cat/sublime-phpdox>
+- [PhpDox](https://github.com/oct8cat/sublime-phpdox)
 
         通过快捷键从当前PHP代码中生成符合PHPDoc标准的注释
 
-# 学习视频
-
-<https://tutsplus.com/course/improve-workflow-in-sublime-text-2/>
+# [学习视频](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
 
 # TIPs
 
