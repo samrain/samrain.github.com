@@ -18,7 +18,13 @@ title : Sublime Text2简介
 
 - ubuntu PPA
 
-        sudo add-apt-repository ppa:webupd8team/sublime-text-2 sudo apt-get update sudo apt-get install sublime-text-2-dev
+<pre>
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+
+sudo apt-get update
+
+sudo apt-get install sublime-text-2-dev
+</pre>
 
 # [学习视频](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
 
