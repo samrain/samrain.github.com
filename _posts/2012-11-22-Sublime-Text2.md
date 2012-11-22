@@ -14,7 +14,7 @@ title : Sublime Text2简介
 
 # 安装
 
-<http://www.sublimetext.com/2>
+- [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
 
 - ubuntu PPA
 
