@@ -1,12 +1,21 @@
 ---
+
 layout:post
+
 category:tech
+
 tags:[轻, github, 博客, markdown, 平板文件]
+
 title:Markdown语法
+
 ---
+
 <em>
+
 [思维导图文件下载](https://docs.google.com/open?id=0B1DrsqrLRzeIMmhPN3Bvc0ZlZG8)
+
 </em>
+
 # 每个语法符号后跟一个空格
 
 # 清单
