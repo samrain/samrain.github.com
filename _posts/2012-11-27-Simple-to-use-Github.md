@@ -18,13 +18,13 @@ title : Github简单使用
 
 # 配置本地计算机
 
-- 1.检查现有的ssh key
+- 检查现有的ssh key
 
         cd ~/.ssh
 
         如果显示“No such file or directory”,那么请执行第3步
 
-- 2.备份和删除老key
+- 备份和删除老key
 
         mkdir key_backup
 
@@ -32,7 +32,7 @@ title : Github简单使用
 
         rm id_rsa*
 
-- 3.生成新的SSH Key
+- 生成新的SSH Key
 
         ssh-keygen -t rsa -C "samrainhan@gmail.com"
 
@@ -40,11 +40,11 @@ title : Github简单使用
 
         输入2遍加密串
 
-- 4.复制文件id_rsa.pub中内容
+- 复制文件id_rsa.pub中内容
 
-- 5.到[Github帐户设置](https://github.com/settings/ssh)中粘帖到框“Key”中，然后点【Add key】
+- 到[Github帐户设置](https://github.com/settings/ssh)中粘帖到框“Key”中，然后点【Add key】
 
-- 6.测试SSH Key
+- 测试SSH Key
 
         ssh -T git@github.com
 
@@ -54,7 +54,7 @@ title : Github简单使用
 
         如果有输入框要求输入密码,那么输入以上设置的加密串
 
-- 7.设置帐户
+- 设置帐户
 
         git config --global user.name "Hanyu"
 
