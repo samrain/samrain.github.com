@@ -10,8 +10,7 @@ title : 2013元旦温泉游
 
 # Where
 - [黄山醉温泉](http://baike.baidu.com/view/2826664.htm)
-
-- 歙县
+- [歙县](http://baike.baidu.com/view/34746.htm)
   * [唐模](http://baike.baidu.com/view/1898332.htm)
   * [棠樾牌坊群](http://baike.baidu.com/view/388417.htm)
   * [徽州古城](http://baike.baidu.com/view/911499.htm)
@@ -81,15 +80,11 @@ title : 2013元旦温泉游
 # Who
 - 韩雨
 2大1小
-
 - 戴大海
 4大1小
-
 - 刘海
 待定
-
 - 苏仕云
 待定
-
 - 姚若舟
 2大1小
