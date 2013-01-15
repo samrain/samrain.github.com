@@ -4,7 +4,7 @@ category : tech
 tags : [Git, Git命令]
 title : Git命令释义
 ---
-[思维导图文件下载](https://docs.google.com/file/d/0B1DrsqrLRzeIUUxMWWxNVTltMHM/edit)
+[思维导图文件下载](https://docs.google.com/file/d/0B1DrsqrLRzeIRGFfRGdlYkJOU0k/edit)
 
 ## 基本操作
 
