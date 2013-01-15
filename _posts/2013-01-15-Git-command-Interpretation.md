@@ -37,31 +37,31 @@ title : Git命令释义
 
 ### 本地Master重置到上一个版本
 
-- git reset --hard origin/master
+- `git reset --hard origin/master`
 
 ### 本地删除文件
 
-- git rm tags
+- `git rm tags`
 
 ### 本地添加文件
 
-- git add calc.py
+- `git add calc.py`
 
 ### 本地确定完成
 
-- git commit -m "建立 源码目录及文档目录，并拷贝第一个程序进来"
+- `git commit -m "建立 源码目录及文档目录，并拷贝第一个程序进来"`
 
 ### 往github上传更新
 
-- git push origin <branch>
+- `git push origin <branch>`
 
 ### 开分支
 
-- git checkout -b branchname
+- `git checkout -b branchname`
 
 ### 返回主分支
 
-- git checkout master
+- `git checkout master`
 
 ### 编辑.gitignore
 
@@ -72,7 +72,7 @@ title : Git命令释义
 ## 连接服务器上的git库，比如Github
 
 
-### git remote add origin <server>
+- `git remote add origin <server>`
 
 
-### git pull origin master
+- `git pull origin master`
