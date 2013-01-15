@@ -37,23 +37,23 @@ title : 清迈旅游攻略
 ### 可选行程
 
 - a方案
- - 参加周日集市
- - 丛林索道飞行、夜市
- - 骑大象、漂流、徒步、长颈族、泡吧
- - 逛古城各种寺庙、文华东方下午茶、SPA
- - 摩托车逛清迈大学、素贴山、素贴寺、普平宫、苗族村
- - 学做泰国菜、泡吧、SPA
+  - 参加周日集市
+  - 丛林索道飞行、夜市
+  - 骑大象、漂流、徒步、长颈族、泡吧
+  - 逛古城各种寺庙、文华东方下午茶、SPA
+  - 摩托车逛清迈大学、素贴山、素贴寺、普平宫、苗族村
+  - 学做泰国菜、泡吧、SPA
 - b方案
- - 香港－曼谷－清迈
- - 清迈古城漫步逛寺庙
- - 骑大象游丛林
- - 素贴山双龙寺，下午入住四季度假村
- - 白天游览四季度假村，晚上逛SUNDAY MARTET
- - 返程，清迈－曼谷－香港
+  - 香港－曼谷－清迈
+  - 清迈古城漫步逛寺庙
+  - 骑大象游丛林
+  - 素贴山双龙寺，下午入住四季度假村
+  - 白天游览四季度假村，晚上逛SUNDAY MARTET
+  - 返程，清迈－曼谷－香港
 - c方案
- - 素帖山+双龙寺Ssangyong Temple + 帕辛寺Wat Phra Singh + Night Bazzar
- - 柴迪隆寺Wat Chedi Luang + 清迈寺 Wat Chiang Man + Wat Monthian 寺 + 羅摩利寺Wat Lok Mee + 周六夜市 + 倒计时
- - Wat Bupparam 寺 + 周日夜市
+  - 素帖山+双龙寺Ssangyong Temple + 帕辛寺Wat Phra Singh + Night Bazzar
+  - 柴迪隆寺Wat Chedi Luang + 清迈寺 Wat Chiang Man + Wat Monthian 寺 + 羅摩利寺Wat Lok Mee + 周六夜市 + 倒计时
+  - Wat Bupparam 寺 + 周日夜市
 
 ### 景点
 
