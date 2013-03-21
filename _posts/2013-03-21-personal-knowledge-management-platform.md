@@ -12,12 +12,12 @@ title : 个人知识管理平台
 ### 1收集
 
 - 工具
-    - Chrome(pc,手机,平板)
-     - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
-    - Google Reader(pc,手机,平板)
-    - ifttt.com
-    - 纸笔
-    - 录音笔
+ - Chrome(pc,手机,平板)
+  - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
+ - Google Reader(pc,手机,平板)
+ - ifttt.com
+ - 纸笔
+ - 录音笔
 - 一般场景
     - PC上网发现好东东
         - 使用Evernote剪藏插件收藏到标签“*Box”
