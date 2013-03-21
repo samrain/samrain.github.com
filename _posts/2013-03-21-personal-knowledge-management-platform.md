@@ -12,23 +12,23 @@ title : 个人知识管理平台
 ### 1收集 
 
 - 工具
- - Chrome(pc,手机,平板)
-  - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
- - Google Reader(pc,手机,平板)
- - ifttt.com
- - 纸笔
- - 录音笔
+    - Chrome(pc,手机,平板)
+        - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
+    - Google Reader(pc,手机,平板)
+    - ifttt.com
+    - 纸笔
+    - 录音笔
 - 一般场景
- - PC上网发现好东东
-  - 使用Evernote剪藏插件收藏到标签“*Box”
- - 手机/平板上网发现好东西
-  - 点击“设置”使用“分享”功能到Evernote中标签“*Box”
- - 讨论写在白板上
-  - 使用手机相机拍摄
-  - 从手机上分享到Evernote中标签“*Box”
- - 想法画在白纸上
- - 看GReader发现好文章,标记星标后ifttt.com会自动将其保存到Evernote中
- - 讨论或培训时用录音笔录音
+    - PC上网发现好东东
+        - 使用Evernote剪藏插件收藏到标签“*Box”
+    - 手机/平板上网发现好东西
+        - 点击“设置”使用“分享”功能到Evernote中标签“*Box”
+    - 讨论写在白板上
+        - 使用手机相机拍摄
+        - 从手机上分享到Evernote中标签“*Box”
+    - 想法画在白纸上
+    - 看GReader发现好文章,标记星标后ifttt.com会自动将其保存到Evernote中
+    - 讨论或培训时用录音笔录音
 
 ### 2整理
 
