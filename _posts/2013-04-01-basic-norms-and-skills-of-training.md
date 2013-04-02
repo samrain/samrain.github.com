@@ -40,13 +40,13 @@ title : 培训的基本规范及技巧
 
 ### 演讲的七个关键步骤
 
-- 1. 专 心 投 入(Commit Yourself)
-- 2. 分 析 听 众(Analyze Your Audience)
-- 3. 整 理 思 路(Organize Your Thought)
-- 4. 优 化 视 听(Think Sight and Sound)
-- 5. 排 练 准 备(Practice)
-- 6. 放 松 心 情(Relax)
-- 7. 以 此 为 乐(Enjoy)
+1. 专 心 投 入(Commit Yourself)
+2. 分 析 听 众(Analyze Your Audience)
+3. 整 理 思 路(Organize Your Thought)
+4. 优 化 视 听(Think Sight and Sound)
+5. 排 练 准 备(Practice)
+6. 放 松 心 情(Relax)
+7. 以 此 为 乐(Enjoy)
 
 ### 会场规矩
 
