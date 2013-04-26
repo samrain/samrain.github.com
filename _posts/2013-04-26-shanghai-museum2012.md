@@ -1,8 +1,8 @@
 ---
-layout  post
-category  manage
-tags  [文化上海, 全景图, 旅游, 文化, 上海]
-title  旅游拍照，驴友最爱：”文化上海“系列_全景图
+layout : post
+category : manage
+tags : [文化上海, 全景图, 旅游, 文化, 上海]
+title : 旅游拍照，驴友最爱：”文化上海“系列_全景图
 ---
 
 ## 介绍如下：[博物馆的秘密](http//sh.eastday.com/tyzh/museum2012/index.html)
