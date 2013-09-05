@@ -8,6 +8,8 @@ title : 露营烧烤准备材料
 
 ![露营烧烤准备材料](http://samrain.qiniudn.com/%E9%9C%B2%E8%90%A5%E7%83%A7%E7%83%A4%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99.jpeg "露营烧烤准备材料")
 
+![帐篷示意图](http://samrain.qiniudn.com/%E5%B8%90%E7%AF%B7%E7%A4%BA%E6%84%8F%E5%9B%BE.jpeg "帐篷示意图")
+
 ## 露营
 
 
