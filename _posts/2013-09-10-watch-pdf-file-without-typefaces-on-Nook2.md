@@ -1,8 +1,8 @@
 ---
 layout : post
-category : family
-tags : [露营, 烧烤, 帐篷]
-title : 露营烧烤准备材料
+category : study
+tags : [pdf, nook2]
+title : 解决pdf文件不能在nook2上观看问题
 ---
 
 在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软件不支持/软件支持，没有类似字体。转换试验如下：
