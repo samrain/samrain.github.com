@@ -11,7 +11,7 @@ title : 耳放MDAD Mini满血复活
 
 步骤如下：
 
-* `sudo apt-get install pavucontrol`
+* `sudo apt-get install pavucontrol pulseaudio`
 * 运行 `pavucontrol`，选择MDAC Mini设备即可
 
 
