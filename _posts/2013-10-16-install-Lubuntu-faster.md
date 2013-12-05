@@ -50,7 +50,7 @@ title : 快速安装我的Lubuntu
 
 - 代码
 
-  `sudo apt-get install arandr ibus-sunpinyin freemind emacs24 emacs24-el emacs-jabber profile-sync-daemon remmina remmina-plugin-xdmcp virtualbox virtualbox-guest-additions-iso calibre flashplugin-installer sendxmpp p7zip-full p7zip-rar icedtea-7-plugin gimp`
+  `sudo apt-get install arandr ibus-sunpinyin freemind emacs24 emacs24-el profile-sync-daemon remmina remmina-plugin-xdmcp virtualbox virtualbox-guest-additions-iso calibre flashplugin-installer p7zip-full p7zip-rar icedtea-7-plugin gimp`
 
 
 - arandr:使用GUI界面调整多屏显示
@@ -66,9 +66,6 @@ title : 快速安装我的Lubuntu
 
 
 - emacs24-el:emacs扩展脚本
-
-
-- emacs-jabber:emacs上jabber扩展脚本，同XMPP协议的im通信
 
 
 - profile-sync-daemon:将浏览器缓存改到内存中，并定期dump到硬盘上
@@ -90,9 +87,6 @@ title : 快速安装我的Lubuntu
 
 
 - flashplugin-installer:flash插件
-
-
--  sendxmpp:发送XMPP协议的消息，工作时和OpenFire来通信
 
 
 - p7zip-full:解压缩7zip格式文件
