@@ -35,6 +35,7 @@ title : 快速安装我的Lubuntu
 
 - 点击按钮【关闭】
 
+## 安装完Lubuntu后安装所有应用程序
 <script src="https://gist.github.com/samrain/7807667.js"></script>
 
 ## 配置
