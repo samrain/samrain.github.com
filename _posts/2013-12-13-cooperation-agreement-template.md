@@ -1,7 +1,7 @@
 ---
 layout : post
 category : sale
-tags : [合作, 协议, 合同， 模版, 合作协议]
+tags : [合作, 协议, 合同, 模版, 合作协议]
 title : 合作协议模版
 ---
 
