@@ -153,7 +153,13 @@ title : 玩转Emacs
 
 
 ### 用于远程文件编辑
-
+     /host:filename
+     /user@host:filename
+     /user@host#port:filename
+     /method:user@host:filename
+     /method:user@host#port:filename
+	 例如：本地root权限文件用/sudo@host#post:filename
+	 其他电脑FTP目录文件/ftp:user@host#port:filename
 
 ## 一般说明
 
@@ -476,3 +482,4 @@ title : 玩转Emacs
 
 
 ### 重命名buffer:m-x rename-buffer
+
