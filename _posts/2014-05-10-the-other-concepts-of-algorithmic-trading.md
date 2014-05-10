@@ -2,7 +2,7 @@
 layout : post
 category : tech
 tags : [程序化交易, 自动化交易]
-title : 程序化交易的一些概念
+title : 程序化交易的另一些概念
 ---
 
 
