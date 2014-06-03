@@ -1,3 +1,11 @@
+---
+layout : post
+category : tech
+tags : [二维码, QR code]
+title : 二维码的各种类型
+---
+
+
 ## 免费制作二维码站点
 
 - [改图网](http://mp.gaitu.com/)
