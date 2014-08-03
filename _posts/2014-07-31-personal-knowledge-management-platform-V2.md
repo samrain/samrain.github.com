@@ -12,11 +12,10 @@ title : 个人知识管理平台V2.0
 
 - 工具
     - Chrome(pc,手机,平板)
-        - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
+    - [Evernote剪藏插件](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
     - feedly.com
     - ifttt.com
     - 纸笔
-    - 录音笔
 	- 微信
 - 一般场景
     - PC上网发现好东东
@@ -62,19 +61,13 @@ title : 个人知识管理平台V2.0
 
 ### 5互动
 
-- 通过[博客](http://samrain.github.com)上的[Disqus](http://disqus.com/)来进行互动
+- 通过[博客](http://samrain.github.io)上的[Disqus](http://disqus.com/)来进行互动
 
 ### 6回顾
 
 - 每天有空的时候浏览Evernote中笔记本`*box`
 - 每月第一天浏览Evernote中笔记本`*Maybe`和`*Wating For`
 
-### 7查询
+### 7搜索
 
-- 一般
-    - 到Google Drive中搜索
-    - 到Evernote中搜索
-- 快捷
-    - 如果安装了Evernote剪藏插件并选择“同时显示在搜索引擎中”，那么在google搜索中搜索，evernote的搜索结果前3项会自动显示在搜索结果右侧
-- 实验
-    - 在Gmail界面上搜索，会显示Google Drive，Google Calendar，Gmail的前3项相关内容
+如果安装了Evernote剪藏插件并选择“同时显示在搜索引擎中”，那么在google搜索中搜索，evernote的搜索结果前3项会自动显示在搜索结果右侧。
