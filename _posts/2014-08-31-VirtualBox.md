@@ -1,8 +1,8 @@
 ---
 layout : post
 category : study
-tags : [Docbook]
-title : Docbook
+tags : [virtualbox]
+title : virtualbox
 ---
 
 [如何复制已安装好系统的VDI文件作为新的Guest系统磁盘使用?](http://wandering.blog.51cto.com/467932/103353)
