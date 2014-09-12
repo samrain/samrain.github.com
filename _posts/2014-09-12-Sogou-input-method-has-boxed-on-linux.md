@@ -1,4 +1,4 @@
-我的环境是Lubuntu1404.
+我的环境是Lubuntu1404
 
 安装xcompmgr后重启
 
