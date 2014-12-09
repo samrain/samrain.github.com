@@ -14,3 +14,5 @@ title : 测试导入网页
 
 ##doc
 <iframe  width="100%" height="300pt"  src="https://docs.google.com/document/d/1IgR1EONfmfHtXh3ac102TryQcYXVNcvl2LPeh_yuZ_8/pub"></iframe>
+
+![test webp](http://samrain.qiniudn.com/222.webp "test webp")
