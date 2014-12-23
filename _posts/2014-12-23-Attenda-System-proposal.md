@@ -1,3 +1,11 @@
+---
+layout : post
+category : work
+tags : [考勤系统, 考勤, 指纹]
+title : 考勤系统建议
+---
+
+
 # why
 
 面临如下问题：
