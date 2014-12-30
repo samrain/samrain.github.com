@@ -2,7 +2,7 @@
 layout : post
 category : work
 tags : [在线调查, 调查, 问卷]
-title : 在线调查，用typeform.com做的
+title : 在线调查-团队效能 by typeform.com
 ---
 
 <div class="typeform-widget" data-url="https://samrain.typeform.com/to/r7rAMJ" data-text="团队效能" style="width:100%;height:500px;"></div>
