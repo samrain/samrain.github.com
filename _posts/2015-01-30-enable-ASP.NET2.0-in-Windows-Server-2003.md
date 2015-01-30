@@ -13,6 +13,4 @@ title : 在 Windows Server 2003 中启用 ASP.NET 2.0
 
 ##CLI命令启用
 
-```
-C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.exe -i
-```
+<script src="https://gist.github.com/samrain/38c4ae11f6b49a75cc99.js"></script>
