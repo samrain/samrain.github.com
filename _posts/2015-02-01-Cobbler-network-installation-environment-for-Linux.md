@@ -6,7 +6,8 @@ title : Cobbler 网络安装环境4Linux
 ---
 
 ## What
-官网在此：https://fedorahosted.org/cobbler/
+[官网在此](https://fedorahosted.org/cobbler/)
+
 Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。
 ## How
 该工具使用python开发，小巧轻便（才15k行代码），使用简单的命令即可完成PXE网络安装环境的配置，同时还可以管理DHCP，DNS，以及yum包镜像。
