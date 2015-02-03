@@ -22,7 +22,9 @@ http://www.gnu.org/software/parallel/
 ###参数
 
 `-a/::::` 文件名
+
 `:::`标准输入
+
 `--dryrun`查看将会运行的命令，但是不执行
 
 ##Examples
