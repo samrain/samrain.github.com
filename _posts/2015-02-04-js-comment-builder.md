@@ -1,7 +1,7 @@
 ---
 layout : post
-category : study
-tags : [cpufreq, 降低CPU功耗, 降低功耗]
+category : work
+tags : [生成帮助文档, js, 注释]
 title : 导出js注释工具-JSDOC
 ---
 
