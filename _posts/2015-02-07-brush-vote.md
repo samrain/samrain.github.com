@@ -15,7 +15,7 @@ title : 刷票
 ## How
 网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验证。O(∩_∩)O哈哈~。
 
-用chrome的F12工具中`Network`抓取了post日志，注意`Preserve log`必须打勾，仔细看日志发现了其实是向"http://www.example.com/toupiao/Save"发送Post请求，数据为
+用chrome的F12工具中`Network`抓取了post日志，注意`Preserve log`必须打勾，仔细看日志发现了其实是向`http://www.example.com/toupiao/Save`发送Post请求，数据为
 
 ``` 
 name=张三&phone=1390219679&ids=74
