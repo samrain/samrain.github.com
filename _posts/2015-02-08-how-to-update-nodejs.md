@@ -18,10 +18,11 @@ title : 如何更新nodejs
 - 安装cnpm
 珍惜生命远离npm，哈哈，主要是出国网络不给力，幸好淘宝做了一个镜像([地址在此](http://npm.taobao.org/))。让我们先装上再说：
 
-**注意：由于我是ubuntu，所以都在命令前加上`sudo`。**
 ```
 sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
+
+**注意：由于我是ubuntu，所以都在命令前加上`sudo`。**
 
 - 安装模块`n`
 
