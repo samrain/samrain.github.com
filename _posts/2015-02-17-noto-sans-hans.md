@@ -7,7 +7,7 @@ title : 思源黑体
 
 ## Why
 
-由google和adobe联手发起的【消灭豆腐字(NoTo) 工程】 
+由google和adobe联手发起的[消灭豆腐字(NoTo) 工程](http://finance.sina.com.cn/leadership/mroll/20141120/235320876720.shtml) 
 
 ## 下载
 
