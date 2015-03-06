@@ -28,7 +28,7 @@ sudo apt-get -f install
 
 下载[最新的驱动](http://chromedriver.storage.googleapis.com/index.html)下来解压到PATH中（用 echo $PATH来看在哪里）
 
-## 写测试文件
+## 写测试文件`put.rb`
 
 ```
 # -*- coding: utf-8 -*-
