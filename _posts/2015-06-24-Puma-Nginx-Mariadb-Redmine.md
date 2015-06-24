@@ -46,9 +46,11 @@ rbenv global 2.1.5
 ```
 
 ### check Ruby
- 确认下当前ruby版本号是否和设置的全局版本一致
+
 ```
+## 确认下当前ruby版本号是否和设置的全局版本一致
 ruby -v
+
 ## 如果不一致，那么执行以下2行代码
 rbenv rehash
 rbenv global 2.1.5
@@ -57,6 +59,7 @@ rbenv global 2.1.5
 ## 2. Mariadb
 ### 基础库
 安装过程中会要求输入MariaDB的root用户密码
+
 ```
 sudo apt-get install mariadb-server libmariadbclient-dev ImageMagick libmagickwand-dev
 ```
@@ -85,9 +88,11 @@ GRANT ALL PRIVILEGES ON redm4coprize.* TO 'user4coprize'@'localhost';
 ## 3. Redmine
 
 ### 下载代码
-比如2014-12-20时是2.6.0，这个可以到[redmine官网](http://www.redmine.org/projects/redmine/wiki/Download#Stable-releases)上看到
-以下我都是安装了2.5.2版本。
+
+比如2014-12-20时是2.6.0，这个可以到[redmine官网](http://www.redmine.org/projects/redmine/wiki/Download#Stable-releases)上看到.
+
 ```
+## 安装2.5.2版本
 wget -c http://www.redmine.org/releases/redmine-2.5.2.tar.gz
 tar -xf *.tar.gz && cd redm*
 ## 创建文件夹
@@ -99,12 +104,15 @@ chmod -R 755 files log tmp public/plugin_assets
 ### 修改Gemfile文件
 
 把第一行改为
+
 > source 'https://ruby.taobao.org'
+
 ```
 vi ~/redmine*/Gemfile
 ```
 
 ### 安装ruby组件
+
 ```
 ## 换gem源
 gem sources --remove https://rubygems.org/
@@ -131,14 +139,18 @@ bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 bundle exec rake redmine:load_default_data RAILS_ENV=production REDMINE_LANG=zh
 ```
 
-### 测试  
+### 测试
+
 访问[http://localhost:3000](http://localhost:3000),用户名和密码为admin/admin
+
 ```
 ruby script/rails server webrick -e production
 ```
 
 ## 4. Puma
+
 ### install puma
+
 ```
 ## 下载puma配置
 curl -Lo ~/redmine*/config/puma.rb https://gist.githubusercontent.com/samrain/4c92673990edfe5a215e/raw/7313da9e309de0def3e40e75913bc0bfbe7d1fa3/puma.rb
@@ -173,6 +185,7 @@ sudo service redm4coprize start
 > 支持下国人开源作品，以下用OpenResty来代替官方Nginx
 
 ### 下载源码
+
 [下载页面在此](http://openresty.org/download)，请根据需要下载release版本。
 
 ```
@@ -250,9 +263,11 @@ ruby script/rails server webrick -e production
 访问[http://localhost:3000](http://localhost:3000),用户名和密码为admin/admin
 
 ### 恢复样式定制
+
 复制样式文件夹(比如`newmine-master`)到`%redmine安装目录%/public/themes/`，然后在redmine的管理界面里选择这个样式。
 
 ###增加邮件转发配置
+
 修改`%redmine安装目录%/config/configuration.yml`,增加mail的配置
 
 ###备份
@@ -261,7 +276,9 @@ mysqldump --default-character-set=utf8 -r %备份文件名及全路径% --databa
 ```
 
 ###导入数据
+
 > 注意：不要用root登录数据库，一定要用数据库账号，否则导入时会新增一个数据库。
+
 ```
 source %备份文件名及全路径%
 ```
