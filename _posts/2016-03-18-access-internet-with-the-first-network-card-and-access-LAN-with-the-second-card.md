@@ -1,9 +1,9 @@
 ---
 layout : post
 category : study
-tags : [linux, ÍøÂç, ÅäÖÃ]
-title : Ë«Íø¿¨Ò»¿éÉÏÍøÁíÒ»¿éÉÏ¾ÖÓòÍø
+tags : [linux, ç½‘ç»œ, é…ç½®]
+title : åŒç½‘å¡ä¸€å—ä¸Šç½‘å¦ä¸€å—ä¸Šå±€åŸŸç½‘
 ---
 
-* Ë«Íø¿¨Ò»¿éÉÏÍøÁíÒ»¿éÉÏ¾ÖÓòÍø
+* åŒç½‘å¡ä¸€å—ä¸Šç½‘å¦ä¸€å—ä¸Šå±€åŸŸç½‘
 <script src="https://gist.github.com/samrain/e9e3680f299d148c6f01.js"></script>
