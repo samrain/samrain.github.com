@@ -9,11 +9,11 @@ title : 安装LimeSurvey
 
 ### 源码包
 
-链接: http://pan.baidu.com/s/1o6BhKfS 密码: g75h
+[下载链接]([http://pan.baidu.com/s/1o6BhKfS)密码: g75h
 
 ### 使用手册
 
-http://pan.baidu.com/s/1sk1dA1J
+[在线手册](http://pan.baidu.com/s/1sk1dA1J)
 
 ### 安装脚本
 
