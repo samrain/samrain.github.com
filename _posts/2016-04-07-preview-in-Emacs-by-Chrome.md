@@ -2,17 +2,17 @@
 layout : post
 category : study
 tags : [emacs]
-title : ÔÚwindowsÉÏÉèÖÃemacsÎÄ¼ş´ò¿ª·½Ê½
+title : åœ¨windowsä¸Šè®¾ç½®emacsæ–‡ä»¶æ‰“å¼€æ–¹å¼
 ---
 
-# ÔÚwindowsÉÏÉèÖÃemacsÎÄ¼ş´ò¿ª·½Ê½<a id="sec-3" name="sec-3"></a>
+# åœ¨windowsä¸Šè®¾ç½®emacsæ–‡ä»¶æ‰“å¼€æ–¹å¼<a id="sec-3" name="sec-3"></a>
 
-ÏÖÔÚÒÑ¾­ºÜÏ°¹ßÓÚÔÚorgmodeÖĞĞ´ÎÄ×Ö£¬Ö®Ç°ÔÚUbuntuÉÏ¿ÉÒÔC-c C-c h oµ÷ÓÃchromeÔ¤ÀÀµÄ¡£µ«ÊÇ»»µ½Win10ÉÏ¾Í²»ĞĞÁË¡£½ñÌìÓĞ¿Õ¾Í¸ã¸ãËü¡£
+ç°åœ¨å·²ç»å¾ˆä¹ æƒ¯äºåœ¨orgmodeä¸­å†™æ–‡å­—ï¼Œä¹‹å‰åœ¨Ubuntuä¸Šå¯ä»¥C-c C-c h oè°ƒç”¨chromeé¢„è§ˆçš„ã€‚ä½†æ˜¯æ¢åˆ°Win10ä¸Šå°±ä¸è¡Œäº†ã€‚ä»Šå¤©æœ‰ç©ºå°±ææå®ƒã€‚
 
-Ö®Ç°ÀÏÊÇ±¨´í£º'chrome' is not recognized as an internal or external command, operable program or batch file.
+ä¹‹å‰è€æ˜¯æŠ¥é”™ï¼š'chrome' is not recognized as an internal or external command, operable program or batch file.
 
-¹É¹µÏÂÓĞÕâ¸öÌû×Ó½¨Òé <http://stackoverflow.com/questions/23412938/node-is-not-recognized-as-an-internal-or-an-external-command-operable-program>
+è‚¡æ²Ÿä¸‹æœ‰è¿™ä¸ªå¸–å­å»ºè®® <http://stackoverflow.com/questions/23412938/node-is-not-recognized-as-an-internal-or-an-external-command-operable-program>
 
-ÓÚÊÇÏÈÕÒµ½chromeµÄÔËĞĞÄ¿Â¼£¬È»ºó°ÑËü¼Óµ½PathÖĞ¡£
+äºæ˜¯å…ˆæ‰¾åˆ°chromeçš„è¿è¡Œç›®å½•ï¼Œç„¶åæŠŠå®ƒåŠ åˆ°Pathä¸­ã€‚
 
-Æë»î¶ù¡£
+é½æ´»å„¿ã€‚
