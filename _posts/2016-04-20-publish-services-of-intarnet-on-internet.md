@@ -26,7 +26,7 @@ title : 如何把内网的服务公布到公网上
     proto:
     https: 8080
 
-其中http<sub>proxy指向下面配置的网关。</sub>
+其中http_proxy指向下面配置的网关。
 
 ## shadowsocks<a id="sec-4-2" name="sec-4-2"></a>
 
@@ -59,7 +59,7 @@ title : 如何把内网的服务公布到公网上
 
 ### 安装<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
-sudo apt-get install Privoxy
+    sudo apt-get install Privoxy
 
 ### 配置<a id="sec-4-3-2" name="sec-4-3-2"></a>
 
