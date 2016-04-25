@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 # 重设 markdown 解析引擎，默认的 Maruku 对中文支持不好，而使用 rdiscount 或 kramdown 均可
 markdown: kramdown
-pygments: true
+rouge: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
