@@ -11,13 +11,13 @@ title : favicon.ico
 
 ## 优化性能<a id="sec-5-10" name="sec-5-10"></a>
 
-### 配置favicon.ico的位置，保证能访问到<a id="sec-5-10-1" name="sec-5-10-1"></a>
+- 配置favicon.ico的位置，保证能访问到<a id="sec-5-10-1" name="sec-5-10-1"></a>
 
-### 设置Expire，缓存ico到客户端上，可以设置长一点时间。<a id="sec-5-10-2" name="sec-5-10-2"></a>
+- 设置Expire，缓存ico到客户端上，可以设置长一点时间。<a id="sec-5-10-2" name="sec-5-10-2"></a>
 
-### 通过<link>更新缓存<a id="sec-5-10-3" name="sec-5-10-3"></a>
+- 通过<link>更新缓存<a id="sec-5-10-3" name="sec-5-10-3"></a>
 
-### 保持图片小，一般选用16\*16即可。<a id="sec-5-10-4" name="sec-5-10-4"></a>
+- 保持图片小，一般选用16\*16即可。<a id="sec-5-10-4" name="sec-5-10-4"></a>
 
 ## 更新了favicon.ico后在客户端看不到变化怎么办<a id="sec-5-11" name="sec-5-11"></a>
 
