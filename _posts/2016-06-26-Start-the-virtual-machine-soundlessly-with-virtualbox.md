@@ -1,8 +1,8 @@
 &#x2014;
 layout : post
 category : work
-tags : [ĞéÄâ»ú, virtualbox]
-title : virtualbox¾²Ä¬Æô¶¯ĞéÄâ»ú
+tags : [è™šæ‹Ÿæœº, virtualbox]
+title : virtualboxé™é»˜å¯åŠ¨è™šæ‹Ÿæœº
 &#x2014;
 
 

@@ -1,21 +1,21 @@
 ---
 layout : post
 category : study
-tags : [ÏÂÔØ, webserver, ²¢ÐÐ]
-title : ½â¾ö²¢ÐÐÏÂÔØÎÊÌâ
+tags : [ä¸‹è½½, webserver, å¹¶è¡Œ]
+title : è§£å†³å¹¶è¡Œä¸‹è½½é—®é¢˜
 ---
 
 
-¹Ö²»µÃºÜ¶àÍøÕ¾°Ñ¾²Ì¬×ÊÔ´·ÅÔÚÆäËûÓòÃûÉÏ£¬±ÈÈç 360buyimg.com »ò sinaimg.cn
+æ€ªä¸å¾—å¾ˆå¤šç½‘ç«™æŠŠé™æ€èµ„æºæ”¾åœ¨å…¶ä»–åŸŸåä¸Šï¼Œæ¯”å¦‚ 360buyimg.com æˆ– sinaimg.cn
 
 
-ÒòÎªÒª½â¾ö£º²¢ÐÐÏÂÔØ
+å› ä¸ºè¦è§£å†³ï¼šå¹¶è¡Œä¸‹è½½
 
 
-¶ÔÓÚ×î³£¼ûµÄIE6ºÍIE7ÔÚHTTP/1.1ÖÐÄ¬ÈÏÃ¿¸öÓòÃûÖ»ÓÐ2¸öÁ¬½Ó¡£
+å¯¹äºŽæœ€å¸¸è§çš„IE6å’ŒIE7åœ¨HTTP/1.1ä¸­é»˜è®¤æ¯ä¸ªåŸŸååªæœ‰2ä¸ªè¿žæŽ¥ã€‚
 
 
-ÎªÁË±£Ö¤²¢ÐÐÏÂÔØ£¬¿ÉÒÔÍ¨¹ýÊ¹ÓÃ¶àÓòÃûÀ´½â¾ö¡£
+ä¸ºäº†ä¿è¯å¹¶è¡Œä¸‹è½½ï¼Œå¯ä»¥é€šè¿‡ä½¿ç”¨å¤šåŸŸåæ¥è§£å†³ã€‚
 
 
-µ±È»ÏÖÔÚÓÐÁËHTTP/2£¬ÕâÑùµÄÇé¿ö»áÂýÂý±»¸ÄÉÆ¡£
+å½“ç„¶çŽ°åœ¨æœ‰äº†HTTP/2ï¼Œè¿™æ ·çš„æƒ…å†µä¼šæ…¢æ…¢è¢«æ”¹å–„ã€‚

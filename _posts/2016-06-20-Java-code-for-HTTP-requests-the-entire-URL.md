@@ -2,7 +2,7 @@
 layout : post
 category : work
 tags : [java, http, URL]
-title : Java代码获取http请求的整个URL
+title : Java浠ｇ爜鑾峰彇http璇锋眰鐨勬暣涓猆RL
 ---
 
 

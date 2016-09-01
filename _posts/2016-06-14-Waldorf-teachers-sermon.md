@@ -1,12 +1,12 @@
 ---
 layout : post
 category : study
-tags : [»ªµÂ¸£, ½ÌÓı, ¶ùÍ¯]
-title : »ªµÂ¸£±¾ÀÏÊ¦µÄ²¼µÀ
+tags : [åå¾·ç¦, æ•™è‚², å„¿ç«¥]
+title : åå¾·ç¦æœ¬è€å¸ˆçš„å¸ƒé“
 ---
 
 
-# ¸è´Ê<a id="orgheadline36"></a>
+# æ­Œè¯<a id="orgheadline36"></a>
 
 
 ![img](//samrain.qiniudn.com/%E5%9B%BE%E7%89%87.jpeg)

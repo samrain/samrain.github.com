@@ -1,36 +1,36 @@
 ---
 layout : post
 category : study
-tags : [³äµç, ³äµçÆ÷, ÄøÇâ, 5ºÅµç³Ø, 7ºÅµç³Ø]
-title : ÄøÇâµç³Ø³äµçÐëÖª
+tags : [å……ç”µ, å……ç”µå™¨, é•æ°¢, 5å·ç”µæ± , 7å·ç”µæ± ]
+title : é•æ°¢ç”µæ± å……ç”µé¡»çŸ¥
 ---
 
 
-## ÐÂµç³Ø»òÕßÊÇ³¤Ê±¼äÏÐÖÃ²»ÓÃµç³Ø<a id="orgheadline1"></a>
+## æ–°ç”µæ± æˆ–è€…æ˜¯é•¿æ—¶é—´é—²ç½®ä¸ç”¨ç”µæ± <a id="orgheadline1"></a>
 
 
-ÓÃ0.1C£¨1/10ÈÝÁ¿µçÁ÷£¬ÀýÈç2000mAHµç³Ø¾ÍÊÇ200ma£©µçÁ÷³äÂúºóÐÝÏ¢1Ð¡Ê±£¬¶øºóÓÃ0.2C·Åµç£¬×îºóÔÙÓÃ0.1C³äÂú
+ç”¨0.1Cï¼ˆ1/10å®¹é‡ç”µæµï¼Œä¾‹å¦‚2000mAHç”µæ± å°±æ˜¯200maï¼‰ç”µæµå……æ»¡åŽä¼‘æ¯1å°æ—¶ï¼Œè€ŒåŽç”¨0.2Cæ”¾ç”µï¼Œæœ€åŽå†ç”¨0.1Cå……æ»¡
 
 
-## ÔõÑù³äµç<a id="orgheadline2"></a>
+## æ€Žæ ·å……ç”µ<a id="orgheadline2"></a>
 
 
-ÓÃÍêºóÔÙ³äµç£¬²¢ÇÒÒ»´ÎÐÔ³äÂú¡£
+ç”¨å®ŒåŽå†å……ç”µï¼Œå¹¶ä¸”ä¸€æ¬¡æ€§å……æ»¡ã€‚
 
 
-¿ÉÒÔ¿¼ÂÇÏÈ·Åµç£¨0.2C£©ÔÙ³äµç£¨0.1C£©
+å¯ä»¥è€ƒè™‘å…ˆæ”¾ç”µï¼ˆ0.2Cï¼‰å†å……ç”µï¼ˆ0.1Cï¼‰
 
 
-## Âý³äor¿ì³ä<a id="orgheadline3"></a>
+## æ…¢å……orå¿«å……<a id="orgheadline3"></a>
 
 
-¾¡Á¿Ê¹ÓÃÂý³ä£¨0.1C£©£¬Èç¹ûÊ±¼ä½ôÕÅÔòÊ¹ÓÃ¿ì³ä£¨>0.5C£©
+å°½é‡ä½¿ç”¨æ…¢å……ï¼ˆ0.1Cï¼‰ï¼Œå¦‚æžœæ—¶é—´ç´§å¼ åˆ™ä½¿ç”¨å¿«å……ï¼ˆ>0.5Cï¼‰
 
 
-## ÖÇÄÜÅä¶Ô<a id="orgheadline4"></a>
+## æ™ºèƒ½é…å¯¹<a id="orgheadline4"></a>
 
 
-Ñ¡Ôñµç³ØÄÚ×è²î²»¶àµÄ½øÐÐÅä¶ÔÊ¹ÓÃ£¬²¢ÇÒÖ®ºó³ä·ÅµçÒªÒ»Æð×ö
+é€‰æ‹©ç”µæ± å†…é˜»å·®ä¸å¤šçš„è¿›è¡Œé…å¯¹ä½¿ç”¨ï¼Œå¹¶ä¸”ä¹‹åŽå……æ”¾ç”µè¦ä¸€èµ·åš
 
 
-## ×¢ÒâÉ¢ÈÈ<a id="orgheadline5"></a>
+## æ³¨æ„æ•£çƒ­<a id="orgheadline5"></a>

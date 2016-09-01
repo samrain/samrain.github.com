@@ -1,26 +1,26 @@
 ---
 layout : post
 category : work
-tags : [xen, citrix, ĞéÄâ»ú]
-title : xen¿Í»§¶ËÎŞ·¨Á¬ÉÏ·şÎñ by citrix
+tags : [xen, citrix, è™šæ‹Ÿæœº]
+title : xenå®¢æˆ·ç«¯æ— æ³•è¿ä¸ŠæœåŠ¡ by citrix
 ---
 
 
-ÔËĞĞÒÔÏÂ½Å±¾
+è¿è¡Œä»¥ä¸‹è„šæœ¬
 
 
-	#¿´ÊÇ·ñÓ²ÅÌ·ÖÇøÊÇ·ñÒÑ¾­×°Âú
+	#çœ‹æ˜¯å¦ç¡¬ç›˜åˆ†åŒºæ˜¯å¦å·²ç»è£…æ»¡
 	df -h
 
-	#½øÈëlogÄ¿Â¼
+	#è¿›å…¥logç›®å½•
 	cd /var/log
 
-	#¿´ÎÄ¼şµÄ´óĞ¡
+	#çœ‹æ–‡ä»¶çš„å¤§å°
 	du -ksh *.*
 
-	#É¾³ı´ólogÎÄ¼ş
+	#åˆ é™¤å¤§logæ–‡ä»¶
 	rm *.gz -f
 
-	#ÖØÆôxapi·şÎñ
+	#é‡å¯xapiæœåŠ¡
 	service xapi stop
 	service xapi start

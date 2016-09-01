@@ -6,20 +6,20 @@ title : learn openresty
 ---
 
 
-# openresty管理命令<a id="orgheadline7"></a>
+# openresty绠＄悊鍛戒护<a id="orgheadline7"></a>
 
 
-#重启
-nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload
+#閲嶅惎
+nginx -c ~/涓嬭浇/work/conf/mycard.conf -p ~/涓嬭浇/work/ -s reload
 
-#关闭
-nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s quit
+#鍏抽棴
+nginx -c ~/涓嬭浇/work/conf/mycard.conf -p ~/涓嬭浇/work/ -s quit
 
-#启动
-nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/
+#鍚姩
+nginx -c ~/涓嬭浇/work/conf/mycard.conf -p ~/涓嬭浇/work/
 
 
-# orpenresty配置文件<a id="orgheadline8"></a>
+# orpenresty閰嶇疆鏂囦欢<a id="orgheadline8"></a>
 
 
 <script src="<https://gist.github.com/samrain/0fa8e573cce1ab8dcddecaf60f197323.js>"></script>

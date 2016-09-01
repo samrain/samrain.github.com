@@ -1,11 +1,11 @@
 ---
 layout : post
 category : work
-tags : [gif, ÊÓÆµ×ª»»]
-title : ÊÓÆµ×ªgifµÄjs¿â
+tags : [gif, è§†é¢‘è½¬æ¢]
+title : è§†é¢‘è½¬gifçš„jsåº“
 ---
 
 
-Yahoo¿ªÔ´µÄ¿â£¬Ïê¼û£º<http://yahoo.github.io/gifshot/>
+Yahooå¼€æºçš„åº“ï¼Œè¯¦è§ï¼š<http://yahoo.github.io/gifshot/>
 
 
