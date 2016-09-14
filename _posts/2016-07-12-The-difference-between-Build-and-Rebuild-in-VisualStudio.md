@@ -3,11 +3,11 @@
 layout : post
 category : work
 tags : [VisualStudio, C#]
-title : VisualStudio BuildºÍRebuildµÄÇø±ğ
+title : VisualStudio Buildå’ŒRebuildçš„åŒºåˆ«
 ---
 
-RebuildÊÇ¶ÔSolutionÏÂµÄËùÓĞÏîÄ¿£¬Öğ¸ö½øĞĞ Clean+Build¡£
+Rebuildæ˜¯å¯¹Solutionä¸‹çš„æ‰€æœ‰é¡¹ç›®ï¼Œé€ä¸ªè¿›è¡Œ Clean+Buildã€‚
 
-BuildÖ»ÊÇÕë¶ÔÓĞ¸ü¸Ä¹ıµÄÎÄ¼ş½øĞĞ±àÒë¡£
+Buildåªæ˜¯é’ˆå¯¹æœ‰æ›´æ”¹è¿‡çš„æ–‡ä»¶è¿›è¡Œç¼–è¯‘ã€‚
 
-Clean+BuildÊÇ¶ÔÑ¡ÖĞµÄÏîÄ¿£¨Èç¹ûÑ¡ÖĞSolutionµÄ»°£¬È«²¿CleanÖ®ºó£¬ÔÙÈ«²¿Build£©ÏÈÖ´ĞĞCleanÔÙÖ´ĞĞBuild¡£
+Clean+Buildæ˜¯å¯¹é€‰ä¸­çš„é¡¹ç›®ï¼ˆå¦‚æœé€‰ä¸­Solutionçš„è¯ï¼Œå…¨éƒ¨Cleanä¹‹åï¼Œå†å…¨éƒ¨Buildï¼‰å…ˆæ‰§è¡ŒCleanå†æ‰§è¡ŒBuildã€‚

@@ -1,11 +1,11 @@
 ---
 layout : post
 category : work
-tags : [sqlserver,ÈÕÖ¾]
-title : ÇåÀísqlserverÊý¾Ý¿âÈÕÖ¾
+tags : [sqlserver,æ—¥å¿—]
+title : æ¸…ç†sqlserveræ•°æ®åº“æ—¥å¿—
 ---
 
-    -- %DNName_Log% Èç¹û²»ÖªµÀÔÚsys.database_filesÀïÊÇÊ²Ã´Ãû×ÖµÄ»°£¬¿ÉÒÔÓÃÒÔÏÂ×¢ÊÍµÄÓï¾ä½øÐÐ²éÑ¯
+    -- %DNName_Log% å¦‚æžœä¸çŸ¥é“åœ¨sys.database_filesé‡Œæ˜¯ä»€ä¹ˆåå­—çš„è¯ï¼Œå¯ä»¥ç”¨ä»¥ä¸‹æ³¨é‡Šçš„è¯­å¥è¿›è¡ŒæŸ¥è¯¢
     
     -- USE %DNName%
     
@@ -18,11 +18,11 @@ title : ÇåÀísqlserverÊý¾Ý¿âÈÕÖ¾
     GO
     ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT
     GO
-    ALTER DATABASE %DNName% SET RECOVERY SIMPLE --¼òµ¥Ä£Ê½
+    ALTER DATABASE %DNName% SET RECOVERY SIMPLE --ç®€å•æ¨¡å¼
     GO
-    USE £¥DNName£¥
+    USE ï¼…DNNameï¼…
     GO
-    DBCC SHRINKFILE (N'£¥DNName_Log%' , 11, TRUNCATEONLY)
+    DBCC SHRINKFILE (N'ï¼…DNName_Log%' , 11, TRUNCATEONLY)
     
     GO
     
@@ -30,5 +30,5 @@ title : ÇåÀísqlserverÊý¾Ý¿âÈÕÖ¾
     GO
     ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT
     GO
-    ALTER DATABASE %DNName% SET RECOVERY FULL --»¹Ô­ÎªÍêÈ«Ä£Ê½
+    ALTER DATABASE %DNName% SET RECOVERY FULL --è¿˜åŽŸä¸ºå®Œå…¨æ¨¡å¼
     GO

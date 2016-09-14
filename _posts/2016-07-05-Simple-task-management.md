@@ -2,16 +2,16 @@
 ---
 layout : post
 category : work
-tags : [ÈÎÎñ, ¹ÜÀí]
-title : ¼òµ¥ÈÎÎñ¹ÜÀí
+tags : [ä»»åŠ¡, ç®¡ç†]
+title : ç®€å•ä»»åŠ¡ç®¡ç†
 ---
 
-ÈÎÎñÇåµ¥ÓÃexcel±à¼­ºóµ¼³öÎªhtml·ÅÔÚWebServerÉÏ¹©´ó¼Ò·ÃÎÊ
+ä»»åŠ¡æ¸…å•ç”¨excelç¼–è¾‘åŽå¯¼å‡ºä¸ºhtmlæ”¾åœ¨WebServerä¸Šä¾›å¤§å®¶è®¿é—®
 
-×îÖØÒªµÄ·ÅÔÚ×îÉÏÃæ
+æœ€é‡è¦çš„æ”¾åœ¨æœ€ä¸Šé¢
 
-¸ù¾ÝÈËÔ±ÅÅÐò
+æ ¹æ®äººå‘˜æŽ’åº
 
-Èç¹ûÒ»¸ö¹¦ÄÜÊÇÓÐ¶àÈËÅäºÏÍê³ÉµÄ£¬ÐèÒªÔÚ·Ö½âÈÎÎñµÄÊ±ºòÒ²Ò»Æð·Ö½â¿ª¡£
+å¦‚æžœä¸€ä¸ªåŠŸèƒ½æ˜¯æœ‰å¤šäººé…åˆå®Œæˆçš„ï¼Œéœ€è¦åœ¨åˆ†è§£ä»»åŠ¡çš„æ—¶å€™ä¹Ÿä¸€èµ·åˆ†è§£å¼€ã€‚
 
-°´ÕÕÖÜÀ´°²ÅÅÈÎÎñ£¬Ìá³«Ã¿ÈÕ·¢²¼¡£
+æŒ‰ç…§å‘¨æ¥å®‰æŽ’ä»»åŠ¡ï¼Œæå€¡æ¯æ—¥å‘å¸ƒã€‚

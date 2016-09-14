@@ -1,14 +1,14 @@
 ---
 layout : post
 category : study
-tags : [Í¼Êé¹İ]
-title : ÎÒµÄÍøÉÏÍ¼Êé¹İ
+tags : [å›¾ä¹¦é¦†]
+title : æˆ‘çš„ç½‘ä¸Šå›¾ä¹¦é¦†
 ---
 
 <http://115.29.194.28:52687/>
 
 <http://115.29.194.28:52687/mobile>
 
-ÓÃ»§Ãû£ºguest
+ç”¨æˆ·åï¼šguest
 
-ÃÜÂë£ºibook
+å¯†ç ï¼šibook

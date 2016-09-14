@@ -2,11 +2,11 @@
 ---
 layout : post
 category : work
-tags : [SqlServer, Ë÷Òý, ËéÆ¬]
-title : ÕûÀíSqlServer±íÉÏË÷ÒýËéÆ¬
+tags : [SqlServer, ç´¢å¼•, ç¢Žç‰‡]
+title : æ•´ç†SqlServerè¡¨ä¸Šç´¢å¼•ç¢Žç‰‡
 ---
 
-## ²éÑ¯µ±Ç°Êý¾Ý¿âµÄ±íÉÏË÷ÒýËéÆ¬Çé¿ö£¬°´ÕÕÑÏÖØ³Ì¶ÈË³ÐòÅÅÁÐ<a id="orgheadline28"></a>
+## æŸ¥è¯¢å½“å‰æ•°æ®åº“çš„è¡¨ä¸Šç´¢å¼•ç¢Žç‰‡æƒ…å†µï¼ŒæŒ‰ç…§ä¸¥é‡ç¨‹åº¦é¡ºåºæŽ’åˆ—<a id="orgheadline28"></a>
 
     USE DBNAME;
     SELECT 
@@ -23,7 +23,7 @@ title : ÕûÀíSqlServer±íÉÏË÷ÒýËéÆ¬
     
     DROP TABLE #TempFragmentation;
 
-## ²éÑ¯µ±Ç°Êý¾Ý¿âµÄ±íÉÏ´ÓÀ´Ã»ÓÐÊ¹ÓÃ¹ýµÄË÷Òý<a id="orgheadline29"></a>
+## æŸ¥è¯¢å½“å‰æ•°æ®åº“çš„è¡¨ä¸Šä»Žæ¥æ²¡æœ‰ä½¿ç”¨è¿‡çš„ç´¢å¼•<a id="orgheadline29"></a>
 
     SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED 
     SELECT 
@@ -41,7 +41,7 @@ title : ÕûÀíSqlServer±íÉÏË÷ÒýËéÆ¬
     
     DROP TABLE #TempNeverUsedIndexes
 
-## ²éÑ¯µ±Ç°Êý¾Ý¿âµÄ±íÉÏÊ¹ÓÃµÄ±È½ÏÉÙµÄË÷Òý<a id="orgheadline30"></a>
+## æŸ¥è¯¢å½“å‰æ•°æ®åº“çš„è¡¨ä¸Šä½¿ç”¨çš„æ¯”è¾ƒå°‘çš„ç´¢å¼•<a id="orgheadline30"></a>
 
     SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
     SELECT 
@@ -58,7 +58,7 @@ title : ÕûÀíSqlServer±íÉÏË÷ÒýËéÆ¬
     FROM #TempUnusedIndexes ORDER BY [user_updates] DESC ;
     DROP TABLE #TempUnusedIndexes
 
-## ÖØ½¨Ë÷Òý£¬¶ÔÓÚËéÆ¬±È½ÏÀ÷º¦µÄË÷Òý£¬Ð§¹û±ÈÖØ×éÒªºÃ<a id="orgheadline31"></a>
+## é‡å»ºç´¢å¼•ï¼Œå¯¹äºŽç¢Žç‰‡æ¯”è¾ƒåŽ‰å®³çš„ç´¢å¼•ï¼Œæ•ˆæžœæ¯”é‡ç»„è¦å¥½<a id="orgheadline31"></a>
 
     ALTER INDEX [INDEX_NAME] ON Table_Name REBUILD PARTITION = ALL WITH ( PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, ONLINE = OFF, SORT_IN_TEMPDB = OFF )
 

@@ -3,7 +3,7 @@
 layout : post
 category : study
 tags : [Emacs, org-mode]
-title : Emacs Ìí¼ÓÒ»Ìõorg
+title : Emacs æ·»åŠ ä¸€æ¡org
 ---
 
 M-X org-add-note

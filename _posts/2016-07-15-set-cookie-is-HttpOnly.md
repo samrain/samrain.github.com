@@ -3,8 +3,8 @@
 layout : post
 category : work
 tags : [cookie]
-title : ÉèÖÃcookieÎªHttpOnly
+title : è®¾ç½®cookieä¸ºHttpOnly
 ---
 
-¶ÔÓÚ .NET 2.0 Ó¦ÓÃ¿ÉÒÔÔÚweb.configÖĞÆôÓÃ HttpOnly 
+å¯¹äº .NET 2.0 åº”ç”¨å¯ä»¥åœ¨web.configä¸­å¯ç”¨ HttpOnly 
 `<httpCookies httpOnlyCookies="true">`

@@ -2,8 +2,8 @@
 ---
 layout : post
 category : study
-tags : [ADFS, 有效]
-title : 检查ADFS服务是否有效
+tags : [ADFS, 鏈夋晥]
+title : 妫�鏌DFS鏈嶅姟鏄惁鏈夋晥
 ---
 
 <https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx>

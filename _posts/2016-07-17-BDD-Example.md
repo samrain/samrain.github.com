@@ -5,22 +5,22 @@ tags : [BDD]
 title :  BDD example
 ---
 
-## һ��ģʽ<a id="orgheadline21"></a>
+## 一般模式<a id="orgheadline21"></a>
 
 Given
 When
 Then
 
-## ����<a id="orgheadline22"></a>
+## 例子<a id="orgheadline22"></a>
 
-    ����ͼ�鵽���ﳵ�������ܶ�
-    Given ��A��ֵ30.5Ԫ
-    And ��B��ֵ25.8Ԫ
-    When ��ѡ����A
-    And �ҵ����"���ӵ����ﳵ"��ť
-    Then ��Ӧ�ÿ�����A���ҵĹ��ﳵ��
-    And �ܼ���30.5Ԫ
-    When ��ѡ����B
-    And �ҵڶ��ε����"���ӵ����ﳵ"��ť
-    Then ��Ӧ�ÿ�����A����B�����ҵĹ��ﳵ��
-    And �ܼ���82.1Ԫ
+    添加图书到购物车并计算总额
+    Given 书A价值30.5元
+    And 书B价值25.8元
+    When 我选择书A
+    And 我点击了"添加到购物车"按钮
+    Then 我应该看到书A在我的购物车里
+    And 总价是30.5元
+    When 我选择书B
+    And 我第二次点击了"添加到购物车"按钮
+    Then 我应该看到书A和书B都在我的购物车里
+    And 总价是82.1元

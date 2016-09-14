@@ -2,13 +2,13 @@
 ---
 layout : post
 category : study
-tags : [Linux, ¾²Ì¬IP]
-title : LinuxÏµÍ³ÏÂÉèÖÃ¾²Ì¬IP
+tags : [Linux, é™æ€IP]
+title : Linuxç³»ç»Ÿä¸‹è®¾ç½®é™æ€IP
 ---
 
-## ±à¼­ `etc/network/interfaces`<a id="orgheadline25"></a>
+## ç¼–è¾‘ `etc/network/interfaces`<a id="orgheadline25"></a>
 
-### ½«dhcp Ò»ĞĞÆÁ±Î<a id="orgheadline23"></a>
+### å°†dhcp ä¸€è¡Œå±è”½<a id="orgheadline23"></a>
 
     # The primary network interface
     
@@ -16,7 +16,7 @@ title : LinuxÏµÍ³ÏÂÉèÖÃ¾²Ì¬IP
     
     #iface eth0 inet dhcp
 
-### Ìí¼ÓºÍ¾²Ì¬ipÓĞ¹ØµÄ²ÎÊı<a id="orgheadline24"></a>
+### æ·»åŠ å’Œé™æ€ipæœ‰å…³çš„å‚æ•°<a id="orgheadline24"></a>
 
     # The primary network interface
     
@@ -28,15 +28,15 @@ title : LinuxÏµÍ³ÏÂÉèÖÃ¾²Ì¬IP
     
     gateway 192.168.0.1
 
-## ±à¼­ `/etc/resolv.conf` £¬ÉèÖÃdns<a id="orgheadline26"></a>
+## ç¼–è¾‘ `/etc/resolv.conf` ï¼Œè®¾ç½®dns<a id="orgheadline26"></a>
 
     nameserver 202.96.134.133
     
     nameserver 202.106.0.20
 
-ubuntuÏÂÖØÆôºó»á±»»ØÍË£¬×Ô¶¯»Ö¸´Ä¬ÈÏÖµ¡£ÎÒÃÇĞèÒªÕâÑù×ö£ºĞŞ¸Ä `/etc/ppp/peers/dsl-provider` ×¢ÊÍµôuserpeerdnsÕâÒ»ĞĞ¼´¿É
+ubuntuä¸‹é‡å¯åä¼šè¢«å›é€€ï¼Œè‡ªåŠ¨æ¢å¤é»˜è®¤å€¼ã€‚æˆ‘ä»¬éœ€è¦è¿™æ ·åšï¼šä¿®æ”¹ `/etc/ppp/peers/dsl-provider` æ³¨é‡Šæ‰userpeerdnsè¿™ä¸€è¡Œå³å¯
 
-## Ö´ĞĞÏÂÃæÁ½¸öÃüÁî£¬ÆôÓÃĞÂÉèÖÃ<a id="orgheadline27"></a>
+## æ‰§è¡Œä¸‹é¢ä¸¤ä¸ªå‘½ä»¤ï¼Œå¯ç”¨æ–°è®¾ç½®<a id="orgheadline27"></a>
 
     $sudo ifdown eth0
     

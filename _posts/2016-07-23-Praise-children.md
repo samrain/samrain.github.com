@@ -3,15 +3,15 @@
 layout : post
 category : family
 tags : [child, praise]
-title : ÔÞÃÀº¢×Ó
+title : èµžç¾Žå­©å­
 ---
 
-Äã¸¶³öÅ¬Á¦£¬Äã¸ÃµÃµ½Ëü
+ä½ ä»˜å‡ºåŠªåŠ›ï¼Œä½ è¯¥å¾—åˆ°å®ƒ
 
-ÄãÒ»¶¨»áÎª×Ô¼º¸Ðµ½½¾°Á
+ä½ ä¸€å®šä¼šä¸ºè‡ªå·±æ„Ÿåˆ°éª„å‚²
 
-Äã¶Ô´Ë¸Ð¾õÈçºÎ
+ä½ å¯¹æ­¤æ„Ÿè§‰å¦‚ä½•
 
-Äã×Ô¼ºÄÜÕÒµ½½â¾öÎÊÌâµÄ·½·¨
+ä½ è‡ªå·±èƒ½æ‰¾åˆ°è§£å†³é—®é¢˜çš„æ–¹æ³•
 
-ÎÒÏàÐÅÄãµÄÅÐ¶Ï
+æˆ‘ç›¸ä¿¡ä½ çš„åˆ¤æ–­

@@ -2,24 +2,24 @@
 ---
 layout : post
 category : work
-tags : [Á÷]
-title : Á÷´¦Àí
+tags : [æµ]
+title : æµå¤„ç†
 ---
 
-## Stream processing, Event sourcing, Reactive, CEP¡­ and making sense of it all<a id="orgheadline3"></a>
+## Stream processing, Event sourcing, Reactive, CEPâ€¦ and making sense of it all<a id="orgheadline3"></a>
 
 <http://www.confluent.io/blog/making-sense-of-stream-processing/>
 
-## ÏûÏ¢´úÀí<a id="orgheadline4"></a>
+## æ¶ˆæ¯ä»£ç†<a id="orgheadline4"></a>
 
--   Kafka£º<http://kafka.apache.org/>
+-   Kafkaï¼š<http://kafka.apache.org/>
 
-## Á÷´¦Àí¿ò¼Ü<a id="orgheadline5"></a>
+## æµå¤„ç†æ¡†æ¶<a id="orgheadline5"></a>
 
--   Samza£º<http://samza.apache.org/>
--   Storm£º<http://storm.apache.org/>
--   SparkStreaming£º<https://spark.apache.org/streaming/>
+-   Samzaï¼š<http://samza.apache.org/>
+-   Stormï¼š<http://storm.apache.org/>
+-   SparkStreamingï¼š<https://spark.apache.org/streaming/>
 
-## ´óÖÂË¼Â·<a id="orgheadline6"></a>
+## å¤§è‡´æ€è·¯<a id="orgheadline6"></a>
 
-ºÍÎÒÖ®Ç°¿¼ÂÇµÄÓĞĞ©ÏàËÆ£¬¾ÍÊÇ°Ñ¹ı³Ì¶¼¼ÇÂ¼ÏÂÀ´£¬¶ø²»ÊÇµ¥µ¥¼ÇÂ¼Ò»¸ö×îÖÕÖµ¡£²»¹ıÁ÷´¦ÀíµÄ¸ÅÄî×Ü½áµÄ¸üºÃ£¬¸ü³éÏó¡£ÓÉ´ËÀíÂÛÔì¾ÍÁË´ó¹æÄ£ÍøÂçÏµÍ³¡£
+å’Œæˆ‘ä¹‹å‰è€ƒè™‘çš„æœ‰äº›ç›¸ä¼¼ï¼Œå°±æ˜¯æŠŠè¿‡ç¨‹éƒ½è®°å½•ä¸‹æ¥ï¼Œè€Œä¸æ˜¯å•å•è®°å½•ä¸€ä¸ªæœ€ç»ˆå€¼ã€‚ä¸è¿‡æµå¤„ç†çš„æ¦‚å¿µæ€»ç»“çš„æ›´å¥½ï¼Œæ›´æŠ½è±¡ã€‚ç”±æ­¤ç†è®ºé€ å°±äº†å¤§è§„æ¨¡ç½‘ç»œç³»ç»Ÿã€‚

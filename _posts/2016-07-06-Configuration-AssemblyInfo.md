@@ -1,20 +1,20 @@
 ---
 layout : post
 category : work
-tags : [C#, °æ±¾]
-title : ÅäÖÃAssemblyInfo.cs
+tags : [C#, ç‰ˆæœ¬]
+title : é…ç½®AssemblyInfo.cs
 ---
 
-ÆäÊµµÈÍ¬ÓÚ¿ÉÒÔÔÚVSÉÏÑ¡ÔñÏîÄ¿µÄÊôĞÔ£¬ÆäÖĞÓĞ¸ö ¡«{Assembly Information..}¡« °´Å¥£¬µ¥»÷ºóĞŞ¸Ä´°¿ÚÉÏµÄÖµ¡£
+å…¶å®ç­‰åŒäºå¯ä»¥åœ¨VSä¸Šé€‰æ‹©é¡¹ç›®çš„å±æ€§ï¼Œå…¶ä¸­æœ‰ä¸ª ï½{Assembly Information..}ï½ æŒ‰é’®ï¼Œå•å‡»åä¿®æ”¹çª—å£ä¸Šçš„å€¼ã€‚
 
-¶ÔÓÚ°æ±¾ºÅAssemblyVersion£¬¸ñÊ½Îª `¡°{Major}.{Minor}.{Build}.{Revision}¡±` ¡£
+å¯¹äºç‰ˆæœ¬å·AssemblyVersionï¼Œæ ¼å¼ä¸º `â€œ{Major}.{Minor}.{Build}.{Revision}â€` ã€‚
 
-ËùÒÔÎÒÃÇÔÚÅäÖÃÊ±¿ÉÒÔ²ÉÓÃÒÔÏÂ2ÖÖ¸ñÊ½£º
+æ‰€ä»¥æˆ‘ä»¬åœ¨é…ç½®æ—¶å¯ä»¥é‡‡ç”¨ä»¥ä¸‹2ç§æ ¼å¼ï¼š
 
 1.  `{Major}.{Minor}.*`
 
-×Ô¶¯¸üĞÂ ~{Build}.{Revision}¡«
+è‡ªåŠ¨æ›´æ–° ~{Build}.{Revision}ï½
 
-1.  ¡«{Major}.{Minor}.{Build}.\*¡«
+1.  ï½{Major}.{Minor}.{Build}.\*ï½
 
-Ö»¸üĞÂ ¡«{Revision}¡«
+åªæ›´æ–° ï½{Revision}ï½
