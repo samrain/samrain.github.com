@@ -1,0 +1,88 @@
+# Site settings
+baseURL = "http://samrainhan.com/"
+languageCode = "zh-cn"
+title = "sam的小窝"
+theme = "hugo-theme-cactus-plus"
+googleAnalytics = "UA-37708730-1"
+# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
+hasCJKLanguage = true
+
+[params]
+  author = "韩雨"
+	description = "学习 &nbsp;&bull;&nbsp; 生活"
+	bio = "学习 & 生活"
+	# Enter optionally your twitter account
+	twitter = ""
+	facebook = ""
+
+	enableRSS = true
+	enableToc = true
+
+	enableDisqus = true
+	disqusShortname = "samrainblogbygithub"
+
+
+	enableSummary = true
+	# Set the value to true if use description in post front matter replace content summary
+	useDescriptionReplaceSummary = false
+
+
+	enableGoogleAnalytics = true
+	enableBaiduAnalytics = false
+	# Set the value to your baidu analysis code if you want to use baidu analytics
+	baiduAnalytics = ''
+
+	enableTwitterCard = true
+	# The url for twitter card image, default is avatar.png in static/images directory
+	twitterCardImage = ""
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# show latest posts in single page
+	showLatestPosts = true
+	readMore = ""
+
+	# Share
+	enableShare = true
+	tweet = ""
+	share = ""
+
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = "font-awesome"
+
+
+# Add additional social link entries underneath
+[social]
+	facebook-square = ""
+	twitter-square = ""
+	github-square = "https://github.com/samrain"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+archive = "archives"
+
+[permalinks]
+  post = "/:year/:month/:title/"
