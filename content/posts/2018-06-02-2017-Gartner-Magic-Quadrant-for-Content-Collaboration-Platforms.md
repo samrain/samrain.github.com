@@ -1,5 +1,5 @@
 +++
-title = "2018 06 02 2017 Gartner Magic Quadrant for Content Collaboration Platforms"
+title = "2017 Gartner Magic Quadrant for Content Collaboration Platforms"
 date = 2018-06-02T11:30:50+08:00
 tags = ["协作","内容管理","办公","网盘","存储"]
 categories = ["work"]
@@ -8,7 +8,11 @@ draft = false
 
 本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&ct=170725&st=sb。
 
-#2017 Gartner内容协作平台CCP魔术象限
+另外附上前两年的报告，以供参考：
+
+[2016 Magic Quadrant for Enterprise File Synchronization and Sharing](http://docs.media.bitpipe.com/io_13x/io_133891/item_1424777/Magic%20Quadrant%20for%20Enterprise%20File%20Synchronization%20and%20Sharing%202016%20%282%29.pdf)
+
+[2015 Magic Quadrant for Enterprise File Synchronization and Sharing](https://www.project-consult.de/files/Gartner_MQ_EFSS_2015.pdf)
 
 内容协作平台是 EFSS 目标产品的演进, 并解决了数字工作场所支持策略。应用程序领导者可以选择一系列选项来转换个人生产力、团队协作和业务工作流自动化。
 
@@ -38,7 +42,7 @@ CCPs 源自于2016魔术象限所涵盖的 EFSS  "目的地 " 产品。因此, �
 
 ## 魔术象限
 
-![Alt text](./1527671763868.png)
+![Alt text](https://www.gartner.com/resources/314600/314654/314654_0001.png)
 
 ## 供应商优势和注意事项
 ### Accellion
@@ -84,7 +88,7 @@ Axway Syncplicity 适合于希望在不强制采用公共云模型的情况下�
 - 一些参考客户报告了产品路线图和时间线的有限可见性, 以及功能交付和 bug 修复方面的延迟。这限制了他们规划和准备变革的能力。
 - Axway Syncplicity 在 DLP、报告和电子发现功能方面有一定的局限性。
 
-### 黑 莓
+### Blackberry
 
 黑莓是一家上市公司, 成立于 1984年, 总部设在滑铁卢, 安大略省, 加拿大。其背景是企业流动性、安全的移动生产力和协作。黑莓逐步集成 WatchDox 的技术在黑莓工作区提供, 重点是加强安全和内容协作。
 
@@ -348,7 +352,7 @@ Thru使用任何设备和任何位置, Thru在部门、客户和合作伙伴之�
 -     后端集成功能受到限制, 对大多数企业内容平台和存储库缺少内置连接器。
 -     尽管云/托管安装很简单, 但一些客户表示在内部部署方面的安装和设置非常复杂, 并指出需要支持和仔细规划, 特别是在与其他系统和解决方案集成时。
 
-## 添加和丢弃供应商
+## 添加和去除供应商
 
 随着市场的变化, 我们审查和调整了魔术象限的纳入标准。由于这些调整, 任何魔术象限中的供应商组合可能会随着时间的推移而改变。一个供应商的出现在魔术象限一年, 而不是下一个, 不一定表明我们已经改变了我们对该供应商的意见。它可能反映了市场的变化, 因此, 改变了评估标准, 或者该供应商改变了焦点。
 
@@ -357,12 +361,12 @@ Thru使用任何设备和任何位置, Thru在部门、客户和合作伙伴之�
 - Ctera
 - HighQ
 
-### 丢弃
+### 去除
 
 - Huddle - 在 2016年, 供应商不符合CCP业务的收入门槛。
 - Varonis - 供应商的产品 DatAnywhere 不符合包括协作支持、与企业内容存储库和业务应用程序集成的连接器在内的强制性产品功能的包含标准。
 
-## 光荣提及
+## 其他供应商
 
 CCP的市场前景有数以万计的供应商, 因为它代表了更广泛的景观的一个子集, 包括具有文件同步和共享能力的供应商。在没有资格的供应商中, 许多不符合纳入标准, 如CCP收入、客户数量和部署规模。相关的CCP目标供应商, 不包括在这个魔术象限, 是:
 
