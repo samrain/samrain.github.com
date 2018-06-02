@@ -4,4 +4,4 @@ title = "About"
 hidden = true
 +++
 
-### 追求卓越 助人乐人
+<center>追求卓越                   助人乐人</center>
