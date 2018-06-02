@@ -1,4 +1,4 @@
-cd /home/rain/code/samrain.github.com
+cd ～/code/samrain.github.com
 
 git add *
 
