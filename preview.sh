@@ -1,5 +1,3 @@
-cd ~/code/samrain.github.com
-
 git add *
 
 git commit -m '+1'
