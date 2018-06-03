@@ -1,4 +1,4 @@
-snap run hugo -d ../Blog -b "http://www.samrainhan.com/" --cleanDestinationDir
+snap run hugo -d ../Blog -b "https://www.samrainhan.com/" --cleanDestinationDir
 
 cd ../Blog
 
