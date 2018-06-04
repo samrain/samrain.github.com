@@ -1,4 +1,8 @@
-snap run hugo -d ../Blog -b "https://www.samrainhan.com/" --cleanDestinationDir
+# 清空然后从头编译一遍
+# snap run hugo -d ../Blog -b "https://www.samrainhan.com/" --cleanDestinationDir
+
+# 快速编译
+snap run hugo -d ../Blog -b "https://www.samrainhan.com/"
 
 cd ../Blog
 
