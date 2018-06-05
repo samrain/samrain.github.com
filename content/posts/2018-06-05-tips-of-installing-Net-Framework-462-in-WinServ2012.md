@@ -17,6 +17,6 @@ draft = false
 - KB2938439
 - KB2934018
 
-补丁KB下载地址示例：https://support.microsoft.com/zh-cn/kb/2919355
+补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/2919355
 
 
