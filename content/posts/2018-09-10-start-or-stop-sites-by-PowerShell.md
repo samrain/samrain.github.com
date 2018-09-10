@@ -6,6 +6,10 @@ categories = ["work"]
 draft = false
 +++
 
+- 启动
+
 `start-website -name ""`
+
+- 停止
 
 `stop-website -name ""`
