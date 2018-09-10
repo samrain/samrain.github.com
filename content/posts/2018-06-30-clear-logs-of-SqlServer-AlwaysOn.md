@@ -8,16 +8,16 @@ draft = false
 
 `--dbName为数据库名`
 
-`use dbName`
+    use dbName
 
-`BACKUP LOG dbName To DISK = N'nul'`
+    BACKUP LOG dbName To DISK = N'nul'
 
-`go`
+    go
 
-`dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)`
+    dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)
 
-`go`
+    go
 
-`dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)`
+    dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)
 
-`go`
+    go
