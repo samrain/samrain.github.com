@@ -6,7 +6,8 @@ categories = ["work"]
 draft = false
 +++
 
-        /****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/
+        `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/`
+
         if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and        OBJECTPROPERTY(id, N'IsProcedure') = 1)
         DROP PROCEDURE [dbo].[存储过程名]
         GO
