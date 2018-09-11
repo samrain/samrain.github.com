@@ -12,9 +12,10 @@ draft = false
         Logger.config
 
 + rsync4test.bat
+
         set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\
 
-        rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://192.168.3.203:21873/test --exclude-from=list.exclude
+        rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude
 
 
 
