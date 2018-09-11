@@ -6,4 +6,4 @@ categories = ["study"]
 draft = false
 +++
 
-`Ctrl+Windows Key+C` 可以让您的屏幕在黑白和彩色之间自由切换
+`Ctrl + WindowsKey + C` 可以让您的屏幕在黑白和彩色之间自由切换
