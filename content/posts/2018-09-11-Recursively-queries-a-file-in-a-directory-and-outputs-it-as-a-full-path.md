@@ -6,4 +6,6 @@ categories = ["work"]
 draft = false
 +++
 
-        Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}
+用管理员权限启动PowerShell，然后执行以下脚本：
+
+    Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}
