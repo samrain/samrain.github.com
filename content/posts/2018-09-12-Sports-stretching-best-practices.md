@@ -6,9 +6,7 @@ categ##ries = ["study"]
 draft = false
 +++
 
-
-
-# 1.静态拉伸
+# 5.静态拉伸
 
 ## 站姿股四头肌拉伸
 
