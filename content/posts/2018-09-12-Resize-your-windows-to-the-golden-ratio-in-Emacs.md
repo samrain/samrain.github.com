@@ -5,6 +5,7 @@ tags = ["Emacs,黄金分割"]
 categories = ["work"]
 draft = false
 +++
+after install golden ratio package,let's add it:
 
     (use-package golden-ratio
       :ensure t
