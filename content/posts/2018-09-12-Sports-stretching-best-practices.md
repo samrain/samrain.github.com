@@ -2,7 +2,7 @@
 title = "运动拉伸最佳实践"
 date = 2018-09-12T21:04:04+08:00
 tags = ["运动,拉伸"]
-categ##ries = ["study"]
+categories = ["study"]
 draft = false
 +++
 
