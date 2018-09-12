@@ -1,8 +1,8 @@
 +++
-title = "2018 09 12 Look for Sql Server Tables Without a Clustered Index"
+title = "如何找到没有聚集索引的表"
 date = 2018-09-12T19:47:17+08:00
-tags = [""]
-categories = [""]
+tags = ["sqlserver,index,cluster"]
+categories = ["work"]
 draft = false
 +++
 
