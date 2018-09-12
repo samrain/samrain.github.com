@@ -6,11 +6,11 @@ categories = [""]
 draft = false
 +++
 
-## 检查是否符合编码标准的工具
+## 1.检查是否符合编码标准的工具
 FxCop，StyleCop和ReSharper
 
-## 静态分析工具
+## 2.静态分析工具
 Coverity，Sonar，CAT.NET和Visual Studio代码分析
 
-## 动态分析工具
+## 3.动态分析工具
 Visual Studio提供了一些，包括并发可视化器，IntelliTrace和分析工具。
