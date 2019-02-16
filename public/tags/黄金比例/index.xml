@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黄金比例 on sam的小窝</title>
+    <link>http://samrainhan.com/tags/%E9%BB%84%E9%87%91%E6%AF%94%E4%BE%8B/</link>
+    <description>Recent content in 黄金比例 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 13 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/%E9%BB%84%E9%87%91%E6%AF%94%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用黄金比例来布局</title>
+      <link>http://samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</guid>
+      <description>黄金比例基于斐波那契数列，在自然界的造化物中得以完美体验，比例基本为1:1.618 黄金比例工具 goledenRATIO Golden Ratio Typography Calculator Phicalculator Atrise Golden Section</description>
+    </item>
+    
+  </channel>
+</rss>

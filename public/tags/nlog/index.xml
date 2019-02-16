@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nlog on sam的小窝</title>
+    <link>http://samrainhan.com/tags/nlog/</link>
+    <description>Recent content in Nlog on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/nlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nlog心得</title>
+      <link>http://samrainhan.com/posts/2015-05-11-nlog/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2015-05-11-nlog/</guid>
+      <description>在工程中添加引用NLog.dll &amp;gt; 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output</description>
+    </item>
+    
+  </channel>
+</rss>

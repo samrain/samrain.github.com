@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trac on sam的小窝</title>
+    <link>http://samrainhan.com/tags/trac/</link>
+    <description>Recent content in Trac on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/trac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trac SVN Apache网上收藏</title>
+      <link>http://samrainhan.com/posts/2014-08-31-trac-svn-apache/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2014-08-31-trac-svn-apache/</guid>
+      <description>trac-hacks.org Trac 手记1 Trac 手记2 Trac 手记3 Subversion與Trac使用經驗 Chinese translation for Trac 0.10.4</description>
+    </item>
+    
+  </channel>
+</rss>

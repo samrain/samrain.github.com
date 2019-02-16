@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asmx on sam的小窝</title>
+    <link>http://samrainhan.com/tags/asmx/</link>
+    <description>Recent content in Asmx on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/asmx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>asmx文件是干什么的</title>
+      <link>http://samrainhan.com/posts/2015-03-11-asmx/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2015-03-11-asmx/</guid>
+      <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
+    </item>
+    
+  </channel>
+</rss>

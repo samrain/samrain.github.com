@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status on sam的小窝</title>
+    <link>http://samrainhan.com/tags/status/</link>
+    <description>Recent content in Status on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 20 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>304 Not Modified</title>
+      <link>http://samrainhan.com/posts/2015-07-20-304-not-modified/</link>
+      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2015-07-20-304-not-modified/</guid>
+      <description>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户</description>
+    </item>
+    
+  </channel>
+</rss>

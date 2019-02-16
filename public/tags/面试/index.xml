@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>面试 on sam的小窝</title>
+    <link>http://samrainhan.com/tags/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>面试步骤</title>
+      <link>http://samrainhan.com/posts/2015-06-25-how-do-interview/</link>
+      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2015-06-25-how-do-interview/</guid>
+      <description>第一阶段 寒暄 简短自我介绍 问对方如何评价自己，优缺点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 工作经验：除第一份工作外，如果频繁跳槽</description>
+    </item>
+    
+    <item>
+      <title>面试技巧</title>
+      <link>http://samrainhan.com/posts/2014-07-31-interview-tips/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2014-07-31-interview-tips/</guid>
+      <description>##电话面试的主要目的： 确定对方是否很愿意换工作 初步确定对方是否符合公司的价值观，是否能和公司一起成长 初步判断沟通能力问题不在乎答案，而是在</description>
+    </item>
+    
+  </channel>
+</rss>
