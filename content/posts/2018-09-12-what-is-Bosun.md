@@ -13,3 +13,5 @@ http://bosun.org/scollector/
 http://bosun.org/quickstart#scollector
 
 http://zhengheng.me/2015/12/09/bosun-install/
+
+hello world!
