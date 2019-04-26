@@ -2,7 +2,7 @@
 # snap run hugo -d ../Blog -b "https://www.samrainhan.com/" --cleanDestinationDir
 
 # 快速编译
-hugo -d _blog/Blog -b "https://www.samrainhan.com/" --cleanDestinationDir
+hugo -d _blog/Blog -b "https://www.samrainhan.com/"
 
 cd _blog/Blog
 
