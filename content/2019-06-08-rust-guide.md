@@ -1,5 +1,5 @@
 +++
-title = "rust语音参考"
+title = "rust语言参考"
 date = 2019-06-08T23:52:06+08:00
 tags = ["study,rust"]
 categories = ["study,rust"]

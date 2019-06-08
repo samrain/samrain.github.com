@@ -4,7 +4,9 @@
 # 快速编译
 hugo -d _blog/Blog -b "https://www.samrainhan.com/"
 
-cd _blog/Blog
+rsync -aru _blog/Blog ../
+
+cd ../Blog
 
 git add *
 
@@ -12,4 +14,4 @@ git commit -m '+1'
 
 git push origin master
 
-cd ../..
+cd ../samrain.github.com/
