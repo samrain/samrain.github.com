@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>在线调查 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%9C%A8%E7%BA%BF%E8%B0%83%E6%9F%A5/</link>
+    <description>Recent content in 在线调查 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E5%9C%A8%E7%BA%BF%E8%B0%83%E6%9F%A5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装LimeSurvey</title>
+      <link>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</link>
+      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</guid>
+      <description>安装LimeSurvey 源码包 下载链接 密码: g75h 使用手册 在线手册 安装脚本</description>
+    </item>
+    
+    <item>
+      <title>在线调查-个人评定 by typeform.com</title>
+      <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</guid>
+      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+    </item>
+    
+    <item>
+      <title>在线调查-团队效能 by typeform.com</title>
+      <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</guid>
+      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlserverindexcluster on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/sqlserverindexcluster/</link>
+    <description>Recent content in Sqlserverindexcluster on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 19:47:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/sqlserverindexcluster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何找到没有聚集索引的表</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</link>
+      <pubDate>Wed, 12 Sep 2018 19:47:17 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</guid>
+      <description>sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = &#39;USER_TABLE&#39; AND i.type_desc = &#39;HEAP&#39; ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/</description>
+    </item>
+    
+  </channel>
+</rss>

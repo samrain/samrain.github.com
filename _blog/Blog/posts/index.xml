@@ -1,0 +1,3894 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on sam的小窝</title>
+    <link>https://www.samrainhan.com/posts/</link>
+    <description>Recent content in Posts on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 26 Apr 2019 14:52:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud9 Move to Aws C9</title>
+      <link>https://www.samrainhan.com/posts/2019-04-26-c9-move-to-aws-c9/</link>
+      <pubDate>Fri, 26 Apr 2019 14:52:53 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-04-26-c9-move-to-aws-c9/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
+      <title>2019 02 16 Why Build Blog With Cloud9</title>
+      <link>https://www.samrainhan.com/posts/2019-02-16-why-build-blog-with-cloud9/</link>
+      <pubDate>Sat, 16 Feb 2019 15:57:22 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-02-16-why-build-blog-with-cloud9/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
+      <title>运动拉伸最佳实践</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</link>
+      <pubDate>Wed, 12 Sep 2018 21:04:04 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</guid>
+      <description>1.热身运动 1.1低强度训练5～10分钟 1.2旋转关节 顺序，手指，手腕，手肘，肩部，颈部，腰（腰椎段），胯（髋关节），膝（膝关节），脚脖子（</description>
+    </item>
+    
+    <item>
+      <title>给tempdb加2个文件做缓存</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</link>
+      <pubDate>Wed, 12 Sep 2018 20:23:16 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</guid>
+      <description>sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO</description>
+    </item>
+    
+    <item>
+      <title>如何找到没有聚集索引的表</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</link>
+      <pubDate>Wed, 12 Sep 2018 19:47:17 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</guid>
+      <description>sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = &#39;USER_TABLE&#39; AND i.type_desc = &#39;HEAP&#39; ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/</description>
+    </item>
+    
+    <item>
+      <title>持续实施成熟度模型</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</link>
+      <pubDate>Wed, 12 Sep 2018 17:59:56 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>持续发布的各个阶段</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</link>
+      <pubDate>Wed, 12 Sep 2018 17:18:30 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropbox的用户密码加密机制</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</link>
+      <pubDate>Wed, 12 Sep 2018 16:24:46 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</guid>
+      <description>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur</description>
+    </item>
+    
+    <item>
+      <title>NET代码检查工具</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/</link>
+      <pubDate>Wed, 12 Sep 2018 10:54:11 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/</guid>
+      <description>1.检查是否符合编码标准的工具 FxCop，StyleCop和ReSharper 2.静态分析工具 Coverity，Sonar，CAT.NET和</description>
+    </item>
+    
+    <item>
+      <title>怎样生成唯一ID</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</link>
+      <pubDate>Wed, 12 Sep 2018 10:05:42 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</guid>
+      <description>1. 数据库自增长序列或字段 最常见的方式。利用数据库，全数据库唯一。 优点： 简单，代码方便，性能可以接受。 数字ID天然排序，对分页或者需要排序的结</description>
+    </item>
+    
+    <item>
+      <title>在Emacs中按照黄金分割比例调整屏幕</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</link>
+      <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
+      <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
+    </item>
+    
+    <item>
+      <title>Bosun go编写的跨平台监控系统</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/</link>
+      <pubDate>Wed, 12 Sep 2018 09:46:47 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/</guid>
+      <description>http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!</description>
+    </item>
+    
+    <item>
+      <title>递归查询某个目录下的某种文件并输出为全路径文件名</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</link>
+      <pubDate>Tue, 11 Sep 2018 12:16:33 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</guid>
+      <description>用管理员权限启动PowerShell，然后执行以下脚本： Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}</description>
+    </item>
+    
+    <item>
+      <title>在rsync时避免同步某些文件</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/</link>
+      <pubDate>Tue, 11 Sep 2018 12:05:47 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/</guid>
+      <description>list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude</description>
+    </item>
+    
+    <item>
+      <title>更新SQLServer存储过程的脚本模版</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</link>
+      <pubDate>Tue, 11 Sep 2018 11:40:50 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</guid>
+      <description>`/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1) DROP PROCEDURE [dbo].[存储过程名]</description>
+    </item>
+    
+    <item>
+      <title>如果用脚本迁移SQLServer数据库</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</link>
+      <pubDate>Tue, 11 Sep 2018 11:33:28 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</guid>
+      <description>迁移非系统数据库 use master go sp_detach_db &#39;非系统数据库&#39; go use master go sp_attach_db &#39;非系统数据库&#39;,&#39;C:\Sqldata\非系统数据库.mdf&#39;,&#39;C:\Sqldata\</description>
+    </item>
+    
+    <item>
+      <title>让您的屏幕在黑白和彩色之间自由切换</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</link>
+      <pubDate>Tue, 11 Sep 2018 10:18:49 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</guid>
+      <description>Ctrl + WindowsKey + C 可以让您的屏幕在黑白和彩色之间自由切换</description>
+    </item>
+    
+    <item>
+      <title>出国物品清单</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-list-to-go-abroad/</link>
+      <pubDate>Tue, 11 Sep 2018 10:04:48 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-list-to-go-abroad/</guid>
+      <description>牙刷（非电动）牙膏 牙套 酒精片 肥皂 香皂 洗手皂 卷筒纸 抽纸 湿纸巾 床单 睡袋 随身充电器 车载充电器 充电宝×2 随身听 书 画本 雨伞/雨披 防水鞋 毛线帽 手套 隐形眼</description>
+    </item>
+    
+    <item>
+      <title>产品经理的核心价值是什么</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</link>
+      <pubDate>Tue, 11 Sep 2018 09:59:49 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</guid>
+      <description>发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。</description>
+    </item>
+    
+    <item>
+      <title>surface死机自救法</title>
+      <link>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</link>
+      <pubDate>Mon, 10 Sep 2018 21:07:42 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</guid>
+      <description>一般导致Surface无法正常开机有以下的几点原因： Windows更新没有优化到最新版本 不正常关机（电量完全耗尽在充电、强制关机等） 系统性能</description>
+    </item>
+    
+    <item>
+      <title>怎么在PowerShell中启停站点</title>
+      <link>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</link>
+      <pubDate>Mon, 10 Sep 2018 21:00:21 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</guid>
+      <description>启动 start-website -name &amp;quot;&amp;quot; 停止 stop-website -name &amp;quot;&amp;quot;</description>
+    </item>
+    
+    <item>
+      <title>安装Opserver</title>
+      <link>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</link>
+      <pubDate>Mon, 10 Sep 2018 20:51:30 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</guid>
+      <description>1 build报错 需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x</description>
+    </item>
+    
+    <item>
+      <title>清除SqlServer AlwaysOn日志</title>
+      <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
+      <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</guid>
+      <description>--dbName为数据库名 use dbName BACKUP LOG dbName To DISK = N&#39;nul&#39; go dbcc shrinkfile(dbName_log,0, TRUNCATEONLY) go dbcc shrinkdatabase(dbName,0, TRUNCATEONLY) go</description>
+    </item>
+    
+    <item>
+      <title>QQ 微信和WPS在移动端的协作场景</title>
+      <link>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</link>
+      <pubDate>Fri, 29 Jun 2018 16:58:47 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</guid>
+      <description>和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少</description>
+    </item>
+    
+    <item>
+      <title>《国家电子文件管理十三五规划》节选</title>
+      <link>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</link>
+      <pubDate>Fri, 29 Jun 2018 15:39:46 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>常用SAAS服务</title>
+      <link>https://www.samrainhan.com/posts/2018-06-05-list-of-regular-saas/</link>
+      <pubDate>Tue, 05 Jun 2018 10:28:18 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-05-list-of-regular-saas/</guid>
+      <description>常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证</description>
+    </item>
+    
+    <item>
+      <title>Tips of Installing Net Framework 462 in WinServ2012</title>
+      <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
+      <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
+      <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
+    </item>
+    
+    <item>
+      <title>BMW X5 遥控钥匙 使用技巧</title>
+      <link>https://www.samrainhan.com/posts/2018-06-04-tips-of-bmw-x5-key/</link>
+      <pubDate>Mon, 04 Jun 2018 14:36:52 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-04-tips-of-bmw-x5-key/</guid>
+      <description>只要按压遥控钥匙按钮，车窗和玻璃天窗就会打开。 只要按压遥控钥匙按钮，车窗和玻璃天窗就会关闭。收折外后视镜。 按压遥控器按钮约1秒钟。无论在此之</description>
+    </item>
+    
+    <item>
+      <title>How to Design the Product Site</title>
+      <link>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</link>
+      <pubDate>Mon, 04 Jun 2018 14:27:55 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</guid>
+      <description>左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反</description>
+    </item>
+    
+    <item>
+      <title> 摘自-明《修龄要指》</title>
+      <link>https://www.samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</link>
+      <pubDate>Mon, 04 Jun 2018 10:33:41 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</guid>
+      <description>人的脸要常常用手摩擦，头发多加梳理以防止脱发和发白。 两眼时常转动则眼有光彩和灵活。 耳常注意倾听，日久则听觉灵敏。 齿常叩击以利固齿。口宜常闭以</description>
+    </item>
+    
+    <item>
+      <title>How to Publish My Blog</title>
+      <link>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
+      <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017 Gartner Magic Quadrant for Content Collaboration Platforms</title>
+      <link>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</link>
+      <pubDate>Sat, 02 Jun 2018 11:30:50 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</guid>
+      <description>本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&amp;amp;ct=170725</description>
+    </item>
+    
+    <item>
+      <title>PowerShell如何远程连接</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</guid>
+      <description>在服务器上用管理员权限打开PowerShell终端 在PowerShell终端上执行Enable-PSRemoting，之后的确认操作，全部选</description>
+    </item>
+    
+    <item>
+      <title>处理cwRsync运行错误</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-can-use-cwrsync/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-can-use-cwrsync/</guid>
+      <description>cwRsync 4.2在同步的时候会有错误： uid 4294967295 (-1) is impossible to set on &amp;ldquo;/cygdriver/&amp;hellip;&amp;rdquo; 或者 gid 4294967295 (-1) is impossible to set on &amp;ldquo;/cygdriver/&amp;hellip;&amp;rdquo; 如果不想看到提示这些错误 1、可以在命令行加参数 --no-super 2、在服务器端的配置文</description>
+    </item>
+    
+    <item>
+      <title>如何在Windows上看电池寿命</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</guid>
+      <description>右击【开始】菜单，选择【命令提示符（管理员）】 输入 cd c:\ 输入 powercfg /batteryreport 输入 c:\battery-report.html,浏览器会显示文件内容</description>
+    </item>
+    
+    <item>
+      <title>如何提高windows程序的性能</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</guid>
+      <description>调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此</description>
+    </item>
+    
+    <item>
+      <title>如果在Win2012 R2上安装net framework 4.6.2报错怎么办</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</guid>
+      <description>必须要在安装KB2919355 KB地址： https://support.microsoft.com/zh-cn/kb/2919355 安装顺序：KB2919442、clearcompressionflag.exe、KB2919355</description>
+    </item>
+    
+    <item>
+      <title>开启AD FS 2.0 的审计日志</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</guid>
+      <description>why 防止人为或者自动方式恶意登录其他人账号或暴力破解密码。 how 当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库</description>
+    </item>
+    
+    <item>
+      <title>怎样下载Chrome扩展程序</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-download-chrome-extension/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-download-chrome-extension/</guid>
+      <description>http://chrome-extension-downloader.com/</description>
+    </item>
+    
+    <item>
+      <title>24节气养生</title>
+      <link>https://www.samrainhan.com/posts/2016-07-29-24-solar-terms-keeping-in-good-health/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-29-24-solar-terms-keeping-in-good-health/</guid>
+      <description>1月1日 十二月初一 农历十二月,洗澡不要太频繁,否则耗散肾气.宜斋戒静居. 1月2日 十二月初二 中医认为&amp;rdquo;寒性凝滞,寒性收引&amp;rdqu</description>
+    </item>
+    
+    <item>
+      <title>webfont</title>
+      <link>https://www.samrainhan.com/posts/2016-07-28-webfont/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-28-webfont/</guid>
+      <description>英文 比较适合用webfont webfont比较小，一共就26个字母，几十K 中文 比较适合用本地字体 webfont比较大，几M 挑出本页面上用到的</description>
+    </item>
+    
+    <item>
+      <title>一些摘录</title>
+      <link>https://www.samrainhan.com/posts/2016-07-27-some-excerpts/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-27-some-excerpts/</guid>
+      <description>把宝押在人身上而不是想法上 最有效地缩短生产周期的方法就是压缩在制品数量。 我们应该去理解为什么他们会提出这样的需求，而不是着急着去寻找解决方案</description>
+    </item>
+    
+    <item>
+      <title>我的网上图书馆</title>
+      <link>https://www.samrainhan.com/posts/2016-07-26-my-online-library/</link>
+      <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-26-my-online-library/</guid>
+      <description>http://115.29.194.28:52687/ http://115.29.194.28:52687/mobile 用户名：guest 密码：ibook</description>
+    </item>
+    
+    <item>
+      <title>整理SqlServer表上索引碎片</title>
+      <link>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</guid>
+      <description>查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =</description>
+    </item>
+    
+    <item>
+      <title>避免URL中出现JSESSIONID</title>
+      <link>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</link>
+      <pubDate>Sun, 24 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</guid>
+      <description>修改 web.xml &amp;lt;weblogic-web-app xmlns=&amp;quot;http://www.bea.com/ns/weblogic/weblogic-web-app&amp;quot;&amp;gt; &amp;lt;session-descriptor&amp;gt; &amp;lt;cookies-enabled&amp;gt;true&amp;lt;/cookies-enabled&amp;gt; &amp;lt;/session-descriptor&amp;gt; &amp;lt;session-config&amp;gt; &amp;lt;tracking-mode&amp;gt;COOKIE&amp;lt;/tracking-mode&amp;gt; &amp;lt;/session-config&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>赞美孩子</title>
+      <link>https://www.samrainhan.com/posts/2016-07-23-praise-children/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-23-praise-children/</guid>
+      <description>你付出努力，你该得到它 你一定会为自己感到骄傲 你对此感觉如何 你自己能找到解决问题的方法 我相信你的判断</description>
+    </item>
+    
+    <item>
+      <title>站点发布时序图</title>
+      <link>https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux系统下设置静态IP</title>
+      <link>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</link>
+      <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</guid>
+      <description>编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下</description>
+    </item>
+    
+    <item>
+      <title>Emacs 添加一条org</title>
+      <link>https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/</guid>
+      <description>M-X org-add-note</description>
+    </item>
+    
+    <item>
+      <title>检查ADFS服务是否有效</title>
+      <link>https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/</link>
+      <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/</guid>
+      <description>https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx</description>
+    </item>
+    
+    <item>
+      <title>优化Web网站性能</title>
+      <link>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</guid>
+      <description>静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量</description>
+    </item>
+    
+    <item>
+      <title>BDD example</title>
+      <link>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</link>
+      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</guid>
+      <description>一般模式 Given When Then 例子 添加图书到购物车并计算总额 Given 书A价值30.5元 And 书B价值25.8元 When 我选择书A And 我点击了&amp;quot;添加到购物车&amp;quot</description>
+    </item>
+    
+    <item>
+      <title>业务合作中的市场执行</title>
+      <link>https://www.samrainhan.com/posts/2016-07-16-business-cooperation-in-the-market/</link>
+      <pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-16-business-cooperation-in-the-market/</guid>
+      <description>我们之所以将业务合作称为项目，无论是业务合作方式是互为代理、发展兼职团队、成立新的销售公司、发展产业微联盟还是运营外包，整体计划都会发生人员</description>
+    </item>
+    
+    <item>
+      <title>设置cookie为HttpOnly</title>
+      <link>https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</guid>
+      <description>对于 .NET 2.0 应用可以在web.config中启用 HttpOnly &amp;lt;httpCookies httpOnlyCookies=&amp;quot;true&amp;quot;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>图标查询网站</title>
+      <link>https://www.samrainhan.com/posts/2016-07-14-icon-query-website/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-14-icon-query-website/</guid>
+      <description>https://www.iconfinder.com/ https://thenounproject.com/</description>
+    </item>
+    
+    <item>
+      <title>会话状态Session State</title>
+      <link>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</link>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</guid>
+      <description>InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器</description>
+    </item>
+    
+    <item>
+      <title>VisualStudio Build和Rebuild的区别</title>
+      <link>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</link>
+      <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</guid>
+      <description>Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。 Build只是针对有更改过的文件进行编译。 Clean+Bui</description>
+    </item>
+    
+    <item>
+      <title>CodeFile和CodeBehide的区别</title>
+      <link>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</guid>
+      <description>CodeBehind 指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容</description>
+    </item>
+    
+    <item>
+      <title>加密密码</title>
+      <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
+      <description>具体的做法就是在密码中加入一段&amp;rdquo;随机化&amp;rdquo;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了</description>
+    </item>
+    
+    <item>
+      <title>表单设计</title>
+      <link>https://www.samrainhan.com/posts/2016-07-09-form-design/</link>
+      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-09-form-design/</guid>
+      <description>表单的元素 标签：告诉用户表单问题是什么； 输入框：供给用户填写答案信息； 动作：用户提交表单，即用户点击一个按钮或链接，执行一个操作； 帮助文字：</description>
+    </item>
+    
+    <item>
+      <title>O2O核心－重视和每个顾客的交流，和每个顾客建立良好关系</title>
+      <link>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</link>
+      <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</guid>
+      <description>随着社交媒体的广泛普及，在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流的O2O方式已经变得很平</description>
+    </item>
+    
+    <item>
+      <title>怎么确定app图片尺寸</title>
+      <link>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</guid>
+      <description>Android碎片化严重，但它现在反而比iOS好处理。因为如今的Android屏幕逻辑像素已经趋于统一了：360x640，就看你设成几倍了。</description>
+    </item>
+    
+    <item>
+      <title>配置AssemblyInfo.cs</title>
+      <link>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</guid>
+      <description>其实等同于可以在VS上选择项目的属性，其中有个 ～{Assembly Information..}～ 按钮，单击后修改窗口上的值。 对于版本号Ass</description>
+    </item>
+    
+    <item>
+      <title>简单任务管理</title>
+      <link>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</link>
+      <pubDate>Tue, 05 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</guid>
+      <description>任务清单用excel编辑后导出为html放在WebServer上供大家访问 最重要的放在最上面 根据人员排序 如果一个功能是有多人配合完成的，需要</description>
+    </item>
+    
+    <item>
+      <title>流处理</title>
+      <link>https://www.samrainhan.com/posts/2016-07-04-stream-processing/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-04-stream-processing/</guid>
+      <description>Stream processing, Event sourcing, Reactive, CEP… and making sense of it all http://www.confluent.io/blog/making-sense-of-stream-processing/ 消息代理 Kafka：http://kafka.apache.org/ 流处理框架 Samza：http://sa</description>
+    </item>
+    
+    <item>
+      <title>多认证源认证</title>
+      <link>https://www.samrainhan.com/posts/2016-07-03-authentication-source-authentication/</link>
+      <pubDate>Sun, 03 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-03-authentication-source-authentication/</guid>
+      <description>http://samrain.qiniudn.com/%E5%A4%9A%E8%AE%A4%E8%AF%81%E6%BA%90%E8%AE%A4%E8%AF%81</description>
+    </item>
+    
+    <item>
+      <title>如何配置Emacs在windows中的HOME目录</title>
+      <link>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</guid>
+      <description>建议采用2或3 如果设置了环境变量 *HOME* ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用</description>
+    </item>
+    
+    <item>
+      <title>C#编译小贴士</title>
+      <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
+      <description>不想看到pdb文件 在编译时设置高级选项中 Output - Debug info 为 None Any CPU是什么意思 Visual Studio的编译选项 build下的platform有X64、Any</description>
+    </item>
+    
+    <item>
+      <title>利用命令强制结束Windows进程</title>
+      <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
+      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
+    </item>
+    
+    <item>
+      <title>JS显示当前电脑的目录</title>
+      <link>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</link>
+      <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
+      <description>&#34;</description>
+    </item>
+    
+    <item>
+      <title>理财建议</title>
+      <link>https://www.samrainhan.com/posts/2016-06-28-financial-advice/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-28-financial-advice/</guid>
+      <description>项目 周期（月） 利率（%） 提前兑取手续费（%） 提前兑取利息 如何购买 什么时候能够买 银行一年期定期存款 12 1.5 0 按照0.35%计算利息 柜台 任何时候 20</description>
+    </item>
+    
+    <item>
+      <title>清理sqlserver数据库日志</title>
+      <link>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
+      <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
+    </item>
+    
+    <item>
+      <title>virtualbox静默启动虚拟机</title>
+      <link>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</guid>
+      <description>VBoxManage startvm [vm-name] &amp;ndash;type headless</description>
+    </item>
+    
+    <item>
+      <title>视频转gif的js库</title>
+      <link>https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/</link>
+      <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/</guid>
+      <description>Yahoo开源的库，详见：http://yahoo.github.io/gifshot/</description>
+    </item>
+    
+    <item>
+      <title>圈子营销&gt;逼格营销</title>
+      <link>https://www.samrainhan.com/posts/2016-06-24-network-marketing-pretend-bility-marketing/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-24-network-marketing-pretend-bility-marketing/</guid>
+      <description>这种带有小众组织烙印的商品，即便没有更多逼格，也一样能卖。甚至是没有商品也一样能，比如慈善对于捐款者来说可以买到快乐与尊重。</description>
+    </item>
+    
+    <item>
+      <title>如何能够更好的编程</title>
+      <link>https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/</guid>
+      <description>你使用源代码管理么？ 你能在一步之内编译程序么？ 你每天都编译代码么？ 你有bug数据库么？ 你在写新代码前会修复bug么？ 你有最新的日程安排么？ 你</description>
+    </item>
+    
+    <item>
+      <title>2台iPhone同时响铃</title>
+      <link>https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/</link>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/</guid>
+      <description>ios8.2升级后碰到2台IPHONE在同一个wifi下，一台来电，另一台也一起响铃 设置-FaceTime-iPhone蜂窝移动网络通话关掉</description>
+    </item>
+    
+    <item>
+      <title>xen客户端无法连上服务 by citrix</title>
+      <link>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</guid>
+      <description>运行以下脚本 #看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
+    </item>
+    
+    <item>
+      <title>Java代码获取http请求的整个URL</title>
+      <link>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
+      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
+      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
+    </item>
+    
+    <item>
+      <title>镍氢电池充电须知</title>
+      <link>https://www.samrainhan.com/posts/2016-06-19-nickel-metal-hydride-battery-information/</link>
+      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-19-nickel-metal-hydride-battery-information/</guid>
+      <description>新电池或者是长时间闲置不用电池 用0.1C（1/10容量电流，例如2000mAH电池就是200ma）电流充满后休息1小时，而后用0.2C放电，</description>
+    </item>
+    
+    <item>
+      <title>票据理财建议</title>
+      <link>https://www.samrainhan.com/posts/2016-06-18-paper-financial-advice/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-18-paper-financial-advice/</guid>
+      <description>投资者来选择票据理财时，最好选择那些一手票据的产品，那些经过一道以上抵押的（也就是背书），出现假票的几率比较高。 其次，最好选择由上市银行负责</description>
+    </item>
+    
+    <item>
+      <title>解决并行下载问题</title>
+      <link>https://www.samrainhan.com/posts/2016-06-17-solve-the-problem-of-parallel-downloads/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-17-solve-the-problem-of-parallel-downloads/</guid>
+      <description>怪不得很多网站把静态资源放在其他域名上，比如 360buyimg.com 或 sinaimg.cn 因为要解决：并行下载 对于最常见的IE6和IE7在HTTP/1.1中默认每个域名只有2个连接</description>
+    </item>
+    
+    <item>
+      <title>learn openresty</title>
+      <link>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</guid>
+      <description>openresty管理命令 #重启 nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload #关闭 nginx -c ~/下载/wor</description>
+    </item>
+    
+    <item>
+      <title>华德福空间体育教学随记</title>
+      <link>https://www.samrainhan.com/posts/2016-06-15-waldorf-space-about-the-sports-teaching/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-15-waldorf-space-about-the-sports-teaching/</guid>
+      <description>教学录音片段 20141018-001 20141018-002 20141018-003 20141019-001 20141019-002 歌词 1.找一个朋友来，找一个朋友来，找一个朋友来。 朋友不嫉妒，朋友要帮助，朋友要忍耐，朋友要相爱 2.围着小山村转一转，</description>
+    </item>
+    
+    <item>
+      <title>华德福本老师的布道</title>
+      <link>https://www.samrainhan.com/posts/2016-06-14-waldorf-teachers-sermon/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-14-waldorf-teachers-sermon/</guid>
+      <description>歌词</description>
+    </item>
+    
+    <item>
+      <title>使用黄金比例来布局</title>
+      <link>https://www.samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</guid>
+      <description>黄金比例基于斐波那契数列，在自然界的造化物中得以完美体验，比例基本为1:1.618 黄金比例工具 goledenRATIO Golden Ratio Typography Calculator Phicalculator Atrise Golden Section</description>
+    </item>
+    
+    <item>
+      <title>citrix导出虚拟机</title>
+      <link>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
+      <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
+    </item>
+    
+    <item>
+      <title>rsync客户端脚本For windows上cwRsync服务的</title>
+      <link>https://www.samrainhan.com/posts/2016-06-11-rsync-client-script-for-cwrsync-on-windows/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-11-rsync-client-script-for-cwrsync-on-windows/</guid>
+      <description>#新建一个文件pwd,保存密码,这里放在当前目录下,内容为438affed14a718add39f0c7729016828 echo 438affed14a718add39f0c7729016828 &amp;gt; pwd &amp;amp;&amp;amp; chmod 600 pwd #</description>
+    </item>
+    
+    <item>
+      <title>rsync客户端脚本For linux</title>
+      <link>https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/</link>
+      <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/</guid>
+      <description># 1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
+    </item>
+    
+    <item>
+      <title>安装cwRsyncServer</title>
+      <link>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</link>
+      <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</guid>
+      <description>下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运</description>
+    </item>
+    
+    <item>
+      <title>使用tsunami-udp备份</title>
+      <link>https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/</guid>
+      <description>在需要备份的服务器上 安装tsunami-udp 下载 http://pan.baidu.com/s/1mgHXmXU 安装 make &amp;amp;&amp;amp; sudo make install 启动tsunami-udp: cd ~/Downloads/virtualbox-bk//141125 &amp;amp;&amp;amp; tsunamid * 在备份服务器上 tsunami connect 192.168.1.5 get *</description>
+    </item>
+    
+    <item>
+      <title>openwrt的功能</title>
+      <link>https://www.samrainhan.com/posts/2016-06-07-openwrt/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-07-openwrt/</guid>
+      <description>共享文件夹-samba ftp服务器-vftp 可挂USB硬盘 可作为无线路由器 可ssh访问 可安装其他软件</description>
+    </item>
+    
+    <item>
+      <title>如何备份金蝶KIS帐套</title>
+      <link>https://www.samrainhan.com/posts/2016-06-06-how-to-backup-kindee-kis/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-06-how-to-backup-kindee-kis/</guid>
+      <description>屏幕左下角的开始，程序，找金蝶k3的菜单，找中间层，账套管理，进入后有界面的</description>
+    </item>
+    
+    <item>
+      <title>得到当前电脑的公网IP</title>
+      <link>https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</guid>
+      <description>http://www.whatismyip.com/</description>
+    </item>
+    
+    <item>
+      <title>让linux进程在后台可靠运行的几种方法</title>
+      <link>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</guid>
+      <description>nohup/setsid 无疑是临时需要时最方便的方法 disown 能帮助我们来事后补救当前已经在运行了的作业 screen 则是在大批量操作时不二的选择了。 详细见：http://www.i</description>
+    </item>
+    
+    <item>
+      <title>Linux的目录和文件权限</title>
+      <link>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</link>
+      <pubDate>Fri, 03 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</guid>
+      <description>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4+2+1</description>
+    </item>
+    
+    <item>
+      <title>IOS开发环境配置学习手册</title>
+      <link>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</link>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</guid>
+      <description>准备 一台Mac电脑（OSX升级到10.10），安装最新的XCode。 上developer.apple.com 到为每个人申请开发证书 为每个产品</description>
+    </item>
+    
+    <item>
+      <title>QPS、PV和需要部署机器数量计算公式</title>
+      <link>https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/</guid>
+      <description>QPS = 请求数/秒 每天80%的访问集中在20%峰值时间 ( 总PV数 * 80% ) / ( 每天秒数 * 20% ) = 峰值时间每秒请求数(QPS) 峰值时间每秒请求数(QPS</description>
+    </item>
+    
+    <item>
+      <title>Chocolatey</title>
+      <link>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</guid>
+      <description>方便蛮方便，但是有几个缺点： 至少要在win7以上使用，因为要用到Powershell 如果在国内用，下载国外资源非常慢</description>
+    </item>
+    
+    <item>
+      <title>FIS 前端发布工具 百度出品</title>
+      <link>https://www.samrainhan.com/posts/2016-05-30-fis/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-30-fis/</guid>
+      <description>配置文件范例fis-conf.js //fis.config.set(&#39;modules.postpackager&#39;, &#39;simple&#39;); //Step 2. 取消下面的注释开启pack人工干预 //fis.config.set(&#39;pack&#39;, { // &#39;pkg/lib.js&#39;: [ // &#39;/lib/mod.js&#39;, // &#39;/modules/underscore/**.js&#39;, // &#39;/modules/backbone/**.js&#39;, // &#39;/modules/jquery/**.js&#39;, // &#39;/modules/vendor/**.js&#39;, // &#39;/modules/common/**.js&#39; // ] //}); //Step 3. 取消下面的注释可以开</description>
+    </item>
+    
+    <item>
+      <title>在Chrome中调试nodejs</title>
+      <link>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</guid>
+      <description>install 安装node-inspector插件 sudo npm install -g node-inspector Getting start node-debug XXX.js 会自动启动chrome（Chromium）浏览器访问http://127.0.0.1</description>
+    </item>
+    
+    <item>
+      <title>调试emacs配置错误</title>
+      <link>https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/</guid>
+      <description>M-x toggle-debug-on-error</description>
+    </item>
+    
+    <item>
+      <title>学习node.js</title>
+      <link>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</guid>
+      <description>每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出</description>
+    </item>
+    
+    <item>
+      <title>团队自我学习的简单招数</title>
+      <link>https://www.samrainhan.com/posts/2016-05-26-team-learning-simple-tips/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-26-team-learning-simple-tips/</guid>
+      <description>在墙壁上贴上不同的标语，每个标语是一个不同的主题。 让团队成员选择：懂的站左边，不懂的站右边。 然后不懂的人从懂的组中选择一人结成搭档共同学习这</description>
+    </item>
+    
+    <item>
+      <title>公钥编码格式</title>
+      <link>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</guid>
+      <description>公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com</description>
+    </item>
+    
+    <item>
+      <title>RSA算法在.net中实现</title>
+      <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</guid>
+      <description>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击</description>
+    </item>
+    
+    <item>
+      <title>第一原理</title>
+      <link>https://www.samrainhan.com/posts/2016-05-23-the-first-principle/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-23-the-first-principle/</guid>
+      <description>我们运用「第一原理思维」而不是「比较思维」去思考问题是非常重要的。我们在生活中总是倾向于比较——别人已经做过了或者正在做这件事情，我们就也去</description>
+    </item>
+    
+    <item>
+      <title>网络营销</title>
+      <link>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</link>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</guid>
+      <description>网站的价值 网站给用户解决了什么问题？ 用户上我的网站和别人的网站有什么区别？ 在我的网站上会获得更好的信息还是更好的体验？ 用户是否会记得我的网站</description>
+    </item>
+    
+    <item>
+      <title>Windows上免费开源的SFTP服务器</title>
+      <link>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</guid>
+      <description>http://www.freesshd.com/</description>
+    </item>
+    
+    <item>
+      <title>linux 命令行工具</title>
+      <link>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</link>
+      <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</guid>
+      <description>看网络状况 iftop &amp;amp; iptraf</description>
+    </item>
+    
+    <item>
+      <title>SQL Server High Availability Solution</title>
+      <link>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</guid>
+      <description>SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2</description>
+    </item>
+    
+    <item>
+      <title>Emacs 中将文件编码转换为 UTF-8</title>
+      <link>https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/</guid>
+      <description>打开一个文件后键盘依次输入 C-x C-m f utf-8 RET 或者用鼠标右键点击最左下角那个字母，比如 C ，这时会显示 Coding system for saving file (default chinese-gbk-dos): 然后输入 utf-8 后回车即可。</description>
+    </item>
+    
+    <item>
+      <title>阿里的异地多活经验学习笔记</title>
+      <link>https://www.samrainhan.com/posts/2016-05-17-system-keepalive-on-different-areas-of-alibaba/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-17-system-keepalive-on-different-areas-of-alibaba/</guid>
+      <description>流量是可以随时切换的 如果恢复时间能控制得非常好，可能整个故障控制力就非常强。 用户通过代理来访问数据中心，代理如果检测到数据中心出现问题，它会</description>
+    </item>
+    
+    <item>
+      <title>微博的异地多活经验学习笔记</title>
+      <link>https://www.samrainhan.com/posts/2016-05-13-keep-live-between-different-areas-about-weibo/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-13-keep-live-between-different-areas-about-weibo/</guid>
+      <description>微博的异地多活经验学习笔记 基于业务写消息到Queue 在线容量评估、分级上线、快速流量均衡等能力 问题 各机房之间的延时 这套方案中，每个机房的缓存</description>
+    </item>
+    
+    <item>
+      <title>删除windows服务</title>
+      <link>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</guid>
+      <description>sc delete 服务名 如果服务名中间有空格，就需要前后加引号。</description>
+    </item>
+    
+    <item>
+      <title>牛B个人网站</title>
+      <link>https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/</guid>
+      <description>程序员 http://www.clarkduvall.com/</description>
+    </item>
+    
+    <item>
+      <title>浦发银行美国运通白金卡(简称浦发AE白)开卡后必须要做的几件事</title>
+      <link>https://www.samrainhan.com/posts/2016-05-06-what-will-we-do-after-getting-the-spdb-ae-platinum-credit-card/</link>
+      <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-06-what-will-we-do-after-getting-the-spdb-ae-platinum-credit-card/</guid>
+      <description>背景介绍 浦发银行美国运通白金卡(简称浦发AE白)官网 http://www.spdbccc.com.cn/zh/wap/newwap/meiyun/index.html#rd 网上大家的内容收集 https://zhuanlan.zhihu.com/p/20679319 http://www.eee.com/article-3318.html http://www.flyertea.com/article-7995-1.html 一次性 必做 安装浦大喜奔APP 绑定浦发银行信用卡中心微信号(sp</description>
+    </item>
+    
+    <item>
+      <title>速度收集客户意见</title>
+      <link>https://www.samrainhan.com/posts/2016-05-03-collect-customer-feedback/</link>
+      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-05-03-collect-customer-feedback/</guid>
+      <description>在线反馈 在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。 主动给用户打回访电话 因为可以看</description>
+    </item>
+    
+    <item>
+      <title>使用PowerDesigner生成HTML功能</title>
+      <link>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</guid>
+      <description>创建一个new Report; 选择【file】&amp;#x2014;【new】&amp;#x2014;【Multi-Model Report】，然后定义Report Nam</description>
+    </item>
+    
+    <item>
+      <title>favicon.ico</title>
+      <link>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</guid>
+      <description>默认放在服务器根目录下 如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;gt;` 优化性能 配置favic</description>
+    </item>
+    
+    <item>
+      <title>安装http_load</title>
+      <link>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</link>
+      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</guid>
+      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load.gz cd http_load make &amp;amp;&amp;amp; sudo make install</description>
+    </item>
+    
+    <item>
+      <title>安装localtunnel(穿透内网工具)</title>
+      <link>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</guid>
+      <description>install sudo apt-get install npm sudo npm install -g localtunnel run lt 如果报错[/usr/bin/env: node: No such file or directory],那么运行 sudo ln -s /usr/bin/nodejs /usr/bin/node</description>
+    </item>
+    
+    <item>
+      <title>各种通讯方式</title>
+      <link>https://www.samrainhan.com/posts/2016-04-22-connect-type/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-22-connect-type/</guid>
+      <description>websocket全双工通信协议 可以穿透防火墙，有安全隐患 polling 轮询 大量无效数据包 cnmet 长连接 占用服务器带宽和资源</description>
+    </item>
+    
+    <item>
+      <title>开增值税发票的物品清单</title>
+      <link>https://www.samrainhan.com/posts/2016-04-21-list-of-get-vat-invoice/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-21-list-of-get-vat-invoice/</guid>
+      <description>对方的合同 开票信息 付款证明或开票证明（要盖对方公章） 一般纳税人证明或3个月对方开出的增票复印件</description>
+    </item>
+    
+    <item>
+      <title>如何把内网的服务公布到公网上</title>
+      <link>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</guid>
+      <description>ngrok 这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。 下载 https://ngrok.com/download 配置 编辑配置文件 ngrok.config auth_token: dxW21sgRz-DscM932vgkDxe http_proxy: &amp;quot;http://192.168.16.41:60002&amp;quot; tunnels: calibre-server: subdomain: samebook proto: https: 8080 其中</description>
+    </item>
+    
+    <item>
+      <title>如何用搜索引擎搜索文档呢?</title>
+      <link>https://www.samrainhan.com/posts/2016-04-19-search-file-by-search-site/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-19-search-file-by-search-site/</guid>
+      <description>如果你使用google，在检索词前加入 inurl:pdf 如果你使用百度，在检索词前加上 filetype:all ，如要特定PDF格式则输入 filetype:PDF</description>
+    </item>
+    
+    <item>
+      <title>建立你的主题关键词</title>
+      <link>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</guid>
+      <description>根据搜索结果的提示，一步步更换关键词直至找到靠谱的结果。 更换语言，别有洞天。有时更换为英语能够让你获取更精准的结果。所以这也是为什么，我的主</description>
+    </item>
+    
+    <item>
+      <title>批量导出redmine任务并导入到google日历中</title>
+      <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
+      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
+    </item>
+    
+    <item>
+      <title>尝试解决AppFabric问题  ErrorCode&lt;ERRCA0016&gt; SubStatus&lt;ES0001&gt;</title>
+      <link>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</link>
+      <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</guid>
+      <description>尝试解决AppFabric问题： ErrorCode:SubStatus:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的</description>
+    </item>
+    
+    <item>
+      <title>解决AppFabric问题 ErrorCode&lt;ERRCA0017&gt;:SubStatus&lt;ES0005&gt;</title>
+      <link>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</guid>
+      <description>解决AppFabric问题 ErrorCode:SubStatus:发生临时故障。请稍后重试。 (存储存在争用情况。) 1.升级AppFabric</description>
+    </item>
+    
+    <item>
+      <title>tsunamid帮助</title>
+      <link>https://www.samrainhan.com/posts/2016-04-08-help-of-tsunamid/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-08-help-of-tsunamid/</guid>
+      <description>tsunamid帮助 Settings in the Tsunami Client $ tsunami Tsunami Client for protocol rev 20061025 Revision: v1.1 devel cvsbuild 31 Compiled: Dec 15 2006 14:57:59 tsunami&amp;gt; set server = localhost -- to which currently connected port = 46224 -- TCP control port on server udpport = 46224 -- UDP receiving port on client to use buffer = 20000000 -- size of the</description>
+    </item>
+    
+    <item>
+      <title>在windows上设置emacs文件打开方式</title>
+      <link>https://www.samrainhan.com/posts/2016-04-07-preview-in-emacs-by-chrome/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-07-preview-in-emacs-by-chrome/</guid>
+      <description>在windows上设置emacs文件打开方式 现在已经很习惯于在orgmode中写文字，之前在Ubuntu上可以C-c C-c h o调用chrome预</description>
+    </item>
+    
+    <item>
+      <title>黑客最爱——图片转符号</title>
+      <link>https://www.samrainhan.com/posts/2016-04-06-pic-to-ascii/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-04-06-pic-to-ascii/</guid>
+      <description>黑客最爱——图片转符号 http://www.Photo2Text.com http://ku.cndesign.com/pic/</description>
+    </item>
+    
+    <item>
+      <title>UEFIh安装ubuntu后启动失败的补救措施</title>
+      <link>https://www.samrainhan.com/posts/2016-03-30-save-ubuntu-with-uefih/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-30-save-ubuntu-with-uefih/</guid>
+      <description>使用 Boot-Repair 详见Ubuntu官网介绍：(https://help.ubuntu.com/community/Boot-Repair)</description>
+    </item>
+    
+    <item>
+      <title>orgmode中设置自动换行</title>
+      <link>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</guid>
+      <description>orgmode中设置自动换行 最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写ma</description>
+    </item>
+    
+    <item>
+      <title>如何用搜狗拼音输入法在Windows上打出「」</title>
+      <link>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</link>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</guid>
+      <description>如何用搜狗拼音输入法在Windows上打出「」 最近看了一篇blog（作者Hindy，链接在此）， 提倡中文引号应该用「」而不是‘’。我仔细考虑</description>
+    </item>
+    
+    <item>
+      <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
+      <link>https://www.samrainhan.com/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</guid>
+      <description>把redmine装在passenger上，然后用nginx反向代理提供服务</description>
+    </item>
+    
+    <item>
+      <title>如何记录日志</title>
+      <link>https://www.samrainhan.com/posts/2016-03-22-how-to-log/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-22-how-to-log/</guid>
+      <description>Table 1: 修订记录 版本号 日期 描述 改者 V0.1 2015-12-10 initial 韩雨 日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是</description>
+    </item>
+    
+    <item>
+      <title>安装LimeSurvey</title>
+      <link>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</link>
+      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</guid>
+      <description>安装LimeSurvey 源码包 下载链接 密码: g75h 使用手册 在线手册 安装脚本</description>
+    </item>
+    
+    <item>
+      <title>解决调用Tuxedo服务问题</title>
+      <link>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</guid>
+      <description>解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all</description>
+    </item>
+    
+    <item>
+      <title>双网卡一块上网另一块上局域网</title>
+      <link>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</guid>
+      <description>双网卡一块上网另一块上局域网</description>
+    </item>
+    
+    <item>
+      <title>百兆和千兆网线区别</title>
+      <link>https://www.samrainhan.com/posts/2016-03-17-the-difference-of-hundreds-of-megabytes-cable-and-gigabit-network-cable/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-03-17-the-difference-of-hundreds-of-megabytes-cable-and-gigabit-network-cable/</guid>
+      <description>百兆和千兆网线区别 千兆 一般需要六类线以上，六类线中间有个十字形的塑料架，八根线上传下载都用上了。 百兆 用五类线以上，只用了其中的四根线。</description>
+    </item>
+    
+    <item>
+      <title>怎么在chromium中安装flash插件</title>
+      <link>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</link>
+      <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</guid>
+      <description>近期由于用choco的缘故，就install了一个chromium，因为chrome一直不能自动更新。 开始用Chromium发现InfoQ不</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-举腿</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-leg-raise/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-leg-raise/</guid>
+      <description>Table of Contents 1. 坐姿屈膝 2. 平卧抬膝 3. 平卧屈举腿 4. 平卧蛙举腿 5. 平卧直举腿 6. 悬垂屈膝 7. 悬垂屈举腿 8. 悬垂蛙举腿 9. 悬垂半举腿 10. 悬垂直举腿 呼吸会收紧腹部肌肉和</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-俯卧撑</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-push-ups/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-push-ups/</guid>
+      <description>Table of Contents 1. 注意 2. 十阶段 2.1. 墙壁俯卧撑 2.2. 上斜俯卧撑 2.3. 膝盖俯卧撑 2.4. 半俯卧撑 2.5. 标准俯卧撑 2.6. 窄距俯卧撑 2.7. 偏重俯卧撑 2.8. 单臂半俯卧撑 2.9. 杠杆俯卧撑 2.10. 单臂俯卧撑</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-倒立撑</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-inverted-pole/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-inverted-pole/</guid>
+      <description>Table of Contents 1. 靠墙顶立 2. 乌鸦式 3. 靠墙倒立 4. 半倒立撑 5. 标准倒立撑 6. 窄距倒立撑 7. 偏重倒立撑 8. 单臂半倒立撑 9. 杠杆倒立撑 10. 单臂倒立撑 倒立撑可以靠墙做,也可</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-引体向上</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-pull-ups/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-pull-ups/</guid>
+      <description>Table of Contents 1. 垂直引体 2. 水平引体向上 3. 折刀引体向上 4. 半引体向上 5. 标准引体向上 6. 窄距引体向上 7. 偏重引体向上 8. 单臂半引体向上 9. 单臂辅助引体向上 10. 单臂引</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-桥</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-bridge/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-bridge/</guid>
+      <description>Table of Contents 1. 短桥 2. 直桥 3. 高低桥 4. 顶桥 5. 半桥 6. 标准桥 7. 下行桥 8. 上行桥 9. 合桥 10. 铁板桥 完美的桥有四项标准(除第 4 项标准外,其他标准适用于第六式标准桥及</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身-深蹲</title>
+      <link>https://www.samrainhan.com/posts/2015-12-18-squat/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-18-squat/</guid>
+      <description>Table of Contents 1. 肩倒立深蹲 2. 折刀深蹲 3. 支撑深蹲 4. 半深蹲 5. 标准深蹲 6. 窄距深蹲 7. 偏重深蹲 8. 单腿半深蹲 9. 单腿辅助深蹲 10. 单腿深蹲 肩倒立深蹲 平躺,双膝弯曲,双</description>
+    </item>
+    
+    <item>
+      <title>如何给变量命名</title>
+      <link>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</guid>
+      <description>#(转)一个查询网站，只要输入变量名称（中英文皆可），能够搜索到其他项目中用到的命名 http://unbug.github.io/codelf/</description>
+    </item>
+    
+    <item>
+      <title>九月初三</title>
+      <link>https://www.samrainhan.com/posts/2015-10-15-the-third-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</link>
+      <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-10-15-the-third-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</guid>
+      <description>白萝卜、菠菜和山药也有润燥功效，多多进食，远离寒燥侵扰。</description>
+    </item>
+    
+    <item>
+      <title>九月初二</title>
+      <link>https://www.samrainhan.com/posts/2015-10-14-the-second-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</link>
+      <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-10-14-the-second-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</guid>
+      <description>十指交叉放在后颈部，以掌跟提捏颈肌至发热，治疗头痛、颈椎病，还能增强记忆力。</description>
+    </item>
+    
+    <item>
+      <title>九月初一</title>
+      <link>https://www.samrainhan.com/posts/2015-10-13-the-first-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-10-13-the-first-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</guid>
+      <description>是月，应重视足部保暖 “微火暖足，勿令下冷，常欲使气在下”。</description>
+    </item>
+    
+    <item>
+      <title>如何解决客户端无法连接上Xen服务器</title>
+      <link>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</link>
+      <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</guid>
+      <description>#看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
+    </item>
+    
+    <item>
+      <title>删除Windows服务</title>
+      <link>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</link>
+      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</guid>
+      <description>用sc.exe这个Windows命令 开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单： # (如果服务名中间有空格，就需</description>
+    </item>
+    
+    <item>
+      <title>备份virtualbox虚拟机</title>
+      <link>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</guid>
+      <description>1.确保虚拟机已经关闭 查看还有没有运行的虚拟机。 VBoxManage list runningvms 2.备份虚拟机 VBoxManage export %虚拟机名称% --ovf20 --manifest -o %备份目录%/XXXX.ova</description>
+    </item>
+    
+    <item>
+      <title>AWS使用心得</title>
+      <link>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</guid>
+      <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
+    </item>
+    
+    <item>
+      <title>Tsung</title>
+      <link>https://www.samrainhan.com/posts/2015-07-21-tsung/</link>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
+      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：[http://tsung.erlang-projects.org/]() 可以测试包括</description>
+    </item>
+    
+    <item>
+      <title>304 Not Modified</title>
+      <link>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</link>
+      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</guid>
+      <description>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户</description>
+    </item>
+    
+    <item>
+      <title>好点子</title>
+      <link>https://www.samrainhan.com/posts/2015-07-16-tips/</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-16-tips/</guid>
+      <description>创业团队中最好有一个音乐者，他不会技术，就只能从其他方面来考虑问题，大大改善技术人员闷头苦做的习惯 把领导做成磨砺自己的工具 只带纸笔，不带电脑</description>
+    </item>
+    
+    <item>
+      <title>英文Windows VPS 安装中文包</title>
+      <link>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</guid>
+      <description>Why 国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国</description>
+    </item>
+    
+    <item>
+      <title>PR造势</title>
+      <link>https://www.samrainhan.com/posts/2015-07-13-public-relations-in-china/</link>
+      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-13-public-relations-in-china/</guid>
+      <description>1、选定主话题 2、围绕主话题设置几个子话题 3、选定希望发布的官方媒体 4、选定希望邀请参与讨论的自媒体 5、写稿（备用，如果媒体愿意自己写，那是</description>
+    </item>
+    
+    <item>
+      <title>饭局几要素</title>
+      <link>https://www.samrainhan.com/posts/2015-07-12-some-elements-of-dinner/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-12-some-elements-of-dinner/</guid>
+      <description>准备 倾听 服务 破冷 尊重 段子</description>
+    </item>
+    
+    <item>
+      <title>（转）百度前端团队F.I.S 提倡的三种语言能力</title>
+      <link>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</link>
+      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</guid>
+      <description>有了这三种语言能力，你的团队前端工业化水平将有很大的提升。 ##资源定位 获取任何开发中所使用资源的线上路径。 可以有效的分离开发路径与部署路径之</description>
+    </item>
+    
+    <item>
+      <title>为没有Feed的网页生成RSS格式订阅源</title>
+      <link>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</guid>
+      <description>FEED43是一个在线应用，可以为不提供 Feed 的网页生成 RSS 格式的 Feed，以供阅读器订阅。 中文非官方教程在此</description>
+    </item>
+    
+    <item>
+      <title>读《新国文教授法》序有感及摘录</title>
+      <link>https://www.samrainhan.com/posts/2015-07-09-thoughts-of-reading-the-new-chinese-literature/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-09-thoughts-of-reading-the-new-chinese-literature/</guid>
+      <description>人 人不读书，何以成人 承载着新思想新学说的书本，只有成为海量读物或被海量传阅之后，其巨大的影响力才能迸发出。 有限的启蒙-&amp;gt;开官智 普遍的启</description>
+    </item>
+    
+    <item>
+      <title>摘录</title>
+      <link>https://www.samrainhan.com/posts/2015-07-08-abstract/</link>
+      <pubDate>Wed, 08 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-08-abstract/</guid>
+      <description>懒惰的员工被证实他们在简化流程上最富有创新思维。 全渠道全触点营销模式是解决之道! 不同渠道的用户，不同场景下的用户，只要你不希望他只是被动接受</description>
+    </item>
+    
+    <item>
+      <title>听老黄介绍智能路由器有感</title>
+      <link>https://www.samrainhan.com/posts/2015-07-07-think-of-old-huang-introduce-router/</link>
+      <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-07-think-of-old-huang-introduce-router/</guid>
+      <description>不质疑谁的责任，解决问题就好 每个人找事干 每日站会 扁平化 KPI是让每个人找到自己的工作目标 没有目标的团队是无法生存。 没有结果的个体失去价值。</description>
+    </item>
+    
+    <item>
+      <title>嵊州宁波3日游</title>
+      <link>https://www.samrainhan.com/posts/2015-07-06-shengzhou-and-ningbo-3-day-tour/</link>
+      <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-06-shengzhou-and-ningbo-3-day-tour/</guid>
+      <description>嵊州 崇仁古镇 百丈飞瀑 南山风景名胜区 城隍庙 宁波 四明山 东钱湖 溪口雪窦山 前童古镇 象山海滨度假区</description>
+    </item>
+    
+    <item>
+      <title>短句</title>
+      <link>https://www.samrainhan.com/posts/2015-07-05-short-sentences/</link>
+      <pubDate>Sun, 05 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-05-short-sentences/</guid>
+      <description>时间存在的唯一意义就是告诉我们任何事情 都不可能立刻实现，事情总是循序渐进. 三个关于需求的简单事实 不可能在项目开始的时候收集到所有的需求 不管你</description>
+    </item>
+    
+    <item>
+      <title>日期时间控件</title>
+      <link>https://www.samrainhan.com/posts/2015-07-04-date-and-time-picker/</link>
+      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-04-date-and-time-picker/</guid>
+      <description>特意推荐,国人出品:laydate 分钟不能用鼠标选出:jquery-simple-datetimepicker 似乎已经停止更新:lhgcal</description>
+    </item>
+    
+    <item>
+      <title>常用加解密算法的.net实现</title>
+      <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
+      <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
+      <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
+    </item>
+    
+    <item>
+      <title>msbuild参数效果对比</title>
+      <link>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</guid>
+      <description>结论 加/m的效果明显,而加/p:BuildlnParallel=true,并不明显. 试验数据 以下是在一台虚拟机上的测试结果,分配了4个CPU</description>
+    </item>
+    
+    <item>
+      <title>在线查询shell命令帮助</title>
+      <link>https://www.samrainhan.com/posts/2015-06-30-shell-help-online/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-30-shell-help-online/</guid>
+      <description>网址:[http://www.explainshell.com]() 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清</description>
+    </item>
+    
+    <item>
+      <title>硬币游戏</title>
+      <link>https://www.samrainhan.com/posts/2015-06-29-coins-games/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-29-coins-games/</guid>
+      <description>① 1枚硬币×2人 规则：A 、 B 两人打算玩这么一个游戏。首先， A 选择一个长度为 n 的正反序列，然后 B 再选择另一个长度为 n 的正反序列。之后，不断抛掷</description>
+    </item>
+    
+    <item>
+      <title>App的渠道推广</title>
+      <link>https://www.samrainhan.com/posts/2015-06-28-promote-the-app-by-channels/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-28-promote-the-app-by-channels/</guid>
+      <description>1、上架 2、根据现有数据甄选最适合自家产品的优质渠道 3、研究渠道运营合作的活动规则，制定计划 4、商务跟进，争取能以内容运营为切入点，开展更深</description>
+    </item>
+    
+    <item>
+      <title>自行车气嘴</title>
+      <link>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</guid>
+      <description>法嘴 Presta Valve，公路车内胎或者管胎 优点：放气、微调气压较方便，也容易把气完全放掉。 缺点：需要特殊气针。 打气方式 将红色箭头处逆时针松开后，用</description>
+    </item>
+    
+    <item>
+      <title>如何自动化记录每天的工作、学习和生活</title>
+      <link>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</link>
+      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</guid>
+      <description>##各种记录/渠道： evernote 在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google</description>
+    </item>
+    
+    <item>
+      <title>面试步骤</title>
+      <link>https://www.samrainhan.com/posts/2015-06-25-how-do-interview/</link>
+      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-25-how-do-interview/</guid>
+      <description>第一阶段 寒暄 简短自我介绍 问对方如何评价自己，优缺点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 工作经验：除第一份工作外，如果频繁跳槽</description>
+    </item>
+    
+    <item>
+      <title>Puma&#43;Nginx&#43;Mariadb&#43;Redmine</title>
+      <link>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</guid>
+      <description>以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;amp;&amp;amp;</description>
+    </item>
+    
+    <item>
+      <title>社会化媒体运营</title>
+      <link>https://www.samrainhan.com/posts/2015-06-23-social-media-operators/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-23-social-media-operators/</guid>
+      <description>1、选择平台 2、确定内容方向和平台目标（提供服务 OR 提供内容） 3、日复一日坚持发布优质内容 OR 提供优质服务 4、在 3 的基础上，洞察可推广的机会</description>
+    </item>
+    
+    <item>
+      <title>各种编程规范</title>
+      <link>https://www.samrainhan.com/posts/2015-06-22-programming-specification/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-22-programming-specification/</guid>
+      <description>谷歌 包括针对各种语言的编码风格指导 NASA喷气推进实验室 Linux内核 Perl GNU Microsoft C#</description>
+    </item>
+    
+    <item>
+      <title>Emacs Dir mode</title>
+      <link>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</guid>
+      <description>常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读</description>
+    </item>
+    
+    <item>
+      <title>Grunt配置文件</title>
+      <link>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</link>
+      <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</guid>
+      <description>Gruntfile.js /*global module:false*/ module.exports = function (grunt) { grunt.initConfig({ imagemin: { /* 压缩图片大小 */ dist: { options: { optimizationLevel: 9 //定义 PNG 图片优化水平 }, files: [{ expand: true, cwd: &#39;app/MyCard/&#39;, src: [&#39;**/*.{png,jpg,jpeg}&#39;], // 优化 img 目录下所有 png/jpg/jpeg 图片 dest: &#39;app/build/&#39; // 优化后的图片保存位置</description>
+    </item>
+    
+    <item>
+      <title>Git@OSC 简单流程</title>
+      <link>https://www.samrainhan.com/posts/2015-06-18-simple-process-at-gitosc/</link>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-18-simple-process-at-gitosc/</guid>
+      <description>私有项目流程 公有项目流程</description>
+    </item>
+    
+    <item>
+      <title>跳绳</title>
+      <link>https://www.samrainhan.com/posts/2015-06-17-rope-skipping/</link>
+      <pubDate>Wed, 17 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-17-rope-skipping/</guid>
+      <description>##热身 1. 先做一些徒手练习让肌肉兴奋起来，比如模仿跳绳的跳跃动作。（1分钟） 2. 伸拉小腿腓肠肌和跟腱，这两个部位最重要，因为整个跳绳过程中它们</description>
+    </item>
+    
+    <item>
+      <title>SSL介绍</title>
+      <link>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</link>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</guid>
+      <description>##SSL握手过程 通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交</description>
+    </item>
+    
+    <item>
+      <title>36首诗词</title>
+      <link>https://www.samrainhan.com/posts/2015-06-15-36-poems/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-15-36-poems/</guid>
+      <description>## 01.《将进酒》·李白 君不见黄河之水天上来，奔流到海不复回。 君不见高堂明镜悲白发，朝如青丝暮成雪。 人生得意须尽欢，莫使金樽空对月。 天生我材</description>
+    </item>
+    
+    <item>
+      <title>(转未经证实)清华附小学生阅读书单</title>
+      <link>https://www.samrainhan.com/posts/2015-06-13-tsinghua-university-preparatory-school-reading-list/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-13-tsinghua-university-preparatory-school-reading-list/</guid>
+      <description>1、一年级上学期必读书目和选读书目（逐年修订） 《猜猜我有多爱你》（必读） 山姆．麦克布雷尼 明天出版社 《蚯蚓的日记》（选读） 朵琳．克罗宁 少年儿童</description>
+    </item>
+    
+    <item>
+      <title>zsh是什么</title>
+      <link>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</guid>
+      <description>安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会</description>
+    </item>
+    
+    <item>
+      <title>囚徒健身 五个基本训练计划</title>
+      <link>https://www.samrainhan.com/posts/2015-06-11-five-basic-training-program/</link>
+      <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-11-five-basic-training-program/</guid>
+      <description>1. 初试身手 2次/每周 目标：俯卧撑+举腿+i引体向上+深蹲都练习到第六式 |周一|周二|周三|周四|周五|周六|周日| |-| |俯卧撑2/3 |无 |无 |</description>
+    </item>
+    
+    <item>
+      <title>优化ifelse和switch代码</title>
+      <link>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</guid>
+      <description>概率高的放前面 嵌套Switch语句 概率高的放在一个switch 表驱动 最基本的解决办法就是把多个判断条件合成一个，也就是把若干个分支合成一个。</description>
+    </item>
+    
+    <item>
+      <title>AWS SQS和SNS的区别</title>
+      <link>https://www.samrainhan.com/posts/2015-06-09-difference-of-aws-sqs-and-sns/</link>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-09-difference-of-aws-sqs-and-sns/</guid>
+      <description>SNS 无延迟 1条Message可以被多个订阅者取到 SQS 有延迟 一条Message被一个订阅者取掉后，其他订阅者取不道了。 附 stack overflow上的一条</description>
+    </item>
+    
+    <item>
+      <title>在Win2008上部署 Windows SharePoint Services 3.0</title>
+      <link>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
+      <description>Why 一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装</description>
+    </item>
+    
+    <item>
+      <title>在IIS6上开启gzip</title>
+      <link>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</link>
+      <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</guid>
+      <description>IIS6上默认没有开启gzip，而IIS7以上则默认开启。因为gzip的功能实在是太好用了，可以极大提高网站性能。所以接下来让我们来尝试下开</description>
+    </item>
+    
+    <item>
+      <title>Git仓库版本控制建议结构图</title>
+      <link>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>onboard design做法</title>
+      <link>https://www.samrainhan.com/posts/2015-05-27-onboard-desing/</link>
+      <pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-05-27-onboard-desing/</guid>
+      <description>汇总提炼了别人的做法： 清楚需求和目标后，找一个安静的地方，给自己5-15分钟时间。 1.到打印机旁拿一摞白纸，准备好笔。 2.取3-4张，平铺在</description>
+    </item>
+    
+    <item>
+      <title>常用加解密算法</title>
+      <link>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</guid>
+      <description>1.常用密钥算法 密钥算法用来对敏感数据、摘要、签名等信息进行加密。 对称加密算法 DES（Data Encryption Standard） 数据加密标准，速度较快，适</description>
+    </item>
+    
+    <item>
+      <title>NET性能优化注意事项</title>
+      <link>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</link>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</guid>
+      <description>避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要</description>
+    </item>
+    
+    <item>
+      <title>Nlog心得</title>
+      <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
+      <description>在工程中添加引用NLog.dll &amp;gt; 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output</description>
+    </item>
+    
+    <item>
+      <title>Tcpdump介绍</title>
+      <link>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</link>
+      <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</guid>
+      <description>Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原</description>
+    </item>
+    
+    <item>
+      <title>wsdl帮助</title>
+      <link>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</guid>
+      <description>wsdl.exe 使用 ASP.NET，根据 WSDL 协定文件、XSD 架构和 .discomap 发现文档，为 Xml Web Services 客户端和 Xml Web Services 生成代码的实用工具。此工具可以与 disco.exe 一起使用。 参数 wsdl.exe &amp;lt</description>
+    </item>
+    
+    <item>
+      <title>大华附近的宝山区小学一览</title>
+      <link>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</guid>
+      <description>大场镇小学 场联路135号 56685439 大场中心小学 南大路16弄6号 56681359 大华小学 华灵路623号 66344669 大华二小 大华路863号 66396066 行知小学 行知路389弄1号 66395528 嘉华小学</description>
+    </item>
+    
+    <item>
+      <title>asmx文件是干什么的</title>
+      <link>https://www.samrainhan.com/posts/2015-03-11-asmx/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-11-asmx/</guid>
+      <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
+    </item>
+    
+    <item>
+      <title>缩减HTML、CSS和JavaScript的大小</title>
+      <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</guid>
+      <description>##缩减HTML的大小 使用PageSpeed Insights Chrome扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的</description>
+    </item>
+    
+    <item>
+      <title>体验Chocolatey</title>
+      <link>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</guid>
+      <description>太长了不好拼写，以下简写为choco吧，也是向官方看齐。 官网在此：https://chocolatey.org/，如何安装和使用上面写的很清</description>
+    </item>
+    
+    <item>
+      <title>名片和iphone的尺寸及比例</title>
+      <link>https://www.samrainhan.com/posts/2015-03-08-the-size-and-proportion-of-the-card-and-the-iphone/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-08-the-size-and-proportion-of-the-card-and-the-iphone/</guid>
+      <description>Iphone 5S 123.8&amp;frasl;58.6=2.11262798635 6 138.1&amp;frasl;67.0=2.06119402985 6+ 158.1&amp;frasl;77.8=2.03213367609 名片 窄式 90&amp;frasl;45=2 ###美式 90&amp;frasl;50=1.8 ###中式 90&amp;frasl;54=1.66666666667 ###欧式 85&amp;frasl;54=1.57407407407 ###超窄 90&amp;frasl;40=2.25</description>
+    </item>
+    
+    <item>
+      <title>OpenResty第三方模块</title>
+      <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
+      <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
+      <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
+    </item>
+    
+    <item>
+      <title>怎样从美嘴转法嘴</title>
+      <link>https://www.samrainhan.com/posts/2015-03-06-transfor-schrader-value-to-presta-value/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-06-transfor-schrader-value-to-presta-value/</guid>
+      <description>##保证一个原则： 密封套必须是靠外 小弹簧必须在最里面 美嘴用的密封套是大口，法嘴用的是小口</description>
+    </item>
+    
+    <item>
+      <title>watir 网页程序自动化测试工具</title>
+      <link>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</link>
+      <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</guid>
+      <description>安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到</description>
+    </item>
+    
+    <item>
+      <title>如何安装bacula</title>
+      <link>https://www.samrainhan.com/posts/2015-03-04-install-bacula/</link>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-04-install-bacula/</guid>
+      <description>bacula是著名的备份软件，官网在此 ##服务器安装 sudo apt-get install gcc g++ sqlite libsqlite3-dev make cd bacula-* ./configure -with-sqlite3 make sudo make install ##客户端安装 cd bacula-* ./configure --prefix=/opt/bacula --enable-client-only make sudo make install</description>
+    </item>
+    
+    <item>
+      <title>公司估值</title>
+      <link>https://www.samrainhan.com/posts/2015-03-03-company-valuations/</link>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-03-company-valuations/</guid>
+      <description>##三个角度：收益+同类公司+资产 ##投资比例不超过50% ##主要考虑2个因素：融资规模+出让股权比例 ##净资产=未来的现金收入用一个贴现率</description>
+    </item>
+    
+    <item>
+      <title>基于阿里云搭建服务平台架构图</title>
+      <link>https://www.samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/</guid>
+      <description>基于阿里云服务平台实施的，如下所示： 阿里云服务 采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多</description>
+    </item>
+    
+    <item>
+      <title>怎么在UEFI电脑上安装Ubuntu</title>
+      <link>https://www.samrainhan.com/posts/2015-03-01-install-ubuntu-with-uefi/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-03-01-install-ubuntu-with-uefi/</guid>
+      <description>官网介绍在此 简单步骤如下： 正常通过CD或者USB安装 如果无法通过硬盘启动，那么用CD/USB引导启动，选Try Ubuntu Without Installation 安装Boot-Repai</description>
+    </item>
+    
+    <item>
+      <title>怎么看windows是32位的还是64位的</title>
+      <link>https://www.samrainhan.com/posts/2015-02-28-how-could-i-determine-that-windows-are-32bit-or-64bit/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-28-how-could-i-determine-that-windows-are-32bit-or-64bit/</guid>
+      <description>1.显示“系统属性”对话框 输入 Windows键 + Pause 2.看红框 WinXP Win7</description>
+    </item>
+    
+    <item>
+      <title>名片包含了那些必需信息</title>
+      <link>https://www.samrainhan.com/posts/2015-02-27-the-informations-of-business-card/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-27-the-informations-of-business-card/</guid>
+      <description>个人信息 姓名 部门 职务 邮箱 手机 公司信息 公司名称 logo 公司网址 总机 传真 办公地址 企业口号 微信 微博</description>
+    </item>
+    
+    <item>
+      <title>电影营销之全案推广</title>
+      <link>https://www.samrainhan.com/posts/2015-02-26-movie-marketing-promotion/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-26-movie-marketing-promotion/</guid>
+      <description>内地的营销公司分为两种形态：要么是在做内容营销部分就是前期植入广告和商务合作推广，如聚思传媒、合润传媒等；要么是专注在做后期的影片推广，就是</description>
+    </item>
+    
+    <item>
+      <title>为ssh连接指定别名并记住密码</title>
+      <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</guid>
+      <description>Why 维护多台linux服务器, 需要ssh进行操作，每次都要输入 ssh user@x.x.x.x并输入密码OOXX#*&amp;amp;^%, 是一件很浪费时间</description>
+    </item>
+    
+    <item>
+      <title>serif和sans serif的区别</title>
+      <link>https://www.samrainhan.com/posts/2015-02-18-difference-of-serif-and-sans-serif/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-18-difference-of-serif-and-sans-serif/</guid>
+      <description>Serif有衬字体和Sans Serif无衬字体（通常简写为Sans）是字体的两大种类。 区别 |对比项|Serif|Sans| |-| |笔划开始/结束</description>
+    </item>
+    
+    <item>
+      <title>思源黑体</title>
+      <link>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</guid>
+      <description>Why 由google和adobe联手发起的消灭豆腐字(NoTo) 工程 下载 官网下载 我的百度云盘 安装 1.下载zip文件 2.解压zip文件 linux下</description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://www.samrainhan.com/posts/2015-02-16-mongodb/</link>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-16-mongodb/</guid>
+      <description>Install 官网在此：http://www.mongodb.org 官网下载地址：http://www.mongodb.org/downloads win</description>
+    </item>
+    
+    <item>
+      <title>微信抽奖需求</title>
+      <link>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</guid>
+      <description>抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景</description>
+    </item>
+    
+    <item>
+      <title>google招聘标准</title>
+      <link>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid>
+      <description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description>
+    </item>
+    
+    <item>
+      <title>急救包配置</title>
+      <link>https://www.samrainhan.com/posts/2015-02-13-first-aid-kit-configuration/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-13-first-aid-kit-configuration/</guid>
+      <description>创可贴×10 消毒纱布片（5×5）×5 三角巾（96×96×136）×1 剪刀（9）×1 乳胶止血带（2.5×46）×1 纱布（6×400）×1 清凉油</description>
+    </item>
+    
+    <item>
+      <title>Apple文案特色</title>
+      <link>https://www.samrainhan.com/posts/2015-02-12-what-apple-say/</link>
+      <pubDate>Thu, 12 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-12-what-apple-say/</guid>
+      <description>好文案要告诉用户，他可以干什么，而不是你有什么。 总是能挖掘出用户心中最真实的那句话，并且直接了当地说出来。 站在比用户高一点的角度，才能说你想</description>
+    </item>
+    
+    <item>
+      <title>Monitorbook 监视网页内容变化</title>
+      <link>https://www.samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</guid>
+      <description>Why 比如：电商价格监控，有货无货监控 What 官网在此 https://monitorbook.com/ 免费版本可以监控 5 个项目以及每小时一次的刷新，监控内容可以是数字也可以是文字，设置警告项当低于</description>
+    </item>
+    
+    <item>
+      <title>Linux常用操作</title>
+      <link>https://www.samrainhan.com/posts/2015-02-10-common-linux-operating/</link>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-10-common-linux-operating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>怎么调整virtualbx的虚拟磁盘大小</title>
+      <link>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</guid>
+      <description>WHY 为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了</description>
+    </item>
+    
+    <item>
+      <title>如何更新nodejs</title>
+      <link>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</guid>
+      <description>What 升级nodejs到0.12。 Why 今天收到通知nodejs稳定版stable终于升到了0.12，对于我这个不升不舒服斯基来说，又要up咯。 How 安</description>
+    </item>
+    
+    <item>
+      <title>刷票</title>
+      <link>https://www.samrainhan.com/posts/2015-02-07-brush-vote/</link>
+      <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-07-brush-vote/</guid>
+      <description>Why 帮朋友完成任务，让名次不要太低 what 刷票 How 网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验</description>
+    </item>
+    
+    <item>
+      <title>介绍Harp</title>
+      <link>https://www.samrainhan.com/posts/2015-02-06-harp/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-06-harp/</guid>
+      <description>What 官网在此 nodejs写的静态web服务器，号称零配置。 牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能</description>
+    </item>
+    
+    <item>
+      <title>怎么用开源中国的服务来进行协作和开发</title>
+      <link>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</link>
+      <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</guid>
+      <description>Getting Start 注册oschina用户(戳这里) 登录oschina.net 注册git@osc用户(戳这里)，请选择使用oschina账号登录 4.会提示以</description>
+    </item>
+    
+    <item>
+      <title>导出js注释工具-JSDOC</title>
+      <link>https://www.samrainhan.com/posts/2015-02-04-js-comment-builder/</link>
+      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-04-js-comment-builder/</guid>
+      <description>what 官网在此 代码在此 install sudo npm install -g git+https://github.com/jsdoc3/jsdoc.git 或者 npm install jsdoc@&amp;quot;&amp;lt;=3.3.0&amp;quot; how JSDoc会从/**开头的注释中抽取信息。 标签就是一些以@开头的命令，所有标签用法见这里 jsdoc where-is-js-files 访问当</description>
+    </item>
+    
+    <item>
+      <title>Parallel介绍</title>
+      <link>https://www.samrainhan.com/posts/2015-02-03-parallel-overview/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-03-parallel-overview/</guid>
+      <description>What FSF项目，GNU Parallel，翻译为平行 http://www.gnu.org/software/parallel/ Why 可以替代xargs How 不仅可以在本机上平行处理任务，而且还能分散到其他联网电脑上处理。 ##</description>
+    </item>
+    
+    <item>
+      <title>使用cpufreq降低CPU功耗</title>
+      <link>https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/</guid>
+      <description>##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设</description>
+    </item>
+    
+    <item>
+      <title>Cobbler 网络安装环境4Linux</title>
+      <link>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</guid>
+      <description>What 官网在此 Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。 How 该工具使用python开发，小</description>
+    </item>
+    
+    <item>
+      <title>李嘉诚投资结构</title>
+      <link>https://www.samrainhan.com/posts/2015-01-31-li-ka-shing-investment-structure/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-01-31-li-ka-shing-investment-structure/</guid>
+      <description>|行业|投资回报率| | : | :-: | | 地产 | 53% | | 基建(天然气、水跟电) | 42% | | 码头 | 24% | | 能源 | 13% | | 零售 | 7% | | 电信 | 5% |</description>
+    </item>
+    
+    <item>
+      <title>在 Windows Server 2003 中启用 ASP.NET 2.0</title>
+      <link>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</link>
+      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</guid>
+      <description>##在 IIS 中的&amp;rdquo;Web 服务扩展&amp;rdquo;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中</description>
+    </item>
+    
+    <item>
+      <title>弱电装修建议</title>
+      <link>https://www.samrainhan.com/posts/2015-01-29-weak-renovation-proposal/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-01-29-weak-renovation-proposal/</guid>
+      <description>电视机后放TV×1、网线×1、2/3口×４（可选错位五孔插座×2） 插座有86（86×86）、118（118×72/155×72/197×72</description>
+    </item>
+    
+    <item>
+      <title>站点发布时序图</title>
+      <link>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>在线调查-个人评定 by typeform.com</title>
+      <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</guid>
+      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+    </item>
+    
+    <item>
+      <title>在线调查-团队效能 by typeform.com</title>
+      <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</guid>
+      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+    </item>
+    
+    <item>
+      <title>考勤系统建议</title>
+      <link>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</link>
+      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</guid>
+      <description>why 面临如下问题： 复杂的网络环境下联网 考勤点分散,全国甚至世界范围内 人员指纹数据自动备份 考勤机容量有限，人数多无法直接使用 人员调动时不需要重新</description>
+    </item>
+    
+    <item>
+      <title>测试导入网页</title>
+      <link>https://www.samrainhan.com/posts/2014-09-24-test-for-include-html/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-09-24-test-for-include-html/</guid>
+      <description>ss</description>
+    </item>
+    
+    <item>
+      <title>搜狗linux输入法有黑框</title>
+      <link>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</link>
+      <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</guid>
+      <description>我的环境是Lubuntu1404..asdf 安装xcompmgr后重启 启动xcompmgr解决了问题</description>
+    </item>
+    
+    <item>
+      <title>4096个印象笔记留念</title>
+      <link>https://www.samrainhan.com/posts/2014-09-05-4096-notes/</link>
+      <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-09-05-4096-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>信息侦察</title>
+      <link>https://www.samrainhan.com/posts/2014-09-05-information-reconnaissance/</link>
+      <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-09-05-information-reconnaissance/</guid>
+      <description>##目的 判断个人从事什么职业,有多少钱,爱好什么,肯为什么付钱 判断公司的规模,经营方向,和诚信 ##个人 姓名 手机 邮箱 QQ号 住址 微信 个人网站 生日</description>
+    </item>
+    
+    <item>
+      <title>Docbook</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-docbook/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-docbook/</guid>
+      <description>学习 DocBook DocBook XML/SGML Processing Using OpenJade 使用FOP转换Docbook到PDF时遇到的错误及解决 中文DocBook文档制作指南 Docbook帮助手册 DocBookGuide</description>
+    </item>
+    
+    <item>
+      <title>SVN</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-svn/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-svn/</guid>
+      <description>小型项目，并且是在同一个办公区域进行开发的话，应该推荐SVN（Subversion）;如果是对于不在一起办公，分布于各个地方开发的，应该推荐</description>
+    </item>
+    
+    <item>
+      <title>Trac SVN Apache网上收藏</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-trac-svn-apache/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-trac-svn-apache/</guid>
+      <description>trac-hacks.org Trac 手记1 Trac 手记2 Trac 手记3 Subversion與Trac使用經驗 Chinese translation for Trac 0.10.4</description>
+    </item>
+    
+    <item>
+      <title>Windows 服务快捷启动命令</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</guid>
+      <description>gpedit.msc－－－－－组策略 sndrec32－－－－－录音机 nslookup－－－－－地址侦测器 explorer－－－－－－打开资源</description>
+    </item>
+    
+    <item>
+      <title>ubuntu的链接收藏</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-ubuntu-marks/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-ubuntu-marks/</guid>
+      <description>抓取音轨 Ubuntu下模拟器安装使用扫盲 五种开源协议的比较(BSD,Apache,GPL,LGPL,MIT) 王垠《完全用Linux工作》 Syncing your</description>
+    </item>
+    
+    <item>
+      <title>virtualbox</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-virtualbox/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-virtualbox/</guid>
+      <description>如何复制已安装好系统的VDI文件作为新的Guest系统磁盘使用? 在VBox中如何和母机共享文件呢，就是在菜单“分配数据空间”里面把母机上面的</description>
+    </item>
+    
+    <item>
+      <title>商场防盗器原理</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-principle-of-anti-theft-device-in-stores/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-principle-of-anti-theft-device-in-stores/</guid>
+      <description>賣場衣物防盜器破壞解體 防盗磁扣的原理</description>
+    </item>
+    
+    <item>
+      <title>服务器选型 TPC估算</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-tpc-estimates/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-tpc-estimates/</guid>
+      <description>服务器TPMC值计算 性能测试指标介绍 (TPC-C) TPC搜索 tpmC简单计算法</description>
+    </item>
+    
+    <item>
+      <title>部门制度</title>
+      <link>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</guid>
+      <description>##一般会议执行制度 确定会议日程。确定会议中到底要讨论什么是保证会议效率的关键，没有会议日程就不要开会。 大会化小。短而主题独立的会议胜于长而</description>
+    </item>
+    
+    <item>
+      <title>信息技术部组织架构</title>
+      <link>https://www.samrainhan.com/posts/2014-08-29-it-department-organizational-structure/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-29-it-department-organizational-structure/</guid>
+      <description>技术部负责网站建设和系统开发，包括网站架构和技术开发，CRM系统，CallCentre系统，采购和仓储系统，订单管理系统等系统的策划、实施和</description>
+    </item>
+    
+    <item>
+      <title>合同编写需要关注的地方</title>
+      <link>https://www.samrainhan.com/posts/2014-08-29-the-key-points-of-the-contract/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-29-the-key-points-of-the-contract/</guid>
+      <description>1.工作范围 文字描述 附件 兜底条款 2.质量要求 需要补充 培训方面：按照不同等级的培训讲师，总共培训的人次数是多少，开发和接口方面培训 手册 3.价款</description>
+    </item>
+    
+    <item>
+      <title>解决Rhythmbox中文歌名字乱码问题</title>
+      <link>https://www.samrainhan.com/posts/2014-08-29-rhythmbox-chinese-song-name-to-solve-garbage-problem/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-29-rhythmbox-chinese-song-name-to-solve-garbage-problem/</guid>
+      <description>当你用Rhythmbox播放MP3的时候,会发现他下面的中文歌曲名字会显示成乱码,原因是中文歌曲的文件名使用的编码标准与系统默认的不一 样。要</description>
+    </item>
+    
+    <item>
+      <title>解决ubuntu下面的openjdk1.6的中文显示问题</title>
+      <link>https://www.samrainhan.com/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</guid>
+      <description>一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是</description>
+    </item>
+    
+    <item>
+      <title>互联网推广指标</title>
+      <link>https://www.samrainhan.com/posts/2014-08-19-internet-promotion-indicators/</link>
+      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-19-internet-promotion-indicators/</guid>
+      <description>##APP 1.正式用户数 下载量 安装量 激活量 按渠道统计 2.每周/2周/月活跃度 3.日/周留存率 参考游戏的日留存率&amp;gt;=40%,周留存率&amp;gt;=2</description>
+    </item>
+    
+    <item>
+      <title>丽水三日游</title>
+      <link>https://www.samrainhan.com/posts/2014-08-18-lishui-trip/</link>
+      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-18-lishui-trip/</guid>
+      <description>##第一天 上海出发，沿沈海高速经嘉绍大桥到【遂昌金矿旅游区】，约493.7公里 5小时4分钟。中饭在金华休息站吃。里程参考 【遂昌金矿旅游区】，</description>
+    </item>
+    
+    <item>
+      <title>小米成功经验</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-mimu-successful-experience/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-13-mimu-successful-experience/</guid>
+      <description>粉丝参与产品创新 用户体验 扁平化管理 粉丝经济 电子商务直销去除渠道成本和销售成本 新媒体和自媒体营销，去除营销成本 现代人不相信广告，相信社交 APP</description>
+    </item>
+    
+    <item>
+      <title>旁听活动记录</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</guid>
+      <description>贴心Tips 给外校同学车补（150元/4人），帮助他们晚上回家 红色胶带固定地上的线，可以和环境的红布协调 ###想法 做一个虚拟现实系统，可以复</description>
+    </item>
+    
+    <item>
+      <title>第三方网站监控</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-third-party-web-site-monitoring-service/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-13-third-party-web-site-monitoring-service/</guid>
+      <description>##阿里云监控 ##DNSPod监控 ##监控宝 ##360云监控</description>
+    </item>
+    
+    <item>
+      <title>第三方网速监控</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-third-party-speed-monitoring/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-13-third-party-speed-monitoring/</guid>
+      <description>国外 Gomez 在国外拥有最大规模的 Last Mile 监测网络 Keynote Nasdq 上市公司 ip-label 在欧洲的用户比较成熟 国内 博睿 基调 国内最多的 IDC 及 Last mile 节点 蓝太平洋</description>
+    </item>
+    
+    <item>
+      <title>销售业绩统计</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</guid>
+      <description>##分为三个实体 合同 甲方 乙方 总金额 付款比例 税点 发票类型 签订合同时间 售出/采购 合同内部编号 收/付款 收/付 时间 付款人 付款金额 付款理由 和那个合同对</description>
+    </item>
+    
+    <item>
+      <title>上海家具最便宜的地方</title>
+      <link>https://www.samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</link>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</guid>
+      <description>###红星美凯龙 - 汶水店（上海市宝山区汶水路1555号） - 真北店（上海市普陀区真北路1108号） ###上海月星家居广场 - 上海市普陀区澳门路1</description>
+    </item>
+    
+    <item>
+      <title>线上与线下的活动有什么推广渠道</title>
+      <link>https://www.samrainhan.com/posts/2014-08-03-promotion-channels-online-and-offline-activities/</link>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-08-03-promotion-channels-online-and-offline-activities/</guid>
+      <description>定位-&amp;gt;确定目标群体-&amp;gt;分析现状-&amp;gt;确定我们处于那个阶段-&amp;gt;建立不同的市场策略-&amp;gt;执行 ##线上推广分为： 1.数</description>
+    </item>
+    
+    <item>
+      <title>DNS解析参数配置说明</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</guid>
+      <description>A记录 将域名指向一个ip地址（仅IPV4） 双线解析 假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来</description>
+    </item>
+    
+    <item>
+      <title>个人知识管理平台V2.0</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-personal-knowledge-management-platform-v2/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-personal-knowledge-management-platform-v2/</guid>
+      <description>一般流程 1收集 工具 Chrome(pc,手机,平板) Evernote剪藏插件 feedly.com ifttt.com 纸笔 微信 一般场景 PC上网发现好东东 使用Evernote剪藏插件</description>
+    </item>
+    
+    <item>
+      <title>制度变更流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-institutional-change-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-institutional-change-process/</guid>
+      <description>随着使用的深入和公司的发展，业务流程和制度也会更新。需要有相应的制度变更流程 第一步，由制度修改人提交变更申请及变更草案到制度审核委员会邮箱 第</description>
+    </item>
+    
+    <item>
+      <title>办公环境IT管理规定</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-it-office-environment-regulations/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-it-office-environment-regulations/</guid>
+      <description>办公环境指公司内部网络Intrant、远程分支机构内部网络及访问Internet ##信息安全管理 数据安全的管理主要作用为了确保数据的实时可用</description>
+    </item>
+    
+    <item>
+      <title>员工待招聘名额确定流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-quota-to-be-determined-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-quota-to-be-determined-process/</guid>
+      <description>###根据既定计划或者部门预算 在年初或者年中，根据公司的总体目标，部门编制年度/半年度计划及预算。计划包括时间点及完成的目标及考核标准，预算</description>
+    </item>
+    
+    <item>
+      <title>员工招聘流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-process/</guid>
+      <description>人事部收到审批通过的人员招聘要求（JD、薪酬标准、最晚到岗时间和招聘负责人等） 第一步，人事部采用各种方法寻找符合要求的人员。当发现有适合人员</description>
+    </item>
+    
+    <item>
+      <title>员工换岗流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-employees-changing-of-the-guard-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-employees-changing-of-the-guard-process/</guid>
+      <description>第一步，人事部发出Offer给原部门负责人和用人单位负责人 第二步，用人单位负责人和原部门负责人回复同意 第三步，人事部发出正式offer给员工</description>
+    </item>
+    
+    <item>
+      <title>员工离职流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-employee-turnover-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-employee-turnover-process/</guid>
+      <description>第一步，员工发辞职报告邮件给部门负责人 第二步，部门负责人回复同意后抄送给人事部专用邮箱 第三步，该邮件经过人事部审核通过后，转发至IT部指定邮</description>
+    </item>
+    
+    <item>
+      <title>微博代运营的KPI指标</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-weibo-kpi/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-weibo-kpi/</guid>
+      <description>增加粉丝数量，其中活跃粉丝X%以上 活动参与者XXX人，转发及评论量平均每话题XXX人以上 日常论题 X条/日 互动回复 X条/日 微博活动 X活动/月 页</description>
+    </item>
+    
+    <item>
+      <title>新员工入职流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-checkin-process-for-new-employees/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-checkin-process-for-new-employees/</guid>
+      <description>人事部发出Offer给用人单位负责人 用人单位负责人回复同意 人事部发出正式offer给新员工个人邮箱，同时抄送给用人单位负责人。 用人单位负责人</description>
+    </item>
+    
+    <item>
+      <title>生产环境IT管理规定</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</guid>
+      <description>分为2类人群：后台服务人员和IT运维人员 后台服务人员：在有门禁的专门房间内，通过特殊线路接入生产环境。进出房间必须每人使用各自的门禁卡。 IT</description>
+    </item>
+    
+    <item>
+      <title>给食物拍照的小技能</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</guid>
+      <description>###三种拍摄角度 0 45 90 ###三种构图方法 空间感 突出主体 斜入（筷子/吸管） ###拍照三宝 靠窗拍 干净底 趁热拍</description>
+    </item>
+    
+    <item>
+      <title>苏州蠡口家具购买攻略汇总</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-suzhou-likou-furniture-supermarkets/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-suzhou-likou-furniture-supermarkets/</guid>
+      <description>中国家具集散地 广东顺德乐从 苏州蠡口 河北(北京)香河 成都八一 郑州中博 中国家具生产基地 东莞厚街 东莞大岭山 深圳龙岗 顺德龙江 成都 浙江玉环 浙江安吉 广州</description>
+    </item>
+    
+    <item>
+      <title>资源申请流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-resources-application-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-resources-application-process/</guid>
+      <description>第一步，员工发资源申请报告给部门负责人 第二步，根据资源的多少和紧急程度，可能会提交到更高一级的人员来进行审批 第三步，根据资源类型的不同来分，</description>
+    </item>
+    
+    <item>
+      <title>面试技巧</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-interview-tips/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-31-interview-tips/</guid>
+      <description>##电话面试的主要目的： 确定对方是否很愿意换工作 初步确定对方是否符合公司的价值观，是否能和公司一起成长 初步判断沟通能力问题不在乎答案，而是在</description>
+    </item>
+    
+    <item>
+      <title>DNS工具</title>
+      <link>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</guid>
+      <description>域名健康诊断 dnspod.cn 我的PC上最优DNS服务器是哪个? dnspod.cn</description>
+    </item>
+    
+    <item>
+      <title>7×24小时不间断运行</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</guid>
+      <description>1.设置AutoHotkey的属性为【以管理员身份启动】 2.设置开机不需要密码登陆系统 control userpasswords2 3.修改ahk文件 将第四行从#n::改为::，这样</description>
+    </item>
+    
+    <item>
+      <title>上海的怀旧跳蚤集市</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</guid>
+      <description>怀旧跳蚤集市 淘宝网 豆瓣网 Vintagefair复古市集 豆瓣网 鹦鹉螺复古市集 豆瓣网 UTAU艺术空间 豆瓣网 单车市集 豆瓣网 联洋广场跳蚤市场 新浪微博</description>
+    </item>
+    
+    <item>
+      <title>初学ngrok</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</guid>
+      <description>官网在此：ngrok.com 源码在此：github.com/ngrok 前辈高人的中文说明在此：NGROK 内网穿透利器 下面只说我自己试验成功的</description>
+    </item>
+    
+    <item>
+      <title>工作的意义</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-the-meaning-of-work/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-the-meaning-of-work/</guid>
+      <description>转wangyin的话，我有些赞同。 现代社会很多人为了所谓的“生存”，把自己变成了一台盲目不停工作的机器。加班加点的干活，并且还试图让别人也变</description>
+    </item>
+    
+    <item>
+      <title>（转）初创企业的股权分配原则</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-equity-startups-allocation-principles/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-equity-startups-allocation-principles/</guid>
+      <description>##最重要的（股权分配）原则：公平，而且可感知到的公平，比真正拥有大的股份更有价值。 越迟加入公司的员工需要冒的风险越低。 创始人应该最终拿整个</description>
+    </item>
+    
+    <item>
+      <title>（转）外企、企业文化、人性</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</guid>
+      <description>外企刻意制造并利用人性中一个很可怕的弱点——优越感。 外企怎么可能没有勾心斗角，每个企业都需要“善于勾心斗角”的人，再大的企业都一样，要不然怎</description>
+    </item>
+    
+    <item>
+      <title>向日葵产品分析</title>
+      <link>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</link>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</guid>
+      <description>#定价 4680元/年 #产品介绍 1个个人网站 公司介绍 产品资料 个人信息 10个承诺转介绍客户 1个手机网站 网络名片 随时随地向客户展示专业代理人身份信</description>
+    </item>
+    
+    <item>
+      <title>税务局代开发票流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-24-revenue-and-invoicing-process/</link>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-07-24-revenue-and-invoicing-process/</guid>
+      <description>准备材料清单 对方一般纳税人资格证复印件（对方为一般纳税人） 双方合同 印花税票，贴在合同上 对方付款证明，如果未付款须写证明（确认开票金额和用途）</description>
+    </item>
+    
+    <item>
+      <title>优化可见性</title>
+      <link>https://www.samrainhan.com/posts/2014-06-26-optimize-visibility/</link>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-26-optimize-visibility/</guid>
+      <description>当前，搜索引擎已经成为互联网的主要应用之一。2011年美国皮尤调查（Pew）发布的调查统计结果显示，92%的成年互联网用户会使用搜索引擎在互</description>
+    </item>
+    
+    <item>
+      <title>科学地规划和调整网站栏目体系</title>
+      <link>https://www.samrainhan.com/posts/2014-06-25-scientific-planning-and-adjustment-of-website/</link>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-25-scientific-planning-and-adjustment-of-website/</guid>
+      <description>基于用户的使用数据，引入日志挖掘、社会网络和行为分析等智能化分析手段，通过对政府网站用户使用行为的跟踪与挖掘，可以有效指导政府网站栏目的设计</description>
+    </item>
+    
+    <item>
+      <title>基于用户体验持续开展网站优化</title>
+      <link>https://www.samrainhan.com/posts/2014-06-24-based-on-user-experience-ongoing-website-optimization/</link>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-24-based-on-user-experience-ongoing-website-optimization/</guid>
+      <description>当前，政府网站优化改版工作已经成为提升政府网站服务质量、保持政府网站良性发展的重要工作。但目前政府网站改版缺乏科学的决策支撑手段，网站改版的</description>
+    </item>
+    
+    <item>
+      <title>推动政府网站向供给和需求并重的建站模式转型</title>
+      <link>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</guid>
+      <description>从用户体验优化和服务供给规范两个角度共同推动政府网站优化与改进“双轮驱动”的政府网站建站模式，形成由需求端向供给端回溯、“自下而上”的创新驱</description>
+    </item>
+    
+    <item>
+      <title>iCity仪表盘</title>
+      <link>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</guid>
+      <description>iCity仪表盘报告提供了更及时的表现手法和工作进展报告,有些数据启用实时更新,例如公共交通数据,而有些数据则每日、每周或是每月进行统计分析</description>
+    </item>
+    
+    <item>
+      <title>城市流程绩效管理平台</title>
+      <link>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</link>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</guid>
+      <description>城市流程绩效管理平台基于云计算,通过整合与城市管理流程自动化,使用先进的技术与综合服务质量评估体系,驱动公共服务的效率和有效性。同时,市民可</description>
+    </item>
+    
+    <item>
+      <title>指尖上的政府</title>
+      <link>https://www.samrainhan.com/posts/2014-06-20-government-fingertips/</link>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-20-government-fingertips/</guid>
+      <description>面对势不可挡的移动互联网浪潮，面对传统互联网用户大范围向移动互联网融合的势头，加之庞大的社会化媒体用户量和其惊人的增长速度，打通互联网、移动</description>
+    </item>
+    
+    <item>
+      <title>个性化智慧门户</title>
+      <link>https://www.samrainhan.com/posts/2014-06-19-personalized-intelligence-portal/</link>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-19-personalized-intelligence-portal/</guid>
+      <description>个性化智慧门户理想模型是指将个性化信息服务的完整流程和已有的电子政务系统紧密结合的理想状态，因此，理想模型必须包括这两大部分内容: 1.个性化</description>
+    </item>
+    
+    <item>
+      <title>政府门户网站</title>
+      <link>https://www.samrainhan.com/posts/2014-06-18-government-portal/</link>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-18-government-portal/</guid>
+      <description>政府门户网站的定位至少有以下三个方面： 1.市民服务功能 市民服务是政府门户的最主要功能。以最终外部用户的使用满意为目标。政府门户应当一定程度的</description>
+    </item>
+    
+    <item>
+      <title>实施网站群需要注重的几个关键环节</title>
+      <link>https://www.samrainhan.com/posts/2014-06-17-key-aspects-of-the-groups-website/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-17-key-aspects-of-the-groups-website/</guid>
+      <description>##1.明确关注点 实现全面、均衡、可控、协调地发展电子政务的目标; 以政府网站为抓手转向政府网站群为抓手!任务、重心、策略都要发生变化; 形成网</description>
+    </item>
+    
+    <item>
+      <title>衡量网站群的关键指标</title>
+      <link>https://www.samrainhan.com/posts/2014-06-16-key-indicators-to-measure-the-groups-website/</link>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-16-key-indicators-to-measure-the-groups-website/</guid>
+      <description>衡量网站群的关键外显性标志 站内单点登录; 统一网站群搜索; 一站式受理服务程度; 相对统一的界面设计和风格; 衡量网站群的关键内在性标志 网站群之间的</description>
+    </item>
+    
+    <item>
+      <title>网站群产品选型原则</title>
+      <link>https://www.samrainhan.com/posts/2014-06-15-product-selection-principles-website-group/</link>
+      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-15-product-selection-principles-website-group/</guid>
+      <description>网站群在国内是一个比较新的概念与建站模式,整个技术体系的发展模式与思路还处在一个一边摸索一边发展的阶段,所以,在产品选型上就要更加慎重,尤其</description>
+    </item>
+    
+    <item>
+      <title>网站群工作机制</title>
+      <link>https://www.samrainhan.com/posts/2014-06-14-website-group-working-mechanism/</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-14-website-group-working-mechanism/</guid>
+      <description>政府网站是政府信息公开、办事平台、便民服务、政府与市民互动交流总平台，因此，政府门户网站建设与管理涉及政府各部门，综合性、业务性、技术性和安</description>
+    </item>
+    
+    <item>
+      <title>网站群建设模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-13-website-group-functions-envisaged/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-13-website-group-functions-envisaged/</guid>
+      <description>根据网站群建设模式的目标要求，它应当是一个集站点群设计、开发、注册、部署、管理、调用及内容管理于一体的站点群支撑平台，根据业务特征可划分为站</description>
+    </item>
+    
+    <item>
+      <title>网站群建设模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-12-site-construction-model-group/</link>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-12-site-construction-model-group/</guid>
+      <description>在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。 1.加强</description>
+    </item>
+    
+    <item>
+      <title>网站群特征</title>
+      <link>https://www.samrainhan.com/posts/2014-06-11-website-group-characteristics/</link>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-11-website-group-characteristics/</guid>
+      <description>技术性定义:是指统一部署,统一标准,建立在统一技术构架基础之上,信息可以实现基于特定权限共享呈送的“一群网站”。是以政府网为核心、以电子政务</description>
+    </item>
+    
+    <item>
+      <title>大型网站群的建设及管理模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</link>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</guid>
+      <description>中国企业的信息化建设自20世纪90年代开始，域名（网站）、企业邮箱、OA是企业信息化的起步点，随着拨号上网用户的增加，以及1999-2001</description>
+    </item>
+    
+    <item>
+      <title>2014年上海市促进文化创意产业发展财政扶持资金项目申报</title>
+      <link>https://www.samrainhan.com/posts/2014-06-09-2014-promote-the-development-of-cultural-and-creative-industries-support-fund-finances-projects-on-shanghai/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-09-2014-promote-the-development-of-cultural-and-creative-industries-support-fund-finances-projects-on-shanghai/</guid>
+      <description>申报须知:东方文创网 关键字 支持为文化创意产业发展提供信息服务、产业化服务、投融资服务等公共服务平台的建设和推广应用项目；支持建立和完善文化创</description>
+    </item>
+    
+    <item>
+      <title>如何通过修改文件配置Git远程链接</title>
+      <link>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</guid>
+      <description>修改文件.git/config，在[remote &amp;quot;origin&amp;quot;]一节中将url=改为远程链接。例如url = git@github.com:samrain/samrain.github.com.git 然后执行g</description>
+    </item>
+    
+    <item>
+      <title>开会怎么赚钱</title>
+      <link>https://www.samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</guid>
+      <description>收入 赞助商 最大收入 根据赞助费用多少,分为钻石,白金,金牌 好处是可以拥有展台,或把logo放在大背板上,还有些议题专门留给赞助商 赞助议题有2个</description>
+    </item>
+    
+    <item>
+      <title>怎么在Ubuntu上安装LEMP（linux/nginx/MySQL/PHP）</title>
+      <link>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</guid>
+      <description>英文原帖在此:How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04 简化翻译如下 安装程序文件 运行sudo apt-get update 运行sudo apt-get install mysql-server php5-mysql nginx php5-fpm 配置MySQL 运行sudo mysql_install_db 运行s</description>
+    </item>
+    
+    <item>
+      <title>怎么装箱</title>
+      <link>https://www.samrainhan.com/posts/2014-06-08-how-to-pack-clothes/</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-08-how-to-pack-clothes/</guid>
+      <description>薄衣服 纵向对折，再把袖子折进去，最后横向卷起来 外套 纵向对折（有帽子就先把帽子往内折），再把袖子折进去 软妹子内衣 内内折叠后放进罩杯然后包在干净</description>
+    </item>
+    
+    <item>
+      <title>我看O2O</title>
+      <link>https://www.samrainhan.com/posts/2014-06-08-o2o/</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-08-o2o/</guid>
+      <description>核心 重视和每个顾客的交流，和每个顾客建立良好关系 方式 在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺</description>
+    </item>
+    
+    <item>
+      <title>日本设计大师的书籍</title>
+      <link>https://www.samrainhan.com/posts/2014-06-08-japanese-design-master-bibliography/</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-08-japanese-design-master-bibliography/</guid>
+      <description>原研哉 设计中的设计 欲望的教育 白 原研哉的设计世界 请偷走海报 原研哉 / 阿部雅世 为什么设计 隅研吾 负建筑 十宅论 反造型 自然的建筑 新建筑入门 田中一光 设计的</description>
+    </item>
+    
+    <item>
+      <title>活动推广互联网部分</title>
+      <link>https://www.samrainhan.com/posts/2014-06-08-activities-to-promote-internet-content-and-quotes/</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-06-08-activities-to-promote-internet-content-and-quotes/</guid>
+      <description>活动推广互联网部分 官方网站 仅PC 仅手机 自适应（PC和手机) 工具 电子邀请函 电子楼书(2D/3D) 小游戏</description>
+    </item>
+    
+    <item>
+      <title>二维码的各种类型</title>
+      <link>https://www.samrainhan.com/posts/2014-05-30-qr-code-generator/</link>
+      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-30-qr-code-generator/</guid>
+      <description>免费制作二维码站点 改图网 草料二维码 FreeFormatter.com QR Code Generator 联系人信息 address books (vcard) 姓名 name 公司 company 行业 occupation 电话 telephone 电邮 email 地址 address 网址 website URL 备注 note 事件 events (vcalendar, vevent) 标题 title 位置 location 描述 description 开始</description>
+    </item>
+    
+    <item>
+      <title>极度失望的印象笔记-人脉</title>
+      <link>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</guid>
+      <description>今天被人骗用了下印象笔记的人脉，一泡5啊。 竟然要和linkdin连接起来用，这也就算了。 最让人吐槽的是：我要和别人碰面，新建这个活动的时候，</description>
+    </item>
+    
+    <item>
+      <title>上海浦江两岸骑行一日行程</title>
+      <link>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</guid>
+      <description>大华三路真华路 南 交通路真华路 东 交通路中兴路 东 上海火车站北广场 被阻隔在里面绕了一圈重新回到中兴路 东 中兴路长兴路 南 长兴路永兴路 东 永兴路西藏北路 南</description>
+    </item>
+    
+    <item>
+      <title>AutoHotkey如何在Win8上正常使用</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</guid>
+      <description>在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。</description>
+    </item>
+    
+    <item>
+      <title>华为荣耀3X小贴士</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-tips-of-huawei-honor-3x/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-tips-of-huawei-honor-3x/</guid>
+      <description>荣耀3X维修点及换屏费用一览 上海聚眸网络信息技术有限公司 China上海市上海市虹口区赤峰路602号 021-65830477 680元 海叶格通讯科技有限公司 China</description>
+    </item>
+    
+    <item>
+      <title>如何打绳结</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-play-knots/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-play-knots/</guid>
+      <description>半结 就是常说的活结 八字结 打活结时不穿洞,而是向反方向走,再绕过绳子穿回原来的洞</description>
+    </item>
+    
+    <item>
+      <title>怎么查询一级域名下有哪些二级域名</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</guid>
+      <description>请替换[XXX.com]为需要的域名 http://www.baidu.com/#wd=site%3A[XXX.com] http://webscan.360.cn/sub/index/?url=[XXX.com]</description>
+    </item>
+    
+    <item>
+      <title>拍张3D照片</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</guid>
+      <description>原帖在此：拍张 3D 照片 #iPhone #Android 共4款： Seene #iPhone Moju #iPhone Phogy #Android 织图#iPhone #Android 因为我倾向于用android手机，所以就不试验iphone下的2款了，抱歉。</description>
+    </item>
+    
+    <item>
+      <title>转换图形文件在linux命令行方式</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</guid>
+      <description>安装ImageMagick 将当前目录下的图片文件按照文件名排序后合成pdf convert *.png out.pdf 缩小文件尺寸 convert -resize 50%x50% *.jpg</description>
+    </item>
+    
+    <item>
+      <title>最新网站案例By泉盛</title>
+      <link>https://www.samrainhan.com/posts/2014-05-10-the-newest-cases-of-coprize-com/</link>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-10-the-newest-cases-of-coprize-com/</guid>
+      <description>禧福集团 颢辉贸易 申蓝广告 上海创意产业集聚区资源共享公共服务平台 鑫众传媒 南方周末-创新之声 南方周末-方太青竹简 南方周末-健康饮酒中国行 郑明明集</description>
+    </item>
+    
+    <item>
+      <title>程序化交易的另一些概念</title>
+      <link>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</link>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</guid>
+      <description>报酬比原则 宏观环境影响 月周图表的技术趋势 咬定长期趋势 短线技术趋势判断 日线图表 3日/5日等短期均线的方向和角度 关键技术位置的评判 距离止损位置的</description>
+    </item>
+    
+    <item>
+      <title>购买铜门推荐清单</title>
+      <link>https://www.samrainhan.com/posts/2014-05-10-recommended-list-for-copper-doors/</link>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-10-recommended-list-for-copper-doors/</guid>
+      <description>推荐 上海雅饰窗实业有限公司（如雅铜门） www.shrytm.com http://shop70809040.taobao.com/ http://ruya.tmall.com/ 4006021605 展厅地址:上海市宝山区蕰川路512号共富园红石商务大楼6楼 保修一年，按成本价终生维修，可享受一</description>
+    </item>
+    
+    <item>
+      <title>微信代运营-产品规格</title>
+      <link>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>快速安装我的Lubuntu V2.0版</title>
+      <link>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</guid>
+      <description>Install 完全弱智图形化安装界面，如果是新手请选择自动分配空间. 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：</description>
+    </item>
+    
+    <item>
+      <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>
+      <link>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</guid>
+      <description>如果想要在 Chrome 上测试网站在不同设备，不同分辨率的显示情况，那么就试试 Chrome 开发工具的设备模拟器吧。进入到开发者工具（快捷键 F12），应该是在右下侧</description>
+    </item>
+    
+    <item>
+      <title>什么是全案推广</title>
+      <link>https://www.samrainhan.com/posts/2014-01-18-what-is-the-no-limit-promotion/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-01-18-what-is-the-no-limit-promotion/</guid>
+      <description>#一般项目过程 定位&amp;gt;传播&amp;gt;获取&amp;gt;引导&amp;gt;促进&amp;gt;维系&amp;gt;扩展 对目标人群细分 列出所有可行的网络推广方法，然后多方</description>
+    </item>
+    
+    <item>
+      <title>程序化交易的一些概念</title>
+      <link>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</guid>
+      <description>#入市策略 趋势跟踪法 震荡期法 价格模式 #过滤策略 筛选出最具有交易价值的交易信号 #退出策略 目标盈利 跟踪止损 固定止损 #最后15分钟收益率，对次日股</description>
+    </item>
+    
+    <item>
+      <title>搬家经验总结</title>
+      <link>https://www.samrainhan.com/posts/2013-12-17-moving-experience/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-17-moving-experience/</guid>
+      <description>发动群众 之前我做了很充分的准备，比如装修方案甚至按照实际尺寸用软件画出三维图，并研究出好几套座位和家具布置方案。但是真的到把东西搬到现场时，</description>
+    </item>
+    
+    <item>
+      <title>合作协议模版</title>
+      <link>https://www.samrainhan.com/posts/2013-12-13-cooperation-agreement-template/</link>
+      <pubDate>Fri, 13 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-13-cooperation-agreement-template/</guid>
+      <description>首页 协议名称：XXXXXXXXXX服务协议书 服务单位（甲方）：XXXXXXXXXX公司 被服务单位（乙方）：XXXXXXXX公司 签订日期：年月</description>
+    </item>
+    
+    <item>
+      <title>IT运维外包调查问卷</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/</guid>
+      <description>#IT运维外包调查问卷 ##基本信息 - 企业名称 - 联系人姓名 - 联系人职务 - 联系人手机 - 联系人Email ##人员 - 总人数 - 平均办公室人数 ##工作情</description>
+    </item>
+    
+    <item>
+      <title>IT运维外包调查问卷</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/</guid>
+      <description>#向OpenFire和Spark说再见 由于人力和服务器资源整合，运行了一年多的OpenFire已于上周关闭。 回想过程中的酸甜苦辣，特此撰文纪</description>
+    </item>
+    
+    <item>
+      <title>园区智能化方案</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-park-intelligent-solutions/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-12-park-intelligent-solutions/</guid>
+      <description>思维导图文件下载 需求分析 分期建设 选择系统品牌及设备规格时需为分期建设考虑整体系统的兼容性。 兼容性 可扩充性 预留空间和接口 系统清单 综合布线系统 主</description>
+    </item>
+    
+    <item>
+      <title>客户营销流程最佳实践</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/</guid>
+      <description>思维导图文件下载 1.研究客户（也许就是你自己），寻找他觉得不爽的地方 2.问客户想不想爽 3.客户说想 4.我们提时间计划、预算和目标 5.我们和客</description>
+    </item>
+    
+    <item>
+      <title>快速安装我的Lubuntu</title>
+      <link>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</guid>
+      <description>思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选</description>
+    </item>
+    
+    <item>
+      <title>用Emacs编辑Markdown</title>
+      <link>https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/</guid>
+      <description>思维导图文件下载 Why 今日我终于又将编辑器从ST2换成了Emacs，主要原因就是ST2不支持linux上输入中文。但是之前在ST2编辑markd</description>
+    </item>
+    
+    <item>
+      <title>解决pdf文件不能在nook2上观看问题</title>
+      <link>https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/</guid>
+      <description>在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软</description>
+    </item>
+    
+    <item>
+      <title>露营烧烤准备材料</title>
+      <link>https://www.samrainhan.com/posts/2013-09-05-prepare-materials-for-camping-and-bbq/</link>
+      <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-05-prepare-materials-for-camping-and-bbq/</guid>
+      <description>思维导图文件下载 露营 帐篷 地布 帐篷 铝箔地席防潮垫 亮面向上 防潮垫 发泡 充气 睡袋 不同季节用不同睡袋 工具 帐篷灯 手电筒 牙刷 牙膏 绳子 毛巾 药品 感冒药 发烧药 烫</description>
+    </item>
+    
+    <item>
+      <title>Nmap初体验</title>
+      <link>https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/</guid>
+      <description>思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管</description>
+    </item>
+    
+    <item>
+      <title>十大网络安全工具</title>
+      <link>https://www.samrainhan.com/posts/2013-09-03-network-security-tools/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-03-network-security-tools/</guid>
+      <description>思维导图文件下载 黑客的Linux:Backtrack 恶意软件分析工具 Virustotal.com Jotti.com 漏洞检测框架:Metasploit 端口扫描工具:Nmap 网络流量分析</description>
+    </item>
+    
+    <item>
+      <title>耳放MDAD Mini满血复活</title>
+      <link>https://www.samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</guid>
+      <description>思维导图文件下载 原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。</description>
+    </item>
+    
+    <item>
+      <title>ThoughtWorks(中国)程序员读书雷达</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-thoughtworks-china-programmer-reading-radar/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-thoughtworks-china-programmer-reading-radar/</guid>
+      <description>思维导图文件下载 Coding Practice | 编程实践 基础篇 Clean Code《代码整洁之道》 Pragmatic Unit Testing《单元测试之道》 The Productive Programmer《卓有成效的程序员》</description>
+    </item>
+    
+    <item>
+      <title>如何申报高新技术企业</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-how-to-be-a-high-tech-company/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-how-to-be-a-high-tech-company/</guid>
+      <description>思维导图文件下载 企业研究开发组织管理情况 五个管理制度 票据 专利 年份 转化成果 转化年份 科技成果转化证明材料 软件产品证书 科技综合实力 技术产权 科研成果</description>
+    </item>
+    
+    <item>
+      <title>学习golang</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-study-golang/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-study-golang/</guid>
+      <description>思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以</description>
+    </item>
+    
+    <item>
+      <title>怎样导入google日历</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</guid>
+      <description>思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成</description>
+    </item>
+    
+    <item>
+      <title>玩转Emacs</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</guid>
+      <description>思维导图文件下载 快捷键 粘帖:c-y 新建/打开文件:c-x c-f 替换打开的文件:c-x c-v 保存文件: c-x c-s 写文件(需要输入文件名，回车默认不变): c-x c-w</description>
+    </item>
+    
+    <item>
+      <title>申报政府科技项目的价值</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-what-is-the-value-of-doing-the-government-high-tech-project/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-07-31-what-is-the-value-of-doing-the-government-high-tech-project/</guid>
+      <description>思维导图文件下载 开源 科技创新基金 软件产业发展专项基金 上海市服务业发展引导资金 企业自主创新专项资金 创新型试点城区建设和发展专项资金 节流 减税 营业</description>
+    </item>
+    
+    <item>
+      <title>《奇特的一生》读书笔记</title>
+      <link>https://www.samrainhan.com/posts/2013-05-28-strange-life/</link>
+      <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-28-strange-life/</guid>
+      <description>思维导图文件下载 坚持记日记，从不间断 定时总结 每日 每月 每年 拟定计划 月度 年度 5年计划 看书慢而精 详细的摘要 重要的书，先写个提纲再进行分析研究，尽量</description>
+    </item>
+    
+    <item>
+      <title>怎么使用impress.js</title>
+      <link>https://www.samrainhan.com/posts/2013-05-20-impress-js/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-20-impress-js/</guid>
+      <description>思维导图文件下载 官网 缺点：许多细节都要自己指定，特别是页面宽度 优点：有全局的感觉，很炫 用法 官网指南 DEMO 功能设置 在每张slide的div标签中设</description>
+    </item>
+    
+    <item>
+      <title>MapReduce简介</title>
+      <link>https://www.samrainhan.com/posts/2013-05-15-mapreduce/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-15-mapreduce/</guid>
+      <description>思维导图文件下载 Google提出的一个软件架构，用于大规模数据集（大于1TB）的并行运算 Map(映射)和Reduce(化简) 映射 简单说来，一</description>
+    </item>
+    
+    <item>
+      <title>制作ppt的非office工具</title>
+      <link>https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/</guid>
+      <description>思维导图文件下载 inkscape + sozi inkscape是矢量文件编辑工具，Sozi是 inkscape 的外掛.使用SVG和JS来播放图片和文字 转如何制作 优点：不需要做编程方</description>
+    </item>
+    
+    <item>
+      <title>怎么用Google日历</title>
+      <link>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</link>
+      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</guid>
+      <description>思维导图文件下载 键盘快捷键 日历界面 Ctrl+? / Cmd+? 或 ? 快捷键菜单 调出键盘快捷键菜单 C 创建活动 可让您创建新活动。 / 搜索 将光标放在搜索框中 Ctrl+z / Cmd+z 或 z 撤消 撤</description>
+    </item>
+    
+    <item>
+      <title>linux下中文OCR</title>
+      <link>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</link>
+      <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</guid>
+      <description>思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse</description>
+    </item>
+    
+    <item>
+      <title>Chrome很酷功能</title>
+      <link>https://www.samrainhan.com/posts/2013-05-06-chrome-cool-features/</link>
+      <pubDate>Mon, 06 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-05-06-chrome-cool-features/</guid>
+      <description>思维导图文件下载 1.在Chrome地址栏内输入chrome://flags 2.功能介绍 密码生成 开启“启用密码生成功能”，然后进入任何一个注册</description>
+    </item>
+    
+    <item>
+      <title>旅游拍照，驴友最爱：”文化上海“系列_全景图</title>
+      <link>https://www.samrainhan.com/posts/2013-04-26-shanghai-museum2012/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-26-shanghai-museum2012/</guid>
+      <description>介绍如下：博物馆的秘密 ”文化上海“系列画廊_全景图.jpg ”文化上海“系列美术馆_全景图.jpg ”文化上海“系列博物馆_全景图.jpg ”文化</description>
+    </item>
+    
+    <item>
+      <title>上海活动场所</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-shanghai-venues/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-shanghai-venues/</guid>
+      <description>思维导图文件下载 地区 静安别墅 同乐坊 田子坊 尚街LOFT 组织 公益跳蚤会</description>
+    </item>
+    
+    <item>
+      <title>上线前准备</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-prepare-for-go-live/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-prepare-for-go-live/</guid>
+      <description>思维导图文件下载 办公环境准备 PC检查 服务器检查 打印机检查 传真机检查 电话线路检查 网络线路检查 软件客户端检查 备份检查 生产环境准备 服务器检查 网络线</description>
+    </item>
+    
+    <item>
+      <title>企业文化墙</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-enterprise-culture-wall/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-enterprise-culture-wall/</guid>
+      <description>思维导图文件下载 海报 标语 KISS——Keep It Simple &amp;amp; Stupid 谦虚、谨慎、勤奋、有恒——更快、更高、更强 没有完美的个人，只有趋于完美的团队 Logo 风采 个人 照</description>
+    </item>
+    
+    <item>
+      <title>名句摘录（转）</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-short-sentences/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-short-sentences/</guid>
+      <description>思维导图文件下载 时间存在的唯一意义就是告诉我们任何事情 都不可能立刻实现，事情总是循序渐进. 三个关于需求的简单事实 不可能在项目开始的时候收集到</description>
+    </item>
+    
+    <item>
+      <title>吴式团队</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-wu-style-team/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-wu-style-team/</guid>
+      <description>思维导图文件下载 计划 务必覆盖所有事务 同类事务尽量合并 绝不混淆 控制颗粒度 不能太粗，否则难以执行 不能太细，否则执行太累 标准任务 确定目标 每周四 召开</description>
+    </item>
+    
+    <item>
+      <title>我是怎么使用evernote</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-use-evernote/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-23-use-evernote/</guid>
+      <description>思维导图文件下载 收集信息 chrome上clearly插件 只看主要部分的信息，排除一些外在干扰 chrome上evernote插件 碰到喜欢的网页</description>
+    </item>
+    
+    <item>
+      <title>培训的一般流程</title>
+      <link>https://www.samrainhan.com/posts/2013-04-12-training-process/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-12-training-process/</guid>
+      <description>思维导图文件下载 1. 确定学习需求 开放性的问题 公司所有人 经理提出团队的需求 上级提出对下级的需求 下级提出对上级的需求 对于同事和其他部门的需求 2. 确定</description>
+    </item>
+    
+    <item>
+      <title>看板的一些总结</title>
+      <link>https://www.samrainhan.com/posts/2013-04-12-kanban/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-12-kanban/</guid>
+      <description>思维导图文件下载 特征 由后向前取用 平准化生产 品质保证 严守生产规则 自组织团队 最少量的人员 不管几个人都能开工 否定定员制 不能因为实行岗位责任制， 做好</description>
+    </item>
+    
+    <item>
+      <title>信息技术中心职责</title>
+      <link>https://www.samrainhan.com/posts/2013-04-10-the-duties-of-the-information-technology-center/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-10-the-duties-of-the-information-technology-center/</guid>
+      <description>思维导图文件下载 技术管理部 建立和完善人员培养机制，通过制定有效的关键岗位继任者和后备干部甄选计划以及岗位轮换计划、内部见习计划、职业导师计划</description>
+    </item>
+    
+    <item>
+      <title>公正、平等、共享</title>
+      <link>https://www.samrainhan.com/posts/2013-04-10-fair-equality-share/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-10-fair-equality-share/</guid>
+      <description>思维导图文件下载 公正 尊重契约 道德 平等 恕 人人平等 己所不欲勿施于人 建立契约时那瞬间的平等 人人向往不平等,希望高人一筹 共享 利益 知识 其他 信息</description>
+    </item>
+    
+    <item>
+      <title>CIO工作内容片段</title>
+      <link>https://www.samrainhan.com/posts/2013-04-08-cio-work/</link>
+      <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-08-cio-work/</guid>
+      <description>思维导图文件下载 首席信息官的职责 直接参与企业与信息科技运用有关的业务发展决策 确保信息科技战略，尤其是信息系统开发战略，符合总体业务战略和信息</description>
+    </item>
+    
+    <item>
+      <title>信息技术部 岗位职责</title>
+      <link>https://www.samrainhan.com/posts/2013-04-07-responsibilities-of-the-ministry-of-information-technology/</link>
+      <pubDate>Sun, 07 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-07-responsibilities-of-the-ministry-of-information-technology/</guid>
+      <description>思维导图文件下载 管理职责 人力资源管理 岗位招聘 电话面试 当面面试 文化建设 团队建设 思想交流 新员工培训计划 新员工导师 项目管理 工作计划修订 任务进度跟踪</description>
+    </item>
+    
+    <item>
+      <title>会议通用描述</title>
+      <link>https://www.samrainhan.com/posts/2013-04-02-meeting-wiki/</link>
+      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-02-meeting-wiki/</guid>
+      <description>思维导图文件下载 Why 解决不同部门间问题 同部门内为了一个目标而进行的商讨 Who 会议主持人 会议参与者 会议记录员 What 确定会议日程 确定会议中到底要讨论什么是</description>
+    </item>
+    
+    <item>
+      <title>内部培训制度</title>
+      <link>https://www.samrainhan.com/posts/2013-04-02-internal-training-system/</link>
+      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-02-internal-training-system/</guid>
+      <description>思维导图文件下载 Why 让大家的知识可以共享 降低公司培训成本 加强个人责任感和荣誉感 加强同事之间的了解 Who 训 只要是觉得可以共享自己的知识和经验给其他同</description>
+    </item>
+    
+    <item>
+      <title>软件开发文档命名规范</title>
+      <link>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</link>
+      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</guid>
+      <description>思维导图文件下载 Why 统一规范便于管理 Who 本部门员工 外包厂商员工 What 规定之后部门及项目上的文档命名规范 How 文件名规范：执行组织编码-项目代号-文档类型</description>
+    </item>
+    
+    <item>
+      <title>培训的基本规范及技巧</title>
+      <link>https://www.samrainhan.com/posts/2013-04-01-basic-norms-and-skills-of-training/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-01-basic-norms-and-skills-of-training/</guid>
+      <description>思维导图文件下载 基本规范 结构 开场白 30秒-2分钟 10-15% 提高听众的兴趣， 捕捉注意 营造气氛，使听众与你一致 简述演讲的目的和要点 稳定情绪，增强信心 主体</description>
+    </item>
+    
+    <item>
+      <title>怎么填计算机软件著作权登记申请表</title>
+      <link>https://www.samrainhan.com/posts/2013-04-01-how-to-fill-the-computer-software-copyright-registration-application-form/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-04-01-how-to-fill-the-computer-software-copyright-registration-application-form/</guid>
+      <description>思维导图文件下载 计算机软件著作权登记申请表 软件名称栏 分类号 按照国家标准 GB/T13702 和 GB/4754 中的代码确定的分类编号 版本号 申请著作权登记的软件的版本号 开发完成</description>
+    </item>
+    
+    <item>
+      <title>新生婴儿报户口</title>
+      <link>https://www.samrainhan.com/posts/2013-03-29-household-registration-of-newborn-babies/</link>
+      <pubDate>Fri, 29 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-29-household-registration-of-newborn-babies/</guid>
+      <description>思维导图文件下载 必须证件 父母《结婚证》 父母双方的《居民身份证》 出生医学证明 父母双方的《居民户口簿》 如果是2胎必须有《告知书》 复印件 以上必须证</description>
+    </item>
+    
+    <item>
+      <title>例会制度</title>
+      <link>https://www.samrainhan.com/posts/2013-03-28-system-of-regular-meeting/</link>
+      <pubDate>Thu, 28 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-28-system-of-regular-meeting/</guid>
+      <description>思维导图文件下载 Why 定时聚拢大家共同明确目标，有问题立即解决 When 周例会：每周最后一天（一般为周五）下午16:30-17:00，如果碰到特殊情况，</description>
+    </item>
+    
+    <item>
+      <title>周例会流程最佳实践</title>
+      <link>https://www.samrainhan.com/posts/2013-03-28-weekly-meeting-process-best-practices/</link>
+      <pubDate>Thu, 28 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-28-weekly-meeting-process-best-practices/</guid>
+      <description>思维导图文件下载 1.会议主持:通报上周会决议，并由各团队leader回复决议完成情况 2.各团队leader：上周问题及解决方案/下周目标 3.</description>
+    </item>
+    
+    <item>
+      <title>降低运营成本几点考虑</title>
+      <link>https://www.samrainhan.com/posts/2013-03-27-reduce-operating-costs/</link>
+      <pubDate>Wed, 27 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-27-reduce-operating-costs/</guid>
+      <description>思维导图文件下载 降低打印成本 办公设备总成本 首次采购成本 耗材成本 耗材消耗=平均每月耗材量*12*年数 耗材采购成本 耗材更换成本 维护成本 纸张消耗=</description>
+    </item>
+    
+    <item>
+      <title>对于微信产品的一点思考(总结别人文章的)</title>
+      <link>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</link>
+      <pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</guid>
+      <description>思维导图文件下载 WHY 需求 心理诉求 自身需要 周边朋友反馈 群体效应 人内心欲望洞察 建立虚拟社会的规则 群体推动规则变化 HOW 面向场景做设计 除了核心功能都做成</description>
+    </item>
+    
+    <item>
+      <title>ITIL</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-itil/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-itil/</guid>
+      <description>思维导图文件下载 6大模块 业务管理 服务管理 服务支持 事件管理 问题管理 配置管理 变更管理 发布管理 服务提供 服务级别管理 IT服务财务管理 IT服务持续性管</description>
+    </item>
+    
+    <item>
+      <title>LearnPython</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-python/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-python/</guid>
+      <description>思维导图文件下载 codecs 编码转换 #-- encoding: gb2312 -- import codecs, sys print &amp;lsquo;-&amp;rsquo;*60 创建gb2312编码器 look = codecs.lookup(&amp;ldquo;gb2312&amp;rdquo;) 创建utf-8编码器 look2 = codecs.lookup(&amp;ldquo;utf-8&amp;rdquo;) a = &amp;ldquo;我爱北京天安门&amp;rdqu</description>
+    </item>
+    
+    <item>
+      <title>OPENERP Step by Step</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-openerp/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-openerp/</guid>
+      <description>思维导图文件下载 最重要目标 通过信息的集成,实现业务间的集成 企业基础资源数字化 业务处理数字化 管理信息化 模块 项目管理 文档管理 电子数据交换（EDI</description>
+    </item>
+    
+    <item>
+      <title>learn Redmine</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-redmine/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-redmine/</guid>
+      <description>思维导图文件下载 建议 将所有项目都设置为私有 除了管理类角色外其他角色都设置为 问题可见：创建或分配给用户的问题 管理类角色 问题可见：全部问题 在某个</description>
+    </item>
+    
+    <item>
+      <title>企业文化摘录</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-excerpts-of-corporate-culture/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-excerpts-of-corporate-culture/</guid>
+      <description>思维导图文件下载 企业常青树有一个共同 点，那就是“邪教式文化（cult-like culture）” Facebook座右铭：快速行动，打破常规 震</description>
+    </item>
+    
+    <item>
+      <title>会议纪要模版</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-template-of-meeting-minutes/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-template-of-meeting-minutes/</guid>
+      <description>思维导图文件下载 议题 topic1 topic2 下一步工作 people1 do1 people2 do2 时间 YYYYMMDD HH:MM-HH:MM 地点 where 人员 Company/Dept1 people1 people2 Company/Dept2 people1 people2 记录 people1 XXXXX people2 XXXXX</description>
+    </item>
+    
+    <item>
+      <title>如何组织技术社区会议</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-how-to-organize-the-technical-community-meeting/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-organize-the-technical-community-meeting/</guid>
+      <description>思维导图文件下载 组织社区会议的一般流程 发起 会议准备事项组织 会议准备情况发布 报名 邮件通知 邮件通知 现场组织 参会 会议过程发布 会议结果发布 会议总结 整</description>
+    </item>
+    
+    <item>
+      <title>怎么设置Terminator中的复制和粘帖快捷键</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</guid>
+      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config [global_config] enabled_plugins = CustomCommandsMenu, InactivityWatch,</description>
+    </item>
+    
+    <item>
+      <title>讨论家庭教育</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-discuss-of-family-education/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-discuss-of-family-education/</guid>
+      <description>思维导图文件下载 人品教育 善良 乐于助人 勤劳勇敢 心情教育 培养孩子对生命的爱心 鼓励教育 给予适当鼓励，激发无限潜力 让孩子学会吃苦</description>
+    </item>
+    
+    <item>
+      <title>购买全幅相机建议</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-purchase-full-size-camera-proposals/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-25-purchase-full-size-camera-proposals/</guid>
+      <description>思维导图文件下载 佳能 5DMarkIII 19666 小三元 佳能EF 17-40mm f/4L USM 4999 佳能EF 24-105mm f/4L IS USM 7899 佳能EF 70-200mm f/4L IS USM 8399 大三元 佳能EF 16-35mm f/2.8L II USM 10555 佳能EF 24-70mm f/2.8L II USM 13999 佳能EF 70-200mm f/2.8L IS II</description>
+    </item>
+    
+    <item>
+      <title>个人知识管理平台</title>
+      <link>https://www.samrainhan.com/posts/2013-03-21-personal-knowledge-management-platform/</link>
+      <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-21-personal-knowledge-management-platform/</guid>
+      <description>思维导图文件下载 一般流程 1收集 工具 Chrome(pc,手机,平板) Evernote剪藏插件 Google Reader(pc,手机,平板) ifttt.com 纸笔 录音笔 一般</description>
+    </item>
+    
+    <item>
+      <title>我的工具</title>
+      <link>https://www.samrainhan.com/posts/2013-03-21-my-tools/</link>
+      <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-21-my-tools/</guid>
+      <description>思维导图文件下载 Office Google Drive WPS RAW照片文件编辑工具 Darktable 下载工具 Qbittorrent 代码托管 Github Bitbucket 图形文件编辑工具 GIMP 在线阅读 Google Reader 多显示器配置工具 arandr 思维导图工具 Freemind 文本编辑</description>
+    </item>
+    
+    <item>
+      <title>Gmail快捷键</title>
+      <link>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</link>
+      <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</guid>
+      <description>思维导图文件下载 十大快捷键 显示您所在任何页面中的键盘快捷键帮助菜单：？ 在当前窗口中写新邮件：c 回复邮件：r 转发：f 删除会话：# 转到收件箱：g</description>
+    </item>
+    
+    <item>
+      <title>PPT模板和素材</title>
+      <link>https://www.samrainhan.com/posts/2013-03-18-ppt-templates-and-clip/</link>
+      <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-18-ppt-templates-and-clip/</guid>
+      <description>思维导图文件下载 中文 扑奔PPT Power Bar 无忧PPT 搜PPT网 PPT中国 PPT资源之家 我的PPT 英文 graphicsland 韩国TG公司 CrystalGraphics Brainy Betty maniactive presentationpro 美国怪兽模版公司 动画工厂</description>
+    </item>
+    
+    <item>
+      <title>Chrome介绍</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-chrome/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-chrome/</guid>
+      <description>思维导图文件下载 功能 仅一行代码，打造一个在线编辑器:http://www.oschina.net/news/37360/one-line-c</description>
+    </item>
+    
+    <item>
+      <title>GOOGLE搜索从入门到精通</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</guid>
+      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;rdquo; 强制搜索在文字前添加加号</description>
+    </item>
+    
+    <item>
+      <title>HP大中华区总裁孙振耀撰文谈退休并畅谈人生(转)</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-sun-zhenyao-talk-about-life/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-sun-zhenyao-talk-about-life/</guid>
+      <description>我有个有趣的观察，外企公司多的是25-35岁的白领，40岁以上的员工很少，二三十岁的外企员工是意气风发的，但外企公司40岁附近的经理人是很尴</description>
+    </item>
+    
+    <item>
+      <title>婚纱照以及选择婚纱的注意事项</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-note-of-the-wedding/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-note-of-the-wedding/</guid>
+      <description>定金25％，拍照时付50％，取件时付25％ 一、预约 多走几家影楼询问价格内容，其它影楼有的优惠，只要你提出来，都会满足你。影楼不会答应你拿走套</description>
+    </item>
+    
+    <item>
+      <title>小儿常用药</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-commonly-used-drugs-in-children/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-commonly-used-drugs-in-children/</guid>
+      <description>思维导图文件下载 常用 珠珀猴枣散＜保和堂＞：主治感冒、消化不良、受惊 王氏保赤丸：主治轻微感冒、消化不良、舌苔厚 小儿七星茶：清热、助消化、通便、</description>
+    </item>
+    
+    <item>
+      <title>意大利面菜谱</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-pasta-recipes/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-pasta-recipes/</guid>
+      <description>意大利面又称之为意粉，是西餐品种中国人最容易接受的。作为意大利面的法定原料，杜兰小麦是最硬质的小麦品种，具有高密度、高蛋白质、高筋度等特点，</description>
+    </item>
+    
+    <item>
+      <title>战术手电介绍(转)</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-flashlight-intro/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-flashlight-intro/</guid>
+      <description>手电依据发光原理的不同基本分为三大类： 1. 应用最为广泛的一种，就是传统的灯泡手电。 灯泡手电用钨丝电阻通电加热发光，这种手电的性能关键在于灯泡技</description>
+    </item>
+    
+    <item>
+      <title>投影幕布计算</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</guid>
+      <description>对角线长度即为一般意义上的幕布大小，比如150寸幕布，即表示对角线长度为150寸=3.81米(100寸=2.54m) 如果是4:3，那么幕布为</description>
+    </item>
+    
+    <item>
+      <title>Git命令释义</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</guid>
+      <description>思维导图文件下载 基本操作 init 初始化Git仓库 创建.git隐藏目录 add add . 添加目录和子目录下所有文件 add filename1 filename2 添加某些文件 commit commit -m 版本更新说明 提交版本，</description>
+    </item>
+    
+    <item>
+      <title>Install Gentoo In Virtualbox</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</guid>
+      <description>思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新</description>
+    </item>
+    
+    <item>
+      <title>在Ubuntu上使用命令行CLI方式使用VPN</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</guid>
+      <description>思维导图文件下载 安装客户端 sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome 设置客户端 sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start 拨号 sudo pon vpnname 使用 sudo addroute 挂断 sudo poff vpnname</description>
+    </item>
+    
+    <item>
+      <title>清迈旅游攻略</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-chiang-mai-travel-raiders/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-01-15-chiang-mai-travel-raiders/</guid>
+      <description>思维导图文件下载 1、确认旅行时间 错峰出行 3段时间 Green Season（05.01&amp;ndash;10.31） High Season（11.01&amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>解密磁盘碎片</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/</guid>
+      <description>思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件</description>
+    </item>
+    
+    <item>
+      <title>2013元旦温泉游</title>
+      <link>https://www.samrainhan.com/posts/2012-12-28-2013-new-year-day-spa-tour/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-28-2013-new-year-day-spa-tour/</guid>
+      <description>思维导图文件下载 What 温泉古村自驾游 Where 黄山醉温泉 歙县 唐模 棠樾牌坊群 徽州古城 徽园 How much 交通 来回过路费310 全程大约820公里 住宿 黄山华美达酒店 289</description>
+    </item>
+    
+    <item>
+      <title>旅游风景区清单</title>
+      <link>https://www.samrainhan.com/posts/2012-12-28-list-of-tourism-scenic-area/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-28-list-of-tourism-scenic-area/</guid>
+      <description>思维导图文件下载 安徽 黄山 醉温泉 泾县 赤滩 黄田 查济 桃花潭 绩溪 胡宗宪尚书府 歙县 呈坎 唐模 棠樾牌坊群 徽州古城 徽园 渔梁 屯溪 花山石窟 老街</description>
+    </item>
+    
+    <item>
+      <title>江浙温泉大全</title>
+      <link>https://www.samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</guid>
+      <description>思维导图文件下载 上海之根雪狼湖度假村 丽水莲都区 南京 汤山颐尚温泉 汤山一号温泉度假区 嘉善 宁波东钱湖 宁海 南溪 安吉 江南天池温泉 嵊州 常州 新安江温泉 无锡</description>
+    </item>
+    
+    <item>
+      <title>实习生课程表</title>
+      <link>https://www.samrainhan.com/posts/2012-12-16-intern-curriculum/</link>
+      <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-16-intern-curriculum/</guid>
+      <description>思维导图文件下载 上午自习 下午每天1.5小时集体活动(13:30-15:00)，其余时间自习 周一 书面测试 周二 课程教学 周三 课程实践 周四 课程考核 周</description>
+    </item>
+    
+    <item>
+      <title>用Freemind写博客</title>
+      <link>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</guid>
+      <description>思维导图文件下载 What mm文件变成md文件 Why 写作简单 发布简单 记忆简单 修改简单 How 用Freemind写博客，然后保存成mm文件 上传到Google Dr</description>
+    </item>
+    
+    <item>
+      <title>通过Github建博客</title>
+      <link>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</guid>
+      <description>思维导图文件下载 登录Github 创建repo 名字必须是$username$.github.com 创建disqus帐号 Site URL = $username$.github.com shortname = $username$blogbygithub Site Name = $username$-blog-by-github Install</description>
+    </item>
+    
+    <item>
+      <title>程序员的阅读清单</title>
+      <link>https://www.samrainhan.com/posts/2012-11-30-programmer-reading-list/</link>
+      <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-30-programmer-reading-list/</guid>
+      <description>思维导图文件下载 感谢Mindhacks原文在此 其实本质上就是两类(by 云风) 对所面对的东西（程序语言也好，操作系统也好，底层设施也好）本身的</description>
+    </item>
+    
+    <item>
+      <title>what are 双软认证</title>
+      <link>https://www.samrainhan.com/posts/2012-11-28-the-identification-software-companies-and-software-product-registration/</link>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-28-the-identification-software-companies-and-software-product-registration/</guid>
+      <description>思维导图文件下载 定义 软件企业的认定和软件产品的登记 获得软件企业和软件产品的认证资质 对企业知识产权的一种保护方式 让企业享受国家提供给软件行业的</description>
+    </item>
+    
+    <item>
+      <title>Github简单使用</title>
+      <link>https://www.samrainhan.com/posts/2012-11-27-simple-to-use-github/</link>
+      <pubDate>Tue, 27 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-27-simple-to-use-github/</guid>
+      <description>思维导图文件下载 注册Github帐号 建立第一个项目 配置本地计算机 检查现有的ssh key cd ~/.ssh 如果显示“No such file or directory”,那么请执行第</description>
+    </item>
+    
+    <item>
+      <title>Markdown语法</title>
+      <link>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</link>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</guid>
+      <description>思维导图文件下载 致谢 站在这位 巨人 的肩膀上 直接使用HTML 一般来说直接使用 特殊：块标签必须在前后加上空白，例如：div,table,pre,p</description>
+    </item>
+    
+    <item>
+      <title>Sublime Text2简介</title>
+      <link>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</link>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</guid>
+      <description>思维导图文件下载 安装 老窝 ubuntu PPA sudo add-apt-repository ppa:webupd8team/sublime-text-2 sudo apt-get update sudo apt-get install sublime-text-2-dev 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Sod</description>
+    </item>
+    
+    <item>
+      <title>什么是差额选举？</title>
+      <link>https://www.samrainhan.com/posts/2012-11-19-whats-the-competitive-election/</link>
+      <pubDate>Mon, 19 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-11-19-whats-the-competitive-election/</guid>
+      <description>思维导图文件下载 差额投票 一人多票 让选民表达他们最讨厌那部分候选人 统计哪部分候选人遭受的反对最多，它会将反对者相对最多的人淘汰掉 等额选举 每一位</description>
+    </item>
+    
+    <item>
+      <title>如何把VIM变成Python IDE</title>
+      <link>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</guid>
+      <description>思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s the Cloud(转)</title>
+      <link>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</guid>
+      <description>云计算擅长做什么呢？以下场景都是不错的利好方案： 没有基础技术设施而又需要可伸缩性的创业公司。 地理数据，政务信息之类的数据中心。 桌面办公（邮件</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s the EPOLL(转)</title>
+      <link>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</link>
+      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</guid>
+      <description>传统的select以及poll的效率会因为 在线人数的线形递增而导致呈二次乃至三次方的下降. 自从Linux提供了/dev/epoll的 设备以及</description>
+    </item>
+    
+    <item>
+      <title>怎么更好的开会(转google经验)</title>
+      <link>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</link>
+      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</guid>
+      <description>1. 有一个明确的议程 2. 指定专门的note-taker 3. 钻小会（Carve out micro-meeting） 4. Hold office hours. 5. 要数据，不要政治 （Discou</description>
+    </item>
+    
+    <item>
+      <title>PPT模板和素材</title>
+      <link>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</link>
+      <pubDate>Fri, 26 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</guid>
+      <description>中文 扑奔PPT Power Bar 无忧PPT 搜PPT网 PPT中国 PPT资源之家 wordppt 英文 graphicsland 韩国TG公司 CrystalGraphics brainybetty maniactive animationfactory websiteestates presentationpro 美国怪兽模版公司 动画工厂 presentationhelper</description>
+    </item>
+    
+    <item>
+      <title>5W2H分析法</title>
+      <link>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</guid>
+      <description>出自MBA智库百科 5W2H分析法又称七何分析法 5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广</description>
+    </item>
+    
+    <item>
+      <title>学习重要，还是经营人脉重要？</title>
+      <link>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</guid>
+      <description>#(转)李笑來老師的文章 有一次在北大讲座，遇到一位学生问我，“老师，你说学习重要，还是经营人脉重要？”看着他一脸大杂烩的表情，我先拿出本子记</description>
+    </item>
+    
+    <item>
+      <title>GVim编辑窍门</title>
+      <link>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</link>
+      <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</guid>
+      <description>准备工作 首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test 查找替换 按几下 ESC 进入 Normal 模式， 输入以下命令： :%s/ /\r/g 回车后得到的效果如下</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>屏幕色彩 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B1%8F%E5%B9%95%E8%89%B2%E5%BD%A9/</link>
+    <description>Recent content in 屏幕色彩 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Sep 2018 10:18:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E5%B1%8F%E5%B9%95%E8%89%B2%E5%BD%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>让您的屏幕在黑白和彩色之间自由切换</title>
+      <link>https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</link>
+      <pubDate>Tue, 11 Sep 2018 10:18:49 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</guid>
+      <description>Ctrl + WindowsKey + C 可以让您的屏幕在黑白和彩色之间自由切换</description>
+    </item>
+    
+  </channel>
+</rss>

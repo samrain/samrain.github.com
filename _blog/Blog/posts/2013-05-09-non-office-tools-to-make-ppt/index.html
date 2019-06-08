@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="制作ppt的非office工具"/>
+  <meta name="twitter:description" content="思维导图文件下载 inkscape &#43; sozi inkscape是矢量文件编辑工具，Sozi是 inkscape 的外掛.使用SVG和JS来播放图片和文字 转如何制作 优点：不需要做编程方"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>制作ppt的非office工具 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        制作ppt的非office工具
+                    </h1>
+                    <h2 class="headline">
+                    May 9, 2013 00:00
+                    · 1068 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/ppt">ppt</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E5%B7%A5%E5%85%B7">工具</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E9%9D%9Eoffice">非office</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#inkscape-https-zh-wikipedia-org-wiki-inkscape-sozi"><a href="https://zh.wikipedia.org/wiki/Inkscape">inkscape</a> + sozi</a></li>
+<li><a href="#enyo2-http-enyojs-com"><a href="http://enyojs.com/">Enyo2</a></a></li>
+<li><a href="#landslide-http-adamzap-com-random-landslide-html"><a href="http://adamzap.com/random/landslide.html">landslide</a></a></li>
+<li><a href="#s5-http-meyerweb-com-eric-tools-s5"><a href="http://meyerweb.com/eric/tools/s5/">S5</a></a></li>
+<li><a href="#deck-js-http-imakewebthings-com-deck-js"><a href="http://imakewebthings.com/deck.js/">deck.js</a></a></li>
+<li><a href="#slidy2-http-www-w3-org-talks-tools-slidy2"><a href="http://www.w3.org/Talks/Tools/Slidy2">slidy2</a></a></li>
+<li><a href="#推荐-reveal-js-http-lab-hakim-se-reveal-js">推荐<a href="http://lab.hakim.se/reveal-js/">reveal.js</a></a></li>
+<li><a href="#推荐-impress-js-https-github-com-bartaz-impress-js">推荐<a href="https://github.com/bartaz/impress.js/">impress.js</a></a></li>
+<li><a href="#pinpoint-https-live-gnome-org-pinpoint"><a href="https://live.gnome.org/Pinpoint">pinpoint</a></a></li>
+<li><a href="#context">ConTeXt</a></li>
+<li><a href="#html5slides-http-code-google-com-p-html5slides"><a href="http://code.google.com/p/html5slides/">html5slides</a></a></li>
+<li><a href="#转-html5slides-deck-js-impress-js-使用心得-http-www-icoding-co-2012-07-html-html5slides-deckjs-impressjs-html">转<a href="http://www.icoding.co/2012/07/html-html5slides-deckjs-impressjs-html">html5slides, deck.js, impress.js 使用心得</a></a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIV1Q3OFJ2MUxoNzg/edit?usp=sharing">思维导图文件下载</a></p>
+
+<h2 id="inkscape-https-zh-wikipedia-org-wiki-inkscape-sozi"><a href="https://zh.wikipedia.org/wiki/Inkscape">inkscape</a> + sozi</h2>
+
+<p>inkscape是矢量文件编辑工具，Sozi是 inkscape 的外掛.使用SVG和JS来播放图片和文字</p>
+
+<p>转<a href="http://people.ofset.org/~ckhung/mm/">如何制作</a></p>
+
+<p>优点：不需要做编程方面的培训，有跨平台工具编辑，编辑过程直观简单</p>
+
+<p>缺点：工具组合稍显复杂，不习惯处理SVG格式</p>
+
+<h2 id="enyo2-http-enyojs-com"><a href="http://enyojs.com/">Enyo2</a></h2>
+
+<p>优点：WebOS上跨平台JS框架</p>
+
+<p>缺点：使用和维护人员缺乏，缺少开发使用中文文档</p>
+
+<h2 id="landslide-http-adamzap-com-random-landslide-html"><a href="http://adamzap.com/random/landslide.html">landslide</a></h2>
+
+<p>Python编写的工具，将md或rst文件转换成html文件。PPT样式可以编辑</p>
+
+<p><a href="https://github.com/adamzap/landslide">源代码</a></p>
+
+<p>优点：从md和rst转换非常方便，不用花很多力气</p>
+
+<p>缺点：不够炫，没有牛B的3D效果</p>
+
+<h2 id="s5-http-meyerweb-com-eric-tools-s5"><a href="http://meyerweb.com/eric/tools/s5/">S5</a></h2>
+
+<p><a href="http://jedi.org/p4/slide/module/s5-intro.text">简介</a></p>
+
+<p><a href="https://code.google.com/p/mm2s5/">freemind文件转S5工具</a></p>
+
+<p><a href="http://blog.zoomquiet.org/pyblosxom/2010/09/">转自周大妈对rst2s5的描述</a></p>
+
+<p>优点：简单方便，交互方式类似PPT，有现成工具从freemind转换过来</p>
+
+<p>缺点：不够炫</p>
+
+<h2 id="deck-js-http-imakewebthings-com-deck-js"><a href="http://imakewebthings.com/deck.js/">deck.js</a></h2>
+
+<p><a href="https://github.com/imakewebthings/deck.js/wiki">非常丰富的扩展</a></p>
+
+<p>优点：使用和维护人员多，扩展很多，自己编写扩展也很方便，可以很方便的跳页和选择页面</p>
+
+<p>缺点：不够炫，绘制流程复杂有时会让画面乱掉</p>
+
+<h2 id="slidy2-http-www-w3-org-talks-tools-slidy2"><a href="http://www.w3.org/Talks/Tools/Slidy2">slidy2</a></h2>
+
+<p>非常类似于S5的东西</p>
+
+<h2 id="推荐-reveal-js-http-lab-hakim-se-reveal-js">推荐<a href="http://lab.hakim.se/reveal-js/">reveal.js</a></h2>
+
+<p><a href="https://slid.es">在线编辑</a></p>
+
+<p>中文帮助在<a href="http://www.yushufang.me/doit-im/reveal-js-master-zh.html">这里</a></p>
+
+<p>优点：有全局视图，支持平板和手机，比较像PPT但是也有特效，有在线制作网站，不依赖其他js包。
+可以按照树形方式来介绍</p>
+
+<p>缺点：比较慢</p>
+
+<h2 id="推荐-impress-js-https-github-com-bartaz-impress-js">推荐<a href="https://github.com/bartaz/impress.js/">impress.js</a></h2>
+
+<p>缺点：许多细节都要自己指定，特别是页面宽度</p>
+
+<p>优点：有全局的感觉，很炫</p>
+
+<h2 id="pinpoint-https-live-gnome-org-pinpoint"><a href="https://live.gnome.org/Pinpoint">pinpoint</a></h2>
+
+<p>为黑客准备的PPT工具</p>
+
+<p>优点：桌面工具易上手操作</p>
+
+<p>缺点：使用和维护的人不多，不够炫</p>
+
+<h2 id="context">ConTeXt</h2>
+
+<p>转<a href="http://www.math.zju.edu.cn/ligangliu/latexforum/tex_pre.htm">用pdfslide+PPower4制作幻灯片</a></p>
+
+<h2 id="html5slides-http-code-google-com-p-html5slides"><a href="http://code.google.com/p/html5slides/">html5slides</a></h2>
+
+<p>只是一个html文件，修改内容即可</p>
+
+<p>优点：修改简单,屏幕尺寸固定不会自动拉伸</p>
+
+<p>缺点：需要懂一些html知识，并且不够炫</p>
+
+<h2 id="转-html5slides-deck-js-impress-js-使用心得-http-www-icoding-co-2012-07-html-html5slides-deckjs-impressjs-html">转<a href="http://www.icoding.co/2012/07/html-html5slides-deckjs-impressjs-html">html5slides, deck.js, impress.js 使用心得</a></h2>
+
+<p>html5slides</p>
+
+<ul>
+<li>上手時間        10分鐘看完demo</li>
+<li>排版        容易</li>
+<li>變化程度        頁面內而已</li>
+<li>不同機器上        還算穩定</li>
+<li>CSS需求        基礎</li>
+<li>美感需求        沒有也沒關係</li>
+<li>投影片數量        50頁還可以</li>
+<li>跳頁面        手動改網址</li>
+<li>動畫        飛入</li>
+<li>支援iframe        有</li>
+<li>插入程式碼        有顏色</li>
+<li>觀眾驚喜度        還可以</li>
+<li>副作用        下一張會破梗</li>
+<li>Ending        「謝謝」那頁</li>
+</ul>
+
+<p>deck.js</p>
+
+<ul>
+<li>上手時間        10分鐘看完demo</li>
+<li>排版        可調但不容易</li>
+<li>變化程度        範本有些選擇</li>
+<li>不同機器上        走位機會高</li>
+<li>CSS需求        稍高</li>
+<li>美感需求        沒有也沒關係</li>
+<li>投影片數量        超過30頁就拆開吧</li>
+<li>跳頁面        快速鍵切換</li>
+<li>動畫        飛入</li>
+<li>支援iframe        有，但會出包</li>
+<li>插入程式碼        無(可解決)</li>
+<li>觀眾驚喜度        不錯</li>
+<li>副作用        畫面爛掉</li>
+<li>Ending        「謝謝」那頁</li>
+</ul>
+
+<p>deck.js</p>
+
+<ul>
+<li>上手時間        30分鐘看完demo+文件</li>
+<li>排版        非調不可</li>
+<li>變化程度        完全可以自己變化</li>
+<li>不同機器上        頁面設定過大會有問題</li>
+<li>CSS需求        稍高</li>
+<li>美感需求        要會把東西排好看</li>
+<li>投影片數量                沒測過，但太多頁排版痛苦</li>
+<li>跳頁面        點旁邊看得到的或改網址</li>
+<li>動畫        旋轉、縮放</li>
+<li>支援iframe        無</li>
+<li>插入程式碼        無(可解決)</li>
+<li>觀眾驚喜度        Wow~ <em>_</em></li>
+<li>副作用        轉轉轉觀眾頭暈</li>
+<li>Ending        所有畫面全貌</li>
+</ul>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-09-non-office-tools-to-make-ppt%2f - %e5%88%b6%e4%bd%9cppt%e7%9a%84%e9%9d%9eoffice%e5%b7%a5%e5%85%b7 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

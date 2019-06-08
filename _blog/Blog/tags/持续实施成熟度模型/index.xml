@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>持续实施成熟度模型 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8C%81%E7%BB%AD%E5%AE%9E%E6%96%BD%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 持续实施成熟度模型 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 17:59:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E6%8C%81%E7%BB%AD%E5%AE%9E%E6%96%BD%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>持续实施成熟度模型</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</link>
+      <pubDate>Wed, 12 Sep 2018 17:59:56 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

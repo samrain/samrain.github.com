@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Emacs Dir mode"/>
+  <meta name="twitter:description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>Emacs Dir mode &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Emacs Dir mode
+                    </h1>
+                    <h2 class="headline">
+                    Jun 21, 2015 00:00
+                    · 553 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/emacs">Emacs</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/mode">mode</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#常用快捷键">常用快捷键</a></li>
+<li><a href="#配置文件修改">配置文件修改</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h2 id="常用快捷键">常用快捷键</h2>
+
+<ul>
+<li><code>c-x d</code> 或<code>c-x f</code> 进入Dir mode</li>
+<li><code>h</code>或<code>c-h m</code>显示帮助信息</li>
+<li><code>p</code>或<code>c-p</code> ↑ 向上移动</li>
+<li><code>n</code>或<code>c-n</code>或<code>space</code> ↓ 向下移动</li>
+<li><code>v</code> 预览文件/文件夹并设为只读</li>
+<li><code>q</code> 退出预览</li>
+<li><code>s</code> 改变排序规则（循环变化），总共两种：by name/date。</li>
+<li><code>f</code>或<code>enter</code>编辑文件内容</li>
+<li><code>d</code> 一个个给文件加上待删除标志</li>
+<li><code>m</code> 一个个给文件加上待操作标志</li>
+<li><code>u</code> 一个个给文件撤消待操作标志</li>
+<li><code>U</code> 清空所有文件的待操作标志</li>
+<li><code>x</code> 批量删除被设置过标志的文件</li>
+<li><code>D</code> 删除当前文件</li>
+<li><code>C</code> 复制文件</li>
+<li><code>R</code> 重命名/移动文件</li>
+<li><code>Z</code> 压缩/解压</li>
+<li><code>w</code> 复制文件名</li>
+<li><code>y</code> 给出文件类型信息 (通过 file 命令)</li>
+<li><code>t</code> 对当前buffer标记状态互换，比如总共有5个文件，2个被标记，互换后就是3个被标记</li>
+<li><code>!</code>或<code>X</code> 对当前文件执行shell命令</li>
+<li><code>&amp;</code> 异步执行一条shell命令</li>
+<li><code>+</code> 创建子目录</li>
+<li><code>%m</code>,<code>%d</code>,<code>%u</code> 用正则表达式来执行命令</li>
+<li><code>**</code> 标记所有可执行文件</li>
+<li><code>*.</code> 标记所有同扩展名文件</li>
+<li><code>*/</code> 标记所有目录</li>
+<li><code>g</code> 刷新目录</li>
+<li><code>C-/</code>, <code>C-_</code>, <code>C-x u</code> undo</li>
+<li><code>M-{</code>,<code>M-}</code> 已标记的文件之间移动</li>
+<li><code>c-x c-j</code> 跳转到当前文件所在目录</li>
+<li>先输入一个数字再输入以上快捷键，可以批量处理多个文件</li>
+</ul>
+
+<h2 id="配置文件修改">配置文件修改</h2>
+
+<pre>
+;; 设置文件管理器Dired
+(setq dired-recursive-deletes t) ; 可以递归的删除目录
+(setq dired-recursive-copies t) ; 可以递归的进行拷贝
+(global-set-key "\C-x\C-j" 'dired-jump) ; 通过C-x C-j跳转到当前目录
+(require 'dired-x) ; 有些特殊的功能
+(setq dired-guess-shell-alist-user
+'(("\\.chm$" "xchm")
+  ("\\.jpg$" "gimp")
+  ("\\.png$" "gimp")
+  ("\\.bmp$" "gimp")
+  ("\\.asf$" "mplayer")
+  ("\\.wmv$" "mplayer")
+  ("\\.htm$" "chromium-browser")
+  ("\\.html$" "chromium-browser")
+  ("\\.mpg$" "mplayer")
+  ("\\.pdf" "evince"))) ; 设置一些文件的默认打开方式，此功能必须在(require 'dired-x)之后 
+</pre>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-21-emacs-dir-mode%2f - Emacs%20Dir%20mode "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

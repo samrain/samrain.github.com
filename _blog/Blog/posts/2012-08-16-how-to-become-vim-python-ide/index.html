@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="如何把VIM变成Python IDE"/>
+  <meta name="twitter:description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>如何把VIM变成Python IDE &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        如何把VIM变成Python IDE
+                    </h1>
+                    <h2 class="headline">
+                    Aug 16, 2012 00:00
+                    · 2167 words
+                    · 5 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/vim">VIM</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/python">python</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/ide">IDE</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#原文链接-http-sontek-net-blog-detail-turning-vim-into-a-modern-python-ide"><a href="http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide">原文链接</a></a></li>
+<li><a href="#简介">简介</a></li>
+<li><a href="#基本的编辑和调试">基本的编辑和调试</a></li>
+<li><a href="#注意">注意</a></li>
+<li><a href="#语法高亮和验证">语法高亮和验证</a></li>
+<li><a href="#tab完成和文档">tab完成和文档</a></li>
+<li><a href="#代码导航">代码导航</a></li>
+<li><a href="#整合使用git">整合使用Git</a></li>
+<li><a href="#集成测试">集成测试</a></li>
+<li><a href="#virtualenv">Virtualenv</a></li>
+<li><a href="#django">Django</a></li>
+<li><a href="#随机提示">随机提示</a></li>
+<li><a href="#默认安装">默认安装</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU">思维导图文件下载</a></p>
+
+<h2 id="原文链接-http-sontek-net-blog-detail-turning-vim-into-a-modern-python-ide"><a href="http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide">原文链接</a></h2>
+
+<h2 id="简介">简介</h2>
+
+<ul>
+<li><p><a href="http://sontek.net/blog/detail/python-with-a-modular-ide-vim">2008年的老文章</a></p></li>
+
+<li><p>开发环境最重要的部分之一</p>
+
+<pre><code>很容易的跨机器
+</code></pre></li>
+
+<li><p>用git来保存VIM配置</p>
+
+<pre><code>autoload目录目的是用来自动载入插件Pathogen
+
+我们使用Pathogen来载入bundle目录中的其他插件
+
+让我们下载Pathogen然后放进autoload目录中
+
+为了启动时可以载入，我们需要在文件~/.vimrc中加入
+
+把我们计划使用的插件用submodules方式放进git仓库中
+
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+</code></pre>
+
+<p>git submodule add <a href="https://github.com/msanders/snipmate.vim.git">https://github.com/msanders/snipmate.vim.git</a> bundle/snipmate
+git submodule add <a href="https://github.com/tpope/vim-surround.git">https://github.com/tpope/vim-surround.git</a> bundle/surround
+git submodule add <a href="https://github.com/tpope/vim-git.git">https://github.com/tpope/vim-git.git</a> bundle/git
+git submodule add <a href="https://github.com/ervandew/supertab.git">https://github.com/ervandew/supertab.git</a> bundle/supertab
+git submodule add <a href="https://github.com/sontek/minibufexpl.vim.git">https://github.com/sontek/minibufexpl.vim.git</a> bundle/minibufexpl
+git submodule add <a href="https://github.com/wincent/Command-T.git">https://github.com/wincent/Command-T.git</a> bundle/command-t
+git submodule add <a href="https://github.com/mitechie/pyflakes-pathogen.git">https://github.com/mitechie/pyflakes-pathogen.git</a>
+git submodule add <a href="https://github.com/mileszs/ack.vim.git">https://github.com/mileszs/ack.vim.git</a> bundle/ack
+git submodule add <a href="https://github.com/sjl/gundo.vim.git">https://github.com/sjl/gundo.vim.git</a> bundle/gundo
+git submodule add <a href="https://github.com/fs111/pydoc.vim.git">https://github.com/fs111/pydoc.vim.git</a> bundle/pydoc
+git submodule add <a href="https://github.com/vim-scripts/pep8.git">https://github.com/vim-scripts/pep8.git</a> bundle/pep8
+git submodule add <a href="https://github.com/alfredodeza/pytest.vim.git">https://github.com/alfredodeza/pytest.vim.git</a> bundle/py.test
+git submodule add <a href="https://github.com/reinh/vim-makegreen">https://github.com/reinh/vim-makegreen</a> bundle/makegreen
+git submodule add <a href="https://github.com/vim-scripts/TaskList.vim.git">https://github.com/vim-scripts/TaskList.vim.git</a> bundle/tasklist
+git submodule add <a href="https://github.com/vim-scripts/The-NERD-tree.git">https://github.com/vim-scripts/The-NERD-tree.git</a> bundle/nerdtree
+git submodule add <a href="https://github.com/sontek/rope-vim.git">https://github.com/sontek/rope-vim.git</a> bundle/ropevim
+git submodule init
+git submodule update
+git submodule foreach git submodule init
+git submodule foreach git submodule update</p></li>
+</ul>
+
+<h2 id="基本的编辑和调试">基本的编辑和调试</h2>
+
+<ul>
+<li><p>代码折叠</p>
+
+<pre><code>在~/.vimrc中添加
+
+然后就可以在方法内代码上输入'za'进行代码折叠和展开
+</code></pre></li>
+
+<li><p>窗口拆分</p>
+
+<pre><code>有时代码折叠也不能解决问题
+
+打开多个窗口
+
+打开多个文件
+
+打开不同地方的同一个文件
+
+窗口拆分
+
+注意
+
+操作时必须切换中文输入法到英文模式
+
+不需要三个键同时按下，建议先按前2个键，然后再按后面一个键
+
+横向
+
+Ctrl+w+v
+
+纵向
+
+Ctrl+w+s
+
+关闭拆分窗口
+
+Ctrl+w+q
+
+切换窗口
+
+上
+
+Ctrl+k
+
+下
+
+Ctrl+j
+
+左
+
+Ctrl+h
+
+右
+
+Ctrl+l
+
+在~/.vimrc中添加
+</code></pre></li>
+
+<li><p>片段</p>
+
+<pre><code>使用片段加速开发
+
+使用方法
+
+新建一个Python文件，然后输入“def”，然后敲击“Tab”键，将会将定义好的片段自动输入到界面上
+
+修改片段办法
+
+访问目录：～/.vim/bundle/snippets/snippets
+
+修改那种语言的就选择那种语言名称开头的文件
+
+例如：python.snippets
+</code></pre></li>
+
+<li><p>任务列表</p>
+
+<pre><code>当前打开的文档中如果有以下字符串，会以嵌套窗口形式显示，并能直接导航到该行
+
+TODO
+
+FIXME
+
+使用方法
+
+打开文档
+
+敲击模式键，输入td打开窗口
+
+如果有todolist，那么打开窗口
+
+敲击“q”关闭
+
+否则提示没有
+</code></pre></li>
+
+<li><p>修订历史</p>
+
+<pre><code>显示某个文件当前的所有修改记录
+
+注意：如果文件关闭，就看不到以往的修改记录
+
+使用方法
+
+敲击模式键，输入&quot;g&quot;打开窗口
+
+使用“j”和“k”在不同版本间移动
+
+使用“p”来显示不同之处
+
+使用回车，在右边窗口上显示不同版本的文件全部内容
+
+关闭如上
+</code></pre></li>
+</ul>
+
+<h2 id="注意">注意</h2>
+
+<ul>
+<li><p>目前模式启动键为“,”逗号</p>
+
+<pre><code>在.Vimrc中是以“leader”表示
+
+可以在.vimrc中修改成其他键
+</code></pre></li>
+</ul>
+
+<h2 id="语法高亮和验证">语法高亮和验证</h2>
+
+<ul>
+<li><p>PEP8</p>
+
+<pre><code>检查静态代码是否符合规范
+
+使用方法
+
+敲击模式键，输入&quot;8&quot;打开窗口
+
+使用“j”和“k”在不同问题间移动
+
+关闭
+
+光标在下方窗口，然后Ctrl+w，然后q
+</code></pre></li>
+
+<li><p>pyflakes</p>
+
+<pre><code>显示未被使用的导入模块以及错误语法
+
+当光标移动到被红色标注行时在底部显示错误提示
+
+不需要按键启动，因为是一直启动的
+</code></pre></li>
+</ul>
+
+<h2 id="tab完成和文档">tab完成和文档</h2>
+
+<ul>
+<li><p>SuperTab</p>
+
+<pre><code>输入头几个字母，自动显示提示菜单
+
+当光标上下移动的时候，显示功能模块帮助信息
+</code></pre></li>
+
+<li><p>pydoc</p>
+
+<pre><code>显示功能模块的帮助信息
+
+如果想显示某个模块的帮助
+
+光标停留在模块名上
+
+敲击模式键，输入“pw”
+
+关闭输入“:q”
+</code></pre></li>
+</ul>
+
+<h2 id="代码导航">代码导航</h2>
+
+<ul>
+<li><p>缓冲区</p>
+
+<pre><code>minibufexpl插件
+
+不要使用tab标签
+
+使用“:e文件名”新建buffer
+
+使用“:b数字”在不同buffer之间导航
+
+使用&quot;:b 文件名&quot;在不同buffer之间导航
+
+可以只输入文件名的头几个字母，然后按“Tab”键
+
+看目前全部buffer
+
+输入&quot;:buffers&quot;
+
+关闭使用&quot;:bd&quot;或者&quot;:bw&quot;
+</code></pre></li>
+
+<li><p>模糊文本文件搜索</p>
+
+<pre><code>command-t插件
+
+在Ubuntu上预先安装Ruby和rake
+
+查询所有包含条件字符串的文件 
+
+当前目录下
+
+当前所有buffers下
+
+敲击模式键，输入“f”
+
+在底部出现新窗口
+
+输入查询条件自动查询当前目录下所有符合条件按的文件
+
+关闭只需要进入修改模式然后退出
+
+敲击ESC键，然后输入“i”，再敲击ESC键
+</code></pre></li>
+
+<li><p>文件浏览器</p>
+
+<pre><code>NERDTree 插件
+
+敲击模式键，输入“n”
+
+一般情况下使用模糊文本文件搜索即可
+</code></pre></li>
+
+<li><p>重构和定义</p>
+
+<pre><code>Ropevim插件
+
+在代码中导航
+
+支持自动插入重要过程，去定义点，重构和代码完成
+
+最常使用的2个方法
+
+快速跳转到方法或类的定义
+
+敲击模式键，输入&quot;j&quot;
+
+重命名东西，包括他们所有的引用上
+
+敲击模式键，输入&quot;r&quot;
+
+注意
+
+第一次使用有可能会提示：rope project root folder
+
+输入.ropeproject，然后输入0，然后回车
+</code></pre></li>
+
+<li><p>搜索</p>
+
+<pre><code>Ack插件
+
+在Ubuntu上预先安装
+
+sudo apt-get install ack-grep
+
+搜索当前目录下内容中包含条件字符串的文件清单，并显示所在行号
+
+注意：
+
+要在~/.vimrc上添加一行
+
+let g:ackprg=&quot;ack-grep -H --nocolor --nogroup --column&quot;
+
+原教程有误，报错找不到ack
+</code></pre></li>
+</ul>
+
+<h2 id="整合使用git">整合使用Git</h2>
+
+<ul>
+<li><p>插件</p>
+
+<pre><code>git.vim
+
+git配置文件语法高亮
+
+fugitive
+
+提供界面集成git功能
+
+diff
+
+status update
+
+commit
+
+moving
+
+告诉目前工作在那个分支上
+
+开始使用
+
+敲击模式键，输入“c”
+
+输入“:GXXXXX”
+
+Gedit
+
+Gsplit
+
+Gvsplit
+
+Gtabedit
+
+Gdiff
+
+Gstatus
+
+Gcommit
+
+Gblame
+
+Gmove
+
+Ggrep
+
+Glog
+
+Gread
+
+Gwrite
+
+Gbrowse
+
+关闭
+
+敲击模式键，输入“cc”
+</code></pre></li>
+</ul>
+
+<h2 id="集成测试">集成测试</h2>
+
+<ul>
+<li><p>Django nose</p>
+
+<pre><code>使用MakeGreen插件
+
+使用
+
+敲击模式键，输入“dt”
+
+在底部显示，如果通过就是绿色，否则是红色
+</code></pre></li>
+
+<li><p>Py.test</p>
+
+<pre><code>使用py.test插件
+
+使用
+
+敲击模式键
+
+输入“tf”
+
+测试某个文件
+
+输入“tc”
+
+测试某个类
+
+输入“tm”
+
+测试某个方法
+
+输入“tn”
+
+测试下一个
+
+输入“tp”
+
+测试上一个
+
+输入“te”
+
+测试错误
+</code></pre></li>
+</ul>
+
+<h2 id="virtualenv">Virtualenv</h2>
+
+<ul>
+<li><p>vim无法判断我们在虚拟环境中</p>
+
+<pre><code>Vim只能从安装过的库中找到自动完成代码
+</code></pre></li>
+
+<li><p>在.vimrc中添加代码</p></li>
+</ul>
+
+<h2 id="django">Django</h2>
+
+<ul>
+<li><p>输出Django的项目配置，以便于自动完成代码</p></li>
+
+<li><p>修改.vimrc</p>
+
+<pre><code>export DJANGO_SETTINGS_MODULE=project.settings
+</code></pre></li>
+</ul>
+
+<h2 id="随机提示">随机提示</h2>
+
+<ul>
+<li>新的颜色样式到<a href="http://code.google.com/p/vimcolorschemetest/">http://code.google.com/p/vimcolorschemetest/</a></li>
+</ul>
+
+<h2 id="默认安装">默认安装</h2>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2012-08-16-how-to-become-vim-python-ide%2f - %e5%a6%82%e4%bd%95%e6%8a%8aVIM%e5%8f%98%e6%88%90Python%20IDE "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

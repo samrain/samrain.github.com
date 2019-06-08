@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlservertempdbcache on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/sqlservertempdbcache/</link>
+    <description>Recent content in Sqlservertempdbcache on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 20:23:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/sqlservertempdbcache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>给tempdb加2个文件做缓存</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</link>
+      <pubDate>Wed, 12 Sep 2018 20:23:16 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</guid>
+      <description>sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO</description>
+    </item>
+    
+  </channel>
+</rss>

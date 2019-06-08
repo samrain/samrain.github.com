@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="学习node.js"/>
+  <meta name="twitter:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>学习node.js &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        学习node.js
+                    </h1>
+                    <h2 class="headline">
+                    May 27, 2016 00:00
+                    · 3312 words
+                    · 7 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/chrome">Chrome</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/nodejs">nodejs</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#每个模块都有require-exports-module三个预先定义好的变量可供使用-a-id-orgheadline1-a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<a id="orgheadline1"></a></a></li>
+<li><a href="#工程目录-a-id-orgheadline2-a">工程目录<a id="orgheadline2"></a></a></li>
+<li><a href="#npm-a-id-orgheadline7-a">NPM<a id="orgheadline7"></a></a>
+<ul>
+<li><a href="#下载第三方包-a-id-orgheadline3-a">下载第三方包<a id="orgheadline3"></a></a></li>
+<li><a href="#安装命令行程序-a-id-orgheadline4-a">安装命令行程序<a id="orgheadline4"></a></a></li>
+<li><a href="#发布代码-a-id-orgheadline5-a">发布代码<a id="orgheadline5"></a></a></li>
+<li><a href="#其他常用命令-a-id-orgheadline6-a">其他常用命令<a id="orgheadline6"></a></a></li>
+</ul></li>
+<li><a href="#文件操作-a-id-orgheadline10-a">文件操作<a id="orgheadline10"></a></a>
+<ul>
+<li><a href="#小文件拷贝-a-id-orgheadline8-a">小文件拷贝<a id="orgheadline8"></a></a></li>
+<li><a href="#大文件拷贝-a-id-orgheadline9-a">大文件拷贝<a id="orgheadline9"></a></a></li>
+</ul></li>
+<li><a href="#api-a-id-orgheadline18-a">API<a id="orgheadline18"></a></a>
+<ul>
+<li><a href="#buffer-a-id-orgheadline11-a">Buffer<a id="orgheadline11"></a></a></li>
+<li><a href="#stream-a-id-orgheadline12-a">Stream<a id="orgheadline12"></a></a></li>
+<li><a href="#file-system-a-id-orgheadline13-a">File System<a id="orgheadline13"></a></a></li>
+<li><a href="#path-a-id-orgheadline17-a">Path<a id="orgheadline17"></a></a>
+<ul>
+<li><a href="#path-normalize-a-id-orgheadline16-a">path.normalize<a id="orgheadline16"></a></a></li>
+</ul></li>
+</ul></li>
+<li><a href="#遍历-a-id-orgheadline19-a">遍历<a id="orgheadline19"></a></a></li>
+<li><a href="#文本编码-a-id-orgheadline23-a">文本编码<a id="orgheadline23"></a></a>
+<ul>
+<li><a href="#bom的移除-a-id-orgheadline20-a">BOM的移除<a id="orgheadline20"></a></a></li>
+<li><a href="#gbk转utf8-a-id-orgheadline21-a">GBK转UTF8<a id="orgheadline21"></a></a></li>
+<li><a href="#单字节编码-a-id-orgheadline22-a">单字节编码<a id="orgheadline22"></a></a></li>
+</ul></li>
+<li><a href="#网络操作-a-id-orgheadline24-a">网络操作<a id="orgheadline24"></a></a></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h1 id="每个模块都有require-exports-module三个预先定义好的变量可供使用-a-id-orgheadline1-a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<a id="orgheadline1"></a></h1>
+
+<ul>
+<li>require
+
+<ul>
+<li>加载和使用别的模块，传入一个模块名，返回一个模块导出对象。</li>
+<li>模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。</li>
+<li>模块名中的.js扩展名可以省略。</li>
+</ul></li>
+<li>exports</li>
+</ul>
+
+<p>当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。</p>
+
+<ul>
+<li>module</li>
+</ul>
+
+<p>通过module对象可以访问到当前模块的一些相关信息，但最多的用途是替换当前模块的导出对象。例如：</p>
+
+<pre><code>module.exports = function () {
+    console.log('Hello World!');
+};
+</code></pre>
+
+<h1 id="工程目录-a-id-orgheadline2-a">工程目录<a id="orgheadline2"></a></h1>
+
+<ul>
+<li>bin</li>
+</ul>
+
+<p>存放命令行相关代码</p>
+
+<ul>
+<li>doc</li>
+</ul>
+
+<p>存放文档</p>
+
+<ul>
+<li>lib</li>
+</ul>
+
+<p>存放API相关代码</p>
+
+<ul>
+<li>node<sub>modules</sub></li>
+</ul>
+
+<p>存放三方包</p>
+
+<ul>
+<li>tests</li>
+</ul>
+
+<p>存放测试用例</p>
+
+<ul>
+<li>package.json</li>
+</ul>
+
+<p>元数据文件</p>
+
+<ul>
+<li>README.md</li>
+</ul>
+
+<p>说明文件</p>
+
+<h1 id="npm-a-id-orgheadline7-a">NPM<a id="orgheadline7"></a></h1>
+
+<h2 id="下载第三方包-a-id-orgheadline3-a">下载第三方包<a id="orgheadline3"></a></h2>
+
+<p>下载后放在了 <code>node_modules</code> 子目录中。如果想要下载指定版本的话，可以在包名后边加上 <code>@&lt;version&gt;</code> 。</p>
+
+<pre><code>npm install XXX
+</code></pre>
+
+<p>如果想要批量下载，那么对 <code>package.json</code> 的字段做了扩展，允许在其中申明第三方包依赖。这样就可以使用 <code>npm install</code> 来批量安装第三方包。比如：</p>
+
+<pre><code>{
+    &quot;name&quot;: &quot;node-echo&quot;,
+    &quot;main&quot;: &quot;./lib/echo.js&quot;,
+    &quot;dependencies&quot;: {
+        &quot;argv&quot;: &quot;0.0.2&quot;
+    }
+}
+</code></pre>
+
+<p>更重要的是，当以后这个包也上传到了NPM服务器，别人下载这个包时，NPM会根据包中申明的三方包依赖自动下载进一步依赖的三方包，如此一来，用户只需关心自己直接使用的三方包，不需要自己去解决所有包的依赖关系。</p>
+
+<h2 id="安装命令行程序-a-id-orgheadline4-a">安装命令行程序<a id="orgheadline4"></a></h2>
+
+<p>安装一个命令行程序的方法与三方包类似。</p>
+
+<h2 id="发布代码-a-id-orgheadline5-a">发布代码<a id="orgheadline5"></a></h2>
+
+<p>第一次使用NPM发布代码前需要注册一个账号。终端下运行`npm adduser`，之后按照提示输入用户名、密码和邮件。</p>
+
+<p>编辑 <code>package.json</code> :</p>
+
+<pre><code>&quot;name&quot;: &quot;node-echo&quot;,  # 包名，在NPM服务器上须要保持唯一
+&quot;version&quot;: &quot;1.0.0&quot;,   # 当前版本号，分为X.Y.Z三位，分别代表主版本号、次版本号和补丁版本号。
+&quot;dependencies&quot;: {     # 三方包依赖，需要指定包名和版本号
+    &quot;argv&quot;: &quot;0.0.2&quot;
+  },
+&quot;main&quot;: &quot;./lib/echo.js&quot;, # 入口模块位置
+&quot;bin&quot; : {
+    &quot;node-echo&quot;: &quot;./bin/node-echo&quot; # 命令行程序名和主模块位置
+}
+</code></pre>
+
+<p>然后就可以在 <code>package.json</code> 所在目录下运行 <code>npm publish</code> 发布代码了。</p>
+
+<h2 id="其他常用命令-a-id-orgheadline6-a">其他常用命令<a id="orgheadline6"></a></h2>
+
+<p><code>npm help &lt;command&gt;</code> ：查看某条命令的详细帮助
+<code>npm update &lt;package&gt;</code> ： 更新当前目录下node<sub>modules子目录里边的对应模块</sub>
+<code>npm update &lt;package&gt; -g</code> ： 更新全局安装的程序
+<code>npm cache clear</code> ：清空NPM本地缓存
+<code>npm unpublish &lt;package&gt;@&lt;version&gt;</code> ：撤销发布过的某个版本代码。</p>
+
+<h1 id="文件操作-a-id-orgheadline10-a">文件操作<a id="orgheadline10"></a></h1>
+
+<h2 id="小文件拷贝-a-id-orgheadline8-a">小文件拷贝<a id="orgheadline8"></a></h2>
+
+<p>使用内置的fs模块简单实现copy：</p>
+
+<pre><code>var fs = require('fs');
+
+function copy(src, dst) {
+    fs.writeFileSync(dst, fs.readFileSync(src));
+}
+
+function main(argv) {
+    copy(argv[0], argv[1]);
+}
+
+main(process.argv.slice(2));
+</code></pre>
+
+<p>以上程序使用fs.readFileSync从源路径读取文件内容，并使用fs.writeFileSync将文件内容写入目标路径。</p>
+
+<blockquote>
+<p>process是一个全局变量，可通过process.argv获得命令行参数。由于 <code>argv[0]</code> 固定等于NodeJS执行程序的绝对路径， <code>argv[1]～ 固定等于主模块的绝对路径，因此第一个命令行参数从 ~argv[2]</code> 这个位置开始。</p>
+</blockquote>
+
+<h2 id="大文件拷贝-a-id-orgheadline9-a">大文件拷贝<a id="orgheadline9"></a></h2>
+
+<p>上边的程序拷贝一些小文件没啥问题，但这种一次性把所有文件内容都读取到内存中后再一次性写入磁盘的方式不适合拷贝大文件，内存会爆仓。对于大文件，我们只能读一点写一点，直到完成拷贝。因此上边的程序需要改造如下。</p>
+
+<pre><code>var fs = require('fs');
+
+function copy(src, dst) {
+    fs.createReadStream(src).pipe(fs.createWriteStream(dst));
+}
+
+function main(argv) {
+    copy(argv[0], argv[1]);
+}
+
+main(process.argv.slice(2));
+</code></pre>
+
+<p>以上程序使用fs.createReadStream创建了一个源文件的只读数据流，并使用fs.createWriteStream创建了一个目标文件的只写数据流，并且用pipe方法把两个数据流连接了起来。</p>
+
+<h1 id="api-a-id-orgheadline18-a">API<a id="orgheadline18"></a></h1>
+
+<h2 id="buffer-a-id-orgheadline11-a">Buffer<a id="orgheadline11"></a></h2>
+
+<p>NodeJS提供了一个与String对等的全局构造函数Buffer来提供对二进制数据的操作。
+官方文档： <a href="http://nodejs.org/api/buffer.html">http://nodejs.org/api/buffer.html</a>
+Buffer与字符串有一个重要区别。字符串是只读的，并且对字符串的任何修改得到的都是一个新字符串，原字符串保持不变。至于Buffer，更像是可以做指针操作的C语言数组。</p>
+
+<h2 id="stream-a-id-orgheadline12-a">Stream<a id="orgheadline12"></a></h2>
+
+<p>当内存中无法一次装下需要处理的数据时，或者一边读取一边处理更加高效时，我们就需要用到数据流。
+官方文档： <a href="http://nodejs.org/api/stream.html">http://nodejs.org/api/stream.html</a>
+Stream基于事件机制工作，所有Stream的实例都继承于NodeJS提供的EventEmitter。
+NodeJS直接提供了.pipe方法来做这件事情</p>
+
+<h2 id="file-system-a-id-orgheadline13-a">File System<a id="orgheadline13"></a></h2>
+
+<p>官方文档： <a href="http://nodejs.org/api/fs.html">http://nodejs.org/api/fs.html</a>
+NodeJS通过fs内置模块提供对文件的操作。fs模块提供的API基本上可以分为以下三类：</p>
+
+<ul>
+<li>文件属性读写。</li>
+</ul>
+
+<p>其中常用的有fs.stat、fs.chmod、fs.chown等等。</p>
+
+<ul>
+<li>文件内容读写。</li>
+</ul>
+
+<p>其中常用的有fs.readFile、fs.readdir、fs.writeFile、fs.mkdir等等。</p>
+
+<ul>
+<li>底层文件操作。</li>
+</ul>
+
+<p>其中常用的有fs.open、fs.read、fs.write、fs.close等等。
+&gt; fs模块的所有异步API都有对应的同步版本，用于无法使用异步操作时，或者同步操作更方便时的情况。同步API除了方法名的末尾多了一个Sync之外，异常对象与执行结果的传递方式也有相应变化。</p>
+
+<h2 id="path-a-id-orgheadline17-a">Path<a id="orgheadline17"></a></h2>
+
+<h3 id="path-normalize-a-id-orgheadline16-a">path.normalize<a id="orgheadline16"></a></h3>
+
+<p>将传入的路径转换为标准路径
+&gt; 注意： 标准化之后的路径里的斜杠在Windows系统下是\，而在Linux系统下是/。如果想保证任何系统下都使用/作为路径分隔符的话，需要用.replace(/\\/g, &lsquo;/&rsquo;)再替换一下标准路径。</p>
+
+<ol>
+<li><p>path.join</p>
+
+<p>将传入的多个路径拼接为标准路径。</p></li>
+
+<li><p>path.extname</p>
+
+<p>当我们需要根据不同文件扩展名做不同操作时</p></li>
+</ol>
+
+<h1 id="遍历-a-id-orgheadline19-a">遍历<a id="orgheadline19"></a></h1>
+
+<p>目录是一个树状结构，在遍历时一般使用深度优先+先序遍历算法。
+同步遍历和异步遍历</p>
+
+<blockquote>
+<p>陷阱： 使用递归算法编写的代码虽然简洁，但由于每递归一次就产生一次函数调用，在需要优先考虑性能时，需要把递归算法转换为循环算法，以减少函数调用次数。</p>
+</blockquote>
+
+<h1 id="文本编码-a-id-orgheadline23-a">文本编码<a id="orgheadline23"></a></h1>
+
+<p>我们常用的文本编码有UTF8和GBK两种，并且UTF8文件还可能带有BOM。在读取不同编码的文本文件时，需要将文件内容转换为JS使用的UTF8编码字符串后才能正常处理。</p>
+
+<h2 id="bom的移除-a-id-orgheadline20-a">BOM的移除<a id="orgheadline20"></a></h2>
+
+<p>BOM用于标记一个文本文件使用Unicode编码，其本身是一个Unicode字符（&rdquo;\uFEFF&rdquo;），位于文本文件头部。BOM字符虽然起到了标记文件编码的作用，其本身却不属于文件内容的一部分。以下代码实现了识别和去除UTF8 BOM的功能。</p>
+
+<pre><code>function readText(pathname) {
+    var bin = fs.readFileSync(pathname);
+
+    if (bin[0] === 0xEF &amp;&amp; bin[1] === 0xBB &amp;&amp; bin[2] === 0xBF) {
+        bin = bin.slice(3);
+    }
+
+    return bin.toString('utf-8');
+}
+</code></pre>
+
+<h2 id="gbk转utf8-a-id-orgheadline21-a">GBK转UTF8<a id="orgheadline21"></a></h2>
+
+<p>借助iconv-lite这个三方包来转换编码。使用NPM下载该包后，我们可以按下边方式编写一个读取GBK文本文件的函数。</p>
+
+<pre><code>var iconv = require('iconv-lite');
+
+function readGBKText(pathname) {
+    var bin = fs.readFileSync(pathname);
+
+    return iconv.decode(bin, 'gbk');
+}
+</code></pre>
+
+<h2 id="单字节编码-a-id-orgheadline22-a">单字节编码<a id="orgheadline22"></a></h2>
+
+<p>如果一个文本文件只包含英文字符，那无论用GBK编码或是UTF8编码读取这个文件都是没问题的。即使一个文本文件中有中文等字符，如果我们需要处理的字符仅在ASCII0~128范围内，比如除了注释和字符串以外的JS代码，我们就可以统一使用单字节编码来读取文件，不用关心文件的实际编码是GBK还是UTF8。这里的诀窍在于，不管大于0xEF的单个字节在单字节编码下被解析成什么乱码字符，使用同样的单字节编码保存这些乱码字符时，背后对应的字节保持不变。
+NodeJS中自带了一种binary编码可以用来实现这个方法：</p>
+
+<pre><code>function replace(pathname) {
+    var str = fs.readFileSync(pathname, 'binary');
+    str = str.replace('foo', 'bar');
+    fs.writeFileSync(pathname, str, 'binary');
+}
+</code></pre>
+
+<h1 id="网络操作-a-id-orgheadline24-a">网络操作<a id="orgheadline24"></a></h1>
+
+<p>http官方文档： <a href="http://nodejs.org/api/http.html">http://nodejs.org/api/http.html</a>
+https官方文档： <a href="http://nodejs.org/api/https.html">http://nodejs.org/api/https.html</a></p>
+
+<p>HTTP请求和响应本质上是一个数据流，由请求头（headers）和请求体（body）组成。</p>
+
+<p>https模块与http模块极为类似，区别在于https模块需要额外处理SSL证书。</p>
+
+<p>如果目标服务器使用的SSL证书是自制的，不是从颁发机构购买的，默认情况下https模块会拒绝连接，提示说有证书安全问题。在options里加入rejectUnauthorized: false字段可以禁用对证书有效性的检查，从而允许https模块请求开发环境下使用自制证书的HTTPS服务器。</p>
+
+<p>URL官方文档： <a href="http://nodejs.org/api/url.html。处理HTTP请求时url模块使用率超高，因为该模块允许解析URL、生成URL，以及拼接URL">http://nodejs.org/api/url.html。处理HTTP请求时url模块使用率超高，因为该模块允许解析URL、生成URL，以及拼接URL</a>。</p>
+
+<p>Query String官方文档： <a href="http://nodejs.org/api/querystring.html。querystring模块用于实现URL参数字符串与参数对象的互相转换">http://nodejs.org/api/querystring.html。querystring模块用于实现URL参数字符串与参数对象的互相转换</a>。</p>
+
+<p>Zlib官方文档： <a href="http://nodejs.org/api/zlib.html。zlib模块提供了数据压缩和解压的功能。当我们处理HTTP请求和响应时，可能需要用到这个模块">http://nodejs.org/api/zlib.html。zlib模块提供了数据压缩和解压的功能。当我们处理HTTP请求和响应时，可能需要用到这个模块</a>。</p>
+
+<p>Net官方文档： <a href="http://nodejs.org/api/net.html。net模块可用于创建Socket服务器或Socket客户端">http://nodejs.org/api/net.html。net模块可用于创建Socket服务器或Socket客户端</a>。</p>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2016-05-27-study-nodejs%2f - %e5%ad%a6%e4%b9%a0node.js "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

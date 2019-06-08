@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="NET性能优化注意事项"/>
+  <meta name="twitter:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>NET性能优化注意事项 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        NET性能优化注意事项
+                    </h1>
+                    <h2 class="headline">
+                    May 12, 2015 00:00
+                    · 851 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/net">NET</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96">性能优化</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#避免使用arraylist">避免使用ArrayList。</a></li>
+<li><a href="#使用hashtale代替其他字典集合类型">使用HashTale代替其他字典集合类型</a></li>
+<li><a href="#为字符串容器声明常量-不要直接把字符封装在双引号-里面">为字符串容器声明常量，不要直接把字符封装在双引号&rdquo; &ldquo;里面。</a></li>
+<li><a href="#不要用uppercase-lowercase转换字符串进行比较-用string-compare代替">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</a></li>
+<li><a href="#用stringbuilder代替使用字符串连接符">用StringBuilder代替使用字符串连接符 “+”，</a></li>
+<li><a href="#如果只是从xml对象读取数据-用只读的xpathdocument代替xmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</a></li>
+<li><a href="#避免在循环体里声明变量-应该在循环体外声明变量-在循环体里初始化">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</a></li>
+<li><a href="#捕获指定的异常-不要使用通用的system-exception">捕获指定的异常，不要使用通用的System.Exception.</a></li>
+<li><a href="#使用try-catch-finally时-要在finally里释放占用的资源如连接-文件流等-不然在catch到错误后占用的资源不能释放">使用Try&hellip;catch&hellip;finally时， 要在finally里释放占用的资源如连接，文件流等，不然在Catch到错误后占用的资源不能释放。</a></li>
+<li><a href="#避免使用递归调用和嵌套循环-使用他们会严重影响性能-在不得不用的时候才使用">避免使用递归调用和嵌套循环，使用他们会严重影响性能，在不得不用的时候才使用。</a></li>
+<li><a href="#使用适当的caching策略来提高性能">使用适当的Caching策略来提高性能</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h2 id="避免使用arraylist">避免使用ArrayList。</h2>
+
+<p>因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要拆箱回实际的类型。建议使用自定义的集合类型代替ArrayList。.net 2.0提供了一个新的类型，叫泛型，这是一个强类型，使用泛型集合就可以避免了封箱和拆箱的发生，提高了性能。</p>
+
+<h2 id="使用hashtale代替其他字典集合类型">使用HashTale代替其他字典集合类型</h2>
+
+<p>存放少量数据的时候可以使用HashTable.（如StringDictionary,NameValueCollection,HybridCollection），</p>
+
+<h2 id="为字符串容器声明常量-不要直接把字符封装在双引号-里面">为字符串容器声明常量，不要直接把字符封装在双引号&rdquo; &ldquo;里面。</h2>
+
+<pre><code>//避免
+MyObject obj = new MyObject();
+obj.Status = &quot;ACTIVE&quot;;
+
+//推荐
+const string C_STATUS = &quot;ACTIVE&quot;;
+MyObject obj = new MyObject();
+obj.Status = C_STATUS;
+</code></pre>
+
+<h2 id="不要用uppercase-lowercase转换字符串进行比较-用string-compare代替">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</h2>
+
+<p>它可以忽略大小写进行比较.</p>
+
+<pre><code>const string C_VALUE = &quot;COMPARE&quot;;
+if (String.Compare(sVariable, C_VALUE, true) == 0)
+{
+Console.Write(&quot;SAME&quot;);
+}
+</code></pre>
+
+<h2 id="用stringbuilder代替使用字符串连接符">用StringBuilder代替使用字符串连接符 “+”，</h2>
+
+<pre><code>//避免
+String sXML = &quot;&lt;parent&gt;&quot;;
+sXML += &quot;&lt;child&gt;&quot;;
+sXML += &quot;Data&quot;;
+sXML += &quot;&lt;/child&gt;&quot;;
+sXML += &quot;&lt;/parent&gt;&quot;;
+
+//推荐
+StringBuilder sbXML = new StringBuilder();
+sbXML.Append(&quot;&lt;parent&gt;&quot;);
+sbXML.Append(&quot;&lt;child&gt;&quot;);
+sbXML.Append(&quot;Data&quot;);
+sbXML.Append(&quot;&lt;/child&gt;&quot;);
+sbXML.Append(&quot;&lt;/parent&gt;&quot;);
+</code></pre>
+
+<h2 id="如果只是从xml对象读取数据-用只读的xpathdocument代替xmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</h2>
+
+<pre><code>//避免
+XmlDocument xmld = new XmlDocument();
+xmld.LoadXml(sXML);
+txtName.Text = xmld.SelectSingleNode(&quot;/packet/child&quot;).InnerText;
+
+//推荐
+XPathDocument xmldContext = new XPathDocument(new StringReader(oContext.Value));
+XPathNavigator xnav = xmldContext.CreateNavigator();
+XPathNodeIterator xpNodeIter = xnav.Select(&quot;packet/child&quot;);
+iCount = xpNodeIter.Count;
+xpNodeIter = xnav.SelectDescendants(XPathNodeType.Element, false); 
+while(xpNodeIter.MoveNext())
+{
+  sCurrValues += xpNodeIter.Current.Value+&quot;~&quot;; 
+}
+</code></pre>
+
+<h2 id="避免在循环体里声明变量-应该在循环体外声明变量-在循环体里初始化">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</h2>
+
+<pre><code>//避免
+for(int i=0; i&lt;10; i++)
+{
+    SomeClass objSC = new SomeClass();
+      .
+      .
+      .
+
+//推荐
+SomeClass objSC = null;
+for(int i=0; i&lt;10; i++)
+{
+   objSC = new SomeClass();
+
+.
+.
+.
+}
+</code></pre>
+
+<h2 id="捕获指定的异常-不要使用通用的system-exception">捕获指定的异常，不要使用通用的System.Exception.</h2>
+
+<pre><code>//避免
+      try
+      {
+      &lt;some logic&gt;
+      }
+      catch(Exception exc)
+      {
+      &lt;Error handling&gt;
+      }
+
+//推荐
+      try
+      {
+      &lt;some logic&gt;
+      }
+      catch(System.NullReferenceException exc)
+      {
+      &lt;Error handling&gt;
+      }
+      catch(System.ArgumentOutOfRangeException exc)
+      {
+      &lt;Error handling&gt;
+      }
+      catch(System.InvalidCastException exc)
+      {
+      &lt;Error handling&gt;
+      }
+</code></pre>
+
+<h2 id="使用try-catch-finally时-要在finally里释放占用的资源如连接-文件流等-不然在catch到错误后占用的资源不能释放">使用Try&hellip;catch&hellip;finally时， 要在finally里释放占用的资源如连接，文件流等，不然在Catch到错误后占用的资源不能释放。</h2>
+
+<pre><code>try
+      {
+         ...
+      }
+      catch 
+        {...}
+        finally
+        {
+          conntion.close()
+        }     
+</code></pre>
+
+<h2 id="避免使用递归调用和嵌套循环-使用他们会严重影响性能-在不得不用的时候才使用">避免使用递归调用和嵌套循环，使用他们会严重影响性能，在不得不用的时候才使用。</h2>
+
+<h2 id="使用适当的caching策略来提高性能">使用适当的Caching策略来提高性能</h2>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-05-12-net-performance-optimization%2f - NET%e6%80%a7%e8%83%bd%e4%bc%98%e5%8c%96%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

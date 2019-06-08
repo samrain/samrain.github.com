@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="基于阿里云搭建服务平台架构图"/>
+  <meta name="twitter:description" content="基于阿里云服务平台实施的，如下所示： 阿里云服务 采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>基于阿里云搭建服务平台架构图 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://www.samrainhan.com/posts'>Archive</a>
+	<a href='https://www.samrainhan.com/tags'>Tags</a>
+	<a href='https://www.samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        基于阿里云搭建服务平台架构图
+                    </h1>
+                    <h2 class="headline">
+                    Mar 2, 2015 00:00
+                    · 1059 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://www.samrainhan.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97">云计算</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E4%BA%91%E5%AD%98%E5%82%A8">云存储</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91">阿里云</a>
+                          
+                              <a href="https://www.samrainhan.com/tags/%E6%9E%B6%E6%9E%84">架构</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#阿里云服务">阿里云服务</a></li>
+<li><a href="#优势">优势</a></li>
+<li><a href="#费用">费用</a>
+<ul>
+<li>
+<ul>
+<li><a href="#总计-2868-2元-年">总计 2868.2元/年</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<p>基于阿里云服务平台实施的，如下所示：</p>
+
+<p><img src="http://samrain.qiniudn.com/基于阿里云搭建服务平台架构图.png" alt="基于阿里云搭建服务平台架构图" /></p>
+
+<h1 id="阿里云服务">阿里云服务</h1>
+
+<ol>
+<li>采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多台服务器进行流量分发。SLB是基于集群建设的，并且可以随时变配，按量付费。它不仅为我们实现了成熟的负载均衡方案，其稳定性与灵活性也为Web集群提供了更多可能。</li>
+<li>后端配置多台ECS（Elastic Compute Service，云服务器）实例，将主要应用服务都部署在ECS上。除了可弹性扩容这一特性，ECS提供的安全防护和快照备份为服务器安全和容灾提供了非常成熟的解决方案，这恰恰是我们这种业务型创业团队积累相对最薄弱的方面。另外，ECS多线接入骨干网络能保证网络的稳定和性能，使得任何网络的用户访问应用服务都非常顺畅。</li>
+<li>DB集群由多台RDS（Relational Database Service，关系型数据库服务）实例组成。RDS是云数据库，简单易用，使用方法与自行部署的数据库完全一样。其成熟的双机热备与底层资源隔离，保证了我们这两年来数据库的平稳运行。另外，强大的iDB Cloud控制台、专业的DBA团队支持，为我们监控数据库运行状况、定位和解决数据库问题，提供了非常多的建议和帮助。</li>
+<li>集群之间的共享资源统一存放在OCS（Open Cache Service，开放缓存服务）中。我们用OCS来存放数据路由和实时性不高的业务数据。缓存作为我们架构性能中非常重要的一个环节，在承受了来自整个集群各方面压力的同时，还要保证响应稳定高速。</li>
+</ol>
+
+<h1 id="优势">优势</h1>
+
+<ol>
+<li><p>便利的服务器弹性升级功能，可随时应付像“双十一”这样的大促。而通过使用传统IDC托管模式，物理机的维护、升级以及升级后的数据迁移都是比较头疼的。</p></li>
+
+<li><p>成熟可靠的数据备份与快照、数据库主从分离与同步的底层方案。团队无须承受自己造轮子的代价，可专注于业务开发。</p></li>
+
+<li><p>云计算产品经过检验、值得信赖的安全防护。</p></li>
+
+<li><p>精简了创业团队人员规模。云计算平台具备专业的技术支持与服务，使得团队不再需要数据库和服务器管理员。</p></li>
+</ol>
+
+<h1 id="费用">费用</h1>
+
+<h3 id="总计-2868-2元-年">总计 2868.2元/年</h3>
+
+<ol>
+<li>SLB
+0.02*24*365=175.2元（一个实例一年费用）
+0.96*3*365= 1051.2元（3Mbps一年费用）</li>
+<li>ECS</li>
+<li>WEB Serv 32*10+0.3*5*10=320+15=335元（1核512M内存 一年费用 5G数据盘）</li>
+<li>APP Serv 85*10+0.3*5*10=850+15=865元（1核2G内存 一年费用 5G数据盘）</li>
+<li>RDS
+MySQL(版本5.1或5.5或5.6) 398元（240M内存 1G数据 一年费用）</li>
+<li>OCS
+0.04*0.125*24*365=43.8元（128MB容量 峰值吞吐量2MB/s 峰值qps2000次/秒）</li>
+</ol>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-03-02-architecture-diagram-base-on-aliyun%2f - %e5%9f%ba%e4%ba%8e%e9%98%bf%e9%87%8c%e4%ba%91%e6%90%ad%e5%bb%ba%e6%9c%8d%e5%8a%a1%e5%b9%b3%e5%8f%b0%e6%9e%b6%e6%9e%84%e5%9b%be "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://www.samrainhan.com/js/main.js"></script>
+<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>
