@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samrainhan.com/2019-06-11-macau-tour-route/</loc>
+    <lastmod>2019-06-11T00:23:59+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/2019-06-08-rust-guide/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
   </url>
@@ -3121,6 +3126,12 @@
   </url>
   
   <url>
+    <loc>https://www.samrainhan.com/categories/play/</loc>
+    <lastmod>2019-06-11T00:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/posts/</loc>
     <lastmod>2019-04-26T14:52:53+00:00</lastmod>
     <priority>0</priority>
@@ -3685,7 +3696,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-06-08T23:52:06+08:00</lastmod>
+    <lastmod>2019-06-11T00:23:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -5306,6 +5317,12 @@
   <url>
     <loc>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8/</loc>
     <lastmod>2015-07-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E6%BE%B3%E9%97%A8%E5%BE%92%E6%AD%A5/</loc>
+    <lastmod>2019-06-11T00:23:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
