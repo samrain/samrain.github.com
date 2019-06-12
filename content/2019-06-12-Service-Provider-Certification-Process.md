@@ -6,6 +6,8 @@ categories = ["work"]
 draft = false
 +++
 
+[![](https://ae01.alicdn.com/kf/HTB1v4jMcAWE3KVjSZSyq6xocXXat.jpg)](https://ae01.alicdn.com/kf/HTB1v4jMcAWE3KVjSZSyq6xocXXat.jpg)
+
 ```
 @startuml
 skinparam titleBorderRoundCorner 15
@@ -72,5 +74,3 @@ stop
 floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、
 @enduml
 ```
-
-[![](https://pic.superbed.cn/item/5d010aa2451253d1782426e5.jpg)](https://pic.superbed.cn/item/5d010aa2451253d1782426e5.jpg)
