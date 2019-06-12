@@ -6,7 +6,7 @@ categories = ["work"]
 draft = false
 +++
 
-[![](https://ae01.alicdn.com/kf/HTB1v4jMcAWE3KVjSZSyq6xocXXat.jpg)](https://ae01.alicdn.com/kf/HTB1v4jMcAWE3KVjSZSyq6xocXXat.jpg)
+[![服务商认证流程](https://pic.superbed.cn/item/5d0118ba451253d178250889)](https://pic.superbed.cn/item/5d0118ba451253d178250889.jpg)
 
 ```
 @startuml

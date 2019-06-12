@@ -6,10 +6,19 @@
     <description>Recent content in Work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Jun 2019 23:35:46 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 22:31:20 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>服务商认证流程</title>
+      <link>https://www.samrainhan.com/2019-06-12-service-provider-certification-process/</link>
+      <pubDate>Wed, 12 Jun 2019 22:31:20 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/2019-06-12-service-provider-certification-process/</guid>
+      <description>@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通</description>
+    </item>
     
     <item>
       <title>展会材料清单</title>
