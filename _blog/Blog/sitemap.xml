@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samrainhan.com/2019-06-14-jokes/</loc>
+    <lastmod>2019-06-14T23:17:48+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/2019-06-13-list-of-presales/</loc>
     <lastmod>2019-06-13T23:59:18+08:00</lastmod>
   </url>
@@ -2572,7 +2577,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2018-09-11T10:04:48+08:00</lastmod>
+    <lastmod>2019-06-14T23:17:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3717,7 +3722,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-06-13T23:59:18+08:00</lastmod>
+    <lastmod>2019-06-14T23:17:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -5872,6 +5877,12 @@
   <url>
     <loc>https://www.samrainhan.com/tags/%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F/</loc>
     <lastmod>2013-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E7%AC%91%E8%AF%9D/</loc>
+    <lastmod>2019-06-14T23:17:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
