@@ -75,6 +75,21 @@
         
             <li>
                 <aside class="dates">Sep 12</aside>
+                <a href='https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/'>
+                    给tempdb加2个文件做缓存
+                    
+                        
+                            <h2>sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Sep 12</aside>
                 <a href='https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/'>
                     如何找到没有聚集索引的表
                     
@@ -200,21 +215,6 @@
                     
                         
                             <h2>用管理员权限启动PowerShell，然后执行以下脚本： Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}</h2>
-                        
-                    
-                </a>
-            </li>
-        
-    
-    
-        
-            <li>
-                <aside class="dates">Sep 11</aside>
-                <a href='https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/'>
-                    在rsync时避免同步某些文件
-                    
-                        
-                            <h2>list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude</h2>
                         
                     
                 </a>

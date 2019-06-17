@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Jun 2019 23:17:48 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 11:41:20 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>手工添加WPS序列号</title>
+      <link>https://www.samrainhan.com/2019-06-15-add-wps-license-num-manually/</link>
+      <pubDate>Sat, 15 Jun 2019 11:41:20 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/2019-06-15-add-wps-license-num-manually/</guid>
+      <description>1. 确认序列号 2. win7中左下角开始-程序-附件-WPS office 专业增强版-配置工具 3. 点击“配置工具”-高级-产品管理中心-添加-输入序列号信息-确</description>
+    </item>
     
     <item>
       <title>笑话</title>
