@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wpsproduction on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/wpsproduction/</link>
+    <description>Recent content in Wpsproduction on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Jun 2019 06:37:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/wpsproduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WPS产品矩阵</title>
+      <link>https://www.samrainhan.com/2019-06-18-matrix-of-wps/</link>
+      <pubDate>Tue, 18 Jun 2019 06:37:10 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/2019-06-18-matrix-of-wps/</guid>
+      <description>|Package|App|有否单独客户端|Windows|Linux|Mac|IOS|Android|H5|服务可否私有化| |&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;| |Office|WPS Office|[x]|[x]|[x]|[x]|[x]|[x]||[x]| |Office|WPS PDF|[x]|[x]|||[x]|[x]||[x]| |Of</description>
+    </item>
+    
+  </channel>
+</rss>
