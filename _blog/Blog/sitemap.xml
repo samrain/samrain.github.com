@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samrainhan.com/2019-06-22-why-we-use-office/</loc>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/2019-06-21-new-zealand-travel-plan/</loc>
     <lastmod>2019-06-21T02:05:15+08:00</lastmod>
   </url>
@@ -2213,14 +2218,14 @@
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2019-04-26T14:52:53+00:00</lastmod>
+    <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/tags/</loc>
-    <lastmod>2019-04-26T14:52:53+00:00</lastmod>
+    <loc>https://www.samrainhan.com/categories/</loc>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2381,7 +2386,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2019-04-26T14:52:53+00:00</lastmod>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3501,13 +3506,13 @@
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
+    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
+    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3526,7 +3531,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/tags/</loc>
-    <lastmod>2019-04-26T14:52:53+00:00</lastmod>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3760,7 +3765,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-06-21T02:05:15+08:00</lastmod>
+    <lastmod>2019-06-22T02:02:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   

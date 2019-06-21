@@ -1,8 +1,8 @@
 +++
 title = "Why We Use Office"
 date = 2019-06-22T02:02:54+08:00
-tags = [""]
-categories = [""]
+tags = ["office"]
+categories = ["work"]
 draft = false
 +++
 
