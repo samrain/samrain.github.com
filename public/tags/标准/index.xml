@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>标准 on sam的小窝</title><link>http://samrainhan.com/tags/%E6%A0%87%E5%87%86/</link><description>Recent content in 标准 on sam的小窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 14 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://samrainhan.com/tags/%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml"/><item><title>google招聘标准</title><link>http://samrainhan.com/posts/2015-02-14-recruitment-requirements/</link><pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate><guid>http://samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid><description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标准 on sam的小窝</title>
+    <link>http://samrainhan.com/tags/%E6%A0%87%E5%87%86/</link>
+    <description>Recent content in 标准 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 14 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google招聘标准</title>
+      <link>http://samrainhan.com/posts/2015-02-14-recruitment-requirements/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid>
+      <description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description>
+    </item>
+    
+  </channel>
+</rss>

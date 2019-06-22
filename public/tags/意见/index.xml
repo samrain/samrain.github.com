@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>意见 on sam的小窝</title><link>http://samrainhan.com/tags/%E6%84%8F%E8%A7%81/</link><description>Recent content in 意见 on sam的小窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://samrainhan.com/tags/%E6%84%8F%E8%A7%81/index.xml" rel="self" type="application/rss+xml"/><item><title>速度收集客户意见</title><link>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</link><pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate><guid>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</guid><description>在线反馈 在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。 主动给用户打回访电话 因为可以看</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>意见 on sam的小窝</title>
+    <link>http://samrainhan.com/tags/%E6%84%8F%E8%A7%81/</link>
+    <description>Recent content in 意见 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/%E6%84%8F%E8%A7%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>速度收集客户意见</title>
+      <link>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</link>
+      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</guid>
+      <description>在线反馈 在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。 主动给用户打回访电话 因为可以看</description>
+    </item>
+    
+  </channel>
+</rss>

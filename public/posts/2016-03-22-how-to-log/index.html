@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="如何记录日志"/>
+  <meta name="twitter:description" content="Table 1: 修订记录 版本号 日期 描述 改者 V0.1 2015-12-10 initial 韩雨 日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>如何记录日志 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        如何记录日志
+                    </h1>
+                    <h2 class="headline">
+                    Mar 22, 2016 00:00
+                    · 264 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/%E6%97%A5%E5%BF%97">日志</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#日志类型-a-id-sec-9-name-sec-9-a">日志类型<a id="sec-9" name="sec-9"></a></a>
+<ul>
+<li><a href="#fatal-a-id-sec-9-1-name-sec-9-1-a">Fatal<a id="sec-9-1" name="sec-9-1"></a></a></li>
+<li><a href="#error-a-id-sec-9-2-name-sec-9-2-a">Error<a id="sec-9-2" name="sec-9-2"></a></a></li>
+<li><a href="#warn-a-id-sec-9-3-name-sec-9-3-a">Warn<a id="sec-9-3" name="sec-9-3"></a></a></li>
+<li><a href="#info-a-id-sec-9-4-name-sec-9-4-a">Info<a id="sec-9-4" name="sec-9-4"></a></a></li>
+<li><a href="#debug-a-id-sec-9-5-name-sec-9-5-a">Debug<a id="sec-9-5" name="sec-9-5"></a></a></li>
+<li><a href="#trace-a-id-sec-9-6-name-sec-9-6-a">Trace<a id="sec-9-6" name="sec-9-6"></a></a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> 修订记录</caption>
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">版本号</th>
+<th scope="col" class="right">日期</th>
+<th scope="col" class="left">描述</th>
+<th scope="col" class="left">改者</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">V0.1</td>
+<td class="right">2015-12-10</td>
+<td class="left">initial</td>
+<td class="left">韩雨</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="日志类型-a-id-sec-9-name-sec-9-a">日志类型<a id="sec-9" name="sec-9"></a></h1>
+
+<h2 id="fatal-a-id-sec-9-1-name-sec-9-1-a">Fatal<a id="sec-9-1" name="sec-9-1"></a></h2>
+
+<p>最高等级：重要的东西关闭了</p>
+
+<h2 id="error-a-id-sec-9-2-name-sec-9-2-a">Error<a id="sec-9-2" name="sec-9-2"></a></h2>
+
+<ul>
+<li>应用报错/崩溃</li>
+<li>用户使用受影响</li>
+<li>修复需要人工干预</li>
+</ul>
+
+<h2 id="warn-a-id-sec-9-3-name-sec-9-3-a">Warn<a id="sec-9-3" name="sec-9-3"></a></h2>
+
+<ul>
+<li>不正确的行为但是应用还在运行</li>
+<li>用户使用受影响但是不需要立即人工干预</li>
+</ul>
+
+<h2 id="info-a-id-sec-9-4-name-sec-9-4-a">Info<a id="sec-9-4" name="sec-9-4"></a></h2>
+
+<ul>
+<li>正常的行为像发送邮件，更新用户配置文件等。</li>
+<li>系统生命周期事件 (系统启动、 停止)</li>
+<li>会话生命周期事件 (登录、 注销等)</li>
+<li>边界事件 (数据库调用，远程 API 调用)</li>
+<li>典型的业务异常 (由于坏凭据登录失败)</li>
+<li>生产中的任何其他事件在此处</li>
+</ul>
+
+<h2 id="debug-a-id-sec-9-5-name-sec-9-5-a">Debug<a id="sec-9-5" name="sec-9-5"></a></h2>
+
+<ul>
+<li>有助于跟踪问题，特别是在开发和 QA 阶段期间的任何消息</li>
+</ul>
+
+<h2 id="trace-a-id-sec-9-6-name-sec-9-6-a">Trace<a id="sec-9-6" name="sec-9-6"></a></h2>
+
+<ul>
+<li>开始方法 X，结束方法 X 等</li>
+<li>不经常用</li>
+<li>使用会导致大量的日志</li>
+<li>例如一个大循环中记录某个状态</li>
+</ul>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2016-03-22-how-to-log%2f - %e5%a6%82%e4%bd%95%e8%ae%b0%e5%bd%95%e6%97%a5%e5%bf%97 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

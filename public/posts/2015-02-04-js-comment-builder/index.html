@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="导出js注释工具-JSDOC"/>
+  <meta name="twitter:description" content="what 官网在此 代码在此 install sudo npm install -g git&#43;https://github.com/jsdoc3/jsdoc.git 或者 npm install jsdoc@&quot;&lt;=3.3.0&quot; how JSDoc会从/**开头的注释中抽取信息。 标签就是一些以@开头的命令，所有标签用法见这里 jsdoc where-is-js-files 访问当"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>导出js注释工具-JSDOC &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        导出js注释工具-JSDOC
+                    </h1>
+                    <h2 class="headline">
+                    Feb 4, 2015 00:00
+                    · 669 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/%E7%94%9F%E6%88%90%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3">生成帮助文档</a>
+                          
+                              <a href="http://samrainhan.com/tags/js">js</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E6%B3%A8%E9%87%8A">注释</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#what">what</a></li>
+<li><a href="#install">install</a></li>
+<li><a href="#how">how</a></li>
+<li><a href="#使用docstrap美化界面">使用docstrap美化界面</a>
+<ul>
+<li><a href="#配置docstrap">配置docstrap</a></li>
+<li><a href="#编写首页内容">编写首页内容</a></li>
+<li><a href="#制作tutorials">制作tutorials</a></li>
+<li><a href="#生成帮助文档">生成帮助文档</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h2 id="what">what</h2>
+
+<p><a href="http://usejsdoc.org/">官网在此</a>
+<a href="https://github.com/jsdoc3/jsdoc/">代码在此</a></p>
+
+<h2 id="install">install</h2>
+
+<pre><code>sudo npm install -g git+https://github.com/jsdoc3/jsdoc.git
+</code></pre>
+
+<p>或者</p>
+
+<pre><code>npm install jsdoc@&quot;&lt;=3.3.0&quot;
+</code></pre>
+
+<h2 id="how">how</h2>
+
+<p>JSDoc会从<code>/**</code>开头的注释中抽取信息。</p>
+
+<p>标签就是一些以<code>@</code>开头的命令，所有标签用法见<a href="http://usejsdoc.org/#JSDoc3_Tag_Dictionary">这里</a></p>
+
+<pre><code>jsdoc where-is-js-files
+</code></pre>
+
+<p>访问<a href="file:///当前目录/out/index.html">当前目录下<code>/out/index.html</code></a></p>
+
+<h2 id="使用docstrap美化界面">使用docstrap美化界面</h2>
+
+<p><a href="https://github.com/terryweiss/docstrap">官网在此</a>，下载地址<a href="https://github.com/terryweiss/docstrap/archive/master.zip">戳这里</a></p>
+
+<h3 id="配置docstrap">配置docstrap</h3>
+
+<p>修改文件<code>docstrap/template/jsdoc.conf.json</code>，文件在此：<script src="https://gist.github.com/samrain/b7776e691a66323fae37.js"></script></p>
+
+<h3 id="编写首页内容">编写首页内容</h3>
+
+<p>保存到README.md文件。（必须是md文件）</p>
+
+<pre><code>## why
+让更多的人一起来做自己喜欢的网站
+
+## what
+前端框架
+
+## how
+js
+</code></pre>
+
+<h3 id="制作tutorials">制作tutorials</h3>
+
+<p>放其它的描述文档，比如总体介绍，背景说明，示例文档等。</p>
+
+<p>必须先创建一个目录（名称不限，例子中用<code>tutorials</code>），然后把上述文档转成md文件后复制进改目录。（原则上所有扩展名为xml，xhtml，html，htm，md的文件都可以。）</p>
+
+<p>最后生成的页面上会增加新菜单<code>tutorials</code>，菜单项默认是文件名。如果想要重新命名，那么必须要在这个目录下新建同名json文件，例如<code>README.json</code>,内容为</p>
+
+<pre><code>{
+&quot;title&quot; : &quot;首页&quot;
+}
+</code></pre>
+
+<p>如果文件很多，还可以将组织成嵌套菜单，这时每个文件都建同名json文件，只要新建一个json文件（比如也叫<code>README.json</code>）即可，内容如下：</p>
+
+<pre><code>{
+&quot;README&quot;:{
+    &quot;title&quot; : &quot;首页&quot;,
+    &quot;children&quot; : {
+	&quot;a&quot;: {&quot;title&quot;:&quot;测试A&quot;},
+	&quot;b&quot;: {&quot;title&quot;:&quot;测试B&quot;}}
+}
+}
+</code></pre>
+
+<h3 id="生成帮助文档">生成帮助文档</h3>
+
+<p>运行以下命令后访问<a href="file:///当前目录/out/index.html">当前目录下<code>/out/index.html</code></a>：</p>
+
+<pre><code>jsdoc where-is-js-files README.md -t where-is-docstrap/template -c where-is-docstrap/template/jsdoc.conf.json -u where-is-js-files/turorials
+</code></pre>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2015-02-04-js-comment-builder%2f - %e5%af%bc%e5%87%bajs%e6%b3%a8%e9%87%8a%e5%b7%a5%e5%85%b7-JSDOC "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

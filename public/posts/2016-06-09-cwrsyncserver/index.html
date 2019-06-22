@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="安装cwRsyncServer"/>
+  <meta name="twitter:description" content="下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>安装cwRsyncServer &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        安装cwRsyncServer
+                    </h1>
+                    <h2 class="headline">
+                    Jun 9, 2016 00:00
+                    · 397 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/rsync">rsync</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E5%90%8C%E6%AD%A5">同步</a>
+                          
+                              <a href="http://samrainhan.com/tags/cwrsyncserver">cwRsyncServer</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#下载cwrsyncserver4-1-0-a-id-orgheadline11-a">下载cwRsyncServer4.1.0<a id="orgheadline11"></a></a></li>
+<li><a href="#添加用户-a-id-orgheadline12-a">添加用户<a id="orgheadline12"></a></a></li>
+<li><a href="#安装cwrsyncserver-a-id-orgheadline13-a">安装cwRsyncServer<a id="orgheadline13"></a></a></li>
+<li><a href="#添加文件pwd到c-program-files-icw-下-a-id-orgheadline14-a">添加文件pwd到C:\Program Files\ICW\下<a id="orgheadline14"></a></a></li>
+<li><a href="#修改文件c-program-files-icw-rsyncd-conf-a-id-orgheadline15-a">修改文件C:\Program Files\ICW\rsyncd.conf<a id="orgheadline15"></a></a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h2 id="下载cwrsyncserver4-1-0-a-id-orgheadline11-a">下载cwRsyncServer4.1.0<a id="orgheadline11"></a></h2>
+
+<p><a href="http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip">http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip</a></p>
+
+<h2 id="添加用户-a-id-orgheadline12-a">添加用户<a id="orgheadline12"></a></h2>
+
+<p>用户名: bkmaster</p>
+
+<p>密码: 438affed14a718add39f0c7729016828</p>
+
+<h2 id="安装cwrsyncserver-a-id-orgheadline13-a">安装cwRsyncServer<a id="orgheadline13"></a></h2>
+
+<p>安装时指定用户名和密码为以上添加好的用户</p>
+
+<p>运行services.msc,找到服务RsyncServer,状态应该是手动并且未启动.请设置为自动启动,并启动它.</p>
+
+<p>命令行方式:</p>
+
+<pre><code>sc start RsyncServer                              #启动服务
+sc config RsyncServer start= auto          #设置服务为自动启动
+</code></pre>
+
+<h2 id="添加文件pwd到c-program-files-icw-下-a-id-orgheadline14-a">添加文件pwd到C:\Program Files\ICW\下<a id="orgheadline14"></a></h2>
+
+<p>内容为 <code>bkmaster:438affed14a718add39f0c7729016828</code></p>
+
+<h2 id="修改文件c-program-files-icw-rsyncd-conf-a-id-orgheadline15-a">修改文件C:\Program Files\ICW\rsyncd.conf<a id="orgheadline15"></a></h2>
+
+<p>例如:</p>
+
+<pre><code>### 协同办公服务器
+# VSS数据|一周一次
+
+use chroot = false
+strict modes = false
+# 只允许以下地址服务器来同步数据,请根据实际情况修改.
+hosts allow = 192.168.16.122
+log file = bk.log
+uid=0
+gid=0
+#用md5算rsyncd等于438affed14a718add39f0c7729016828,取前5位数字
+port = 43814 
+
+[vss]
+#备份地址
+path = /cygdrive/e/vss
+read only = yes
+list=no
+transfer logging = yes 
+#用户名
+auth users = bkmaster 
+#密码文件
+secrets file = pwd 
+
+[test]
+#备份地址
+path = /cygdrive/c/program files/icw/etc
+read only = yes 
+transfer logging = yes 
+#用户名
+auth users = bkmaster
+#密码文件
+secrets file = pwd
+</code></pre>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2016-06-09-cwrsyncserver%2f - %e5%ae%89%e8%a3%85cwRsyncServer "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>收入 on sam的小窝</title><link>http://samrainhan.com/tags/%E6%94%B6%E5%85%A5/</link><description>Recent content in 收入 on sam的小窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 09 Jun 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://samrainhan.com/tags/%E6%94%B6%E5%85%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>开会怎么赚钱</title><link>http://samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</link><pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate><guid>http://samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</guid><description>收入 赞助商 最大收入 根据赞助费用多少,分为钻石,白金,金牌 好处是可以拥有展台,或把logo放在大背板上,还有些议题专门留给赞助商 赞助议题有2个</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>收入 on sam的小窝</title>
+    <link>http://samrainhan.com/tags/%E6%94%B6%E5%85%A5/</link>
+    <description>Recent content in 收入 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/tags/%E6%94%B6%E5%85%A5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>开会怎么赚钱</title>
+      <link>http://samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</guid>
+      <description>收入 赞助商 最大收入 根据赞助费用多少,分为钻石,白金,金牌 好处是可以拥有展台,或把logo放在大背板上,还有些议题专门留给赞助商 赞助议题有2个</description>
+    </item>
+    
+  </channel>
+</rss>

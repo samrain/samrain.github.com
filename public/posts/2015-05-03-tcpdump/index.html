@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Tcpdump介绍"/>
+  <meta name="twitter:description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>Tcpdump介绍 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Tcpdump介绍
+                    </h1>
+                    <h2 class="headline">
+                    May 3, 2015 00:00
+                    · 1779 words
+                    · 4 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/linux">linux</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E9%80%9A%E4%BF%A1">通信</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E6%8A%A5%E6%96%87">报文</a>
+                          
+                              <a href="http://samrainhan.com/tags/tcpdump">tcpdump</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#why">Why</a></li>
+<li><a href="#what">What</a></li>
+<li><a href="#where">Where</a></li>
+<li><a href="#when">When</a></li>
+<li><a href="#who">Who</a></li>
+<li><a href="#how">How</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h2 id="why">Why</h2>
+
+<p>看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原来那串命令就是<code>tcpdump XXXX</code>，很神奇。
+由于平常工作偶尔也会用到Wireshark，不过一般都是在Windows上，很少在Linux下用，所以很好奇<code>tcpdump</code>。</p>
+
+<h2 id="what">What</h2>
+
+<ul>
+<li><strong>定义</strong>：dump the traffice on a network，根据使用者的定义对网络上的数据包进行截获的包分析工具。</li>
+<li><a href="http://www.tcpdump.org/">官网在此</a></li>
+<li><a href="https://github.com/the-tcpdump-group/tcpdump">Github</a></li>
+<li>如何安装请看官网说明（在Ubuntu1410上默认安装了）。</li>
+<li>参数请见<code>man tcpdump</code>，以下是摘录网上的中文介绍：</li>
+</ul>
+
+<blockquote>
+<p>-A 以ASCII格式打印出所有分组，并将链路层的头最小化。</p>
+
+<p>-c 在收到指定的数量的分组后，tcpdump就会停止。</p>
+
+<p>-C 在将一个原始分组写入文件之前，检查文件当前的大小是否超过了参数file_size 中指定的大小。如果超过了指定大小，则关闭当前文件，然后在打开一个新的文件。参数 file_size 的单位是兆字节（是1,000,000字节，而不是1,048,576字节）。</p>
+
+<p>-d 将匹配信息包的代码以人们能够理解的汇编格式给出。</p>
+
+<p>-dd 将匹配信息包的代码以c语言程序段的格式给出。</p>
+
+<p>-ddd 将匹配信息包的代码以十进制的形式给出。</p>
+
+<p>-D 打印出系统中所有可以用tcpdump截包的网络接口。</p>
+
+<p>-e 在输出行打印出数据链路层的头部信息。</p>
+
+<p>-E 用spi@ipaddr algo:secret解密那些以addr作为地址，并且包含了安全参数索引值spi的IPsec ESP分组。</p>
+
+<p>-f 将外部的Internet地址以数字的形式打印出来。</p>
+
+<p>-F 从指定的文件中读取表达式，忽略命令行中给出的表达式。</p>
+
+<p>-i 指定监听的网络接口。</p>
+
+<p>-l 使标准输出变为缓冲行形式，可以把数据导出到文件。</p>
+
+<p>-L 列出网络接口的已知数据链路。</p>
+
+<p>-m 从文件module中导入SMI MIB模块定义。该参数可以被使用多次，以导入多个MIB模块。</p>
+
+<p>-M 如果tcp报文中存在TCP-MD5选项，则需要用secret作为共享的验证码用于验证TCP-MD5选选项摘要（详情可参考RFC 2385）。</p>
+
+<p>-b 在数据-链路层上选择协议，包括ip、arp、rarp、ipx都是这一层的。</p>
+
+<p>-n 不把网络地址转换成名字。</p>
+
+<p>-nn 不进行端口名称的转换。</p>
+
+<p>-N 不输出主机名中的域名部分。例如，‘nic.ddn.mil‘只输出’nic‘。</p>
+
+<p>-t 在输出的每一行不打印时间戳。</p>
+
+<p>-O 不运行分组分组匹配（packet-matching）代码优化程序。</p>
+
+<p>-P 不将网络接口设置成混杂模式。</p>
+
+<p>-q 快速输出。只输出较少的协议信息。</p>
+
+<p>-r 从指定的文件中读取包(这些包一般通过-w选项产生)。</p>
+
+<p>-S 将tcp的序列号以绝对值形式输出，而不是相对值。</p>
+
+<p>-s 从每个分组中读取最开始的snaplen个字节，而不是默认的68个字节。</p>
+
+<p>-T 将监听到的包直接解释为指定的类型的报文，常见的类型有rpc远程过程调用）和snmp（简单网络管理协议；）。</p>
+
+<p>-t 不在每一行中输出时间戳。</p>
+
+<p>-tt 在每一行中输出非格式化的时间戳。</p>
+
+<p>-ttt 输出本行和前面一行之间的时间差。</p>
+
+<p>-tttt 在每一行中输出由date处理的默认格式的时间戳。</p>
+
+<p>-u 输出未解码的NFS句柄。</p>
+
+<p>-v 输出一个稍微详细的信息，例如在ip包中可以包括ttl和服务类型的信息。</p>
+
+<p>-vv 输出详细的报文信息。</p>
+
+<p>-w 直接将分组写入文件中，而不是不分析并打印出来。</p>
+</blockquote>
+
+<ul>
+<li>过滤报文用的表达式关键字
+
+<ul>
+<li>类型
+
+<ul>
+<li>host
+<code>host 192.168.1.100</code>指的是一台主机</li>
+<li>net
+<code>net 192.168.0.0/24</code>指的是一个网络地址</li>
+<li>port
+<code>port 8080</code>指的是端口号是23</li>
+</ul></li>
+<li>传输方向
+
+<ul>
+<li>src
+<code>src 192.168.1.100</code>指的是源地址</li>
+<li>dst
+<code>dst net 192.168.0.0/24</code>指的是目的地址</li>
+<li>dst or src
+<strong>缺省关键字</strong></li>
+<li>dst and src</li>
+</ul></li>
+<li>协议
+如果没有指定任何协议，那么监听所有协议的信息包。
+
+<ul>
+<li>fddi
+ether的包进行处理和分析</li>
+<li>ip</li>
+<li>arp</li>
+<li>rarp</li>
+<li>tcp</li>
+<li>udp</li>
+</ul></li>
+<li>其他
+除了这三种类型的关键字之外，其他重要的关键字如下：gateway， broadcast，less， greater， 还有三种逻辑运算，取非运算是<code>not !</code>， 与运算是<code>and</code>，<code>&amp;&amp;</code>或运算是<code>or</code> ，<code>||</code> 这些关键字可以组合起来构成强大的组合条件来满足人们的需要。</li>
+</ul></li>
+</ul>
+
+<h2 id="where">Where</h2>
+
+<p>一般都是在Linux/freebsd上使用。</p>
+
+<h2 id="when">When</h2>
+
+<ul>
+<li>排查网络问题</li>
+<li>排查应用问题（当没有日志或者日志很少，特别是2个以上系统之间的信息交互问题）</li>
+</ul>
+
+<h2 id="who">Who</h2>
+
+<ul>
+<li>运维人员</li>
+<li>开发人员</li>
+</ul>
+
+<h2 id="how">How</h2>
+
+<p>我的一般用法：</p>
+
+<ul>
+<li>在Server上运行</li>
+</ul>
+
+<script src="https://gist.github.com/samrain/c2929e3132350edd6ebb.js"></script>
+
+<ul>
+<li>用FTP/SFTP下载到PC上。</li>
+<li>在PC上运行<code>wireshark</code>，然后读取从服务器下载的dump文件进行分析</li>
+</ul>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2015-05-03-tcpdump%2f - Tcpdump%e4%bb%8b%e7%bb%8d "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

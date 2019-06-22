@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="微博的异地多活经验学习笔记"/>
+  <meta name="twitter:description" content="微博的异地多活经验学习笔记 基于业务写消息到Queue 在线容量评估、分级上线、快速流量均衡等能力 问题 各机房之间的延时 这套方案中，每个机房的缓存"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>微博的异地多活经验学习笔记 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        微博的异地多活经验学习笔记
+                    </h1>
+                    <h2 class="headline">
+                    May 13, 2016 00:00
+                    · 1156 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/%E7%81%BE%E5%A4%87">灾备</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E5%A4%9A%E6%B4%BB">多活</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#微博的异地多活经验学习笔记-a-id-sec-1-name-sec-1-a">微博的异地多活经验学习笔记<a id="sec-1" name="sec-1"></a></a>
+<ul>
+<li><a href="#基于业务写消息到queue-a-id-sec-1-1-name-sec-1-1-a">基于业务写消息到Queue<a id="sec-1-1" name="sec-1-1"></a></a></li>
+<li><a href="#在线容量评估-分级上线-快速流量均衡等能力-a-id-sec-1-2-name-sec-1-2-a">在线容量评估、分级上线、快速流量均衡等能力<a id="sec-1-2" name="sec-1-2"></a></a></li>
+<li><a href="#问题-a-id-sec-1-3-name-sec-1-3-a">问题<a id="sec-1-3" name="sec-1-3"></a></a>
+<ul>
+<li><a href="#各机房之间的延时-a-id-sec-1-3-1-name-sec-1-3-1-a">各机房之间的延时<a id="sec-1-3-1" name="sec-1-3-1"></a></a></li>
+<li><a href="#专线费用高昂-a-id-sec-1-3-2-name-sec-1-3-2-a">专线费用高昂<a id="sec-1-3-2" name="sec-1-3-2"></a></a></li>
+<li><a href="#数据如何同步-a-id-sec-1-3-3-name-sec-1-3-3-a">数据如何同步<a id="sec-1-3-3" name="sec-1-3-3"></a></a></li>
+<li><a href="#依赖服务部署问题-a-id-sec-1-3-4-name-sec-1-3-4-a">依赖服务部署问题<a id="sec-1-3-4" name="sec-1-3-4"></a></a></li>
+<li><a href="#配套体系改造-a-id-sec-1-3-5-name-sec-1-3-5-a">配套体系改造<a id="sec-1-3-5" name="sec-1-3-5"></a></a></li>
+<li><a href="#数据冗余问题-a-id-sec-1-3-6-name-sec-1-3-6-a">数据冗余问题<a id="sec-1-3-6" name="sec-1-3-6"></a></a></li>
+</ul></li>
+<li><a href="#姿势-a-id-sec-1-4-name-sec-1-4-a">姿势<a id="sec-1-4" name="sec-1-4"></a></a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h1 id="微博的异地多活经验学习笔记-a-id-sec-1-name-sec-1-a">微博的异地多活经验学习笔记<a id="sec-1" name="sec-1"></a></h1>
+
+<h2 id="基于业务写消息到queue-a-id-sec-1-1-name-sec-1-1-a">基于业务写消息到Queue<a id="sec-1-1" name="sec-1-1"></a></h2>
+
+<h2 id="在线容量评估-分级上线-快速流量均衡等能力-a-id-sec-1-2-name-sec-1-2-a">在线容量评估、分级上线、快速流量均衡等能力<a id="sec-1-2" name="sec-1-2"></a></h2>
+
+<h2 id="问题-a-id-sec-1-3-name-sec-1-3-a">问题<a id="sec-1-3" name="sec-1-3"></a></h2>
+
+<h3 id="各机房之间的延时-a-id-sec-1-3-1-name-sec-1-3-1-a">各机房之间的延时<a id="sec-1-3-1" name="sec-1-3-1"></a></h3>
+
+<p>这套方案中，每个机房的缓存是完全独立的，由每个机房的Processor（专门负责消息处理的程序，类Storm）根据收到的消息进行缓存更新。由于消息不会重复分发，而且信息完备，所以MytriggerQ方案存在的缓存更新脏数据问题就解决了。而当缓存不存在时，会穿透到MySQL从库，然后进行回种。可能出现的问题是，缓存穿透，但是MySQL从库如果此时出现延迟，这样就会把脏数据种到缓存中。我们的解决方案是做一个延时10分钟的消息队列，然后由一个处理程序来根据这个消息做数据的重新载入。一般从库延时时间不超过10分钟，而10分钟内的脏数据在微博的业务场景下也是可以接受的。</p>
+
+<h3 id="专线费用高昂-a-id-sec-1-3-2-name-sec-1-3-2-a">专线费用高昂<a id="sec-1-3-2" name="sec-1-3-2"></a></h3>
+
+<h3 id="数据如何同步-a-id-sec-1-3-3-name-sec-1-3-3-a">数据如何同步<a id="sec-1-3-3" name="sec-1-3-3"></a></h3>
+
+<p>由于微博对数据库不是强依赖，加上数据库双写的维护成本过大，我们选择的方案是数据库通过主从同步的方式进行。这套方案可能的缺点是如果主从同步慢，并且缓存穿透，这时可能会出现脏数据。</p>
+
+<h3 id="依赖服务部署问题-a-id-sec-1-3-4-name-sec-1-3-4-a">依赖服务部署问题<a id="sec-1-3-4" name="sec-1-3-4"></a></h3>
+
+<p>如同阿里巴巴目前只做了交易单元的“异地双活”，微博部署时也面临核心服务过多依赖小服务的问题。将小服务全部部署，改造成本、维护成本过大，不部署则会遇到之前提到的机房之间延时导致整体性能无法接受的问题</p>
+
+<p>对微博Feed依赖的主要服务也做了异地多活部署</p>
+
+<h3 id="配套体系改造-a-id-sec-1-3-5-name-sec-1-3-5-a">配套体系改造<a id="sec-1-3-5" name="sec-1-3-5"></a></h3>
+
+<p>只是服务部署没有流量引入就不能称为“双活”，而要引入流量就要求配套的服务和流程都能支持异地部署，包括预览、发布、测试、监控、降级等都要进行相应改造。</p>
+
+<p>配套体系需要覆盖整个业务研发周期，包括方案设计阶段的是否要做多机房部署、部署阶段的数据同步、发布预览、发布工具支持、监控覆盖支持、降级工具支持、流量迁移工具支持等方方面面，并需开发、测试、运维都参与进来，将关键点纳入到流程当中。</p>
+
+<h3 id="数据冗余问题-a-id-sec-1-3-6-name-sec-1-3-6-a">数据冗余问题<a id="sec-1-3-6" name="sec-1-3-6"></a></h3>
+
+<p>微博核心池容量冗余分两个层面来做，前端Web层冗余同用户规模成正比，并预留日常峰值50%左右的冗余度，而后端缓存等资源由于相对成本较低，每个机房均按照整体两倍的规模进行冗余。这样如果某一个机房不可用，首先我们后端的资源是足够的。接着我们首先会只将核心接口进行迁移，这个操作分钟级即可完成，同时由于冗余是按照整体的50%，所以即使所有的核心接口流量全部迁移过来也能支撑住。接下来，我们会把其他服务池的前端机也改为部署核心池前端机，这样在一小时内即可实现整体流量的承接。同时，如果故障机房是负责数据落地的机房，DBA会将从库升为主库，运维调整队列机开关配置，承接数据落地功能。而在整个过程中，由于我们核心缓存可以脱离数据库支撑一个小时左右，所以服务整体会保持平稳。</p>
+
+<h2 id="姿势-a-id-sec-1-4-name-sec-1-4-a">姿势<a id="sec-1-4" name="sec-1-4"></a></h2>
+
+<p>如果业务请求量比较小，则根本没有必要做异地多活，数据库冷备足够了。</p>
+
+<p>升级跨机房消息同步组件为跨机房消息同步服务。</p>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2016-05-13-keep-live-between-different-areas-about-weibo%2f - %e5%be%ae%e5%8d%9a%e7%9a%84%e5%bc%82%e5%9c%b0%e5%a4%9a%e6%b4%bb%e7%bb%8f%e9%aa%8c%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

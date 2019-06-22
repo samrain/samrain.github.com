@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="http://samrainhan.com/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="程序化交易的一些概念"/>
+  <meta name="twitter:description" content="#入市策略 趋势跟踪法 震荡期法 价格模式 #过滤策略 筛选出最具有交易价值的交易信号 #退出策略 目标盈利 跟踪止损 固定止损 #最后15分钟收益率，对次日股"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@韩雨"/>
+  
+
+
+
+		
+		<meta name="author" content="韩雨">
+		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
+		<meta name="generator" content="Hugo 0.52" />
+		<title>程序化交易的一些概念 &middot; sam的小窝</title>
+		<link rel="shortcut icon" href="http://samrainhan.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://samrainhan.com/css/style.css">
+		<link rel="stylesheet" href="http://samrainhan.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://samrainhan.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://samrainhan.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://samrainhan.com/posts'>Archive</a>
+	<a href='http://samrainhan.com/tags'>Tags</a>
+	<a href='http://samrainhan.com/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="http://samrainhan.com/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        程序化交易的一些概念
+                    </h1>
+                    <h2 class="headline">
+                    Jan 18, 2014 00:00
+                    · 479 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://samrainhan.com/tags/%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93">程序化交易</a>
+                          
+                              <a href="http://samrainhan.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BA%A4%E6%98%93">自动化交易</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                
+                <section id="post-body">
+                    <p>#入市策略</p>
+
+<ul>
+<li>趋势跟踪法</li>
+<li>震荡期法</li>
+<li>价格模式</li>
+</ul>
+
+<p>#过滤策略</p>
+
+<ul>
+<li>筛选出最具有交易价值的交易信号</li>
+</ul>
+
+<p>#退出策略</p>
+
+<ul>
+<li>目标盈利</li>
+<li>跟踪止损</li>
+<li>固定止损</li>
+</ul>
+
+<p>#最后15分钟收益率，对次日股指期货走势同向放大
+#波动率
+#机构和散户比
+#市场倾向于回归平均值
+#趋势性策略</p>
+
+<ul>
+<li>价格和交易量为基础的统计指标组合</li>
+<li>趋势交易、模式识别、反向交易、动量交易、均值回复</li>
+<li>均线
+
+<ul>
+<li>指数平均算法
+
+<ul>
+<li>MACD指标（交叉点）</li>
+</ul></li>
+</ul></li>
+<li>通道</li>
+</ul>
+
+<p>#动量策略
+#摆动策略
+#缺口回补策略
+#模式识别
+#套利投资</p>
+
+<ul>
+<li>高速交易获得基差和价差的短期时间窗</li>
+<li>实现组合下单策略</li>
+<li>快速判断交易品种的流动性</li>
+<li>调整多个交易品种的内部匹配</li>
+</ul>
+
+<p>#恰当时间用适当交易系统收取最大收益，5、30、60、日线图、周线图
+#周期（5，15分钟）
+#影响执行的三个因数</p>
+
+<ul>
+<li>进场滑点</li>
+<li>网络状况</li>
+<li>交易纪律执行</li>
+</ul>
+
+<p>#单位风险收益率</p>
+
+<ul>
+<li>收益率（净值增长率）/标准差（净值标准差）</li>
+<li>标准差=可能的变动程度</li>
+<li>风险和收益比较</li>
+<li>收益相同，选择标准差较小；标准差相同，选择收益较高</li>
+</ul>
+
+<p>#特雷诺指数</p>
+
+<ul>
+<li>承担单位风险所获得的超额收益</li>
+<li>指数越大，承担系统风险所获得的超额收益越高</li>
+</ul>
+
+<p>#詹森指数</p>
+
+<ul>
+<li>越大，基金投资组合的业绩越好</li>
+</ul>
+
+<p>#夏普指数</p>
+
+<ul>
+<li>承担单位风险所获得的补偿，越大，基金投资组合的业绩越好。</li>
+</ul>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fsamrainhan.com%2fposts%2f2014-01-18-the-concepts-of-algorithmic-trading%2f - %e7%a8%8b%e5%ba%8f%e5%8c%96%e4%ba%a4%e6%98%93%e7%9a%84%e4%b8%80%e4%ba%9b%e6%a6%82%e5%bf%b5 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'samrainblogbygithub'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
+        </li>
+    
+</ul>
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/samrain">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://samrainhan.com/js/jquery-3.3.1.min.js"></script>
+<script src="http://samrainhan.com/js/main.js"></script>
+<script src="http://samrainhan.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

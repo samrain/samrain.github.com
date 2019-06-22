@@ -1,1 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Study on sam的小窝</title><link>http://samrainhan.com/categories/study/</link><description>Recent content in Study on sam的小窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 12 Sep 2018 21:04:04 +0800</lastBuildDate><atom:link href="http://samrainhan.com/categories/study/index.xml" rel="self" type="application/rss+xml"/><item><title>运动拉伸最佳实践</title><link>http://samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</link><pubDate>Wed, 12 Sep 2018 21:04:04 +0800</pubDate><guid>http://samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</guid><description>1.热身运动 1.1低强度训练5～10分钟 1.2旋转关节 顺序，手指，手腕，手肘，肩部，颈部，腰（腰椎段），胯（髋关节），膝（膝关节），脚脖子（</description></item><item><title>持续发布的各个阶段</title><link>http://samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</link><pubDate>Wed, 12 Sep 2018 17:18:30 +0800</pubDate><guid>http://samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</guid><description/></item><item><title>Dropbox的用户密码加密机制</title><link>http://samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</link><pubDate>Wed, 12 Sep 2018 16:24:46 +0800</pubDate><guid>http://samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</guid><description>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur</description></item><item><title>让您的屏幕在黑白和彩色之间自由切换</title><link>http://samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</link><pubDate>Tue, 11 Sep 2018 10:18:49 +0800</pubDate><guid>http://samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</guid><description>Ctrl + WindowsKey + C 可以让您的屏幕在黑白和彩色之间自由切换</description></item><item><title>常用SAAS服务</title><link>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</link><pubDate>Tue, 05 Jun 2018 10:28:18 +0800</pubDate><guid>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</guid><description>常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证</description></item><item><title> 摘自-明《修龄要指》</title><link>http://samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</link><pubDate>Mon, 04 Jun 2018 10:33:41 +0800</pubDate><guid>http://samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</guid><description>人的脸要常常用手摩擦，头发多加梳理以防止脱发和发白。 两眼时常转动则眼有光彩和灵活。 耳常注意倾听，日久则听觉灵敏。 齿常叩击以利固齿。口宜常闭以</description></item><item><title>How to Publish My Blog</title><link>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link><pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate><guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Study on sam的小窝</title>
+    <link>http://samrainhan.com/categories/study/</link>
+    <description>Recent content in Study on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 21:04:04 +0800</lastBuildDate>
+    
+	<atom:link href="http://samrainhan.com/categories/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>运动拉伸最佳实践</title>
+      <link>http://samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</link>
+      <pubDate>Wed, 12 Sep 2018 21:04:04 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/</guid>
+      <description>1.热身运动 1.1低强度训练5～10分钟 1.2旋转关节 顺序，手指，手腕，手肘，肩部，颈部，腰（腰椎段），胯（髋关节），膝（膝关节），脚脖子（</description>
+    </item>
+    
+    <item>
+      <title>持续发布的各个阶段</title>
+      <link>http://samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</link>
+      <pubDate>Wed, 12 Sep 2018 17:18:30 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropbox的用户密码加密机制</title>
+      <link>http://samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</link>
+      <pubDate>Wed, 12 Sep 2018 16:24:46 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</guid>
+      <description>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur</description>
+    </item>
+    
+    <item>
+      <title>让您的屏幕在黑白和彩色之间自由切换</title>
+      <link>http://samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</link>
+      <pubDate>Tue, 11 Sep 2018 10:18:49 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/</guid>
+      <description>Ctrl + WindowsKey + C 可以让您的屏幕在黑白和彩色之间自由切换</description>
+    </item>
+    
+    <item>
+      <title>常用SAAS服务</title>
+      <link>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</link>
+      <pubDate>Tue, 05 Jun 2018 10:28:18 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</guid>
+      <description>常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证</description>
+    </item>
+    
+    <item>
+      <title> 摘自-明《修龄要指》</title>
+      <link>http://samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</link>
+      <pubDate>Mon, 04 Jun 2018 10:33:41 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</guid>
+      <description>人的脸要常常用手摩擦，头发多加梳理以防止脱发和发白。 两眼时常转动则眼有光彩和灵活。 耳常注意倾听，日久则听觉灵敏。 齿常叩击以利固齿。口宜常闭以</description>
+    </item>
+    
+    <item>
+      <title>How to Publish My Blog</title>
+      <link>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
+      <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
