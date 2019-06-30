@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samrainhan.com/2019-06-30-government-digital-transformation/</loc>
+    <lastmod>2019-06-30T16:30:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/2019-06-29-expectations-for-the-product/</loc>
     <lastmod>2019-06-29T14:08:30+08:00</lastmod>
   </url>
@@ -2238,13 +2243,13 @@
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/tags/</loc>
+    <loc>https://www.samrainhan.com/categories/</loc>
     <lastmod>2019-04-26T14:52:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/categories/</loc>
+    <loc>https://www.samrainhan.com/tags/</loc>
     <lastmod>2019-04-26T14:52:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3532,13 +3537,13 @@
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
+    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
+    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3761,7 +3766,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2019-06-27T22:53:16+08:00</lastmod>
+    <lastmod>2019-06-30T16:30:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3803,7 +3808,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-06-29T14:08:30+08:00</lastmod>
+    <lastmod>2019-06-30T16:30:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4134,6 +4139,12 @@
   <url>
     <loc>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E4%BE%A6%E5%AF%9F/</loc>
     <lastmod>2014-09-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E5%8C%96%E6%94%BF%E5%BA%9C%E6%94%BF%E5%8A%A1%E6%95%B0%E5%AD%97%E8%BD%AC%E5%9E%8B/</loc>
+    <lastmod>2019-06-30T16:30:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
