@@ -74,6 +74,21 @@
     
         
             <li>
+                <aside class="dates">Jul 25</aside>
+                <a href='https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/'>
+                    整理SqlServer表上索引碎片
+                    
+                        
+                            <h2>查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
                 <aside class="dates">Jul 24</aside>
                 <a href='https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/'>
                     避免URL中出现JSESSIONID
@@ -200,21 +215,6 @@
                     
                         
                             <h2>我们之所以将业务合作称为项目，无论是业务合作方式是互为代理、发展兼职团队、成立新的销售公司、发展产业微联盟还是运营外包，整体计划都会发生人员</h2>
-                        
-                    
-                </a>
-            </li>
-        
-    
-    
-        
-            <li>
-                <aside class="dates">Jul 15</aside>
-                <a href='https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/'>
-                    设置cookie为HttpOnly
-                    
-                        
-                            <h2>对于 .NET 2.0 应用可以在web.config中启用 HttpOnly &lt;httpCookies httpOnlyCookies=&#34;true&#34;&gt;</h2>
                         
                     
                 </a>
