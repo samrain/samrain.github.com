@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jul 2019 15:37:45 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 17:29:25 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>网盘的前世今生</title>
+      <link>https://www.samrainhan.com/2019-07-23-what-is-the-netdisk/</link>
+      <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/2019-07-23-what-is-the-netdisk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>文档全生命周期管理</title>

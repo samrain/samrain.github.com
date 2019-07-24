@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workstudy on sam的小窝</title>
+    <link>https://www.samrainhan.com/categories/workstudy/</link>
+    <description>Recent content in Workstudy on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 Jul 2019 17:29:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/categories/workstudy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网盘的前世今生</title>
+      <link>https://www.samrainhan.com/2019-07-23-what-is-the-netdisk/</link>
+      <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/2019-07-23-what-is-the-netdisk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

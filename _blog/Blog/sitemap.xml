@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samrainhan.com/2019-07-23-what-is-the-netdisk/</loc>
+    <lastmod>2019-07-23T17:29:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/2019-07-09-document-full-lifecycle-management/</loc>
     <lastmod>2019-07-09T15:37:45+08:00</lastmod>
   </url>
@@ -3781,6 +3786,12 @@
   </url>
   
   <url>
+    <loc>https://www.samrainhan.com/categories/workstudy/</loc>
+    <lastmod>2019-07-23T17:29:25+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.samrainhan.com/tags/wps/</loc>
     <lastmod>2018-06-29T16:58:47+08:00</lastmod>
     <priority>0</priority>
@@ -3824,7 +3835,7 @@
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-07-09T15:37:45+08:00</lastmod>
+    <lastmod>2019-07-23T17:29:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -6141,6 +6152,12 @@
   <url>
     <loc>https://www.samrainhan.com/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2018-06-02T11:30:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E7%BD%91%E7%9B%98%E5%8D%8F%E4%BD%9C/</loc>
+    <lastmod>2019-07-23T17:29:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
