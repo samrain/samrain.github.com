@@ -2,13 +2,14 @@
 baseURL = "http://samrainhan.com/"
 languageCode = "zh-cn"
 title = "sam的小窝"
-theme = "hugo-theme-cactus-plus"
+# theme = "hugo-theme-cactus-plus"
+theme = "github-style"
 googleAnalytics = "UA-37708730-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 
 [params]
-  author = "韩雨"
+	author = "韩雨"
 	description = "学习 &nbsp;&bull;&nbsp; 生活"
 	bio = "学习 & 生活"
 	# Enter optionally your twitter account
