@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>认证服务商流程 on sam的小窝</title>
+    <title>认证,服务商,流程 on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/%E8%AE%A4%E8%AF%81%E6%9C%8D%E5%8A%A1%E5%95%86%E6%B5%81%E7%A8%8B/</link>
-    <description>Recent content in 认证服务商流程 on sam的小窝</description>
+    <description>Recent content in 认证,服务商,流程 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Jun 2019 22:31:20 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>服务商认证流程</title>
-      <link>https://www.samrainhan.com/2019-06-12-service-provider-certification-process/</link>
+      <link>https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/</link>
       <pubDate>Wed, 12 Jun 2019 22:31:20 +0800</pubDate>
       
-      <guid>https://www.samrainhan.com/2019-06-12-service-provider-certification-process/</guid>
+      <guid>https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/</guid>
       <description>@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通</description>
     </item>
     

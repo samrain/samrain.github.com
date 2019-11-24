@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mysql on sam的小窝</title>
+    <title>MySQL on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/mysql/</link>
-    <description>Recent content in Mysql on sam的小窝</description>
+    <description>Recent content in MySQL on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 08 Jun 2014 00:00:00 +0000</lastBuildDate>
