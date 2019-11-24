@@ -10,7 +10,7 @@ hasCJKLanguage = true
 
 [params]
 	author = "韩雨"
-	description = "学习 &nbsp;&bull;&nbsp; 生活"
+	description = "学习 & 生活"
 	bio = "学习 & 生活"
 	# Enter optionally your twitter account
 	twitter = ""
