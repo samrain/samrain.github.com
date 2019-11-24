@@ -8,7 +8,7 @@ rsync -aru _blog/Blog ../
 
 cd ../Blog
 
-git add *
+git add -A
 
 git commit -m '+1'
 
