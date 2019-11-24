@@ -1,286 +1,133 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 
-			
-  
-    <meta name="twitter:card" content="summary"/>
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet"
+        href="https://www.samrainhan.com/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet" href="https://www.samrainhan.com/css/github.css" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>玩转Emacs - sam的小窝</title>
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://www.samrainhan.com/images/favicon.ico">
+    <meta name="theme-color" content="#1e2327">
     
-      <meta name="twitter:image" content="https://www.samrainhan.com/images/avatar.png" />
-    
-  
-  
-  <meta name="twitter:title" content="玩转Emacs"/>
-  <meta name="twitter:description" content="思维导图文件下载 快捷键 粘帖:c-y 新建/打开文件:c-x c-f 替换打开的文件:c-x c-v 保存文件: c-x c-s 写文件(需要输入文件名，回车默认不变): c-x c-w"/>
-  
-  
-  
-  
-    <meta name="twitter:creator" content="@韩雨"/>
-  
-
-
-
-		
-		<meta name="author" content="韩雨">
-		<meta name="description" content="学习 &amp;nbsp;&amp;bull;&amp;nbsp; 生活">
-		<meta name="generator" content="Hugo 0.52" />
-		<title>玩转Emacs &middot; sam的小窝</title>
-		<link rel="shortcut icon" href="https://www.samrainhan.com/images/favicon.ico">
-		<link rel="stylesheet" href="https://www.samrainhan.com/css/style.css">
-		<link rel="stylesheet" href="https://www.samrainhan.com/css/highlight.css">
-
-		
-		<link rel="stylesheet" href="https://www.samrainhan.com/css/font-awesome.min.css">
-		
-
-		
-		<link href="https://www.samrainhan.com/index.xml" rel="alternate" type="application/rss+xml" title="sam的小窝" />
-		
-
-		
-	</head>
-
-    <body>
-       <nav class="main-nav">
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-37708730-1', 'auto');
 	
-	
-		<a href='https://www.samrainhan.com/'> <span class="arrow">←</span>Home</a>
-	
-	<a href='https://www.samrainhan.com/posts'>Archive</a>
-	<a href='https://www.samrainhan.com/tags'>Tags</a>
-	<a href='https://www.samrainhan.com/about'>About</a>
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
-	
+</head>
 
-	
-	<a class="cta" href="https://www.samrainhan.com/index.xml">Subscribe</a>
-	
-</nav>
-
-
-        <section id="wrapper" class="post">
-            <article>
-                <header>
-                    <h1>
-                        玩转Emacs
-                    </h1>
-                    <h2 class="headline">
-                    Jul 31, 2013 00:00
-                    · 2469 words
-                    · 5 minute read
-                      <span class="tags">
-                      
-                      
-                          
-                              <a href="https://www.samrainhan.com/tags/emacs">Emacs</a>
-                          
-                              <a href="https://www.samrainhan.com/tags/text-editor">text editor</a>
-                          
-                      
-                      
-                      </span>
-                    </h2>
-                </header>
-                
-                  
-                    <div id="toc">
-                      <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#快捷键">快捷键</a>
-<ul>
-<li><a href="#粘帖-c-y">粘帖:c-y</a></li>
-<li><a href="#新建-打开文件-c-x-c-f">新建/打开文件:c-x c-f</a></li>
-<li><a href="#替换打开的文件-c-x-c-v">替换打开的文件:c-x c-v</a></li>
-<li><a href="#保存文件-c-x-c-s">保存文件: c-x c-s</a></li>
-<li><a href="#写文件-需要输入文件名-回车默认不变-c-x-c-w">写文件(需要输入文件名，回车默认不变): c-x c-w</a></li>
-<li><a href="#关闭buffer-c-x-k">关闭buffer: c-x k</a></li>
-<li><a href="#撤销-c-或c-x-u">撤销:c-_或c-x u</a></li>
-<li><a href="#退出-c-x-c-c">退出:c-x c-c</a></li>
-<li><a href="#分割屏幕为2个-c-x-2">分割屏幕为2个:c-x 2</a></li>
-<li><a href="#当前窗口最大化-c-x-1">当前窗口最大化:c-x 1</a></li>
-<li><a href="#切换窗口-c-x-o">切换窗口:c-x o</a></li>
-<li><a href="#切换buffer-c-x-b">切换buffer:c-x b</a></li>
-<li><a href="#buffer清单-c-x-c-b">buffer清单:c-x c-b</a></li>
-<li><a href="#操作另外一个-window-用的函数-c-x-4">操作另外一个 window 用的函数:c-x 4</a></li>
-<li><a href="#操纵其他frame-的-函数-c-x-5">操纵其他frame 的 函数:c-x 5</a></li>
-<li><a href="#执行某个函数-m-x-输入函数名">执行某个函数:m-x 输入函数名</a></li>
-<li><a href="#把一个文件插入到另一个文件中-c-x-i">把一个文件插入到另一个文件中:c-x i</a></li>
-<li><a href="#简单的目录清单-c-u-c-x-c-d或c-x-c-d">简单的目录清单:c-u c-x c-d或c-x c-d</a></li>
-<li><a href="#查看unix命令帮助-m-x-man">查看Unix命令帮助:m-x man</a></li>
-<li><a href="#修改了emacs配置不用重启-m-x-eval-buffer">修改了emacs配置不用重启:M-x eval-buffer</a></li>
-<li><a href="#删除文本-c-d或del">删除文本:c-d或Del</a></li>
-<li><a href="#删除单词-m-d">删除单词:m-d</a></li>
-<li><a href="#删除本行文本-c-k">删除本行文本:c-k</a></li>
-<li><a href="#删除从行首到光标位置文本-m-c-k">删除从行首到光标位置文本:m- - c-k</a></li>
-<li><a href="#恢复最近一次删除内容-c-y">恢复最近一次删除内容:c-y</a></li>
-<li><a href="#依次恢复删除内容-m-y">依次恢复删除内容 m-y</a></li>
-</ul></li>
-<li><a href="#牛b的emacsvc">牛B的EmacsVC</a>
-<ul>
-<li><a href="#进行下一个合理的vc操作-c-x-v-v">进行下一个合理的VC操作:c-x v v</a></li>
-<li><a href="#恢复操作-恢复到上一次check-out的-状态并解除锁定-c-x-v-u">恢复操作,恢复到上一次check out的 状态并解除锁定:c-x v u</a></li>
-<li><a href="#显示一个目录下所有注册到版本控制下的文件-c-x-v-d">显示一个目录下所有注册到版本控制下的文件:c-x v d</a></li>
-<li><a href="#产生一个diff报告-c-x-v">产生一个diff报告:c-x v =</a></li>
-<li><a href="#取出当前buffer在仓库里的指定版本并在另外一个窗口中显示出来-c-x-v">取出当前buffer在仓库里的指定版本并在另外一个窗口中显示出来:c-x v ~</a></li>
-<li><a href="#显示一个文件的历史和日志-c-x-v-l">显示一个文件的历史和日志:c-x v l</a></li>
-<li><a href="#把文件注册到版本控制系统里面去-c-x-v-i">把文件注册到版本控制系统里面去: c-x v i</a></li>
-<li><a href="#在文件里面插入version-control-headers-c-x-v-h">在文件里面插入version control headers:c-x v h</a></li>
-<li><a href="#check-out一个named-project快照-c-x-v-r">check out一个named project快照:c-x v r</a></li>
-<li><a href="#创建一个named-project快照-c-x-v-s">创建一个named project快照:c-x v s</a></li>
-<li><a href="#丢弃一个已经保存的版本-c-x-v-c">丢弃一个已经保存的版本:c-x v c</a></li>
-<li><a href="#更新一个gnu-style的changelog文件-c-x-v-a">更新一个GNU-style的ChangeLog文件:c-x v a</a></li>
-<li><a href="#mode-line上会显示这个文件所-使用的version-control系统的名字以及这个文件的版本号-当两者之间是一个-时-说明这个文件还没有check-out-是-时说明已经-被-check-out">mode line上会显示这个文件所 使用的version control系统的名字以及这个文件的版本号.当两者之间是一个“-”时，说明这个文件还没有check out，是“:”时说明已经 被 check out</a></li>
-<li><a href="#要比较的文件名以及两个-版本号-c-u-c-x-v">要比较的文件名以及两个 版本号:C-u C-x v =</a></li>
-</ul></li>
-<li><a href="#ediff">Ediff</a>
-<ul>
-<li><a href="#ediff是emacs里面非常丰富强大的一个的一个模块">Ediff是Emacs里面非常丰富强大的一个的一个模块</a></li>
-<li><a href="#启动的三种办法">启动的三种办法</a></li>
-</ul></li>
-<li><a href="#tramp">TRAMP</a>
-<ul>
-<li><a href="#用于远程文件编辑">用于远程文件编辑</a></li>
-</ul></li>
-<li><a href="#一般说明">一般说明</a>
-<ul>
-<li><a href="#在emacs文档中">在Emacs文档中:</a></li>
-<li><a href="#c-意思是按住-ctrol-键">C- 意思是按住 Ctrol 键</a></li>
-<li><a href="#m-意指-meta-键-在大多数键盘上指-alt-键">M- 意指 Meta 键 (在大多数键盘上指 Alt 键)</a></li>
-<li><a href="#del-意指退格键-不是-删除-delete-key">DEL 意指退格键 (不是 删除(Delete) key)</a></li>
-<li><a href="#ret-意指回车键-spc-意指空格键">RET 意指回车键  SPC 意指空格键</a></li>
-<li><a href="#esc-意指escape键">ESC 意指Escape键</a></li>
-<li><a href="#tab-意指tab键-像-c-m-or-m-c-这样连在一起的意味着同时按住-control-和-meta-键">TAB 意指Tab键 像 “C-M-” (or “M-C”) 这样连在一起的意味着同时按住 Control 和 Meta 键</a></li>
-</ul></li>
-<li><a href="#特殊">特殊</a>
-<ul>
-<li><a href="#输入换页符">输入换页符</a></li>
-<li><a href="#重复执行命令-m-n-n是重复次数">重复执行命令:m-n(n是重复次数)</a></li>
-<li><a href="#重复执行命令-c-u-n-n是重复次数">重复执行命令:c-u n(n是重复次数)</a></li>
-<li><a href="#重新绘制画面-c-l">重新绘制画面:c-l</a></li>
-</ul></li>
-<li><a href="#光标移动">光标移动</a>
-<ul>
-<li><a href="#上-c-p">上:c-p</a></li>
-<li><a href="#下-c-n">下:c-n</a></li>
-<li><a href="#左-c-b">左:c-b</a></li>
-<li><a href="#右-c-f">右:c-f</a></li>
-<li><a href="#到行尾-c-e">到行尾:c-e</a></li>
-<li><a href="#到行首-c-a">到行首:c-a</a></li>
-<li><a href="#右移一个单词-m-f">右移一个单词:m-f</a></li>
-<li><a href="#左移一个单词-m-b">左移一个单词:m-b</a></li>
-<li><a href="#右移一个句子-m-e">右移一个句子:m-e</a></li>
-<li><a href="#左移一个句子-m-a">左移一个句子:m-a</a></li>
-<li><a href="#下移一个段落-m">下移一个段落:m-}</a></li>
-<li><a href="#上移一个段落-m">上移一个段落:m-{</a></li>
-<li><a href="#如果有分页符-到上一页-c-x">如果有分页符，到上一页 c-x[</a></li>
-<li><a href="#如果有分页符-到下一页-c-x">如果有分页符，到下一页 c-x]</a></li>
-<li><a href="#向上移动一屏-m-v或pgup">向上移动一屏:m-v或PgUp</a></li>
-<li><a href="#向下移动一屏-c-v或pgdn">向下移动一屏:c-v或PgDn</a></li>
-<li><a href="#到达文件开头-m-或home">到达文件开头:m-&lt;或Home</a></li>
-<li><a href="#到达文件结尾-m-或end">到达文件结尾:m-&gt;或End</a></li>
-<li><a href="#快速到达第n行-m-x-goto-line-n">快速到达第n行:m-x goto-line n</a></li>
-<li><a href="#快速到达第n个字符-m-x-goto-char-n">快速到达第n个字符:m-x goto-char n</a></li>
-</ul></li>
-<li><a href="#帮助">帮助</a>
-<ul>
-<li><a href="#完整文档-c-h-i">完整文档:c-h i</a></li>
-<li><a href="#快速指南-c-h-t或f1-t或m-x-help">快速指南:c-h t或F1 t或m-x help</a></li>
-<li><a href="#查询所有前缀的快捷键-按了前缀后再输入c-h就会提示">查询所有前缀的快捷键:按了前缀后再输入c-h就会提示</a></li>
-<li><a href="#查询函数-m-x-apropos">查询函数:m-x apropos</a></li>
-<li><a href="#获取命令列表-m-x-命令首字母-tab">获取命令列表: m-x 命令首字母 <tab></a></li>
-<li><a href="#显示使用的包清单-m-x-list-packages">显示使用的包清单:m-x list-packages</a></li>
-<li><a href="#显示变量值-f1-v-变量名">显示变量值:F1-v 变量名</a></li>
-</ul></li>
-<li><a href="#组合键">组合键</a>
-<ul>
-<li><a href="#常用键-c-n-n是任何键">常用键:c-n(n是任何键)</a></li>
-<li><a href="#次常用键-m-n-n是任何键">次常用键:m-n(n是任何键)</a></li>
-<li><a href="#其他常用键-c-x-something">其他常用键:c-x something</a></li>
-<li><a href="#特殊命令-c-c-something">特殊命令:c-c something</a></li>
-<li><a href="#无法绑定的命令-m-x-long-command-name">无法绑定的命令:m-x long-command-name</a></li>
-</ul></li>
-<li><a href="#shell模式">Shell模式</a>
-<ul>
-<li><a href="#翻到上一条执行过的命令-m-p">翻到上一条执行过的命令:m-p</a></li>
-<li><a href="#翻到更早执行过的命令-m-n">翻到更早执行过的命令:m-n</a></li>
-<li><a href="#自动删除上一个命令的执行输出-c-c-c-o">自动删除上一个命令的执行输出:c-c c-o</a></li>
-</ul></li>
-<li><a href="#dir模式">Dir模式</a>
-<ul>
-<li><a href="#进入模式-c-x-f或c-x-d">进入模式:c-x f或c-x d</a></li>
-<li><a href="#向下移动-空格或c-n或n">向下移动:空格或c-n或n</a></li>
-<li><a href="#向上移动-del或c-p或p">向上移动:Del或c-p或p</a></li>
-<li><a href="#预览文件内容-返回-v-q或c-c">预览文件内容/返回:v/q或c-c</a></li>
-<li><a href="#修改文件内容-f">修改文件内容:f</a></li>
-<li><a href="#给文件加上待删除标志-d">给文件加上待删除标志:d</a></li>
-<li><a href="#撤销标志-u">撤销标志:u</a></li>
-<li><a href="#批量删除文件-x">批量删除文件:x</a></li>
-<li><a href="#立刻删除文件-d">立刻删除文件:D</a></li>
-<li><a href="#复制文件-c">复制文件:C</a></li>
-<li><a href="#重命名文件-r">重命名文件:R</a></li>
-<li><a href="#压缩-解压-z">压缩/解压:Z</a></li>
-<li><a href="#比较文件内容-先标记后按">比较文件内容:先标记后按=</a></li>
-<li><a href="#文件上运行unix命令">文件上运行Unix命令:!</a></li>
-<li><a href="#给文件加上待操作标志-m">给文件加上待操作标志:m</a></li>
-<li><a href="#用正则表达式选取文件-m正则表达式">用正则表达式选取文件:%m正则表达式</a></li>
-<li><a href="#创建子目录">创建子目录:+</a></li>
-<li><a href="#对多个文件进行查询和替换-q">对多个文件进行查询和替换:Q</a></li>
-<li><a href="#从磁盘上重新读入目录-g">从磁盘上重新读入目录:g</a></li>
-<li><a href="#打印文件-p">打印文件:P</a></li>
-<li><a href="#提出-q">提出:q</a></li>
-</ul></li>
-<li><a href="#块编辑模式">块编辑模式</a>
-<ul>
-<li><a href="#启动cua模式-m-x-cua-mode">启动cua模式:m-x cua-mode</a></li>
-<li><a href="#启动块编辑-c-回车">启动块编辑:c+回车</a></li>
-<li><a href="#剪切-c-x">剪切:c-x</a></li>
-<li><a href="#复制-c-c">复制:c-c</a></li>
-<li><a href="#粘帖-c-v">粘帖:c-v</a></li>
-</ul></li>
-<li><a href="#改变配色方案">改变配色方案</a>
-<ul>
-<li><a href="#安装color-theme-el">安装color-theme.el</a></li>
-<li><a href="#输入m-x-color-theme-select选择配色方案">输入m-x color-theme-select选择配色方案</a></li>
-</ul></li>
-<li><a href="#操作文本块">操作文本块</a>
-<ul>
-<li><a href="#剪切-c-w或shift-del">剪切:c-w或shift-del</a></li>
-<li><a href="#全选-c-x-h">全选:c-x h</a></li>
-<li><a href="#选择整段-m-h">选择整段:m-h</a></li>
-<li><a href="#选择某段-鼠标左键按住拖动">选择某段:鼠标左键按住拖动</a></li>
-<li><a href="#选择当前页面-c-x-c-p">选择当前页面:c-x c-p</a></li>
-</ul></li>
-<li><a href="#编辑技巧">编辑技巧</a>
-<ul>
-<li><a href="#交换两个字符位置-光标移动到第二个字符然后c-t">交换两个字符位置:光标移动到第二个字符然后c-t</a></li>
-<li><a href="#交换两个单词位置-光标移动到两个单词中间空白处然后m-t">交换两个单词位置:光标移动到两个单词中间空白处然后m-t</a></li>
-<li><a href="#交换两行位置-c-x-c-t">交换两行位置:c-x c-t</a></li>
-<li><a href="#单词首字母改为大写-光标移动到首字母然后m-c">单词首字母改为大写:光标移动到首字母然后m-c</a></li>
-<li><a href="#单词全部改为大写-光标移动到首字母然后m-u">单词全部改为大写:光标移动到首字母然后m-u</a></li>
-<li><a href="#单词全部改为小写-光标移动到首字母m-l">单词全部改为小写:光标移动到首字母m-l</a></li>
-<li><a href="#处理光标到词尾部分字符">处理光标到词尾部分字符</a></li>
-<li><a href="#进入-退出改写模式-insert键">进入/退出改写模式:insert键</a></li>
-<li><a href="#用文件内容替换缓冲区-m-x-revert-buffer">用文件内容替换缓冲区:m-x revert-buffer</a></li>
-<li><a href="#放弃当前命令-c-g">放弃当前命令:c-g</a></li>
-<li><a href="#撤销上一次编辑-c-x-u或c-或c">撤销上一次编辑:c-x u或c-_或c-/</a></li>
-<li><a href="#从自动保存备份文件恢复内容-m-x-recover-file">从自动保存备份文件恢复内容:m-x recover-file</a></li>
-<li><a href="#一般每隔300次击键自动保存一次">一般每隔300次击键自动保存一次</a></li>
-<li><a href="#重命名buffer-m-x-rename-buffer">重命名buffer:m-x rename-buffer</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-                    </div>
-                  
-                
-                <section id="post-body">
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <div class="Header-item d-none d-lg-flex">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div
+            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
+                aria-expanded="false">
+                <div class="position-relative">
+                </div>
+            </div>
+        </div>
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+            <details class="details-overlay details-reset">
+                <summary class="Header-link" aria-label="View profile and more"
+                    data-ga-click="Header, show menu, icon:avatar">
                     
+                    <img alt="" class="avatar" src="https://www.samrainhan.com/images/avatar.png" height="20" width="20">
+                    
+                </summary>
+            </details>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main id="js-repo-pjax-container" data-pjax-container="">
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="mb-3 d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <a class="avatar mr-1" href="https://www.samrainhan.com/about/">
+                            
+                                <img
+                                    src="https://www.samrainhan.com/images/avatar.png" width="26" height="26">
+                            
+                            </a>
+                            <span class="author"><a
+                                    href="https://www.samrainhan.com/">韩雨</a></span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="https://www.samrainhan.com/posts/2013-07-31-play-emacs/">玩转Emacs</a></strong>
+
+                            <div class="d-block text-small text-gray">
+                                Created <time-ago datetime="2013-07-31" class="no-wrap"
+                                    title="Created at 2013/07/31">
+                                    2013-07-31</time-ago>
+                                <span class="file-info-divider"></span>
+                                Modifyd <time-ago datetime="2013-07-31" class="no-wrap"
+                                    title="Modifyd at 2013/07/31">
+                                    2013-07-31</time-ago>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+                <div class="repository-content ">
+                    <div class="Box mt-3 position-relative">
+                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                                2469 Words
+                                
+                            </div>
+                        </div>
+
+                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
 <p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing">思维导图文件下载</a></p>
 
@@ -643,151 +490,70 @@
 <h3 id="一般每隔300次击键自动保存一次">一般每隔300次击键自动保存一次</h3>
 
 <h3 id="重命名buffer-m-x-rename-buffer">重命名buffer:m-x rename-buffer</h3>
-
-                </section>
-            </article>
-
-            
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-07-31-play-emacs%2f - %e7%8e%a9%e8%bd%acEmacs "><span class="icon-twitter"> tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-            
-
-            
-                <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'samrainblogbygithub'; 
-
-     
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </div>
 
-            
-
-            
-                <ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
-
-    
-    
-    
-        <li>
-            <a href="/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9<aside class="dates">Apr 26 2019</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9<aside class="dates">Feb 16 2019</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID<aside class="dates">Sep 12 2018</aside></a>
-        </li>
-    
-</ul>
-
-            
-
-            <footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    <a class="symbol" href="">
-        <i class="fa fa-facebook-square"></i>
-    </a>
-    
-    <a class="symbol" href="https://github.com/samrain">
-        <i class="fa fa-github-square"></i>
-    </a>
-    
-    <a class="symbol" href="">
-        <i class="fa fa-twitter-square"></i>
-    </a>
-    
 
 
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
+        </ul>
+
+        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://www.samrainhan.com/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
+                aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
 </div>
 
-    
-    <p class="small">
-    
-       © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 韩雨
-    
-    </p>
-    <p class="small">
-        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
-    </p>
-</footer>
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://www.samrainhan.com/js/frameworks.js"></script>
 
-        </section>
-
-        <script src="https://www.samrainhan.com/js/jquery-3.3.1.min.js"></script>
-<script src="https://www.samrainhan.com/js/main.js"></script>
-<script src="https://www.samrainhan.com/js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-37708730-1', 'auto');
-	
-	ga('send', 'pageview');
-}
+<script crossorigin="anonymous" async="async"
+    type="application/javascript" src="https://www.samrainhan.com/js/github-bootstrap.js"></script>
+<script>
+    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
+    const pinned_posts = document.getElementsByName('pinned-post');
+    for (let i = 0; i < pinned_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = pinned_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
+    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
+    const posts_posts = document.getElementsByName('posts-post');
+    for (let i = 0; i < posts_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = posts_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
 </script>
+</body>
 
-
-
-
-
-    </body>
 </html>
