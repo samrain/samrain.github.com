@@ -30,9 +30,15 @@
     </item>
     
     <item>
+<<<<<<< HEAD
+      <title>Study</title>
+      <link>https://www.samrainhan.com/categories/study/</link>
+      <pubDate>Wed, 24 Jul 2019 16:56:52 +0800</pubDate>
+=======
       <title>work,study</title>
       <link>https://www.samrainhan.com/categories/workstudy/</link>
       <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
+>>>>>>> e136cf0b591df2a05be737a9f06d1664301de45a
       
       <guid>https://www.samrainhan.com/categories/workstudy/</guid>
       <description></description>
