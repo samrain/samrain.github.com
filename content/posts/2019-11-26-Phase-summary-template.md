@@ -1,6 +1,8 @@
 ---
 title: "阶段总结模板"
 date: 2019-11-26T13:32:42+08:00
+tags: ["团队,成熟度,模型"]
+categories: ["work"]
 draft: false
 ---
 
