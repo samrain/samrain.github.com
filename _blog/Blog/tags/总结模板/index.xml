@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>总结,模板 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%80%BB%E7%BB%93%E6%A8%A1%E6%9D%BF/</link>
+    <description>Recent content in 总结,模板 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 Nov 2019 13:32:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E6%80%BB%E7%BB%93%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>阶段总结模板</title>
+      <link>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</link>
+      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
+      <description>plantuml源码如下： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+    </item>
+    
+  </channel>
+</rss>

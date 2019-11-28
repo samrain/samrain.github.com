@@ -1,10 +1,14 @@
----
-title: "阶段总结模板"
-date: 2019-11-26T13:32:42+08:00
-draft: false
----
++++
+title = "阶段总结模板"
+date = 2019-11-26T13:32:42+08:00
+tags = ["总结,模板"]
+categories = ["work"]
+draft = false
++++
 
 ![阶段总结模板](https://pic1.superbed.cn/item/5ddcb8b08e0e2e3ee982780f.png)
+
+# plantuml源码如下：
 
 ```
 @startmindmap  阶段总结模板

@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Nov 2019 19:04:07 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 13:32:42 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>阶段总结模板</title>
+      <link>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</link>
+      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
+      <description>plantuml源码如下： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+    </item>
     
     <item>
       <title>团队成熟度模型</title>
