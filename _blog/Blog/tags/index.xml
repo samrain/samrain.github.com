@@ -6,24 +6,51 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Nov 2019 13:32:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2019 14:21:01 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>总结,模板</title>
-      <link>https://www.samrainhan.com/tags/%E6%80%BB%E7%BB%93%E6%A8%A1%E6%9D%BF/</link>
-      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
+      <title>思维导图,脑图,plantuml</title>
+      <link>https://www.samrainhan.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E8%84%91%E5%9B%BEplantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 14:21:01 +0800</pubDate>
       
-      <guid>https://www.samrainhan.com/tags/%E6%80%BB%E7%BB%93%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>https://www.samrainhan.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E8%84%91%E5%9B%BEplantuml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>甘特图,plantuml</title>
+      <link>https://www.samrainhan.com/tags/%E7%94%98%E7%89%B9%E5%9B%BEplantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E7%94%98%E7%89%B9%E5%9B%BEplantuml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>管理,任务,团队</title>
+      <link>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E4%BB%BB%E5%8A%A1%E5%9B%A2%E9%98%9F/</link>
+      <pubDate>Thu, 28 Nov 2019 13:43:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E4%BB%BB%E5%8A%A1%E5%9B%A2%E9%98%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>团队,新员工,指导</title>
+      <link>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%AF%BC/</link>
+      <pubDate>Wed, 27 Nov 2019 22:29:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%AF%BC/</guid>
       <description></description>
     </item>
     
     <item>
       <title>团队,成熟度,模型</title>
       <link>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/</link>
-      <pubDate>Mon, 25 Nov 2019 19:04:07 +0800</pubDate>
+      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/</guid>
       <description></description>
@@ -399,7 +426,7 @@
     </item>
     
     <item>
-      <title>SqlServer</title>
+      <title>sqlserver</title>
       <link>https://www.samrainhan.com/tags/sqlserver/</link>
       <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
       
@@ -912,7 +939,7 @@
     </item>
     
     <item>
-      <title>emacs</title>
+      <title>Emacs</title>
       <link>https://www.samrainhan.com/tags/emacs/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -1272,7 +1299,7 @@
     </item>
     
     <item>
-      <title>Xen</title>
+      <title>xen</title>
       <link>https://www.samrainhan.com/tags/xen/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
@@ -1641,7 +1668,7 @@
     </item>
     
     <item>
-      <title>net</title>
+      <title>NET</title>
       <link>https://www.samrainhan.com/tags/net/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       
@@ -2721,7 +2748,7 @@
     </item>
     
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://www.samrainhan.com/tags/git/</link>
       <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
       
@@ -2883,7 +2910,7 @@
     </item>
     
     <item>
-      <title>.net</title>
+      <title>.NET</title>
       <link>https://www.samrainhan.com/tags/.net/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
@@ -6654,7 +6681,7 @@
     </item>
     
     <item>
-      <title>ide</title>
+      <title>IDE</title>
       <link>https://www.samrainhan.com/tags/ide/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       
@@ -6717,7 +6744,7 @@
     </item>
     
     <item>
-      <title>vim</title>
+      <title>VIM</title>
       <link>https://www.samrainhan.com/tags/vim/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
