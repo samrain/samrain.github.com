@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 Nov 2019 14:21:01 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 14:06:06 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>售前,信息采集,表格</title>
+      <link>https://www.samrainhan.com/tags/%E5%94%AE%E5%89%8D%E4%BF%A1%E6%81%AF%E9%87%87%E9%9B%86%E8%A1%A8%E6%A0%BC/</link>
+      <pubDate>Thu, 05 Dec 2019 14:06:06 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E5%94%AE%E5%89%8D%E4%BF%A1%E6%81%AF%E9%87%87%E9%9B%86%E8%A1%A8%E6%A0%BC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>思维导图,脑图,plantuml</title>
@@ -939,7 +948,7 @@
     </item>
     
     <item>
-      <title>Emacs</title>
+      <title>emacs</title>
       <link>https://www.samrainhan.com/tags/emacs/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -1299,7 +1308,7 @@
     </item>
     
     <item>
-      <title>Xen</title>
+      <title>xen</title>
       <link>https://www.samrainhan.com/tags/xen/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
@@ -1668,7 +1677,7 @@
     </item>
     
     <item>
-      <title>NET</title>
+      <title>Net</title>
       <link>https://www.samrainhan.com/tags/net/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       
@@ -2487,7 +2496,7 @@
     </item>
     
     <item>
-      <title>JS</title>
+      <title>js</title>
       <link>https://www.samrainhan.com/tags/js/</link>
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
       
@@ -3018,7 +3027,7 @@
     </item>
     
     <item>
-      <title>asp.net</title>
+      <title>Asp.NET</title>
       <link>https://www.samrainhan.com/tags/asp.net/</link>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
       
