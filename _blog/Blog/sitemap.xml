@@ -4,46 +4,37 @@
   
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-<<<<<<< HEAD
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-=======
-    <lastmod>2019-12-05T14:06:06+08:00</lastmod>
->>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/office365office/</loc>
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-06-ten-things-of-o365/</loc>
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/posts/</loc>
-<<<<<<< HEAD
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-=======
-    <lastmod>2019-12-05T14:06:06+08:00</lastmod>
->>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-<<<<<<< HEAD
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-=======
-    <lastmod>2019-12-05T14:06:06+08:00</lastmod>
->>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/tags/</loc>
-<<<<<<< HEAD
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-=======
-    <lastmod>2019-12-05T14:06:06+08:00</lastmod>
->>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/categories/work/</loc>
-<<<<<<< HEAD
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-=======
-    <lastmod>2019-12-05T14:06:06+08:00</lastmod>
+    <lastmod>2019-12-06T23:12:31+08:00</lastmod>
   </url>
   
   <url>
@@ -84,17 +75,6 @@
   <url>
     <loc>https://www.samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</loc>
     <lastmod>2019-11-28T13:43:07+08:00</lastmod>
->>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
-  </url>
-  
-  <url>
-    <loc>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%AF%BC/</loc>
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</loc>
-    <lastmod>2019-11-27T22:29:07+08:00</lastmod>
   </url>
   
   <url>
@@ -348,12 +328,12 @@
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
+    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.samrainhan.com/categories/studyrust/</loc>
+    <loc>https://www.samrainhan.com/tags/studyrust/</loc>
     <lastmod>2019-06-08T23:52:06+08:00</lastmod>
   </url>
   
@@ -6185,6 +6165,11 @@
   <url>
     <loc>https://www.samrainhan.com/tags/vi/</loc>
     <lastmod>2010-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
