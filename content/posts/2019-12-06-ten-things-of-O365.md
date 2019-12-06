@@ -1,9 +1,9 @@
 ---
-title = "office365的10件事"
-date = 2019-12-06T23:12:31+08:00
-tags= ["Office365,office"]
-categories = ["work"]
-draft = false
+title: "office365的10件事"
+date: 2019-12-06T23:12:31+08:00
+tags:  ["Office365,office"]
+categories: ["work"]
+draft: false
 ---
 
 # O365十件事
