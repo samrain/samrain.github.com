@@ -17,7 +17,11 @@
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
+<<<<<<< HEAD
       <description>Plantuml源码在此： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+=======
+      <description>plantuml源码如下： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+>>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
     </item>
     
     <item>

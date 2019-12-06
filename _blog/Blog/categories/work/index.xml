@@ -6,12 +6,55 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 27 Nov 2019 22:29:07 +0800</lastBuildDate>
+=======
+    <lastBuildDate>Thu, 05 Dec 2019 14:06:06 +0800</lastBuildDate>
+>>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
+=======
+      <title>售前信息采集表</title>
+      <link>https://www.samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</link>
+      <pubDate>Thu, 05 Dec 2019 14:06:06 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</guid>
+      <description>模板文件在此： https://kdocs.cn/l/sC8vl2h34?f=501</description>
+    </item>
+    
+    <item>
+      <title>思维导图示例</title>
+      <link>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 14:21:01 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</guid>
+      <description>Plantuml源码如下： @startmindmap :思维导图示例 *_ 祖宗 [46] ** 大老爷 [4] *** 大伯 [4] **** 2019 [4] *****_ 4月 [1] *****_ 5月 [2] *****_ 6月 [1] ** 二老爷 [42] *** 二伯 [9] *** 三伯 [33] **** 2018 [1] **** 2019 [32] *****_ 3</description>
+    </item>
+    
+    <item>
+      <title>甘特图范例</title>
+      <link>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</guid>
+      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&#39;s end</description>
+    </item>
+    
+    <item>
+      <title>管理岗基本任务</title>
+      <link>https://www.samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</link>
+      <pubDate>Thu, 28 Nov 2019 13:43:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</guid>
+      <description>Plantuml源码如下： @startmindmap 管理岗基本任务 title 管理岗基本任务 caption 2019-08-30 10:42:07 ～2019-11-28 13:46:33 header 韩雨 endheader center footer 第1页/共1页 legend top 这周的任务完成情况怎么</description>
+    </item>
+    
+    <item>
+>>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
       <title>指导新员工</title>
       <link>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</link>
       <pubDate>Wed, 27 Nov 2019 22:29:07 +0800</pubDate>
@@ -26,7 +69,11 @@
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
+<<<<<<< HEAD
       <description>Plantuml源码在此： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+=======
+      <description>plantuml源码如下： @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或活动的总结 endlegend + XX总结 ++ 复盘 +++ 怎么</description>
+>>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
     </item>
     
     <item>

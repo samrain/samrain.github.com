@@ -8,7 +8,11 @@ draft = false
 
 ![阶段总结模板](https://pic1.superbed.cn/item/5ddcb8b08e0e2e3ee982780f.png)
 
+<<<<<<< HEAD
 # Plantuml源码在此：
+=======
+# plantuml源码如下：
+>>>>>>> 6eed3a3cfcf93ef8b816677877b8fd431030dd9d
 
 ```
 @startmindmap  阶段总结模板
