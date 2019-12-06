@@ -6,15 +6,24 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Nov 2019 19:04:07 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 22:29:07 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>团队,新员工,指导</title>
+      <link>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%AF%BC/</link>
+      <pubDate>Wed, 27 Nov 2019 22:29:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%AF%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>团队,成熟度,模型</title>
       <link>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/</link>
-      <pubDate>Mon, 25 Nov 2019 19:04:07 +0800</pubDate>
+      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B/</guid>
       <description></description>
@@ -1632,7 +1641,7 @@
     </item>
     
     <item>
-      <title>net</title>
+      <title>NET</title>
       <link>https://www.samrainhan.com/tags/net/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       
@@ -6645,7 +6654,7 @@
     </item>
     
     <item>
-      <title>IDE</title>
+      <title>ide</title>
       <link>https://www.samrainhan.com/tags/ide/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       

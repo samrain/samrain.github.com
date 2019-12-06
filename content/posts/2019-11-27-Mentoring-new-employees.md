@@ -1,13 +1,13 @@
----
-title : "指导新员工"
-date : 2019-11-27T22:29:07+08:00
-tags: ["团队,新员工,指导"]
-categories: ["work"]
-draft : true
----
-
++++
+title = "指导新员工"
+date = 2019-11-27T22:29:07+08:00
+tags= ["团队,新员工,指导"]
+categories = ["work"]
+draft = false
++++
+ 
 ![指导新员工](https://pic.superbed.cn/item/5dde89698e0e2e3ee9c8385e.png)
-
+ 
 # Plantuml源码在此：
 
 ```
