@@ -167,7 +167,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    462
+                    467
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -179,6 +179,66 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">服务商认证流程</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            @startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2019-06-12" class="no-wrap"
+                                title="Modifyd at 2019/06/12">
+                                June 12, 2019</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/">展会材料清单</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2019-06-11" class="no-wrap"
+                                title="Modifyd at 2019/06/11">
+                                June 11, 2019</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            sql脚本如下： USE [master]; GO alter database tempdb modify file (name='tempdev', size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N'tempdev2', FILENAME = N'E:\SQLDATA\tempdev2.ndf' , SIZE = 8GB , FILEGROWTH = 0); GO
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -310,66 +370,6 @@ if (!doNotTrack) {
 
                         <div name="posts-post">
                             list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">更新SQLServer存储过程的脚本模版</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and OBJECTPROPERTY(id, N'IsProcedure') = 1) DROP PROCEDURE [dbo].[存储过程名]
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">产品经理的核心价值是什么</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。
                         </div>
 
                         <div class="f6 text-gray mt-2">
