@@ -1,5 +1,5 @@
 ---
-title: 9大传播方式"
+title: 9大传播方式
 date: 2019-12-12T11:53:49+08:00
 tags: ["传播,宣传,推广"]
 categories: ["work"]
