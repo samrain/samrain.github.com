@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>vim on sam的小窝</title>
+    <title>VIM on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/vim/</link>
-    <description>Recent content in vim on sam的小窝</description>
+    <description>Recent content in VIM on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 16 Aug 2012 00:00:00 +0000</lastBuildDate>

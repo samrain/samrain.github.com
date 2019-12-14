@@ -6,13 +6,22 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Dec 2019 12:08:42 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>文档,生命周期</title>
+      <title>网站,配色</title>
+      <link>https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99%E9%85%8D%E8%89%B2/</link>
+      <pubDate>Sat, 14 Dec 2019 18:28:32 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99%E9%85%8D%E8%89%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文档,生命周期,</title>
       <link>https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
       <pubDate>Thu, 12 Dec 2019 12:08:42 +0800</pubDate>
       
@@ -2532,7 +2541,7 @@
     </item>
     
     <item>
-      <title>JS</title>
+      <title>js</title>
       <link>https://www.samrainhan.com/tags/js/</link>
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
       
@@ -2955,7 +2964,7 @@
     </item>
     
     <item>
-      <title>.net</title>
+      <title>.NET</title>
       <link>https://www.samrainhan.com/tags/.net/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
@@ -6726,7 +6735,7 @@
     </item>
     
     <item>
-      <title>IDE</title>
+      <title>ide</title>
       <link>https://www.samrainhan.com/tags/ide/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       
@@ -6789,7 +6798,7 @@
     </item>
     
     <item>
-      <title>vim</title>
+      <title>VIM</title>
       <link>https://www.samrainhan.com/tags/vim/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
