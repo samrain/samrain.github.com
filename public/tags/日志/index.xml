@@ -26,7 +26,7 @@
       <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
-      <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
+      <description>&amp;ndash; %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
     </item>
     
     <item>

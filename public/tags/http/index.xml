@@ -17,7 +17,7 @@
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
+      <description>String url=request.getScheme()+&amp;rdquo;://&amp;ldquo;; url+=request.getHeader(&amp;ldquo;host&amp;rdquo;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;ldquo;?&amp;rdquo;+request.getQueryString();</description>
     </item>
     
     <item>

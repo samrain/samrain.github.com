@@ -26,7 +26,7 @@
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
-      <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
+      <description>xe vm-export vm=&amp;ldquo;192.168.25.20(GUR)&amp;rdquo; filename=20.xva</description>
     </item>
     
   </channel>

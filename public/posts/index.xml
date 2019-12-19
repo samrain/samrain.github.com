@@ -6,10 +6,344 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 Apr 2019 14:52:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>应用新技术可以对企业的优势领域带来巨大影响</title>
+      <link>http://samrainhan.com/posts/2019-12-14-applying-new-technologies-can-have-a-huge-impact-on-the-strengths-of-the-company/</link>
+      <pubDate>Sat, 14 Dec 2019 18:28:32 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-14-applying-new-technologies-can-have-a-huge-impact-on-the-strengths-of-the-company/</guid>
+      <description>营销 利用企业的唯一数据传达可促进增收的想法和可行性见解 销售 使销售代表能够在各地轻松协作和办公 财务 使用实时报告技术和数据安全做出更明智、更可控</description>
+    </item>
+    
+    <item>
+      <title>网站的配色方案</title>
+      <link>http://samrainhan.com/posts/2019-12-14-website-color-system/</link>
+      <pubDate>Sat, 14 Dec 2019 18:08:12 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-14-website-color-system/</guid>
+      <description>日本传统色 http://nipponcolors.com 图标 http://www.iconfont.cn 上传照片就能智能形成一套配色： http://www.colorfavs.com http://colorhunter.com/ 各大网站的配色方案 https://brandcolors.net/</description>
+    </item>
+    
+    <item>
+      <title>文档的生命周期（阶段&#43;定义&#43;支持的技术和应用）</title>
+      <link>http://samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</link>
+      <pubDate>Thu, 12 Dec 2019 12:08:42 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>9大传播方式</title>
+      <link>http://samrainhan.com/posts/2019-12-12-9-ways-to-spread/</link>
+      <pubDate>Thu, 12 Dec 2019 11:53:49 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-12-9-ways-to-spread/</guid>
+      <description>口碑传播 服务创造 公益行为 传播方式品质创造 事件创造 故事 意见领袖 电视大众媒体 博客传播 邮件传播 视频传播 事件传播 网络广告 论坛</description>
+    </item>
+    
+    <item>
+      <title>产品的宣传渠道</title>
+      <link>http://samrainhan.com/posts/2019-12-12-product-promotion-channels/</link>
+      <pubDate>Thu, 12 Dec 2019 11:46:22 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-12-product-promotion-channels/</guid>
+      <description>第一，通过渠道建设传递产品，把产品输送到渠道，继而带到消费者身边，才能兑现产品的使用价值，转化为销售利润。 第二，通过媒介传播打造品牌，逐步提</description>
+    </item>
+    
+    <item>
+      <title>.NET项目编译脚本</title>
+      <link>http://samrainhan.com/posts/2019-12-12-net-project-compilation-script/</link>
+      <pubDate>Thu, 12 Dec 2019 11:15:47 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-12-net-project-compilation-script/</guid>
+      <description>编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &amp;quot;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&amp;quot; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo</description>
+    </item>
+    
+    <item>
+      <title>青海7日大环线</title>
+      <link>http://samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/</link>
+      <pubDate>Thu, 12 Dec 2019 10:10:17 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/</guid>
+      <description>D1：西宁-黑泉水库-大坂山-门源油菜花-岗什卡雪峰（远观）-祁连 祁连新世纪宾馆 360元 全 15297126212 D2：祁连县-卓尔山-阿柔大寺-祁连草原-俄博古</description>
+    </item>
+    
+    <item>
+      <title>stepps 疯传</title>
+      <link>http://samrainhan.com/posts/2019-12-07-stepps/</link>
+      <pubDate>Sat, 07 Dec 2019 17:34:18 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-07-stepps/</guid>
+      <description>stepps 疯传 社交货币 话题成为了人们承载信息、进行交流的“社交货币”。 所以我们会去共享那些能够让我们显得更优秀的事情，同时通过支付这一类“社交货币”</description>
+    </item>
+    
+    <item>
+      <title>office365的10件事</title>
+      <link>http://samrainhan.com/posts/2019-12-06-ten-things-of-o365/</link>
+      <pubDate>Fri, 06 Dec 2019 23:12:31 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-06-ten-things-of-o365/</guid>
+      <description>O365十件事 业界精英的选择 中国SAAS云服务中国市场份额No1 85%全球财富500强企业使用Office365 以实现高校的协作，安全的内容</description>
+    </item>
+    
+    <item>
+      <title>售前信息采集表</title>
+      <link>http://samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</link>
+      <pubDate>Thu, 05 Dec 2019 14:06:06 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</guid>
+      <description>模板文件在此： https://kdocs.cn/l/sC8vl2h34?f=501</description>
+    </item>
+    
+    <item>
+      <title>思维导图示例</title>
+      <link>http://samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 14:21:01 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</guid>
+      <description>Plantuml源码如下： @startmindmap :思维导图示例 *_ 祖宗 [46] ** 大老爷 [4] *** 大伯 [4] **** 2019 [4] *****_ 4月 [1] *****_ 5月 [2] *****_ 6月 [1] ** 二老爷 [42] *** 二伯 [9] *** 三伯 [33] **** 2018 [1] **** 2019 [32] *****_ 3</description>
+    </item>
+    
+    <item>
+      <title>甘特图范例</title>
+      <link>http://samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</link>
+      <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</guid>
+      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&#39;s end</description>
+    </item>
+    
+    <item>
+      <title>管理岗基本任务</title>
+      <link>http://samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</link>
+      <pubDate>Thu, 28 Nov 2019 13:43:07 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</guid>
+      <description>Plantuml源码如下： @startmindmap 管理岗基本任务 title 管理岗基本任务 caption 2019-08-30 10:42:07 ～2019-11-28 13:46:33 header 韩雨 endheader center footer 第1页/共1页 legend top 这周的任务完成情况怎么</description>
+    </item>
+    
+    <item>
+      <title>阶段总结模板</title>
+      <link>http://samrainhan.com/posts/2019-11-26-phase-summary-template/</link>
+      <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
+      <description>&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
+    </item>
+    
+    <item>
+      <title>团队成熟度模型</title>
+      <link>http://samrainhan.com/posts/2019-11-25-team-maturity-model/</link>
+      <pubDate>Mon, 25 Nov 2019 19:04:07 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-25-team-maturity-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>上海 徒步旅行 打卡地点</title>
+      <link>http://samrainhan.com/posts/2019-11-25-shanghai-trekking-punch-location/</link>
+      <pubDate>Mon, 25 Nov 2019 01:35:00 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-25-shanghai-trekking-punch-location/</guid>
+      <description>长乐路 从人民广场出发-经南京东路绕到旺旺大厦-途径马勒别墅-然后到淮海路-再到新天地-中共2大会址最后回到大世界（上海音乐厅解散）。 巨鹿路 武</description>
+    </item>
+    
+    <item>
+      <title>五感</title>
+      <link>http://samrainhan.com/posts/2019-11-25-five-senses/</link>
+      <pubDate>Mon, 25 Nov 2019 00:44:43 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-25-five-senses/</guid>
+      <description>视觉 听觉 味觉 触觉 嗅觉</description>
+    </item>
+    
+    <item>
+      <title>营销获客优于赋能，优于效率提升</title>
+      <link>http://samrainhan.com/posts/2019-07-24-add-customers-better-than-empowerment/</link>
+      <pubDate>Wed, 24 Jul 2019 16:56:52 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-07-24-add-customers-better-than-empowerment/</guid>
+      <description>就用户付费意愿来说，营销获客优于赋能、优于效率提升。 赋能比如在供应链金融、整合供应链领域，帮助企业提高业务能力；效率提升比如提供业务流程操作</description>
+    </item>
+    
+    <item>
+      <title>网盘的前世今生</title>
+      <link>http://samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</link>
+      <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文档全生命周期管理</title>
+      <link>http://samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</link>
+      <pubDate>Tue, 09 Jul 2019 15:37:45 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</guid>
+      <description>文档生命周期：文件从产生直至因丧失作用而被销毁或者因具有长远历史价值而被档案馆永久保存的整体运动过程。</description>
+    </item>
+    
+    <item>
+      <title>WPS帮助政府数字化转型</title>
+      <link>http://samrainhan.com/posts/2019-07-01-government-information-solution-with-wps/</link>
+      <pubDate>Mon, 01 Jul 2019 10:24:44 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-07-01-government-information-solution-with-wps/</guid>
+      <description>不承担社会责任 不环保 计算使用WPS节省的资源 不参与慈善公益活动 向慈善公益组织捐赠WPS 不保证产品质量安全 通过各种国家和国际认证 获得多个知识产</description>
+    </item>
+    
+    <item>
+      <title>政务信息化</title>
+      <link>http://samrainhan.com/posts/2019-06-30-government-digital-transformation/</link>
+      <pubDate>Sun, 30 Jun 2019 16:30:41 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-30-government-digital-transformation/</guid>
+      <description>社会责任 不环保 计算使用WPS节省的资源 不参与慈善公益活动 向慈善公益组织捐赠WPS 不保证产品质量安全 通过各种国家和国际认证 获得多个知识产权证明</description>
+    </item>
+    
+    <item>
+      <title>对于产品的期望</title>
+      <link>http://samrainhan.com/posts/2019-06-29-expectations-for-the-product/</link>
+      <pubDate>Sat, 29 Jun 2019 14:08:30 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-29-expectations-for-the-product/</guid>
+      <description>对于产品的期望 产品创造者 大卖赚钱 慈善助人 自己乐呵 产品设计者 完美无瑕 传递价值 产品生产者 简单 批量 产品实施者 开箱即用 配置 产品销售者 高利 易销 解决方案</description>
+    </item>
+    
+    <item>
+      <title>怎么和外包服务供应商交流</title>
+      <link>http://samrainhan.com/posts/2019-06-27-how-to-communicate-with-outsourcing-service-providers/</link>
+      <pubDate>Thu, 27 Jun 2019 22:53:16 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-27-how-to-communicate-with-outsourcing-service-providers/</guid>
+      <description>Why 建立联系 互相了解 探讨如何互赢 What 了解对方产品和服务 介绍我方产品和服务 确定下一步计划 Who 我方 对方 where 双方都适合的地点 How 提问 对方产品的功能和特点是什</description>
+    </item>
+    
+    <item>
+      <title>为什么企业要使用WPS&#43;</title>
+      <link>http://samrainhan.com/posts/2019-06-24-why-do-the-company-use-wps&#43;/</link>
+      <pubDate>Mon, 24 Jun 2019 14:10:09 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-24-why-do-the-company-use-wps&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>新西兰护照准备事项</title>
+      <link>http://samrainhan.com/posts/2019-06-23-new-zealand-passport-preparation/</link>
+      <pubDate>Sun, 23 Jun 2019 16:51:58 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-23-new-zealand-passport-preparation/</guid>
+      <description>爸爸 照片×1 护照×1 户口簿×1 身份证×1 在职证明×1 准假信×1 资产证明*1 可用白金信用卡证明 最近6个月记录，余额5万元或以上 银行流水账单需有</description>
+    </item>
+    
+    <item>
+      <title>Why We Use Office</title>
+      <link>http://samrainhan.com/posts/2019-06-22-why-we-use-office/</link>
+      <pubDate>Sat, 22 Jun 2019 02:02:54 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-22-why-we-use-office/</guid>
+      <description>Why we use office Why企业使用wps或ms office 中小企业的交流和协作现在都在慢慢从mail转向IM，比如企业微信和钉钉，于是除了邮件外，WPS还必须和I</description>
+    </item>
+    
+    <item>
+      <title>新西兰旅游计划</title>
+      <link>http://samrainhan.com/posts/2019-06-21-new-zealand-travel-plan/</link>
+      <pubDate>Fri, 21 Jun 2019 02:05:15 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-21-new-zealand-travel-plan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NFS的缺点</title>
+      <link>http://samrainhan.com/posts/2019-06-20-defects-of-nfs/</link>
+      <pubDate>Thu, 20 Jun 2019 08:01:37 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-20-defects-of-nfs/</guid>
+      <description>1. 单点故障，如果nfs server宕机，所有客户端无法连接 2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差） 3.</description>
+    </item>
+    
+    <item>
+      <title>WPS产品矩阵</title>
+      <link>http://samrainhan.com/posts/2019-06-18-matrix-of-wps/</link>
+      <pubDate>Tue, 18 Jun 2019 06:37:10 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-18-matrix-of-wps/</guid>
+      <description>Package App 有否单独客户端 Windows Linux Mac IOS Android H5 服务可否私有化 Office WPS Office [x] [x] [x] [x] [x] [x] [x] Office WPS PDF [x] [x] [x] [x] [x] Office WPS写得 [x] Office WPS秀堂 [x] Office WPS便签 [x]office [x]office [x]office [x] 文档管理 云文</description>
+    </item>
+    
+    <item>
+      <title>手工添加WPS序列号</title>
+      <link>http://samrainhan.com/posts/2019-06-15-add-wps-license-num-manually/</link>
+      <pubDate>Sat, 15 Jun 2019 11:41:20 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-15-add-wps-license-num-manually/</guid>
+      <description>1. 确认序列号 2. win7中左下角开始-程序-附件-WPS office 专业增强版-配置工具 3. 点击“配置工具”-高级-产品管理中心-添加-输入序列号信息-确</description>
+    </item>
+    
+    <item>
+      <title>笑话</title>
+      <link>http://samrainhan.com/posts/2019-06-14-jokes/</link>
+      <pubDate>Fri, 14 Jun 2019 23:17:48 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-14-jokes/</guid>
+      <description>一个老外问我傻B和牛B中的B是什么意思。我告诉他，B是个副词，形容很厉害，比如傻B就是“傻的很厉害”，牛B就是“牛的很厉害”，装B就是“装的</description>
+    </item>
+    
+    <item>
+      <title>售前检查清单</title>
+      <link>http://samrainhan.com/posts/2019-06-13-list-of-presales/</link>
+      <pubDate>Thu, 13 Jun 2019 23:59:18 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-13-list-of-presales/</guid>
+      <description>名称 数量 用途 笔记本电脑(带好电源) 1 主要做实际环境演示效果 视频转换头 1 根据电脑的接口，可以是VGA转hdmi，或者hdmi转VGA，或者dp</description>
+    </item>
+    
+    <item>
+      <title>服务商认证流程</title>
+      <link>http://samrainhan.com/posts/2019-06-12-service-provider-certification-process/</link>
+      <pubDate>Wed, 12 Jun 2019 22:31:20 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-12-service-provider-certification-process/</guid>
+      <description>@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通</description>
+    </item>
+    
+    <item>
+      <title>展会材料清单</title>
+      <link>http://samrainhan.com/posts/2019-06-11-list-of-exhibition/</link>
+      <pubDate>Tue, 11 Jun 2019 23:35:46 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-11-list-of-exhibition/</guid>
+      <description>桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*</description>
+    </item>
+    
+    <item>
+      <title>澳门游路线</title>
+      <link>http://samrainhan.com/posts/2019-06-11-macau-tour-route/</link>
+      <pubDate>Tue, 11 Jun 2019 00:23:59 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-11-macau-tour-route/</guid>
+      <description>拱北过关》赌场班车去银河》shopping》赌场班车》新葡京》西望洋花园》妈阁庙》郑家大屋》下环街市》圣老楞佐教堂》岗顶前地》河东图书馆》议</description>
+    </item>
+    
+    <item>
+      <title>rust语言参考</title>
+      <link>http://samrainhan.com/posts/2019-06-08-rust-guide/</link>
+      <pubDate>Sat, 08 Jun 2019 23:52:06 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-06-08-rust-guide/</guid>
+      <description>https://doc.rust-lang.org/stable/rust-by-example/hello.html
+https://kaisery.github.io/trpl-zh-cn/</description>
+    </item>
     
     <item>
       <title>Cloud9 Move to Aws C9</title>
@@ -107,7 +441,8 @@
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
+      <description>after install golden ratio package,let&amp;rsquo;s add it:
+(use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))  </description>
     </item>
     
     <item>
@@ -116,7 +451,11 @@
       <pubDate>Wed, 12 Sep 2018 09:46:47 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-09-12-what-is-bosun/</guid>
-      <description>http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!</description>
+      <description>http://localhost:8070/
+http://bosun.org/scollector/
+http://bosun.org/quickstart#scollector
+http://zhengheng.me/2015/12/09/bosun-install/
+http://localhost:8070/hello world!</description>
     </item>
     
     <item>
@@ -134,7 +473,9 @@
       <pubDate>Tue, 11 Sep 2018 12:05:47 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/</guid>
-      <description>list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude</description>
+      <description> list.exclude
+Config/dll.config Logger.config  rsync4test.bat
+set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude   </description>
     </item>
     
     <item>
@@ -143,7 +484,7 @@
       <pubDate>Tue, 11 Sep 2018 11:40:50 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-09-11-update-stored-procedures/</guid>
-      <description>`/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1) DROP PROCEDURE [dbo].[存储过程名]</description>
+      <description>/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/ if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1) DROP PROCEDURE [dbo].[存储过程名]</description>
     </item>
     
     <item>
@@ -503,7 +844,8 @@
       <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-07-14-icon-query-website/</guid>
-      <description>https://www.iconfinder.com/ https://thenounproject.com/</description>
+      <description>https://www.iconfinder.com/
+https://thenounproject.com/</description>
     </item>
     
     <item>
@@ -638,7 +980,7 @@
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
-      <description>&#34;</description>
+      <description>&#34; </description>
     </item>
     
     <item>
@@ -656,7 +998,7 @@
       <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
-      <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
+      <description>&amp;ndash; %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
     </item>
     
     <item>
@@ -719,7 +1061,7 @@
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
+      <description>String url=request.getScheme()+&amp;rdquo;://&amp;ldquo;; url+=request.getHeader(&amp;ldquo;host&amp;rdquo;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;ldquo;?&amp;rdquo;+request.getQueryString();</description>
     </item>
     
     <item>
@@ -791,7 +1133,7 @@
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
-      <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
+      <description>xe vm-export vm=&amp;ldquo;192.168.25.20(GUR)&amp;rdquo; filename=20.xva</description>
     </item>
     
     <item>
@@ -809,7 +1151,7 @@
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-10-rsync-client-script/</guid>
-      <description># 1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
+      <description>1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
     </item>
     
     <item>
@@ -2051,7 +2393,7 @@
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2015-02-10-common-linux-operating/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
@@ -2794,10 +3136,10 @@
     
     <item>
       <title>大型网站群的建设及管理模式</title>
-      <link>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</link>
+      <link>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</link>
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</guid>
+      <guid>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</guid>
       <description>中国企业的信息化建设自20世纪90年代开始，域名（网站）、企业邮箱、OA是企业信息化的起步点，随着拨号上网用户的增加，以及1999-2001</description>
     </item>
     
@@ -3888,6 +4230,15 @@
       
       <guid>http://samrainhan.com/posts/2010-02-11-gvim-editing-tips/</guid>
       <description>准备工作 首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test 查找替换 按几下 ESC 进入 Normal 模式， 输入以下命令： :%s/ /\r/g 回车后得到的效果如下</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://samrainhan.com/posts/2019-11-27-mentoring-new-employees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-11-27-mentoring-new-employees/</guid>
+      <description>&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD +++ title = &amp;ldquo;指导新员工&amp;rdquo; date = 2019-11-27T22:29:07+08:00 tags= [&amp;ldquo;团队,新员工,指导&amp;rdquo;] categories = [&amp;ldquo;work&amp;rdquo;] draft = false +++ ======= title : &amp;ldquo;</description>
     </item>
     
   </channel>
