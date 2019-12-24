@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试工具 on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
-      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：[http://tsung.erlang-projects.org/]() 可以测试包括</description>
+      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
     </item>
     
   </channel>

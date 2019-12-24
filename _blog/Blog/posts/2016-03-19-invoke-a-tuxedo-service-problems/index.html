@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/03/19">
                                     2016-03-19</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-03-19" class="no-wrap"
-                                    title="Modifyd at 2016/03/19">
+                                Modifyed <time-ago datetime="2016-03-19" class="no-wrap"
+                                    title="Modifyed  at 2016/03/19">
                                     2016-03-19</time-ago>
                             </div>
                         </h1>
@@ -127,12 +127,8 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="解决调用tuxedo服务问题">解决调用Tuxedo服务问题</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="tuxedo">解决调用Tuxedo服务问题</h2>
 <p>用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：</p>
-
 <blockquote>
 <p>System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.
 at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
@@ -144,15 +140,10 @@ at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig()
 at Interface.Tuxedo.TuxedoHelper..cctor()
 &mdash; End of inner exception stack trace &mdash;</p>
 </blockquote>
-
 <p>解决办法：</p>
-
 <p>用 管理员账户安装Tuxedo服务 测试失败</p>
-
 <p>在注册表编辑器中给eventlog添加用户<code>network service</code>读权限,测试失败</p>
-
 <p>怀疑启动服务的用户不对,遂打开任务管理器,发现<code>w3wp</code>用户名千奇百怪.</p>
-
 <p>进IIS管理器-应用程序池发现运行账号设置为<code>ApplicationPoolIdentify</code>,罪魁祸首就是他.这样就是使得启动用户名和程序池的名称一样.把所有程序池的运行用户都设置为同一个admin用户,问题解决.</p>
 </article>
                         </div>

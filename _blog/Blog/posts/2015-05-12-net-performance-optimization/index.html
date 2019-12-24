@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/05/12">
                                     2015-05-12</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-05-12" class="no-wrap"
-                                    title="Modifyd at 2015/05/12">
+                                Modifyed <time-ago datetime="2015-05-12" class="no-wrap"
+                                    title="Modifyed  at 2015/05/12">
                                     2015-05-12</time-ago>
                             </div>
                         </h1>
@@ -127,18 +127,11 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="避免使用arraylist">避免使用ArrayList。</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="arraylist">避免使用ArrayList。</h2>
 <p>因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要拆箱回实际的类型。建议使用自定义的集合类型代替ArrayList。.net 2.0提供了一个新的类型，叫泛型，这是一个强类型，使用泛型集合就可以避免了封箱和拆箱的发生，提高了性能。</p>
-
-<h2 id="使用hashtale代替其他字典集合类型">使用HashTale代替其他字典集合类型</h2>
-
+<h2 id="hashtale">使用HashTale代替其他字典集合类型</h2>
 <p>存放少量数据的时候可以使用HashTable.（如StringDictionary,NameValueCollection,HybridCollection），</p>
-
-<h2 id="为字符串容器声明常量-不要直接把字符封装在双引号-里面">为字符串容器声明常量，不要直接把字符封装在双引号&rdquo; &ldquo;里面。</h2>
-
+<h2 id="-">为字符串容器声明常量，不要直接把字符封装在双引号&rdquo; &ldquo;里面。</h2>
 <pre><code>//避免
 MyObject obj = new MyObject();
 obj.Status = &quot;ACTIVE&quot;;
@@ -147,21 +140,14 @@ obj.Status = &quot;ACTIVE&quot;;
 const string C_STATUS = &quot;ACTIVE&quot;;
 MyObject obj = new MyObject();
 obj.Status = C_STATUS;
-</code></pre>
-
-<h2 id="不要用uppercase-lowercase转换字符串进行比较-用string-compare代替">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</h2>
-
+</code></pre><h2 id="uppercaselowercasestringcompare">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</h2>
 <p>它可以忽略大小写进行比较.</p>
-
 <pre><code>const string C_VALUE = &quot;COMPARE&quot;;
 if (String.Compare(sVariable, C_VALUE, true) == 0)
 {
 Console.Write(&quot;SAME&quot;);
 }
-</code></pre>
-
-<h2 id="用stringbuilder代替使用字符串连接符">用StringBuilder代替使用字符串连接符 “+”，</h2>
-
+</code></pre><h2 id="stringbuilder-">用StringBuilder代替使用字符串连接符 “+”，</h2>
 <pre><code>//避免
 String sXML = &quot;&lt;parent&gt;&quot;;
 sXML += &quot;&lt;child&gt;&quot;;
@@ -176,10 +162,7 @@ sbXML.Append(&quot;&lt;child&gt;&quot;);
 sbXML.Append(&quot;Data&quot;);
 sbXML.Append(&quot;&lt;/child&gt;&quot;);
 sbXML.Append(&quot;&lt;/parent&gt;&quot;);
-</code></pre>
-
-<h2 id="如果只是从xml对象读取数据-用只读的xpathdocument代替xmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</h2>
-
+</code></pre><h2 id="xmlxpathdocumentxmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</h2>
 <pre><code>//避免
 XmlDocument xmld = new XmlDocument();
 xmld.LoadXml(sXML);
@@ -195,10 +178,7 @@ while(xpNodeIter.MoveNext())
 {
   sCurrValues += xpNodeIter.Current.Value+&quot;~&quot;; 
 }
-</code></pre>
-
-<h2 id="避免在循环体里声明变量-应该在循环体外声明变量-在循环体里初始化">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</h2>
-
+</code></pre><h2 id="heading">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</h2>
 <pre><code>//避免
 for(int i=0; i&lt;10; i++)
 {
@@ -217,10 +197,7 @@ for(int i=0; i&lt;10; i++)
 .
 .
 }
-</code></pre>
-
-<h2 id="捕获指定的异常-不要使用通用的system-exception">捕获指定的异常，不要使用通用的System.Exception.</h2>
-
+</code></pre><h2 id="systemexception">捕获指定的异常，不要使用通用的System.Exception.</h2>
 <pre><code>//避免
       try
       {
@@ -248,10 +225,7 @@ for(int i=0; i&lt;10; i++)
       {
       &lt;Error handling&gt;
       }
-</code></pre>
-
-<h2 id="使用try-catch-finally时-要在finally里释放占用的资源如连接-文件流等-不然在catch到错误后占用的资源不能释放">使用Try&hellip;catch&hellip;finally时， 要在finally里释放占用的资源如连接，文件流等，不然在Catch到错误后占用的资源不能释放。</h2>
-
+</code></pre><h2 id="trycatchfinally-finallycatch">使用Try&hellip;catch&hellip;finally时， 要在finally里释放占用的资源如连接，文件流等，不然在Catch到错误后占用的资源不能释放。</h2>
 <pre><code>try
       {
          ...
@@ -262,11 +236,8 @@ for(int i=0; i&lt;10; i++)
         {
           conntion.close()
         }     
-</code></pre>
-
-<h2 id="避免使用递归调用和嵌套循环-使用他们会严重影响性能-在不得不用的时候才使用">避免使用递归调用和嵌套循环，使用他们会严重影响性能，在不得不用的时候才使用。</h2>
-
-<h2 id="使用适当的caching策略来提高性能">使用适当的Caching策略来提高性能</h2>
+</code></pre><h2 id="heading-1">避免使用递归调用和嵌套循环，使用他们会严重影响性能，在不得不用的时候才使用。</h2>
+<h2 id="caching">使用适当的Caching策略来提高性能</h2>
 </article>
                         </div>
                     </div>

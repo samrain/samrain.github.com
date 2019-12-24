@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/05/11">
                                     2015-05-11</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-05-11" class="no-wrap"
-                                    title="Modifyd at 2015/05/11">
+                                Modifyed <time-ago datetime="2015-05-11" class="no-wrap"
+                                    title="Modifyed  at 2015/05/11">
                                     2015-05-11</time-ago>
                             </div>
                         </h1>
@@ -121,28 +121,22 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                260 Words
+                                259 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>在工程中添加引用<code>NLog.dll</code>
-&gt; <strong>注意：必须要对应当前的Framework版本的NLog.dll</strong></p>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>在工程中添加引用<code>NLog.dll</code></p>
+<blockquote>
+<p><strong>注意：必须要对应当前的Framework版本的NLog.dll</strong></p>
+</blockquote>
 <p>添加<code>NLog.config</code>并设置<code>Copy to Output Directory</code>为<strong>Copy always</strong>。</p>
-
 <p>在每个Class中都初始化一个私有静态实例</p>
-
 <pre><code>private static Logger logger = LogManager.GetCurrentClassLogger();
-</code></pre>
-
-<p>然后在这个class中就能直接使用这个实例写日志。比如</p>
-
+</code></pre><p>然后在这个class中就能直接使用这个实例写日志。比如</p>
 <p><code>logger.Debug(&quot;Sample debug message&quot;)</code></p>
-
 <p>总共将log分成6级，根据config中的rule配置来确定哪一级输出：</p>
-
 <ul>
 <li>Trace</li>
 <li>Debug</li>
@@ -151,11 +145,8 @@ if (!doNotTrack) {
 <li>Error</li>
 <li>Fatal</li>
 </ul>
-
 <p>配置文件范例：</p>
-
-<script src="https://gist.github.com/samrain/edc11a44dc6b2c1074ed.js"></script>
-
+<!-- raw HTML omitted -->
 <p>Exception一般包含了StackTrace，只要简单的exception.tostring()就可以输出所有的错误信息。</p>
 </article>
                         </div>

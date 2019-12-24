@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/07/10">
                                     2016-07-10</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-07-10" class="no-wrap"
-                                    title="Modifyd at 2016/07/10">
+                                Modifyed <time-ago datetime="2016-07-10" class="no-wrap"
+                                    title="Modifyed  at 2016/07/10">
                                     2016-07-10</time-ago>
                             </div>
                         </h1>
@@ -121,21 +121,19 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                387 Words
+                                362 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>具体的做法就是在密码中加入一段&rdquo;随机化&rdquo;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的&rsquo;随机&rsquo;字符串就是所谓的&rsquo;盐&rsquo;.</p>
-
-<p>在真正的工作中大多数人还是会犯下一些&rdquo;错误&rdquo;,使我们的料加的并不好,比如:</p>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>具体的做法就是在密码中加入一段&quot;随机化&quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的'随机'字符串就是所谓的'盐&rsquo;.</p>
+<p>在真正的工作中大多数人还是会犯下一些&quot;错误&rdquo;,使我们的料加的并不好,比如:</p>
 <ul>
-<li>&ldquo;盐值&rdquo;的长度太短(通常要和密文长度一样才行)或者&rdquo;盐值&rdquo;出现重复</li>
+<li>&ldquo;盐值&quot;的长度太短(通常要和密文长度一样才行)或者&quot;盐值&quot;出现重复</li>
 <li>哈希函数进行嵌套或者组合使用(非常重要的一点,别相信自己发明的某种加密方式,使用由密码学家研究出来的标准算法)</li>
 <li>尽量避免使用已经过时或者低端的哈希函数,例如: MD5,SH1等,推荐SH256,SH512等等.</li>
-<li>&ldquo;盐值&rdquo;的产生并不是一个随意的rand()函数,要使用基于加密的伪随机函数生成器,更加高度的随机性.</li>
+<li>&ldquo;盐值&quot;的产生并不是一个随意的rand()函数,要使用基于加密的伪随机函数生成器,更加高度的随机性.</li>
 </ul>
 </article>
                         </div>

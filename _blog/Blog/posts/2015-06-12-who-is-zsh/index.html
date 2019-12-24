@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/06/12">
                                     2015-06-12</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-06-12" class="no-wrap"
-                                    title="Modifyd at 2015/06/12">
+                                Modifyed <time-ago datetime="2015-06-12" class="no-wrap"
+                                    title="Modifyed  at 2015/06/12">
                                     2015-06-12</time-ago>
                             </div>
                         </h1>
@@ -121,162 +121,34 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                748 Words
+                                413 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="安装">安装</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="heading">安装</h2>
 <pre><code>wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 chsh -s /bin/zsh
-</code></pre>
-
-<h2 id="牛b地方">牛B地方</h2>
-
+</code></pre><h2 id="b">牛B地方</h2>
 <p>###1.万能的TAB</p>
-
 <p>不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会显示目前的进程情况，选择一个即可删除。</p>
-
 <p>###2.快捷输入</p>
-
 <p>可自定义，输入alias可以看到当前的快捷输入，比如不需要输入cd，只要输入目录名即可进入该目录。输入..即可回到上一级目录。</p>
-
 <p>最有用的是把git的命令都缩短了，太爽了。</p>
-
 <p>快速输入的一般配置如下：</p>
-
-<pre>
--='cd -'
-..='cd ..'
-...='cd ../..'
-1='cd -'
-2='cd -2'
-3='cd -3'
-4='cd -4'
-5='cd -5'
-6='cd -6'
-7='cd -7'
-8='cd -8'
-9='cd -9'
-_=sudo
-afind='ack-grep -il'
-cd..='cd ..'
-cd...='cd ../..'
-cd....='cd ../../..'
-cd.....='cd ../../../..'
-cd/='cd /'
-d='dirs -v | head -10'
-g=git
-ga='git add'
-gap='git add --patch'
-gb='git branch'
-gba='git branch -a'
-gbr='git branch --remote'
-gc='git commit -v'
-'gc!'='git commit -v --amend'
-gca='git commit -v -a'
-'gca!'='git commit -v -a --amend'
-gcl='git config --list'
-gclean='git reset --hard && git clean -dfx'
-gcm='git checkout master'
-gcmsg='git commit -m'
-gco='git checkout'
-gcount='git shortlog -sn'
-gcp='git cherry-pick'
-gcs='git commit -S'
-gd='git diff'
-gdc='git diff --cached'
-gdt='git difftool'
-gg='git gui citool'
-gga='git gui citool --amend'
-ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
-ggpull='git pull origin $(current_branch)'
-ggpur='git pull --rebase origin $(current_branch)'
-ggpush='git push origin $(current_branch)'
-gignore='git update-index --assume-unchanged'
-gignored='git ls-files -v | grep "^[[:lower:]]"'
-git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
-gk='gitk --all --branches'
-gl='git pull'
-glg='git log --stat --max-count=10'
-glgg='git log --graph --max-count=10'
-glgga='git log --graph --decorate --all'
-glo='git log --oneline --decorate --color'
-globurl='noglob urlglobber '
-glog='git log --oneline --decorate --color --graph'
-glp=_git_log_prettily
-gm='git merge'
-gmt='git mergetool --no-prompt'
-gp='git push'
-gpoat='git push origin --all && git push origin --tags'
-gr='git remote'
-grba='git rebase --abort'
-grbc='git rebase --continue'
-grbi='git rebase -i'
-grep='grep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn}'
-grh='git reset HEAD'
-grhh='git reset HEAD --hard'
-grmv='git remote rename'
-grrm='git remote remove'
-grset='git remote set-url'
-grt='cd $(git rev-parse --show-toplevel || echo ".")'
-grup='git remote update'
-grv='git remote -v'
-gsd='git svn dcommit'
-gsps='git show --pretty=short --show-signature'
-gsr='git svn rebase'
-gss='git status -s'
-gst='git status'
-gsta='git stash'
-gstd='git stash drop'
-gstp='git stash pop'
-gsts='git stash show --text'
-gts='git tag -s'
-gunignore='git update-index --no-assume-unchanged'
-gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
-gup='git pull --rebase'
-gvt='git verify-tag'
-gwc='git whatchanged -p --abbrev-commit --pretty=medium'
-gwip='git add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--"'
-history='fc -l 1'
-l='ls -lah'
-la='ls -lAh'
-ll='ls -lh'
-ls='ls --color=tty'
-lsa='ls -lah'
-md='mkdir -p'
-please=sudo
-po=popd
-pu=pushd
-rd=rmdir
-which-command=whence
-</pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>还可以自定义快速输入,比如我的个人定制在此,配置用Emacs来打开文件.请将该文件放在<code>.oh-my-zsh/lib</code>下:</p>
-
-<script src="https://gist.github.com/samrain/47ca7843cdf38379c03a.js"></script>
-
-<h3 id="3-快速进入目录">3.快速进入目录</h3>
-
+<!-- raw HTML omitted -->
+<h3 id="3">3.快速进入目录</h3>
 <p>zsh搭配autojump插件，输入后即可跳转，前提是这个目录之前曾经进入过。</p>
-
 <pre><code> j 目录名的一部分
-</code></pre>
-
-<h3 id="4-强大的历史记录">4. 强大的历史记录</h3>
-
+</code></pre><h3 id="4-">4. 强大的历史记录</h3>
 <p>输入指令，然后用上下箭头可以翻阅你执行的所有关于这条指令的记录。</p>
-
-<h3 id="5-智能拼写纠正">5.智能拼写纠正</h3>
-
+<h3 id="5">5.智能拼写纠正</h3>
 <p>输错命令会自动纠正</p>
-
-<h3 id="6-目录浏览和跳转">6.目录浏览和跳转</h3>
-
+<h3 id="6">6.目录浏览和跳转</h3>
 <p>输入<code>d</code>，即可列出你在这个会话里访问的目录列表，输入列表前的序号，即可直接跳转。</p>
 </article>
                         </div>

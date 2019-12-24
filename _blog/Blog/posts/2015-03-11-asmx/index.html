@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/03/11">
                                     2015-03-11</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-03-11" class="no-wrap"
-                                    title="Modifyd at 2015/03/11">
+                                Modifyed <time-ago datetime="2015-03-11" class="no-wrap"
+                                    title="Modifyed  at 2015/03/11">
                                     2015-03-11</time-ago>
                             </div>
                         </h1>
@@ -128,14 +128,10 @@ if (!doNotTrack) {
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用XML描述(如标准的WSDL),客户根据描述生成本地代理,通过代理向服务端发SOAP消息,调用服务.</p>
-
 <p>.Net的Web Service主要有两种,ASMX的Web Service和WCF的Web Service.后者是前者的功能增强版.比如前者只支持http协议,只能建在IIS上,安全性也依赖于IIS等,后者还支持MSMQ, Enterprise Service(似乎主要是面向COM的)等,多了一些配置(如可以配置成双向的消息传送),可以设置多个EndPoint,这样对同一个服务,可以用不 同的方式访问.可以建在Windows Service上或控制台程序即所谓self-hosting.两者之间有几个中间产品,如附加了SOAP Extension和后期的WSE的ASMX Web Service.</p>
-
 <p>服务端需要一个asmx文件,真正的实现代码放在另一个cs文件里.比如<code>example.asmx</code>的实现代码放在<code>Service.cs</code></p>
-
 <pre><code>&lt; %@ WebService Language=&quot;C#&quot; CodeBehind=&quot;~/App_Code/Service.cs&quot; Class=&quot;example&quot; %&gt;
-</code></pre>
-</article>
+</code></pre></article>
                         </div>
                     </div>
                 </div>

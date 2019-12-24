@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/12/26">
                                     2016-12-26</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-12-26" class="no-wrap"
-                                    title="Modifyd at 2016/12/26">
+                                Modifyed <time-ago datetime="2016-12-26" class="no-wrap"
+                                    title="Modifyed  at 2016/12/26">
                                     2016-12-26</time-ago>
                             </div>
                         </h1>
@@ -127,42 +127,44 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h1 id="why">why</h1>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="why">why</h1>
 <p>防止人为或者自动方式恶意登录其他人账号或暴力破解密码。</p>
-
 <h1 id="how">how</h1>
-
 <p>当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库中。</p>
-
 <ol>
-<li><p>单击【开始】，指向【程序】，指向【管理工具】，然后单击【本地安全策略】。</p></li>
-
-<li><p>导航到文件夹【Security Settings\Local Policies\User Rights Management 】，然后双击【Generate security audits】生成安全审核。</p></li>
-
-<li><p>在【本地安全设置】选项卡上，验证 AD FS 2.0 服务帐户是否列出。如果它不存在，请单击【Add User or Group】将其添加进列表中，然后单击确定。</p></li>
-
-<li><p>使用管理员权限运行以下命令来启用审核。</p>
-
+<li>
+<p>单击【开始】，指向【程序】，指向【管理工具】，然后单击【本地安全策略】。</p>
+</li>
+<li>
+<p>导航到文件夹【Security Settings\Local Policies\User Rights Management 】，然后双击【Generate security audits】生成安全审核。</p>
+</li>
+<li>
+<p>在【本地安全设置】选项卡上，验证 AD FS 2.0 服务帐户是否列出。如果它不存在，请单击【Add User or Group】将其添加进列表中，然后单击确定。</p>
+</li>
+<li>
+<p>使用管理员权限运行以下命令来启用审核。</p>
 <p><code>auditpol.exe /set /subcategory:&quot;Application Generated&quot; /failure:enable /success:enable</code></p>
-
 <p>注意：如果是中文windows，先用 <code>auditpol /list /subcategory:*</code> 看子目录有那些，然后运行</p>
-
-<p><code>auditpol.exe /set /subcategory:&quot;已生成应用程序&quot; /failure:enable /success:enable</code></p></li>
-
-<li><p>关闭【本地安全策略】</p></li>
-
-<li><p>单击【开始】，指向【程序】，指向【管理工具】，然后单击【 AD FS 2.0 管理】，打开 AD FS 2.0 管理管理单元。</p></li>
-
-<li><p>在【操作】窗格中，单击【Edit Federation Service Properties】。</p></li>
-
-<li><p>在【Edit Federation Service Properties】中，单击【事件】选项卡。</p></li>
-
-<li><p>在【成功审核】和【失败审核】的复选框上打钩。</p></li>
-
-<li><p>单击确定。</p></li>
+<p><code>auditpol.exe /set /subcategory:&quot;已生成应用程序&quot; /failure:enable /success:enable</code></p>
+</li>
+<li>
+<p>关闭【本地安全策略】</p>
+</li>
+<li>
+<p>单击【开始】，指向【程序】，指向【管理工具】，然后单击【 AD FS 2.0 管理】，打开 AD FS 2.0 管理管理单元。</p>
+</li>
+<li>
+<p>在【操作】窗格中，单击【Edit Federation Service Properties】。</p>
+</li>
+<li>
+<p>在【Edit Federation Service Properties】中，单击【事件】选项卡。</p>
+</li>
+<li>
+<p>在【成功审核】和【失败审核】的复选框上打钩。</p>
+</li>
+<li>
+<p>单击确定。</p>
+</li>
 </ol>
 </article>
                         </div>

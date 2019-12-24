@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-25-learn-python/</guid>
-      <description>思维导图文件下载 codecs 编码转换 #-- encoding: gb2312 -- import codecs, sys print &amp;lsquo;-&amp;rsquo;*60 创建gb2312编码器 look = codecs.lookup(&amp;ldquo;gb2312&amp;rdquo;) 创建utf-8编码器 look2 = codecs.lookup(&amp;ldquo;utf-8&amp;rdquo;) a = &amp;ldquo;我爱北京天安门&amp;rdqu</description>
+      <description>思维导图文件下载 codecs 读取文件并将内容输出为内部unicode cgi 开发cgi程序 escape 替换一些特殊符号，例如&amp;amp;,&amp;lt; OptionParser 处理命令行选项</description>
     </item>
     
     <item>

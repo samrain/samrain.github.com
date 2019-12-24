@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/06/21">
                                     2015-06-21</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-06-21" class="no-wrap"
-                                    title="Modifyd at 2015/06/21">
+                                Modifyed <time-ago datetime="2015-06-21" class="no-wrap"
+                                    title="Modifyed  at 2015/06/21">
                                     2015-06-21</time-ago>
                             </div>
                         </h1>
@@ -121,16 +121,13 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                553 Words
+                                423 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="常用快捷键">常用快捷键</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="heading">常用快捷键</h2>
 <ul>
 <li><code>c-x d</code> 或<code>c-x f</code> 进入Dir mode</li>
 <li><code>h</code>或<code>c-h m</code>显示帮助信息</li>
@@ -165,27 +162,9 @@ if (!doNotTrack) {
 <li><code>c-x c-j</code> 跳转到当前文件所在目录</li>
 <li>先输入一个数字再输入以上快捷键，可以批量处理多个文件</li>
 </ul>
-
-<h2 id="配置文件修改">配置文件修改</h2>
-
-<pre>
-;; 设置文件管理器Dired
-(setq dired-recursive-deletes t) ; 可以递归的删除目录
-(setq dired-recursive-copies t) ; 可以递归的进行拷贝
-(global-set-key "\C-x\C-j" 'dired-jump) ; 通过C-x C-j跳转到当前目录
-(require 'dired-x) ; 有些特殊的功能
-(setq dired-guess-shell-alist-user
-'(("\\.chm$" "xchm")
-  ("\\.jpg$" "gimp")
-  ("\\.png$" "gimp")
-  ("\\.bmp$" "gimp")
-  ("\\.asf$" "mplayer")
-  ("\\.wmv$" "mplayer")
-  ("\\.htm$" "chromium-browser")
-  ("\\.html$" "chromium-browser")
-  ("\\.mpg$" "mplayer")
-  ("\\.pdf" "evince"))) ; 设置一些文件的默认打开方式，此功能必须在(require 'dired-x)之后 
-</pre>
+<h2 id="heading-1">配置文件修改</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 </article>
                         </div>
                     </div>

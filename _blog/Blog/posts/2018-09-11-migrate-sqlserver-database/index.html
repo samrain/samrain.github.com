@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2018/09/11">
                                     2018-09-11</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2018-09-11" class="no-wrap"
-                                    title="Modifyd at 2018/09/11">
+                                Modifyed <time-ago datetime="2018-09-11" class="no-wrap"
+                                    title="Modifyed  at 2018/09/11">
                                     2018-09-11</time-ago>
                             </div>
                         </h1>
@@ -128,40 +128,40 @@ if (!doNotTrack) {
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><ul>
-<li><p>迁移非系统数据库</p>
+<li>
+<p>迁移非系统数据库</p>
+<pre><code>  use master
+  go
+  sp_detach_db '非系统数据库'
+  go
+    
+    
+  use master
+  go
+  sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\非系统数据库.ldf'
+  go
 
-<pre><code>use master
-go
-sp_detach_db '非系统数据库'
-go
-
-
-use master
-go
-sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\非系统数据库.ldf'
-go
-
-重启Sqlserver
-</code></pre></li>
-
-<li><p>迁移系统数据库</p>
-
-<pre><code>use tempdb
-go
-sp_helpfile
-go
-
-
-use master
-go
-Alter database tempdb modify file (name = tempdev, filename = 'C:\Sqldata\tempdb.mdf')
-go
-Alter database tempdb modify file (name = templog, filename = 'C:\Sqldata\templog.ldf')
-go
+  重启Sqlserver
+</code></pre>
+</li>
+<li>
+<p>迁移系统数据库</p>
+<pre><code>  use tempdb
+  go
+  sp_helpfile
+  go
 
 
-重启Sqlserver
-</code></pre></li>
+  use master
+  go
+  Alter database tempdb modify file (name = tempdev, filename = 'C:\Sqldata\tempdb.mdf')
+  go
+  Alter database tempdb modify file (name = templog, filename = 'C:\Sqldata\templog.ldf')
+  go
+
+
+  重启Sqlserver</code></pre>
+</li>
 </ul>
 </article>
                         </div>

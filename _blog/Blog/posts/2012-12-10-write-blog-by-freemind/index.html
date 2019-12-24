@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2012/12/10">
                                     2012-12-10</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2012-12-10" class="no-wrap"
-                                    title="Modifyd at 2012/12/10">
+                                Modifyed <time-ago datetime="2012-12-10" class="no-wrap"
+                                    title="Modifyed  at 2012/12/10">
                                     2012-12-10</time-ago>
                             </div>
                         </h1>
@@ -127,65 +127,69 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M">思维导图文件下载</a></p>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M">思维导图文件下载</a></p>
 <h1 id="what">What</h1>
-
 <ul>
 <li>mm文件变成md文件</li>
 </ul>
-
 <h1 id="why">Why</h1>
-
 <ul>
-<li><p>写作简单</p></li>
-
-<li><p>发布简单</p></li>
-
-<li><p>记忆简单</p></li>
-
-<li><p>修改简单</p></li>
+<li>
+<p>写作简单</p>
+</li>
+<li>
+<p>发布简单</p>
+</li>
+<li>
+<p>记忆简单</p>
+</li>
+<li>
+<p>修改简单</p>
+</li>
 </ul>
-
 <h1 id="how">How</h1>
-
 <ul>
-<li><p>用Freemind写博客，然后保存成mm文件</p></li>
+<li>
+<p>用Freemind写博客，然后保存成mm文件</p>
+</li>
+<li>
+<p>上传到Google Drive上，然后共享给所有人，记录下分享URL</p>
+</li>
+<li>
+<p>git clone <a href="mailto:git@github.com">git@github.com</a>:samrain/FreeMindTools.git FreeMindTools
+cd FreeMindTools</p>
+</li>
+<li>
+<p>修改conf4BlogListInGithub.py，在文件末尾增加一块</p>
+<pre><code>  mdfname:生成后的文件名，必须将年月日以及各个单词间用减号分隔开
 
-<li><p>上传到Google Drive上，然后共享给所有人，记录下分享URL</p></li>
+  layout:使用模版名，一般不需要改
 
-<li><p>git clone git@github.com:samrain/FreeMindTools.git FreeMindTools
-cd FreeMindTools</p></li>
+  category:目录名，请根据个人喜好修改
 
-<li><p>修改conf4BlogListInGithub.py，在文件末尾增加一块</p>
+  tags:标签清单，用逗号分隔
 
-<pre><code>mdfname:生成后的文件名，必须将年月日以及各个单词间用减号分隔开
+  mmLink:在google drive上分享URL
+</code></pre>
+</li>
+<li>
+<p>修改mm2md.py</p>
+<pre><code>  mmdir:mm文件存放目录
 
-layout:使用模版名，一般不需要改
+  mddir:md文件存放目录
 
-category:目录名，请根据个人喜好修改
-
-tags:标签清单，用逗号分隔
-
-mmLink:在google drive上分享URL
-</code></pre></li>
-
-<li><p>修改mm2md.py</p>
-
-<pre><code>mmdir:mm文件存放目录
-
-mddir:md文件存放目录
-
-mmFilename:mm文件名
-</code></pre></li>
-
-<li><p>运行mm2md.py</p></li>
-
-<li><p>上传md文件到github上</p></li>
-
-<li><p>浏览新博文</p></li>
+  mmFilename:mm文件名
+</code></pre>
+</li>
+<li>
+<p>运行mm2md.py</p>
+</li>
+<li>
+<p>上传md文件到github上</p>
+</li>
+<li>
+<p>浏览新博文</p>
+</li>
 </ul>
 </article>
                         </div>

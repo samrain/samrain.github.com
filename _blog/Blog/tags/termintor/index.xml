@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Termintor on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</guid>
-      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config [global_config] enabled_plugins = CustomCommandsMenu, InactivityWatch,</description>
+      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config</description>
     </item>
     
   </channel>

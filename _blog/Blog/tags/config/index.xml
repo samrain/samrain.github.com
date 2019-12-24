@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>config on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</guid>
-      <description>Gruntfile.js /*global module:false*/ module.exports = function (grunt) { grunt.initConfig({ imagemin: { /* 压缩图片大小 */ dist: { options: { optimizationLevel: 9 //定义 PNG 图片优化水平 }, files: [{ expand: true, cwd: &#39;app/MyCard/&#39;, src: [&#39;**/*.{png,jpg,jpeg}&#39;], // 优化 img 目录下所有 png/jpg/jpeg 图片 dest: &#39;app/build/&#39; // 优化后的图片保存位置</description>
+      <description>Gruntfile.js package.json</description>
     </item>
     
   </channel>

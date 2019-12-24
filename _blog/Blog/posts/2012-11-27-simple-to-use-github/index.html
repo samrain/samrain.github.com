@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2012/11/27">
                                     2012-11-27</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2012-11-27" class="no-wrap"
-                                    title="Modifyd at 2012/11/27">
+                                Modifyed <time-ago datetime="2012-11-27" class="no-wrap"
+                                    title="Modifyed  at 2012/11/27">
                                     2012-11-27</time-ago>
                             </div>
                         </h1>
@@ -127,69 +127,64 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeILXhqWG1tZmVYT28">思维导图文件下载</a></p>
-
-<h1 id="注册github帐号-https-github-com-signup-free"><a href="https://github.com/signup/free">注册Github帐号</a></h1>
-
-<h1 id="建立第一个项目-https-github-com-new"><a href="https://github.com/new">建立第一个项目</a></h1>
-
-<h1 id="配置本地计算机">配置本地计算机</h1>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeILXhqWG1tZmVYT28">思维导图文件下载</a></p>
+<h1 id="githubhttpsgithubcomsignupfree"><a href="https://github.com/signup/free">注册Github帐号</a></h1>
+<h1 id="httpsgithubcomnew"><a href="https://github.com/new">建立第一个项目</a></h1>
+<h1 id="heading">配置本地计算机</h1>
 <ul>
-<li><p>检查现有的ssh key</p>
+<li>
+<p>检查现有的ssh key</p>
+<pre><code>  cd ~/.ssh
 
-<pre><code>cd ~/.ssh
+  如果显示“No such file or directory”,那么请执行第3步
+</code></pre>
+</li>
+<li>
+<p>备份和删除老key</p>
+<pre><code>  mkdir key_backup
 
-如果显示“No such file or directory”,那么请执行第3步
-</code></pre></li>
+  cp id_rsa* key_backup
 
-<li><p>备份和删除老key</p>
+  rm id_rsa*
+</code></pre>
+</li>
+<li>
+<p>生成新的SSH Key</p>
+<pre><code>  ssh-keygen -t rsa -C &quot;samrainhan@gmail.com&quot;
 
-<pre><code>mkdir key_backup
+  看见提示就回车
 
-cp id_rsa* key_backup
+  输入2遍加密串
+</code></pre>
+</li>
+<li>
+<p>复制文件id_rsa.pub中内容</p>
+</li>
+<li>
+<p>到<a href="https://github.com/settings/ssh">Github帐户设置</a>中粘帖到框“Key”中，然后点【Add key】</p>
+</li>
+<li>
+<p>测试SSH Key</p>
+<pre><code>  ssh -T git@github.com
 
-rm id_rsa*
-</code></pre></li>
+  如果看到以下情况输入“yes”
 
-<li><p>生成新的SSH Key</p>
+  The authenticity of host 'github.com (207.97.227.239)' can't be established. RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48. Are you sure you want to continue connecting (yes/no)?
 
-<pre><code>ssh-keygen -t rsa -C &quot;samrainhan@gmail.com&quot;
+  如果有输入框要求输入密码,那么输入以上设置的加密串
+</code></pre>
+</li>
+<li>
+<p>设置帐户</p>
+<pre><code>  git config --global user.name &quot;Hanyu&quot;
 
-看见提示就回车
-
-输入2遍加密串
-</code></pre></li>
-
-<li><p>复制文件id_rsa.pub中内容</p></li>
-
-<li><p>到<a href="https://github.com/settings/ssh">Github帐户设置</a>中粘帖到框“Key”中，然后点【Add key】</p></li>
-
-<li><p>测试SSH Key</p>
-
-<pre><code>ssh -T git@github.com
-
-如果看到以下情况输入“yes”
-
-The authenticity of host 'github.com (207.97.227.239)' can't be established. RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48. Are you sure you want to continue connecting (yes/no)?
-
-如果有输入框要求输入密码,那么输入以上设置的加密串
-</code></pre></li>
-
-<li><p>设置帐户</p>
-
-<pre><code>git config --global user.name &quot;Hanyu&quot;
-
-git config --global user.email &quot;samrainhan@gmail.com&quot;
-</code></pre></li>
+  git config --global user.email &quot;samrainhan@gmail.com&quot;
+</code></pre>
+</li>
 </ul>
-
-<h1 id="开始使用">开始使用</h1>
-
+<h1 id="heading-1">开始使用</h1>
 <ul>
-<li>git clone git@github.com:username/projectname.github.com.git</li>
+<li>git clone <a href="mailto:git@github.com">git@github.com</a>:username/projectname.github.com.git</li>
 </ul>
 </article>
                         </div>

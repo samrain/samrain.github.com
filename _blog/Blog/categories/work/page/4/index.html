@@ -90,14 +90,14 @@ if (!doNotTrack) {
     </div>
     <div class="clearfix mb-2">
         <div class="float-left col-3 col-md-12 pr-3 pr-md-0">
+            
             <a itemprop="image" class="u-photo d-block position-relative" aria-hidden="true"
                 href="https://www.samrainhan.com/images/avatar.png">
-                
 
                 <img alt="" width="260" height="260"
                     class="avatar width-full height-full rounded-2" src="https://www.samrainhan.com/images/avatar.png" />
-                
             </a>
+           
         </div>
         <div class="float-left col-9 col-md-12 pl-2 pl-md-0">
 
@@ -128,7 +128,9 @@ if (!doNotTrack) {
                                     d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
                                 </path>
                             </svg>
+                            
                             <a rel="nofollow me" href="https://www.samrainhan.com/">https://www.samrainhan.com/</a>
+                            
                         </li>
                     </ul>
                 </div>
@@ -137,11 +139,12 @@ if (!doNotTrack) {
             <div class="border-top py-3 clearfix hide-sm hide-md">
                 <h2 class="mb-1 h4">Organizations</h2>
 
-                <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="https://github.com/">
-                    <img src="https://www.samrainhan.com/images/github.png" class="avatar" width="35" height="35">
-                </a>
                 
+                
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                                             href="https://www.samrainhan.com/posts/index.xml">
+                    <img src="https://www.samrainhan.com/images/rss.png" class="avatar" width="38" height="38">
+                </a>
             </div>
 
             <div data-test-selector="profile-sponsorships">
@@ -167,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    469
+                    476
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -179,6 +182,146 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/">展会材料清单</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2019-06-11" class="no-wrap"
+                                title="Modifyd at 2019/06/11">
+                                June 11, 2019</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            sql脚本如下： USE [master]; GO alter database tempdb modify file (name='tempdev', size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N'tempdev2', FILENAME = N'E:\SQLDATA\tempdev2.ndf' , SIZE = 8GB , FILEGROWTH = 0); GO
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = 'USER_TABLE' AND i.type_desc = 'HEAP' ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            1. 数据库自增长序列或字段 最常见的方式。利用数据库，全数据库唯一。 优点： 简单，代码方便，性能可以接受。 数字ID天然排序，对分页或者需要排序的结
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/">在Emacs中按照黄金分割比例调整屏幕</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            after install golden ratio package,let's add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/">Bosun go编写的跨平台监控系统</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -240,146 +383,6 @@ if (!doNotTrack) {
                     </div>
                 </li>
                 
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">产品经理的核心价值是什么</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/">surface死机自救法</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            一般导致Surface无法正常开机有以下的几点原因： Windows更新没有优化到最新版本 不正常关机（电量完全耗尽在充电、强制关机等） 系统性能
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-10" class="no-wrap"
-                                title="Modifyd at 2018/09/10">
-                                September 10, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/">怎么在PowerShell中启停站点</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            启动 start-website -name &quot;&quot; 停止 stop-website -name &quot;&quot;
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-10" class="no-wrap"
-                                title="Modifyd at 2018/09/10">
-                                September 10, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-10-install-opserver/">安装Opserver</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            1 build报错 需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-10" class="no-wrap"
-                                title="Modifyd at 2018/09/10">
-                                September 10, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/">清除SqlServer AlwaysOn日志</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            --dbName为数据库名 use dbName BACKUP LOG dbName To DISK = N'nul' go dbcc shrinkfile(dbName_log,0, TRUNCATEONLY) go dbcc shrinkdatabase(dbName,0, TRUNCATEONLY) go
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-06-30" class="no-wrap"
-                                title="Modifyd at 2018/06/30">
-                                June 30, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/">QQ 微信和WPS在移动端的协作场景</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-06-29" class="no-wrap"
-                                title="Modifyd at 2018/06/29">
-                                June 29, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
             </ul>
             
             <div class="paginate-container">
@@ -397,6 +400,7 @@ if (!doNotTrack) {
         </div>
     </div>
 </div>
+
 
     </main>
 </div>

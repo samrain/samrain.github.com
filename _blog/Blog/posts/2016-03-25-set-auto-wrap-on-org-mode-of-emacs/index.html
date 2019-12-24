@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/03/25">
                                     2016-03-25</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-03-25" class="no-wrap"
-                                    title="Modifyd at 2016/03/25">
+                                Modifyed <time-ago datetime="2016-03-25" class="no-wrap"
+                                    title="Modifyed  at 2016/03/25">
                                     2016-03-25</time-ago>
                             </div>
                         </h1>
@@ -127,28 +127,19 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="orgmode中设置自动换行-a-id-sec-3-name-sec-3-a">orgmode中设置自动换行<a id="sec-3" name="sec-3"></a></h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="orgmodea-idsec-3-namesec-3a">orgmode中设置自动换行<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写markdown时是可以自动换行的。</p>
-
 <p>于是股沟下，大部分的帖子都是告诉我：</p>
-
 <pre><code>;;自动换行
 (add-hook 'org-mode-hook
 (lambda () (setq truncate-lines nil)))
 </code></pre>
-
 <p>但是设置好了还是没效果</p>
-
 <p>继续股沟它哥了，发现这个帖子 <a href="http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;t=294165">http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;t=294165</a>，
 但是最后其实给出的代码也是有问题的，我稍微改了下：</p>
-
 <pre><code>;; org 自动换行
 (add-hook 'org-mode-hook (lambda () (setq toggle-truncate-lines t)))
 </code></pre>
-
 <p>好了</p>
 </article>
                         </div>

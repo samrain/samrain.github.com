@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on sam的小窝</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 05:56:08 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>work</title>
       <link>https://www.samrainhan.com/categories/work/</link>
-      <pubDate>Sat, 14 Dec 2019 18:28:32 +0800</pubDate>
+      <pubDate>Fri, 20 Dec 2019 05:56:08 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/categories/work/</guid>
       <description></description>

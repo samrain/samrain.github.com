@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/04/14">
                                     2016-04-14</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-04-14" class="no-wrap"
-                                    title="Modifyd at 2016/04/14">
+                                Modifyed <time-ago datetime="2016-04-14" class="no-wrap"
+                                    title="Modifyed  at 2016/04/14">
                                     2016-04-14</time-ago>
                             </div>
                         </h1>
@@ -127,18 +127,16 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h1 id="尝试解决appfabric问题-errorcode-errca0016-substatus-es0001-连接终止-可能是由于服务器或网络问题-或序列化对象大小大于服务器上的-maxbuffersize-该请求的结果未知-a-id-sec-4-name-sec-4-a">尝试解决AppFabric问题： ErrorCode<ERRCA0016>:SubStatus<ES0001>:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的 MaxBufferSize。该请求的结果未知。<a id="sec-4" name="sec-4"></a></h1>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="appfabric-errorcodeerrca0016substatuses0001-maxbuffersizea-idsec-4-namesec-4a">尝试解决AppFabric问题： ErrorCode<!-- raw HTML omitted -->:SubStatus<!-- raw HTML omitted -->:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的 MaxBufferSize。该请求的结果未知。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <ol>
-<li><p>在客户端和服务端配置文件中加上</p>
-
-<p><transportProperties receiveTimeout=”900000” /></p></li>
-
-<li><p>去掉客户端配置文件中</p>
-
-<p>maxConnectionsToServer = 5</p></li>
+<li>
+<p>在客户端和服务端配置文件中加上</p>
+<p><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>去掉客户端配置文件中</p>
+<p>maxConnectionsToServer = 5</p>
+</li>
 </ol>
 </article>
                         </div>

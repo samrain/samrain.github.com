@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中台 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%B8%AD%E5%8F%B0/</link>
+    <description>Recent content in 中台 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 20 Dec 2019 05:52:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>各种中台</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</link>
+      <pubDate>Fri, 20 Dec 2019 05:52:33 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</guid>
+      <description>各种中台 数据中台提供了数据分析能力 业务中台提供重用服务 算法中台提供了算法能力 研发中台提供了自建系统部分的管理和技术实践支撑能力 技术中台提供了</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/07/11">
                                     2016-07-11</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-07-11" class="no-wrap"
-                                    title="Modifyd at 2016/07/11">
+                                Modifyed <time-ago datetime="2016-07-11" class="no-wrap"
+                                    title="Modifyed  at 2016/07/11">
                                     2016-07-11</time-ago>
                             </div>
                         </h1>
@@ -127,23 +127,15 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="codebehind-a-id-orgheadline19-a">CodeBehind<a id="orgheadline19"></a></h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="codebehinda-idorgheadline19a">CodeBehind<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容，以实现代码隐藏功能。</p>
-
-<h2 id="codefile-a-id-orgheadline20-a">CodeFile<a id="orgheadline20"></a></h2>
-
+<h2 id="codefilea-idorgheadline20a">CodeFile<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>指定指向页引用的代码隐藏文件的路径。此属性与 Inherits 属性一起使用可以将代码隐藏源文件与网页相关联。此属性仅对编译的页有效。比如VS2005中新建一个网站你会发现编译比WEB应用程序慢很多,但是可以修改代码后不用整体编译刷新页面就可以看到效果.</p>
-
 <p>对于开发时，即 页面的逻辑代码 cs 文件存在的时候，下属两种写法都没有问题。</p>
-
 <pre><code>&lt;%@ Page Language=”C#” AutoEventWireup=”true” Codebehind=”index.aspx.cs”  Inherits=”Community.IndexHomePage.index” %&gt;
 
 &lt;%@ Page Language=”C#” AutoEventWireup=”true” CodeFile=”index.aspx.cs” Inherits=”Community.IndexHomePage.index” %&gt;
 </code></pre>
-
 <p>但是部署到站点后，我们不会部署 cs 文件，这时候，后一种写法就会报找不到文件的错误了。除非你把 cs 也部署出去，否则就会报编译时错误，找不到文件…</p>
 </article>
                         </div>

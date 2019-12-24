@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/07/20">
                                     2015-07-20</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-07-20" class="no-wrap"
-                                    title="Modifyd at 2015/07/20">
+                                Modifyed <time-ago datetime="2015-07-20" class="no-wrap"
+                                    title="Modifyed  at 2015/07/20">
                                     2015-07-20</time-ago>
                             </div>
                         </h1>
@@ -128,13 +128,9 @@ if (!doNotTrack) {
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来缓冲的文档还可以继续使用。</p>
-
 <p>如果客户端在请求一个文件的时候，发现自己缓存的文件有 Last Modified ，那么在请求中会包含 If Modified Since ，这个时间就是缓存文件的 Last Modified 。因此，如果请求中包含 If Modified Since，就说明已经有缓存在客户端。只要判断这个时间和当前请求的文件的修改时间就可以确定是返回 304 还是 200 。对于静态文件，例如：CSS、图片，服务器会自动完成 Last Modified 和 If Modified Since 的比较，完成缓存或者更新。但是对于动态页面，就是动态产生的页面，往往没有包含 Last Modified 信息，这样浏览器、网关等都不会做缓存，也就是在每次请求的时候都完成一个 200 的请求。</p>
-
 <p>这个 304 状态一般主要在用户刷新页面(F5键)的时候触发.</p>
-
 <p>当用户在刷新页面的时候，因为原来的页面里的很多图片已经缓存过，客户端的浏览器已经记录了图片的最后更新时间(Last Mod)，所以在用户刷新页面的时候，会向服务器提交一个字段：<code>If-Modified-Since: Wed, 08 Sep 2010 21:35:06 GMT</code></p>
-
 <p>这个时候，服务器端的程序先取得这个字段的值，然后与服务器上的图片最后修改时间对比，如果相同，就直接返回 304 Not Modified ，然后停止。这样就不用把图片重新传输到客户端，达到节省带宽的目的。</p>
 </article>
                         </div>

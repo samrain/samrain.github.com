@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/02/06">
                                     2015-02-06</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-02-06" class="no-wrap"
-                                    title="Modifyd at 2015/02/06">
+                                Modifyed <time-ago datetime="2015-02-06" class="no-wrap"
+                                    title="Modifyed  at 2015/02/06">
                                     2015-02-06</time-ago>
                             </div>
                         </h1>
@@ -127,40 +127,21 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="what">What</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="what">What</h2>
 <p><a href="http://harpjs.com/">官网在此</a></p>
-
 <p>nodejs写的静态web服务器，号称零配置。</p>
-
 <p>牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能先预先编译受支持的文件为html文件并保存起来。</p>
-
 <p>除了支持传统HTML、CSS、JavaScript和markdown以外，还支持Jade, EJS, LESS, Stylus, Sass和CoffeeScript。</p>
-
 <h2 id="how">How</h2>
-
 <h3 id="install">Install</h3>
-
 <pre><code>npm install -g harp
-</code></pre>
-
-<h3 id="getting-start">Getting Start</h3>
-
+</code></pre><h3 id="getting-start">Getting Start</h3>
 <pre><code>echo # hello world &gt;&gt; index.md
 harp server --port 12345
-</code></pre>
-
-<p>访问<a href="http://127.0.0.1:12345">http://127.0.0.1:12345</a></p>
-
-<h3 id="预先编译">预先编译</h3>
-
+</code></pre><p>访问<a href="http://127.0.0.1:12345">http://127.0.0.1:12345</a></p>
+<h3 id="heading">预先编译</h3>
 <pre><code>harp compile --output /path/www
-</code></pre>
-
-<h3 id="使用lib">使用lib</h3>
-
+</code></pre><h3 id="lib">使用lib</h3>
 <pre><code>var harp = require(&quot;harp&quot;)
 harp.server(projectPath [,args] [,callback])
 
@@ -175,8 +156,7 @@ app.configure(function(){
   app.use(harp.mount(__dirname + &quot;/public&quot;));
 });
 
-</code></pre>
-</article>
+</code></pre></article>
                         </div>
                     </div>
                 </div>

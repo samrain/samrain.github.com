@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/02/16">
                                     2015-02-16</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-02-16" class="no-wrap"
-                                    title="Modifyd at 2015/02/16">
+                                Modifyed <time-ago datetime="2015-02-16" class="no-wrap"
+                                    title="Modifyed  at 2015/02/16">
                                     2015-02-16</time-ago>
                             </div>
                         </h1>
@@ -127,68 +127,42 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="install">Install</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="install">Install</h2>
 <p>官网在此：<a href="http://www.mongodb.org">http://www.mongodb.org</a>
 官网下载地址：<a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a></p>
-
 <p>windows64位版本包含2个：<code>64-bit</code>和<code>64-bit legacy</code>。根据官方文档介绍，<code>64-bit legacy</code>是装在win2008、win2003以及win vista上的；而<code>64-bit</code>是装在win2008 R2及以上。</p>
-
 <p>我是装在win2008R2上的，所以就直接下载<code>64-bit</code>版。</p>
-
 <p>下载好后直接安装，选择【Complete】，一路next，速度飞快就装好了。</p>
-
 <p>这时其实已经在windows上安装好一个服务“MongoDB”，但是状态是未启动。（因为启动需要的配置都不符合）</p>
-
 <h2 id="start">start</h2>
-
 <p>根据官方文档继续配置，启动第一个测试库。
 以下命令请在windows命令行（运行<code>cmd</code>）中执行：</p>
-
 <p>先建目录</p>
-
 <pre><code>md D:\mongodb\data\test
-</code></pre>
-
-<p>再建配置文件</p>
-
+</code></pre><p>再建配置文件</p>
 <pre><code>echo logpath=d:\mongodb\log\mongo.log &gt; d:\mongodb\mongod.cfg
-</code></pre>
-
-<p>由于已经有一个mongodb的服务，所以需要给我们的服务改名，然后注册成windows服务</p>
-
+</code></pre><p>由于已经有一个mongodb的服务，所以需要给我们的服务改名，然后注册成windows服务</p>
 <pre><code>&quot;C:\Program Files\MongoDB 2.6 Standard\bin\mongod.exe&quot; --serviceName mongodb-test --serviceDisplayName mongodb-test --dbpath d:\mongodb\data\test --config &quot;d:\mongodb\mongod.cfg&quot; --install
-</code></pre>
-
-<p>启动注册好的服务</p>
-
+</code></pre><p>启动注册好的服务</p>
 <pre><code>net start mongodb-test
-</code></pre>
-
-<h2 id="getting-start">Getting start</h2>
-
+</code></pre><h2 id="getting-start">Getting start</h2>
 <p>参照官方文档<a href="http://docs.mongodb.org/manual/tutorial/getting-started/">在此</a></p>
-
 <p>连接上数据库（以上启动好的数据库，默认是localhost:27017）</p>
-
 <pre><code>&quot;C:\Program Files\MongoDB 2.6 Standard\bin\mongo.exe&quot;
-</code></pre>
-
-<ul>
+</code></pre><ul>
 <li><code>db</code> 显示目前数据库名称</li>
 <li><code>show dbs</code> 显示数据库清单</li>
 <li><code>use mynewdb</code> 迁移到一个新数据库上</li>
 <li><code>help</code> 显示帮助</li>
 </ul>
-
 <h2 id="others">others</h2>
-
 <ul>
-<li><p>官方Driver<a href="http://docs.mongodb.org/manual/applications/drivers/">在此下载</a></p></li>
-
-<li><p>管理工具(<a href="http://robomongo.org/">http://robomongo.org/</a>)</p></li>
+<li>
+<p>官方Driver<a href="http://docs.mongodb.org/manual/applications/drivers/">在此下载</a></p>
+</li>
+<li>
+<p>管理工具(<a href="http://robomongo.org/">http://robomongo.org/</a>)</p>
+</li>
 </ul>
 </article>
                         </div>

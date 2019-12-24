@@ -1,30 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2019-12-14T18:28:32+08:00</lastmod>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2019-12-14T18:28:32+08:00</lastmod>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2019-12-14T18:28:32+08:00</lastmod>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/tags/</loc>
-    <lastmod>2019-12-14T18:28:32+08:00</lastmod>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2019-12-14T18:28:32+08:00</lastmod>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB/</loc>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</loc>
+    <lastmod>2019-12-20T05:56:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/o365%E9%94%80%E5%94%AE%E5%A5%97%E8%B7%AF/</loc>
+    <lastmod>2019-12-20T05:54:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</loc>
+    <lastmod>2019-12-20T05:54:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E4%B8%AD%E5%8F%B0/</loc>
+    <lastmod>2019-12-20T05:52:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</loc>
+    <lastmod>2019-12-20T05:52:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E6%8E%A8%E5%B9%BF/</loc>
+    <lastmod>2019-12-20T05:51:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</loc>
+    <lastmod>2019-12-20T05:51:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E4%BC%81%E4%B8%9A/</loc>
+    <lastmod>2019-12-20T05:49:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</loc>
+    <lastmod>2019-12-20T05:49:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF/</loc>
+    <lastmod>2019-12-20T05:48:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</loc>
+    <lastmod>2019-12-20T05:48:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/tags/%E4%BA%91%E6%96%87%E6%A1%A3roi%E7%BD%91%E7%9B%98%E6%96%87%E6%A1%A3%E4%B8%AD%E5%8F%B0/</loc>
+    <lastmod>2019-12-20T05:45:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</loc>
+    <lastmod>2019-12-20T05:45:56+08:00</lastmod>
   </url>
   
   <url>

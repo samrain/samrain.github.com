@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>work on sam的小窝</title>
@@ -6,10 +6,73 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 05:56:08 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>工业互联网标准体系</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</link>
+      <pubDate>Fri, 20 Dec 2019 05:56:08 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</guid>
+      <description>工业互联网标准体系</description>
+    </item>
+    
+    <item>
+      <title>O365销售套路</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</link>
+      <pubDate>Fri, 20 Dec 2019 05:54:49 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</guid>
+      <description>O365销售套路 销售的KPI 每个客户要求月活50个以上就算合格客户。 即使某个客户月活远远超过50也算一个合格客户，而不会算额外业绩。 每年每个</description>
+    </item>
+    
+    <item>
+      <title>各种中台</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</link>
+      <pubDate>Fri, 20 Dec 2019 05:52:33 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</guid>
+      <description>各种中台 数据中台提供了数据分析能力 业务中台提供重用服务 算法中台提供了算法能力 研发中台提供了自建系统部分的管理和技术实践支撑能力 技术中台提供了</description>
+    </item>
+    
+    <item>
+      <title>怎样设计和推广产品</title>
+      <link>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</link>
+      <pubDate>Fri, 20 Dec 2019 05:51:10 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</guid>
+      <description>以最小的成本，最低的风险，试用产品，发现价值， 深挖护城河 以客户为中心 智能协作 赋能员工</description>
+    </item>
+    
+    <item>
+      <title>非结构化数据占企业数字资产超过85%</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</link>
+      <pubDate>Fri, 20 Dec 2019 05:49:47 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</guid>
+      <description>非结构化数据占企业数字资产超过85%</description>
+    </item>
+    
+    <item>
+      <title>软件发展趋势</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</link>
+      <pubDate>Fri, 20 Dec 2019 05:48:38 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</guid>
+      <description>越来越多 越来越少 越来越聪明 越来越偷懒</description>
+    </item>
+    
+    <item>
+      <title>云文档对于企业的好处及ROI</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</link>
+      <pubDate>Fri, 20 Dec 2019 05:45:56 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</guid>
+      <description>Gartner Group进行的一项类似研究发现 每天用于归档和维护现有信息，或搜索新信息的时间平均为37分钟或8%工作日 使用自动文件管理系统可以节省至少一</description>
+    </item>
     
     <item>
       <title>应用新技术可以对企业的优势领域带来巨大影响</title>
@@ -107,7 +170,7 @@
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
-      <description>&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
+      <description>&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
     </item>
     
     <item>
@@ -269,7 +332,7 @@
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
+      <description>after install golden ratio package,let&#39;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
     </item>
     
     <item>
@@ -377,7 +440,7 @@
       <pubDate>Fri, 29 Jun 2018 15:39:46 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</guid>
-      <description></description>
+      <description>![《国家电子文件管理十三五规划》节选] (https://dn-samrain.qbox.me/%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86&amp;amp;amp;quot;%E5%8D%81%E4%B8%89%E4%BA%94&amp;amp;amp;quot;%E8%A7%84%E5%88%92.png)</description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>http on sam的小窝</title>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</guid>
-      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load.gz cd http_load make &amp;amp;&amp;amp; sudo make install</description>
+      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load*.gz cd http_load* make &amp;amp;&amp;amp; sudo make install</description>
     </item>
     
     <item>

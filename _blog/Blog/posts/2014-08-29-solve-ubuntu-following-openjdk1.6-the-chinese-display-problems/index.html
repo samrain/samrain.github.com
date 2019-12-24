@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2014/08/29">
                                     2014-08-29</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2014-08-29" class="no-wrap"
-                                    title="Modifyd at 2014/08/29">
+                                Modifyed <time-ago datetime="2014-08-29" class="no-wrap"
+                                    title="Modifyed  at 2014/08/29">
                                     2014-08-29</time-ago>
                             </div>
                         </h1>
@@ -121,7 +121,7 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                455 Words
+                                421 Words
                                 
                             </div>
                         </div>
@@ -129,29 +129,15 @@ if (!doNotTrack) {
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是发现配置文件“fontconfig.properties”，于是想自己改改看吧，必须用管理员权限：<code>sudo gedit fontconfig.properties</code>
 修改了其中<code># Chinese fonts</code>下面的代码，改好后是这样的：</p>
-
-<pre>
-allfonts.umingcn=WenQuanYi Zen Hei
-#allfonts.umingcn.motif=AR PL UMing CN
-allfonts.uminghk=WenQuanYi Zen Hei
-#allfonts.uminghk.motif=AR PL UMing HK
-allfonts.umingtw=WenQuanYi Zen Hei
-#allfonts.umingtw.motif=AR PL UMing TW
-allfonts.wqy-zenhei=WenQuanYi Zen Hei
-#allfonts.wqy-zenhei.motif=WenQuanYi Zen Hei
-allfonts.shanheisun=WenQuanYi Zen Hei
-#allfonts.shanheisun.motif=AR PL ShanHeiSun Uni
-</pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>然后运行
 <code>sudo mkfontdir</code>
 <code>sudo mkfontscale</code>
 运行<code>thinkingrock</code>发现还是方块字。</p>
-
 <p>然后再次修改这个文件，搜索关键字<code>Wen</code>，结果发现如下配置串<code>filename.WenQuanYi_Zen_Hei=/usr/share/fonts/truetype/wqy/wqy-zenhei.ttf</code>，我去这个目录发现没有这个文件，只有扩展名为ttc的文件存在。于是将该处改为<code>filename.WenQuanYi_Zen_Hei=/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc</code>
 然后运行<code>sudo mkfontdir</code>
 <code>sudo mkfontscale</code></p>
-
 <p>再启动<code>thinkingrock</code>一切ok。</p>
 </article>
                         </div>

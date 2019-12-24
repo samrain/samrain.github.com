@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>加密 on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
-      <description>具体的做法就是在密码中加入一段&amp;rdquo;随机化&amp;rdquo;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了</description>
+      <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
     </item>
     
     <item>

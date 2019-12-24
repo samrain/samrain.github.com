@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/02/04">
                                     2015-02-04</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-02-04" class="no-wrap"
-                                    title="Modifyd at 2015/02/04">
+                                Modifyed <time-ago datetime="2015-02-04" class="no-wrap"
+                                    title="Modifyed  at 2015/02/04">
                                     2015-02-04</time-ago>
                             </div>
                         </h1>
@@ -127,46 +127,24 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="what">what</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="what">what</h2>
 <p><a href="http://usejsdoc.org/">官网在此</a>
 <a href="https://github.com/jsdoc3/jsdoc/">代码在此</a></p>
-
 <h2 id="install">install</h2>
-
 <pre><code>sudo npm install -g git+https://github.com/jsdoc3/jsdoc.git
-</code></pre>
-
-<p>或者</p>
-
+</code></pre><p>或者</p>
 <pre><code>npm install jsdoc@&quot;&lt;=3.3.0&quot;
-</code></pre>
-
-<h2 id="how">how</h2>
-
+</code></pre><h2 id="how">how</h2>
 <p>JSDoc会从<code>/**</code>开头的注释中抽取信息。</p>
-
 <p>标签就是一些以<code>@</code>开头的命令，所有标签用法见<a href="http://usejsdoc.org/#JSDoc3_Tag_Dictionary">这里</a></p>
-
 <pre><code>jsdoc where-is-js-files
-</code></pre>
-
-<p>访问<a href="file:///当前目录/out/index.html">当前目录下<code>/out/index.html</code></a></p>
-
-<h2 id="使用docstrap美化界面">使用docstrap美化界面</h2>
-
+</code></pre><p>访问<a href="">当前目录下<code>/out/index.html</code></a></p>
+<h2 id="docstrap">使用docstrap美化界面</h2>
 <p><a href="https://github.com/terryweiss/docstrap">官网在此</a>，下载地址<a href="https://github.com/terryweiss/docstrap/archive/master.zip">戳这里</a></p>
-
-<h3 id="配置docstrap">配置docstrap</h3>
-
-<p>修改文件<code>docstrap/template/jsdoc.conf.json</code>，文件在此：<script src="https://gist.github.com/samrain/b7776e691a66323fae37.js"></script></p>
-
-<h3 id="编写首页内容">编写首页内容</h3>
-
+<h3 id="docstrap-1">配置docstrap</h3>
+<p>修改文件<code>docstrap/template/jsdoc.conf.json</code>，文件在此：<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h3 id="heading">编写首页内容</h3>
 <p>保存到README.md文件。（必须是md文件）</p>
-
 <pre><code>## why
 让更多的人一起来做自己喜欢的网站
 
@@ -175,23 +153,14 @@ if (!doNotTrack) {
 
 ## how
 js
-</code></pre>
-
-<h3 id="制作tutorials">制作tutorials</h3>
-
+</code></pre><h3 id="tutorials">制作tutorials</h3>
 <p>放其它的描述文档，比如总体介绍，背景说明，示例文档等。</p>
-
 <p>必须先创建一个目录（名称不限，例子中用<code>tutorials</code>），然后把上述文档转成md文件后复制进改目录。（原则上所有扩展名为xml，xhtml，html，htm，md的文件都可以。）</p>
-
 <p>最后生成的页面上会增加新菜单<code>tutorials</code>，菜单项默认是文件名。如果想要重新命名，那么必须要在这个目录下新建同名json文件，例如<code>README.json</code>,内容为</p>
-
 <pre><code>{
 &quot;title&quot; : &quot;首页&quot;
 }
-</code></pre>
-
-<p>如果文件很多，还可以将组织成嵌套菜单，这时每个文件都建同名json文件，只要新建一个json文件（比如也叫<code>README.json</code>）即可，内容如下：</p>
-
+</code></pre><p>如果文件很多，还可以将组织成嵌套菜单，这时每个文件都建同名json文件，只要新建一个json文件（比如也叫<code>README.json</code>）即可，内容如下：</p>
 <pre><code>{
 &quot;README&quot;:{
     &quot;title&quot; : &quot;首页&quot;,
@@ -200,15 +169,10 @@ js
 	&quot;b&quot;: {&quot;title&quot;:&quot;测试B&quot;}}
 }
 }
-</code></pre>
-
-<h3 id="生成帮助文档">生成帮助文档</h3>
-
-<p>运行以下命令后访问<a href="file:///当前目录/out/index.html">当前目录下<code>/out/index.html</code></a>：</p>
-
+</code></pre><h3 id="heading-1">生成帮助文档</h3>
+<p>运行以下命令后访问<a href="">当前目录下<code>/out/index.html</code></a>：</p>
 <pre><code>jsdoc where-is-js-files README.md -t where-is-docstrap/template -c where-is-docstrap/template/jsdoc.conf.json -u where-is-js-files/turorials
-</code></pre>
-</article>
+</code></pre></article>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ide on sam的小窝</title>
+    <title>IDE on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/ide/</link>
-    <description>Recent content in ide on sam的小窝</description>
+    <description>Recent content in IDE on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 22 Nov 2012 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</guid>
-      <description>思维导图文件下载 安装 老窝 ubuntu PPA sudo add-apt-repository ppa:webupd8team/sublime-text-2 sudo apt-get update sudo apt-get install sublime-text-2-dev 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Sod</description>
+      <description>思维导图文件下载 安装 老窝 ubuntu PPA 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Soda 修改Gloabl S</description>
     </item>
     
     <item>

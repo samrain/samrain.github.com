@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on sam的小窝</title>
@@ -6,10 +6,73 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 05:56:08 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>工业互联网标准体系</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</link>
+      <pubDate>Fri, 20 Dec 2019 05:56:08 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</guid>
+      <description>工业互联网标准体系</description>
+    </item>
+    
+    <item>
+      <title>O365销售套路</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</link>
+      <pubDate>Fri, 20 Dec 2019 05:54:49 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</guid>
+      <description>O365销售套路 销售的KPI 每个客户要求月活50个以上就算合格客户。 即使某个客户月活远远超过50也算一个合格客户，而不会算额外业绩。 每年每个</description>
+    </item>
+    
+    <item>
+      <title>各种中台</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</link>
+      <pubDate>Fri, 20 Dec 2019 05:52:33 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</guid>
+      <description>各种中台 数据中台提供了数据分析能力 业务中台提供重用服务 算法中台提供了算法能力 研发中台提供了自建系统部分的管理和技术实践支撑能力 技术中台提供了</description>
+    </item>
+    
+    <item>
+      <title>怎样设计和推广产品</title>
+      <link>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</link>
+      <pubDate>Fri, 20 Dec 2019 05:51:10 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</guid>
+      <description>以最小的成本，最低的风险，试用产品，发现价值， 深挖护城河 以客户为中心 智能协作 赋能员工</description>
+    </item>
+    
+    <item>
+      <title>非结构化数据占企业数字资产超过85%</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</link>
+      <pubDate>Fri, 20 Dec 2019 05:49:47 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</guid>
+      <description>非结构化数据占企业数字资产超过85%</description>
+    </item>
+    
+    <item>
+      <title>软件发展趋势</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</link>
+      <pubDate>Fri, 20 Dec 2019 05:48:38 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</guid>
+      <description>越来越多 越来越少 越来越聪明 越来越偷懒</description>
+    </item>
+    
+    <item>
+      <title>云文档对于企业的好处及ROI</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</link>
+      <pubDate>Fri, 20 Dec 2019 05:45:56 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</guid>
+      <description>Gartner Group进行的一项类似研究发现 每天用于归档和维护现有信息，或搜索新信息的时间平均为37分钟或8%工作日 使用自动文件管理系统可以节省至少一</description>
+    </item>
     
     <item>
       <title>应用新技术可以对企业的优势领域带来巨大影响</title>
@@ -134,7 +197,7 @@
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
-      <description>&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
+      <description>&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
     </item>
     
     <item>
@@ -440,7 +503,7 @@
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
+      <description>after install golden ratio package,let&#39;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
     </item>
     
     <item>
@@ -566,7 +629,7 @@
       <pubDate>Fri, 29 Jun 2018 15:39:46 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</guid>
-      <description></description>
+      <description>![《国家电子文件管理十三五规划》节选] (https://dn-samrain.qbox.me/%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86&amp;amp;amp;quot;%E5%8D%81%E4%B8%89%E4%BA%94&amp;amp;amp;quot;%E8%A7%84%E5%88%92.png)</description>
     </item>
     
     <item>
@@ -701,7 +764,7 @@
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-07-29-24-solar-terms-keeping-in-good-health/</guid>
-      <description>1月1日 十二月初一 农历十二月,洗澡不要太频繁,否则耗散肾气.宜斋戒静居. 1月2日 十二月初二 中医认为&amp;rdquo;寒性凝滞,寒性收引&amp;rdqu</description>
+      <description>1月1日 十二月初一 农历十二月,洗澡不要太频繁,否则耗散肾气.宜斋戒静居. 1月2日 十二月初二 中医认为&amp;quot;寒性凝滞,寒性收引&amp;rdquo</description>
     </item>
     
     <item>
@@ -872,7 +935,7 @@
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
-      <description>具体的做法就是在密码中加入一段&amp;rdquo;随机化&amp;rdquo;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了</description>
+      <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
     </item>
     
     <item>
@@ -944,7 +1007,7 @@
       <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</guid>
-      <description>建议采用2或3 如果设置了环境变量 *HOME* ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用</description>
+      <description>建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用</description>
     </item>
     
     <item>
@@ -971,7 +1034,7 @@
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
-      <description>&#34;</description>
+      <description></description>
     </item>
     
     <item>
@@ -980,7 +1043,7 @@
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-06-28-financial-advice/</guid>
-      <description>项目 周期（月） 利率（%） 提前兑取手续费（%） 提前兑取利息 如何购买 什么时候能够买 银行一年期定期存款 12 1.5 0 按照0.35%计算利息 柜台 任何时候 20</description>
+      <description></description>
     </item>
     
     <item>
@@ -1412,7 +1475,7 @@
       <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</guid>
-      <description>创建一个new Report; 选择【file】&amp;#x2014;【new】&amp;#x2014;【Multi-Model Report】，然后定义Report Nam</description>
+      <description>创建一个new Report; 选择【file】—【new】—【Multi-Model Report】，然后定义Report Name,这个主要是HTML的名称</description>
     </item>
     
     <item>
@@ -1421,7 +1484,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</guid>
-      <description>默认放在服务器根目录下 如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;gt;` 优化性能 配置favic</description>
+      <description>默认放在服务器根目录下 如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;lt;link rel=&amp;quot;shortcut icon&amp;rdquo; href=http://www.example.com/favicon.ico&amp;gt;` 优化性能 配置fa</description>
     </item>
     
     <item>
@@ -1430,7 +1493,7 @@
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</guid>
-      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load.gz cd http_load make &amp;amp;&amp;amp; sudo make install</description>
+      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load*.gz cd http_load* make &amp;amp;&amp;amp; sudo make install</description>
     </item>
     
     <item>
@@ -1583,7 +1646,7 @@
       <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-03-22-how-to-log/</guid>
-      <description>Table 1: 修订记录 版本号 日期 描述 改者 V0.1 2015-12-10 initial 韩雨 日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是</description>
+      <description>日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即</description>
     </item>
     
     <item>
@@ -1637,7 +1700,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-leg-raise/</guid>
-      <description>Table of Contents 1. 坐姿屈膝 2. 平卧抬膝 3. 平卧屈举腿 4. 平卧蛙举腿 5. 平卧直举腿 6. 悬垂屈膝 7. 悬垂屈举腿 8. 悬垂蛙举腿 9. 悬垂半举腿 10. 悬垂直举腿 呼吸会收紧腹部肌肉和</description>
+      <description>呼吸会收紧腹部肌肉和肋间肌。还记得上一坎笑得肚子疼时腹肌的感觉吗?为了最大化这种效果,在放下双腿时吸气,在动作进行到最高点呼气完毕。若有必要</description>
     </item>
     
     <item>
@@ -1646,7 +1709,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-push-ups/</guid>
-      <description>Table of Contents 1. 注意 2. 十阶段 2.1. 墙壁俯卧撑 2.2. 上斜俯卧撑 2.3. 膝盖俯卧撑 2.4. 半俯卧撑 2.5. 标准俯卧撑 2.6. 窄距俯卧撑 2.7. 偏重俯卧撑 2.8. 单臂半俯卧撑 2.9. 杠杆俯卧撑 2.10. 单臂俯卧撑</description>
+      <description>注意 避免诡异的角度和手部姿势。 躯干、髋部、双腿始终要成一条直线。 双腿始终要并拢。 在动作最高点时,双臂要伸直,但不要让肘部完全锁定,而要使其微</description>
     </item>
     
     <item>
@@ -1655,7 +1718,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-inverted-pole/</guid>
-      <description>Table of Contents 1. 靠墙顶立 2. 乌鸦式 3. 靠墙倒立 4. 半倒立撑 5. 标准倒立撑 6. 窄距倒立撑 7. 偏重倒立撑 8. 单臂半倒立撑 9. 杠杆倒立撑 10. 单臂倒立撑 倒立撑可以靠墙做,也可</description>
+      <description>倒立撑可以靠墙做,也可以“自由”做(无任何凭靠),后者要求训练者在平衡训练上投人的精力和在力量训练上投人的一样多。本书的主要目标是发展肌肉与</description>
     </item>
     
     <item>
@@ -1664,7 +1727,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-pull-ups/</guid>
-      <description>Table of Contents 1. 垂直引体 2. 水平引体向上 3. 折刀引体向上 4. 半引体向上 5. 标准引体向上 6. 窄距引体向上 7. 偏重引体向上 8. 单臂半引体向上 9. 单臂辅助引体向上 10. 单臂引</description>
+      <description>垂直引体 找一个可抓握且很稳固的竖直物体,门框和高一点的栏杆都是上好之选。靠近物体站立,脚尖与之保持约 8 一巧厘米的距离。以舒服的姿势抓住该物体</description>
     </item>
     
     <item>
@@ -1673,7 +1736,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-bridge/</guid>
-      <description>Table of Contents 1. 短桥 2. 直桥 3. 高低桥 4. 顶桥 5. 半桥 6. 标准桥 7. 下行桥 8. 上行桥 9. 合桥 10. 铁板桥 完美的桥有四项标准(除第 4 项标准外,其他标准适用于第六式标准桥及</description>
+      <description>完美的桥有四项标准(除第 4 项标准外,其他标准适用于第六式标准桥及其之后的动作) 脊柱应该形成凹面,背部必须形成优美的弧形。说来简单,但如果脊柱</description>
     </item>
     
     <item>
@@ -1682,7 +1745,7 @@
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-12-18-squat/</guid>
-      <description>Table of Contents 1. 肩倒立深蹲 2. 折刀深蹲 3. 支撑深蹲 4. 半深蹲 5. 标准深蹲 6. 窄距深蹲 7. 偏重深蹲 8. 单腿半深蹲 9. 单腿辅助深蹲 10. 单腿深蹲 肩倒立深蹲 平躺,双膝弯曲,双</description>
+      <description>肩倒立深蹲 平躺,双膝弯曲,双手下压。双脚蹬离地面,直到举到空中。在将双腿举起的过程中,顺势把双手撑在下背部,注意上臂要紧贴地面。你现在摆出的</description>
     </item>
     
     <item>
@@ -1763,7 +1826,7 @@
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
-      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：[http://tsung.erlang-projects.org/]() 可以测试包括</description>
+      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
     </item>
     
     <item>
@@ -1907,7 +1970,7 @@
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-06-30-shell-help-online/</guid>
-      <description>网址:[http://www.explainshell.com]() 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清</description>
+      <description>网址:http://www.explainshell.com 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清楚一些。</description>
     </item>
     
     <item>
@@ -1997,7 +2060,7 @@
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</guid>
-      <description>Gruntfile.js /*global module:false*/ module.exports = function (grunt) { grunt.initConfig({ imagemin: { /* 压缩图片大小 */ dist: { options: { optimizationLevel: 9 //定义 PNG 图片优化水平 }, files: [{ expand: true, cwd: &#39;app/MyCard/&#39;, src: [&#39;**/*.{png,jpg,jpeg}&#39;], // 优化 img 目录下所有 png/jpg/jpeg 图片 dest: &#39;app/build/&#39; // 优化后的图片保存位置</description>
+      <description>Gruntfile.js package.json</description>
     </item>
     
     <item>
@@ -2015,7 +2078,7 @@
       <pubDate>Wed, 17 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-06-17-rope-skipping/</guid>
-      <description>##热身 1. 先做一些徒手练习让肌肉兴奋起来，比如模仿跳绳的跳跃动作。（1分钟） 2. 伸拉小腿腓肠肌和跟腱，这两个部位最重要，因为整个跳绳过程中它们</description>
+      <description>##热身 先做一些徒手练习让肌肉兴奋起来，比如模仿跳绳的跳跃动作。（1分钟） 伸拉小腿腓肠肌和跟腱，这两个部位最重要，因为整个跳绳过程中它们始终</description>
     </item>
     
     <item>
@@ -2141,7 +2204,7 @@
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>在工程中添加引用NLog.dll &amp;gt; 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output</description>
+      <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
     </item>
     
     <item>
@@ -2204,7 +2267,7 @@
       <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-03-08-the-size-and-proportion-of-the-card-and-the-iphone/</guid>
-      <description>Iphone 5S 123.8&amp;frasl;58.6=2.11262798635 6 138.1&amp;frasl;67.0=2.06119402985 6+ 158.1&amp;frasl;77.8=2.03213367609 名片 窄式 90&amp;frasl;45=2 ###美式 90&amp;frasl;50=1.8 ###中式 90&amp;frasl;54=1.66666666667 ###欧式 85&amp;frasl;54=1.57407407407 ###超窄 90&amp;frasl;40=2.25</description>
+      <description>Iphone 5S 123.8/58.6=2.11262798635 6 138.1/67.0=2.06119402985 6+ 158.1/77.8=2.03213367609 名片 窄式 90/45=2 ###美式 90/50=1.8 ###中式 90/54=1.66666666667 ###欧式 85/54=1.57407407407 ###超窄 90/40=2.25</description>
     </item>
     
     <item>
@@ -2483,7 +2546,7 @@
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</guid>
-      <description>##在 IIS 中的&amp;rdquo;Web 服务扩展&amp;rdquo;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中</description>
+      <description>##在 IIS 中的&amp;quot;Web 服务扩展&amp;quot;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中，在</description>
     </item>
     
     <item>
@@ -2510,7 +2573,7 @@
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</guid>
-      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+      <description></description>
     </item>
     
     <item>
@@ -2519,7 +2582,7 @@
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</guid>
-      <description>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id=&#39;typef_orm&#39;,b=&#39;https://s3-eu-west-1.amazonaws.com/share.typeform.com/&#39;;if(!gi.call(d,id)){js=ce.call(d,&#39;script&#39;);js.id=id;js.src=b+&#39;widget.js&#39;;q=gt.call(d,&#39;script&#39;)[0];q.parentNode.insertBefore(js,q)}})() Powered by Typeform</description>
+      <description></description>
     </item>
     
     <item>
@@ -2753,7 +2816,7 @@
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</guid>
-      <description>###红星美凯龙 - 汶水店（上海市宝山区汶水路1555号） - 真北店（上海市普陀区真北路1108号） ###上海月星家居广场 - 上海市普陀区澳门路1</description>
+      <description>###红星美凯龙 汶水店（上海市宝山区汶水路1555号） 真北店（上海市普陀区真北路1108号） ###上海月星家居广场 上海市普陀区澳门路168号</description>
     </item>
     
     <item>
@@ -3383,7 +3446,7 @@
       <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/</guid>
-      <description>#IT运维外包调查问卷 ##基本信息 - 企业名称 - 联系人姓名 - 联系人职务 - 联系人手机 - 联系人Email ##人员 - 总人数 - 平均办公室人数 ##工作情</description>
+      <description>#IT运维外包调查问卷 ##基本信息 企业名称 联系人姓名 联系人职务 联系人手机 联系人Email ##人员 总人数 平均办公室人数 ##工作情况介绍 上下班时</description>
     </item>
     
     <item>
@@ -3788,7 +3851,7 @@
       <pubDate>Wed, 27 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-27-reduce-operating-costs/</guid>
-      <description>思维导图文件下载 降低打印成本 办公设备总成本 首次采购成本 耗材成本 耗材消耗=平均每月耗材量*12*年数 耗材采购成本 耗材更换成本 维护成本 纸张消耗=</description>
+      <description>思维导图文件下载 降低打印成本 办公设备总成本 首次采购成本 耗材成本 耗材消耗=平均每月耗材量12年数 耗材采购成本 耗材更换成本 维护成本 纸张消耗=每天</description>
     </item>
     
     <item>
@@ -3824,7 +3887,7 @@
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-25-learn-python/</guid>
-      <description>思维导图文件下载 codecs 编码转换 #-- encoding: gb2312 -- import codecs, sys print &amp;lsquo;-&amp;rsquo;*60 创建gb2312编码器 look = codecs.lookup(&amp;ldquo;gb2312&amp;rdquo;) 创建utf-8编码器 look2 = codecs.lookup(&amp;ldquo;utf-8&amp;rdquo;) a = &amp;ldquo;我爱北京天安门&amp;rdqu</description>
+      <description>思维导图文件下载 codecs 读取文件并将内容输出为内部unicode cgi 开发cgi程序 escape 替换一些特殊符号，例如&amp;amp;,&amp;lt; OptionParser 处理命令行选项</description>
     </item>
     
     <item>
@@ -3869,7 +3932,7 @@
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</guid>
-      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config [global_config] enabled_plugins = CustomCommandsMenu, InactivityWatch,</description>
+      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config</description>
     </item>
     
     <item>
@@ -3986,7 +4049,7 @@
       <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-11-flashlight-intro/</guid>
-      <description>手电依据发光原理的不同基本分为三大类： 1. 应用最为广泛的一种，就是传统的灯泡手电。 灯泡手电用钨丝电阻通电加热发光，这种手电的性能关键在于灯泡技</description>
+      <description>手电依据发光原理的不同基本分为三大类： 应用最为广泛的一种，就是传统的灯泡手电。 灯泡手电用钨丝电阻通电加热发光，这种手电的性能关键在于灯泡技术</description>
     </item>
     
     <item>
@@ -4139,7 +4202,7 @@
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</guid>
-      <description>思维导图文件下载 安装 老窝 ubuntu PPA sudo add-apt-repository ppa:webupd8team/sublime-text-2 sudo apt-get update sudo apt-get install sublime-text-2-dev 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Sod</description>
+      <description>思维导图文件下载 安装 老窝 ubuntu PPA 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Soda 修改Gloabl S</description>
     </item>
     
     <item>

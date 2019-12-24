@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>.NET on sam的小窝</title>
+    <title>.net on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/.net/</link>
-    <description>Recent content in .NET on sam的小窝</description>
+    <description>Recent content in .net on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>在工程中添加引用NLog.dll &amp;gt; 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output</description>
+      <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
     </item>
     
     <item>

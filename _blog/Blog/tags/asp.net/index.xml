@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Asp.NET on sam的小窝</title>
+    <title>asp.net on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/asp.net/</link>
-    <description>Recent content in Asp.NET on sam的小窝</description>
+    <description>Recent content in asp.net on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 11 Mar 2015 00:00:00 +0000</lastBuildDate>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</guid>
-      <description>##在 IIS 中的&amp;rdquo;Web 服务扩展&amp;rdquo;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中</description>
+      <description>##在 IIS 中的&amp;quot;Web 服务扩展&amp;quot;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中，在</description>
     </item>
     
   </channel>

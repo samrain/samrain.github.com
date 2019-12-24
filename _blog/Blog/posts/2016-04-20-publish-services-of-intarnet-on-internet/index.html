@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/04/20">
                                     2016-04-20</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-04-20" class="no-wrap"
-                                    title="Modifyd at 2016/04/20">
+                                Modifyed <time-ago datetime="2016-04-20" class="no-wrap"
+                                    title="Modifyed  at 2016/04/20">
                                     2016-04-20</time-ago>
                             </div>
                         </h1>
@@ -127,20 +127,12 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="ngrok-a-id-sec-4-1-name-sec-4-1-a">ngrok<a id="sec-4-1" name="sec-4-1"></a></h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="ngroka-idsec-4-1-namesec-4-1a">ngrok<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。</p>
-
-<h3 id="下载-a-id-sec-4-1-1-name-sec-4-1-1-a">下载<a id="sec-4-1-1" name="sec-4-1-1"></a></h3>
-
+<h3 id="a-idsec-4-1-1-namesec-4-1-1a">下载<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p><a href="https://ngrok.com/download">https://ngrok.com/download</a></p>
-
-<h3 id="配置-a-id-sec-4-1-2-name-sec-4-1-2-a">配置<a id="sec-4-1-2" name="sec-4-1-2"></a></h3>
-
+<h3 id="a-idsec-4-1-2-namesec-4-1-2a">配置<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>编辑配置文件 ngrok.config</p>
-
 <pre><code>auth_token: dxW21sgRz-DscM932vgkDxe
 http_proxy: &quot;http://192.168.16.41:60002&quot;
 
@@ -150,21 +142,13 @@ subdomain: samebook
 proto:
 https: 8080
 </code></pre>
-
 <p>其中http_proxy指向下面配置的网关。</p>
-
-<h2 id="shadowsocks-a-id-sec-4-2-name-sec-4-2-a">shadowsocks<a id="sec-4-2" name="sec-4-2"></a></h2>
-
+<h2 id="shadowsocksa-idsec-4-2-namesec-4-2a">shadowsocks<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>科学上网工具，不解释了。</p>
-
-<h3 id="下载-a-id-sec-4-2-1-name-sec-4-2-1-a">下载<a id="sec-4-2-1" name="sec-4-2-1"></a></h3>
-
+<h3 id="a-idsec-4-2-1-namesec-4-2-1a">下载<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p><a href="http://shadowsocks.org/en/download/clients.html">http://shadowsocks.org/en/download/clients.html</a></p>
-
-<h3 id="配置-a-id-sec-4-2-2-name-sec-4-2-2-a">配置<a id="sec-4-2-2" name="sec-4-2-2"></a></h3>
-
+<h3 id="a-idsec-4-2-2-namesec-4-2-2a">配置<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>编辑配置文件config.json</p>
-
 <pre><code>{
 &quot;server&quot;:&quot;aaa.bbb.ccc.ddd&quot;,
 &quot;server_port&quot;:8388,
@@ -174,31 +158,20 @@ https: 8080
 &quot;method&quot;:&quot;aes-256-cfb&quot;
 }
 </code></pre>
-
-<h3 id="运行-a-id-sec-4-2-3-name-sec-4-2-3-a">运行<a id="sec-4-2-3" name="sec-4-2-3"></a></h3>
-
+<h3 id="a-idsec-4-2-3-namesec-4-2-3a">运行<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code>~/ngrok/shadowsocks-local-linux64-1.1.3 -c=~/ngrok/config.json &amp;
 </code></pre>
-
-<h2 id="privoxy-a-id-sec-4-3-name-sec-4-3-a">privoxy<a id="sec-4-3" name="sec-4-3"></a></h2>
-
+<h2 id="privoxya-idsec-4-3-namesec-4-3a">privoxy<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>转换各种服务为http代理</p>
-
-<h3 id="安装-a-id-sec-4-3-1-name-sec-4-3-1-a">安装<a id="sec-4-3-1" name="sec-4-3-1"></a></h3>
-
+<h3 id="a-idsec-4-3-1-namesec-4-3-1a">安装<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code>sudo apt-get install Privoxy
 </code></pre>
-
-<h3 id="配置-a-id-sec-4-3-2-name-sec-4-3-2-a">配置<a id="sec-4-3-2" name="sec-4-3-2"></a></h3>
-
+<h3 id="a-idsec-4-3-2-namesec-4-3-2a">配置<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>编辑配置文件/etc/privoxy/config</p>
-
 <pre><code>listen-address  192.168.16.41:60002
 forward-socks5   /               127.0.0.1:60001 .
 </code></pre>
-
-<h3 id="运行-a-id-sec-4-3-3-name-sec-4-3-3-a">运行<a id="sec-4-3-3" name="sec-4-3-3"></a></h3>
-
+<h3 id="a-idsec-4-3-3-namesec-4-3-3a">运行<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code>sudo service privoxy restart
 </code></pre>
 </article>

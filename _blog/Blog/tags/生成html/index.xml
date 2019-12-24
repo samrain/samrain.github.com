@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生成Html on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</guid>
-      <description>创建一个new Report; 选择【file】&amp;#x2014;【new】&amp;#x2014;【Multi-Model Report】，然后定义Report Nam</description>
+      <description>创建一个new Report; 选择【file】—【new】—【Multi-Model Report】，然后定义Report Name,这个主要是HTML的名称</description>
     </item>
     
   </channel>

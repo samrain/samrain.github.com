@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2013/03/25">
                                     2013-03-25</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2013-03-25" class="no-wrap"
-                                    title="Modifyd at 2013/03/25">
+                                Modifyed <time-ago datetime="2013-03-25" class="no-wrap"
+                                    title="Modifyed  at 2013/03/25">
                                     2013-03-25</time-ago>
                             </div>
                         </h1>
@@ -121,91 +121,26 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                530 Words
+                                67 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIcXFBNUpOdm5zaU0/edit?usp=sharing">思维导图文件下载</a></p>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIcXFBNUpOdm5zaU0/edit?usp=sharing">思维导图文件下载</a></p>
 <h2 id="codecs">codecs</h2>
-
-<p><pre></p>
-
-<h3 id="编码转换">编码转换</h3>
-
-<p>#-<em>- encoding: gb2312 -</em>-
-import codecs, sys</p>
-
-<p>print &lsquo;-&rsquo;*60</p>
-
-<h1 id="创建gb2312编码器">创建gb2312编码器</h1>
-
-<p>look  = codecs.lookup(&ldquo;gb2312&rdquo;)</p>
-
-<h1 id="创建utf-8编码器">创建utf-8编码器</h1>
-
-<p>look2 = codecs.lookup(&ldquo;utf-8&rdquo;)</p>
-
-<p>a = &ldquo;我爱北京天安门&rdquo;</p>
-
-<p>print len(a), a</p>
-
-<h1 id="把a编码为内部的unicode-但为什么方法名为decode呢-我的理解是把gb2312的字符串解码为unicode">把a编码为内部的unicode, 但为什么方法名为decode呢，我的理解是把gb2312的字符串解码为unicode</h1>
-
-<p>b = look.decode(a)</p>
-
-<h1 id="返回的b-0-是数据-b-1-是长度-这个时候的类型是unicode了">返回的b[0]是数据，b[1]是长度，这个时候的类型是unicode了</h1>
-
-<p>print b[1], b[0], type(b[0])</p>
-
-<h1 id="把内部编码的unicode转换为gb2312编码的字符串-encode方法会返回一个字符串类型">把内部编码的unicode转换为gb2312编码的字符串，encode方法会返回一个字符串类型</h1>
-
-<p>b2 = look.encode(b[0])</p>
-
-<h1 id="发现不一样的地方了吧-转换回来之后-字符串长度由14变为了7-现在的返回的长度才是真正的字数-原来的是字节数">发现不一样的地方了吧？转换回来之后，字符串长度由14变为了7! 现在的返回的长度才是真正的字数，原来的是字节数</h1>
-
-<p>print b2[1], b2[0], type(b2[0])</p>
-
-<h1 id="虽然上面返回了字数-但并不意味着用len求b2-0-的长度就是7了-仍然还是14-仅仅是codecs-encode会统计字数">虽然上面返回了字数，但并不意味着用len求b2[0]的长度就是7了，仍然还是14，仅仅是codecs.encode会统计字数</h1>
-
-<p>print len(b2[0])
-</pre></p>
-
-<h3 id="读取文件并将内容输出为内部unicode">读取文件并将内容输出为内部unicode</h3>
-
-<p><pre>
-#-<em>- encoding: gb2312 -</em>-
-import codecs, sys</p>
-
-<h1 id="用codecs提供的open方法来指定打开的文件的语言编码-它会在读取的时候自动转换为内部unicode">用codecs提供的open方法来指定打开的文件的语言编码，它会在读取的时候自动转换为内部unicode</h1>
-
-<p>bfile = codecs.open(&ldquo;dddd.txt&rdquo;, &lsquo;r&rsquo;, &ldquo;big5&rdquo;)
-#bfile = open(&ldquo;dddd.txt&rdquo;, &lsquo;r&rsquo;)</p>
-
-<p>ss = bfile.read()
-bfile.close()</p>
-
-<h1 id="输出-这个时候看到的就是转换后的结果-如果使用语言内建的open函数来打开文件-这里看到的必定是乱码">输出，这个时候看到的就是转换后的结果。如果使用语言内建的open函数来打开文件，这里看到的必定是乱码</h1>
-
-<p>print ss, type(ss)</p>
-
-<p></pre></p>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="unicode">读取文件并将内容输出为内部unicode</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h2 id="cgi">cgi</h2>
-
-<h3 id="开发cgi程序">开发cgi程序</h3>
-
+<h3 id="cgi-1">开发cgi程序</h3>
 <ul>
 <li>escape
 替换一些特殊符号，例如&amp;,&lt;</li>
 </ul>
-
 <h2 id="optionparser">OptionParser</h2>
-
 <p>处理命令行选项</p>
 </article>
                         </div>

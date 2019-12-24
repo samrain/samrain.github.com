@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/03/17">
                                     2015-03-17</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-03-17" class="no-wrap"
-                                    title="Modifyd at 2015/03/17">
+                                Modifyed <time-ago datetime="2015-03-17" class="no-wrap"
+                                    title="Modifyed  at 2015/03/17">
                                     2015-03-17</time-ago>
                             </div>
                         </h1>
@@ -127,97 +127,72 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="wsdl-exe">wsdl.exe</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="wsdlexe">wsdl.exe</h2>
 <p>使用 ASP.NET，根据 WSDL 协定文件、XSD 架构和 .discomap 发现文档，为 Xml Web Services 客户端和 Xml Web Services 生成代码的实用工具。此工具可以与 disco.exe 一起使用。</p>
-
-<h2 id="参数">参数</h2>
-
+<h2 id="heading">参数</h2>
 <p><code>wsdl.exe &lt;选项&gt; &lt;URL 或路径&gt; &lt;URL 或路径&gt; ...</code></p>
-
 <p><code>&lt;URL 或路径&gt;</code> 指向 WSDL 协定、XSD 架构或 .discomap 文档的 URL 或路径。</p>
-
 <p><code>/nologo</code>取消显示版权标志。</p>
-
 <p><code>/language:&lt;language&gt;</code>
 用于生成的代理类的语言。请从“CS”、“VB”、“JS”、“VJS”、
 “CPP”中选择，或者为实现 System.CodeDom.Compiler.CodeDomProvider
 的类提供一个完全限定的名称。默认语言为“CS”(CSharp)。
 缩写形式为“/l:”。</p>
-
 <p><code>/sharetypes</code>
 打开类型共享功能。此功能针对不同服务之间共享
 的相同类型(命名空间、名称和网络签名必须相同)
 创建一个具有单一类型定义的代码文件。
 请使用 http:// URLs 作为命令行参数来引用
 服务，或为本地文件创建一个 discomap 文档。</p>
-
 <p><code>/verbose</code>
 指定 /sharetypes 开关时显示额外信息。
 缩写形式为“/v”。</p>
-
 <p><code>/fields</code>
 生成字段而非属性。缩写形式为“/f”。</p>
-
 <p><code>/order</code>
 为粒子成员生成显式顺序标识符。</p>
-
 <p><code>/enableDataBinding</code>
 在所有生成的类型上实现 INotifyPropertyChanged 接口，
 以启用数据绑定。缩写形式为“/edb”。</p>
-
 <p><code>/namespace:&lt;namespace&gt;</code>
 生成的代理或模板的命名空间。默认命名空间
 为全局命名空间。缩写形式为“/n:”。</p>
-
 <p><code>/out:&lt;fileName|directoryPath&gt;</code>
 生成的代理代码的文件名或目录路径。默认文件名是从
 服务名派生的。缩写形式为“/o:”。</p>
-
 <p><code>/protocol:&lt;protocol&gt;</code>
 重写要实现的默认协议。请从“SOAP”、“SOAP12”、
 “HttpGet”、“HttpPost”中选择。</p>
-
 <p><code>/username:&lt;username&gt;</code>
 <code>/password:&lt;password&gt;</code>
 <code>/domain:&lt;domain&gt;</code>
 连接到要求身份验证的服务器时使用的凭据。
 缩写形式为“/u:”、“/p:”和“/d:”。</p>
-
 <p><code>/proxy:&lt;url&gt;</code>
 用来处理 HTTP 请求的代理服务器的 URL。
 默认为使用系统代理服务器设置。</p>
-
 <p><code>/proxyusername:&lt;username&gt;</code>
 <code>/proxypassword:&lt;password&gt;</code>
 <code>/proxydomain:&lt;domain&gt;</code>
 连接到要求身份验证的代理服务器时使用的凭据。
 缩写形式为“/pu:”、“/pp:”和“/pd:”。</p>
-
 <p><code>/appsettingurlkey:&lt;key&gt;</code>
 在代码生成中用来读取 URL 属性的
 默认值的配置项。默认为不从配置
 文件中读取。缩写形式为“/urlkey:”。</p>
-
 <p><code>/appsettingbaseurl:&lt;baseurl&gt;</code>
 计算 URL 段时使用的基 URL。
 还必须指定 appsettingurlkey 选项。URL 段是
 从 appsettingbaseurl 计算
 WSDL 文档中的 URL 的相对 URL 的结果。缩写形式为“/baseurl:”。</p>
-
 <p><code>/parsableerrors</code>
 输出错误，其格式与编译器报告的格式类似。</p>
-
-<h3 id="高级">高级</h3>
-
+<h3 id="heading-1">高级</h3>
 <p><code>/server</code>
 服务器开关已被否决。请改用 /serverInterface。
 使用基于协定的 ASP.NET，为 Xml Web Services 实现
 生成抽象类。默认情况下，生成客户端代理
 类。</p>
-
 <p><code>/serverInterface</code>
 为 ASP.Net Web 服务的服务器端实现生成
 接口。将为 wsdl 文档中的每个绑定生成
@@ -225,7 +200,6 @@ WSDL 文档中的 URL 的相对 URL 的结果。缩写形式为“/baseurl:”�
 接口的类在类方法上不应包括下列任意一项:
 更改 wsdl 协定的 Web 服务属性或序列化
 属性)。缩写形式为“/si”。</p>
-
 <p><code>/parameters:&lt;file&gt;</code>
 从指定的 xml 文件读取命令行选项。这样可以
 指定命令行中无法使用的选项，例如选择

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shell on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2015-06-30-shell-help-online/</guid>
-      <description>网址:[http://www.explainshell.com]() 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清</description>
+      <description>网址:http://www.explainshell.com 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清楚一些。</description>
     </item>
     
   </channel>

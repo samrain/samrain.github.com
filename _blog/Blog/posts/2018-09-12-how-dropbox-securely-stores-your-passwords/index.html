@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2018/09/12">
                                     2018-09-12</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2018-09-12" class="no-wrap"
-                                    title="Modifyd at 2018/09/12">
+                                Modifyed <time-ago datetime="2018-09-12" class="no-wrap"
+                                    title="Modifyed  at 2018/09/12">
                                     2018-09-12</time-ago>
                             </div>
                         </h1>
@@ -127,14 +127,10 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>英文原文在Dropbox官博<a href="https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/">https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</a></p>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</p>
 <p>Dropbox的加密机制构建在三层加密基础之上，从里到外就像洋葱一样层层叠加。他们先是使用SHA512散列算法对明文密码进行散列，然后针对散列值进行bcrypt再散列。为什么在bcrypt之前要先做SHA散列呢？有些bcrypt实现会把散列值长度截至72字节，从而降低了密码的熵值，而有的则允许变长密码，这样容易受到DoS攻击。使用SHA512散列可以得到固定长度的512字节散列值，避免了上述的两个问题。</p>
-
 <p>在SHA散列之后是bcrypt散列。bcrypt散列算法是一种加盐（salt）散列算法，每个密码都有不同的“盐”，并且是分开存储的。bcrypt速度比较慢，这样就很难通过硬件加速来加快破解速度。而且bcrypt散列使用了成本因子10（每个因子相当于每一步计算需要耗费100毫秒的时间），这样就更是加大了暴力破解的难度。</p>
-
 <p>经过bcrypt散列之后，散列值会再次经过AES256算法的加密，这次加密会使用到秘钥，也就是所谓的“胡椒粉”（pepper）。胡椒粉也是被单独存储的，所以就算密码被偷了，没有这些胡椒粉，那些不怀好意的人也拿它们没办法。</p>
-
 <p>经过SHA512、bcrypt和AES256的三层加固，用户就可以高枕无忧了。</p>
 </article>
                         </div>

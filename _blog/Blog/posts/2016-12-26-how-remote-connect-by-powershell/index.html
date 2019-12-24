@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2016/12/26">
                                     2016-12-26</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2016-12-26" class="no-wrap"
-                                    title="Modifyd at 2016/12/26">
+                                Modifyed <time-ago datetime="2016-12-26" class="no-wrap"
+                                    title="Modifyed  at 2016/12/26">
                                     2016-12-26</time-ago>
                             </div>
                         </h1>
@@ -128,21 +128,23 @@ if (!doNotTrack) {
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><ol>
-<li><p>在服务器上用管理员权限打开PowerShell终端</p></li>
-
-<li><p>在PowerShell终端上执行<code>Enable-PSRemoting</code>，之后的确认操作，全部选是</p></li>
-
-<li><p>在客户端上用管理员权限打开PowerShell终端</p></li>
-
-<li><p>在PowerShell终端上执行以下命令，将某个IP段的的主机都加入信任列表。此处用192.168.3.*为例：</p></li>
+<li>
+<p>在服务器上用管理员权限打开PowerShell终端</p>
+</li>
+<li>
+<p>在PowerShell终端上执行<code>Enable-PSRemoting</code>，之后的确认操作，全部选是</p>
+</li>
+<li>
+<p>在客户端上用管理员权限打开PowerShell终端</p>
+</li>
+<li>
+<p>在PowerShell终端上执行以下命令，将某个IP段的的主机都加入信任列表。此处用192.168.3.*为例：</p>
+</li>
 </ol>
-
 <p><code>Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.3.*</code></p>
-
-<ol>
+<ol start="5">
 <li>在PowerShell终端上执行以下命令，登录服务器。此处用192.168.3.1为例：</li>
 </ol>
-
 <p><code>Enter-PSSession 192.168.3.1 -Credential %domain%\%username%</code></p>
 </article>
                         </div>

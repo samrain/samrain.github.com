@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2014/07/31">
                                     2014-07-31</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2014-07-31" class="no-wrap"
-                                    title="Modifyd at 2014/07/31">
+                                Modifyed <time-ago datetime="2014-07-31" class="no-wrap"
+                                    title="Modifyed  at 2014/07/31">
                                     2014-07-31</time-ago>
                             </div>
                         </h1>
@@ -127,46 +127,25 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h3 id="a记录">A记录</h3>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h3 id="a">A记录</h3>
 <p>将域名指向一个ip地址（仅IPV4）</p>
-
-<h3 id="双线解析">双线解析</h3>
-
+<h3 id="heading">双线解析</h3>
 <p>假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来访问。</p>
-
-<h3 id="cname记录">CNAME记录</h3>
-
+<h3 id="cname">CNAME记录</h3>
 <p>将域名指向另一个域名，再由另一个域名提供ip地址，就需要添加CNAME记录。最常用到CNAME的情况包括：做CDN，做企业邮局。</p>
-
-<h3 id="mx记录">MX记录</h3>
-
+<h3 id="mx">MX记录</h3>
 <p>设置邮箱，让邮箱能收到邮件，就需要添加MX记录。</p>
-
-<h3 id="txt记录">TXT记录</h3>
-
+<h3 id="txt">TXT记录</h3>
 <p>对域名进行标识和说明，可以使用TXT记录，绝大多数的TXT记录是用来做SPF记录（反垃圾邮件）。最典型的spf格式的txt记录例子为“v=spf1 a mx ~all”，表示只有这个域名的a记录和mx记录中的ip地址有权限使用这个域名发送邮件。</p>
-
-<h3 id="隐性转发">隐性转发</h3>
-
-<p>用的是iframe框架技术，非重定向技术；效果为浏览器地址栏输入<a href="http://a.com">http://a.com</a> 回车，打开网站内容是目标地址<a href="http://www.dnspod.cn">http://www.dnspod.cn</a> 的网站内容，但地址栏显示当前地址<a href="http://a.com">http://a.com</a> 。注：目标地址不允许被嵌套时，则不能使用隐性转发（如QQ空间，不能使用隐性转发）。</p>
-
-<h3 id="显性转发">显性转发</h3>
-
-<p>用的是301重定向技术；效果为浏览器地址栏输入<a href="http://a.com">http://a.com</a> 回车，打开网站内容是目标地址<a href="http://www.dnspod.cn">http://www.dnspod.cn</a> 的网站内容，且地址栏显示目标地址<a href="http://www.dnspod.cn">http://www.dnspod.cn</a> 。</p>
-
-<h3 id="aaaa记录">AAAA记录</h3>
-
+<h3 id="heading-1">隐性转发</h3>
+<p>用的是iframe框架技术，非重定向技术；效果为浏览器地址栏输入http://a.com 回车，打开网站内容是目标地址http://www.dnspod.cn 的网站内容，但地址栏显示当前地址http://a.com 。注：目标地址不允许被嵌套时，则不能使用隐性转发（如QQ空间，不能使用隐性转发）。</p>
+<h3 id="heading-2">显性转发</h3>
+<p>用的是301重定向技术；效果为浏览器地址栏输入http://a.com 回车，打开网站内容是目标地址http://www.dnspod.cn 的网站内容，且地址栏显示目标地址http://www.dnspod.cn 。</p>
+<h3 id="aaaa">AAAA记录</h3>
 <p>希望访问者通过IPv6地址访问您的域名时，可以使用AAAA记录</p>
-
-<h3 id="ns记录">NS记录</h3>
-
+<h3 id="ns">NS记录</h3>
 <p>把子域名交给其他DNS服务商解析，就需要添加NS记录</p>
-
-<h3 id="srv记录">SRV记录</h3>
-
+<h3 id="srv">SRV记录</h3>
 <p>用来标识某台服务器使用了某个服务，常见于微软系统的目录管理。</p>
 </article>
                         </div>

@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2013/07/31">
                                     2013-07-31</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2013-07-31" class="no-wrap"
-                                    title="Modifyd at 2013/07/31">
+                                Modifyed <time-ago datetime="2013-07-31" class="no-wrap"
+                                    title="Modifyed  at 2013/07/31">
                                     2013-07-31</time-ago>
                             </div>
                         </h1>
@@ -127,25 +127,17 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIWWhKUnVDbTJJSUE/edit?usp=sharing">思维导图文件下载</a></p>
-
-<h2 id="安装">安装</h2>
-
-<script src="https://gist.github.com/samrain/8168836.js"></script>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIWWhKUnVDbTJJSUE/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="heading">安装</h2>
+<!-- raw HTML omitted -->
 <h3 id="windows">windows</h3>
-
 <ul>
 <li><a href="http://code.google.com/p/go/downloads/list?q=OpSys-Windows+Type%3DArchive">下载</a></li>
 <li>解压到C盘</li>
 <li>设置环境变量
 set PATH=%PATH%;C:\Go\bin</li>
 </ul>
-
-<h2 id="特色">特色</h2>
-
+<h2 id="heading-1">特色</h2>
 <ul>
 <li>清晰并且简洁</li>
 <li>并行</li>
@@ -158,31 +150,23 @@ set PATH=%PATH%;C:\Go\bin</li>
 <li>开源</li>
 <li>开心</li>
 </ul>
-
 <h2 id="hello-world">Hello World</h2>
-
 <ul>
-<li>package <something>开头
-
+<li>package <!-- raw HTML omitted -->开头
 <ul>
 <li>独立运行的程序必须以package main开头</li>
-</ul></li>
+</ul>
+</li>
 <li>import &lt;包名&gt;</li>
 <li>func main()</li>
 </ul>
-
-<h2 id="构建">构建</h2>
-
+<h2 id="heading-2">构建</h2>
 <pre><code>使用go工具，例如：go build helloworld.go
 </code></pre>
-
-<h2 id="运行">运行</h2>
-
+<h2 id="heading-3">运行</h2>
 <pre><code>直接运行，例如：./helloworld
 </code></pre>
-
-<h2 id="变量">变量</h2>
-
+<h2 id="heading-4">变量</h2>
 <ul>
 <li>var xxx 变量类型</li>
 <li>默认赋值为该类型的null值</li>
@@ -193,122 +177,115 @@ set PATH=%PATH%;C:\Go\bin</li>
 <li>下划线是特殊变量名，表示任何赋给它的值都被丢弃</li>
 <li>未使用的变量在编译时会报错</li>
 </ul>
-
-<h2 id="类型">类型</h2>
-
+<h2 id="heading-5">类型</h2>
 <ul>
 <li>布尔类型
 bool</li>
 <li>数字类型
-
 <ul>
 <li>int
-
 <ul>
 <li>根据硬件决定，32位上是32位</li>
 <li>int8</li>
 <li>int16</li>
 <li>int32</li>
 <li>int64</li>
-</ul></li>
+</ul>
+</li>
 <li>uint
-
 <ul>
 <li>类似int</li>
 <li>byte
-    uint8</li>
+uint8</li>
 <li>uint16</li>
 <li>uint32</li>
 <li>uint64</li>
-</ul></li>
+</ul>
+</li>
 <li>float32</li>
 <li>float64</li>
 <li>混合使用要报错</li>
-</ul></li>
 </ul>
-
-<h2 id="常量">常量</h2>
-
+</li>
+</ul>
+<h2 id="heading-6">常量</h2>
 <ul>
 <li>const XXX=aaa</li>
 <li>只能是数字、字符串或布尔值</li>
 <li>在编译时被创建</li>
 <li>可以用iota生成枚举值
-
 <ul>
 <li>第一个是0</li>
 <li>下次使用增加1</li>
 <li>第一个常量为iota，第二个省略默认也等于iota</li>
-</ul></li>
+</ul>
+</li>
 <li>可以用圆括号成组声明</li>
 </ul>
-
 <h2 id="go-env">go env</h2>
-
 <ul>
-<li><p>GOARCH</p>
-
-<pre><code>Go编译器输出的程序的目标架构，3个可选：arm, 386, amd64 
-</code></pre></li>
-
-<li><p>GOBIN</p>
-
-<pre><code>存放编译出来的命令（程序）的目录，对于GOPATH里面的，默认放到$GOPATH/bin下，GOROOT里面的  放到$GOROOT/bin下，如果$GOBIN设置了，则都放到$GOBIN下。
-</code></pre></li>
-
-<li><p>GOCHAR</p>
-
-<pre><code>每个体系的编译器有一个字符表示，比如386是8，amd64是6，arm是5，这个一般不用管。  Plan 9工具链特点。
-</code></pre></li>
-
-<li><p>GOEXE</p>
-
-<pre><code>可执行文件名的后缀，只在Windows下有用，设置成&quot;.exe&quot;。
-</code></pre></li>
-
-<li><p>GOGCCFLAGS</p>
-
-<pre><code>编译cgo的时候gcc编译的命令行参数。 
-</code></pre></li>
-
-<li><p>GOHOSTARCH</p>
-
-<pre><code>当前运行Go工具链的系统架构，可选的值同上$GOARCH
-</code></pre></li>
-
-<li><p>GOHOSTOS</p>
-
-<pre><code>当前运行Go工具链的操作系统，可选的值很多，linux, darwin, windows, freebsd, openbsd, netbsd, plan9等 
-</code></pre></li>
-
-<li><p>GOOS</p>
-
-<pre><code>编译出来的目标程序在哪个操作系统上执行，可选的同上面的GOHOSTOS。
-</code></pre></li>
-
-<li><p>GOPATH</p>
-
-<pre><code>go开发目录
-</code></pre></li>
-
-<li><p>GOROOT</p>
-
-<pre><code>Go本身装在GOROOT下面
-</code></pre></li>
-
-<li><p>GOTOOLDIR</p>
-
-<pre><code>Go的工具链程序在这个目录下，一般也不用管，直接用go tool 8g这样就行了。
-</code></pre></li>
-
-<li><p>CGO_ENABLED</p>
-
-<pre><code>是否使用cgo，可选值是1和0. 
-</code></pre></li>
+<li>
+<p>GOARCH</p>
+<pre><code>  Go编译器输出的程序的目标架构，3个可选：arm, 386, amd64 
+</code></pre>
+</li>
+<li>
+<p>GOBIN</p>
+<pre><code>  存放编译出来的命令（程序）的目录，对于GOPATH里面的，默认放到$GOPATH/bin下，GOROOT里面的  放到$GOROOT/bin下，如果$GOBIN设置了，则都放到$GOBIN下。
+</code></pre>
+</li>
+<li>
+<p>GOCHAR</p>
+<pre><code>  每个体系的编译器有一个字符表示，比如386是8，amd64是6，arm是5，这个一般不用管。  Plan 9工具链特点。
+</code></pre>
+</li>
+<li>
+<p>GOEXE</p>
+<pre><code>  可执行文件名的后缀，只在Windows下有用，设置成&quot;.exe&quot;。
+</code></pre>
+</li>
+<li>
+<p>GOGCCFLAGS</p>
+<pre><code>  编译cgo的时候gcc编译的命令行参数。 
+</code></pre>
+</li>
+<li>
+<p>GOHOSTARCH</p>
+<pre><code>  当前运行Go工具链的系统架构，可选的值同上$GOARCH
+</code></pre>
+</li>
+<li>
+<p>GOHOSTOS</p>
+<pre><code>  当前运行Go工具链的操作系统，可选的值很多，linux, darwin, windows, freebsd, openbsd, netbsd, plan9等 
+</code></pre>
+</li>
+<li>
+<p>GOOS</p>
+<pre><code>  编译出来的目标程序在哪个操作系统上执行，可选的同上面的GOHOSTOS。
+</code></pre>
+</li>
+<li>
+<p>GOPATH</p>
+<pre><code>  go开发目录
+</code></pre>
+</li>
+<li>
+<p>GOROOT</p>
+<pre><code>  Go本身装在GOROOT下面
+</code></pre>
+</li>
+<li>
+<p>GOTOOLDIR</p>
+<pre><code>  Go的工具链程序在这个目录下，一般也不用管，直接用go tool 8g这样就行了。
+</code></pre>
+</li>
+<li>
+<p>CGO_ENABLED</p>
+<pre><code>  是否使用cgo，可选值是1和0. 
+</code></pre>
+</li>
 </ul>
-
-<h2 id="中文参考">中文参考</h2>
-
+<h2 id="heading-7">中文参考</h2>
 <ul>
 <li><a href="https://github.com/astaxie/build-web-application-with-golang">Go Web编程</a></li>
 <li><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN">中文版《Go入门指南》</a></li>
@@ -323,44 +300,39 @@ bool</li>
 <li><a href="http://bbs.studygolang.com/thread-18-1-1.html">Go官方文档</a></li>
 <li><a href="http://progginator.lidian.info/#1">在GAE上使用go编程</a></li>
 </ul>
-
-<h2 id="英文参考">英文参考</h2>
-
+<h2 id="heading-8">英文参考</h2>
 <ul>
 <li><a href="https://github.com/miekg/gobook">Learning Go</a></li>
 <li><a href="http://godoc.org/">go package doc</a></li>
 </ul>
-
-<h2 id="sublime-text2扩展-https-github-com-disposaboy-gosublime-readme"><a href="https://github.com/DisposaBoy/GoSublime#readme">sublime text2扩展</a></h2>
-
-<h2 id="gbk和utf8转换">GBK和UTF8转换</h2>
-
+<h2 id="sublime-text2httpsgithubcomdisposaboygosublimereadme"><a href="https://github.com/DisposaBoy/GoSublime#readme">sublime text2扩展</a></h2>
+<h2 id="gbkutf8">GBK和UTF8转换</h2>
 <ul>
 <li><a href="https://github.com/qiniu/iconv">许世伟iconv</a></li>
 <li><a href="https://code.google.com/p/mahonia/">mahonia</a></li>
 </ul>
-
-<h2 id="注意">注意</h2>
-
+<h2 id="heading-9">注意</h2>
 <ul>
-<li>文件是Unix的基础，而文件的读写是基础中的基础</li>
-
-<li><p><a href="http://golang.org/">官网</a></p>
-
-<pre><code>如果想翻过去，修改hosts增加2条：74.125.128.94        www.golang.org 74.125.128.94        golang.org
-</code></pre></li>
-
-<li><p>搭建自己的官网</p>
-
-<pre><code>godoc -http 6060
-访问http://localhost:6060/
-</code></pre></li>
-
-<li><p>gosublime快捷键</p>
-
-<pre><code>快速查看可以import包情况
-Ctrl+点 然后 Ctrl+p
-</code></pre></li>
+<li>
+<p>文件是Unix的基础，而文件的读写是基础中的基础</p>
+</li>
+<li>
+<p><a href="http://golang.org/">官网</a></p>
+<pre><code>  如果想翻过去，修改hosts增加2条：74.125.128.94        www.golang.org 74.125.128.94        golang.org
+</code></pre>
+</li>
+<li>
+<p>搭建自己的官网</p>
+<pre><code>  godoc -http 6060
+  访问http://localhost:6060/
+</code></pre>
+</li>
+<li>
+<p>gosublime快捷键</p>
+<pre><code>  快速查看可以import包情况
+  Ctrl+点 然后 Ctrl+p
+</code></pre>
+</li>
 </ul>
 </article>
                         </div>

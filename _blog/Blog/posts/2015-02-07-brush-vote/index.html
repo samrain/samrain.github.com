@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/02/07">
                                     2015-02-07</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-02-07" class="no-wrap"
-                                    title="Modifyd at 2015/02/07">
+                                Modifyed <time-ago datetime="2015-02-07" class="no-wrap"
+                                    title="Modifyed  at 2015/02/07">
                                     2015-02-07</time-ago>
                             </div>
                         </h1>
@@ -127,44 +127,29 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="why">Why</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="why">Why</h2>
 <p>帮朋友完成任务，让名次不要太低</p>
-
 <h2 id="what">what</h2>
-
 <p>刷票</p>
-
 <h2 id="how">How</h2>
-
 <p>网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验证。O(∩_∩)O哈哈~。</p>
-
 <p>用chrome的F12工具中<code>Network</code>抓取了post日志，注意<code>Preserve log</code>必须打勾，仔细看日志发现了其实是向<code>http://www.example.com/toupiao/Save</code>发送Post请求，数据为</p>
-
 <pre><code>name=张三&amp;phone=1390219679&amp;ids=74
-</code></pre>
-
-<p>于是直接用curl发送Post请求，而Parallel来进行并行处理（代替for）：</p>
-
+</code></pre><p>于是直接用curl发送Post请求，而Parallel来进行并行处理（代替for）：</p>
 <pre><code>sudo apt-get install parallel curl
 
 parallel curl --url &quot;http://www.example.com/toupiao/Save&quot; -d ids=74 -d :::: $数据文件名
-</code></pre>
-
-<p>数据文件内容示例：</p>
-
+</code></pre><p>数据文件内容示例：</p>
 <pre><code>name=李峙锦&amp;phone=13602198215
 name=于晨津&amp;phone=16202106815
-</code></pre>
-
-<h2 id="用到的其他工具">用到的其他工具</h2>
-
+</code></pre><h2 id="heading">用到的其他工具</h2>
 <ul>
-<li><p><a href="http://pan.baidu.com/s/1qWHQVec">生成电话号码</a></p></li>
-
-<li><p><a href="http://pan.baidu.com/s/1ntMGITj">生成人名-吉吉写作</a></p></li>
+<li>
+<p><a href="http://pan.baidu.com/s/1qWHQVec">生成电话号码</a></p>
+</li>
+<li>
+<p><a href="http://pan.baidu.com/s/1ntMGITj">生成人名-吉吉写作</a></p>
+</li>
 </ul>
 </article>
                         </div>

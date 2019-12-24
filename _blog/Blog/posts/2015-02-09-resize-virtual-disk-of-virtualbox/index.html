@@ -104,8 +104,8 @@ if (!doNotTrack) {
                                     title="Created at 2015/02/09">
                                     2015-02-09</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyd <time-ago datetime="2015-02-09" class="no-wrap"
-                                    title="Modifyd at 2015/02/09">
+                                Modifyed <time-ago datetime="2015-02-09" class="no-wrap"
+                                    title="Modifyed  at 2015/02/09">
                                     2015-02-09</time-ago>
                             </div>
                         </h1>
@@ -127,39 +127,31 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
-
-<h2 id="why">WHY</h2>
-
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="why">WHY</h2>
 <p>为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了，<strong>受不鸟了</strong>。</p>
-
 <p>##只能扩容了。</p>
-
 <p>##linux宿主机</p>
-
 <p>调整虚拟硬盘大小，运行</p>
-
 <pre><code>VBoxManage modifyhd w7x64.vdi --resize 61440
-</code></pre>
-
-<ul>
-<li><p>以上命令也可以在windows宿主机上运行，只要保证在path里面。</p></li>
-
-<li><p>试过vmdk文件不行，我只成功过vdi文件。</p></li>
-
-<li><p>最后一个数字以MB为单位，例子里是60G。</p></li>
+</code></pre><ul>
+<li>
+<p>以上命令也可以在windows宿主机上运行，只要保证在path里面。</p>
+</li>
+<li>
+<p>试过vmdk文件不行，我只成功过vdi文件。</p>
+</li>
+<li>
+<p>最后一个数字以MB为单位，例子里是60G。</p>
+</li>
 </ul>
-
 <p>##win7虚机</p>
-
 <p>需要把增加的硬盘找到并分配到C盘上：</p>
-
-<p><img src="http://samrain.qiniudn.com/resize-vdisk1.jpg" alt="调整virtualbx的虚拟磁盘大小" />
-<img src="http://samrain.qiniudn.com/resize-vdisk2.jpg" alt="调整virtualbx的虚拟磁盘大小" />
-<img src="http://samrain.qiniudn.com/resize-vdisk3.jpg" alt="调整virtualbx的虚拟磁盘大小" />
-<img src="http://samrain.qiniudn.com/resize-vdisk4.jpg" alt="调整virtualbx的虚拟磁盘大小" />
-<img src="http://samrain.qiniudn.com/resize-vdisk5.jpg" alt="调整virtualbx的虚拟磁盘大小" />
-<img src="http://samrain.qiniudn.com/resize-vdisk6.jpg" alt="调整virtualbx的虚拟磁盘大小" /></p>
+<p><img src="http://samrain.qiniudn.com/resize-vdisk1.jpg" alt="调整virtualbx的虚拟磁盘大小">
+<img src="http://samrain.qiniudn.com/resize-vdisk2.jpg" alt="调整virtualbx的虚拟磁盘大小">
+<img src="http://samrain.qiniudn.com/resize-vdisk3.jpg" alt="调整virtualbx的虚拟磁盘大小">
+<img src="http://samrain.qiniudn.com/resize-vdisk4.jpg" alt="调整virtualbx的虚拟磁盘大小">
+<img src="http://samrain.qiniudn.com/resize-vdisk5.jpg" alt="调整virtualbx的虚拟磁盘大小">
+<img src="http://samrain.qiniudn.com/resize-vdisk6.jpg" alt="调整virtualbx的虚拟磁盘大小"></p>
 </article>
                         </div>
                     </div>
