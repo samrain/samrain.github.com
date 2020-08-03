@@ -6,4 +6,6 @@ categories = ["study"]
 draft = false
 +++
 
-![博客流水线](https://dn-samrain.qbox.me/%E5%8D%9A%E5%AE%A2%E6%B5%81%E6%B0%B4%E7%BA%BF.png)
+# 博客流水线
+
+[![博客流水线](https://pic.downk.cc/item/5f28920014195aa59423ae63.png)](https://pic.downk.cc/item/5f28920014195aa59423ae63.png)
