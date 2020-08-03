@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet"
+        href="https://www.samrainhan.com/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet" href="https://www.samrainhan.com/css/github.css" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>外包管理生态建设模型管理体系 - sam的小窝</title>
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://www.samrainhan.com/images/favicon.ico">
+    <meta name="theme-color" content="#1e2327">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <div class="Header-item d-none d-lg-flex">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div
+            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
+                aria-expanded="false">
+                <div class="position-relative">
+                </div>
+            </div>
+        </div>
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+            <details class="details-overlay details-reset">
+                <summary class="Header-link" aria-label="View profile and more"
+                    data-ga-click="Header, show menu, icon:avatar">
+                    
+                    <img alt="" class="avatar" src="https://www.samrainhan.com/images/avatar.png" height="20" width="20">
+                    
+                </summary>
+            </details>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main id="js-repo-pjax-container" data-pjax-container="">
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="mb-3 d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <a class="avatar mr-1" href="https://www.samrainhan.com/about/">
+                            
+                                <img
+                                    src="https://www.samrainhan.com/images/avatar.png" width="26" height="26">
+                            
+                            </a>
+                            <span class="author"><a
+                                    href="https://www.samrainhan.com/">韩雨</a></span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="https://www.samrainhan.com/posts/2019-12-24-outsourcing-management-ecological-construction-model-management-system/">外包管理生态建设模型管理体系</a></strong>
+
+                            <div class="d-block text-small text-gray">
+                                Created <time-ago datetime="2020-01-21" class="no-wrap"
+                                    title="Created at 2020/01/21">
+                                    2020-01-21</time-ago>
+                                <span class="file-info-divider"></span>
+                                Modifyed <time-ago datetime="2020-01-21" class="no-wrap"
+                                    title="Modifyed  at 2020/01/21">
+                                    2020-01-21</time-ago>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+                <div class="repository-content ">
+                    <div class="Box mt-3 position-relative">
+                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                                1564 Words
+                                
+                            </div>
+                        </div>
+
+                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://pic.superbed.cn/item/5e02220d76085c328992eea3.png"><img src="https://pic.superbed.cn/item/5e02220d76085c328992eea3.png" alt="外包管理生态建设模型管理体系"></a></p>
+<h1 id="heading">外包管理生态建设模型管理体系</h1>
+<h2 id="heading-1">全生命周期管理</h2>
+<h3 id="heading-2">策略分析</h3>
+<h3 id="heading-3">外包规划</h3>
+<h3 id="heading-4">供应商选择</h3>
+<ul>
+<li>
+<p>建立供应商阶段性评价体系</p>
+<ul>
+<li>
+<p>建立供应商进入评价体系</p>
+<ul>
+<li>
+<p>对七个方面进行现场评审和总和分析评分，分为5个分数段（0分~100分区间），根据各分项要素计算平均得分。如80分以上为体系合格供应商，50分以下为体系不合格供应商</p>
+<ul>
+<li>
+<p>技术水平</p>
+</li>
+<li>
+<p>企业风险</p>
+</li>
+<li>
+<p>增值服务</p>
+</li>
+<li>
+<p>企业文化</p>
+</li>
+<li>
+<p>服务价格</p>
+</li>
+<li>
+<p>服务响应</p>
+</li>
+<li>
+<p>服务质量</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>建立供应商运行评价体系</p>
+<ul>
+<li>
+<p>日常业绩跟踪</p>
+<ul>
+<li>
+<p>质量Quality(35%评分比重)</p>
+</li>
+<li>
+<p>服务Service(25%评分比重)</p>
+</li>
+<li>
+<p>技术Technology(10%评分比重)</p>
+</li>
+<li>
+<p>价格Price(30%评分比重)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>阶段性评比</p>
+<ul>
+<li>根据有关业绩的跟踪记录，按照季度对供应商的业绩表现进行综合考核。</li>
+</ul>
+</li>
+<li>
+<p>供应商问题的辅导和改进工作</p>
+</li>
+<li>
+<p>通过专项专组辅导和结果跟踪的方法实现的</p>
+</li>
+<li>
+<p>供应商战略伙伴关系评价</p>
+</li>
+<li>
+<p>根据收集到的信息，由专门的商务组分析讨论，确定有关建立长期合作伙伴的关系评估，提交专门的战略小组进行分析。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>不仅仅是入围资格的选择，而且是一个连续的可累计的选择过程。</p>
+</li>
+<li>
+<p>流程透明化和操作公开化，所有流程的建立、修订和发布都通过一定的控制程序进行，保证相对的稳定性。评价指标尽可能量化，以减少主观干扰因素。</p>
+</li>
+<li>
+<p>选择的十个原则</p>
+<ul>
+<li>
+<p>总原则－－全面、具体、客观原则：建立和使用一个全面的供应商综合评价指标体系，对供应商做出全面、具体、客观的评价。综合考虑供应商的业绩、设备管理、人力资源开发、质量控制、成本控制、技术开发、用户满意度、交货协议等方面可能影响供应链合作关系的方面。</p>
+</li>
+<li>
+<p>1.系统全面性原则：全面系统评价体系的建立和使用</p>
+</li>
+<li>
+<p>2.简明科学性原则：供应商评价和选择步骤、选择过程透明化、制度化和科学化</p>
+</li>
+<li>
+<p>3.稳定可比性原则：评估体系应该稳定运做，标准统一，减少主观因素</p>
+</li>
+<li>
+<p>4.灵活可操作性原则：不同行业、企业、产品需求、不同环境下的供应商评价应是不一样的，保持一定的灵活操作性。</p>
+</li>
+<li>
+<p>5.门当户对原则：供应商的规模和层次和采购商相当</p>
+</li>
+<li>
+<p>6.半数比例原则：购买数量不超过供应商产能的50%，反对全额供货的供应商。</p>
+</li>
+<li>
+<p>7.供应源数量控制原则：同类物料的供应商数量约2~3家，主次供应商之分。</p>
+</li>
+<li>
+<p>8.供应链战略原则：与重要供应商发展供应链战略合作关系</p>
+</li>
+<li>
+<p>9.学习更新原则：评估的指标、标杆对比的对象以及评估的工具与技术都需要不断的更新。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="heading-5">服务移交</h3>
+<h3 id="heading-6">服务交付</h3>
+<h3 id="heading-7">持续改进</h3>
+<h2 id="heading-8">外包成熟度</h2>
+<h3 id="heading-9">怎么评价</h3>
+<ul>
+<li>
+<p>第一级：基本因素</p>
+<ul>
+<li>
+<p>从范围和服务水平来看，你的服务是否描述清楚？</p>
+</li>
+<li>
+<p>是否明确规定条款、条件和定价？</p>
+</li>
+<li>
+<p>你是否拥有变动管理、时间管理、配置和问题管理方面的正式流程？</p>
+</li>
+<li>
+<p>你是否认识到外包中需要服务信用和持续改善但尚未在合同中指明？</p>
+</li>
+</ul>
+</li>
+<li>
+<p>第二级：定义</p>
+<ul>
+<li>
+<p>你的供应商的管理模式是否得到明确规定（例如：会议结构、不同水平的交流、服务水平违背等事件的升级流程）？</p>
+</li>
+<li>
+<p>客户和供应商之间的流程和服务责任是否明确分开和定义？</p>
+</li>
+<li>
+<p>服务水平是否按照服务来定义和汇报的（例如：红绿灯报告）？</p>
+</li>
+<li>
+<p>外包合同是否是基于你的合同框架（而不是供应商），包括创新和持续改善？</p>
+</li>
+</ul>
+</li>
+<li>
+<p>第三级：评估</p>
+<ul>
+<li>
+<p>你是否衡量和报告合作关系和服务管理流程？</p>
+</li>
+<li>
+<p>你的服务水平是否覆盖供应商绩效？</p>
+</li>
+<li>
+<p>你的服务水平管理是否能展示服务水平履行的水平？</p>
+</li>
+<li>
+<p>你是否评估和汇报持续改善、创新计划和客户满意度？</p>
+</li>
+</ul>
+</li>
+<li>
+<p>第四级：信任</p>
+<ul>
+<li>
+<p>供应商的责任是否充分规定，这样供应商可以在不与客户交流的前提下决定服务交付的改善和优化？</p>
+</li>
+<li>
+<p>你的服务水平能否满足业务需求？</p>
+</li>
+<li>
+<p>你在外包关系中是否使用替代定价模式？</p>
+</li>
+</ul>
+</li>
+<li>
+<p>第五级：持续价值</p>
+<ul>
+<li>
+<p>你的服务水平是否按照业务术语制定？</p>
+</li>
+<li>
+<p>你是否经常与供应商就新想法、创新计划和机遇展开讨论？</p>
+</li>
+<li>
+<p>你的外包关系是否能提高效率、改善质量、加快投放市场的速度？</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="heading-10">成熟度级别</h3>
+<ul>
+<li>
+<p>初始级</p>
+<ul>
+<li>基于合同的粗放管理</li>
+</ul>
+</li>
+<li>
+<p>基础级</p>
+<ul>
+<li>发包方企业建立初步的管理平台</li>
+</ul>
+</li>
+<li>
+<p>组织级</p>
+<ul>
+<li>构建跨部门的外包管理体系</li>
+</ul>
+</li>
+<li>
+<p>标准级</p>
+<ul>
+<li>形成标准化的外包管理体系</li>
+</ul>
+</li>
+<li>
+<p>优化级</p>
+<ul>
+<li>发包方和供应商共同创建可持续优化的管理体系</li>
+</ul>
+</li>
+<li>
+<p>全球战略级</p>
+<ul>
+<li>发包方与供应商共同创建支持全球规划布局的管理体系</li>
+</ul>
+</li>
+</ul>
+</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
+        </ul>
+
+        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://www.samrainhan.com/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
+                aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://www.samrainhan.com/js/frameworks.js"></script>
+
+<script crossorigin="anonymous" async="async"
+    type="application/javascript" src="https://www.samrainhan.com/js/github-bootstrap.js"></script>
+<script>
+    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
+    const pinned_posts = document.getElementsByName('pinned-post');
+    for (let i = 0; i < pinned_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = pinned_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
+    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
+    const posts_posts = document.getElementsByName('posts-post');
+    for (let i = 0; i < posts_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = posts_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
+</script>
+</body>
+
+</html>
