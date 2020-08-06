@@ -6,10 +6,19 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Aug 2020 06:25:32 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 14:35:07 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>日常问题处理流程</title>
+      <link>https://www.samrainhan.com/posts/2020-08-05-daily-problem-handling-process/</link>
+      <pubDate>Wed, 05 Aug 2020 14:35:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2020-08-05-daily-problem-handling-process/</guid>
+      <description>日常问题处理流程</description>
+    </item>
     
     <item>
       <title>标准部署流程</title>
