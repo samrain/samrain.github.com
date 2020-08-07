@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 05 Aug 2020 14:35:07 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 20:55:30 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>旅游,徒步</title>
+      <link>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E5%BE%92%E6%AD%A5/</link>
+      <pubDate>Thu, 06 Aug 2020 20:55:30 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E5%BE%92%E6%AD%A5/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>问题处理,流程</title>
@@ -3144,7 +3153,7 @@
     </item>
     
     <item>
-      <title>.net</title>
+      <title>.NET</title>
       <link>https://www.samrainhan.com/tags/.net/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
@@ -6978,7 +6987,7 @@
     </item>
     
     <item>
-      <title>vim</title>
+      <title>VIM</title>
       <link>https://www.samrainhan.com/tags/vim/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
