@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Aug 2020 20:55:30 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 23:19:58 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>work,潜意识</title>
+      <link>https://www.samrainhan.com/tags/work%E6%BD%9C%E6%84%8F%E8%AF%86/</link>
+      <pubDate>Fri, 07 Aug 2020 23:19:58 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/work%E6%BD%9C%E6%84%8F%E8%AF%86/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>旅游,徒步</title>
@@ -1182,7 +1191,7 @@
     </item>
     
     <item>
-      <title>Emacs</title>
+      <title>emacs</title>
       <link>https://www.samrainhan.com/tags/emacs/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -3153,7 +3162,7 @@
     </item>
     
     <item>
-      <title>.NET</title>
+      <title>.net</title>
       <link>https://www.samrainhan.com/tags/.net/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       
@@ -6924,7 +6933,7 @@
     </item>
     
     <item>
-      <title>ide</title>
+      <title>IDE</title>
       <link>https://www.samrainhan.com/tags/ide/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       
@@ -6987,7 +6996,7 @@
     </item>
     
     <item>
-      <title>VIM</title>
+      <title>vim</title>
       <link>https://www.samrainhan.com/tags/vim/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
