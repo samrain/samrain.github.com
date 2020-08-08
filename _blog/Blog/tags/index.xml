@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Aug 2020 23:19:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2020 11:10:03 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>信托</title>
+      <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%89%98/</link>
+      <pubDate>Sat, 08 Aug 2020 11:10:03 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E4%BF%A1%E6%89%98/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>work,潜意识</title>
@@ -1191,7 +1200,7 @@
     </item>
     
     <item>
-      <title>emacs</title>
+      <title>Emacs</title>
       <link>https://www.samrainhan.com/tags/emacs/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -3162,7 +3171,7 @@
     </item>
     
     <item>
-      <title>.net</title>
+      <title>.NET</title>
       <link>https://www.samrainhan.com/tags/.net/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       

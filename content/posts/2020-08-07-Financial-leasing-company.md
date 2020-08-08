@@ -1,8 +1,8 @@
 +++
-title = "金融租赁公司，看我不慢慢一口一口的"
+title = "金融租赁公司"
 date = 2020-08-07T23:19:58+08:00
-tags = ["work,潜意识"]
-categories = [""]
+tags = ["金融租赁,租赁,金融"]
+categories = ["work"]
 draft = false
 +++
 
