@@ -170,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    492
+                    493
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -182,6 +182,26 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            sql脚本如下： USE [master]; GO alter database tempdb modify file (name='tempdev', size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N'tempdev2', FILENAME = N'E:\SQLDATA\tempdev2.ndf' , SIZE = 8GB , FILEGROWTH = 0); GO
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -353,26 +373,6 @@ if (!doNotTrack) {
 
                         <div name="posts-post">
                             迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">产品经理的核心价值是什么</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。
                         </div>
 
                         <div class="f6 text-gray mt-2">

@@ -10,6 +10,8 @@ cd ../Blog
 
 git add -A
 
+git gc
+
 git commit -m '+1'
 
 git push origin master
