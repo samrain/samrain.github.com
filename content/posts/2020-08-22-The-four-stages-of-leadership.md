@@ -5,7 +5,6 @@ tags = ["领导力,领导,管理"]
 categories = ["work"]
 draft = false
 +++
-
 # 领导力的四个阶段
 
 ## 第一阶段：熟悉业务，自己解决问题。
