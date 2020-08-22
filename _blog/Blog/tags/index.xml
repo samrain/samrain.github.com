@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Aug 2020 11:44:42 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 13:55:34 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>山,中国,名山</title>
+      <link>https://www.samrainhan.com/tags/%E5%B1%B1%E4%B8%AD%E5%9B%BD%E5%90%8D%E5%B1%B1/</link>
+      <pubDate>Mon, 10 Aug 2020 13:55:34 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E5%B1%B1%E4%B8%AD%E5%9B%BD%E5%90%8D%E5%B1%B1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>酒席,座位</title>
@@ -795,7 +804,7 @@
     </item>
     
     <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>https://www.samrainhan.com/tags/windows/</link>
       <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
       
@@ -1569,7 +1578,7 @@
     </item>
     
     <item>
-      <title>xen</title>
+      <title>Xen</title>
       <link>https://www.samrainhan.com/tags/xen/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
