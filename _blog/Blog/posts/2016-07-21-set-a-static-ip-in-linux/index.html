@@ -127,15 +127,15 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="dhcp-a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="编辑-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="将dhcp-一行屏蔽a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code># The primary network interface
 
 auto eth0
 
 #iface eth0 inet dhcp
 </code></pre>
-<h3 id="ipa-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="添加和静态ip有关的参数a-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code># The primary network interface
 
 iface eth0 inet static
@@ -146,13 +146,13 @@ netmask 255.255.255.0
 
 gateway 192.168.0.1
 </code></pre>
-<h2 id="-etcresolvconf-dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="编辑-etcresolvconf-设置dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>nameserver 202.96.134.133
 
 nameserver 202.106.0.20
 </code></pre>
 <p>ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 <code>/etc/ppp/peers/dsl-provider</code> 注释掉userpeerdns这一行即可</p>
-<h2 id="a-idorgheadline27a">执行下面两个命令，启用新设置<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="执行下面两个命令启用新设置a-idorgheadline27a">执行下面两个命令，启用新设置<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>$sudo ifdown eth0
 
 $sudo ifup eth0

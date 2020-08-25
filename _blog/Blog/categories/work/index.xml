@@ -6,10 +6,19 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Aug 2020 11:44:42 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2020 16:10:50 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>领导力的四个阶段</title>
+      <link>https://www.samrainhan.com/posts/2020-08-22-the-four-stages-of-leadership/</link>
+      <pubDate>Sat, 22 Aug 2020 16:10:50 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2020-08-22-the-four-stages-of-leadership/</guid>
+      <description>领导力的四个阶段 第一阶段：熟悉业务，自己解决问题。 领导者是给大家指方向的，你必须先知道要走哪个方向，才能带领别人，这是领导力的基础。 第二阶段</description>
+    </item>
     
     <item>
       <title>怎么安排酒席上的座位</title>
@@ -246,6 +255,15 @@
     </item>
     
     <item>
+      <title>指导新员工</title>
+      <link>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</link>
+      <pubDate>Wed, 27 Nov 2019 22:29:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</guid>
+      <description>Plantuml源码在此： @startmindmap 指导新员工 + 指导新员工 ++ 1.感谢领导信任 ++ 2.新 +++ 社招 ++++ 老司机 ++++ 菜鸟 +++ 实习生 ++++ 一张白纸 ++ 3.员工 +++ 融入大家庭 ++++ 指</description>
+    </item>
+    
+    <item>
       <title>阶段总结模板</title>
       <link>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</link>
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
@@ -413,7 +431,7 @@
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>after install golden ratio package,let&#39;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
+      <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
     </item>
     
     <item>

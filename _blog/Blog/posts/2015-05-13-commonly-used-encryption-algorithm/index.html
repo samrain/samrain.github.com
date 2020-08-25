@@ -127,14 +127,14 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="1">1.常用密钥算法</h2>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="1常用密钥算法">1.常用密钥算法</h2>
 <p>密钥算法用来对敏感数据、摘要、签名等信息进行加密。</p>
-<h3 id="heading">对称加密算法</h3>
+<h3 id="对称加密算法">对称加密算法</h3>
 <h4 id="desdata-encryption-standard">DES（Data Encryption Standard）</h4>
 <p>数据加密标准，速度较快，适用于加密大量数据的场合</p>
 <h4 id="3destriple-des">3DES（Triple DES）</h4>
 <p>是基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高</p>
-<h4 id="rc2-rc4">RC2和 RC4</h4>
+<h4 id="rc2和-rc4">RC2和 RC4</h4>
 <p>用变长密钥对大量数据进行加密，比 DES 快</p>
 <h4 id="ideainternational-data-encryption-algorithm">IDEA（International Data Encryption Algorithm）</h4>
 <p>国际数据加密算法，使用 128 位密钥提供非常强的安全性</p>
@@ -142,19 +142,19 @@ if (!doNotTrack) {
 <p>用来加密64Bit长度的字符串，它使用变长的密钥，长度可达448位，运行速度很快。</p>
 <h4 id="aesadvanced-encryption-standard">AES（Advanced Encryption Standard）</h4>
 <p>高级加密标准，是下一代的加密算法标准，速度快，安全级别高，目前 AES 标准的一个实现是 Rijndael 算法</p>
-<h3 id="heading-1">不对称加密算法</h3>
+<h3 id="不对称加密算法">不对称加密算法</h3>
 <h4 id="rsa">RSA</h4>
 <p>由 RSA 公司发明，是一个支持变长密钥的公共密钥算法，需要加密的文件快的长度也是可变的</p>
 <h4 id="dsadigital-signature-algorithm">DSA（Digital Signature Algorithm）</h4>
 <p>数字签名算法，是一种标准的 DSS（数字签名标准），经ElGamal算法演变而来。</p>
-<h3 id="heading-2">其它算法</h3>
+<h3 id="其它算法">其它算法</h3>
 <h4 id="elgamal">ElGamal</h4>
 <p>用于数据加密也能用于数字签名
 ####Deffie-Hellman密钥交换(简称DH)
 它可以让双方在完全没有对方任何预先信息的条件下通过不安全信道创建起一个密钥。这个密钥可以在后续的通讯中作为对称密钥来加密通讯内容。
 ####新型椭圆曲线算法ECC
 基于椭圆曲线数学的一种公钥密码的方法。主要优势是在某些情况下它比其他的方法使用更小的密钥——比如RSA加密算法——提供相当的或更高等级的安全。ECC的另一个优势是可以定义群之间的双线性映射，基于Weil对或是Tate对；双线性映射已经在密码学中发现了大量的应用，例如基于身份的加密。不过一个缺点是加密和解密操作的实现比其他机制花费的时间长。</p>
-<h2 id="2">2.单向散列算法</h2>
+<h2 id="2单向散列算法">2.单向散列算法</h2>
 <p>单向散列函数一般用于产生消息摘要，密钥加密等。</p>
 <h3 id="md5message-digest-algorithm-5">MD5（Message Digest Algorithm 5）</h3>
 <p>是RSA数据安全公司开发的一种单向散列算法，MD5被广泛使用，可以用来把不同长度的数据块进行暗码运算成一个128位的数值</p>
@@ -164,7 +164,7 @@ if (!doNotTrack) {
 <p>消息认证代码，是一种使用密钥的单向函数，可以用它们在系统上或用户之间认证文件或消息。HMAC（用于消息认证的密钥散列法）就是这种函数的一个例子。HMAC可以有效防止一些类似md5的彩虹表等攻击，比如一些常见的密码直接MD5存入数据库的，可能被反向破解。</p>
 <h3 id="crccyclic-redundancy-check">CRC（Cyclic Redundancy Check）</h3>
 <p>循环冗余校验码，CRC校验由于实现简单，检错能力强，被广泛使用在各种数据校验应用中。占用系统资源少，用软硬件均能实现，是进行数据传输差错检测地一种很好的手段（CRC 并不是严格意义上的散列算法，但它的作用与散列算法大致相同，所以归于此类）。</p>
-<h2 id="3">3.其它数据算法</h2>
+<h2 id="3其它数据算法">3.其它数据算法</h2>
 <p>包括一些常用编码算法及其与明文（ASCII、Unicode 等）转换等，如 Base 64、Quoted Printable、EBCDIC 等。</p>
 </article>
                         </div>

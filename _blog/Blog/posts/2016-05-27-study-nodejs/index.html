@@ -127,7 +127,7 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="requireexportsmodulea-idorgheadline1a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="每个模块都有requireexportsmodule三个预先定义好的变量可供使用a-idorgheadline1a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <ul>
 <li>require
 <ul>
@@ -147,7 +147,7 @@ if (!doNotTrack) {
     console.log('Hello World!');
 };
 </code></pre>
-<h1 id="a-idorgheadline2a">工程目录<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h1 id="工程目录a-idorgheadline2a">工程目录<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <ul>
 <li>bin</li>
 </ul>
@@ -177,7 +177,7 @@ if (!doNotTrack) {
 </ul>
 <p>说明文件</p>
 <h1 id="npma-idorgheadline7a">NPM<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="a-idorgheadline3a">下载第三方包<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="下载第三方包a-idorgheadline3a">下载第三方包<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>下载后放在了 <code>node_modules</code> 子目录中。如果想要下载指定版本的话，可以在包名后边加上 <code>@&lt;version&gt;</code> 。</p>
 <pre><code>npm install XXX
 </code></pre>
@@ -191,9 +191,9 @@ if (!doNotTrack) {
 }
 </code></pre>
 <p>更重要的是，当以后这个包也上传到了NPM服务器，别人下载这个包时，NPM会根据包中申明的三方包依赖自动下载进一步依赖的三方包，如此一来，用户只需关心自己直接使用的三方包，不需要自己去解决所有包的依赖关系。</p>
-<h2 id="a-idorgheadline4a">安装命令行程序<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="安装命令行程序a-idorgheadline4a">安装命令行程序<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>安装一个命令行程序的方法与三方包类似。</p>
-<h2 id="a-idorgheadline5a">发布代码<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="发布代码a-idorgheadline5a">发布代码<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>第一次使用NPM发布代码前需要注册一个账号。终端下运行`npm adduser`，之后按照提示输入用户名、密码和邮件。</p>
 <p>编辑 <code>package.json</code> :</p>
 <pre><code>&quot;name&quot;: &quot;node-echo&quot;,  # 包名，在NPM服务器上须要保持唯一
@@ -207,14 +207,14 @@ if (!doNotTrack) {
 }
 </code></pre>
 <p>然后就可以在 <code>package.json</code> 所在目录下运行 <code>npm publish</code> 发布代码了。</p>
-<h2 id="a-idorgheadline6a">其他常用命令<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="其他常用命令a-idorgheadline6a">其他常用命令<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p><code>npm help &lt;command&gt;</code> ：查看某条命令的详细帮助
 <code>npm update &lt;package&gt;</code> ： 更新当前目录下node<!-- raw HTML omitted -->modules子目录里边的对应模块<!-- raw HTML omitted -->
 <code>npm update &lt;package&gt; -g</code> ： 更新全局安装的程序
 <code>npm cache clear</code> ：清空NPM本地缓存
 <code>npm unpublish &lt;package&gt;@&lt;version&gt;</code> ：撤销发布过的某个版本代码。</p>
-<h1 id="a-idorgheadline10a">文件操作<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="a-idorgheadline8a">小文件拷贝<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h1 id="文件操作a-idorgheadline10a">文件操作<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="小文件拷贝a-idorgheadline8a">小文件拷贝<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>使用内置的fs模块简单实现copy：</p>
 <pre><code>var fs = require('fs');
 
@@ -232,7 +232,7 @@ main(process.argv.slice(2));
 <blockquote>
 <p>process是一个全局变量，可通过process.argv获得命令行参数。由于 <code>argv[0]</code> 固定等于NodeJS执行程序的绝对路径， <code>argv[1]～ 固定等于主模块的绝对路径，因此第一个命令行参数从 ~argv[2]</code> 这个位置开始。</p>
 </blockquote>
-<h2 id="a-idorgheadline9a">大文件拷贝<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="大文件拷贝a-idorgheadline9a">大文件拷贝<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>上边的程序拷贝一些小文件没啥问题，但这种一次性把所有文件内容都读取到内存中后再一次性写入磁盘的方式不适合拷贝大文件，内存会爆仓。对于大文件，我们只能读一点写一点，直到完成拷贝。因此上边的程序需要改造如下。</p>
 <pre><code>var fs = require('fs');
 
@@ -291,15 +291,15 @@ NodeJS通过fs内置模块提供对文件的操作。fs模块提供的API基本�
 <p>当我们需要根据不同文件扩展名做不同操作时</p>
 </li>
 </ol>
-<h1 id="a-idorgheadline19a">遍历<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h1 id="遍历a-idorgheadline19a">遍历<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <p>目录是一个树状结构，在遍历时一般使用深度优先+先序遍历算法。
 同步遍历和异步遍历</p>
 <blockquote>
 <p>陷阱： 使用递归算法编写的代码虽然简洁，但由于每递归一次就产生一次函数调用，在需要优先考虑性能时，需要把递归算法转换为循环算法，以减少函数调用次数。</p>
 </blockquote>
-<h1 id="a-idorgheadline23a">文本编码<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h1 id="文本编码a-idorgheadline23a">文本编码<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <p>我们常用的文本编码有UTF8和GBK两种，并且UTF8文件还可能带有BOM。在读取不同编码的文本文件时，需要将文件内容转换为JS使用的UTF8编码字符串后才能正常处理。</p>
-<h2 id="boma-idorgheadline20a">BOM的移除<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="bom的移除a-idorgheadline20a">BOM的移除<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>BOM用于标记一个文本文件使用Unicode编码，其本身是一个Unicode字符（&quot;\uFEFF&rdquo;），位于文本文件头部。BOM字符虽然起到了标记文件编码的作用，其本身却不属于文件内容的一部分。以下代码实现了识别和去除UTF8 BOM的功能。</p>
 <pre><code>function readText(pathname) {
     var bin = fs.readFileSync(pathname);
@@ -311,7 +311,7 @@ NodeJS通过fs内置模块提供对文件的操作。fs模块提供的API基本�
     return bin.toString('utf-8');
 }
 </code></pre>
-<h2 id="gbkutf8a-idorgheadline21a">GBK转UTF8<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="gbk转utf8a-idorgheadline21a">GBK转UTF8<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>借助iconv-lite这个三方包来转换编码。使用NPM下载该包后，我们可以按下边方式编写一个读取GBK文本文件的函数。</p>
 <pre><code>var iconv = require('iconv-lite');
 
@@ -321,7 +321,7 @@ function readGBKText(pathname) {
     return iconv.decode(bin, 'gbk');
 }
 </code></pre>
-<h2 id="a-idorgheadline22a">单字节编码<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="单字节编码a-idorgheadline22a">单字节编码<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>如果一个文本文件只包含英文字符，那无论用GBK编码或是UTF8编码读取这个文件都是没问题的。即使一个文本文件中有中文等字符，如果我们需要处理的字符仅在ASCII0~128范围内，比如除了注释和字符串以外的JS代码，我们就可以统一使用单字节编码来读取文件，不用关心文件的实际编码是GBK还是UTF8。这里的诀窍在于，不管大于0xEF的单个字节在单字节编码下被解析成什么乱码字符，使用同样的单字节编码保存这些乱码字符时，背后对应的字节保持不变。
 NodeJS中自带了一种binary编码可以用来实现这个方法：</p>
 <pre><code>function replace(pathname) {
@@ -330,7 +330,7 @@ NodeJS中自带了一种binary编码可以用来实现这个方法：</p>
     fs.writeFileSync(pathname, str, 'binary');
 }
 </code></pre>
-<h1 id="a-idorgheadline24a">网络操作<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h1 id="网络操作a-idorgheadline24a">网络操作<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <p>http官方文档： <a href="http://nodejs.org/api/http.html">http://nodejs.org/api/http.html</a>
 https官方文档： <a href="http://nodejs.org/api/https.html">http://nodejs.org/api/https.html</a></p>
 <p>HTTP请求和响应本质上是一个数据流，由请求头（headers）和请求体（body）组成。</p>

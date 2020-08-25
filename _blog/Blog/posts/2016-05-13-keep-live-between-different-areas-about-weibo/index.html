@@ -127,24 +127,24 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="a-idsec-1-namesec-1a">微博的异地多活经验学习笔记<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="queuea-idsec-1-1-namesec-1-1a">基于业务写消息到Queue<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h2 id="a-idsec-1-2-namesec-1-2a">在线容量评估、分级上线、快速流量均衡等能力<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h2 id="a-idsec-1-3-namesec-1-3a">问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="a-idsec-1-3-1-namesec-1-3-1a">各机房之间的延时<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="微博的异地多活经验学习笔记a-idsec-1-namesec-1a">微博的异地多活经验学习笔记<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="基于业务写消息到queuea-idsec-1-1-namesec-1-1a">基于业务写消息到Queue<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="在线容量评估分级上线快速流量均衡等能力a-idsec-1-2-namesec-1-2a">在线容量评估、分级上线、快速流量均衡等能力<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="问题a-idsec-1-3-namesec-1-3a">问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="各机房之间的延时a-idsec-1-3-1-namesec-1-3-1a">各机房之间的延时<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>这套方案中，每个机房的缓存是完全独立的，由每个机房的Processor（专门负责消息处理的程序，类Storm）根据收到的消息进行缓存更新。由于消息不会重复分发，而且信息完备，所以MytriggerQ方案存在的缓存更新脏数据问题就解决了。而当缓存不存在时，会穿透到MySQL从库，然后进行回种。可能出现的问题是，缓存穿透，但是MySQL从库如果此时出现延迟，这样就会把脏数据种到缓存中。我们的解决方案是做一个延时10分钟的消息队列，然后由一个处理程序来根据这个消息做数据的重新载入。一般从库延时时间不超过10分钟，而10分钟内的脏数据在微博的业务场景下也是可以接受的。</p>
-<h3 id="a-idsec-1-3-2-namesec-1-3-2a">专线费用高昂<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
-<h3 id="a-idsec-1-3-3-namesec-1-3-3a">数据如何同步<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="专线费用高昂a-idsec-1-3-2-namesec-1-3-2a">专线费用高昂<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="数据如何同步a-idsec-1-3-3-namesec-1-3-3a">数据如何同步<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>由于微博对数据库不是强依赖，加上数据库双写的维护成本过大，我们选择的方案是数据库通过主从同步的方式进行。这套方案可能的缺点是如果主从同步慢，并且缓存穿透，这时可能会出现脏数据。</p>
-<h3 id="a-idsec-1-3-4-namesec-1-3-4a">依赖服务部署问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="依赖服务部署问题a-idsec-1-3-4-namesec-1-3-4a">依赖服务部署问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>如同阿里巴巴目前只做了交易单元的“异地双活”，微博部署时也面临核心服务过多依赖小服务的问题。将小服务全部部署，改造成本、维护成本过大，不部署则会遇到之前提到的机房之间延时导致整体性能无法接受的问题</p>
 <p>对微博Feed依赖的主要服务也做了异地多活部署</p>
-<h3 id="a-idsec-1-3-5-namesec-1-3-5a">配套体系改造<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="配套体系改造a-idsec-1-3-5-namesec-1-3-5a">配套体系改造<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>只是服务部署没有流量引入就不能称为“双活”，而要引入流量就要求配套的服务和流程都能支持异地部署，包括预览、发布、测试、监控、降级等都要进行相应改造。</p>
 <p>配套体系需要覆盖整个业务研发周期，包括方案设计阶段的是否要做多机房部署、部署阶段的数据同步、发布预览、发布工具支持、监控覆盖支持、降级工具支持、流量迁移工具支持等方方面面，并需开发、测试、运维都参与进来，将关键点纳入到流程当中。</p>
-<h3 id="a-idsec-1-3-6-namesec-1-3-6a">数据冗余问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="数据冗余问题a-idsec-1-3-6-namesec-1-3-6a">数据冗余问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>微博核心池容量冗余分两个层面来做，前端Web层冗余同用户规模成正比，并预留日常峰值50%左右的冗余度，而后端缓存等资源由于相对成本较低，每个机房均按照整体两倍的规模进行冗余。这样如果某一个机房不可用，首先我们后端的资源是足够的。接着我们首先会只将核心接口进行迁移，这个操作分钟级即可完成，同时由于冗余是按照整体的50%，所以即使所有的核心接口流量全部迁移过来也能支撑住。接下来，我们会把其他服务池的前端机也改为部署核心池前端机，这样在一小时内即可实现整体流量的承接。同时，如果故障机房是负责数据落地的机房，DBA会将从库升为主库，运维调整队列机开关配置，承接数据落地功能。而在整个过程中，由于我们核心缓存可以脱离数据库支撑一个小时左右，所以服务整体会保持平稳。</p>
-<h2 id="a-idsec-1-4-namesec-1-4a">姿势<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="姿势a-idsec-1-4-namesec-1-4a">姿势<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>如果业务请求量比较小，则根本没有必要做异地多活，数据库冷备足够了。</p>
 <p>升级跨机房消息同步组件为跨机房消息同步服务。</p>
 </article>

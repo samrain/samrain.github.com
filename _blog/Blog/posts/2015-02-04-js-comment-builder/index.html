@@ -139,11 +139,11 @@ if (!doNotTrack) {
 <p>标签就是一些以<code>@</code>开头的命令，所有标签用法见<a href="http://usejsdoc.org/#JSDoc3_Tag_Dictionary">这里</a></p>
 <pre><code>jsdoc where-is-js-files
 </code></pre><p>访问<a href="">当前目录下<code>/out/index.html</code></a></p>
-<h2 id="docstrap">使用docstrap美化界面</h2>
+<h2 id="使用docstrap美化界面">使用docstrap美化界面</h2>
 <p><a href="https://github.com/terryweiss/docstrap">官网在此</a>，下载地址<a href="https://github.com/terryweiss/docstrap/archive/master.zip">戳这里</a></p>
-<h3 id="docstrap-1">配置docstrap</h3>
+<h3 id="配置docstrap">配置docstrap</h3>
 <p>修改文件<code>docstrap/template/jsdoc.conf.json</code>，文件在此：<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h3 id="heading">编写首页内容</h3>
+<h3 id="编写首页内容">编写首页内容</h3>
 <p>保存到README.md文件。（必须是md文件）</p>
 <pre><code>## why
 让更多的人一起来做自己喜欢的网站
@@ -153,7 +153,7 @@ if (!doNotTrack) {
 
 ## how
 js
-</code></pre><h3 id="tutorials">制作tutorials</h3>
+</code></pre><h3 id="制作tutorials">制作tutorials</h3>
 <p>放其它的描述文档，比如总体介绍，背景说明，示例文档等。</p>
 <p>必须先创建一个目录（名称不限，例子中用<code>tutorials</code>），然后把上述文档转成md文件后复制进改目录。（原则上所有扩展名为xml，xhtml，html，htm，md的文件都可以。）</p>
 <p>最后生成的页面上会增加新菜单<code>tutorials</code>，菜单项默认是文件名。如果想要重新命名，那么必须要在这个目录下新建同名json文件，例如<code>README.json</code>,内容为</p>
@@ -169,7 +169,7 @@ js
 	&quot;b&quot;: {&quot;title&quot;:&quot;测试B&quot;}}
 }
 }
-</code></pre><h3 id="heading-1">生成帮助文档</h3>
+</code></pre><h3 id="生成帮助文档">生成帮助文档</h3>
 <p>运行以下命令后访问<a href="">当前目录下<code>/out/index.html</code></a>：</p>
 <pre><code>jsdoc where-is-js-files README.md -t where-is-docstrap/template -c where-is-docstrap/template/jsdoc.conf.json -u where-is-js-files/turorials
 </code></pre></article>

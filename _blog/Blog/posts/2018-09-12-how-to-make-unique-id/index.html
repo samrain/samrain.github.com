@@ -127,7 +127,7 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="1-">1. 数据库自增长序列或字段</h2>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="1-数据库自增长序列或字段">1. 数据库自增长序列或字段</h2>
 <p>最常见的方式。利用数据库，全数据库唯一。</p>
 <p>优点：</p>
 <ul>
@@ -193,7 +193,7 @@ if (!doNotTrack) {
 </li>
 </ul>
 <hr>
-<h2 id="3-redisid">3. Redis生成ID</h2>
+<h2 id="3-redis生成id">3. Redis生成ID</h2>
 <p>比较适合使用Redis来生成每天从0开始的流水号。比如订单号=日期+当日自增长号。可以每天在Redis中生成一个Key，使用INCR进行累加。这主要依赖于Redis是单线程的，所以也可以用生成全局唯一的ID。可以用Redis的原子操作 INCR和INCRBY来实现。可以使用Redis集群来获取更高的吞吐量。</p>
 <p>优点：</p>
 <ul>
@@ -214,7 +214,7 @@ if (!doNotTrack) {
 </li>
 </ul>
 <hr>
-<h2 id="4-twittersnowflake">4. Twitter的snowflake算法</h2>
+<h2 id="4-twitter的snowflake算法">4. Twitter的snowflake算法</h2>
 <p>snowflake是Twitter开源的分布式ID生成算法，结果是一个long型的ID。其核心思想是：使用41bit作为毫秒数，10bit作为机器的ID（5个bit是数据中心，5个bit的机器ID），12bit作为毫秒内的流水号（意味着每个节点在每毫秒可以产生 4096 个 ID），最后还有一个符号位，永远是0。具体实现的代码可以参看 <a href="https://github.com/twitter/snowflake">https://github.com/twitter/snowflake</a>。</p>
 <p>snowflake算法可以根据自身项目的需要进行一定的修改。比如估算未来的数据中心个数，每个数据中心的机器数以及统一毫秒可以能的并发数来调整在算法中所需要的bit数。</p>
 <p>优点：</p>
@@ -231,11 +231,11 @@ if (!doNotTrack) {
 <li>在单机上是递增的，但是由于涉及到分布式环境，每台机器上的时钟不可能完全同步，也许有时候也会出现不是全局递增的情况。</li>
 </ul>
 <hr>
-<h2 id="5-zookeeperid">5. 利用zookeeper生成唯一ID</h2>
+<h2 id="5-利用zookeeper生成唯一id">5. 利用zookeeper生成唯一ID</h2>
 <p>zookeeper主要通过其znode数据版本来生成序列号，可以生成32位和64位的数据版本号，客户端可以使用这个版本号来作为唯一的序列号。</p>
 <p>很少会使用zookeeper来生成唯一ID。主要是由于需要依赖zookeeper，并且是多步调用API，如果在竞争较大的情况下，需要考虑使用分布式锁。因此，性能在高并发的分布式环境下，也不甚理想。</p>
 <hr>
-<h2 id="6-mongodbobjectid">6. MongoDB的ObjectId</h2>
+<h2 id="6-mongodb的objectid">6. MongoDB的ObjectId</h2>
 <p>MongoDB的ObjectId和snowflake算法类似。它设计成轻量型的，不同的机器都能用全局唯一的同种方法方便地生成它。MongoDB 从一开始就设计用来作为分布式数据库，处理多个节点是一个核心要求。使其在分片环境中要容易生成得多。</p>
 </article>
                         </div>

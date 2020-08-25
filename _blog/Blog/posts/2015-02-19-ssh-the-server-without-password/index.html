@@ -132,7 +132,7 @@ if (!doNotTrack) {
 <h2 id="what">What</h2>
 <p>可以给每台机器定义一个别名, 并且让系统帮你记住对应的用户名和密码, 只需要输入<code>ssh XXX</code>就能登录。</p>
 <h2 id="how">How</h2>
-<h3 id="1-">1. 生成本地密钥</h3>
+<h3 id="1-生成本地密钥">1. 生成本地密钥</h3>
 <pre><code>ssh-keygen -t rsa -C &quot;xxx@mail.com&quot;
 </code></pre><p>之后一直回车到底。
 生成后应该是这样的：</p>
@@ -140,17 +140,17 @@ if (!doNotTrack) {
 </code></pre><blockquote>
 <p>id_rsa  id_rsa.pub  known_hosts</p>
 </blockquote>
-<h3 id="2-">2. 定义服务器别名和配置登录账号</h3>
+<h3 id="2-定义服务器别名和配置登录账号">2. 定义服务器别名和配置登录账号</h3>
 <p>在目录<code>~/.ssh</code>创建文件config，并定义服务器名和配置登录账号</p>
 <pre><code>echo Host test &gt;&gt; config
 echo HostName x.x.x.x  &gt;&gt; config
 echo User username &gt;&gt; config
 </code></pre><p>Host是别名, HostName 是主机名或IP, User是用户名。</p>
 <p>如果有多个服务器，请换行后按照顺序增加下去。</p>
-<h3 id="3-">3. 在服务器上注册</h3>
+<h3 id="3-在服务器上注册">3. 在服务器上注册</h3>
 <pre><code>ssh-copy-id test
 </code></pre><p>输入密码即可。</p>
-<h2 id="ssh-test">以后只要<code>ssh test</code>就能登录服务器了。</h2>
+<h2 id="以后只要ssh-test就能登录服务器了">以后只要<code>ssh test</code>就能登录服务器了。</h2>
 </article>
                         </div>
                     </div>

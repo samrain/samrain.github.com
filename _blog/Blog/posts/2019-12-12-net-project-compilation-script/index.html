@@ -127,26 +127,26 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="-compile">编译整体项目 compile</h2>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2 id="编译整体项目-compile">编译整体项目 compile</h2>
 <pre><code>call %dir-of-bat%%filename-of-get-last-version%
 call %dir-of-bat%%filename-of-clean-sln%
 call %dir-of-bat%%filename-of-rebulid-sln%
 
-</code></pre><h2 id="-get-last-version">获取最新代码 get-last-version</h2>
+</code></pre><h2 id="获取最新代码-get-last-version">获取最新代码 get-last-version</h2>
 <pre><code>call &quot;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&quot;
 tf get %dir-of-code% /recursive
-</code></pre><h2 id="-clean-sln">清理工程 clean-sln</h2>
+</code></pre><h2 id="清理工程-clean-sln">清理工程 clean-sln</h2>
 <pre><code>msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
 
-</code></pre><h2 id="-rebulid-sln">重新编译工程 rebulid-sln</h2>
+</code></pre><h2 id="重新编译工程-rebulid-sln">重新编译工程 rebulid-sln</h2>
 <pre><code>MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
-</code></pre><h2 id="heading">发布工程</h2>
+</code></pre><h2 id="发布工程">发布工程</h2>
 <pre><code>msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild;ResolveReferences;_CopyWebApplication /p:Configuration=Release /p:OutDir=%dir-of-deploy%%name-of-project% /fl /flp:errorsonly;Append;logfile=%filename-of-log%
 
 del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-pdb%
 
 del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-nlog%
-</code></pre><h2 id="heading-1">发布网站</h2>
+</code></pre><h2 id="发布网站">发布网站</h2>
 <pre><code>aspnet_compiler /nologo -f -c -v /%name-of-project% -p %dir-of-code%%name-of-project% %dir-of-deploy%%name-of-project%
 
 del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
