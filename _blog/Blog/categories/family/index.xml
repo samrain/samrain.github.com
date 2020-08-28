@@ -6,10 +6,19 @@
     <description>Recent content in family on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2020 18:11:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 01:05:23 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/family/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在Linux上安装HL-1218w的驱动</title>
+      <link>https://www.samrainhan.com/posts/2020-08-27-install-hl-1218w-driver-on-linux/</link>
+      <pubDate>Fri, 28 Aug 2020 01:05:23 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2020-08-27-install-hl-1218w-driver-on-linux/</guid>
+      <description>在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default &amp;ldquo;Download&amp;rdquo; directory. (The directory location varies depending on your Linux distribution.) e.g. /home/(LoginName)/Download Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.</description>
+    </item>
     
     <item>
       <title>HIIT</title>
