@@ -6,10 +6,19 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Dec 2020 23:30:03 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Dec 2020 23:33:20 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>常用linux网络工具命令</title>
+      <link>https://www.samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</link>
+      <pubDate>Sat, 12 Dec 2020 23:33:20 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</guid>
+      <description>常用linux网络工具命令</description>
+    </item>
     
     <item>
       <title>新员工指导工作一览</title>
