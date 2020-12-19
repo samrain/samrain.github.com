@@ -7,4 +7,4 @@ draft = false
 +++
 # 团队管理要求
 
-To Do
+[![](https://pic.downk.cc/item/5fddbf593ffa7d37b37c24b9.png)](https://pic.downk.cc/item/5fddbf593ffa7d37b37c24b9.png)

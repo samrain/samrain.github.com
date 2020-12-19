@@ -170,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    501
+                    519
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -187,18 +187,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-28-webfont/">webfont</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/">清除SqlServer AlwaysOn日志</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            英文 比较适合用webfont webfont比较小，一共就26个字母，几十K 中文 比较适合用本地字体 webfont比较大，几M 挑出本页面上用到的
+                            --dbName为数据库名 use dbName BACKUP LOG dbName To DISK = N'nul' go dbcc shrinkfile(dbName_log,0, TRUNCATEONLY) go dbcc shrinkdatabase(dbName,0, TRUNCATEONLY) go
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-28" class="no-wrap"
-                                title="Modifyd at 2016/07/28">
-                                July 28, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-30" class="no-wrap"
+                                title="Modifyd at 2018/06/30">
+                                June 30, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -207,18 +207,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-27-some-excerpts/">一些摘录</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/">QQ 微信和WPS在移动端的协作场景</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            把宝押在人身上而不是想法上 最有效地缩短生产周期的方法就是压缩在制品数量。 我们应该去理解为什么他们会提出这样的需求，而不是着急着去寻找解决方案
+                            和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-27" class="no-wrap"
-                                title="Modifyd at 2016/07/27">
-                                July 27, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-29" class="no-wrap"
+                                title="Modifyd at 2018/06/29">
+                                June 29, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -227,18 +227,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-26-my-online-library/">我的网上图书馆</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/">《国家电子文件管理十三五规划》节选</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            http://115.29.194.28:52687/ http://115.29.194.28:52687/mobile 用户名：guest 密码：ibook
+                            ![《国家电子文件管理十三五规划》节选] (https://dn-samrain.qbox.me/%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86&amp;amp;quot;%E5%8D%81%E4%B8%89%E4%BA%94&amp;amp;quot;%E8%A7%84%E5%88%92.png)
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-26" class="no-wrap"
-                                title="Modifyd at 2016/07/26">
-                                July 26, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-29" class="no-wrap"
+                                title="Modifyd at 2018/06/29">
+                                June 29, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -247,18 +247,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">整理SqlServer表上索引碎片</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-05-list-of-regular-saas/">常用SAAS服务</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =
+                            常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-25" class="no-wrap"
-                                title="Modifyd at 2016/07/25">
-                                July 25, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-05" class="no-wrap"
+                                title="Modifyd at 2018/06/05">
+                                June 5, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -267,18 +267,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">避免URL中出现JSESSIONID</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/">Tips of Installing Net Framework 462 in WinServ2012</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            修改 web.xml &lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;
+                            需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-24" class="no-wrap"
-                                title="Modifyd at 2016/07/24">
-                                July 24, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-05" class="no-wrap"
+                                title="Modifyd at 2018/06/05">
+                                June 5, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -287,18 +287,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-23-praise-children/">赞美孩子</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-04-tips-of-bmw-x5-key/">BMW X5 遥控钥匙 使用技巧</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            你付出努力，你该得到它 你一定会为自己感到骄傲 你对此感觉如何 你自己能找到解决问题的方法 我相信你的判断
+                            只要按压遥控钥匙按钮，车窗和玻璃天窗就会打开。 只要按压遥控钥匙按钮，车窗和玻璃天窗就会关闭。收折外后视镜。 按压遥控器按钮约1秒钟。无论在此之
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-23" class="no-wrap"
-                                title="Modifyd at 2016/07/23">
-                                July 23, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-04" class="no-wrap"
+                                title="Modifyd at 2018/06/04">
+                                June 4, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -307,18 +307,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/">站点发布时序图</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/">How to Design the Product Site</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            
+                            左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-22" class="no-wrap"
-                                title="Modifyd at 2016/07/22">
-                                July 22, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-04" class="no-wrap"
+                                title="Modifyd at 2018/06/04">
+                                June 4, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -327,18 +327,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Linux系统下设置静态IP</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/"> 摘自-明《修龄要指》</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下
+                            人的脸要常常用手摩擦，头发多加梳理以防止脱发和发白。 两眼时常转动则眼有光彩和灵活。 耳常注意倾听，日久则听觉灵敏。 齿常叩击以利固齿。口宜常闭以
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-21" class="no-wrap"
-                                title="Modifyd at 2016/07/21">
-                                July 21, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-04" class="no-wrap"
+                                title="Modifyd at 2018/06/04">
+                                June 4, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -347,18 +347,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Emacs 添加一条org</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/">How to Publish My Blog</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            M-X org-add-note
+                            博客流水线
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-20" class="no-wrap"
-                                title="Modifyd at 2016/07/20">
-                                July 20, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-02" class="no-wrap"
+                                title="Modifyd at 2018/06/02">
+                                June 2, 2018</relative-time>
                         </div>
                     </div>
                 </li>
@@ -367,18 +367,18 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/">检查ADFS服务是否有效</a>
+                                <a href="https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/">2017 Gartner Magic Quadrant for Content Collaboration Platforms</a>
                             </h3>
                         </div>
 
                         <div name="posts-post">
-                            https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx
+                            本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&amp;ct=170725
                         </div>
 
                         <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2016-07-19" class="no-wrap"
-                                title="Modifyd at 2016/07/19">
-                                July 19, 2016</relative-time>
+                            Updated <relative-time datetime="2018-06-02" class="no-wrap"
+                                title="Modifyd at 2018/06/02">
+                                June 2, 2018</relative-time>
                         </div>
                     </div>
                 </li>
