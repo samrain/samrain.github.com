@@ -6,10 +6,19 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Jan 2021 13:54:58 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 16:08:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>月度总结模板</title>
+      <link>https://www.samrainhan.com/posts/2021-01-25-monthly-summary-template/</link>
+      <pubDate>Mon, 25 Jan 2021 16:08:00 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-01-25-monthly-summary-template/</guid>
+      <description>月度总结模板 1. 业绩（完成了哪些） 三要事 KPI 其他做的特别突出的事情 2. 亮点 3. 问题 4. 未来</description>
+    </item>
     
     <item>
       <title>Linux下查看文件和文件夹大小</title>
