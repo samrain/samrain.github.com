@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Jan 2021 16:46:57 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jan 2021 17:29:53 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>信息、技能、知识、能力、思维</title>
+      <link>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</link>
+      <pubDate>Tue, 26 Jan 2021 17:29:53 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</guid>
+      <description>信息、技能、知识、能力、思维 @startuml title 数据-&amp;gt;信息:工具收集 信息-&amp;gt;技能:模板和练习 信息-&amp;gt;知识:归纳总结，实践出真知 知识-&amp;g</description>
+    </item>
     
     <item>
       <title>四轮面试准则</title>
