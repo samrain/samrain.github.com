@@ -6,10 +6,19 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 Jan 2021 18:25:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2021 19:03:28 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>巡检要求</title>
+      <link>https://www.samrainhan.com/posts/2021-01-30-inspection-requirements/</link>
+      <pubDate>Sat, 30 Jan 2021 19:03:28 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-01-30-inspection-requirements/</guid>
+      <description>巡检要求 检查各主机cpu、内存、硬盘使用情况 检查系统日志中有无明显报错（特别需关注是否出现过OOM） 检查mysql、es、nsq、redis</description>
+    </item>
     
     <item>
       <title>数据商业化</title>
