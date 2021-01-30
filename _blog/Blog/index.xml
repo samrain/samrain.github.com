@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Jan 2021 17:16:34 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jan 2021 18:25:33 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>数据商业化</title>
+      <link>https://www.samrainhan.com/posts/2021-01-28-data-commercialization/</link>
+      <pubDate>Thu, 28 Jan 2021 18:25:33 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-01-28-data-commercialization/</guid>
+      <description>数据商业化 数据商业化三要素：数据源、人、场景，他们的巨大的变化才有数据产品的诞生机会，数据品牌的诞生机会。 数据本身没有价值，应用了数据的场景</description>
+    </item>
     
     <item>
       <title>深度工作</title>
