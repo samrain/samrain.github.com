@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 30 Jan 2021 19:48:35 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2021 20:07:08 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>生产环境升级须知</title>
+      <link>https://www.samrainhan.com/posts/2021-01-25-instructions-for-upgrading-the-production-environment/</link>
+      <pubDate>Sat, 30 Jan 2021 20:07:08 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-01-25-instructions-for-upgrading-the-production-environment/</guid>
+      <description>生产环境升级须知 准备相同的测试环境 回退机制万无一失 部署手册研究透 翻车后立即组织总结和分享，否则暂停所有同类型部署工作</description>
+    </item>
     
     <item>
       <title>员工成长报告</title>
