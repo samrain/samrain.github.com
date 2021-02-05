@@ -10,11 +10,11 @@ draft = false
 
 ## 在一个界面上按照横向分割窗口
 
-```vsplit 'filename': opens a vertical split with filename. If no filename is provided, a vertical split is opened with an empty buffer.```
+```vsplit 'filename'```
 
 ## 在一个界面上按照纵向分割窗口
 
-```hsplit 'filename': same as vsplit but opens a horizontal split instead of a vertical split.```
+```hsplit 'filename'```
 
 ## 安装filemanager插件，显示目录树
 ```tree```
