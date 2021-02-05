@@ -15,4 +15,4 @@ https://plantuml.com/zh/
 - 在弹出界面》选择目录》自动生成PNG文件
 
 # 命令行转成png
-- 执行以下命令```java -jar plantuml.jar -tpng /home/helloworl```
+- 执行以下命令```java -jar plantuml.jar -tpng /home/helloworld```

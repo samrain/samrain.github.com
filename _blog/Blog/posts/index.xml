@@ -6,10 +6,19 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:29:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 14:50:34 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>plantuml使用技巧</title>
+      <link>https://www.samrainhan.com/posts/2021-02-03-plantuml-tips/</link>
+      <pubDate>Wed, 03 Feb 2021 14:50:34 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-02-03-plantuml-tips/</guid>
+      <description>官网 https://plantuml.com/zh/ 可视化转成png 执行以下命令java -jar plantuml.jar -gui 在弹出界面》选择目录》自动生成PNG文件 命令行转成png 执行以下命令java -jar plantuml.jar -tpng /home/helloworld</description>
+    </item>
     
     <item>
       <title>买股票就是买公司</title>
