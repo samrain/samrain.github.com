@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Feb 2021 15:29:33 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 15:53:23 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>值班打包</title>
+      <link>https://www.samrainhan.com/posts/2021-02-05-pack-on-duty/</link>
+      <pubDate>Fri, 05 Feb 2021 15:53:23 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-02-05-pack-on-duty/</guid>
+      <description>值班打包 从今天开始，每天由一位值班同学总负责打包 值班工作 看前一天的遗留问题，并立即着手处理 周一必须处理完上周遗留问题 每天4次固定时间去查看商</description>
+    </item>
     
     <item>
       <title>Micro使用心得</title>

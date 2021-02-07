@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Feb 2021 15:29:33 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 15:53:23 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>打包,值班</title>
+      <link>https://www.samrainhan.com/tags/%E6%89%93%E5%8C%85%E5%80%BC%E7%8F%AD/</link>
+      <pubDate>Fri, 05 Feb 2021 15:53:23 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E6%89%93%E5%8C%85%E5%80%BC%E7%8F%AD/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>编辑器,命令行</title>
