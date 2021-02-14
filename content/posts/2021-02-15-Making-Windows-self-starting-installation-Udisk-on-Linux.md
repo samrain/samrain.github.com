@@ -8,7 +8,7 @@ draft = false
 
 # 在Linux上制作Windows自启动安装U盘
 
-## 官网：https://github.com/WoeUSB/WoeUSB
+## [官网在此](https://github.com/WoeUSB/WoeUSB)
 
 ## Features
 - Support Legacy PC/UEFI booting
@@ -19,8 +19,8 @@ draft = false
 - Any language or edition variants
 - Windows PE
 ## Run
-- 下载程序（https://github.com/WoeUSB/WoeUSB/releases）
+- 下载程序(https://github.com/WoeUSB/WoeUSB/releases)
 - 添加运行权限
-``` chmod +x path/to/woeusb-5.0.4.bash  ```
+``` chmod +x path/woeusb-5.0.4.bash  ```
 - 做启动U盘
-``` sudo ./woeusb-5.0.4.bash --device /home/xxx/windows_10.iso /dev/sda  ```
+``` sudo path/woeusb-5.0.4.bash --device /home/xxx/windows_10.iso /dev/sda  ```
