@@ -23,4 +23,4 @@ draft = false
 - 添加运行权限
 ``` chmod +x path/woeusb-5.0.4.bash  ```
 - 做启动U盘
-``` sudo path/woeusb-5.0.4.bash --device /home/xxx/windows_10.iso /dev/sda  ```
+``` sudo path/woeusb-5.0.4.bash --device /xxx/windows_10.iso /dev/sda  ```
