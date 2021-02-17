@@ -6,10 +6,37 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Feb 2021 14:51:14 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 21:26:56 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>客户成功经理</title>
+      <link>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</link>
+      <pubDate>Mon, 15 Feb 2021 21:26:56 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</guid>
+      <description>客户成功经理 CSM定义 Customer Success Manager：客户成功经理（指负责客户成功的基层同事），简称CSM。 大多数的销售模式大多数采用的是销售＋客户服务</description>
+    </item>
+    
+    <item>
+      <title>运维工程师笔试题目</title>
+      <link>https://www.samrainhan.com/posts/2021-02-15-written-questions-for-operation-and-maintenance-engineers/</link>
+      <pubDate>Mon, 15 Feb 2021 16:23:43 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-02-15-written-questions-for-operation-and-maintenance-engineers/</guid>
+      <description>运维工程师笔试题目 一、简答题（共50分） 列出常见的 Linux 发行版及其包管理工具。 列出常见的容器编排软件。 列出常见的开源存储系统。 列出常见的监控工具</description>
+    </item>
+    
+    <item>
+      <title>话术-现场面试 服务商</title>
+      <link>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-service-provider/</link>
+      <pubDate>Mon, 15 Feb 2021 16:15:30 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-service-provider/</guid>
+      <description>话术-现场面试 服务商 第一阶段 寒暄 简短自我介绍 问对方如何评价自己，特点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 离职原因，除第一份工</description>
+    </item>
     
     <item>
       <title>话术-现场面试 实习生</title>

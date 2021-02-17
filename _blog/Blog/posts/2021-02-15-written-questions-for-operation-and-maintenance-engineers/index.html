@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet"
+        href="https://www.samrainhan.com/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all"
+        rel="stylesheet" href="https://www.samrainhan.com/css/github.css" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>运维工程师笔试题目 - sam的小窝</title>
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://www.samrainhan.com/images/favicon.ico">
+    <meta name="theme-color" content="#1e2327">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-37708730-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <div class="Header-item d-none d-lg-flex">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div
+            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
+                aria-expanded="false">
+                <div class="position-relative">
+                </div>
+            </div>
+        </div>
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
+            <a class="Header-link" href="https://www.samrainhan.com/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+            <details class="details-overlay details-reset">
+                <summary class="Header-link" aria-label="View profile and more"
+                    data-ga-click="Header, show menu, icon:avatar">
+                    
+                    <img alt="" class="avatar" src="https://www.samrainhan.com/images/avatar.png" height="20" width="20">
+                    
+                </summary>
+            </details>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main id="js-repo-pjax-container" data-pjax-container="">
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="mb-3 d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <a class="avatar mr-1" href="https://www.samrainhan.com/about/">
+                            
+                                <img
+                                    src="https://www.samrainhan.com/images/avatar.png" width="26" height="26">
+                            
+                            </a>
+                            <span class="author"><a
+                                    href="https://www.samrainhan.com/">韩雨</a></span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="https://www.samrainhan.com/posts/2021-02-15-written-questions-for-operation-and-maintenance-engineers/">运维工程师笔试题目</a></strong>
+
+                            <div class="d-block text-small text-gray">
+                                Created <time-ago datetime="2021-02-15" class="no-wrap"
+                                    title="Created at 2021/02/15">
+                                    2021-02-15</time-ago>
+                                <span class="file-info-divider"></span>
+                                Modifyed <time-ago datetime="2021-02-15" class="no-wrap"
+                                    title="Modifyed  at 2021/02/15">
+                                    2021-02-15</time-ago>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+                <div class="repository-content ">
+                    <div class="Box mt-3 position-relative">
+                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                                1621 Words
+                                
+                            </div>
+                        </div>
+
+                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="运维工程师笔试题目">运维工程师笔试题目</h1>
+<h2 id="一简答题共50分">一、简答题（共50分）</h2>
+<ol>
+<li>列出常见的 Linux 发行版及其包管理工具。</li>
+<li>列出常见的容器编排软件。</li>
+<li>列出常见的开源存储系统。</li>
+<li>列出常见的监控工具。</li>
+<li>列出常见的持续集成工具。</li>
+<li>常用的远程登录 Linux 服务器的工具有哪些？</li>
+<li>你用过或者知道那些虚拟机管理软件？</li>
+<li>查看服务器的基本信息：a）逻辑 cpu 个数；b）内存大小；c）品牌型号；d）内核版本；e）发行版名称版本号；</li>
+<li>Every command fails with command not found. How to trace the source of the error and resolve it?</li>
+<li>找出当前目录下大于 1G 的日志文件并删除。</li>
+<li>如何查看服务器的 RAID 级别？如何查看服务器的物理硬盘数量和容量？</li>
+<li>Linux 系统新增了一块硬盘（/dev/sdb），请将其格式化为 xfs 系统并挂载到 /data。</li>
+<li>假设 /dev/sdb1 挂载到 /data1 上，当 /dev/sdb1 故障时，/data1 目录可能会成为根目录（/）下的一个普通文件夹，此时数据继续写入会导致根目录被占满，如何避免这种情况。</li>
+<li>服务器重启之后 ping 不通了，有可能是什么原因？如何解决？</li>
+<li>使用 Vim 完成以下任务：a）新建，更新，保存文件；b）查找替换关键词；c）复制行，删除行，跳转行。</li>
+<li>如何设置 nameserver？某个业务的域名即将迁移到新的 IP，如何事先测试域名用新 IP 是否正常工作？</li>
+<li>请列出常见的应用层协议及其默认端口。</li>
+<li>如何检测远程主机的 80 端口是否开放？</li>
+<li>找出 9099 端口被什么进程占用。</li>
+<li>常见 HTTP 状态码及其含义。</li>
+<li>域名解析有哪些类型？有什么工具可以检测域名解析是否生效？什么是泛解析？举例说明使用 CNAME 解析有什么好处？</li>
+<li>Kubernetes 是一个流行的容器编排工具，其网络模型的基本原则是为每个  Pod（容器组，Kubernetes  管理容器的最小单位）分配一个唯一的 IP 地址，集群中所有 Pod 能够通过 Pod IP 直接互相访问。现需要规划一个 Kubernetes 集群，每个节点分配一个掩码为 /24 的 IP 段，要求至少满足 25400 个 Pod 的需求，并且不能使用宿主机的 10.0.0.0/8 网段，请给出最小网段规划。请使用命令行统计各 TCP 状态的数量。How to check default route and routing table?</li>
+<li>docker 镜像仓库允许提交重复的 tag，为了防止提交了重复的 tag，计划使用代码库（git）的 tag 作为 docker 镜像的 tag， 如果代码库没有 tag，则用 revision id 做为镜像 tag，比如，一个镜像的 tag 可能是 v1.3-738-g1211a2e。请写一个Makeﬁle 实现此需求。</li>
+</ol>
+<h2 id="二工程题40分">二、工程题（40分）</h2>
+<ol>
+<li>假设服务器 root 密码管理存在以下问题：a) 所有服务器使用少数几个 root 密码；b) root 密码基本不变更；c) root 密码未加密存储，并且会被有些同事直接记录到 wiki 上；d) 有同事直接使用 root 账号登录，难以审计。请设计一个 root 密码管理方案，实现 root 密码的随机生成，加密存储及限制查询和使用。（提示：可以考虑使用 gpg 加密 root 密码）1. 请简单描述搭建一个有独立域名，支持 HTTPS 的网站的流程。</li>
+<li>假如客户反馈调取后端接口时特别慢，你会如何排查？</li>
+<li>有一个程序，功能是发起 http 请求探测 url 是否存活，运行一段时间后会报 cannot assign requested address错误，查看监控发现运行该程序的服务器有大量 close-wait 状态，可能是什么原因？如何解决？</li>
+<li>Kubernetes 中，Ingress Nginx 对容器网络有很强的依赖性，如果容器网络中断，Nginx Upstream 将全部超时，影响范围很大。已知在服务器重启时，Calico（Kubernetes 网络插件）需要几分钟的时间来恢复容器网络，但是 Ingress  Pod 却可以在数十秒内启动。因此有必要在机器重启时检测容器网络是否正常，不正常则应禁止该节点处理流量。现计划在开机时执行一个 Shell 脚本来检测容器网络，检测不通过则使用 iptables 关闭 80，443 端口，直到容器网络正常之后再删除相应 iptables 规则。请编写该脚本并说明部署方式。已知满足以下 2 条，则认为容器网络正常：a）ip route |grep bird |wc -l 应 大 于 1；b）dig @169.169.0.2 +time=1 kubernetes.default.svc.cluster.local 应正常响应。此方案只解决了 Ingress 问题，对于业务容器，如依赖 CoreDNS，则仍然会受影响。如果你有更好的方案，可以直接回答你的方案。（提示：此问题涉及的三方：业务 Pod，网络插件，Kubernetes，谁是问题根源？最好由谁来解决此问题？）</li>
+</ol>
+<h2 id="三职业规划10分">三、职业规划（10分）</h2>
+<ol>
+<li>请谈谈你对运维工程师这个职位的认识？为这个职位做过什么准备？你认为你擅长的哪些知识、技能或能力能够帮助你胜      任此职位？</li>
+</ol>
+</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
+        </ul>
+
+        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://www.samrainhan.com/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
+                aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://www.samrainhan.com/js/frameworks.js"></script>
+
+<script crossorigin="anonymous" async="async"
+    type="application/javascript" src="https://www.samrainhan.com/js/github-bootstrap.js"></script>
+<script>
+    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
+    const pinned_posts = document.getElementsByName('pinned-post');
+    for (let i = 0; i < pinned_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = pinned_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
+    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
+    const posts_posts = document.getElementsByName('posts-post');
+    for (let i = 0; i < posts_posts.length; i++) {
+        for (let j = 0; j < classs.length; j++) {
+            const ps = posts_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
+        }
+    }
+</script>
+</body>
+
+</html>

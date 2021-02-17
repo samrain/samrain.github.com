@@ -170,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    542
+                    547
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -182,6 +182,106 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = 'USER_TABLE' AND i.type_desc = 'HEAP' ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/">持续发布的各个阶段</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Dropbox的用户密码加密机制</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            1.检查是否符合编码标准的工具 FxCop，StyleCop和ReSharper 2.静态分析工具 Coverity，Sonar，CAT.NET和
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-12" class="no-wrap"
+                                title="Modifyd at 2018/09/12">
+                                September 12, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -273,106 +373,6 @@ if (!doNotTrack) {
 
                         <div name="posts-post">
                             list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">更新SQLServer存储过程的脚本模版</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and OBJECTPROPERTY(id, N'IsProcedure') = 1) DROP PROCEDURE [dbo].[存储过程名]
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/">让您的屏幕在黑白和彩色之间自由切换</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            Ctrl + WindowsKey + C 可以让您的屏幕在黑白和彩色之间自由切换
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-list-to-go-abroad/">出国物品清单</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            牙刷（非电动）牙膏 牙套 酒精片 肥皂 香皂 洗手皂 卷筒纸 抽纸 湿纸巾 床单 睡袋 随身充电器 车载充电器 充电宝×2 随身听 书 画本 雨伞/雨披 防水鞋 毛线帽 手套 隐形眼
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
-                                title="Modifyd at 2018/09/11">
-                                September 11, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">产品经理的核心价值是什么</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。
                         </div>
 
                         <div class="f6 text-gray mt-2">
