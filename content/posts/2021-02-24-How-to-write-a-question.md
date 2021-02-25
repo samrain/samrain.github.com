@@ -1,8 +1,8 @@
 +++
-title = "2021 02 24 How to Write a Question"
+title = "怎么写问题"
 date = 2021-02-24T15:07:05+08:00
-tags = [""]
-categories = [""]
+tags = ["问题"]
+categories = ["work"]
 draft = false
 +++
 
