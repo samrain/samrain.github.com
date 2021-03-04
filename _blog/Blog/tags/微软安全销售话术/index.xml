@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微软,安全,销售,话术 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%BE%AE%E8%BD%AF%E5%AE%89%E5%85%A8%E9%94%80%E5%94%AE%E8%AF%9D%E6%9C%AF/</link>
+    <description>Recent content in 微软,安全,销售,话术 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 02 Mar 2021 11:14:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E5%BE%AE%E8%BD%AF%E5%AE%89%E5%85%A8%E9%94%80%E5%94%AE%E8%AF%9D%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>微软针对安全产品的销售话术</title>
+      <link>https://www.samrainhan.com/posts/2021-03-02-microsoft-sales-tactics-for-security-products/</link>
+      <pubDate>Tue, 02 Mar 2021 11:14:43 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-03-02-microsoft-sales-tactics-for-security-products/</guid>
+      <description>微软针对安全产品的销售话术 主管们应向其信息安全团队提出的5个问题： 对你而言，使用非认可云服务有多常见？ 我们是否正保护自己免受内部威胁？ 我们是</description>
+    </item>
+    
+  </channel>
+</rss>
