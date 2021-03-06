@@ -170,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    557
+                    558
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -182,6 +182,26 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">更新SQLServer存储过程的脚本模版</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and OBJECTPROPERTY(id, N'IsProcedure') = 1) DROP PROCEDURE [dbo].[存储过程名]
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2018-09-11" class="no-wrap"
+                                title="Modifyd at 2018/09/11">
+                                September 11, 2018</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -359,26 +379,6 @@ if (!doNotTrack) {
                             Updated <relative-time datetime="2018-06-05" class="no-wrap"
                                 title="Modifyd at 2018/06/05">
                                 June 5, 2018</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/">How to Design the Product Site</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2018-06-04" class="no-wrap"
-                                title="Modifyd at 2018/06/04">
-                                June 4, 2018</relative-time>
                         </div>
                     </div>
                 </li>
