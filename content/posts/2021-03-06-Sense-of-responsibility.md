@@ -1,8 +1,8 @@
 +++
-title = "2021 03 06 Sense of Responsibility"
+title = "责任感"
 date = 2021-03-06T20:11:29+08:00
-tags = [""]
-categories = [""]
+tags = ["责任感"]
+categories = ["work"]
 draft = false
 +++
 
