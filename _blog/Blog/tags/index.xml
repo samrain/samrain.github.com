@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Mar 2021 21:14:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Mar 2021 23:49:41 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>面试</title>
+      <link>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95/</link>
+      <pubDate>Fri, 12 Mar 2021 23:49:41 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SCQA</title>
@@ -233,15 +242,6 @@
       <pubDate>Mon, 15 Feb 2021 16:10:25 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/tags/%E7%A0%94%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AC%94%E8%AF%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>面试</title>
-      <link>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95/</link>
-      <pubDate>Mon, 15 Feb 2021 14:51:14 +0800</pubDate>
-      
-      <guid>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95/</guid>
       <description></description>
     </item>
     

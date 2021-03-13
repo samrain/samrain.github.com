@@ -170,7 +170,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://www.samrainhan.com/posts/">
                 Posts
                 <span class="Counter hide-lg hide-md hide-sm">
-                    563
+                    564
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://www.samrainhan.com/about/">
@@ -182,6 +182,26 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">.NET项目编译脚本</a>
+                            </h3>
+                        </div>
+
+                        <div name="posts-post">
+                            编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &quot;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&quot; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2019-12-12" class="no-wrap"
+                                title="Modifyd at 2019/12/12">
+                                December 12, 2019</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -359,26 +379,6 @@ if (!doNotTrack) {
                             Updated <relative-time datetime="2019-11-26" class="no-wrap"
                                 title="Modifyd at 2019/11/26">
                                 November 26, 2019</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://www.samrainhan.com/posts/2019-11-25-team-maturity-model/">团队成熟度模型</a>
-                            </h3>
-                        </div>
-
-                        <div name="posts-post">
-                            
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2019-11-25" class="no-wrap"
-                                title="Modifyd at 2019/11/25">
-                                November 25, 2019</relative-time>
                         </div>
                     </div>
                 </li>
