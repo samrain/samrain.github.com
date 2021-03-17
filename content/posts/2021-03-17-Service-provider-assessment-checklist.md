@@ -1,7 +1,7 @@
 +++
 title = "服务商考核清单"
 date = 2021-03-17T22:52:03+08:00
-tags = ["服务商,考核,清单]
+tags = ["服务商,考核,清单"]
 categories = ["work"]
 draft = false
 +++
