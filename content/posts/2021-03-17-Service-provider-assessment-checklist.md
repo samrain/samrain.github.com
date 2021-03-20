@@ -7,6 +7,7 @@ draft = false
 +++
 # 服务商考核清单
 
+[![服务商考核清单](https://img.imgdb.cn/item/60444242cef1ec5e6f9c8eee.png)](https://img.imgdb.cn/item/60444242cef1ec5e6f9c8eee.png)
 ```
 @startmindmap 服务商考核清单
 
@@ -63,5 +64,3 @@ endlegend
 
 @endmindmap
 ```
-
-[![服务商考核清单](https://img.imgdb.cn/item/60444242cef1ec5e6f9c8eee.png)](https://img.imgdb.cn/item/60444242cef1ec5e6f9c8eee.png)
