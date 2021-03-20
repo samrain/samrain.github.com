@@ -1,7 +1,7 @@
 +++
 title = "扩大swap大小"
 date = 2021-03-20T23:45:59+08:00
-tags = ["linux,swap]
+tags = ["linux,swap"]
 categories = ["study"]
 draft = false
 +++
