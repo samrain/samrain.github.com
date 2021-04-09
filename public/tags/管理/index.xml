@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>管理 on sam的小窝</title>
@@ -6,7 +6,7 @@
     <description>Recent content in 管理 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2019 13:43:07 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/tags/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
@@ -112,10 +112,10 @@
     
     <item>
       <title>大型网站群的建设及管理模式</title>
-      <link>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</link>
+      <link>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</link>
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</guid>
+      <guid>http://samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site-management-model/</guid>
       <description>中国企业的信息化建设自20世纪90年代开始，域名（网站）、企业邮箱、OA是企业信息化的起步点，随着拨号上网用户的增加，以及1999-2001</description>
     </item>
     

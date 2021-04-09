@@ -1,0 +1,63 @@
+<article class="list__item post clearfix">
+	{{- if .Params.thumbnail }}
+	<figure class="list__thumbnail">
+		<a href="{{ .Permalink }}">
+			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" />
+		</a>
+	</figure>
+	{{- end }}
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a></h2>
+				{{- if not .Date.IsZero }}
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "2006-01-02" }}</time>
+				</a>
+				{{- if ne .Date .Lastmod }}
+				<a rel="bookmark">
+					<time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05" }}">(Last Modified: {{.Lastmod.Format ( .Site.Params.dateformat | default "2006-01-02" )}})</time>
+				</a>
+				{{- end }}
+				</div>
+				{{- end }}
+		</header>
+
+		<div class="post-excerpt"><p>
+			{{ .Summary }} 
+
+			{{- if .Site.Params.readmore }}
+			{{- if .Truncated }}
+			<a href="{{ .RelPermalink }}" class="more-link">Read more</a>
+			{{- end }}
+			{{- end }}
+		</p></div>
+	</div>
+	
+	<footer class="post-footer">
+		{{ $categories := .Params.categories }}
+		{{ $all_categories := .Site.Taxonomies.categories }}
+		{{ with $categories }}
+		<span class="post-categories">
+			{{- range $all_categories -}}
+				{{ if in $categories .Page.Title }}
+				<a href="{{- .Page.Permalink -}}">{{ .Page.Title }}</a>&emsp;
+				{{ end }}
+			{{- end }}
+		</span>
+		{{ end }}
+
+		{{ $tags := .Params.tags }}
+		{{ $all_tags := .Site.Taxonomies.tags }}
+		{{ with $tags }}
+		<span class="post-tags">
+			{{- range $all_tags -}}
+				{{ if in $tags .Page.Title }}
+				<a href="{{- .Page.Permalink -}}">{{ .Page.Title }}</a>&emsp;
+				{{ end }}
+			{{- end }}
+		</span>
+		{{ end }}
+	</footer>
+
+</article>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>同步 on sam的小窝</title>
@@ -35,7 +35,7 @@
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-10-rsync-client-script/</guid>
-      <description>1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
+      <description># 1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
     </item>
     
     <item>

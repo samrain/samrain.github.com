@@ -1,15 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Family on sam的小窝</title>
+    <title>family on sam的小窝</title>
     <link>http://samrainhan.com/categories/family/</link>
-    <description>Recent content in Family on sam的小窝</description>
+    <description>Recent content in family on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Dec 2019 11:15:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Mar 2021 17:14:49 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/categories/family/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>三阶魔方复原笔记</title>
+      <link>http://samrainhan.com/posts/2021-03-08-three-order-rubik-cube-recovery-notes/</link>
+      <pubDate>Mon, 08 Mar 2021 17:14:49 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-03-08-three-order-rubik-cube-recovery-notes/</guid>
+      <description>三阶魔方复原笔记 形成黄心白花 形成白十字 按照以下顺序完成第一层棱块，蓝 红 绿 橙 第一层复原，包含白色角块，转到另外2种颜色交接处，白色要在侧面，且</description>
+    </item>
+    
+    <item>
+      <title>初中辅导书</title>
+      <link>http://samrainhan.com/posts/2021-02-19-junior-high-school-tutorial/</link>
+      <pubDate>Fri, 19 Feb 2021 14:39:49 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-02-19-junior-high-school-tutorial/</guid>
+      <description>初中辅导书 数学 《五年中考三年模拟》 《B卷必刷》 物理化学 《尖子生学案》 英语 人教社的《教材解读》 数理化 《培优新方法》 数理化英 薛金星的《初中基础知</description>
+    </item>
+    
+    <item>
+      <title>常用小家电</title>
+      <link>http://samrainhan.com/posts/2021-02-18-commonly-used-small-appliances/</link>
+      <pubDate>Thu, 18 Feb 2021 14:55:36 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-02-18-commonly-used-small-appliances/</guid>
+      <description>常用小家电 空气净化器 洗碗机 消毒柜 电饭煲 电蒸锅 微波炉 智能马桶盖 宽带路由器 电风扇 净水器 挂烫机 干衣机 饮水机 热水壶 吸尘器 榨汁机+料理机 净饮机</description>
+    </item>
+    
+    <item>
+      <title>戒除忧虑</title>
+      <link>http://samrainhan.com/posts/2021-02-16-get-rid-of-worries/</link>
+      <pubDate>Tue, 16 Feb 2021 23:31:52 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-02-16-get-rid-of-worries/</guid>
+      <description>戒除忧虑 保持忙碌，不让自己有忧虑的时间。 不要为琐事烦恼。要记住：“人生短暂，莫为琐事所累。” 查查记录，然后问自己担心的这件事情发生的概率有多</description>
+    </item>
+    
+    <item>
+      <title>一年四季蔬菜到底什么时候吃最新鲜</title>
+      <link>http://samrainhan.com/posts/2021-01-24-when-are-the-freshest-vegetables-to-eat-all-year-round/</link>
+      <pubDate>Sun, 24 Jan 2021 13:42:25 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-01-24-when-are-the-freshest-vegetables-to-eat-all-year-round/</guid>
+      <description>一年四季蔬菜到底什么时候吃最新鲜 表格文件在此，可筛选： https://kdocs.cn/l/scleTmJBQxHP</description>
+    </item>
+    
+    <item>
+      <title>一年四季蔬菜到底什么时候吃最新鲜</title>
+      <link>http://samrainhan.com/posts/2020-12-12-when-are-the-freshest-vegetables-to-eat-all-year-round/</link>
+      <pubDate>Sat, 12 Dec 2020 23:22:57 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-12-12-when-are-the-freshest-vegetables-to-eat-all-year-round/</guid>
+      <description>一年四季蔬菜到底什么时候吃最新鲜 表格文件在此，可筛选： https://kdocs.cn/l/scleTmJBQxHP</description>
+    </item>
+    
+    <item>
+      <title>在Linux上安装HL-1218w的驱动</title>
+      <link>http://samrainhan.com/posts/2020-08-27-install-hl-1218w-driver-on-linux/</link>
+      <pubDate>Fri, 28 Aug 2020 01:05:23 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-08-27-install-hl-1218w-driver-on-linux/</guid>
+      <description>在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default &amp;ldquo;Download&amp;rdquo; directory. (The directory location varies depending on your Linux distribution.) e.g. /home/(LoginName)/Download Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.</description>
+    </item>
+    
+    <item>
+      <title>HIIT</title>
+      <link>http://samrainhan.com/posts/2020-08-25-hiit/</link>
+      <pubDate>Tue, 25 Aug 2020 18:11:43 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-08-25-hiit/</guid>
+      <description>HIIT 热身 3分钟，6个动作，每个30秒 开合跳 纵跳 门式拉伸 摆胯 后弓步背部拉伸 毛虫式爬行 1分钟，休息 正式 4分钟，8个动作，每个20秒后休息10秒 波比</description>
+    </item>
+    
+    <item>
+      <title>中国名山</title>
+      <link>http://samrainhan.com/posts/2020-08-10-famous-mountains-in-china/</link>
+      <pubDate>Mon, 10 Aug 2020 13:55:34 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-08-10-famous-mountains-in-china/</guid>
+      <description>中国名山 三山 黄山 庐山 雁荡山 五岳 东岳泰山 南岳衡山 西岳华山 北岳恒山 中岳嵩山 古北岳大茂山 古南岳天柱山 佛教五大名山 五台山 峨眉山 普陀山 九华山 梵净山 道教</description>
+    </item>
+    
+    <item>
+      <title>江浙沪皖周边徒步线路</title>
+      <link>http://samrainhan.com/posts/2020-08-06-hiking-routes-around-jiangsu-zhejiang-shanghai-and-anhui/</link>
+      <pubDate>Thu, 06 Aug 2020 20:55:30 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-08-06-hiking-routes-around-jiangsu-zhejiang-shanghai-and-anhui/</guid>
+      <description>@startmindmap 江浙沪皖周边徒步线路 + 江浙沪皖周边徒步线路 ++ 四季 +++ 莫干山 ++++ 全程：10KM，约5-6H ++++ 走一段竹林小径（tao）（piao）进入莫干山景区，</description>
+    </item>
     
     <item>
       <title>.NET项目编译脚本</title>

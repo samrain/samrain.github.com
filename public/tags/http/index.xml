@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Http on sam的小窝</title>
+    <title>http on sam的小窝</title>
     <link>http://samrainhan.com/tags/http/</link>
-    <description>Recent content in Http on sam的小窝</description>
+    <description>Recent content in http on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 20 Jun 2016 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;rdquo;://&amp;ldquo;; url+=request.getHeader(&amp;ldquo;host&amp;rdquo;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;ldquo;?&amp;rdquo;+request.getQueryString();</description>
+      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-04-26-install-httpload/</guid>
-      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load.gz cd http_load make &amp;amp;&amp;amp; sudo make install</description>
+      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load*.gz cd http_load* make &amp;amp;&amp;amp; sudo make install</description>
     </item>
     
     <item>

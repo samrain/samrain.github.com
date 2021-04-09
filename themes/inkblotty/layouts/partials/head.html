@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>{{ .Title }}{{ if ne .Title .Site.Title}} - {{ .Site.Title }}{{end}}</title>
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    {{ if (fileExists "static/favicon.ico") -}}
+    <link rel='icon' href="/favicon.ico" />
+    {{- end }}
+    <link rel='stylesheet' href='{{ "css/style.css" | relURL }}' type='text/css' media='all' />
+    <link rel='stylesheet' href='{{ "css/custom.css" | relURL }}' type='text/css' media='all' />
+    <link rel='stylesheet' href='{{ "css/syntax.css" | relURL }}' type='text/css' media='all' />
+    <link rel='stylesheet' href='{{ "css/toc.css" | relURL }}' type='text/css' media='all' />
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+</head>

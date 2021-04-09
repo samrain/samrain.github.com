@@ -1,15 +1,141 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study on sam的小窝</title>
+    <title>study on sam的小窝</title>
     <link>http://samrainhan.com/categories/study/</link>
-    <description>Recent content in Study on sam的小窝</description>
+    <description>Recent content in study on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Dec 2019 17:34:18 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 11:58:21 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/categories/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>小米供应链</title>
+      <link>http://samrainhan.com/posts/2021-03-31-xiaomi-supply-chain/</link>
+      <pubDate>Wed, 31 Mar 2021 11:58:21 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-03-31-xiaomi-supply-chain/</guid>
+      <description>小米供应链 7大重要组成部分 品牌 供应链 渠道 投融资 品质要求 产品定义 工业设计 产品发展方向 手机 》手机周边 》智能硬件 》生活耗材</description>
+    </item>
+    
+    <item>
+      <title>扩大swap大小</title>
+      <link>http://samrainhan.com/posts/2021-03-20-resize-swap/</link>
+      <pubDate>Sat, 20 Mar 2021 23:45:59 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-03-20-resize-swap/</guid>
+      <description>扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m</description>
+    </item>
+    
+    <item>
+      <title>智力题</title>
+      <link>http://samrainhan.com/posts/2021-03-01-puzzle/</link>
+      <pubDate>Mon, 01 Mar 2021 11:28:29 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-03-01-puzzle/</guid>
+      <description>智力题 简单 烧一根不均匀的绳，从头烧到尾总共需要1个小时。现在有若干条材质相同的绳子，问如何用烧绳的方法来计时一个小时十五分钟呢？ 答：点两个绳</description>
+    </item>
+    
+    <item>
+      <title>高盛奉行的业务原则</title>
+      <link>http://samrainhan.com/posts/2021-02-25-goldman-sachs-business-principles/</link>
+      <pubDate>Thu, 25 Feb 2021 12:23:02 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-02-25-goldman-sachs-business-principles/</guid>
+      <description>高盛奉行的业务原则 客户利益永远至上。我们的经验表明，只要对客户尽心服务，成功就会随之而来。 我们最重要的三大财富是员工、资本和声誉。如三者之中</description>
+    </item>
+    
+    <item>
+      <title>买股票就是买公司</title>
+      <link>http://samrainhan.com/posts/2021-01-31-buying-stocks-is-buying-companies/</link>
+      <pubDate>Sun, 31 Jan 2021 22:29:50 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-01-31-buying-stocks-is-buying-companies/</guid>
+      <description>买股票就是买公司 我自己认为的，这个行业的“终局”在哪？ 这个公司的核心团队认为“终局”在哪？ 我们的想法有什么不同？</description>
+    </item>
+    
+    <item>
+      <title>深度工作</title>
+      <link>http://samrainhan.com/posts/2021-01-27-deep-work/</link>
+      <pubDate>Wed, 27 Jan 2021 17:16:34 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-01-27-deep-work/</guid>
+      <description>深度工作 想要在社会经济中保持价值，就必须掌握快速学习复杂技能的艺术，它需要深度工作。 4大原则 原则 1：关注点放到极端重要的事情上 原则 2：抓住引</description>
+    </item>
+    
+    <item>
+      <title>信息、技能、知识、能力、思维</title>
+      <link>http://samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</link>
+      <pubDate>Tue, 26 Jan 2021 17:29:53 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</guid>
+      <description>信息、技能、知识、能力、思维 @startuml title 数据-&amp;gt;信息:工具收集 信息-&amp;gt;技能:模板和练习 信息-&amp;gt;知识:归纳总结，实践出真知 知识-&amp;g</description>
+    </item>
+    
+    <item>
+      <title>WPS办公云平台</title>
+      <link>http://samrainhan.com/posts/2020-01-01-wps-office-cloud-platform/</link>
+      <pubDate>Tue, 21 Jan 2020 23:34:49 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-01-wps-office-cloud-platform/</guid>
+      <description>WPS办公云平台 重要合作伙伴 高校 金智教育 赛尔网络 大型企业 新华三 华为 目标 提供数字工作空间和智能工作助理，帮助企业实现数字化转型。 版本 个人版 提供</description>
+    </item>
+    
+    <item>
+      <title>合作/协作</title>
+      <link>http://samrainhan.com/posts/2020-01-01-difference-between-cooperation-and-collaboration/</link>
+      <pubDate>Tue, 21 Jan 2020 23:18:52 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-01-difference-between-cooperation-and-collaboration/</guid>
+      <description>合作/协作 合作 共同 新型的社会整合模式 协作 协议 近代工业社会分工-协作模式</description>
+    </item>
+    
+    <item>
+      <title>靠墙训练</title>
+      <link>http://samrainhan.com/posts/2020-01-01-exercise-against-the-wall/</link>
+      <pubDate>Tue, 21 Jan 2020 23:17:05 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-01-exercise-against-the-wall/</guid>
+      <description>腿部力量训练 靠墙静蹲 单腿靠墙静蹲 对墙下蹲 抱头下蹲 扶墙单腿半蹲 扶墙高抬腿 单脚提踵 练完拉伸 大腿后群拉伸 大腿前群拉伸 小腿拉伸 髋前部拉伸 臀肌拉伸 背部</description>
+    </item>
+    
+    <item>
+      <title>ANEW学习公式</title>
+      <link>http://samrainhan.com/posts/2020-01-01-anew-learning-formula/</link>
+      <pubDate>Tue, 21 Jan 2020 23:16:06 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-01-anew-learning-formula/</guid>
+      <description>ANEW学习公式 强烈的愿望 对自己的认识 无尽的好奇心 从低开始</description>
+    </item>
+    
+    <item>
+      <title>新媒体写作是干嘛的？是制造内容的</title>
+      <link>http://samrainhan.com/posts/2020-01-02-what-does-new-media-writing-do/</link>
+      <pubDate>Tue, 21 Jan 2020 23:04:26 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-02-what-does-new-media-writing-do/</guid>
+      <description>新媒体写作是干嘛的？是制造内容的。 内容是什么？是一种时间解决方案。 时间解决方案又分两种，一种为用户省时间，一种帮用户杀时间。 不管你写什么，你</description>
+    </item>
+    
+    <item>
+      <title>如何搭建用户运营体系</title>
+      <link>http://samrainhan.com/posts/2020-01-01-how-to-build-a-user-operation-system/</link>
+      <pubDate>Tue, 21 Jan 2020 23:02:45 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2020-01-01-how-to-build-a-user-operation-system/</guid>
+      <description>如何搭建用户运营体系 1、对我们产品用户进行精细分层级。 2、制定相应的用户模型（RFM模型的应用） 3、根据定好模型，进行相应用户数据的收集。 4</description>
+    </item>
+    
+    <item>
+      <title>传递产品价值</title>
+      <link>http://samrainhan.com/posts/2019-12-24-passing-product-value/</link>
+      <pubDate>Tue, 24 Dec 2019 22:40:02 +0800</pubDate>
+      
+      <guid>http://samrainhan.com/posts/2019-12-24-passing-product-value/</guid>
+      <description>传递产品价值 价值主张 how Product Target market Primary benefit What makes it unique what 客户应该怎样定位我们 构成 认同需求，引起客户的同理 产品/方案组成 与众不同 证明实力 when 客户拜访的开场白 电</description>
+    </item>
     
     <item>
       <title>stepps 疯传</title>
@@ -98,7 +224,7 @@
       <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description></description>
+      <description>博客流水线</description>
     </item>
     
   </channel>

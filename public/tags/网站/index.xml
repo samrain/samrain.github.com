@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站 on sam的小窝</title>
@@ -6,7 +6,7 @@
     <description>Recent content in 网站 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Jun 2018 14:27:55 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 18:28:32 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,7 +26,7 @@
       <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description></description>
+      <description>博客流水线</description>
     </item>
     
     <item>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sqlserver on sam的小窝</title>
+    <title>sqlserver on sam的小窝</title>
     <link>http://samrainhan.com/tags/sqlserver/</link>
-    <description>Recent content in Sqlserver on sam的小窝</description>
+    <description>Recent content in sqlserver on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 30 Jun 2018 14:30:17 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 20:23:16 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,7 +35,7 @@
       <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
-      <description>&amp;ndash; %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
+      <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
     </item>
     
   </channel>

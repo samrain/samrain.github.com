@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on sam的小窝</title>
+    <title>linux on sam的小窝</title>
     <link>http://samrainhan.com/tags/linux/</link>
-    <description>Recent content in Linux on sam的小窝</description>
+    <description>Recent content in linux on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Mar 2021 23:45:59 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
@@ -98,7 +98,7 @@
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2015-02-10-common-linux-operating/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>

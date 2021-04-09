@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Office on sam的小窝</title>
+    <title>office on sam的小窝</title>
     <link>http://samrainhan.com/tags/office/</link>
-    <description>Recent content in Office on sam的小窝</description>
+    <description>Recent content in office on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 Jun 2019 02:02:54 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2019 23:12:31 +0800</lastBuildDate>
     
 	<atom:link href="http://samrainhan.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
     

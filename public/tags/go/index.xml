@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on sam的小窝</title>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
       
       <guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description></description>
+      <description>博客流水线</description>
     </item>
     
   </channel>

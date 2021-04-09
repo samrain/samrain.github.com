@@ -1,0 +1,45 @@
+<div class="sidebar1 widgets columns-1">
+
+    {{ partial "sidebar_top.html" }}
+    <aside class="widget widget_categories">
+        <h2>{{ T "categories_title" }}</h2>
+        <ul class="widget__list">
+            {{- range $name, $items := .Site.Taxonomies.categories -}}
+            <li class="cat-item cat-item-2">
+                <a href="{{- .Page.Permalink -}}">{{ .Page.Title }} ({{ $items.Count }})</a>
+            </li>
+            {{- end }}
+        </ul>
+    </aside>
+
+    <aside class="widget widget_tag_cloud">
+        <h2>{{ T "tags_title" }}</h2>
+        <div class="tagcloud">
+            {{- range $name, $items := .Site.Taxonomies.tags -}}
+            <a class="tag-cloud-link" href="{{- .Page.Permalink -}}" title="{{ $name }}" style="font-size: 12pt;">{{ .Page.Title }}</a>&emsp;
+            {{- end }}
+        </div>
+    </aside>
+
+    <aside class="widget widget_recent_entries">
+        <h2>{{ T "recent_posts_title" }}</h2>
+        <ul>
+            {{- $recent_articles_num := (.Site.Params.widgets.recent_articles_num | default 10) }}
+            {{- range first $recent_articles_num (where .Site.RegularPages "Section" "in" (.Site.Params.postSections | default (slice "post"))) }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{- end }}
+        </ul>
+    </aside>
+
+    <aside class="widget widget_archive">
+        <h2>{{ T "archives_title" }}</h2>
+        <ul>
+            {{- range $name, $items := .Site.Taxonomies.archives -}}
+            <li><a href="{{- .Page.Permalink -}}">{{ .Page.Title }} ({{ $items.Count }})</a></li>
+            {{- end }}
+        </ul>
+    </aside>
+
+</div>

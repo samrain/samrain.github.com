@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Citrix on sam的小窝</title>
+    <title>citrix on sam的小窝</title>
     <link>http://samrainhan.com/tags/citrix/</link>
-    <description>Recent content in Citrix on sam的小窝</description>
+    <description>Recent content in citrix on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate>
@@ -26,7 +26,7 @@
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
-      <description>xe vm-export vm=&amp;ldquo;192.168.25.20(GUR)&amp;rdquo; filename=20.xva</description>
+      <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
     </item>
     
   </channel>
