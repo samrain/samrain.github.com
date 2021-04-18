@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 15 Apr 2021 09:29:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Apr 2021 23:26:15 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>服务半径预估</title>
+      <link>https://www.samrainhan.com/posts/2021-04-16-service-radius-estimation/</link>
+      <pubDate>Fri, 16 Apr 2021 23:26:15 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-04-16-service-radius-estimation/</guid>
+      <description>服务半径预估 密集城市中车辆平均速度不超过20公里/小时。 密集城市中1小时内能到达的面积=π * 20 * 20=1257 如果一个城市面积是X，那么需要的服务人员最</description>
+    </item>
     
     <item>
       <title>公司鄙视链</title>
