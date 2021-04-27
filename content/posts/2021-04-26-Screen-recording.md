@@ -6,6 +6,8 @@ categories = ["work"]
 draft = false
 +++
 
-# win和mac电脑可以试一下：https://www.cockos.com/licecap/
-# linux电脑用这个：https://github.com/phw/peek/releases
+# win和mac电脑可以试一下
+https://www.cockos.com/licecap/
+# linux电脑用这个
+https://github.com/phw/peek/releases
 # 手机用本机自带录屏即可
