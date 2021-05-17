@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>报告 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</link>
+    <description>Recent content in 报告 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 16 May 2021 14:54:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>单页报告</title>
+      <link>https://www.samrainhan.com/posts/2021-05-17-single-page-report/</link>
+      <pubDate>Sun, 16 May 2021 14:54:04 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-05-17-single-page-report/</guid>
+      <description>单页报告 无论是多么重要、多么冗长的报告，都要将结论及其三条最重要的理由归纳出来，写在第一页纸上。</description>
+    </item>
+    
+  </channel>
+</rss>
