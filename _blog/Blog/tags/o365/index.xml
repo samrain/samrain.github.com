@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O365 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/o365/</link>
+    <description>Recent content in O365 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 May 2021 11:10:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/o365/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O365优势</title>
+      <link>https://www.samrainhan.com/posts/2021-05-20-o365-advantage/</link>
+      <pubDate>Thu, 20 May 2021 11:10:51 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-05-20-o365-advantage/</guid>
+      <description>O365优势 释放创造力：大量支持手写，语音等新的形式进行人机交互，有越来越多的智能化组件简化工作 强化协作圈：从以往分散的基于邮件或文件的协作</description>
+    </item>
+    
+  </channel>
+</rss>
