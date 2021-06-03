@@ -1,8 +1,8 @@
 +++
-title = "2021 06 03 Point Recording Method"
+title = "点子记录法"
 date = 2021-06-03T15:06:54+08:00
-tags = [""]
-categories = [""]
+tags = ["点子,记录"]
+categories = ["study"]
 draft = false
 +++
 点子记录法是就某一课题，按照“书写点子、解释说明”两个步骤一共进行三组操作。具体顺序如下所述：
