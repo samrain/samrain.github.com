@@ -6,10 +6,19 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 May 2021 23:48:26 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jun 2021 08:46:13 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>矩阵,模型</title>
+      <link>https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Tue, 01 Jun 2021 08:46:13 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>模型,评估</title>
