@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>点子,记录 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%82%B9%E5%AD%90%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 点子,记录 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Jun 2021 15:06:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E7%82%B9%E5%AD%90%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>点子记录法</title>
+      <link>https://www.samrainhan.com/posts/2021-06-03-point-recording-method/</link>
+      <pubDate>Thu, 03 Jun 2021 15:06:54 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-06-03-point-recording-method/</guid>
+      <description>点子记录法是就某一课题，按照“书写点子、解释说明”两个步骤一共进行三组操作。具体顺序如下所述： 3分钟内，完成第1页纸的书写（＝为何会失败）。</description>
+    </item>
+    
+  </channel>
+</rss>
