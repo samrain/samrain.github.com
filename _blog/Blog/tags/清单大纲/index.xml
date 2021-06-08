@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>清单,大纲 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%B8%85%E5%8D%95%E5%A4%A7%E7%BA%B2/</link>
+    <description>Recent content in 清单,大纲 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Jun 2021 13:23:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.samrainhan.com/tags/%E6%B8%85%E5%8D%95%E5%A4%A7%E7%BA%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>为什么要列大纲</title>
+      <link>https://www.samrainhan.com/posts/2021-06-07-why-is-there-an-outline/</link>
+      <pubDate>Mon, 07 Jun 2021 13:23:23 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-06-07-why-is-there-an-outline/</guid>
+      <description>为什么要列大纲 工作效率高的人在开始工作之前就已经厘清了成品（书面资料）的整体构架。随后，他们会重点搜集和分析其中必不可少的信息。 而工作效率低</description>
+    </item>
+    
+  </channel>
+</rss>

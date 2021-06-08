@@ -6,10 +6,19 @@
     <description>Recent content in Categories on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Jun 2021 09:41:34 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jun 2021 13:23:23 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>study</title>
+      <link>https://www.samrainhan.com/categories/study/</link>
+      <pubDate>Mon, 07 Jun 2021 13:23:23 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/categories/study/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>work</title>
@@ -17,15 +26,6 @@
       <pubDate>Fri, 04 Jun 2021 09:41:34 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/categories/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>study</title>
-      <link>https://www.samrainhan.com/categories/study/</link>
-      <pubDate>Thu, 03 Jun 2021 15:08:58 +0800</pubDate>
-      
-      <guid>https://www.samrainhan.com/categories/study/</guid>
       <description></description>
     </item>
     
