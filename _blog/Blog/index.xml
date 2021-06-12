@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Jun 2021 13:52:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jun 2021 16:03:12 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>服务商分类</title>
+      <link>https://www.samrainhan.com/posts/2021-06-11-service-provider-classification/</link>
+      <pubDate>Fri, 11 Jun 2021 16:03:12 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-06-11-service-provider-classification/</guid>
+      <description>服务商分类 软件开发商（ISV） 系统集成商（SI） 增值分销商（VAR） 新一代云服务商（CSP） 在CSP中有两种模式，一种是客户在合作伙伴处直接</description>
+    </item>
     
     <item>
       <title>招聘基本要求</title>
