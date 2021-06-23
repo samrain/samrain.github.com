@@ -6,4 +6,5 @@ categories = ["study"]
 draft = false
 +++
 # ubuntu-mate 制作启动项，用终端运行编辑器micro
-``` mate-terminal --hide-menubar --maximize  -t "Micro" --working-directory=~/下载 -x micro ~/下载/tmp.md
+
+    mate-terminal --hide-menubar --maximize  -t "Micro" --working-directory=~/下载 -x micro ~/下载/tmp.md
