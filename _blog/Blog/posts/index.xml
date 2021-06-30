@@ -6,10 +6,19 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Jun 2021 11:59:58 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 09:04:55 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>国内快递去米国的选择</title>
+      <link>https://www.samrainhan.com/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</link>
+      <pubDate>Wed, 23 Jun 2021 09:04:55 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</guid>
+      <description>国内快递去米国的选择 建议采取邮政渠道或者商业快件渠道 参考 1. 商业快件服务 200克的文件，无论是UPS，Fedex ，DHL，价格都在280人民币</description>
+    </item>
     
     <item>
       <title>ubuntu-mate 制作启动项，用终端运行编辑器micro</title>
