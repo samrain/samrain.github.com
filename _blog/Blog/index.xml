@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Jul 2021 11:20:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jul 2021 12:15:57 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怎样在UOS上操作WPS时能显示雅黑字体</title>
+      <link>https://www.samrainhan.com/posts/2021-07-02-how-to-display-black-fonts-when-operating-wps-on-uos/</link>
+      <pubDate>Fri, 02 Jul 2021 12:15:57 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-07-02-how-to-display-black-fonts-when-operating-wps-on-uos/</guid>
+      <description>怎样在UOS上操作WPS时能显示雅黑字体 在Windows的fonts目录找到雅黑字体文件，然后复制到UOS上； 在UOS启动命令行切换root</description>
+    </item>
     
     <item>
       <title>金句</title>
