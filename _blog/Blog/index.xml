@@ -6,10 +6,19 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 Jul 2021 14:09:36 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jul 2021 22:59:09 +0800</lastBuildDate>
     
 	<atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>模板-每周用户进展</title>
+      <link>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</link>
+      <pubDate>Mon, 26 Jul 2021 22:59:09 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</guid>
+      <description>1.用户推广概况 用户名 人数 电脑数 MAU 2.上周遗留问题进展 问题简述 Deadline 负责人 进展 是否解决 3.本周进展 目标 Deadline 负责人 是否完成 未完成的原因 4.本周遗留问</description>
+    </item>
     
     <item>
       <title>团队管理小招数</title>
