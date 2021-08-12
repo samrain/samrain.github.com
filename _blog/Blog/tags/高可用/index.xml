@@ -6,11 +6,7 @@
     <description>Recent content in 高可用 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E9%AB%98%E5%8F%AF%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%AB%98%E5%8F%AF%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Server High Availability Solution</title>
       <link>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</link>

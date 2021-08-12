@@ -6,11 +6,7 @@
     <description>Recent content in Win8 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/win8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/win8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AutoHotkey如何在Win8上正常使用</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</link>

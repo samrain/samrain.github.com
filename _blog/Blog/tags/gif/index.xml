@@ -6,11 +6,7 @@
     <description>Recent content in gif on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/gif/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 25 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/gif/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>视频转gif的js库</title>
       <link>https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/</link>

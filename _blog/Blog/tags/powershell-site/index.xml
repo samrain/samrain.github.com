@@ -6,11 +6,7 @@
     <description>Recent content in PowerShell, site on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Sep 2018 21:00:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/powershell-site/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 10 Sep 2018 21:00:21 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/powershell-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎么在PowerShell中启停站点</title>
       <link>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</link>

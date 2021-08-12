@@ -6,11 +6,7 @@
     <description>Recent content in cookie on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 15 Jul 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设置cookie为HttpOnly</title>
       <link>https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</link>

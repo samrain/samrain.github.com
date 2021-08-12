@@ -6,11 +6,7 @@
     <description>Recent content in Linux,Windows,自启动,安装,U盘 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Feb 2021 00:19:34 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Feb 2021 00:19:34 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Linux上制作Windows自启动安装U盘</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</link>

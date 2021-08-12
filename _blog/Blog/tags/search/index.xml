@@ -6,11 +6,7 @@
     <description>Recent content in search on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何用搜索引擎搜索文档呢?</title>
       <link>https://www.samrainhan.com/posts/2016-04-19-search-file-by-search-site/</link>
@@ -35,7 +31,7 @@
       <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</guid>
-      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;rdquo; 强制搜索在文字前添加加号</description>
+      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;quot; 强制搜索在文字前添加加号+</description>
     </item>
     
   </channel>

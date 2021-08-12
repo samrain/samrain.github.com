@@ -6,11 +6,7 @@
     <description>Recent content in PowerShell,Windows,file name on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Sep 2018 12:16:33 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/powershellwindowsfile-name/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 11 Sep 2018 12:16:33 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/powershellwindowsfile-name/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>递归查询某个目录下的某种文件并输出为全路径文件名</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</link>

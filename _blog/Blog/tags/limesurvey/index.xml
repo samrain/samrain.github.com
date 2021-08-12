@@ -6,11 +6,7 @@
     <description>Recent content in LimeSurvey on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/limesurvey/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 21 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/limesurvey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装LimeSurvey</title>
       <link>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in PHP on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 08 Jun 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 08 Jun 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎么在Ubuntu上安装LEMP（linux/nginx/MySQL/PHP）</title>
       <link>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</link>

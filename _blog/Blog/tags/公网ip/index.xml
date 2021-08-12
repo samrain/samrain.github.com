@@ -6,11 +6,7 @@
     <description>Recent content in 公网IP on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>得到当前电脑的公网IP</title>
       <link>https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</link>

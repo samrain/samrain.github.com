@@ -6,11 +6,7 @@
     <description>Recent content in orgmode on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 25 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>orgmode中设置自动换行</title>
       <link>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</link>

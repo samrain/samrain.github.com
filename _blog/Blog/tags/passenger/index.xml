@@ -6,11 +6,7 @@
     <description>Recent content in passenger on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 23 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/passenger/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/passenger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
       <link>https://www.samrainhan.com/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>

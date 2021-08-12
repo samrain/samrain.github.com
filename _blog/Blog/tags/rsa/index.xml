@@ -6,11 +6,7 @@
     <description>Recent content in RSA on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/rsa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/rsa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RSA算法在.net中实现</title>
       <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in html on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>缩减HTML、CSS和JavaScript的大小</title>
       <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in 登录 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Feb 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E7%99%BB%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%99%BB%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为ssh连接指定别名并记住密码</title>
       <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in win2003 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/win2003/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/win2003/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Windows Server 2003 中启用 ASP.NET 2.0</title>
       <link>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</link>

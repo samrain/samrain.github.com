@@ -408,7 +408,7 @@ NodeJS通过fs内置模块提供对文件的操作。fs模块提供的API基本�
 <h1 id="文本编码a-idorgheadline23a">文本编码<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <p>我们常用的文本编码有UTF8和GBK两种，并且UTF8文件还可能带有BOM。在读取不同编码的文本文件时，需要将文件内容转换为JS使用的UTF8编码字符串后才能正常处理。</p>
 <h2 id="bom的移除a-idorgheadline20a">BOM的移除<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<p>BOM用于标记一个文本文件使用Unicode编码，其本身是一个Unicode字符（&quot;\uFEFF&rdquo;），位于文本文件头部。BOM字符虽然起到了标记文件编码的作用，其本身却不属于文件内容的一部分。以下代码实现了识别和去除UTF8 BOM的功能。</p>
+<p>BOM用于标记一个文本文件使用Unicode编码，其本身是一个Unicode字符（&quot;\uFEFF&quot;），位于文本文件头部。BOM字符虽然起到了标记文件编码的作用，其本身却不属于文件内容的一部分。以下代码实现了识别和去除UTF8 BOM的功能。</p>
 <pre><code>function readText(pathname) {
     var bin = fs.readFileSync(pathname);
 

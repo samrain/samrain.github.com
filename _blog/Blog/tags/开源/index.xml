@@ -6,11 +6,7 @@
     <description>Recent content in 开源 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 May 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows上免费开源的SFTP服务器</title>
       <link>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</link>

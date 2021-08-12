@@ -5,10 +5,6 @@
     <link>https://www.samrainhan.com/archives/</link>
     <description>Recent content in Archives on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    
-	<atom:link href="https://www.samrainhan.com/archives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-cn</language><atom:link href="https://www.samrainhan.com/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

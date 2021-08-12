@@ -6,11 +6,7 @@
     <description>Recent content in PV on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/pv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/pv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QPS、PV和需要部署机器数量计算公式</title>
       <link>https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/</link>

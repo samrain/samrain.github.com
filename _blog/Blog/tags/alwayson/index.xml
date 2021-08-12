@@ -6,11 +6,7 @@
     <description>Recent content in AlwaysOn on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/alwayson/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/alwayson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Server High Availability Solution</title>
       <link>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</link>

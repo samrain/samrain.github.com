@@ -6,11 +6,7 @@
     <description>Recent content in 启动项,ubuntu-mate,micro on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Jun 2021 11:59:58 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E5%90%AF%E5%8A%A8%E9%A1%B9ubuntu-matemicro/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 Jun 2021 11:59:58 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%90%AF%E5%8A%A8%E9%A1%B9ubuntu-matemicro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ubuntu-mate 制作启动项，用终端运行编辑器micro</title>
       <link>https://www.samrainhan.com/posts/2021-06-22-make-startup-items-in-ubuntu-mate/</link>

@@ -458,7 +458,7 @@ if (!doNotTrack) {
 <ul>
 <li>修改【盘点估值】为“实时（自动进行）”，使得在出入库时自动生成出入库对应的库存会计凭证</li>
 <li>入库科目、出库科目、收益科目和费用科目可在产品或产品分类中配置，且前者优先级大于后者</li>
-<li>一般建议先设置&quot;所有产品&rdquo;
+<li>一般建议先设置&quot;所有产品&quot;
 <ul>
 <li>销售-设置-产品-产品分类</li>
 <li>入库科目：在途物质</li>
@@ -639,9 +639,9 @@ if (!doNotTrack) {
 <ul>
 <li>搜索“pdf”</li>
 <li>点击动作为【配置pdf字体替换规则】的记录齿轮图标</li>
-<li>将【替换为】修改为&quot;WenQuanYiMicroHei&rdquo;，点击右边的存盘图标</li>
+<li>将【替换为】修改为&quot;WenQuanYiMicroHei&quot;，点击右边的存盘图标</li>
 <li>点击按钮【Apply】</li>
-<li>如果在更新最后一个字体的时候碰到报错，关闭提示框，然后新建最后一个字体，再指定&quot;WenQuanYiMicroHei&rdquo;，点击右边的存盘图标</li>
+<li>如果在更新最后一个字体的时候碰到报错，关闭提示框，然后新建最后一个字体，再指定&quot;WenQuanYiMicroHei&quot;，点击右边的存盘图标</li>
 </ul>
 </li>
 <li>重启openerp服务</li>
@@ -659,7 +659,7 @@ if (!doNotTrack) {
 <h3 id="安装中国会计科目模块后会计科目的编号全部变成6位">安装中国会计科目模块后，会计科目的编号全部变成6位</h3>
 <ul>
 <li>安装模块的时候应该先安装“account_accountant”再安装别的依赖“account”的模块。</li>
-<li>自动截取成4位 UPDATE account_account SET code=overlay(code placing '&rsquo; from 5 for 2) WHERE code like &lsquo;%00&rsquo; AND char_length(code)=6</li>
+<li>自动截取成4位 UPDATE account_account SET code=overlay(code placing '' from 5 for 2) WHERE code like &lsquo;%00&rsquo; AND char_length(code)=6</li>
 </ul>
 
     </div>

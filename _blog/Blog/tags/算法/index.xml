@@ -6,11 +6,7 @@
     <description>Recent content in 算法 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用加解密算法的.net实现</title>
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>

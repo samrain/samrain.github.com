@@ -6,11 +6,7 @@
     <description>Recent content in 参数 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E5%8F%82%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%8F%82%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>msbuild参数效果对比</title>
       <link>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</link>

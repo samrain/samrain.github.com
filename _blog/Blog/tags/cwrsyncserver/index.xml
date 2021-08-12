@@ -6,11 +6,7 @@
     <description>Recent content in cwRsyncServer on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/cwrsyncserver/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/cwrsyncserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装cwRsyncServer</title>
       <link>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</link>

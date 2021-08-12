@@ -6,11 +6,7 @@
     <description>Recent content in 配置 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 Jul 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 02 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何配置Emacs在windows中的HOME目录</title>
       <link>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</link>

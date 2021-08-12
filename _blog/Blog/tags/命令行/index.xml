@@ -6,11 +6,7 @@
     <description>Recent content in 命令行 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Jun 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用命令强制结束Windows进程</title>
       <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in ID,系统 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Sep 2018 10:05:42 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 12 Sep 2018 10:05:42 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎样生成唯一ID</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</link>

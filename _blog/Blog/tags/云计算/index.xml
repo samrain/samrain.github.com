@@ -6,11 +6,7 @@
     <description>Recent content in 云计算 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Mar 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 02 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于阿里云搭建服务平台架构图</title>
       <link>https://www.samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/</link>

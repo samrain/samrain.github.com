@@ -6,11 +6,7 @@
     <description>Recent content in URL on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Jul 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/url/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 24 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/url/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>避免URL中出现JSESSIONID</title>
       <link>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in 云主机 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何解决客户端无法连接上Xen服务器</title>
       <link>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</link>

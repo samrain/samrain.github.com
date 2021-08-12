@@ -6,11 +6,7 @@
     <description>Recent content in sqlserver on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Sep 2018 20:23:16 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.samrainhan.com/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 30 Jun 2018 14:30:17 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>清除SqlServer AlwaysOn日志</title>
       <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
