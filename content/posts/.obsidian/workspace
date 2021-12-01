@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "5eea24c13a2da327",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca85ceae5058f4d7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2013-03-11-Chrome.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "778371398bf005d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "028de153de5b605f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1263fe925d4858ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba210f87c39db576",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "12834cd1e33f165d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2670e0f36b45ca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae86ff7f3391683",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2013-03-11-Chrome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ca85ceae5058f4d7",
+  "lastOpenFiles": [
+    "2013-03-11-Chrome.md",
+    "2013-03-11-commonly-used-drugs-in-children.md",
+    "2012-08-16-how-to-become-VIM-python-IDE.md",
+    "2012-11-19-What's-the-Competitive-election.md",
+    "2010-04-01-what-the-cloud.md",
+    "2010-03-24-what-the-EPOLL.md",
+    "2010-03-24-what-do-the-meeting-do-better.md",
+    "2010-02-26-PPT-templates-and-clip.md",
+    "2010-02-25-5W2H-analysis.md",
+    "2010-02-20-Contacts-or-learning-important.md"
+  ]
+}
