@@ -1,8 +1,8 @@
 +++
 title = "配置金山日历和手机日历同步"
 date = 2022-01-20T21:52:37+08:00
-tags = [""]
-categories = [""]
+tags = ["日历,金山,金山办公,同步"]
+categories = ["work"]
 draft = false
 +++
 
