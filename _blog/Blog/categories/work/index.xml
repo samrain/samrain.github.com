@@ -6,7 +6,16 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Feb 2022 19:20:31 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Feb 2022 11:23:28 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一维和二维表格互相转换</title>
+      <link>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</link>
+      <pubDate>Sun, 13 Feb 2022 11:23:28 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</guid>
+      <description>一维转二维 使用数据透视图即可，按照需求选择行和列。 特别需要注意的是，「值」的计数项中要设置为求和，且「值」的数据必须是数字，不能是中文或者英</description>
+    </item>
+    
     <item>
       <title>立项&amp;结项标准</title>
       <link>https://www.samrainhan.com/posts/2022-02-09-project-initiation-closing-criteria/</link>
