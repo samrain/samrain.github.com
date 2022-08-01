@@ -11,9 +11,10 @@
   <meta property="og:title" content="NET性能优化注意事项" />
 <meta property="og:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-05-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-05-12T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="NET性能优化注意事项"/>
@@ -225,7 +226,7 @@ if (!doNotTrack) {
 <h2 id="使用hashtale代替其他字典集合类型">使用HashTale代替其他字典集合类型</h2>
 <p>存放少量数据的时候可以使用HashTable.（如StringDictionary,NameValueCollection,HybridCollection），</p>
 <h2 id="为字符串容器声明常量不要直接把字符封装在双引号-里面">为字符串容器声明常量，不要直接把字符封装在双引号&quot; &ldquo;里面。</h2>
-<pre><code>//避免
+<pre tabindex="0"><code>//避免
 MyObject obj = new MyObject();
 obj.Status = &quot;ACTIVE&quot;;
 
@@ -235,13 +236,13 @@ MyObject obj = new MyObject();
 obj.Status = C_STATUS;
 </code></pre><h2 id="不要用uppercaselowercase转换字符串进行比较用stringcompare代替">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</h2>
 <p>它可以忽略大小写进行比较.</p>
-<pre><code>const string C_VALUE = &quot;COMPARE&quot;;
+<pre tabindex="0"><code>const string C_VALUE = &quot;COMPARE&quot;;
 if (String.Compare(sVariable, C_VALUE, true) == 0)
 {
 Console.Write(&quot;SAME&quot;);
 }
 </code></pre><h2 id="用stringbuilder代替使用字符串连接符-">用StringBuilder代替使用字符串连接符 “+”，</h2>
-<pre><code>//避免
+<pre tabindex="0"><code>//避免
 String sXML = &quot;&lt;parent&gt;&quot;;
 sXML += &quot;&lt;child&gt;&quot;;
 sXML += &quot;Data&quot;;
@@ -256,7 +257,7 @@ sbXML.Append(&quot;Data&quot;);
 sbXML.Append(&quot;&lt;/child&gt;&quot;);
 sbXML.Append(&quot;&lt;/parent&gt;&quot;);
 </code></pre><h2 id="如果只是从xml对象读取数据用只读的xpathdocument代替xmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</h2>
-<pre><code>//避免
+<pre tabindex="0"><code>//避免
 XmlDocument xmld = new XmlDocument();
 xmld.LoadXml(sXML);
 txtName.Text = xmld.SelectSingleNode(&quot;/packet/child&quot;).InnerText;
@@ -272,7 +273,7 @@ while(xpNodeIter.MoveNext())
   sCurrValues += xpNodeIter.Current.Value+&quot;~&quot;; 
 }
 </code></pre><h2 id="避免在循环体里声明变量应该在循环体外声明变量在循环体里初始化">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</h2>
-<pre><code>//避免
+<pre tabindex="0"><code>//避免
 for(int i=0; i&lt;10; i++)
 {
     SomeClass objSC = new SomeClass();
@@ -291,7 +292,7 @@ for(int i=0; i&lt;10; i++)
 .
 }
 </code></pre><h2 id="捕获指定的异常不要使用通用的systemexception">捕获指定的异常，不要使用通用的System.Exception.</h2>
-<pre><code>//避免
+<pre tabindex="0"><code>//避免
       try
       {
       &lt;some logic&gt;
@@ -319,7 +320,7 @@ for(int i=0; i&lt;10; i++)
       &lt;Error handling&gt;
       }
 </code></pre><h2 id="使用trycatchfinally时-要在finally里释放占用的资源如连接文件流等不然在catch到错误后占用的资源不能释放">使用Try&hellip;catch&hellip;finally时， 要在finally里释放占用的资源如连接，文件流等，不然在Catch到错误后占用的资源不能释放。</h2>
-<pre><code>try
+<pre tabindex="0"><code>try
       {
          ...
       }

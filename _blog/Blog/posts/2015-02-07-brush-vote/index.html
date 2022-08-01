@@ -11,9 +11,10 @@
   <meta property="og:title" content="刷票" />
 <meta property="og:description" content="Why 帮朋友完成任务，让名次不要太低 what 刷票 How 网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-07-brush-vote/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-07-brush-vote/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-02-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-07T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="刷票"/>
@@ -220,13 +221,13 @@ if (!doNotTrack) {
 <h2 id="how">How</h2>
 <p>网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验证。O(∩_∩)O哈哈~。</p>
 <p>用chrome的F12工具中<code>Network</code>抓取了post日志，注意<code>Preserve log</code>必须打勾，仔细看日志发现了其实是向<code>http://www.example.com/toupiao/Save</code>发送Post请求，数据为</p>
-<pre><code>name=张三&amp;phone=1390219679&amp;ids=74
+<pre tabindex="0"><code>name=张三&amp;phone=1390219679&amp;ids=74
 </code></pre><p>于是直接用curl发送Post请求，而Parallel来进行并行处理（代替for）：</p>
-<pre><code>sudo apt-get install parallel curl
+<pre tabindex="0"><code>sudo apt-get install parallel curl
 
 parallel curl --url &quot;http://www.example.com/toupiao/Save&quot; -d ids=74 -d :::: $数据文件名
 </code></pre><p>数据文件内容示例：</p>
-<pre><code>name=李峙锦&amp;phone=13602198215
+<pre tabindex="0"><code>name=李峙锦&amp;phone=13602198215
 name=于晨津&amp;phone=16202106815
 </code></pre><h2 id="用到的其他工具">用到的其他工具</h2>
 <ul>

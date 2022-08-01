@@ -11,9 +11,10 @@
   <meta property="og:title" content="使用cpufreq降低CPU功耗" />
 <meta property="og:description" content="##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-02-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-02T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用cpufreq降低CPU功耗"/>
@@ -214,19 +215,19 @@ if (!doNotTrack) {
   
     <div class="content" itemprop="articleBody">
       <p>##安装</p>
-<pre><code>sudo apt-get install cpufrequtils
+<pre tabindex="0"><code>sudo apt-get install cpufrequtils
 </code></pre><p>##查看当前CPU状态</p>
-<pre><code>cpufreq-info
+<pre tabindex="0"><code>cpufreq-info
 </code></pre><h2 id="设置参数">设置参数</h2>
-<pre><code>-d  minimum frequency,
+<pre tabindex="0"><code>-d  minimum frequency,
 -u  maximum frequency,
 -f  specific frequency (userspace governor must be set first) and
 -g  governor （ondemand conservative userspace powersave powersave）
 -c  specific CPU.
 </code></pre><p>##设置为ondemand</p>
-<pre><code>sudo cpufreq-set -g conservative
+<pre tabindex="0"><code>sudo cpufreq-set -g conservative
 </code></pre><p>##如果想手动修改请安装插件</p>
-<pre><code>sudo apt-get install indicator-cpufreq
+<pre tabindex="0"><code>sudo apt-get install indicator-cpufreq
 </code></pre>
     </div>
   </article>

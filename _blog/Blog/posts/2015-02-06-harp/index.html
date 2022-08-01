@@ -11,9 +11,10 @@
   <meta property="og:title" content="介绍Harp" />
 <meta property="og:description" content="What 官网在此 nodejs写的静态web服务器，号称零配置。 牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-06-harp/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-06-harp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-02-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-06T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="介绍Harp"/>
@@ -231,15 +232,15 @@ if (!doNotTrack) {
 <p>除了支持传统HTML、CSS、JavaScript和markdown以外，还支持Jade, EJS, LESS, Stylus, Sass和CoffeeScript。</p>
 <h2 id="how">How</h2>
 <h3 id="install">Install</h3>
-<pre><code>npm install -g harp
+<pre tabindex="0"><code>npm install -g harp
 </code></pre><h3 id="getting-start">Getting Start</h3>
-<pre><code>echo # hello world &gt;&gt; index.md
+<pre tabindex="0"><code>echo # hello world &gt;&gt; index.md
 harp server --port 12345
 </code></pre><p>访问<a href="http://127.0.0.1:12345">http://127.0.0.1:12345</a></p>
 <h3 id="预先编译">预先编译</h3>
-<pre><code>harp compile --output /path/www
+<pre tabindex="0"><code>harp compile --output /path/www
 </code></pre><h3 id="使用lib">使用lib</h3>
-<pre><code>var harp = require(&quot;harp&quot;)
+<pre tabindex="0"><code>var harp = require(&quot;harp&quot;)
 harp.server(projectPath [,args] [,callback])
 
 var harp = require(&quot;harp&quot;)

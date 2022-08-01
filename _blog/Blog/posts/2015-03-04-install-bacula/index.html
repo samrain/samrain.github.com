@@ -11,9 +11,10 @@
   <meta property="og:title" content="如何安装bacula" />
 <meta property="og:description" content="bacula是著名的备份软件，官网在此 ##服务器安装 sudo apt-get install gcc g&#43;&#43; sqlite libsqlite3-dev make cd bacula-* ./configure -with-sqlite3 make sudo make install ##客户端安装 cd bacula-* ./configure --prefix=/opt/bacula --enable-client-only make sudo make install" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-03-04-install-bacula/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-03-04-install-bacula/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-03-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-03-04T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="如何安装bacula"/>
@@ -208,13 +209,13 @@ if (!doNotTrack) {
     <div class="content" itemprop="articleBody">
       <p>bacula是著名的备份软件，<a href="http://www.bacula.org/">官网在此</a></p>
 <p>##服务器安装</p>
-<pre><code>sudo apt-get install gcc g++ sqlite libsqlite3-dev make
+<pre tabindex="0"><code>sudo apt-get install gcc g++ sqlite libsqlite3-dev make
 cd bacula-*
 ./configure -with-sqlite3
 make
 sudo make install
 </code></pre><p>##客户端安装</p>
-<pre><code>cd bacula-*
+<pre tabindex="0"><code>cd bacula-*
 ./configure --prefix=/opt/bacula --enable-client-only
 make
 sudo make install

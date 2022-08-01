@@ -11,9 +11,10 @@
   <meta property="og:title" content="Parallel介绍" />
 <meta property="og:description" content="What FSF项目，GNU Parallel，翻译为平行 http://www.gnu.org/software/parallel/ Why 可以替代xargs How 不仅可以在本机上平行处理任务，而且还能分散到其他联网电脑上处理。 ##" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-03-parallel-overview/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-03-parallel-overview/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-02-03T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-03T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Parallel介绍"/>
@@ -228,7 +229,7 @@ if (!doNotTrack) {
 <p><code>--dryrun</code>查看将会运行的命令，但是不执行</p>
 <p>##Examples</p>
 <p>shell编程用</p>
-<pre><code>seq 10 | parallel echo
+<pre tabindex="0"><code>seq 10 | parallel echo
 seq -w 0 9999 | parallel -X rm pict{}.jpg
 ls *.jpg | parallel convert -geometry 120 {} thumb_{}
 seq 10 | parallel --sshlogin server.example.com,server2.example.net echo

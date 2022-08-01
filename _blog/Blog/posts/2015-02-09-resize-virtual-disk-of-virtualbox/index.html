@@ -11,9 +11,10 @@
   <meta property="og:title" content="怎么调整virtualbx的虚拟磁盘大小" />
 <meta property="og:description" content="WHY 为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-02-09T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-09T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="怎么调整virtualbx的虚拟磁盘大小"/>
@@ -215,7 +216,7 @@ if (!doNotTrack) {
 <p>##只能扩容了。</p>
 <p>##linux宿主机</p>
 <p>调整虚拟硬盘大小，运行</p>
-<pre><code>VBoxManage modifyhd w7x64.vdi --resize 61440
+<pre tabindex="0"><code>VBoxManage modifyhd w7x64.vdi --resize 61440
 </code></pre><ul>
 <li>
 <p>以上命令也可以在windows宿主机上运行，只要保证在path里面。</p>

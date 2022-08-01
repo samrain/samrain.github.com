@@ -11,9 +11,10 @@
   <meta property="og:title" content="扩大swap大小" />
 <meta property="og:description" content="扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2021-03-20-resize-swap/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2021-03-20-resize-swap/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-03-20T23:45:59+08:00" />
 <meta property="article:modified_time" content="2021-03-20T23:45:59+08:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="扩大swap大小"/>
@@ -213,7 +214,7 @@ if (!doNotTrack) {
     <div class="content" itemprop="articleBody">
       <h1 id="扩大swap大小">扩大swap大小</h1>
 <p>代码如下：</p>
-<pre><code>swapon -s
+<pre tabindex="0"><code>swapon -s
 free -m
 sudo swapoff /swapfile
 swapon -s

@@ -11,9 +11,10 @@
   <meta property="og:title" content="watir 网页程序自动化测试工具" />
 <meta property="og:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/" />
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-03-05T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-03-05T00:00:00+00:00" />
+
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="watir 网页程序自动化测试工具"/>
@@ -216,7 +217,7 @@ if (!doNotTrack) {
   
     <div class="content" itemprop="articleBody">
       <h2 id="安装">安装</h2>
-<pre><code>sudo apt-get install ruby ruby-dev
+<pre tabindex="0"><code>sudo apt-get install ruby ruby-dev
 
 gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org
 
@@ -226,11 +227,11 @@ sudo apt-get install firefox
 
 sudo apt-get install xvfb
 </code></pre><p>如果要用chrome做测试，那么</p>
-<pre><code>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb
+<pre tabindex="0"><code>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb
 sudo apt-get -f install
 </code></pre><p>下载<a href="http://chromedriver.storage.googleapis.com/index.html">最新的驱动</a>下来解压到PATH中（用 echo $PATH来看在哪里）</p>
 <h2 id="写测试文件putrb">写测试文件<code>put.rb</code></h2>
-<pre><code># -*- coding: utf-8 -*-
+<pre tabindex="0"><code># -*- coding: utf-8 -*-
 require &quot;rspec&quot;
 require &quot;headless&quot;
 require 'watir-webdriver'
@@ -252,7 +253,7 @@ describe &quot;put&quot; do
   #headless.destroy
 end
 </code></pre><h2 id="测试运行">测试运行</h2>
-<pre><code>rspec put.rb
+<pre tabindex="0"><code>rspec put.rb
 
 </code></pre>
     </div>
