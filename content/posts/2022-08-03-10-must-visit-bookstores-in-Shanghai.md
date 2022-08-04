@@ -1,13 +1,12 @@
 +++
 title = "上海必逛10家书店"
 date = 2022-08-03T22:16:18+08:00
-tags = ["上海,书店"]
-categories = ["study,family"]
+tags = ["上海","书店"]
+categories = ["study","family"]
 draft = false
 +++
 
 # 上海必逛10家书店
-
 1. 茑屋书店（前滩太古里店）
 
 2. 朵云书院旗舰店
