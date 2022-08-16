@@ -1,0 +1,29 @@
++++
+title = " 10个最好的动态拉伸动作"
+date = 2022-08-16T08:30:04+08:00
+tags = ["拉伸","动态拉伸"]
+categories = ["family"]
+draft = false
++++
+
+#  10个最好的动态拉伸动作
+
+1. 撑地爬行（Inch worms）这个动作总共做10下。
+
+2.  双90度拉伸（90/90 Streches）这个动作一条腿5下。
+
+3. 旋转十字架（Rolling Crucifix）这个动作一条腿5下。
+
+4. 反向桌子（Table Twist）这个动作一边5下。
+
+ 5. 3向箭步蹲（ThreeWay Lunge）这个动作一边5下。
+
+6. 腘绳肌脉冲（Hamstring Pulses）这个动作一边10下。
+
+7. 腘绳肌前伸（Hamstring Reaches）这个动作一条腿5下。
+
+8. 开罐人（Can Openers）这个动作一边10下。
+
+9. 悬垂手臂画圈（Dead Shoulder Circles）这个动作一边10下。
+
+10. 脚踝放松（Ankle Breakers）这个动作一边10下。
