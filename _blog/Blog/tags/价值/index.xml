@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>价值 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BB%B7%E5%80%BC/</link>
+    <description>Recent content in 价值 on sam的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 12 Sep 2022 17:30:07 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT服务的价值</title>
+      <link>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</link>
+      <pubDate>Mon, 12 Sep 2022 17:30:07 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</guid>
+      <description>IT服务的价值 1. 外部质量服务是真正用户可见可感知的，而内部质量服务是对外部质量服务的保障， 通常称为Qualty Assurance。 2. 服务质量</description>
+    </item>
+    
+  </channel>
+</rss>
