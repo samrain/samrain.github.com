@@ -1,8 +1,8 @@
 +++
-title = "2022 10 28 Excerpts From PMO Articles"
+title = "PMO的文章摘抄"
 date = 2022-10-28T11:35:12+08:00
-tags = [""]
-categories = [""]
+tags = ["PMO"]
+categories = ["work"]
 draft = false
 +++
 
