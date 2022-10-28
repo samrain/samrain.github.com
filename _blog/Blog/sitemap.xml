@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-10-12T14:42:14+08:00</lastmod>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2022-10-12T14:42:14+08:00</lastmod>
+    <loc>https://www.samrainhan.com/tags/linux/</loc>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-10-12T14:42:14+08:00</lastmod>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-10-12T14:42:14+08:00</lastmod>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/ubuntu/</loc>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</loc>
+    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/family/</loc>
     <lastmod>2022-10-12T14:42:14+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2022-10-12-eight-principles-of-balanced-diet/</loc>
@@ -25,9 +37,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E9%A5%AE%E9%A3%9F/</loc>
     <lastmod>2022-10-12T14:42:14+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2022-09-23T22:57:52+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E4%BC%9A%E8%AE%AE/</loc>
     <lastmod>2022-09-23T22:57:52+08:00</lastmod>
@@ -2138,9 +2147,6 @@
     <loc>https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/</loc>
     <lastmod>2016-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/tags/linux/</loc>
-    <lastmod>2016-07-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</loc>
     <lastmod>2016-07-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -2751,9 +2757,6 @@
     <lastmod>2016-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/install/</loc>
-    <lastmod>2016-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/ubuntu/</loc>
     <lastmod>2016-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/uefih/</loc>

@@ -6,7 +6,16 @@
     <description>Recent content in linux on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 09:28:32 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决bpool空间不够的问题</title>
+      <link>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</link>
+      <pubDate>Thu, 27 Oct 2022 09:28:32 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</guid>
+      <description>问题 Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t</description>
+    </item>
+    
     <item>
       <title>Linux系统下设置静态IP</title>
       <link>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</link>
