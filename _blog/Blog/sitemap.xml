@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.samrainhan.com/categories/</loc>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
+  </url><url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-10-31T10:04:58+08:00</lastmod>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-10-31T10:04:58+08:00</lastmod>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/</loc>
-    <lastmod>2022-10-31T10:04:58+08:00</lastmod>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E4%BF%9D%E9%9A%9C/</loc>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%90%8E%E5%8B%A4/</loc>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-11-01-logistics-support-group/</loc>
+    <lastmod>2022-11-01T10:49:46+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%84%BF%E7%AB%A5/</loc>
     <lastmod>2022-10-31T10:04:58+08:00</lastmod>
@@ -23,16 +38,10 @@
     <loc>https://www.samrainhan.com/tags/%E9%A3%9F%E8%B0%B1/</loc>
     <lastmod>2022-10-31T10:04:58+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-10-28T11:35:12+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/tags/pmo/</loc>
     <lastmod>2022-10-28T11:35:12+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/</loc>
-    <lastmod>2022-10-28T11:35:12+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
     <lastmod>2022-10-28T11:35:12+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/linux/</loc>
