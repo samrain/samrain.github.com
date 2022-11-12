@@ -6,7 +6,16 @@
     <description>Recent content on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Nov 2022 12:27:36 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 20:40:16 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每日所需热量</title>
+      <link>https://www.samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</link>
+      <pubDate>Thu, 10 Nov 2022 20:40:16 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</guid>
+      <description>公式 男 (665+1.37*体重kg) + 5*高度cm-6.7*年龄)*活动系数 女 (665+9.6*体重kg) + 1.9*高度cm-4.7*年龄)</description>
+    </item>
+    
     <item>
       <title>数字化转型</title>
       <link>https://www.samrainhan.com/posts/2022-11-08-digital-transformation/</link>
