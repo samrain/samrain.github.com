@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-11-17T13:10:11+08:00</lastmod>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2022-11-17T13:10:11+08:00</lastmod>
+    <loc>https://www.samrainhan.com/tags/ob/</loc>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-11-17T13:10:11+08:00</lastmod>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-11-17T13:10:11+08:00</lastmod>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/study/</loc>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-11-20-implementing-a-slide-box-system-with-ob/</loc>
+    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/family/</loc>
     <lastmod>2022-11-17T13:10:11+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%81%A5%E8%BA%AB/</loc>
@@ -274,9 +286,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E8%AE%A1%E5%88%92/</loc>
     <lastmod>2022-08-21T16:01:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/study/</loc>
-    <lastmod>2022-08-20T00:31:16+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2022-08-20T00:31:16+08:00</lastmod>
@@ -4668,9 +4677,6 @@
     <lastmod>2013-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2013-04-23-prepare-for-go-live/</loc>
-    <lastmod>2013-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2013-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2013-04-23-enterprise-culture-wall/</loc>

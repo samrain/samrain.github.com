@@ -6,7 +6,16 @@
     <description>Recent content in 个人知识管理 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 16:14:20 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我对用OB来实现滑箱系统的想法</title>
+      <link>https://www.samrainhan.com/posts/2022-11-20-implementing-a-slide-box-system-with-ob/</link>
+      <pubDate>Sun, 20 Nov 2022 16:14:20 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-11-20-implementing-a-slide-box-system-with-ob/</guid>
+      <description>如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间</description>
+    </item>
+    
     <item>
       <title>我是怎么使用evernote</title>
       <link>https://www.samrainhan.com/posts/2013-04-23-use-evernote/</link>
