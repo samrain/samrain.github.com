@@ -6,7 +6,34 @@
     <description>Recent content in Tags on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Nov 2022 16:14:20 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 10:34:26 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大纲</title>
+      <link>https://www.samrainhan.com/tags/%E5%A4%A7%E7%BA%B2/</link>
+      <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E5%A4%A7%E7%BA%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>报告</title>
+      <link>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</link>
+      <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>测试</title>
+      <link>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>OB</title>
       <link>https://www.samrainhan.com/tags/ob/</link>
@@ -1453,15 +1480,6 @@
       <pubDate>Sun, 16 May 2021 14:55:51 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/tags/%E8%AF%BB%E4%B9%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>报告</title>
-      <link>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</link>
-      <pubDate>Sun, 16 May 2021 14:54:04 +0800</pubDate>
-      
-      <guid>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</guid>
       <description></description>
     </item>
     
@@ -4369,15 +4387,6 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.samrainhan.com/tags/favicon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>测试</title>
-      <link>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</guid>
       <description></description>
     </item>
     

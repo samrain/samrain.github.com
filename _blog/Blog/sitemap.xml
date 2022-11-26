@@ -3,21 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%A4%A7%E7%BA%B2/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</loc>
+    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/ob/</loc>
     <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/categories/study/</loc>
-    <lastmod>2022-11-20T16:14:20+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/</loc>
     <lastmod>2022-11-20T16:14:20+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
@@ -40,9 +55,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/posts/2022-11-16-static-stretching/</loc>
     <lastmod>2022-11-16T09:55:28+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2022-11-15T15:52:43+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/</loc>
     <lastmod>2022-11-15T15:52:43+08:00</lastmod>
@@ -900,9 +912,6 @@
     <lastmod>2021-05-16T14:55:51+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2021-05-17-single-page-report/</loc>
-    <lastmod>2021-05-16T14:54:04+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E6%8A%A5%E5%91%8A/</loc>
     <lastmod>2021-05-16T14:54:04+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/kk%E8%AF%AD%E5%BD%95/</loc>
@@ -2739,9 +2748,6 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</loc>
-    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</loc>

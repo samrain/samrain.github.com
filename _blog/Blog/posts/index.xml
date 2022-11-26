@@ -6,7 +6,16 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Nov 2022 16:14:20 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 10:34:26 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试报告大纲</title>
+      <link>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</link>
+      <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</guid>
+      <description>Completion测试结论,哪些通过,哪些没通过.建议用表格形式. Why为什么要测试 What测试什么 When测试时间 Who谁测试的,测试用</description>
+    </item>
+    
     <item>
       <title>我对用OB来实现滑箱系统的想法</title>
       <link>https://www.samrainhan.com/posts/2022-11-20-implementing-a-slide-box-system-with-ob/</link>
