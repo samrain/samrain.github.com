@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.samrainhan.com/categories/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%87%BA%E5%B7%AE/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-12-12-business-trip-list/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E6%B8%85%E5%8D%95/</loc>
+    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
+  </url><url>
     <loc>https://www.samrainhan.com/posts/2022-12-01-6-minute-high-intensity-ab-workout/</loc>
     <lastmod>2022-12-01T10:45:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-12-01T10:45:56+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2022-12-01T10:45:56+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-12-01T10:45:56+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-12-01T10:45:56+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/</loc>
     <lastmod>2022-12-01T10:45:56+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%81%A5%E8%BA%AB/</loc>
@@ -40,9 +52,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E8%A1%A5%E4%B9%A0/</loc>
     <lastmod>2022-11-26T22:47:36+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2022-11-25T10:34:26+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%A4%A7%E7%BA%B2/</loc>
     <lastmod>2022-11-25T10:34:26+08:00</lastmod>
@@ -198,9 +207,6 @@
     <lastmod>2022-09-15T11:10:10+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2022-09-15-rugby-personal-equipment-list/</loc>
-    <lastmod>2022-09-15T11:10:10+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E6%B8%85%E5%8D%95/</loc>
     <lastmod>2022-09-15T11:10:10+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E8%A3%85%E5%A4%87/</loc>
