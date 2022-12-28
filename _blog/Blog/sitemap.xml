@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.samrainhan.com/categories/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/im/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%8A%A0%E8%A7%A3%E5%AF%86/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/</loc>
+    <lastmod>2022-12-27T17:01:18+08:00</lastmod>
+  </url><url>
     <loc>https://www.samrainhan.com/posts/2022-12-24-10-must-do-street-workout-moves/</loc>
     <lastmod>2022-12-24T15:49:19+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2022-12-24T15:49:19+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2022-12-24T15:49:19+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2022-12-24T15:49:19+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2022-12-24T15:49:19+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/</loc>
     <lastmod>2022-12-24T15:49:19+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%81%A5%E8%BA%AB/</loc>
@@ -25,9 +40,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E8%A1%97%E5%A4%B4%E5%81%A5%E8%BA%AB/</loc>
     <lastmod>2022-12-24T15:49:19+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2022-12-12T21:50:01+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%87%BA%E5%B7%AE/</loc>
     <lastmod>2022-12-12T21:50:01+08:00</lastmod>
@@ -2334,9 +2346,6 @@
     <lastmod>2016-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</loc>
-    <lastmod>2016-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/</loc>
     <lastmod>2016-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/form/</loc>

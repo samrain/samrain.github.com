@@ -6,7 +6,16 @@
     <description>Recent content in 密码 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Dec 2022 17:01:18 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在IM中发送和接受密码</title>
+      <link>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</link>
+      <pubDate>Tue, 27 Dec 2022 17:01:18 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</guid>
+      <description>发送密码 用浏览器访问https://tool.oschina.net/encrypt 点击「加密/解密」 把密码粘帖到左边方框「明文」中 在「加密</description>
+    </item>
+    
     <item>
       <title>加密密码</title>
       <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
