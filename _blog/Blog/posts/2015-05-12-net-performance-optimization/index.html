@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-05-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-05-12T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="NET性能优化注意事项"/>
 <meta name="twitter:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要"/>
@@ -228,49 +227,49 @@ if (!doNotTrack) {
 <h2 id="为字符串容器声明常量不要直接把字符封装在双引号-里面">为字符串容器声明常量，不要直接把字符封装在双引号&quot; &ldquo;里面。</h2>
 <pre tabindex="0"><code>//避免
 MyObject obj = new MyObject();
-obj.Status = &quot;ACTIVE&quot;;
+obj.Status = &#34;ACTIVE&#34;;
 
 //推荐
-const string C_STATUS = &quot;ACTIVE&quot;;
+const string C_STATUS = &#34;ACTIVE&#34;;
 MyObject obj = new MyObject();
 obj.Status = C_STATUS;
 </code></pre><h2 id="不要用uppercaselowercase转换字符串进行比较用stringcompare代替">不要用UpperCase,Lowercase转换字符串进行比较，用String.Compare代替</h2>
 <p>它可以忽略大小写进行比较.</p>
-<pre tabindex="0"><code>const string C_VALUE = &quot;COMPARE&quot;;
+<pre tabindex="0"><code>const string C_VALUE = &#34;COMPARE&#34;;
 if (String.Compare(sVariable, C_VALUE, true) == 0)
 {
-Console.Write(&quot;SAME&quot;);
+Console.Write(&#34;SAME&#34;);
 }
 </code></pre><h2 id="用stringbuilder代替使用字符串连接符-">用StringBuilder代替使用字符串连接符 “+”，</h2>
 <pre tabindex="0"><code>//避免
-String sXML = &quot;&lt;parent&gt;&quot;;
-sXML += &quot;&lt;child&gt;&quot;;
-sXML += &quot;Data&quot;;
-sXML += &quot;&lt;/child&gt;&quot;;
-sXML += &quot;&lt;/parent&gt;&quot;;
+String sXML = &#34;&lt;parent&gt;&#34;;
+sXML += &#34;&lt;child&gt;&#34;;
+sXML += &#34;Data&#34;;
+sXML += &#34;&lt;/child&gt;&#34;;
+sXML += &#34;&lt;/parent&gt;&#34;;
 
 //推荐
 StringBuilder sbXML = new StringBuilder();
-sbXML.Append(&quot;&lt;parent&gt;&quot;);
-sbXML.Append(&quot;&lt;child&gt;&quot;);
-sbXML.Append(&quot;Data&quot;);
-sbXML.Append(&quot;&lt;/child&gt;&quot;);
-sbXML.Append(&quot;&lt;/parent&gt;&quot;);
+sbXML.Append(&#34;&lt;parent&gt;&#34;);
+sbXML.Append(&#34;&lt;child&gt;&#34;);
+sbXML.Append(&#34;Data&#34;);
+sbXML.Append(&#34;&lt;/child&gt;&#34;);
+sbXML.Append(&#34;&lt;/parent&gt;&#34;);
 </code></pre><h2 id="如果只是从xml对象读取数据用只读的xpathdocument代替xmldocument">如果只是从XML对象读取数据，用只读的XPathDocument代替XMLDocument</h2>
 <pre tabindex="0"><code>//避免
 XmlDocument xmld = new XmlDocument();
 xmld.LoadXml(sXML);
-txtName.Text = xmld.SelectSingleNode(&quot;/packet/child&quot;).InnerText;
+txtName.Text = xmld.SelectSingleNode(&#34;/packet/child&#34;).InnerText;
 
 //推荐
 XPathDocument xmldContext = new XPathDocument(new StringReader(oContext.Value));
 XPathNavigator xnav = xmldContext.CreateNavigator();
-XPathNodeIterator xpNodeIter = xnav.Select(&quot;packet/child&quot;);
+XPathNodeIterator xpNodeIter = xnav.Select(&#34;packet/child&#34;);
 iCount = xpNodeIter.Count;
 xpNodeIter = xnav.SelectDescendants(XPathNodeType.Element, false); 
 while(xpNodeIter.MoveNext())
 {
-  sCurrValues += xpNodeIter.Current.Value+&quot;~&quot;; 
+  sCurrValues += xpNodeIter.Current.Value+&#34;~&#34;; 
 }
 </code></pre><h2 id="避免在循环体里声明变量应该在循环体外声明变量在循环体里初始化">避免在循环体里声明变量，应该在循环体外声明变量，在循环体里初始化。</h2>
 <pre tabindex="0"><code>//避免

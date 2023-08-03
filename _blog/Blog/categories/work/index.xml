@@ -6,7 +6,16 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:36:48 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 20:29:37 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JTBD</title>
+      <link>https://www.samrainhan.com/posts/2023-03-18-jtbd/</link>
+      <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2023-03-18-jtbd/</guid>
+      <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
+    </item>
+    
     <item>
       <title>幕布导出为markdown</title>
       <link>https://www.samrainhan.com/posts/2023-03-15-mubu-export-as-markdown/</link>
@@ -1741,7 +1750,7 @@
       <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</guid>
-      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&#39;s end</description>
+      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&amp;#39;s end</description>
     </item>
     
     <item>

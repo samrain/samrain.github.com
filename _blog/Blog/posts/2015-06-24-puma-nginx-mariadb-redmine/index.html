@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-06-24T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-06-24T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Puma&#43;Nginx&#43;Mariadb&#43;Redmine"/>
 <meta name="twitter:description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp;"/>
@@ -270,8 +269,8 @@ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 ## 把rbenv加到shell的path中，然后重启shell
-echo 'export PATH=&quot;/home/redmine/.rbenv/bin:$PATH&quot;' &gt;&gt; ~/.bashrc
-echo 'eval &quot;$(rbenv init -)&quot;' &gt;&gt; ~/.bashrc
+echo &#39;export PATH=&#34;/home/redmine/.rbenv/bin:$PATH&#34;&#39; &gt;&gt; ~/.bashrc
+echo &#39;eval &#34;$(rbenv init -)&#34;&#39; &gt;&gt; ~/.bashrc
 exec $SHELL -l
 
 ## 检查rbenv是否ok
@@ -306,10 +305,10 @@ mysql -uroot -p
 CREATE DATABASE redm4coprize CHARACTER SET utf8;
 
 ## 创建数据库用户
-CREATE USER 'user4coprize'@'localhost' IDENTIFIED BY '7ujm*IK&lt;';
+CREATE USER &#39;user4coprize&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;7ujm*IK&lt;&#39;;
 
 ## 赋予它权限
-GRANT ALL PRIVILEGES ON redm4coprize.* TO 'user4coprize'@'localhost';
+GRANT ALL PRIVILEGES ON redm4coprize.* TO &#39;user4coprize&#39;@&#39;localhost&#39;;
 
 ## 离开数据库
 \q
@@ -343,7 +342,6 @@ rbenv rehash
 ## 注意一定要先进入redmine的目录中
 cd /home/red*/red*
 bundle install --without development test postgresql sqlite
-
 </code></pre><h3 id="创建redmine基础数据">创建redmine基础数据</h3>
 <pre tabindex="0"><code>bundle exec rake generate_secret_token
 bundle exec rake db:migrate RAILS_ENV=production 
@@ -358,7 +356,7 @@ bundle exec rake redmine:load_default_data RAILS_ENV=production REDMINE_LANG=zh
 curl -Lo ~/redmine*/config/puma.rb https://gist.githubusercontent.com/samrain/4c92673990edfe5a215e/raw/7313da9e309de0def3e40e75913bc0bfbe7d1fa3/puma.rb
 
 ## 在Gemfile中添加puma配置项
-echo 'gem &quot;puma&quot;' &gt;&gt; Gemfile
+echo &#39;gem &#34;puma&#34;&#39; &gt;&gt; Gemfile
 
 ## 安装puma
 gem update

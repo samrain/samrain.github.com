@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-02-16T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-16T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MongoDB"/>
 <meta name="twitter:description" content="Install 官网在此：http://www.mongodb.org 官网下载地址：http://www.mongodb.org/downloads win"/>
@@ -229,13 +228,13 @@ if (!doNotTrack) {
 </code></pre><p>再建配置文件</p>
 <pre tabindex="0"><code>echo logpath=d:\mongodb\log\mongo.log &gt; d:\mongodb\mongod.cfg
 </code></pre><p>由于已经有一个mongodb的服务，所以需要给我们的服务改名，然后注册成windows服务</p>
-<pre tabindex="0"><code>&quot;C:\Program Files\MongoDB 2.6 Standard\bin\mongod.exe&quot; --serviceName mongodb-test --serviceDisplayName mongodb-test --dbpath d:\mongodb\data\test --config &quot;d:\mongodb\mongod.cfg&quot; --install
+<pre tabindex="0"><code>&#34;C:\Program Files\MongoDB 2.6 Standard\bin\mongod.exe&#34; --serviceName mongodb-test --serviceDisplayName mongodb-test --dbpath d:\mongodb\data\test --config &#34;d:\mongodb\mongod.cfg&#34; --install
 </code></pre><p>启动注册好的服务</p>
 <pre tabindex="0"><code>net start mongodb-test
 </code></pre><h2 id="getting-start">Getting start</h2>
 <p>参照官方文档<a href="http://docs.mongodb.org/manual/tutorial/getting-started/">在此</a></p>
 <p>连接上数据库（以上启动好的数据库，默认是localhost:27017）</p>
-<pre tabindex="0"><code>&quot;C:\Program Files\MongoDB 2.6 Standard\bin\mongo.exe&quot;
+<pre tabindex="0"><code>&#34;C:\Program Files\MongoDB 2.6 Standard\bin\mongo.exe&#34;
 </code></pre><ul>
 <li><code>db</code> 显示目前数据库名称</li>
 <li><code>show dbs</code> 显示数据库清单</li>

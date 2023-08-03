@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-03-05T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-03-05T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="watir 网页程序自动化测试工具"/>
 <meta name="twitter:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到"/>
@@ -232,29 +231,28 @@ sudo apt-get -f install
 </code></pre><p>下载<a href="http://chromedriver.storage.googleapis.com/index.html">最新的驱动</a>下来解压到PATH中（用 echo $PATH来看在哪里）</p>
 <h2 id="写测试文件putrb">写测试文件<code>put.rb</code></h2>
 <pre tabindex="0"><code># -*- coding: utf-8 -*-
-require &quot;rspec&quot;
-require &quot;headless&quot;
-require 'watir-webdriver'
+require &#34;rspec&#34;
+require &#34;headless&#34;
+require &#39;watir-webdriver&#39;
 
-describe &quot;put&quot; do
+describe &#34;put&#34; do
   #headless = Headless.new
   #headless.start
   let(:browser) { @browser ||= Watir::Browser.new :chrome } 
-  before { browser.goto &quot;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &quot; }
+  before { browser.goto &#34;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &#34; }
   after { browser.close  }
 
-  it &quot;put the info&quot; do
-    browser.execute_script(&quot;SubmitUser()&quot;)
-    browser.text_field(:id =&gt; &quot;name&quot;).set &quot;测试数据&quot;
-    browser.text_field(:id =&gt; &quot;phone&quot;).set &quot;1383838438&quot;
-    browser.text_field(:id =&gt; &quot;email&quot;).set &quot;白宫&quot;
-    browser.execute_script(&quot;SubmitUserInfo()&quot;)
+  it &#34;put the info&#34; do
+    browser.execute_script(&#34;SubmitUser()&#34;)
+    browser.text_field(:id =&gt; &#34;name&#34;).set &#34;测试数据&#34;
+    browser.text_field(:id =&gt; &#34;phone&#34;).set &#34;1383838438&#34;
+    browser.text_field(:id =&gt; &#34;email&#34;).set &#34;白宫&#34;
+    browser.execute_script(&#34;SubmitUserInfo()&#34;)
   end
   #headless.destroy
 end
 </code></pre><h2 id="测试运行">测试运行</h2>
 <pre tabindex="0"><code>rspec put.rb
-
 </code></pre>
     </div>
   </article>

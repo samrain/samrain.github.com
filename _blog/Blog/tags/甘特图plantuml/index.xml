@@ -13,7 +13,7 @@
       <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
       
       <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</guid>
-      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&#39;s end</description>
+      <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&amp;#39;s end</description>
     </item>
     
   </channel>

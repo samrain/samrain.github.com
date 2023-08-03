@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-02-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-07T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="刷票"/>
 <meta name="twitter:description" content="Why 帮朋友完成任务，让名次不要太低 what 刷票 How 网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验"/>
@@ -225,7 +224,7 @@ if (!doNotTrack) {
 </code></pre><p>于是直接用curl发送Post请求，而Parallel来进行并行处理（代替for）：</p>
 <pre tabindex="0"><code>sudo apt-get install parallel curl
 
-parallel curl --url &quot;http://www.example.com/toupiao/Save&quot; -d ids=74 -d :::: $数据文件名
+parallel curl --url &#34;http://www.example.com/toupiao/Save&#34; -d ids=74 -d :::: $数据文件名
 </code></pre><p>数据文件内容示例：</p>
 <pre tabindex="0"><code>name=李峙锦&amp;phone=13602198215
 name=于晨津&amp;phone=16202106815

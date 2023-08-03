@@ -15,7 +15,6 @@
 <meta property="article:published_time" content="2015-02-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2015-02-06T00:00:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="介绍Harp"/>
 <meta name="twitter:description" content="What 官网在此 nodejs写的静态web服务器，号称零配置。 牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能"/>
@@ -240,20 +239,19 @@ harp server --port 12345
 <h3 id="预先编译">预先编译</h3>
 <pre tabindex="0"><code>harp compile --output /path/www
 </code></pre><h3 id="使用lib">使用lib</h3>
-<pre tabindex="0"><code>var harp = require(&quot;harp&quot;)
+<pre tabindex="0"><code>var harp = require(&#34;harp&#34;)
 harp.server(projectPath [,args] [,callback])
 
-var harp = require(&quot;harp&quot;)
+var harp = require(&#34;harp&#34;)
 harp.compile(projectPath [,outputPath] [, callback])
 
-var express = require(&quot;express&quot;);
-var harp = require(&quot;harp&quot;);
+var express = require(&#34;express&#34;);
+var harp = require(&#34;harp&#34;);
 var app = express();
 app.configure(function(){
-  app.use(express.static(__dirname + &quot;/public&quot;));
-  app.use(harp.mount(__dirname + &quot;/public&quot;));
+  app.use(express.static(__dirname + &#34;/public&#34;));
+  app.use(harp.mount(__dirname + &#34;/public&#34;));
 });
-
 </code></pre>
     </div>
   </article>
