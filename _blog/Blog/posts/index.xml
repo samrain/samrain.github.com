@@ -6,7 +6,16 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 07 Aug 2023 07:57:41 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 22:02:55 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置ubuntu上拼音输入法Fcitx5</title>
+      <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
+      <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
+      <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
+    </item>
+    
     <item>
       <title>核心训练-2023年版</title>
       <link>https://www.samrainhan.com/posts/2023-08-07-core-training-2023-edition/</link>

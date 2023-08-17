@@ -3,18 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2023-08-07T07:57:41+08:00</lastmod>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2023-08-07T07:57:41+08:00</lastmod>
+    <loc>https://www.samrainhan.com/tags/fcitx/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/linux/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2023-08-07T07:57:41+08:00</lastmod>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2023-08-07T07:57:41+08:00</lastmod>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</loc>
+    <lastmod>2023-08-16T22:02:55+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/family/</loc>
     <lastmod>2023-08-07T07:57:41+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%81%A5%E8%BA%AB/</loc>
@@ -54,9 +72,6 @@
     <lastmod>2023-08-03T08:45:00+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2023-03-18-jtbd/</loc>
-    <lastmod>2023-03-18T20:29:37+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
     <lastmod>2023-03-18T20:29:37+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/</loc>
@@ -421,9 +436,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/</loc>
     <lastmod>2022-10-28T11:35:12+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/linux/</loc>
-    <lastmod>2022-10-27T09:28:32+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/ubuntu/</loc>
     <lastmod>2022-10-27T09:28:32+08:00</lastmod>
@@ -3117,9 +3129,6 @@
     <lastmod>2016-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</loc>
-    <lastmod>2016-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
     <lastmod>2016-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/passenger/</loc>
