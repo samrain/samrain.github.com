@@ -6,7 +6,16 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Aug 2023 22:02:55 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 06:56:55 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>桌面研究</title>
+      <link>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</link>
+      <pubDate>Sat, 19 Aug 2023 06:56:55 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</guid>
+      <description>桌面研究（desk research）是指不进行一手资料的实地调研和采集，而是直接通过电脑、杂志、书籍、文档、互联网搜索等，对现有二手资料进行</description>
+    </item>
+    
     <item>
       <title>配置ubuntu上拼音输入法Fcitx5</title>
       <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
