@@ -1,0 +1,21 @@
++++
+title = "化妆品行业简单分析"
+date = 2023-08-24T08:30:20+08:00
+tags = ["化妆品","分析","消费"]
+categories = ["work"]
+draft = false
++++
+# 产业链
+
+![](https://cloud-pic.wpsgo.com/ZC9IUk5BRG9JMnl3Z1FIZ0JpYkN3d3doR2tPYzgzaExPKy9wRFRHdzVhczFNUEpnWE9JbUM4ejgwOHNGYUpTOUJscHNHQm5iTml2ZnJkM0xUVVcwZHJZOUlId1FUcmRDSDlYQktnakFBVDQ4eHowK1lObzVvd1NaeWl2NUNVaW95MHNYNHNsbU4yU0pkRmQrTU5ZTmVReHZyT2E0Tkd4VUFtellsSytBNEYyTTZ0NCtEdXRINTAwYU5WeGNYYmJ2QXdoSTRwOGVTak5vbk5qcjNQYTRFTnY1SjBZY1NqNDVYTUtuTDVTSDdBZ29tM2ZwdStkT0JVY1ZKNjdnZkxmdHVJV1BoM29kMG1jYmpyQS9ZZFppN3VJdW44NjBRSVJncklaYTVjQ201RmF0Tmg2elJZY1k5TDJJZ1JBd3JnPT0=/attach/object/c74999e153634996eb630fd70bdb815643fb895f?)
+
+# 业务流程
+
+![](https://cloud-pic.wpsgo.com/ZC9IUk5BRG9JMnl3Z1FIZ0JpYkN3d3doR2tPYzgzaExPKy9wRFRHdzVhczFNUEpnWE9JbUM4ejgwOHNGYUpTOUJscHNHQm5iTml2ZnJkM0xUVVcwZHJZOUlId1FUcmRDSDlYQktnakFBVDQ4eHowK1lObzVvd1NaeWl2NUNVaW95MHNYNHNsbU4yU0pkRmQrTU5ZTmVReHZyT2E0Tkd4VUFtellsSytBNEYyTTZ0NCtEdXRINTAwYU5WeGNYYmJ2QXdoSTRwOGVTak5vbk5qcjNQYTRFTnY1SjBZY1NqNDVYTUtuTDVTSDdBZ29tM2ZwdStkT0JVY1ZKNjdnZkxmdHVJV1BoM29kMG1jYmpyQS9ZZFppN3VJdW44NjBRSVJncklaYTVjQ201RmF0Tmg2elJZY1k5TDJJZ1JBd3JnPT0=/attach/object/caac06a93ea58383d57a1bea5f32bd791b984c33?)
+
+# 化妆品行业如何转型做新零售
+
+化妆品行业转型升级要解决“专业性”与“信任感”的两大问题。
+
+- 其一，通过线上平台，开展专业的化妆品知识营销，打造一整套美容护肤方案，解决消费者美肤的知识需求。
+- 其二，在线下门店升级体验服务，组织沙龙培训分享交流，借助口碑传播，扩大品牌认知度。同时，充分应用好导购，培养美容顾问，通过专业服务与知识输出，获取顾客信任。
