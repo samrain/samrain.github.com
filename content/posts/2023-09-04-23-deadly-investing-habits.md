@@ -1,7 +1,7 @@
 +++
 title = "23个致命投资习惯"
 date = 2023-09-04T11:08:34+08:00
-tags = [投资","清单"]
+tags = ["投资","清单"]
 categories = ["family"]
 draft = false
 +++
