@@ -6,8 +6,11 @@ categories = ["work"]
 draft = false
 +++
 
-企业微信行业案例： [https://work.weixin.qq.com/nl/index/industry?category=retail&from=nextPage](https://work.weixin.qq.com/nl/index/industry?category=retail&from=nextPage)
+# 企业微信行业案例
+[https://work.weixin.qq.com/nl/index/industry?category=retail&from=nextPage](https://work.weixin.qq.com/nl/index/industry?category=retail&from=nextPage)
 
-钉钉行业案例：[https://pages.dingtalk.com/wow/z/dingtalk/default/caselist](https://pages.dingtalk.com/wow/z/dingtalk/default/caselist)
+# 钉钉行业案例
+[https://pages.dingtalk.com/wow/z/dingtalk/default/caselist](https://pages.dingtalk.com/wow/z/dingtalk/default/caselist)
 
-飞书行业案例： [https://www.feishu.cn/customers?tag=%E6%B6%88%E8%B4%B9](https://www.feishu.cn/customers?tag=%E6%B6%88%E8%B4%B9)
+# 飞书行业案例
+[https://www.feishu.cn/customers?tag=%E6%B6%88%E8%B4%B9](https://www.feishu.cn/customers?tag=%E6%B6%88%E8%B4%B9)
