@@ -6,7 +6,16 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Sep 2023 23:36:34 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 19:37:36 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OFD文件的特点</title>
+      <link>https://www.samrainhan.com/posts/2023-09-11-characteristics-of-ofd/</link>
+      <pubDate>Mon, 11 Sep 2023 19:37:36 +0800</pubDate>
+      
+      <guid>https://www.samrainhan.com/posts/2023-09-11-characteristics-of-ofd/</guid>
+      <description>附件支持多种格式文件，比如音视频文件。 离线验证电子签章 OFD的国密标准包含签章人和电子签章，共两个签章。而PDF最多只支持1个签章。 OFD是</description>
+    </item>
+    
     <item>
       <title>背调-上海家化</title>
       <link>https://www.samrainhan.com/posts/2023-09-07-background-check-shanghai-jahwa/</link>
