@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.samrainhan.com/categories/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/categories/work/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2023-09-19-how-to-write-a-plan/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2023-09-19T08:47:12+08:00</lastmod>
+  </url><url>
     <loc>https://www.samrainhan.com/posts/2023-09-18-10-minutes-chest-muscle-exercise/</loc>
     <lastmod>2023-09-18T16:39:16+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2023-09-18T16:39:16+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/categories/family/</loc>
-    <lastmod>2023-09-18T16:39:16+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2023-09-18T16:39:16+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2023-09-18T16:39:16+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/</loc>
     <lastmod>2023-09-18T16:39:16+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%81%A5%E8%BA%AB/</loc>
@@ -30,9 +39,6 @@
     <lastmod>2023-09-18T16:39:16+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2023-09-17-amp-it-up-by-frank-slotman/</loc>
-    <lastmod>2023-09-17T22:40:52+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/categories/work/</loc>
     <lastmod>2023-09-17T22:40:52+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%9B%A2%E9%98%9F/</loc>
