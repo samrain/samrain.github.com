@@ -6,24 +6,21 @@
     <description>Recent content in 解密 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E8%A7%A3%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%A7%A3%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用加解密算法的.net实现</title>
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
       <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
       <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
     </item>
-    
     <item>
       <title>常用加解密算法</title>
       <link>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</guid>
       <description>1.常用密钥算法 密钥算法用来对敏感数据、摘要、签名等信息进行加密。 对称加密算法 DES（Data Encryption Standard） 数据加密标准，速度较快，适</description>
     </item>
-    
   </channel>
 </rss>

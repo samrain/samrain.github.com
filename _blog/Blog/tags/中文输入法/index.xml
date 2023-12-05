@@ -6,15 +6,14 @@
     <description>Recent content in 中文输入法 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搜狗linux输入法有黑框</title>
       <link>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</link>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</guid>
       <description>我的环境是Lubuntu1404..asdf 安装xcompmgr后重启 启动xcompmgr解决了问题</description>
     </item>
-    
   </channel>
 </rss>

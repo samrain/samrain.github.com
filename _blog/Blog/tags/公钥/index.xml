@@ -6,15 +6,14 @@
     <description>Recent content in 公钥 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E9%92%A5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E9%92%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>公钥编码格式</title>
       <link>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</link>
       <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</guid>
       <description>公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com</description>
     </item>
-    
   </channel>
 </rss>

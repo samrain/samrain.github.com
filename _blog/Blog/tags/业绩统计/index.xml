@@ -6,15 +6,14 @@
     <description>Recent content in 业绩统计 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 Aug 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%9A%E7%BB%A9%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%9A%E7%BB%A9%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>销售业绩统计</title>
       <link>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</link>
       <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</guid>
       <description>##分为三个实体 合同 甲方 乙方 总金额 付款比例 税点 发票类型 签订合同时间 售出/采购 合同内部编号 收/付款 收/付 时间 付款人 付款金额 付款理由 和那个合同对</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
     <description>Recent content in 通信 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%80%9A%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%80%9A%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tcpdump介绍</title>
       <link>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</link>
       <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</guid>
       <description>Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原</description>
     </item>
-    
   </channel>
 </rss>

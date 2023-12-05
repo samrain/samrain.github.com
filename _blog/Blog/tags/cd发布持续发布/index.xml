@@ -6,15 +6,14 @@
     <description>Recent content in CD,发布,持续发布 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Sep 2018 17:18:30 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/cd%E5%8F%91%E5%B8%83%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Sep 2018 17:18:30 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/cd%E5%8F%91%E5%B8%83%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>持续发布的各个阶段</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</link>
       <pubDate>Wed, 12 Sep 2018 17:18:30 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-map-of-continuous-delivery/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -6,24 +6,21 @@
     <description>Recent content in shortcuts on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎么设置Terminator中的复制和粘帖快捷键</title>
       <link>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</guid>
       <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config</description>
     </item>
-    
     <item>
       <title>Gmail快捷键</title>
       <link>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</link>
       <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</guid>
       <description>思维导图文件下载 十大快捷键 显示您所在任何页面中的键盘快捷键帮助菜单：？ 在当前窗口中写新邮件：c 回复邮件：r 转发：f 删除会话：# 转到收件箱：g</description>
     </item>
-    
   </channel>
 </rss>

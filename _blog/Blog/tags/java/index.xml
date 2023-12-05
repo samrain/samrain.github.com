@@ -6,15 +6,14 @@
     <description>Recent content in java on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java代码获取http请求的整个URL</title>
       <link>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
       <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
     </item>
-    
   </channel>
 </rss>

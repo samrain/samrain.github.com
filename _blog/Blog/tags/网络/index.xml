@@ -6,42 +6,35 @@
     <description>Recent content in 网络 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网络营销</title>
       <link>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</link>
       <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</guid>
       <description>网站的价值 网站给用户解决了什么问题？ 用户上我的网站和别人的网站有什么区别？ 在我的网站上会获得更好的信息还是更好的体验？ 用户是否会记得我的网站</description>
     </item>
-    
     <item>
       <title>双网卡一块上网另一块上局域网</title>
       <link>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</guid>
       <description>双网卡一块上网另一块上局域网</description>
     </item>
-    
     <item>
       <title>Nmap初体验</title>
       <link>https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/</link>
       <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/</guid>
       <description>思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管</description>
     </item>
-    
     <item>
       <title>十大网络安全工具</title>
       <link>https://www.samrainhan.com/posts/2013-09-03-network-security-tools/</link>
       <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-09-03-network-security-tools/</guid>
       <description>思维导图文件下载 黑客的Linux:Backtrack 恶意软件分析工具 Virustotal.com Jotti.com 漏洞检测框架:Metasploit 端口扫描工具:Nmap 网络流量分析</description>
     </item>
-    
   </channel>
 </rss>

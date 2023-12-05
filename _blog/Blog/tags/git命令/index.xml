@@ -6,15 +6,14 @@
     <description>Recent content in Git命令 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/git%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/git%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git命令释义</title>
       <link>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</guid>
       <description>思维导图文件下载 基本操作 init 初始化Git仓库 创建.git隐藏目录 add add . 添加目录和子目录下所有文件 add filename1 filename2 添加某些文件 commit commit -m 版本更新说明 提交版本，</description>
     </item>
-    
   </channel>
 </rss>

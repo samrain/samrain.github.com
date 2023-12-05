@@ -6,51 +6,42 @@
     <description>Recent content in 测试 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Nov 2022 10:34:26 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 10:34:26 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试报告大纲</title>
       <link>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</link>
       <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</guid>
       <description>Completion测试结论,哪些通过,哪些没通过.建议用表格形式. Why为什么要测试 What测试什么 When测试时间 Who谁测试的,测试用</description>
     </item>
-    
     <item>
       <title>安装http_load</title>
       <link>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</guid>
       <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load*.gz cd http_load* make &amp;amp;&amp;amp; sudo make install</description>
     </item>
-    
     <item>
       <title>安装localtunnel(穿透内网工具)</title>
       <link>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</guid>
       <description>install sudo apt-get install npm sudo npm install -g localtunnel run lt 如果报错[/usr/bin/env: node: No such file or directory],那么运行 sudo ln -s /usr/bin/nodejs /usr/bin/node</description>
     </item>
-    
     <item>
       <title>watir 网页程序自动化测试工具</title>
       <link>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</link>
       <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</guid>
       <description>安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到</description>
     </item>
-    
     <item>
       <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>
       <link>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</link>
       <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</guid>
       <description>如果想要在 Chrome 上测试网站在不同设备，不同分辨率的显示情况，那么就试试 Chrome 开发工具的设备模拟器吧。进入到开发者工具（快捷键 F12），应该是在右下侧</description>
     </item>
-    
   </channel>
 </rss>

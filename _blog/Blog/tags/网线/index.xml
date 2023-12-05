@@ -6,15 +6,14 @@
     <description>Recent content in 网线 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>百兆和千兆网线区别</title>
       <link>https://www.samrainhan.com/posts/2016-03-17-the-difference-of-hundreds-of-megabytes-cable-and-gigabit-network-cable/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-03-17-the-difference-of-hundreds-of-megabytes-cable-and-gigabit-network-cable/</guid>
       <description>百兆和千兆网线区别 千兆 一般需要六类线以上，六类线中间有个十字形的塑料架，八根线上传下载都用上了。 百兆 用五类线以上，只用了其中的四根线。</description>
     </item>
-    
   </channel>
 </rss>

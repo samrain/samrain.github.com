@@ -6,15 +6,14 @@
     <description>Recent content in 配置开发环境 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IOS开发环境配置学习手册</title>
       <link>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</link>
       <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</guid>
       <description>准备 一台Mac电脑（OSX升级到10.10），安装最新的XCode。 上developer.apple.com 到为每个人申请开发证书 为每个产品</description>
     </item>
-    
   </channel>
 </rss>

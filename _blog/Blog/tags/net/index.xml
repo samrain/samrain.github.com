@@ -6,33 +6,28 @@
     <description>Recent content in NET on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RSA算法在.net中实现</title>
       <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</guid>
       <description>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击</description>
     </item>
-    
     <item>
       <title>常用加解密算法的.net实现</title>
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
       <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
       <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
     </item>
-    
     <item>
       <title>NET性能优化注意事项</title>
       <link>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</guid>
       <description>避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要</description>
     </item>
-    
   </channel>
 </rss>

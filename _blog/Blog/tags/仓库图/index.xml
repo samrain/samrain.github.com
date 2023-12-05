@@ -6,33 +6,28 @@
     <description>Recent content in 仓库图 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BB%93%E5%BA%93%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BB%93%E5%BA%93%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zsh是什么</title>
       <link>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</link>
       <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</guid>
       <description>安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会</description>
     </item>
-    
     <item>
       <title>在IIS6上开启gzip</title>
       <link>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</link>
       <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</guid>
       <description>IIS6上默认没有开启gzip，而IIS7以上则默认开启。因为gzip的功能实在是太好用了，可以极大提高网站性能。所以接下来让我们来尝试下开</description>
     </item>
-    
     <item>
       <title>Git仓库版本控制建议结构图</title>
       <link>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

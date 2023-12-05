@@ -6,24 +6,21 @@
     <description>Recent content in AppFabric on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 14 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/appfabric/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/appfabric/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尝试解决AppFabric问题  ErrorCode&lt;ERRCA0016&gt; SubStatus&lt;ES0001&gt;</title>
       <link>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</link>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</guid>
       <description>尝试解决AppFabric问题： ErrorCode:SubStatus:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的</description>
     </item>
-    
     <item>
       <title>解决AppFabric问题 ErrorCode&lt;ERRCA0017&gt;:SubStatus&lt;ES0005&gt;</title>
       <link>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</guid>
       <description>解决AppFabric问题 ErrorCode:SubStatus:发生临时故障。请稍后重试。 (存储存在争用情况。) 1.升级AppFabric</description>
     </item>
-    
   </channel>
 </rss>

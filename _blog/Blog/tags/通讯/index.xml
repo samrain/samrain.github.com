@@ -6,15 +6,14 @@
     <description>Recent content in 通讯 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%80%9A%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%80%9A%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>各种通讯方式</title>
       <link>https://www.samrainhan.com/posts/2016-04-22-connect-type/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-22-connect-type/</guid>
       <description>websocket全双工通信协议 可以穿透防火墙，有安全隐患 polling 轮询 大量无效数据包 cnmet 长连接 占用服务器带宽和资源</description>
     </item>
-    
   </channel>
 </rss>

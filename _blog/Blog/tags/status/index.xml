@@ -6,15 +6,14 @@
     <description>Recent content in status on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>304 Not Modified</title>
       <link>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</link>
       <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</guid>
       <description>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户</description>
     </item>
-    
   </channel>
 </rss>

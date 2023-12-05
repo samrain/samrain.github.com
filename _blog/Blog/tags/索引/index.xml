@@ -6,15 +6,14 @@
     <description>Recent content in 索引 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>整理SqlServer表上索引碎片</title>
       <link>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</guid>
       <description>查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
     <description>Recent content in Chocolatey on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/chocolatey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/chocolatey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>体验Chocolatey</title>
       <link>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</link>
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</guid>
       <description>太长了不好拼写，以下简写为choco吧，也是向官方看齐。 官网在此：https://chocolatey.org/，如何安装和使用上面写的很清</description>
     </item>
-    
   </channel>
 </rss>

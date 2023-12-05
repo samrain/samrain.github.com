@@ -6,24 +6,21 @@
     <description>Recent content in 域名 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNS工具</title>
       <link>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</link>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</guid>
       <description>域名健康诊断 dnspod.cn 我的PC上最优DNS服务器是哪个? dnspod.cn</description>
     </item>
-    
     <item>
       <title>怎么查询一级域名下有哪些二级域名</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</guid>
       <description>请替换[XXX.com]为需要的域名 http://www.baidu.com/#wd=site%3A[XXX.com] http://webscan.360.cn/sub/index/?url=[XXX.com]</description>
     </item>
-    
   </channel>
 </rss>

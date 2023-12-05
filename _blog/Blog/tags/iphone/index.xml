@@ -6,15 +6,14 @@
     <description>Recent content in iPhone on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2台iPhone同时响铃</title>
       <link>https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/</link>
       <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/</guid>
       <description>ios8.2升级后碰到2台IPHONE在同一个wifi下，一台来电，另一台也一起响铃 设置-FaceTime-iPhone蜂窝移动网络通话关掉</description>
     </item>
-    
   </channel>
 </rss>

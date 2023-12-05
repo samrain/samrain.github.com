@@ -6,15 +6,14 @@
     <description>Recent content in 编程规范 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 22 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>各种编程规范</title>
       <link>https://www.samrainhan.com/posts/2015-06-22-programming-specification/</link>
       <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-22-programming-specification/</guid>
       <description>谷歌 包括针对各种语言的编码风格指导 NASA喷气推进实验室 Linux内核 Perl GNU Microsoft C#</description>
     </item>
-    
   </channel>
 </rss>

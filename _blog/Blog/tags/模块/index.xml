@@ -6,15 +6,14 @@
     <description>Recent content in 模块 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E5%9D%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E5%9D%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenResty第三方模块</title>
       <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
       <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
       <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
     </item>
-    
   </channel>
 </rss>

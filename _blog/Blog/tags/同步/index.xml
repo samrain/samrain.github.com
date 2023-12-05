@@ -6,42 +6,35 @@
     <description>Recent content in 同步 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>处理cwRsync运行错误</title>
       <link>https://www.samrainhan.com/posts/2016-12-26-how-can-use-cwrsync/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-12-26-how-can-use-cwrsync/</guid>
       <description>cwRsync 4.2在同步的时候会有错误： uid 4294967295 (-1) is impossible to set on &amp;ldquo;/cygdriver/&amp;hellip;&amp;rdquo; 或者 gid 4294967295 (-1) is impossible to set on &amp;ldquo;/cygdriver/&amp;hellip;&amp;rdquo; 如果不想看到提示这些错误 1、可以在命令行加参数 --no-super 2、在服务器端的配置文</description>
     </item>
-    
     <item>
       <title>rsync客户端脚本For windows上cwRsync服务的</title>
       <link>https://www.samrainhan.com/posts/2016-06-11-rsync-client-script-for-cwrsync-on-windows/</link>
       <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-11-rsync-client-script-for-cwrsync-on-windows/</guid>
       <description>#新建一个文件pwd,保存密码,这里放在当前目录下,内容为438affed14a718add39f0c7729016828 echo 438affed14a718add39f0c7729016828 &amp;gt; pwd &amp;amp;&amp;amp; chmod 600 pwd #</description>
     </item>
-    
     <item>
       <title>rsync客户端脚本For linux</title>
       <link>https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/</link>
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/</guid>
       <description># 1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &amp;quot;ssh&amp;quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &amp;quot;ssh&amp;quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/</description>
     </item>
-    
     <item>
       <title>安装cwRsyncServer</title>
       <link>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</link>
       <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</guid>
       <description>下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运</description>
     </item>
-    
   </channel>
 </rss>

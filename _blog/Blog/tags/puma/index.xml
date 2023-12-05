@@ -6,15 +6,14 @@
     <description>Recent content in Puma on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/puma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/puma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Puma&#43;Nginx&#43;Mariadb&#43;Redmine</title>
       <link>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</link>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</guid>
       <description>以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;amp;&amp;amp;</description>
     </item>
-    
   </channel>
 </rss>

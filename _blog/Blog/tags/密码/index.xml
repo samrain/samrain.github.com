@@ -6,42 +6,35 @@
     <description>Recent content in 密码 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Oct 2023 09:08:51 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Oct 2023 09:08:51 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>明文加密简易方案</title>
       <link>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</link>
       <pubDate>Wed, 04 Oct 2023 09:08:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</guid>
       <description>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A</description>
     </item>
-    
     <item>
       <title>在IM中发送和接受密码</title>
       <link>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</link>
       <pubDate>Tue, 27 Dec 2022 17:01:18 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</guid>
       <description>发送密码 用浏览器访问https://tool.oschina.net/encrypt 点击「加密/解密」 把密码粘帖到左边方框「明文」中 在「加密</description>
     </item>
-    
     <item>
       <title>加密密码</title>
       <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
       <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
     </item>
-    
     <item>
       <title>为ssh连接指定别名并记住密码</title>
       <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</guid>
       <description>Why 维护多台linux服务器, 需要ssh进行操作，每次都要输入 ssh user@x.x.x.x并输入密码OOXX#*&amp;amp;^%, 是一件很浪费时间</description>
     </item>
-    
   </channel>
 </rss>

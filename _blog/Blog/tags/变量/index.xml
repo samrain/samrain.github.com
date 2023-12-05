@@ -6,15 +6,14 @@
     <description>Recent content in 变量 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何给变量命名</title>
       <link>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</guid>
       <description>#(转)一个查询网站，只要输入变量名称（中英文皆可），能够搜索到其他项目中用到的命名 http://unbug.github.io/codelf/</description>
     </item>
-    
   </channel>
 </rss>

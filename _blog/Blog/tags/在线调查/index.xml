@@ -6,33 +6,28 @@
     <description>Recent content in 在线调查 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%9C%A8%E7%BA%BF%E8%B0%83%E6%9F%A5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9C%A8%E7%BA%BF%E8%B0%83%E6%9F%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装LimeSurvey</title>
       <link>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-03-21-install-limesurvey/</guid>
       <description>安装LimeSurvey 源码包 下载链接 密码: g75h 使用手册 在线手册 安装脚本</description>
     </item>
-    
     <item>
       <title>在线调查-个人评定 by typeform.com</title>
       <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-two-by-typeform-com/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>在线调查-团队效能 by typeform.com</title>
       <link>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-12-30-online-survey-by-typeform-com/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

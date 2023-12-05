@@ -6,51 +6,42 @@
     <description>Recent content in 虚拟机 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>virtualbox静默启动虚拟机</title>
       <link>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</link>
       <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</guid>
       <description>VBoxManage startvm [vm-name] &amp;ndash;type headless</description>
     </item>
-    
     <item>
       <title>xen客户端无法连上服务 by citrix</title>
       <link>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</guid>
       <description>运行以下脚本 #看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
     </item>
-    
     <item>
       <title>citrix导出虚拟机</title>
       <link>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
       <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
     </item>
-    
     <item>
       <title>备份virtualbox虚拟机</title>
       <link>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</guid>
       <description>1.确保虚拟机已经关闭 查看还有没有运行的虚拟机。 VBoxManage list runningvms 2.备份虚拟机 VBoxManage export %虚拟机名称% --ovf20 --manifest -o %备份目录%/XXXX.ova</description>
     </item>
-    
     <item>
       <title>Install Gentoo In Virtualbox</title>
       <link>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</guid>
       <description>思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新</description>
     </item>
-    
   </channel>
 </rss>

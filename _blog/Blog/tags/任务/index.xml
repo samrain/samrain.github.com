@@ -6,24 +6,21 @@
     <description>Recent content in 任务 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BB%BB%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BB%BB%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>简单任务管理</title>
       <link>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</link>
       <pubDate>Tue, 05 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</guid>
       <description>任务清单用excel编辑后导出为html放在WebServer上供大家访问 最重要的放在最上面 根据人员排序 如果一个功能是有多人配合完成的，需要</description>
     </item>
-    
     <item>
       <title>批量导出redmine任务并导入到google日历中</title>
       <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
       <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
     </item>
-    
   </channel>
 </rss>

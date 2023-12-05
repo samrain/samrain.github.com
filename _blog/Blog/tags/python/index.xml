@@ -6,33 +6,28 @@
     <description>Recent content in python on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LearnPython</title>
       <link>https://www.samrainhan.com/posts/2013-03-25-learn-python/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-25-learn-python/</guid>
       <description>思维导图文件下载 codecs 读取文件并将内容输出为内部unicode cgi 开发cgi程序 escape 替换一些特殊符号，例如&amp;amp;,&amp;lt; OptionParser 处理命令行选项</description>
     </item>
-    
     <item>
       <title>OPENERP Step by Step</title>
       <link>https://www.samrainhan.com/posts/2013-03-25-learn-openerp/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-25-learn-openerp/</guid>
       <description>思维导图文件下载 最重要目标 通过信息的集成,实现业务间的集成 企业基础资源数字化 业务处理数字化 管理信息化 模块 项目管理 文档管理 电子数据交换（EDI</description>
     </item>
-    
     <item>
       <title>如何把VIM变成Python IDE</title>
       <link>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</guid>
       <description>思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自</description>
     </item>
-    
   </channel>
 </rss>

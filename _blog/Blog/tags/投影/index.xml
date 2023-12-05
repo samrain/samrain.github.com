@@ -6,15 +6,14 @@
     <description>Recent content in 投影 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 11 Mar 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%8A%95%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%8A%95%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投影幕布计算</title>
       <link>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</link>
       <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</guid>
       <description>对角线长度即为一般意义上的幕布大小，比如150寸幕布，即表示对角线长度为150寸=3.81米(100寸=2.54m) 如果是4:3，那么幕布为</description>
     </item>
-    
   </channel>
 </rss>

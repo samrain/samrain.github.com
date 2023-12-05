@@ -6,15 +6,14 @@
     <description>Recent content in SPS on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/sps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/sps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Windows Server 2003 中启用 ASP.NET 2.0</title>
       <link>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</guid>
       <description>##在 IIS 中的&amp;quot;Web 服务扩展&amp;quot;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中，在</description>
     </item>
-    
   </channel>
 </rss>

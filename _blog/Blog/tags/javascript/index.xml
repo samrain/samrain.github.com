@@ -6,24 +6,21 @@
     <description>Recent content in javascript on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JS显示当前电脑的目录</title>
       <link>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</link>
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>缩减HTML、CSS和JavaScript的大小</title>
       <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>
       <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</guid>
       <description>##缩减HTML的大小 使用PageSpeed Insights Chrome扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的</description>
     </item>
-    
   </channel>
 </rss>

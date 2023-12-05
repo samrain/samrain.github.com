@@ -6,24 +6,21 @@
     <description>Recent content in 旅游,青海 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Dec 2019 11:15:47 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E9%9D%92%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Dec 2019 11:15:47 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E9%9D%92%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.NET项目编译脚本</title>
       <link>https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/</link>
       <pubDate>Thu, 12 Dec 2019 11:15:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/</guid>
       <description>编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &amp;#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&amp;#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo</description>
     </item>
-    
     <item>
       <title>青海7日大环线</title>
       <link>https://www.samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/</link>
       <pubDate>Thu, 12 Dec 2019 10:10:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/</guid>
       <description>D1：西宁-黑泉水库-大坂山-门源油菜花-岗什卡雪峰（远观）-祁连 祁连新世纪宾馆 360元 全 15297126212 D2：祁连县-卓尔山-阿柔大寺-祁连草原-俄博古</description>
     </item>
-    
   </channel>
 </rss>

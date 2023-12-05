@@ -6,33 +6,28 @@
     <description>Recent content in 发布 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%8F%91%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8F%91%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何把内网的服务公布到公网上</title>
       <link>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</guid>
       <description>ngrok 这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。 下载 https://ngrok.com/download 配置 编辑配置文件 ngrok.config auth_token: dxW21sgRz-DscM932vgkDxe http_proxy: &amp;quot;http://192.168.16.41:60002&amp;quot; tunnels: calibre-server: subdomain: samebook proto: https: 8080 其中</description>
     </item>
-    
     <item>
       <title>msbuild参数效果对比</title>
       <link>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</guid>
       <description>结论 加/m的效果明显,而加/p:BuildlnParallel=true,并不明显. 试验数据 以下是在一台虚拟机上的测试结果,分配了4个CPU</description>
     </item>
-    
     <item>
       <title>站点发布时序图</title>
       <link>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</link>
       <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

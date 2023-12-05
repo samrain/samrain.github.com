@@ -6,51 +6,42 @@
     <description>Recent content in 云计算 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于阿里云搭建服务平台架构图</title>
       <link>https://www.samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/</link>
       <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/</guid>
       <description>基于阿里云服务平台实施的，如下所示： 阿里云服务 采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多</description>
     </item>
-    
     <item>
       <title>推动政府网站向供给和需求并重的建站模式转型</title>
       <link>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</link>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</guid>
       <description>从用户体验优化和服务供给规范两个角度共同推动政府网站优化与改进“双轮驱动”的政府网站建站模式，形成由需求端向供给端回溯、“自下而上”的创新驱</description>
     </item>
-    
     <item>
       <title>iCity仪表盘</title>
       <link>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</guid>
       <description>iCity仪表盘报告提供了更及时的表现手法和工作进展报告,有些数据启用实时更新,例如公共交通数据,而有些数据则每日、每周或是每月进行统计分析</description>
     </item>
-    
     <item>
       <title>城市流程绩效管理平台</title>
       <link>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</link>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</guid>
       <description>城市流程绩效管理平台基于云计算,通过整合与城市管理流程自动化,使用先进的技术与综合服务质量评估体系,驱动公共服务的效率和有效性。同时,市民可</description>
     </item>
-    
     <item>
       <title>What&#39;s the Cloud(转)</title>
       <link>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</link>
       <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</guid>
       <description>云计算擅长做什么呢？以下场景都是不错的利好方案： 没有基础技术设施而又需要可伸缩性的创业公司。 地理数据，政务信息之类的数据中心。 桌面办公（邮件</description>
     </item>
-    
   </channel>
 </rss>

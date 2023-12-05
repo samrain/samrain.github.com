@@ -6,15 +6,14 @@
     <description>Recent content in 中文 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>英文Windows VPS 安装中文包</title>
       <link>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</guid>
       <description>Why 国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国</description>
     </item>
-    
   </channel>
 </rss>

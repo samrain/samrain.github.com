@@ -6,15 +6,14 @@
     <description>Recent content in 网页测试 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>watir 网页程序自动化测试工具</title>
       <link>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</link>
       <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</guid>
       <description>安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到</description>
     </item>
-    
   </channel>
 </rss>

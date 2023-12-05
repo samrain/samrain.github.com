@@ -6,15 +6,14 @@
     <description>Recent content in browser on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 11 Mar 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chrome介绍</title>
       <link>https://www.samrainhan.com/posts/2013-03-11-chrome/</link>
       <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-11-chrome/</guid>
       <description>思维导图文件下载 功能 仅一行代码，打造一个在线编辑器:http://www.oschina.net/news/37360/one-line-c</description>
     </item>
-    
   </channel>
 </rss>

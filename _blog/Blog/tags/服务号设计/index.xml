@@ -6,15 +6,14 @@
     <description>Recent content in 服务号,设计 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Feb 2022 17:01:01 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1%E5%8F%B7%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 17:01:01 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1%E5%8F%B7%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>服务号功能设计</title>
       <link>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</link>
       <pubDate>Sun, 06 Feb 2022 17:01:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</guid>
       <description>发送 及时发送通知信息给某人或某些人 定时发送通知信息给某人或某些人 通知信息包括 按照通知是否需要被通知人来执行分为 通告，知悉即可不需要执行 任务，</description>
     </item>
-    
   </channel>
 </rss>

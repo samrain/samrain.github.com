@@ -6,24 +6,21 @@
     <description>Recent content in 云主机 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何解决客户端无法连接上Xen服务器</title>
       <link>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</link>
       <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</guid>
       <description>#看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
     </item>
-    
     <item>
       <title>AWS使用心得</title>
       <link>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</link>
       <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</guid>
       <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
     </item>
-    
   </channel>
 </rss>

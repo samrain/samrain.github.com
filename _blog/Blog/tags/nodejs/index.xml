@@ -6,42 +6,35 @@
     <description>Recent content in nodejs on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 29 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Chrome中调试nodejs</title>
       <link>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</link>
       <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</guid>
       <description>install 安装node-inspector插件 sudo npm install -g node-inspector Getting start node-debug XXX.js 会自动启动chrome（Chromium）浏览器访问http://127.0.0.1</description>
     </item>
-    
     <item>
       <title>学习node.js</title>
       <link>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</link>
       <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</guid>
       <description>每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出</description>
     </item>
-    
     <item>
       <title>Grunt配置文件</title>
       <link>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</link>
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-19-sample-config-of-grunt/</guid>
       <description>Gruntfile.js package.json</description>
     </item>
-    
     <item>
       <title>介绍Harp</title>
       <link>https://www.samrainhan.com/posts/2015-02-06-harp/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-02-06-harp/</guid>
       <description>What 官网在此 nodejs写的静态web服务器，号称零配置。 牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能</description>
     </item>
-    
   </channel>
 </rss>

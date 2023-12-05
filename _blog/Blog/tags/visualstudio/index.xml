@@ -6,15 +6,14 @@
     <description>Recent content in VisualStudio on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/visualstudio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/visualstudio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VisualStudio Build和Rebuild的区别</title>
       <link>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</link>
       <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</guid>
       <description>Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。 Build只是针对有更改过的文件进行编译。 Clean+Bui</description>
     </item>
-    
   </channel>
 </rss>

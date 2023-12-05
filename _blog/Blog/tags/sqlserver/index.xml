@@ -6,33 +6,28 @@
     <description>Recent content in sqlserver on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 30 Jun 2018 14:30:17 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jun 2018 14:30:17 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>清除SqlServer AlwaysOn日志</title>
       <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
       <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</guid>
       <description>--dbName为数据库名 use dbName BACKUP LOG dbName To DISK = N&#39;nul&#39; go dbcc shrinkfile(dbName_log,0, TRUNCATEONLY) go dbcc shrinkdatabase(dbName,0, TRUNCATEONLY) go</description>
     </item>
-    
     <item>
       <title>整理SqlServer表上索引碎片</title>
       <link>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/</guid>
       <description>查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =</description>
     </item>
-    
     <item>
       <title>清理sqlserver数据库日志</title>
       <link>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</link>
       <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
       <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
     </item>
-    
   </channel>
 </rss>

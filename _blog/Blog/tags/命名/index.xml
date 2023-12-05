@@ -6,24 +6,21 @@
     <description>Recent content in 命名 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%91%BD%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%91%BD%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何给变量命名</title>
       <link>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</guid>
       <description>#(转)一个查询网站，只要输入变量名称（中英文皆可），能够搜索到其他项目中用到的命名 http://unbug.github.io/codelf/</description>
     </item>
-    
     <item>
       <title>软件开发文档命名规范</title>
       <link>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</link>
       <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</guid>
       <description>思维导图文件下载 Why 统一规范便于管理 Who 本部门员工 外包厂商员工 What 规定之后部门及项目上的文档命名规范 How 文件名规范：执行组织编码-项目代号-文档类型</description>
     </item>
-    
   </channel>
 </rss>

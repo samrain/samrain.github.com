@@ -6,15 +6,14 @@
     <description>Recent content in 手持终端 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%89%8B%E6%8C%81%E7%BB%88%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%89%8B%E6%8C%81%E7%BB%88%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>
       <link>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</link>
       <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</guid>
       <description>如果想要在 Chrome 上测试网站在不同设备，不同分辨率的显示情况，那么就试试 Chrome 开发工具的设备模拟器吧。进入到开发者工具（快捷键 F12），应该是在右下侧</description>
     </item>
-    
   </channel>
 </rss>

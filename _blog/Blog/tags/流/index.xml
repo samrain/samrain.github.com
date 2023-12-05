@@ -6,15 +6,14 @@
     <description>Recent content in 流 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>流处理</title>
       <link>https://www.samrainhan.com/posts/2016-07-04-stream-processing/</link>
       <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-04-stream-processing/</guid>
       <description>Stream processing, Event sourcing, Reactive, CEP… and making sense of it all http://www.confluent.io/blog/making-sense-of-stream-processing/ 消息代理 Kafka：http://kafka.apache.org/ 流处理框架 Samza：http://sa</description>
     </item>
-    
   </channel>
 </rss>

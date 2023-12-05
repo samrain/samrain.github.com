@@ -6,15 +6,14 @@
     <description>Recent content in 选型 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%80%89%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%80%89%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>服务器选型 TPC估算</title>
       <link>https://www.samrainhan.com/posts/2014-08-31-tpc-estimates/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-08-31-tpc-estimates/</guid>
       <description>服务器TPMC值计算 性能测试指标介绍 (TPC-C) TPC搜索 tpmC简单计算法</description>
     </item>
-    
   </channel>
 </rss>

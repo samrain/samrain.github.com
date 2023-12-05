@@ -6,15 +6,14 @@
     <description>Recent content in SCQA on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Mar 2021 21:14:51 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/scqa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Mar 2021 21:14:51 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/scqa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SCQA故事案例</title>
       <link>https://www.samrainhan.com/posts/2021-03-10-scqa-story-case/</link>
       <pubDate>Wed, 10 Mar 2021 21:14:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-10-scqa-story-case/</guid>
       <description>SCQA故事案例 你是乙方，和甲方谈商务条款，你开价15%的佣金比率，但对方只接受10%。其实，只要对方一次性付款，10%的比例你也可以接受。</description>
     </item>
-    
   </channel>
 </rss>

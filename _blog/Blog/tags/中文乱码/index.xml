@@ -6,15 +6,14 @@
     <description>Recent content in 中文乱码 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Aug 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决Rhythmbox中文歌名字乱码问题</title>
       <link>https://www.samrainhan.com/posts/2014-08-29-rhythmbox-chinese-song-name-to-solve-garbage-problem/</link>
       <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-08-29-rhythmbox-chinese-song-name-to-solve-garbage-problem/</guid>
       <description>当你用Rhythmbox播放MP3的时候,会发现他下面的中文歌曲名字会显示成乱码,原因是中文歌曲的文件名使用的编码标准与系统默认的不一 样。要</description>
     </item>
-    
   </channel>
 </rss>

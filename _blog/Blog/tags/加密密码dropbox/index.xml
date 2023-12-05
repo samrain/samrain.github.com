@@ -6,15 +6,14 @@
     <description>Recent content in 加密,密码,dropbox on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Sep 2018 16:24:46 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Sep 2018 16:24:46 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dropbox的用户密码加密机制</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</link>
       <pubDate>Wed, 12 Sep 2018 16:24:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</guid>
       <description>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur</description>
     </item>
-    
   </channel>
 </rss>

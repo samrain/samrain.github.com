@@ -6,15 +6,14 @@
     <description>Recent content in 导出 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%AF%BC%E5%87%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%AF%BC%E5%87%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用tsunami-udp备份</title>
       <link>https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/</guid>
       <description>在需要备份的服务器上 安装tsunami-udp 下载 http://pan.baidu.com/s/1mgHXmXU 安装 make &amp;amp;&amp;amp; sudo make install 启动tsunami-udp: cd ~/Downloads/virtualbox-bk//141125 &amp;amp;&amp;amp; tsunamid * 在备份服务器上 tsunami connect 192.168.1.5 get *</description>
     </item>
-    
   </channel>
 </rss>

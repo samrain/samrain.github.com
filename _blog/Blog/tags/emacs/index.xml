@@ -6,78 +6,63 @@
     <description>Recent content in Emacs on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs 添加一条org</title>
       <link>https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/</guid>
       <description>M-X org-add-note</description>
     </item>
-    
     <item>
       <title>如何配置Emacs在windows中的HOME目录</title>
       <link>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</link>
       <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</guid>
       <description>建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用</description>
     </item>
-    
     <item>
       <title>调试emacs配置错误</title>
       <link>https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/</link>
       <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/</guid>
       <description>M-x toggle-debug-on-error</description>
     </item>
-    
     <item>
       <title>在windows上设置emacs文件打开方式</title>
       <link>https://www.samrainhan.com/posts/2016-04-07-preview-in-emacs-by-chrome/</link>
       <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-04-07-preview-in-emacs-by-chrome/</guid>
       <description>在windows上设置emacs文件打开方式 现在已经很习惯于在orgmode中写文字，之前在Ubuntu上可以C-c C-c h o调用chrome预</description>
     </item>
-    
     <item>
       <title>orgmode中设置自动换行</title>
       <link>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</link>
       <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</guid>
       <description>orgmode中设置自动换行 最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写ma</description>
     </item>
-    
     <item>
       <title>Emacs Dir mode</title>
       <link>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</link>
       <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</guid>
       <description>常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读</description>
     </item>
-    
     <item>
       <title>用Emacs编辑Markdown</title>
       <link>https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/</link>
       <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/</guid>
       <description>思维导图文件下载 Why 今日我终于又将编辑器从ST2换成了Emacs，主要原因就是ST2不支持linux上输入中文。但是之前在ST2编辑markd</description>
     </item>
-    
     <item>
       <title>玩转Emacs</title>
       <link>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</link>
       <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</guid>
       <description>思维导图文件下载 快捷键 粘帖:c-y 新建/打开文件:c-x c-f 替换打开的文件:c-x c-v 保存文件: c-x c-s 写文件(需要输入文件名，回车默认不变): c-x c-w</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
     <description>Recent content in parallel on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/parallel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/parallel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刷票</title>
       <link>https://www.samrainhan.com/posts/2015-02-07-brush-vote/</link>
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-02-07-brush-vote/</guid>
       <description>Why 帮朋友完成任务，让名次不要太低 what 刷票 How 网站只做了当天同名或者同电话的人不能投2次票的验证，另外同一个IP一天最多投100票，其他都没有做验</description>
     </item>
-    
   </channel>
 </rss>

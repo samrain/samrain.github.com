@@ -6,24 +6,21 @@
     <description>Recent content in Xen on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/xen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/xen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>xen客户端无法连上服务 by citrix</title>
       <link>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</guid>
       <description>运行以下脚本 #看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
     </item>
-    
     <item>
       <title>如何解决客户端无法连接上Xen服务器</title>
       <link>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</link>
       <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</guid>
       <description>#看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
     </item>
-    
   </channel>
 </rss>

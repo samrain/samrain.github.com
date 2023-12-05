@@ -6,42 +6,35 @@
     <description>Recent content in 微信 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Jun 2018 16:58:47 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%BE%AE%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jun 2018 16:58:47 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%BE%AE%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QQ 微信和WPS在移动端的协作场景</title>
       <link>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</link>
       <pubDate>Fri, 29 Jun 2018 16:58:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</guid>
       <description>和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少</description>
     </item>
-    
     <item>
       <title>微信抽奖需求</title>
       <link>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</guid>
       <description>抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景</description>
     </item>
-    
     <item>
       <title>微信代运营-产品规格</title>
       <link>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</link>
       <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>对于微信产品的一点思考(总结别人文章的)</title>
       <link>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</link>
       <pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</guid>
       <description>思维导图文件下载 WHY 需求 心理诉求 自身需要 周边朋友反馈 群体效应 人内心欲望洞察 建立虚拟社会的规则 群体推动规则变化 HOW 面向场景做设计 除了核心功能都做成</description>
     </item>
-    
   </channel>
 </rss>

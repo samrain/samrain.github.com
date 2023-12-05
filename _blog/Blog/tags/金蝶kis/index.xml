@@ -6,15 +6,14 @@
     <description>Recent content in 金蝶KIS on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E9%87%91%E8%9D%B6kis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%87%91%E8%9D%B6kis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何备份金蝶KIS帐套</title>
       <link>https://www.samrainhan.com/posts/2016-06-06-how-to-backup-kindee-kis/</link>
       <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2016-06-06-how-to-backup-kindee-kis/</guid>
       <description>屏幕左下角的开始，程序，找金蝶k3的菜单，找中间层，账套管理，进入后有界面的</description>
     </item>
-    
   </channel>
 </rss>

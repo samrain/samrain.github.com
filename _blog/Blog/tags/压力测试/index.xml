@@ -6,15 +6,14 @@
     <description>Recent content in 压力测试 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tsung</title>
       <link>https://www.samrainhan.com/posts/2015-07-21-tsung/</link>
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
       <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
     <description>Recent content in RSS on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/rss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为没有Feed的网页生成RSS格式订阅源</title>
       <link>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</guid>
       <description>FEED43是一个在线应用，可以为不提供 Feed 的网页生成 RSS 格式的 Feed，以供阅读器订阅。 中文非官方教程在此</description>
     </item>
-    
   </channel>
 </rss>

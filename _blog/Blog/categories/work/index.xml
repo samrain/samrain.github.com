@@ -6,2301 +6,1792 @@
     <description>Recent content in work on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Oct 2023 09:08:51 +0800</lastBuildDate><atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Oct 2023 09:08:51 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>明文加密简易方案</title>
       <link>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</link>
       <pubDate>Wed, 04 Oct 2023 09:08:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</guid>
       <description>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A</description>
     </item>
-    
     <item>
       <title>摘抄之零售的哲学：7-Eleven便利店创始人自述</title>
       <link>https://www.samrainhan.com/posts/2023-09-26-excerpt-the-philosophy-of-retailing-narrated-by-the-founder-of-7-eleven-convenience-store/</link>
       <pubDate>Tue, 26 Sep 2023 10:29:04 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-26-excerpt-the-philosophy-of-retailing-narrated-by-the-founder-of-7-eleven-convenience-store/</guid>
       <description>零售の哲学 做不了基础工作的人也无力发起革新。 只要有发现问题的意识，有效的信息自然就会出现。 不要随口说出数值目标。 越看似赚钱的事业越容易饱和。</description>
     </item>
-    
     <item>
       <title>AirScript</title>
       <link>https://www.samrainhan.com/posts/2023-09-25-airscript/</link>
       <pubDate>Mon, 25 Sep 2023 09:32:11 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-25-airscript/</guid>
       <description>金山文档 AirScript 是一个简单快速的轻量级脚本应用开发平台，它基于云技术构建，可让您快速轻松地创建与金山文档 Office 文件交互的业务应用。 我们在金山文档的组件</description>
     </item>
-    
     <item>
       <title>2023年上半年职场风向</title>
       <link>https://www.samrainhan.com/posts/2023-09-24-hr-trends-in-the-first-half-of-2023/</link>
       <pubDate>Sun, 24 Sep 2023 14:35:58 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-24-hr-trends-in-the-first-half-of-2023/</guid>
       <description>地理分布 上海》北京》深圳》广州》杭州》成都》苏州》武汉》南京》重庆 增长最快的6个行业 新能源 新材料 新能源汽车 智能制造 芯片 生物技术 新职位最多的5</description>
     </item>
-    
     <item>
       <title>美国股市的上市公司行业分类标准</title>
       <link>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</link>
       <pubDate>Sat, 23 Sep 2023 09:02:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</guid>
       <description>GICS和ICB是目前美国和国际上大部分股票市场常用的。TRBC以及美国政府统计部门使用的NAICS和SIC也比较常用。 全球行业分类标准 (Global Industry</description>
     </item>
-    
     <item>
       <title>2&#43;8&#43;N</title>
       <link>https://www.samrainhan.com/posts/2023-09-22-2-8-n/</link>
       <pubDate>Fri, 22 Sep 2023 08:20:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-22-2-8-n/</guid>
       <description>2 就是首先实现党政机关范围内的替代，同时顺带打磨产品、培育骨干企业; 党委 政府 8 在产品相对好用、生态比较成熟后，将由党政系统扩大到 8 大关键行业</description>
     </item>
-    
     <item>
       <title>工作每半小时活动</title>
       <link>https://www.samrainhan.com/posts/2023-09-20-work-every-half-hour-of-activity/</link>
       <pubDate>Wed, 20 Sep 2023 14:27:10 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-20-work-every-half-hour-of-activity/</guid>
       <description>臀部抓握30秒 臀桥转身伸手触地/ Bridge and reach over每边5下 靠墙深蹲30秒,双手上下滑动6下</description>
     </item>
-    
     <item>
       <title>怎么写方案</title>
       <link>https://www.samrainhan.com/posts/2023-09-19-how-to-write-a-plan/</link>
       <pubDate>Tue, 19 Sep 2023 08:47:12 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-19-how-to-write-a-plan/</guid>
       <description>1分钟稿（开门见山吸引客户听下去）+20分钟稿（把1分钟里吹的牛B给说圆了） T字方案，横表示普世方案（有什么产品，怎么卖），竖表示行业方案（</description>
     </item>
-    
     <item>
       <title>AMP IT UP by 弗兰克·斯洛特曼</title>
       <link>https://www.samrainhan.com/posts/2023-09-17-amp-it-up-by-frank-slotman/</link>
       <pubDate>Sun, 17 Sep 2023 22:40:52 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-17-amp-it-up-by-frank-slotman/</guid>
       <description>全世界最成功的软件企业家有哪些？弗兰克·斯洛特曼 (Frank Slootman) 一定在名单里面。他是云计算公司 Snowflake 的 CEO，在此之前，还担任过另外两家软件公司（Data Domain</description>
     </item>
-    
     <item>
       <title>OFD文件的特点</title>
       <link>https://www.samrainhan.com/posts/2023-09-11-characteristics-of-ofd/</link>
       <pubDate>Mon, 11 Sep 2023 19:37:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-11-characteristics-of-ofd/</guid>
       <description>附件支持多种格式文件，比如音视频文件。 离线验证电子签章 OFD的国密标准包含签章人和电子签章，共两个签章。而PDF最多只支持1个签章。 OFD是</description>
     </item>
-    
     <item>
       <title>背调-上海家化</title>
       <link>https://www.samrainhan.com/posts/2023-09-07-background-check-shanghai-jahwa/</link>
       <pubDate>Thu, 07 Sep 2023 23:36:34 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-07-background-check-shanghai-jahwa/</guid>
       <description>背景 客户于22年采购了公网wps+共500个帐号，MAU目前只有20%,在100上下，据了解，因为安全部门要求不能使用公网网盘，所以大部分帐</description>
     </item>
-    
     <item>
       <title>三大IM的企业客户案例</title>
       <link>https://www.samrainhan.com/posts/2023-09-05-enterprise-customer-cases-of-the-three-major-ims/</link>
       <pubDate>Tue, 05 Sep 2023 10:46:05 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-05-enterprise-customer-cases-of-the-three-major-ims/</guid>
       <description>企业微信行业案例 https://work.weixin.qq.com/nl/index/industry?category=retail&amp;amp;from=nextPage 钉钉行业案例 https://pages.dingtalk.com/wow/z/dingtalk/default/caselist 飞书行业案例 https://www.feishu.cn/customers?tag=%E6%B6%88%E8%B4%B9</description>
     </item>
-    
     <item>
       <title>知识库产品的一些思考</title>
       <link>https://www.samrainhan.com/posts/2023-09-01-some-thoughts-on-knowledge-base-products/</link>
       <pubDate>Fri, 01 Sep 2023 22:21:32 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-09-01-some-thoughts-on-knowledge-base-products/</guid>
       <description>使用场景 研报的阅读 用AI辅助问题分类 企业实践 知识付费类企业实践 团队负责人是整个团队的知识管家，从团队中提取 只有老板在意公司的 知识收集往往滞后</description>
     </item>
-    
     <item>
       <title>民办教育目标客户</title>
       <link>https://www.samrainhan.com/posts/2023-08-31-private-education-target-customers/</link>
       <pubDate>Thu, 31 Aug 2023 08:24:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-31-private-education-target-customers/</guid>
       <description>中公教育 新东方 希望教育 天立教育 科德教育 紫光学大 好未来 中国东方教育 中教控股 宇华教育 华夏视听教育 中国科培 中汇集团 睿见教育 枫叶教育</description>
     </item>
-    
     <item>
       <title>客户交流问题清单-知识库</title>
       <link>https://www.samrainhan.com/posts/2023-08-30-customer-communication-questions-checklist-knowledge-base/</link>
       <pubDate>Wed, 30 Aug 2023 10:20:15 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-30-customer-communication-questions-checklist-knowledge-base/</guid>
       <description>老师，您日常工作是什么？其中最核心的是什么？对核心工作而言，知识库是必须的吗？ 了解不同岗位的使用者的工作内容，核心工作是否依赖知识库。 老师，</description>
     </item>
-    
     <item>
       <title>企业办公协作平台的三国演义</title>
       <link>https://www.samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</link>
       <pubDate>Tue, 29 Aug 2023 10:13:02 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</guid>
       <description>2022年10月，钉钉的活跃人数达到了1.6亿，企业微信和腾讯会议分别是9000万和8000万以上，飞书最少，为119万。截至2022年3月</description>
     </item>
-    
     <item>
       <title>为什么关注化妆品行业</title>
       <link>https://www.samrainhan.com/posts/2023-08-28-why-focus-on-the-cosmetics-industry/</link>
       <pubDate>Mon, 28 Aug 2023 08:12:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-28-why-focus-on-the-cosmetics-industry/</guid>
       <description>截止2021年，中国已成为全球第二大化妆品消费市场，且据披露数据显示，2021年我国化妆品零售总额达4026亿元，同比增加18.4%。在大基</description>
     </item>
-    
     <item>
       <title>化妆品行业目标客户</title>
       <link>https://www.samrainhan.com/posts/2023-08-27-cosmetics-industry-target-customers/</link>
       <pubDate>Sun, 27 Aug 2023 20:53:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-27-cosmetics-industry-target-customers/</guid>
       <description>化妆品行业目标客户 品牌名称 企业名称 总部所在地 润百颜 华熙生物科技 北京 爱美客 爱美客技术发展股份有限公司 北京 雍禾医疗 雍禾医疗集团有限公司 北京 菲茨 北</description>
     </item>
-    
     <item>
       <title>大消费的行业细分拆解</title>
       <link>https://www.samrainhan.com/posts/2023-08-26-industry-segmentation-and-dismantling-of-big-consumption/</link>
       <pubDate>Sat, 26 Aug 2023 16:15:40 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-26-industry-segmentation-and-dismantling-of-big-consumption/</guid>
       <description>巴老爷子有句特别著名的话——人生就像滚雪球，重要的事情是找到很湿的雪和很长的坡。提到“长坡厚雪”好赛道，很多人第一反应就是消费行业。毕竟消费</description>
     </item>
-    
     <item>
       <title>大消费上市公司清单（包含沪深港股和美股）</title>
       <link>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</link>
       <pubDate>Fri, 25 Aug 2023 15:18:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</guid>
       <description>大消费上市公司清单（包含沪深港股和美股） 大类 行业 细分行业 股票代码 股票名称 所属交易所 购 商贸零售 - 000007 *ST全新 深交所 购 商贸零售 000058 深赛格 深交所 购 商</description>
     </item>
-    
     <item>
       <title>化妆品行业简单分析</title>
       <link>https://www.samrainhan.com/posts/2023-08-24-a-simple-analysis-of-the-cosmetics-industry/</link>
       <pubDate>Thu, 24 Aug 2023 08:30:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-24-a-simple-analysis-of-the-cosmetics-industry/</guid>
       <description>产业链 业务流程 化妆品行业如何转型做新零售 化妆品行业转型升级要解决“专业性”与“信任感”的两大问题。 其一，通过线上平台，开展专业的化妆品知识营</description>
     </item>
-    
     <item>
       <title>零售研究报告摘抄</title>
       <link>https://www.samrainhan.com/posts/2023-08-23-excerpt-from-retail-research-report/</link>
       <pubDate>Wed, 23 Aug 2023 10:24:27 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-23-excerpt-from-retail-research-report/</guid>
       <description>新茶饮 新茶饮数字化服务商： 商有 上海商有网络科技有限公司 https://www.syoo.cn/index.html#/ 迈外迪 上海迈外迪网络科技有限公司 https://wiwide.com/ 便利店 便利店数字化服务商： 云拿 上海云拿智能科技有限</description>
     </item>
-    
     <item>
       <title>飞书的几个好玩地方</title>
       <link>https://www.samrainhan.com/posts/2023-08-22-some-fun-places-in-feishu/</link>
       <pubDate>Tue, 22 Aug 2023 13:55:06 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-22-some-fun-places-in-feishu/</guid>
       <description>新人入职，被机器人带入群，并给出新人须知等材料 标签页上放业务文档 工作台支持自定义，千人千面 数智化底座 数字化工作平台 专属设计、存储、安全和AP</description>
     </item>
-    
     <item>
       <title>桌面研究</title>
       <link>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</link>
       <pubDate>Sat, 19 Aug 2023 06:56:55 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</guid>
       <description>桌面研究（desk research）是指不进行一手资料的实地调研和采集，而是直接通过电脑、杂志、书籍、文档、互联网搜索等，对现有二手资料进行</description>
     </item>
-    
     <item>
       <title>配置ubuntu上拼音输入法Fcitx5</title>
       <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
       <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
     </item>
-    
     <item>
       <title>JTBD</title>
       <link>https://www.samrainhan.com/posts/2023-03-18-jtbd/</link>
       <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-03-18-jtbd/</guid>
       <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
     </item>
-    
     <item>
       <title>幕布导出为markdown</title>
       <link>https://www.samrainhan.com/posts/2023-03-15-mubu-export-as-markdown/</link>
       <pubDate>Wed, 15 Mar 2023 11:36:48 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-03-15-mubu-export-as-markdown/</guid>
       <description>幕布导出为HTML格式文件 用浏览器打开刚导出的HTML文件，全选复制 打开Markdown编辑器（我是用Obsidian），新建文件，然后粘帖</description>
     </item>
-    
     <item>
       <title>OKR</title>
       <link>https://www.samrainhan.com/posts/2023-03-08-okr/</link>
       <pubDate>Wed, 08 Mar 2023 15:04:49 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-03-08-okr/</guid>
       <description>OKR和KPI的区别主要在于： 作用环节：OKR主要用于绩效生产，KPI可以作为绩效评价的工具； 适用业务： 劳动密集型 业务标准流程通过SOP+K</description>
     </item>
-    
     <item>
       <title>推荐书单-出自《俞军产品方法论》</title>
       <link>https://www.samrainhan.com/posts/2023-03-03-recommended-book-list-from-yu-jun-product-methodology/</link>
       <pubDate>Fri, 03 Mar 2023 10:26:14 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-03-03-recommended-book-list-from-yu-jun-product-methodology/</guid>
       <description>1. 入门 以下三本书，都是既可以当作产品经理的入门书，又可以在职业生涯中反复读的书。 《社会心理学》(插图第7版，埃略特.阿伦森):适合成为“产品</description>
     </item>
-    
     <item>
       <title>收入模型</title>
       <link>https://www.samrainhan.com/posts/2023-02-20-revenue-model/</link>
       <pubDate>Mon, 20 Feb 2023 10:04:45 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-02-20-revenue-model/</guid>
       <description>新客收入 原厂销售 销售机会总量 销售数量 原厂销售数量@销售 代理商 @渠道 客户主动 @市场营销 人均销售机会数 @销售管理 平均销售胜率 @售前 平均销售规模 解</description>
     </item>
-    
     <item>
       <title>某些岗位JD</title>
       <link>https://www.samrainhan.com/posts/2023-02-08-some-jd/</link>
       <pubDate>Wed, 08 Feb 2023 17:32:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-02-08-some-jd/</guid>
       <description>技术支持专家 岗位职责： 1.负责政企客户技术对接工作，处理和解决二线技术问题，能够主动推动问题直到闭环； 2.主动收集，评估并整理客户需求，能协</description>
     </item>
-    
     <item>
       <title>文字描述生成图片</title>
       <link>https://www.samrainhan.com/posts/2023-01-14-text-to-generate-picture/</link>
       <pubDate>Sat, 14 Jan 2023 20:38:19 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-01-14-text-to-generate-picture/</guid>
       <description>最火的是： https://openai.com/dall-e-2/ 清华的： https://models.aminer.cn/CogView/ 百度的： https://wenxin.baidu.com/moduleApi/ernieVilg 其他免费的： https://art.elbo.ai/ https://creator.nolibox.com/guest</description>
     </item>
-    
     <item>
       <title>唐炳森采访语录</title>
       <link>https://www.samrainhan.com/posts/2023-01-11-interview-with-tang-bingsen/</link>
       <pubDate>Wed, 11 Jan 2023 23:31:38 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-01-11-interview-with-tang-bingsen/</guid>
       <description>战略要向二级市场投资人学习。巴菲特动动脑筋就能获得收益，所以战略想得最明白的是二级市场那帮人。 管理要像 “海盗” 学习。很多公司看上去管理好，实</description>
     </item>
-    
     <item>
       <title>谷歌十诫</title>
       <link>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</link>
       <pubDate>Wed, 04 Jan 2023 08:49:34 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</guid>
       <description>一切以用户为中心,其他一切纷至沓来 Focus on the user and all else will follow. 把一件事做到极致. It’s best to do one thing really, really well. 快比慢好. Fast is better than slow. 网络社会需要民主. Democracy on the web</description>
     </item>
-    
     <item>
       <title>读后感-小米创业思考</title>
       <link>https://www.samrainhan.com/posts/2023-01-03-reflections-after-reading-thinking-about-xiaomi-entrepreneurship/</link>
       <pubDate>Tue, 03 Jan 2023 19:12:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2023-01-03-reflections-after-reading-thinking-about-xiaomi-entrepreneurship/</guid>
       <description>互联网思维七字决 专注 极致 口碑 快 专注的四个核心命题 清晰的使命、愿景 深刻的洞察力，了解行业，了解用户需求，找到机会。 明确而坚定的目标及与之匹配的</description>
     </item>
-    
     <item>
       <title>在IM中发送和接受密码</title>
       <link>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</link>
       <pubDate>Tue, 27 Dec 2022 17:01:18 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</guid>
       <description>发送密码 用浏览器访问https://tool.oschina.net/encrypt 点击「加密/解密」 把密码粘帖到左边方框「明文」中 在「加密</description>
     </item>
-    
     <item>
       <title>出差清单</title>
       <link>https://www.samrainhan.com/posts/2022-12-12-business-trip-list/</link>
       <pubDate>Mon, 12 Dec 2022 21:50:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-12-12-business-trip-list/</guid>
       <description>身份证 手机、充电头、充电线、充电宝、插座 耳机 纸币（不少于300） 工牌（如需） 创可贴（不少于5个） 充气枕 刮胡刀、梳子、肥皂或洗衣液、餐巾纸 口罩</description>
     </item>
-    
     <item>
       <title>测试报告大纲</title>
       <link>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</link>
       <pubDate>Fri, 25 Nov 2022 10:34:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-11-25-outline-of-the-test-report/</guid>
       <description>Completion测试结论,哪些通过,哪些没通过.建议用表格形式. Why为什么要测试 What测试什么 When测试时间 Who谁测试的,测试用</description>
     </item>
-    
     <item>
       <title>公私网产品目标用户建议</title>
       <link>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</link>
       <pubDate>Tue, 15 Nov 2022 15:52:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</guid>
       <description>一、公网SAAS产品目标用户建议 人数超过300人 年营收超过1亿 购买公网SAAS产品年付费超过6万 二、私有化产品目标用户建议 人数超过1500人</description>
     </item>
-    
     <item>
       <title>数字化转型</title>
       <link>https://www.samrainhan.com/posts/2022-11-08-digital-transformation/</link>
       <pubDate>Tue, 08 Nov 2022 12:27:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-11-08-digital-transformation/</guid>
       <description>数字化转型是什么？ 数字化转型是近年来主流制造企业的热议话题，大家也许会最先想到与数字化技术相关的设备、信息化看板或大量的数据。 但数字化并非设</description>
     </item>
-    
     <item>
       <title>后勤保障组</title>
       <link>https://www.samrainhan.com/posts/2022-11-01-logistics-support-group/</link>
       <pubDate>Tue, 01 Nov 2022 10:49:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-11-01-logistics-support-group/</guid>
       <description>对前方各项工作的保障。全面、及时、不间断的后勤保障，是巩固和提高战斗力，完成KPI和各项任务的重要保证。 职能 物质保障 主要包括工作需要的软件、</description>
     </item>
-    
     <item>
       <title>PMO的文章摘抄</title>
       <link>https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/</link>
       <pubDate>Fri, 28 Oct 2022 11:35:12 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/</guid>
       <description>项目管理办公室 一个项目管理办公室（简称PMO）是一个企业，政府机构，或中的一组或部门的企业定义并维护标准的项目管理组织内。PMO 努力在项目执</description>
     </item>
-    
     <item>
       <title>解决bpool空间不够的问题</title>
       <link>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</link>
       <pubDate>Thu, 27 Oct 2022 09:28:32 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</guid>
       <description>问题 Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t</description>
     </item>
-    
     <item>
       <title>会议管理规范(转)</title>
       <link>https://www.samrainhan.com/posts/2022-09-23-conference-management-specifications/</link>
       <pubDate>Fri, 23 Sep 2022 22:57:52 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-23-conference-management-specifications/</guid>
       <description>1. 目的 会议是高效沟通的方式之一，是日常工作中必要的活动，会议的必要性决定了会议的重要性。但因为会议的复杂性影响了会议的效率，因此会议的时长和</description>
     </item>
-    
     <item>
       <title>模板-技术服务团队周报</title>
       <link>https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/</link>
       <pubDate>Wed, 21 Sep 2022 20:07:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/</guid>
       <description>1. OKR完成情况 2. 问题汇总分析 a. 本周问题看板 i. 本周最热项目 ii. 本周重点项目问题 b. 本月问题看板 i. 本月最热项目 ii. 本月最热问题 iii. 本月标杆项目问题 iv. 本</description>
     </item>
-    
     <item>
       <title>PMO是什么?</title>
       <link>https://www.samrainhan.com/posts/2022-09-19-what-is-pmo/</link>
       <pubDate>Mon, 19 Sep 2022 14:44:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-19-what-is-pmo/</guid>
       <description>一、PMO是什么？ PMO是项目管理办公室Project Management Office简称。 PMO是一个企业/政府机构或其中部门中定义并维护项目管理标准，负责</description>
     </item>
-    
     <item>
       <title>客户成功助手</title>
       <link>https://www.samrainhan.com/posts/2022-09-14-customer-success-assistant/</link>
       <pubDate>Wed, 14 Sep 2022 08:46:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-14-customer-success-assistant/</guid>
       <description>客户成功助手（以下简称客成助手） 业务场景一 用户提出问题给客户成功经理，客户成功经理将问题发送给客成助手，客成助手能返回问题的最适合答案。如果</description>
     </item>
-    
     <item>
       <title>微软20多年的商业秘诀</title>
       <link>https://www.samrainhan.com/posts/2022-09-13-microsoft-20-years-of-business-secrets/</link>
       <pubDate>Tue, 13 Sep 2022 10:43:38 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-13-microsoft-20-years-of-business-secrets/</guid>
       <description>微软20多年的商业秘诀 1. 不要找借口 过去几年我们以为转型很难，现在才发现原来是生存压力不够大，压力大了之后跑得比谁都快。 图灵早就说过，人类的视</description>
     </item>
-    
     <item>
       <title>IT服务的价值</title>
       <link>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</link>
       <pubDate>Mon, 12 Sep 2022 17:30:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</guid>
       <description>IT服务的价值 1. 外部质量服务是真正用户可见可感知的，而内部质量服务是对外部质量服务的保障， 通常称为Qualty Assurance。 2. 服务质量</description>
     </item>
-    
     <item>
       <title>前5位的产品和管理技能</title>
       <link>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</link>
       <pubDate>Sat, 27 Aug 2022 11:21:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</guid>
       <description>一个好的领导（或者产品经理），应该具备五项技能： SQL Excel 简洁写作 讲故事 区分优先级</description>
     </item>
-    
     <item>
       <title>各种笔记记录法PK</title>
       <link>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</link>
       <pubDate>Wed, 24 Aug 2022 11:38:24 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</guid>
       <description>各种笔记记录法PK 标签式 标签越来越多，越复杂，导致来了新记录打标签很痛苦，大脑也不利于记录和工作。 笔记本式 笔记本式还是传统的，整理费劲，且容</description>
     </item>
-    
     <item>
       <title>科技大佬一天工作生活计划</title>
       <link>https://www.samrainhan.com/posts/2022-08-20-day-work-life-plan/</link>
       <pubDate>Sat, 20 Aug 2022 00:31:16 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-20-day-work-life-plan/</guid>
       <description>科技大佬一天工作生活计划 [[咒语]] 5分钟 自我行为准则(社交网络一天不超过3次,总时间不超过10分钟；锻炼身体；健康饮食) 感恩(感谢还活着,</description>
     </item>
-    
     <item>
       <title>项目交接</title>
       <link>https://www.samrainhan.com/posts/2022-08-17-project-handover/</link>
       <pubDate>Wed, 17 Aug 2022 14:19:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-17-project-handover/</guid>
       <description>项目交接 所有的交接都是上家交给下家,下家就相当于上家的客户 客户第一,按照客户要求干 客户买了产品是要解决问题的.如果真正解决了,那么再买,且品</description>
     </item>
-    
     <item>
       <title>被面试时问面试官的问题</title>
       <link>https://www.samrainhan.com/posts/2022-08-11-questions-to-ask-the-interviewer-when-being-interviewed/</link>
       <pubDate>Thu, 11 Aug 2022 14:03:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-11-questions-to-ask-the-interviewer-when-being-interviewed/</guid>
       <description>职责 On-call （电话值班）的计划或者规定是什么？值班或者遇到问题加班时候有加班费吗？ 我的日常工作是什么？ 有给我设定的特定目标吗？ 团队里面初级和高级工</description>
     </item>
-    
     <item>
       <title>技术支持专家JD</title>
       <link>https://www.samrainhan.com/posts/2022-08-07-technical-support-specialist-jd/</link>
       <pubDate>Sun, 07 Aug 2022 12:59:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-07-technical-support-specialist-jd/</guid>
       <description>技术支持专家JD 岗位职责 负责政企客户技术对接工作，处理和解决二线技术问题，能够主动推动问题直到闭环； 主动收集，评估并整理客户需求，能协助产研</description>
     </item>
-    
     <item>
       <title>读后感-华为的冬天</title>
       <link>https://www.samrainhan.com/posts/2022-08-06-after-reading-huawei-winter/</link>
       <pubDate>Sat, 06 Aug 2022 13:42:29 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-08-06-after-reading-huawei-winter/</guid>
       <description>读后感-华为的冬天 失败这一天是一定会到来，大家要准备迎接，这是我从不动摇的看法，这是历史规律。 讨论华为有什么危机，你的部门有什么危机，你的科</description>
     </item>
-    
     <item>
       <title>一维和二维表格互相转换</title>
       <link>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</link>
       <pubDate>Sun, 13 Feb 2022 11:23:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</guid>
       <description>一维转二维 使用数据透视图即可，按照需求选择行和列。 特别需要注意的是，「值」的计数项中要设置为求和，且「值」的数据必须是数字，不能是中文或者英</description>
     </item>
-    
     <item>
       <title>立项&amp;结项标准</title>
       <link>https://www.samrainhan.com/posts/2022-02-09-project-initiation-closing-criteria/</link>
       <pubDate>Wed, 09 Feb 2022 19:20:31 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-02-09-project-initiation-closing-criteria/</guid>
       <description>一、标准项目立项 商务条件：客户体量不小于XXXX人，且有明确服务费。 方案条件：我方提供的产品方案可以满足产品落地要求。方案包含：需求解决方案</description>
     </item>
-    
     <item>
       <title>5种常见协同工作流</title>
       <link>https://www.samrainhan.com/posts/2022-02-08-5-common-collaborative-workflows/</link>
       <pubDate>Tue, 08 Feb 2022 15:35:05 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-02-08-5-common-collaborative-workflows/</guid>
       <description>5种常见协同工作流 1. 团队内部工作 团队协调工作流程就是要有足够的可见性来保持团队的一致性。作为一名经理，你需要知道你的团队正在做什么，他们何时</description>
     </item>
-    
     <item>
       <title>6W3H</title>
       <link>https://www.samrainhan.com/posts/2022-07-6w3h/</link>
       <pubDate>Mon, 07 Feb 2022 13:43:40 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-07-6w3h/</guid>
       <description>What——指要做的是什么及描述达成命令事项后的状态 When——指全部工作完成的时间及各步骤完成的时间 Where——泛指各项活动发生的场所 W</description>
     </item>
-    
     <item>
       <title>服务号功能设计</title>
       <link>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</link>
       <pubDate>Sun, 06 Feb 2022 17:01:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</guid>
       <description>发送 及时发送通知信息给某人或某些人 定时发送通知信息给某人或某些人 通知信息包括 按照通知是否需要被通知人来执行分为 通告，知悉即可不需要执行 任务，</description>
     </item>
-    
     <item>
       <title>BCG矩阵</title>
       <link>https://www.samrainhan.com/posts/2022-01-29-bcg-matrix/</link>
       <pubDate>Sat, 29 Jan 2022 09:00:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-29-bcg-matrix/</guid>
       <description>波士顿矩阵（BCG矩阵） 波士顿矩阵（BCG矩阵）是由美国波士顿咨询公司率先提出的、对企业当前的业务组合进行评价和决策的战略管理工具。主要考虑</description>
     </item>
-    
     <item>
       <title>项目经理的基本技能</title>
       <link>https://www.samrainhan.com/posts/2022-01-28-essential-skills-for-project-managers/</link>
       <pubDate>Fri, 28 Jan 2022 22:40:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-28-essential-skills-for-project-managers/</guid>
       <description>人际交往能力 软技能对于 PM 的工作至关重要。更具体地说：人际交往能力。OSP International 总裁兼项目管理播客主持人Cornelius Fichtner解释说：</description>
     </item>
-    
     <item>
       <title>B端客户画像</title>
       <link>https://www.samrainhan.com/posts/2022-01-27-b-end-customer-portrai/</link>
       <pubDate>Thu, 27 Jan 2022 16:58:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-27-b-end-customer-portrai/</guid>
       <description>why 实事求是明确问题 what 用户画像的内容 = 行业特征 + 企业特征 + 关键人职业属性 + 关键人个人属性 行业特征 企业特征 关键人-职业属性 关键人-个人属性 行业类</description>
     </item>
-    
     <item>
       <title>年终汇报建议模式</title>
       <link>https://www.samrainhan.com/posts/2022-01-26-year-end-reporting-proposal-model/</link>
       <pubDate>Wed, 26 Jan 2022 16:47:35 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-26-year-end-reporting-proposal-model/</guid>
       <description>年终汇报建议模式 按照一内一外两次汇报来进行。 内部汇报 汇报顺序：先个人汇报，然后直属leader点评，最后区域leader点评。 人均汇报时间：</description>
     </item>
-    
     <item>
       <title>2020年500强企业排行榜</title>
       <link>https://www.samrainhan.com/posts/2022-01-25-2020-top-500-companies-ranking/</link>
       <pubDate>Tue, 25 Jan 2022 17:05:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-25-2020-top-500-companies-ranking/</guid>
       <description>2020年500强企业排行榜 排行榜 排名 公司名称 所在省份 所在市 所属行业 主营业务 总人数 2020总营收（亿） 2020年[[财富世界500强排行榜]</description>
     </item>
-    
     <item>
       <title>配置金山日历和手机日历同步</title>
       <link>https://www.samrainhan.com/posts/2022-01-20-configuring-kingsoft-calendar-and-mobile-calendar-synchronization/</link>
       <pubDate>Thu, 20 Jan 2022 21:52:37 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-20-configuring-kingsoft-calendar-and-mobile-calendar-synchronization/</guid>
       <description>官方指南如下： https://www.kdocs.cn/l/crdCJ5aVi6Pt 我重点说一下我手机是怎么设置同步的： 生成我的金山日历CalDav配置信息：打开日历首页→设置→找到CalDAV设置，选择需要</description>
     </item>
-    
     <item>
       <title>公私网产品目标用户建议</title>
       <link>https://www.samrainhan.com/posts/2022-01-19-suggestions-for-target-customers/</link>
       <pubDate>Wed, 19 Jan 2022 22:53:31 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-01-19-suggestions-for-target-customers/</guid>
       <description>一、公网SAAS产品目标用户建议 人数超过300人 年营收超过1亿 购买公网SAAS产品年付费超过6万 二、私有化产品目标用户建议 人数超过1500人</description>
     </item>
-    
     <item>
       <title>客户成功经理推荐书单</title>
       <link>https://www.samrainhan.com/posts/2022-customer-success-manager-recommendation-list/</link>
       <pubDate>Tue, 04 Jan 2022 22:54:03 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2022-customer-success-manager-recommendation-list/</guid>
       <description>【新版】⾦字塔原理⼤全集1+2 【正版特价】读懂你的客⼾：基于⼤数据的消费者战略 10倍速⽬标达成法：孙正义的⾼效法则） B端产品经理必修课2.0</description>
     </item>
-    
     <item>
       <title>VUCA</title>
       <link>https://www.samrainhan.com/posts/2021-12-30-vuca/</link>
       <pubDate>Thu, 30 Dec 2021 16:45:50 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-12-30-vuca/</guid>
       <description>中文音译为“乌卡”。 实际上是4个英文单词的首字母缩写，据说最早从美军1991年描述冷战后世界局势。 Volatility （易变的） Uncertainty（不确定</description>
     </item>
-    
     <item>
       <title>PMO</title>
       <link>https://www.samrainhan.com/posts/2021-12-22-pmo/</link>
       <pubDate>Thu, 23 Dec 2021 00:03:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-12-22-pmo/</guid>
       <description>一、PMO是什么？ PMO是项目管理办公室Project Management Office简称。 PMO是一个企业/政府机构或其中部门中定义并维护项目管理标准，负责</description>
     </item>
-    
     <item>
       <title>客户成功经理的能力体系</title>
       <link>https://www.samrainhan.com/posts/2021-12-16-competency-system-for-customer-success-managers/</link>
       <pubDate>Thu, 16 Dec 2021 10:35:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-12-16-competency-system-for-customer-success-managers/</guid>
       <description>客户成功经理的能力体系 业务素质 产品知识 对产品的理解和掌握程度，能对产品的价值进行阐述，能熟练操作 业务知识 对于产品背后的业务知识掌握程度，如C</description>
     </item>
-    
     <item>
       <title>用户促活指南</title>
       <link>https://www.samrainhan.com/posts/2021-12-15-user-pro-activation-guide/</link>
       <pubDate>Wed, 15 Dec 2021 09:17:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-12-15-user-pro-activation-guide/</guid>
       <description>一、项目启动 （一）整理项目近况 通过前期调研，分析项目近况并整理，同时摸清客户内部网络情况，根据网络环境的不同确定最合适的安装部署和升级方案。</description>
     </item>
-    
     <item>
       <title>企业信息调查表</title>
       <link>https://www.samrainhan.com/posts/2021-12-01-enterprise-information-questionnaire/</link>
       <pubDate>Wed, 01 Dec 2021 10:40:41 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-12-01-enterprise-information-questionnaire/</guid>
       <description>信息项 建议查询工具 公司全称 官网 公司简称 天眼查 公司简介 官网、财经网站、年度报告 工商注册地址 官网 总部地址 官网 其他地址 天眼查、官网 成立时间 企查查 企</description>
     </item>
-    
     <item>
       <title>领导力模型</title>
       <link>https://www.samrainhan.com/posts/2021-11-28-leadership-model/</link>
       <pubDate>Sun, 28 Nov 2021 15:49:44 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-11-28-leadership-model/</guid>
       <description>领导力模型 标准高 坚持高标准、不妥协 有工匠精神，对事物有品味 总是能够找到地方不断优化 解难题 分析的拆解问题的能力 能够比较并找到普适的方案 能够把方</description>
     </item>
-    
     <item>
       <title>标准规范组的定义</title>
       <link>https://www.samrainhan.com/posts/2021-11-25-definition-of-a-standard-specification-group/</link>
       <pubDate>Thu, 25 Nov 2021 08:26:31 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-11-25-definition-of-a-standard-specification-group/</guid>
       <description>标准规范组的定义 一、工作职责 1. 制定客户成功部工作流程、配套工具和执行方法 日常工作工作流程、配套工具和执行方法 传统产品工作流程、配套工具和执行</description>
     </item>
-    
     <item>
       <title>建议和奖赏矩阵</title>
       <link>https://www.samrainhan.com/posts/2021-11-24-recommendations-and-rewards-matrix/</link>
       <pubDate>Wed, 24 Nov 2021 15:57:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-11-24-recommendations-and-rewards-matrix/</guid>
       <description>将建议的行为和可能产生的奖赏在[[矩阵]]中列出来,这对于激发自己的脑力有时很有用。 它只是一个激发脑力的潜在工具,并不能提供无尽的奖赏清单。</description>
     </item>
-    
     <item>
       <title>项目简单流程</title>
       <link>https://www.samrainhan.com/posts/2021-08-26-a-simple-process-for-the-project/</link>
       <pubDate>Thu, 26 Aug 2021 13:50:12 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-26-a-simple-process-for-the-project/</guid>
       <description>项目简单流程 项目启动 整理项目近况（项目近况分析） 制定项目目标（项目目标） 召集项目启动会（项目启动会会议纪要） 制定计划 制定计划草稿（项目计划草</description>
     </item>
-    
     <item>
       <title>世界需要什么样的技术人员</title>
       <link>https://www.samrainhan.com/posts/2021-08-25-what-kind-of-technicians-does-the-world-need/</link>
       <pubDate>Wed, 25 Aug 2021 17:01:52 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-25-what-kind-of-technicians-does-the-world-need/</guid>
       <description>世界需要什么样的技术人员 技工 能使用的操作技术 并能按时出活 做得越快越多 工程师 了解原理能解决难题 自动化和规模化 降低工程成本提升效率 专家 有探路能力</description>
     </item>
-    
     <item>
       <title>结构化思维</title>
       <link>https://www.samrainhan.com/posts/2021-08-24-structured-thinking/</link>
       <pubDate>Tue, 24 Aug 2021 11:12:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-24-structured-thinking/</guid>
       <description>结构化思维 1. 层形结构 核心建议 核心建议是在结构化思维过程的上一步中制定的。 - - - 形势变化 这一部分将引导你审视问题,并针对变化做出建议(你的核心</description>
     </item>
-    
     <item>
       <title>服务产品化</title>
       <link>https://www.samrainhan.com/posts/2021-08-23-service-productization/</link>
       <pubDate>Mon, 23 Aug 2021 17:29:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-23-service-productization/</guid>
       <description>服务产品化 什么叫服务产品化 服务产品化是通过改变服务的生产方式，把服务的生产过程变得像产品制造一样，把服务的内容分解，实现标准化，然后按照传统</description>
     </item>
-    
     <item>
       <title>收集临时任务</title>
       <link>https://www.samrainhan.com/posts/2021-08-19-collect-temporary-tasks/</link>
       <pubDate>Thu, 19 Aug 2021 11:33:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-19-collect-temporary-tasks/</guid>
       <description>收集临时任务 各自发送任务情况 任何人收到临时任务后，请转发给专用邮箱。 微信、钉钉、QQ、邮件均可以快速转发。 如果文字不方便，可以截长图后发邮件</description>
     </item>
-    
     <item>
       <title>亚马逊工程文化</title>
       <link>https://www.samrainhan.com/posts/2021-08-15-amazon-engineering-culture/</link>
       <pubDate>Sun, 15 Aug 2021 21:57:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-15-amazon-engineering-culture/</guid>
       <description>亚马逊工程文化 吃自己的狗粮 团队不超过8人，两张批萨就能吃饱 简化和自动化 没有水槽，不能什么都往里面放 团队有自己的信条文化 关注SLA，每个服务都</description>
     </item>
-    
     <item>
       <title>笔记本电脑挑选比较</title>
       <link>https://www.samrainhan.com/posts/2021-08-14-laptop-comparison/</link>
       <pubDate>Sat, 14 Aug 2021 22:38:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-14-laptop-comparison/</guid>
       <description>最低价 笔记本电脑型号 CPU 单CPU计算耗费时间（秒，越小越好） 剪辑耗费时间（妙，越小越好） 6099 R7000 R7-4800h 151 6499 战99 R7-5800h 167 无 机械革命S2AIR R7-4800h 168 5699 小新Pr</description>
     </item>
-    
     <item>
       <title>Google评分卡</title>
       <link>https://www.samrainhan.com/posts/2021-08-13-google-scorecard/</link>
       <pubDate>Fri, 13 Aug 2021 10:40:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-13-google-scorecard/</guid>
       <description>Google评分卡 0-对于相关的技术领域还不熟悉 1-可以读懂这个领域的基础知识 2-可以实现一些小的改动,清楚基本的原理,并能够在简单的指导下</description>
     </item>
-    
     <item>
       <title>凯利公式</title>
       <link>https://www.samrainhan.com/posts/2021-08-12-kelly-formula/</link>
       <pubDate>Thu, 12 Aug 2021 14:52:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-12-kelly-formula/</guid>
       <description>凯利公式 预期收益=胜率×赔率-败率 资金投入比例=预期收益/胜率=（胜率×赔率-败率）/胜率 赔率=赌对了的收益/赌输了的损失 败率=1-胜率 如果</description>
     </item>
-    
     <item>
       <title>包邮区内2021年《财富》世界500强</title>
       <link>https://www.samrainhan.com/posts/2021-08-05-2021-fortune-global-500/</link>
       <pubDate>Thu, 05 Aug 2021 11:01:13 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-08-05-2021-fortune-global-500/</guid>
       <description>包邮区内2021年《财富》世界500强 排名 公司名称 所在省份 所在市 60 上海汽车集团股份有限公司 上海市 上海市 63 阿里巴巴集团 浙江省 杭州市 67 恒力集团 江</description>
     </item>
-    
     <item>
       <title>客户成功经理的能力体系</title>
       <link>https://www.samrainhan.com/posts/2021-07-28-the-competence-system-of-the-account-success-manager/</link>
       <pubDate>Thu, 29 Jul 2021 16:07:44 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-28-the-competence-system-of-the-account-success-manager/</guid>
       <description>客户成功经理的能力体系 业务素质 产品知识 对产品的理解和掌握程度，能对产品的价值进行阐述，能熟练操作 业务知识 对于产品背后的业务知识掌握程度，如C</description>
     </item>
-    
     <item>
       <title>面试4步骤</title>
       <link>https://www.samrainhan.com/posts/2021-07-28-4-steps-to-the-interview/</link>
       <pubDate>Wed, 28 Jul 2021 12:33:06 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-28-4-steps-to-the-interview/</guid>
       <description>1. 简历分析 空白期 时间记录的完整性 休假原因/计划做什么 跳槽增值 几流跳几流 转行难度/工作年限 加速度 最新职称及全部发展过程 职称与职责匹配性 自我评价</description>
     </item>
-    
     <item>
       <title>特别推荐几个WPS演示功能</title>
       <link>https://www.samrainhan.com/posts/2021-07-27-specially-recommended-wps-features/</link>
       <pubDate>Tue, 27 Jul 2021 12:38:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-27-specially-recommended-wps-features/</guid>
       <description>特别推荐几个WPS演示功能 Word一键转PPT 很多人做PPT的原始素材是Word文档，傻傻地复制粘贴效率非常低下，在WPS中只需要点点鼠标就</description>
     </item>
-    
     <item>
       <title>模板-每周用户进展</title>
       <link>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</link>
       <pubDate>Mon, 26 Jul 2021 22:59:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</guid>
       <description>1.用户推广概况 用户名 人数 电脑数 MAU 2.上周遗留问题进展 问题简述 Deadline 负责人 进展 是否解决 3.本周进展 目标 Deadline 负责人 是否完成 未完成的原因 4.本周遗留问</description>
     </item>
-    
     <item>
       <title>团队管理小招数</title>
       <link>https://www.samrainhan.com/posts/2021-07-25-team-management-tips/</link>
       <pubDate>Sun, 25 Jul 2021 14:09:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-25-team-management-tips/</guid>
       <description>团队管理小招数 轮岗管理 挖掘潜力，提升领导力。每人轮三周团队管理岗。 站立周会 大家都站立开会 每人的时间不要超过5分钟 每个人的议题就2个：a)总结</description>
     </item>
-    
     <item>
       <title>数字化转型中的5个常见陷阱</title>
       <link>https://www.samrainhan.com/posts/2021-07-21-5-common-pitfalls-of-digital-transformation/</link>
       <pubDate>Wed, 21 Jul 2021 11:08:40 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-21-5-common-pitfalls-of-digital-transformation/</guid>
       <description>在数字化转型方面，有五个需要解决的常见陷阱。 被忽视的变革管理 战略目标的错位 系统集成商的管理 业务流程不明确 数据迁移困难 变革的关键在员工。数字化</description>
     </item>
-    
     <item>
       <title>难以抗拒的信息</title>
       <link>https://www.samrainhan.com/posts/2021-07-20-irresistible-information/</link>
       <pubDate>Tue, 20 Jul 2021 17:32:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-20-irresistible-information/</guid>
       <description>在适当情况下，总是存在一种简单的信息包装方法，使信息变得令人难以抗拒。我们的任务就是要找到这种包装方法。 我们要像Hotmail和苹果公司那样</description>
     </item>
-    
     <item>
       <title>数字化成功转型的五个方法</title>
       <link>https://www.samrainhan.com/posts/2021-07-06-five-methods-for-successful-digital-transformation/</link>
       <pubDate>Tue, 06 Jul 2021 23:06:11 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-06-five-methods-for-successful-digital-transformation/</guid>
       <description>数字化成功转型的五个方法 如何推动组织文化的变革，以实现数字化成功转型？麦肯锡的报告总结了五个方法： 聘请精通数字技术的领导者（首席数字官CDD</description>
     </item>
-    
     <item>
       <title>怎样在UOS上操作WPS时能显示雅黑字体</title>
       <link>https://www.samrainhan.com/posts/2021-07-02-how-to-display-black-fonts-when-operating-wps-on-uos/</link>
       <pubDate>Fri, 02 Jul 2021 12:15:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-07-02-how-to-display-black-fonts-when-operating-wps-on-uos/</guid>
       <description>怎样在UOS上操作WPS时能显示雅黑字体 在Windows的fonts目录找到雅黑字体文件，然后复制到UOS上； 在UOS启动命令行切换root</description>
     </item>
-    
     <item>
       <title>不同角色升级路径</title>
       <link>https://www.samrainhan.com/posts/2021-06-30-different-role-upgrade-paths/</link>
       <pubDate>Wed, 30 Jun 2021 14:13:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-30-different-role-upgrade-paths/</guid>
       <description>不同角色升级路径 技术经理升级路径 PC安装》服务安装》账号对接》二次开发》研发》架构 客户经理升级路径 客户助理&amp;gt;客户经理&amp;gt;高级客户经</description>
     </item>
-    
     <item>
       <title>数据赚钱</title>
       <link>https://www.samrainhan.com/posts/2021-06-17-data-to-make-money/</link>
       <pubDate>Thu, 17 Jun 2021 23:28:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-17-data-to-make-money/</guid>
       <description>数据赚钱 数据做生意是个悖论，我们要知道什么情况下的信息不对称，能赚钱。 数据本身没有价值，你要利用这个数据源，理解以后你在那个场景里面应用，那</description>
     </item>
-    
     <item>
       <title>形势变化</title>
       <link>https://www.samrainhan.com/posts/2021-06-14-the-situation-is-compelling/</link>
       <pubDate>Mon, 14 Jun 2021 09:28:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-14-the-situation-is-compelling/</guid>
       <description>形势变化 背景信息是事件发生以前的内容，事件本身以及在此后发生的事件则是形势变化的内容。注意，事件必须与你所讲述的故事相关。 时间阶段是清晰的间</description>
     </item>
-    
     <item>
       <title>创新是企业首要关心的</title>
       <link>https://www.samrainhan.com/posts/2021-06-13-innovation-is-the-primary-concern-of-enterprises/</link>
       <pubDate>Sun, 13 Jun 2021 10:49:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-13-innovation-is-the-primary-concern-of-enterprises/</guid>
       <description>创新是企业首要关心的 创新是当今业务增长和利润增加的主要推动力之一，居于许多领导议程的首位，关乎着企业的输和赢。为什么呢？ 前通用电气董事长兼首</description>
     </item>
-    
     <item>
       <title>管理知识工作者</title>
       <link>https://www.samrainhan.com/posts/2021-06-12-management-knowledge-workers/</link>
       <pubDate>Sat, 12 Jun 2021 15:53:23 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-12-management-knowledge-workers/</guid>
       <description>管理知识工作者 今天管理的最大挑战是用管理体力劳动者的方式管理知识工作者。 管理知识工作者是管理上一个全新的物种。 不了解知识工作者的特点和需求就</description>
     </item>
-    
     <item>
       <title>服务商分类</title>
       <link>https://www.samrainhan.com/posts/2021-06-11-service-provider-classification/</link>
       <pubDate>Fri, 11 Jun 2021 16:03:12 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-11-service-provider-classification/</guid>
       <description>服务商分类 软件开发商（ISV） 系统集成商（SI） 增值分销商（VAR） 新一代云服务商（CSP） 在CSP中有两种模式，一种是客户在合作伙伴处直接</description>
     </item>
-    
     <item>
       <title>招聘基本要求</title>
       <link>https://www.samrainhan.com/posts/2021-06-10-basic-requirements-for-recruitment/</link>
       <pubDate>Thu, 10 Jun 2021 13:52:24 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-10-basic-requirements-for-recruitment/</guid>
       <description>招聘基本要求 智力 领导力 上进心</description>
     </item>
-    
     <item>
       <title>会议达成目标</title>
       <link>https://www.samrainhan.com/posts/2021-06-09-the-goal-of-the-meeting/</link>
       <pubDate>Wed, 09 Jun 2021 09:20:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-09-the-goal-of-the-meeting/</guid>
       <description>会议达成目标 大多数会议中需要达成的目标可以大致分为以下五类： 做出决策 归纳问题或想法（并制成清单） 让拥有不同视角的双方（例如营业负责人和技术人</description>
     </item>
-    
     <item>
       <title>提高生产率</title>
       <link>https://www.samrainhan.com/posts/2021-06-04-increase-productivity/</link>
       <pubDate>Fri, 04 Jun 2021 09:41:34 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-06-04-increase-productivity/</guid>
       <description>提高生产率 提升生产率，才是解决劳动力不足问题的正确方法。 以提高生产率的两种思路“提高产出”和“减少投入”为目标，可以采取两种手段，即“改良”</description>
     </item>
-    
     <item>
       <title>使用3×3模型来评估员工能力</title>
       <link>https://www.samrainhan.com/posts/2021-05-21-use-a-3x3-model-to-evaluate-employee-competencies/</link>
       <pubDate>Fri, 21 May 2021 23:48:26 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-21-use-a-3x3-model-to-evaluate-employee-competencies/</guid>
       <description>使用3×3模型来评估员工能力 首先定好纵轴和横轴。与员工的接触方式会根据员工的能力高低、沟通的难易程度而有所不同，因此将纵轴设定为“员工的能力</description>
     </item>
-    
     <item>
       <title>O365优势</title>
       <link>https://www.samrainhan.com/posts/2021-05-20-o365-advantage/</link>
       <pubDate>Thu, 20 May 2021 11:10:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-20-o365-advantage/</guid>
       <description>O365优势 释放创造力：大量支持手写，语音等新的形式进行人机交互，有越来越多的智能化组件简化工作 强化协作圈：从以往分散的基于邮件或文件的协作</description>
     </item>
-    
     <item>
       <title>解决问题4步骤</title>
       <link>https://www.samrainhan.com/posts/2021-05-19-4-steps-to-resolve-the-problem/</link>
       <pubDate>Wed, 19 May 2021 07:31:03 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-19-4-steps-to-resolve-the-problem/</guid>
       <description>解决问题4步骤 哪里出了问题？ 问题的根源是什么？ 有哪些解决问题的方案？ 你准备采用哪种方案？</description>
     </item>
-    
     <item>
       <title>预知未来最好的方法，就是去创造未来。</title>
       <link>https://www.samrainhan.com/posts/2021-05-23-the-best-way-to-predict-the-future-is-to-create-the-future/</link>
       <pubDate>Sun, 16 May 2021 15:13:13 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-23-the-best-way-to-predict-the-future-is-to-create-the-future/</guid>
       <description>预知未来最好的方法，就是去创造未来。 艾伦·凯曾经说过： “预知未来最好的方法，就是去创造未来。”这句话放在这里真是恰如其分。这句话听起来就像汽</description>
     </item>
-    
     <item>
       <title>点评日</title>
       <link>https://www.samrainhan.com/posts/2021-05-22-review-day/</link>
       <pubDate>Sun, 16 May 2021 15:08:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-22-review-day/</guid>
       <description>点评日 写着“是否有更好的提议”几个字，鼓励参与者们对上述观点添加自己的观点。 接下来，表格上又出现了“这样做对皮克斯有什么益处”以及“又有什么</description>
     </item>
-    
     <item>
       <title>证券行业管理层困境</title>
       <link>https://www.samrainhan.com/posts/2021-05-21-management-dilemma-in-the-securities-industry/</link>
       <pubDate>Sun, 16 May 2021 15:06:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-21-management-dilemma-in-the-securities-industry/</guid>
       <description>证券行业管理层困境 管理层的困境在于组织的连锁化—这对长期风险调整后收入最大化的实现至关重要一必须不受短期的具体紧急交易的影响。 我们有成千上万</description>
     </item>
-    
     <item>
       <title>高盛内部交流</title>
       <link>https://www.samrainhan.com/posts/2021-05-20-goldman-sachs-internal-communication/</link>
       <pubDate>Sun, 16 May 2021 15:03:29 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-20-goldman-sachs-internal-communication/</guid>
       <description>高盛内部交流 第一人称只能用于描述错误， 而不是成绩。每个“我”都被划掉，换成了 我们” 介绍新合伙人 负责人向所有人宣布：我们一直认为你会成功的。我</description>
     </item>
-    
     <item>
       <title>好好睡觉</title>
       <link>https://www.samrainhan.com/posts/2021-05-19-sleep-tight/</link>
       <pubDate>Sun, 16 May 2021 14:58:14 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-19-sleep-tight/</guid>
       <description>好好睡觉 我知道,你特别尽职尽责。你承诺了很多,也永远不会让任何人失望。 所以你就会开始熬夜,更加努力地完成所有工作。但这么一来,你其实牺牲的是</description>
     </item>
-    
     <item>
       <title>单页报告</title>
       <link>https://www.samrainhan.com/posts/2021-05-17-single-page-report/</link>
       <pubDate>Sun, 16 May 2021 14:54:04 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-17-single-page-report/</guid>
       <description>单页报告 无论是多么重要、多么冗长的报告，都要将结论及其三条最重要的理由归纳出来，写在第一页纸上。</description>
     </item>
-    
     <item>
       <title>合作伙伴共赢</title>
       <link>https://www.samrainhan.com/posts/2021-05-10-win-win-for-partners/</link>
       <pubDate>Mon, 10 May 2021 14:06:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-10-win-win-for-partners/</guid>
       <description>合作伙伴共赢 最佳实践 合作伙伴培训》商机挖掘》首单落地》联合市场宣传》项目复制 项目支持 售前：联合商机挖掘、项目报备保护、前期需求挖掘 售中：技术</description>
     </item>
-    
     <item>
       <title>领导力Tips</title>
       <link>https://www.samrainhan.com/posts/2021-05-08-leadership-tips/</link>
       <pubDate>Sat, 08 May 2021 20:49:49 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-05-08-leadership-tips/</guid>
       <description>领导力Tips 优秀的领导者能够把人们带到他们想去的地方 卓越的领导者能够把人们带到他们没想到要去但应该去的地方。 用提问来代替直接下命令。 我没有</description>
     </item>
-    
     <item>
       <title>针对合作伙伴销售的三个阶段的支持</title>
       <link>https://www.samrainhan.com/posts/2021-04-27-support-for-the-three-stages-of-partner-sales/</link>
       <pubDate>Tue, 27 Apr 2021 09:14:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-27-support-for-the-three-stages-of-partner-sales/</guid>
       <description>针对合作伙伴销售的三个阶段的支持 售前 需求挖掘 售中 方案支持 技术交流 客户拜访 技术测试 售后 技术支持 客户服务</description>
     </item>
-    
     <item>
       <title>录屏</title>
       <link>https://www.samrainhan.com/posts/2021-04-26-screen-recording/</link>
       <pubDate>Mon, 26 Apr 2021 16:22:24 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-26-screen-recording/</guid>
       <description>win和mac电脑可以试一下 https://www.cockos.com/licecap/ linux电脑用这个 https://github.com/phw/peek/releases 手机用本机自带录屏即可</description>
     </item>
-    
     <item>
       <title>2020中国企业500强(包邮区)</title>
       <link>https://www.samrainhan.com/posts/2021-04-24-2020-top-500-chinese-enterprises/</link>
       <pubDate>Sat, 24 Apr 2021 15:23:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-24-2020-top-500-chinese-enterprises/</guid>
       <description>2020中国企业500强(包邮区) 99 浙江恒逸集团有限公司 102 浙江荣盛控股集团有限公司 129 东浩兰生（集团）有限公司 135 光明食品（集团）有限公司 139 浙江</description>
     </item>
-    
     <item>
       <title>包邮区内2020年《财富》世界500强</title>
       <link>https://www.samrainhan.com/posts/2021-04-23-2020-fortune-global-500/</link>
       <pubDate>Fri, 23 Apr 2021 23:58:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-23-2020-fortune-global-500/</guid>
       <description>包邮区内2020年《财富》世界500强 52 上海汽车集团股份有限公司（SAIC MOTOR） 107 恒力集团（HENGLI GROUP） 111 中国宝武钢铁集团</description>
     </item>
-    
     <item>
       <title>文档的价值</title>
       <link>https://www.samrainhan.com/posts/2021-04-21-the-value-of-documentation/</link>
       <pubDate>Wed, 21 Apr 2021 22:02:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-21-the-value-of-documentation/</guid>
       <description>文档的价值 新东东的有效期越来越短，快速产生快速结束。 为什么花费精力做出来的文档，跟不上节奏? 文档本身具有时效性，不是人的问题而是思考问题的方</description>
     </item>
-    
     <item>
       <title>hy this why now why you</title>
       <link>https://www.samrainhan.com/posts/2021-04-19-why-this-why-now-why-you/</link>
       <pubDate>Mon, 19 Apr 2021 00:54:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-19-why-this-why-now-why-you/</guid>
       <description>why this why now why you 为什么这个？ 为什么现在？ 为什么你？ 一旦你的创业公司有了一些牵引力，筹款变得更加直截了当。 投资者仍然关心您的愿景和您的团队，但他们</description>
     </item>
-    
     <item>
       <title>苹果营销哲学</title>
       <link>https://www.samrainhan.com/posts/2021-04-18-apple-marketing-philosophy/</link>
       <pubDate>Sun, 18 Apr 2021 22:41:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-18-apple-marketing-philosophy/</guid>
       <description>苹果营销哲学 第一点是共鸣（empathy)，就是紧密结合顾客的感受。“我们要比其他任何公司都更好地理解使用者的需求。” 第二点是专注（focu</description>
     </item>
-    
     <item>
       <title>服务半径预估</title>
       <link>https://www.samrainhan.com/posts/2021-04-16-service-radius-estimation/</link>
       <pubDate>Fri, 16 Apr 2021 23:26:15 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-16-service-radius-estimation/</guid>
       <description>服务半径预估 密集城市中车辆平均速度不超过20公里/小时。 密集城市中1小时内能到达的面积=π * 20 * 20=1257 如果一个城市面积是X，那么需要的服务人员最</description>
     </item>
-    
     <item>
       <title>公司鄙视链</title>
       <link>https://www.samrainhan.com/posts/2021-04-15-companies-despise-the-chain/</link>
       <pubDate>Thu, 15 Apr 2021 09:29:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-15-companies-despise-the-chain/</guid>
       <description>公司鄙视链 饭煲公司 》科技公司 》互联网公司 》大数据公司 》精准渠道公司</description>
     </item>
-    
     <item>
       <title>技术管理者职责</title>
       <link>https://www.samrainhan.com/posts/2021-04-13-the-responsibilities-of-the-technical-manager/</link>
       <pubDate>Tue, 13 Apr 2021 11:05:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-04-13-the-responsibilities-of-the-technical-manager/</guid>
       <description>技术管理者职责 相比来说，技术管理者的工作就是关于人的，如何让团队发挥出更高效的能力。 根据公司的战略，选用合适的人来完成不同的里程碑点 调用资源</description>
     </item>
-    
     <item>
       <title>疯传STEPPS六原则</title>
       <link>https://www.samrainhan.com/posts/2021-03-30-six-principles-of-stepps/</link>
       <pubDate>Tue, 30 Mar 2021 14:53:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-30-six-principles-of-stepps/</guid>
       <description>疯传STEPPS六原则 传播力的六个原则：产品或创意富含社交货币，能够被诱发并激发情绪，具有公开性和使用价值，然后融合到一个故事中。社交货币、</description>
     </item>
-    
     <item>
       <title>职业精神</title>
       <link>https://www.samrainhan.com/posts/2021-03-29-professionalism/</link>
       <pubDate>Mon, 29 Mar 2021 13:54:21 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-29-professionalism/</guid>
       <description>职业精神 所有行业都给职业精神这套行为准则下了定义。职业精神反映出从业人员应该具有的理想和必须承担的责任。虽然这些准则有时是成文的，有时是不成</description>
     </item>
-    
     <item>
       <title>5G赋能工业互联网</title>
       <link>https://www.samrainhan.com/posts/2021-03-28-5g-empowers-industrial-internet/</link>
       <pubDate>Sun, 28 Mar 2021 22:29:06 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-28-5g-empowers-industrial-internet/</guid>
       <description>5G赋能工业互联网 5G的低时延、高可靠的特性，使得高灵活的个性化定制生产成为可能，是个性化定制生产模式的重要技术基础。 通过5G技术连接、收集</description>
     </item>
-    
     <item>
       <title>范例@个人平衡计分卡</title>
       <link>https://www.samrainhan.com/posts/2021-03-27-example-of-personal-balanced-scorecard/</link>
       <pubDate>Sat, 27 Mar 2021 22:15:32 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-27-example-of-personal-balanced-scorecard/</guid>
       <description>范例@个人平衡计分卡 https://kdocs.cn/l/cnrSf1yMzkLf</description>
     </item>
-    
     <item>
       <title>怎么做2B</title>
       <link>https://www.samrainhan.com/posts/2021-03-25-how-to-2b/</link>
       <pubDate>Thu, 25 Mar 2021 20:36:38 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-25-how-to-2b/</guid>
       <description>怎么做2B 从手动到半自动和全自动 覆盖率、转换率、复购率、渗透率。 产品或服务是否具有强粘性，难以替代，关键取决于渗透率高低，一旦形成高渗透率，</description>
     </item>
-    
     <item>
       <title>远程工作协议</title>
       <link>https://www.samrainhan.com/posts/2021-03-24-remote-work-agreement/</link>
       <pubDate>Wed, 24 Mar 2021 16:12:24 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-24-remote-work-agreement/</guid>
       <description>远程工作协议 这是每一个远程工作人员需要同意并做到的协议 原则 Ownership &amp;amp; Leadership 每个人都是 Owner，都是 Leader，如果看到团队或是项目有问题的时候，不</description>
     </item>
-    
     <item>
       <title>模板@2020年度个人规划</title>
       <link>https://www.samrainhan.com/posts/2021-03-23-template-of-personal-plan/</link>
       <pubDate>Tue, 23 Mar 2021 16:08:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-23-template-of-personal-plan/</guid>
       <description>模板@2020年度个人规划 表格源文件在此： https://kdocs.cn/l/ceaZUSkZMI7R</description>
     </item>
-    
     <item>
       <title>服务商考核清单</title>
       <link>https://www.samrainhan.com/posts/2021-03-17-service-provider-assessment-checklist/</link>
       <pubDate>Wed, 17 Mar 2021 22:52:03 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-17-service-provider-assessment-checklist/</guid>
       <description>服务商考核清单 @startmindmap 服务商考核清单 + 服务商考核清单 ++ 1.客户服务记录 +++ 项目记录 ++++ 项目概况 ++++ 合同 ++++ 项目通讯录 ++++ 项目计划 ++++ 可行性方案 ++++ 需求分析 ++++ 概要</description>
     </item>
-    
     <item>
       <title>WPS各种产品场景</title>
       <link>https://www.samrainhan.com/posts/2021-03-16-wps-various-product-scenarios/</link>
       <pubDate>Tue, 16 Mar 2021 13:55:35 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-16-wps-various-product-scenarios/</guid>
       <description>WPS各种产品场景 WPS各种产品场景 在线预览 看大文件 特别大的文件，比如几十M的\nPPT或者PDF文件，如果按照传统模式，先下载好，再调用本</description>
     </item>
-    
     <item>
       <title>传递产品价值</title>
       <link>https://www.samrainhan.com/posts/2021-03-15-deliver-product-value/</link>
       <pubDate>Mon, 15 Mar 2021 23:49:18 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-15-deliver-product-value/</guid>
       <description>传递产品价值 价值主张 how Product Target market Primary benefit What makes it unique what 客户应该怎样定位我们 构成 认同需求，引起客户的同理 产品/方案组成 与众不同 证明实力 when 客户拜访的开场白 电</description>
     </item>
-    
     <item>
       <title>运营任务</title>
       <link>https://www.samrainhan.com/posts/2021-03-14-operational-tasks/</link>
       <pubDate>Sun, 14 Mar 2021 23:23:04 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-14-operational-tasks/</guid>
       <description>运营任务 运营任务 拉新 售前 现场演示 编写方案 测试方案 推广方案 技术方案 POC 提供测试版给客户自己安装 现场安装 测试 投标 正式部署 留存 解决问题 远程解决问题 现</description>
     </item>
-    
     <item>
       <title>运营</title>
       <link>https://www.samrainhan.com/posts/2021-03-13-operation/</link>
       <pubDate>Sat, 13 Mar 2021 22:20:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-13-operation/</guid>
       <description>运营 运营 准备 对自家产品有所理解 产品定位 能解决用户什么样的需求 用户会在什么样的场景下使用自家产品 自家产品在行业里地位如何 商业模式又是什么样的 自</description>
     </item>
-    
     <item>
       <title>面试问题</title>
       <link>https://www.samrainhan.com/posts/2021-03-12-interview-questions/</link>
       <pubDate>Fri, 12 Mar 2021 23:49:41 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-12-interview-questions/</guid>
       <description>面试问题 你觉得人生至此你最重要的成就，或者最令你骄傲的东西是什么？ 你上一次通过“没有遵守世俗的规则”而获取了某种优势，或者为自己赢得了某种机</description>
     </item>
-    
     <item>
       <title>SCQA故事案例</title>
       <link>https://www.samrainhan.com/posts/2021-03-10-scqa-story-case/</link>
       <pubDate>Wed, 10 Mar 2021 21:14:51 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-10-scqa-story-case/</guid>
       <description>SCQA故事案例 你是乙方，和甲方谈商务条款，你开价15%的佣金比率，但对方只接受10%。其实，只要对方一次性付款，10%的比例你也可以接受。</description>
     </item>
-    
     <item>
       <title>企业一般办公需求</title>
       <link>https://www.samrainhan.com/posts/2021-03-09-general-office-needs-of-enterprises/</link>
       <pubDate>Tue, 09 Mar 2021 10:22:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-09-general-office-needs-of-enterprises/</guid>
       <description>企业一般办公需求 获取服务 查看个人信息 寻求帮助 行政 人事 财务 IT 业务（因人而异） 主动服务 消息推送 提醒 沟通协作 找人 通讯录 实时性 实时 会议 IM 电话 延时 邮件</description>
     </item>
-    
     <item>
       <title>2020风口</title>
       <link>https://www.samrainhan.com/posts/2021-03-07-2020-tuyere/</link>
       <pubDate>Sun, 07 Mar 2021 11:28:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-07-2020-tuyere/</guid>
       <description>2020风口 1. 在数字化环境中以人为本 2. 产业互联网 2018年爆发 数字化》数据化》智能化 产业互联网可分为制造业互联网、农业互联网和服务业互联网。</description>
     </item>
-    
     <item>
       <title>责任感</title>
       <link>https://www.samrainhan.com/posts/2021-03-06-sense-of-responsibility/</link>
       <pubDate>Sat, 06 Mar 2021 20:11:29 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-06-sense-of-responsibility/</guid>
       <description>责任感 责任感三个等级 依赖性：责任感是基于某人在某个时刻没有其他选择的情况下，只有依赖感，进而保持冷漠。依赖者往往对工作没有兴趣。 依赖性：有几</description>
     </item>
-    
     <item>
       <title>数据能力中的盈利能力</title>
       <link>https://www.samrainhan.com/posts/2021-03-04-profitability-in-data-capability/</link>
       <pubDate>Thu, 04 Mar 2021 11:47:14 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-04-profitability-in-data-capability/</guid>
       <description>数据能力中的盈利能力 中小企业管理转型升级建立数据化管理能力是核心 核心员工的学习机会（团队榜样） 组织内训形成传统（执行能力） 管理者带头持续改善</description>
     </item>
-    
     <item>
       <title>微软针对安全产品的销售话术</title>
       <link>https://www.samrainhan.com/posts/2021-03-02-microsoft-sales-tactics-for-security-products/</link>
       <pubDate>Tue, 02 Mar 2021 11:14:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-03-02-microsoft-sales-tactics-for-security-products/</guid>
       <description>微软针对安全产品的销售话术 主管们应向其信息安全团队提出的5个问题： 对你而言，使用非认可云服务有多常见？ 我们是否正保护自己免受内部威胁？ 我们是</description>
     </item>
-    
     <item>
       <title>怎么写问题</title>
       <link>https://www.samrainhan.com/posts/2021-02-24-how-to-write-a-question/</link>
       <pubDate>Wed, 24 Feb 2021 15:07:05 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-24-how-to-write-a-question/</guid>
       <description>怎么写问题 问题是什么。 假设问题的原因 证实每个问题的假设 预测实验的结果。 观察实验的结果。 由实验得出结论</description>
     </item>
-    
     <item>
       <title>究竟什么样的产品定义才算精准呢</title>
       <link>https://www.samrainhan.com/posts/2021-02-23-what-kind-of-product-definition-is-accurate/</link>
       <pubDate>Tue, 23 Feb 2021 12:11:35 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-23-what-kind-of-product-definition-is-accurate/</guid>
       <description>究竟什么样的产品定义才算精准呢？ 我们认为它包含以下几个方面： 用户群精准； 对用户群需求和人性的把握精准； 功能设定精准； 直指产业级痛点； 品质把握</description>
     </item>
-    
     <item>
       <title>高盛十诫</title>
       <link>https://www.samrainhan.com/posts/2021-02-22-goldman-sachs-ten-commandments/</link>
       <pubDate>Mon, 22 Feb 2021 16:23:30 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-22-goldman-sachs-ten-commandments/</guid>
       <description>高盛十诫 不要把时间浪费在我们并不很想发展的业务上。 通常情况下由老板—而不是助理财务总监来作出决定。你知道谁是老板吗? 拿到一流业务和拿到二流业</description>
     </item>
-    
     <item>
       <title>五项清晰表达原则</title>
       <link>https://www.samrainhan.com/posts/2021-02-20-five-principles-of-articulation/</link>
       <pubDate>Sat, 20 Feb 2021 15:06:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-20-five-principles-of-articulation/</guid>
       <description>五项清晰表达原则 明确 诚实 勇气 责任 同理心</description>
     </item>
-    
     <item>
       <title>七个说服秘诀</title>
       <link>https://www.samrainhan.com/posts/2021-02-17-seven-secrets-of-persuasion/</link>
       <pubDate>Wed, 17 Feb 2021 21:52:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-17-seven-secrets-of-persuasion/</guid>
       <description>七个说服秘诀 1. 说蜥蜴的语言。 我们的无意识思维方式自有其交流方式，它的语言有自己的语法规则和风格。 2. 将行为而非态度作为说服目标。 改变他人的行为</description>
     </item>
-    
     <item>
       <title>客户成功经理</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</link>
       <pubDate>Mon, 15 Feb 2021 21:26:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</guid>
       <description>客户成功经理 CSM定义 Customer Success Manager：客户成功经理（指负责客户成功的基层同事），简称CSM。 大多数的销售模式大多数采用的是销售＋客户服务</description>
     </item>
-    
     <item>
       <title>运维工程师笔试题目</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-written-questions-for-operation-and-maintenance-engineers/</link>
       <pubDate>Mon, 15 Feb 2021 16:23:43 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-15-written-questions-for-operation-and-maintenance-engineers/</guid>
       <description>运维工程师笔试题目 一、简答题（共50分） 列出常见的 Linux 发行版及其包管理工具。 列出常见的容器编排软件。 列出常见的开源存储系统。 列出常见的监控工具</description>
     </item>
-    
     <item>
       <title>话术-现场面试 服务商</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-service-provider/</link>
       <pubDate>Mon, 15 Feb 2021 16:15:30 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-service-provider/</guid>
       <description>话术-现场面试 服务商 第一阶段 寒暄 简短自我介绍 问对方如何评价自己，特点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 离职原因，除第一份工</description>
     </item>
-    
     <item>
       <title>话术-现场面试 实习生</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-intern/</link>
       <pubDate>Mon, 15 Feb 2021 14:51:14 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-15-talking-on-site-interview-intern/</guid>
       <description>话术-现场面试 实习生 第一阶段 寒暄 简短自我介绍 问对方如何评价自己，特点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 工作经验：有否其他实</description>
     </item>
-    
     <item>
       <title>在Linux上制作Windows自启动安装U盘</title>
       <link>https://www.samrainhan.com/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</link>
       <pubDate>Mon, 15 Feb 2021 00:19:34 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</guid>
       <description>在Linux上制作Windows自启动安装U盘 官网在此 Features Support Legacy PC/UEFI booting Support FAT32 and NTFS filesystems Support using physical installation disc or disk image as source Supported Windows® installation images Windows Vista and later Any language or edition variants Windows PE Run</description>
     </item>
-    
     <item>
       <title>话术-电话面试 实习生</title>
       <link>https://www.samrainhan.com/posts/2021-02-13-talking-phone-interview-intern/</link>
       <pubDate>Sat, 13 Feb 2021 00:05:36 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-13-talking-phone-interview-intern/</guid>
       <description>话术-电话面试 实习生 介绍自己来自XX公司，这次是初次联系。 询问是否方便简单电话面试？回答否就88。 询问能否稳定实习半年以上？回答否就88。 询</description>
     </item>
-    
     <item>
       <title>话术-现场面试 客户经理</title>
       <link>https://www.samrainhan.com/posts/2021-02-10-talking-on-site-interview-account-manager/</link>
       <pubDate>Wed, 10 Feb 2021 09:38:31 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-10-talking-on-site-interview-account-manager/</guid>
       <description>话术-现场面试 客户经理 第一阶段 寒暄 简短自我介绍 问对方如何评价自己，特点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 工作经验：除第一份</description>
     </item>
-    
     <item>
       <title>话术-电话面试客户经理</title>
       <link>https://www.samrainhan.com/posts/2021-02-08-talking-phone-interview-account-manager/</link>
       <pubDate>Mon, 08 Feb 2021 17:12:08 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-08-talking-phone-interview-account-manager/</guid>
       <description>话术-电话面试客户经理 介绍自己来自XXX公司，这次是初次联系。 询问是否方便简单电话面试？回答否就88 询问最近有没有意愿更换工作？回答否就88</description>
     </item>
-    
     <item>
       <title>专业要求和胜任素质要求</title>
       <link>https://www.samrainhan.com/posts/2021-02-07-professional-requirements-and-competency-requirements/</link>
       <pubDate>Sun, 07 Feb 2021 23:46:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-07-professional-requirements-and-competency-requirements/</guid>
       <description>专业要求和胜任素质要求 @startmindmap 专业要求和胜任素质要求 + 专业要求和胜任素质要求 ++ 专业要求 +++ 专业知识 ++++ 对完成工作有用的事实性及经验性信息 ++++ 例如：你对L</description>
     </item>
-    
     <item>
       <title>值班打包</title>
       <link>https://www.samrainhan.com/posts/2021-02-05-pack-on-duty/</link>
       <pubDate>Fri, 05 Feb 2021 15:53:23 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-05-pack-on-duty/</guid>
       <description>值班打包 从今天开始，每天由一位值班同学总负责打包 值班工作 看前一天的遗留问题，并立即着手处理 周一必须处理完上周遗留问题 每天4次固定时间去查看商</description>
     </item>
-    
     <item>
       <title>Micro使用心得</title>
       <link>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</link>
       <pubDate>Fri, 05 Feb 2021 15:29:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</guid>
       <description>Micro使用心得 在一个界面上按照横向分割窗口 vsplit &#39;filename&#39; 在一个界面上按照纵向分割窗口 hsplit &#39;filename&#39; 安装filemanager插件，显示目录树 tree</description>
     </item>
-    
     <item>
       <title>plantuml使用技巧</title>
       <link>https://www.samrainhan.com/posts/2021-02-03-plantuml-tips/</link>
       <pubDate>Wed, 03 Feb 2021 14:50:34 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-02-03-plantuml-tips/</guid>
       <description>官网 https://plantuml.com/zh/ 可视化转成png 执行以下命令java -jar plantuml.jar -gui 在弹出界面》选择目录》自动生成PNG文件 命令行转成png 执行以下命令java -jar plantuml.jar -tpng /home/helloworld</description>
     </item>
-    
     <item>
       <title>生产环境升级须知</title>
       <link>https://www.samrainhan.com/posts/2021-01-25-instructions-for-upgrading-the-production-environment/</link>
       <pubDate>Sat, 30 Jan 2021 20:07:08 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-25-instructions-for-upgrading-the-production-environment/</guid>
       <description>生产环境升级须知 准备相同的测试环境 回退机制万无一失 部署手册研究透 翻车后立即组织总结和分享，否则暂停所有同类型部署工作</description>
     </item>
-    
     <item>
       <title>员工成长报告</title>
       <link>https://www.samrainhan.com/posts/2021-01-30-staff-growth-report/</link>
       <pubDate>Sat, 30 Jan 2021 19:48:35 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-30-staff-growth-report/</guid>
       <description>给每个组员做一份成长报告 每个人 每人总耗时 看看该月每个人的工作负荷 每人项目耗时 项目分配工时 合不合理，是否重要的项目分配的时间多 每人任务耗时 哪些</description>
     </item>
-    
     <item>
       <title>巡检要求</title>
       <link>https://www.samrainhan.com/posts/2021-01-30-inspection-requirements/</link>
       <pubDate>Sat, 30 Jan 2021 19:03:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-30-inspection-requirements/</guid>
       <description>巡检要求 检查各主机cpu、内存、硬盘使用情况 检查系统日志中有无明显报错（特别需关注是否出现过OOM） 检查mysql、es、nsq、redis</description>
     </item>
-    
     <item>
       <title>数据商业化</title>
       <link>https://www.samrainhan.com/posts/2021-01-28-data-commercialization/</link>
       <pubDate>Thu, 28 Jan 2021 18:25:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-28-data-commercialization/</guid>
       <description>数据商业化 数据商业化三要素：数据源、人、场景，他们的巨大的变化才有数据产品的诞生机会，数据品牌的诞生机会。 数据本身没有价值，应用了数据的场景</description>
     </item>
-    
     <item>
       <title>投诉是粉丝的开始</title>
       <link>https://www.samrainhan.com/posts/2021-01-27-complaints-are-the-beginning-of-fans/</link>
       <pubDate>Wed, 27 Jan 2021 16:36:15 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-27-complaints-are-the-beginning-of-fans/</guid>
       <description>投诉是粉丝的开始 如果你想成为一个有作为的人，就应该采取实际行动，拿出诚意，将投诉客变为你的铁杆粉丝。 如果你是客人，而对方又妥善处理好了你的投</description>
     </item>
-    
     <item>
       <title>怎样提建议</title>
       <link>https://www.samrainhan.com/posts/2021-01-27-how-to-make-suggestions/</link>
       <pubDate>Wed, 27 Jan 2021 16:00:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-27-how-to-make-suggestions/</guid>
       <description>怎样提建议 “请问能占用您多少时间？我有两件关于XX的事情想向您汇报，请问能占用您五分钟吗？” 当你对自己的核心建议感到满意，也可以肯定地回答下</description>
     </item>
-    
     <item>
       <title>四轮面试准则</title>
       <link>https://www.samrainhan.com/posts/2021-01-26-four-round-interview-criteria/</link>
       <pubDate>Tue, 26 Jan 2021 16:46:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-26-four-round-interview-criteria/</guid>
       <description>四轮面试准则（转载） 面试官通过4轮面试就可以有86%的自信确认是否聘用候选人，4轮面试之后的每一轮面试仅可能提高1%的效用 1. 样例测试 预测候选</description>
     </item>
-    
     <item>
       <title>计划任务和记录过程</title>
       <link>https://www.samrainhan.com/posts/2021-01-26-plan-tasks-and-document-processes/</link>
       <pubDate>Tue, 26 Jan 2021 15:08:04 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-26-plan-tasks-and-document-processes/</guid>
       <description>计划任务和记录过程 准备从下周一开始在金山日历中记录工作情况，具体要求如下： 1. 周一上班前，全员必须完成下周工作计划，并分解成任务填入金山日历中</description>
     </item>
-    
     <item>
       <title>月度总结模板</title>
       <link>https://www.samrainhan.com/posts/2021-01-25-monthly-summary-template/</link>
       <pubDate>Mon, 25 Jan 2021 16:08:00 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-25-monthly-summary-template/</guid>
       <description>月度总结模板 1. 业绩（完成了哪些） 三要事 KPI 其他做的特别突出的事情 2. 亮点 3. 问题 4. 未来</description>
     </item>
-    
     <item>
       <title>Linux下查看文件和文件夹大小</title>
       <link>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</link>
       <pubDate>Sun, 24 Jan 2021 13:54:58 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</guid>
       <description>Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *</description>
     </item>
-    
     <item>
       <title>安徽2018中国500强</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-anhui-2018-china-top-500/</link>
       <pubDate>Sun, 13 Dec 2020 11:21:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-anhui-2018-china-top-500/</guid>
       <description>安徽2018中国500强</description>
     </item>
-    
     <item>
       <title>上海2018中国500强</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-shanghai-2018-china-top-500/</link>
       <pubDate>Sun, 13 Dec 2020 11:20:08 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-shanghai-2018-china-top-500/</guid>
       <description>上海2018中国500强</description>
     </item>
-    
     <item>
       <title>浙江2018中国500强</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-zhejiang-2018-china-top-500/</link>
       <pubDate>Sun, 13 Dec 2020 11:19:10 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-zhejiang-2018-china-top-500/</guid>
       <description>浙江2018中国500强</description>
     </item>
-    
     <item>
       <title>江苏2018中国500强</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-jiangsu-2018-china-top-500/</link>
       <pubDate>Sun, 13 Dec 2020 11:18:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-jiangsu-2018-china-top-500/</guid>
       <description>江苏2018中国500强</description>
     </item>
-    
     <item>
       <title>华东证券保险</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-securities-insurance/</link>
       <pubDate>Sun, 13 Dec 2020 11:16:45 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-securities-insurance/</guid>
       <description>华东证券保险</description>
     </item>
-    
     <item>
       <title>华东汽车金融公司</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-auto-finance-company/</link>
       <pubDate>Sun, 13 Dec 2020 11:15:30 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-auto-finance-company/</guid>
       <description>华东汽车金融公司</description>
     </item>
-    
     <item>
       <title>华东金融租赁公司</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-financial-leasing-company/</link>
       <pubDate>Sun, 13 Dec 2020 11:14:11 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-financial-leasing-company/</guid>
       <description>华东金融租赁公司</description>
     </item>
-    
     <item>
       <title>华东资产管理公司</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-asset-management-company/</link>
       <pubDate>Sun, 13 Dec 2020 11:11:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-asset-management-company/</guid>
       <description>华东资产管理公司</description>
     </item>
-    
     <item>
       <title>华东信托</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-trust/</link>
       <pubDate>Sun, 13 Dec 2020 10:40:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-trust/</guid>
       <description>华东信托</description>
     </item>
-    
     <item>
       <title>江苏农商行</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-jiangsu-rural-commercial-bank/</link>
       <pubDate>Sun, 13 Dec 2020 10:39:35 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-jiangsu-rural-commercial-bank/</guid>
       <description>江苏农商行</description>
     </item>
-    
     <item>
       <title>安徽农商行</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-anhui-rural-commercial-bank/</link>
       <pubDate>Sun, 13 Dec 2020 10:29:41 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-anhui-rural-commercial-bank/</guid>
       <description>安徽农商行</description>
     </item>
-    
     <item>
       <title>浙江农商行</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-zhejiang-rural-commercial-bank/</link>
       <pubDate>Sun, 13 Dec 2020 10:27:15 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-zhejiang-rural-commercial-bank/</guid>
       <description>浙江农商行</description>
     </item>
-    
     <item>
       <title>华东商业银行</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-east-china-commercial-bank/</link>
       <pubDate>Sun, 13 Dec 2020 10:25:11 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-east-china-commercial-bank/</guid>
       <description>华东商业银行</description>
     </item>
-    
     <item>
       <title>客户盘点调查模板</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-customer-inventory-survey-template/</link>
       <pubDate>Sun, 13 Dec 2020 10:23:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-customer-inventory-survey-template/</guid>
       <description>客户盘点调查模板</description>
     </item>
-    
     <item>
       <title>客户分类</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-customer-classification/</link>
       <pubDate>Sun, 13 Dec 2020 10:22:18 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-customer-classification/</guid>
       <description>客户分类</description>
     </item>
-    
     <item>
       <title>团队管理要求</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-team-management-requirements/</link>
       <pubDate>Sun, 13 Dec 2020 10:20:57 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-team-management-requirements/</guid>
       <description>团队管理要求</description>
     </item>
-    
     <item>
       <title>主席的工作</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-chairmans-work/</link>
       <pubDate>Sun, 13 Dec 2020 10:18:45 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-chairmans-work/</guid>
       <description>主席的工作</description>
     </item>
-    
     <item>
       <title>一张图 了解 微信公众号  WPS云办公服务</title>
       <link>https://www.samrainhan.com/posts/2020-12-13-a-picture-to-understand-wps-cloud-office-service/</link>
       <pubDate>Sun, 13 Dec 2020 10:15:27 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-13-a-picture-to-understand-wps-cloud-office-service/</guid>
       <description>一张图 了解 微信公众号 WPS云办公服务</description>
     </item>
-    
     <item>
       <title>常用linux网络工具命令</title>
       <link>https://www.samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</link>
       <pubDate>Sat, 12 Dec 2020 23:33:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</guid>
       <description>常用linux网络工具命令</description>
     </item>
-    
     <item>
       <title>新员工指导工作一览</title>
       <link>https://www.samrainhan.com/posts/2020-12-12-list-of-new-employee-guidance/</link>
       <pubDate>Sat, 12 Dec 2020 23:30:03 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-12-12-list-of-new-employee-guidance/</guid>
       <description>新员工指导工作一览 企业文化传递 为新员工介绍公司的发展历史、发展前景及发展战略，介绍所属行业的发展情况； 积极宣导公司的价值观，帮助被指导员工不</description>
     </item>
-    
     <item>
       <title>怎么写年终述职</title>
       <link>https://www.samrainhan.com/posts/2020-08-28-how-to-write-year-end-report/</link>
       <pubDate>Fri, 28 Aug 2020 23:51:40 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-28-how-to-write-year-end-report/</guid>
       <description>怎么写年终述职 1. 工作业绩 尽量说清楚业绩是不是达标了，完成了多少项目，工作进展到了什么程度。 很多人写的是工作内容，而不是具体的工作成果，做了那</description>
     </item>
-    
     <item>
       <title>领导力的四个阶段</title>
       <link>https://www.samrainhan.com/posts/2020-08-22-the-four-stages-of-leadership/</link>
       <pubDate>Sat, 22 Aug 2020 16:10:50 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-22-the-four-stages-of-leadership/</guid>
       <description>领导力的四个阶段 第一阶段：熟悉业务，自己解决问题。 领导者是给大家指方向的，你必须先知道要走哪个方向，才能带领别人，这是领导力的基础。 第二阶段</description>
     </item>
-    
     <item>
       <title>怎么安排酒席上的座位</title>
       <link>https://www.samrainhan.com/posts/2020-08-09-how-to-arrange-the-seats-at-the-banquet/</link>
       <pubDate>Sun, 09 Aug 2020 11:44:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-09-how-to-arrange-the-seats-at-the-banquet/</guid>
       <description>怎么安排酒席上的座位 离开正门最远的是主桌，距离主桌近的尊贵。 每桌主位是以面对正门的位置为准，其他座位以右为尊，以左为卑。 多桌需要在每张桌子上</description>
     </item>
-    
     <item>
       <title>中国信托公司</title>
       <link>https://www.samrainhan.com/posts/2020-08-08-china-trust-company/</link>
       <pubDate>Sat, 08 Aug 2020 11:10:03 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-08-china-trust-company/</guid>
       <description>排名 信托公司简称 信托公司全称 成立日期 注册资本 是否上市 公司所在地 1 中信信托 中信信托有限责任公司 1988/3/1 100亿 否 北京 2 重庆信托 重庆国际信托股份有限公</description>
     </item>
-    
     <item>
       <title>金融租赁公司</title>
       <link>https://www.samrainhan.com/posts/2020-08-07-financial-leasing-company/</link>
       <pubDate>Fri, 07 Aug 2020 23:19:58 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-07-financial-leasing-company/</guid>
       <description>序号 金融租赁公司 成立时间 注册资金 注册地 57 航天科工金融租赁有限公司（筹备） 30亿元 湖北 64 粤财金融租赁有限公司（筹备） 10亿元 广东 58 中煤科工金融</description>
     </item>
-    
     <item>
       <title>日常问题处理流程</title>
       <link>https://www.samrainhan.com/posts/2020-08-05-daily-problem-handling-process/</link>
       <pubDate>Wed, 05 Aug 2020 14:35:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-05-daily-problem-handling-process/</guid>
       <description>日常问题处理流程</description>
     </item>
-    
     <item>
       <title>标准部署流程</title>
       <link>https://www.samrainhan.com/posts/2020-08-04-standard-deployment-process/</link>
       <pubDate>Tue, 04 Aug 2020 06:25:32 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-08-04-standard-deployment-process/</guid>
       <description>标准部署流程</description>
     </item>
-    
     <item>
       <title>外包管理生态建设模型管理体系</title>
       <link>https://www.samrainhan.com/posts/2019-12-24-outsourcing-management-ecological-construction-model-management-system/</link>
       <pubDate>Tue, 21 Jan 2020 23:14:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-24-outsourcing-management-ecological-construction-model-management-system/</guid>
       <description>外包管理生态建设模型管理体系 全生命周期管理 策略分析 外包规划 供应商选择 建立供应商阶段性评价体系 建立供应商进入评价体系 对七个方面进行现场评审和总</description>
     </item>
-    
     <item>
       <title>外包管理生态建设模型管理体系-管理域</title>
       <link>https://www.samrainhan.com/posts/2019-12-24-management-domain/</link>
       <pubDate>Tue, 21 Jan 2020 23:08:50 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-24-management-domain/</guid>
       <description>管理域 合同管理 需求管理 交付管理 外包人员管理 供应商管理 风险管理 信息安全管理 资源管理 沟通管理 包治理 外包策略管理 外包质量管理 知识管理 持续服务管理 财</description>
     </item>
-    
     <item>
       <title>模板@会议纪要</title>
       <link>https://www.samrainhan.com/posts/2020-01-01-meeting-minutes-template/</link>
       <pubDate>Tue, 21 Jan 2020 23:07:24 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-01-01-meeting-minutes-template/</guid>
       <description>模板@会议纪要</description>
     </item>
-    
     <item>
       <title>模板@现场服务反馈表</title>
       <link>https://www.samrainhan.com/posts/2020-01-01-field-service-feedback-form/</link>
       <pubDate>Tue, 21 Jan 2020 23:05:58 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2020-01-01-field-service-feedback-form/</guid>
       <description>模板@现场服务反馈表</description>
     </item>
-    
     <item>
       <title>工业互联网标准体系</title>
       <link>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</link>
       <pubDate>Fri, 20 Dec 2019 05:56:08 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</guid>
       <description>工业互联网标准体系</description>
     </item>
-    
     <item>
       <title>O365销售套路</title>
       <link>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</link>
       <pubDate>Fri, 20 Dec 2019 05:54:49 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</guid>
       <description>O365销售套路 销售的KPI 每个客户要求月活50个以上就算合格客户。 即使某个客户月活远远超过50也算一个合格客户，而不会算额外业绩。 每年每个</description>
     </item>
-    
     <item>
       <title>各种中台</title>
       <link>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</link>
       <pubDate>Fri, 20 Dec 2019 05:52:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-20-various-middle-stage/</guid>
       <description>各种中台 数据中台提供了数据分析能力 业务中台提供重用服务 算法中台提供了算法能力 研发中台提供了自建系统部分的管理和技术实践支撑能力 技术中台提供了</description>
     </item>
-    
     <item>
       <title>怎样设计和推广产品</title>
       <link>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</link>
       <pubDate>Fri, 20 Dec 2019 05:51:10 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-18-how-to-design-and-promote-products/</guid>
       <description>以最小的成本，最低的风险，试用产品，发现价值， 深挖护城河 以客户为中心 智能协作 赋能员工</description>
     </item>
-    
     <item>
       <title>非结构化数据占企业数字资产超过85%</title>
       <link>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</link>
       <pubDate>Fri, 20 Dec 2019 05:49:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-17-unstructured-data-accounts-for-more-than-85-of-corporate-digital-assets/</guid>
       <description>非结构化数据占企业数字资产超过85%</description>
     </item>
-    
     <item>
       <title>软件发展趋势</title>
       <link>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</link>
       <pubDate>Fri, 20 Dec 2019 05:48:38 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-17-software-development-trends/</guid>
       <description>越来越多 越来越少 越来越聪明 越来越偷懒</description>
     </item>
-    
     <item>
       <title>云文档对于企业的好处及ROI</title>
       <link>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</link>
       <pubDate>Fri, 20 Dec 2019 05:45:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</guid>
       <description>Gartner Group进行的一项类似研究发现 每天用于归档和维护现有信息，或搜索新信息的时间平均为37分钟或8%工作日 使用自动文件管理系统可以节省至少一</description>
     </item>
-    
     <item>
       <title>应用新技术可以对企业的优势领域带来巨大影响</title>
       <link>https://www.samrainhan.com/posts/2019-12-14-applying-new-technologies-can-have-a-huge-impact-on-the-strengths-of-the-company/</link>
       <pubDate>Sat, 14 Dec 2019 18:28:32 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-14-applying-new-technologies-can-have-a-huge-impact-on-the-strengths-of-the-company/</guid>
       <description>营销 利用企业的唯一数据传达可促进增收的想法和可行性见解 销售 使销售代表能够在各地轻松协作和办公 财务 使用实时报告技术和数据安全做出更明智、更可控</description>
     </item>
-    
     <item>
       <title>网站的配色方案</title>
       <link>https://www.samrainhan.com/posts/2019-12-14-website-color-system/</link>
       <pubDate>Sat, 14 Dec 2019 18:08:12 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-14-website-color-system/</guid>
       <description>日本传统色 http://nipponcolors.com 图标 http://www.iconfont.cn 上传照片就能智能形成一套配色： http://www.colorfavs.com http://colorhunter.com/ 各大网站的配色方案 https://brandcolors.net/</description>
     </item>
-    
     <item>
       <title>文档的生命周期（阶段&#43;定义&#43;支持的技术和应用）</title>
       <link>https://www.samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</link>
       <pubDate>Thu, 12 Dec 2019 12:08:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>9大传播方式</title>
       <link>https://www.samrainhan.com/posts/2019-12-12-9-ways-to-spread/</link>
       <pubDate>Thu, 12 Dec 2019 11:53:49 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-12-9-ways-to-spread/</guid>
       <description>口碑传播 服务创造 公益行为 传播方式品质创造 事件创造 故事 意见领袖 电视大众媒体 博客传播 邮件传播 视频传播 事件传播 网络广告 论坛</description>
     </item>
-    
     <item>
       <title>产品的宣传渠道</title>
       <link>https://www.samrainhan.com/posts/2019-12-12-product-promotion-channels/</link>
       <pubDate>Thu, 12 Dec 2019 11:46:22 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-12-product-promotion-channels/</guid>
       <description>第一，通过渠道建设传递产品，把产品输送到渠道，继而带到消费者身边，才能兑现产品的使用价值，转化为销售利润。 第二，通过媒介传播打造品牌，逐步提</description>
     </item>
-    
     <item>
       <title>office365的10件事</title>
       <link>https://www.samrainhan.com/posts/2019-12-06-ten-things-of-o365/</link>
       <pubDate>Fri, 06 Dec 2019 23:12:31 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-06-ten-things-of-o365/</guid>
       <description>O365十件事 业界精英的选择 中国SAAS云服务中国市场份额No1 85%全球财富500强企业使用Office365 以实现高校的协作，安全的内容</description>
     </item>
-    
     <item>
       <title>售前信息采集表</title>
       <link>https://www.samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</link>
       <pubDate>Thu, 05 Dec 2019 14:06:06 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/</guid>
       <description>模板文件在此： https://kdocs.cn/l/sC8vl2h34?f=501</description>
     </item>
-    
     <item>
       <title>思维导图示例</title>
       <link>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</link>
       <pubDate>Thu, 28 Nov 2019 14:21:01 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</guid>
       <description>Plantuml源码如下： @startmindmap :思维导图示例 *_ 祖宗 [46] ** 大老爷 [4] *** 大伯 [4] **** 2019 [4] *****_ 4月 [1] *****_ 5月 [2] *****_ 6月 [1] ** 二老爷 [42] *** 二伯 [9] *** 三伯 [33] **** 2018 [1] **** 2019 [32] *****_ 3</description>
     </item>
-    
     <item>
       <title>甘特图范例</title>
       <link>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</link>
       <pubDate>Thu, 28 Nov 2019 13:59:13 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/</guid>
       <description>Plantuml源码如下： @startgantt 甘特图范例 saturday are closed sunday are closed Project starts the 2019/08/19 -- 分析设计阶段 -- [需求分析] as [t1] on {李寻欢} lasts 2 days [需求评审] on {周芷若} happens at [t1]&amp;#39;s end</description>
     </item>
-    
     <item>
       <title>管理岗基本任务</title>
       <link>https://www.samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</link>
       <pubDate>Thu, 28 Nov 2019 13:43:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-28-basic-tasks-of-management-role/</guid>
       <description>Plantuml源码如下： @startmindmap 管理岗基本任务 title 管理岗基本任务 caption 2019-08-30 10:42:07 ～2019-11-28 13:46:33 header 韩雨 endheader center footer 第1页/共1页 legend top 这周的任务完成情况怎么</description>
     </item>
-    
     <item>
       <title>指导新员工</title>
       <link>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</link>
       <pubDate>Wed, 27 Nov 2019 22:29:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-27-mentoring-new-employees/</guid>
       <description>Plantuml源码在此： @startmindmap 指导新员工 + 指导新员工 ++ 1.感谢领导信任 ++ 2.新 +++ 社招 ++++ 老司机 ++++ 菜鸟 +++ 实习生 ++++ 一张白纸 ++ 3.员工 +++ 融入大家庭 ++++ 指</description>
     </item>
-    
     <item>
       <title>阶段总结模板</title>
       <link>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</link>
       <pubDate>Tue, 26 Nov 2019 13:32:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-26-phase-summary-template/</guid>
       <description>&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD Plantuml源码在此： ======= plantuml源码如下： 6eed3a3cfcf93ef8b816677877b8fd431030dd9d @startmindmap 阶段总结模板 title 阶段总结模板 caption 2019-08-28 13:45:44 header 韩雨 endheader center footer 第1页/共1页 legend top 适用于短期项目或</description>
     </item>
-    
     <item>
       <title>团队成熟度模型</title>
       <link>https://www.samrainhan.com/posts/2019-11-25-team-maturity-model/</link>
       <pubDate>Mon, 25 Nov 2019 19:04:07 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-11-25-team-maturity-model/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>文档全生命周期管理</title>
       <link>https://www.samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</link>
       <pubDate>Tue, 09 Jul 2019 15:37:45 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</guid>
       <description>文档生命周期：文件从产生直至因丧失作用而被销毁或者因具有长远历史价值而被档案馆永久保存的整体运动过程。</description>
     </item>
-    
     <item>
       <title>WPS帮助政府数字化转型</title>
       <link>https://www.samrainhan.com/posts/2019-07-01-government-information-solution-with-wps/</link>
       <pubDate>Mon, 01 Jul 2019 10:24:44 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-07-01-government-information-solution-with-wps/</guid>
       <description>不承担社会责任 不环保 计算使用WPS节省的资源 不参与慈善公益活动 向慈善公益组织捐赠WPS 不保证产品质量安全 通过各种国家和国际认证 获得多个知识产</description>
     </item>
-    
     <item>
       <title>政务信息化</title>
       <link>https://www.samrainhan.com/posts/2019-06-30-government-digital-transformation/</link>
       <pubDate>Sun, 30 Jun 2019 16:30:41 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-30-government-digital-transformation/</guid>
       <description>社会责任 不环保 计算使用WPS节省的资源 不参与慈善公益活动 向慈善公益组织捐赠WPS 不保证产品质量安全 通过各种国家和国际认证 获得多个知识产权证明</description>
     </item>
-    
     <item>
       <title>怎么和外包服务供应商交流</title>
       <link>https://www.samrainhan.com/posts/2019-06-27-how-to-communicate-with-outsourcing-service-providers/</link>
       <pubDate>Thu, 27 Jun 2019 22:53:16 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-27-how-to-communicate-with-outsourcing-service-providers/</guid>
       <description>Why 建立联系 互相了解 探讨如何互赢 What 了解对方产品和服务 介绍我方产品和服务 确定下一步计划 Who 我方 对方 where 双方都适合的地点 How 提问 对方产品的功能和特点是什</description>
     </item>
-    
     <item>
       <title>为什么企业要使用WPS&#43;</title>
       <link>https://www.samrainhan.com/posts/2019-06-24-why-do-the-company-use-wps&#43;/</link>
       <pubDate>Mon, 24 Jun 2019 14:10:09 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-24-why-do-the-company-use-wps&#43;/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Why We Use Office</title>
       <link>https://www.samrainhan.com/posts/2019-06-22-why-we-use-office/</link>
       <pubDate>Sat, 22 Jun 2019 02:02:54 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-22-why-we-use-office/</guid>
       <description>Why we use office Why企业使用wps或ms office 中小企业的交流和协作现在都在慢慢从mail转向IM，比如企业微信和钉钉，于是除了邮件外，WPS还必须和I</description>
     </item>
-    
     <item>
       <title>NFS的缺点</title>
       <link>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</link>
       <pubDate>Thu, 20 Jun 2019 08:01:37 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</guid>
       <description>1. 单点故障，如果nfs server宕机，所有客户端无法连接 2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差） 3.</description>
     </item>
-    
     <item>
       <title>WPS产品矩阵</title>
       <link>https://www.samrainhan.com/posts/2019-06-18-matrix-of-wps/</link>
       <pubDate>Tue, 18 Jun 2019 06:37:10 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-18-matrix-of-wps/</guid>
       <description>Package App 有否单独客户端 Windows Linux Mac IOS Android H5 服务可否私有化 Office WPS Office [x] [x] [x] [x] [x] [x] [x] Office WPS PDF [x] [x] [x] [x] [x] Office WPS写得 [x] Office WPS秀堂 [x] Office WPS便签 [x]office [x]office [x]office [x] 文档管理 云文</description>
     </item>
-    
     <item>
       <title>手工添加WPS序列号</title>
       <link>https://www.samrainhan.com/posts/2019-06-15-add-wps-license-num-manually/</link>
       <pubDate>Sat, 15 Jun 2019 11:41:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-15-add-wps-license-num-manually/</guid>
       <description>1. 确认序列号 2. win7中左下角开始-程序-附件-WPS office 专业增强版-配置工具 3. 点击“配置工具”-高级-产品管理中心-添加-输入序列号信息-确</description>
     </item>
-    
     <item>
       <title>售前检查清单</title>
       <link>https://www.samrainhan.com/posts/2019-06-13-list-of-presales/</link>
       <pubDate>Thu, 13 Jun 2019 23:59:18 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-13-list-of-presales/</guid>
       <description>名称 数量 用途 笔记本电脑(带好电源) 1 主要做实际环境演示效果 视频转换头 1 根据电脑的接口，可以是VGA转hdmi，或者hdmi转VGA，或者dp</description>
     </item>
-    
     <item>
       <title>服务商认证流程</title>
       <link>https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/</link>
       <pubDate>Wed, 12 Jun 2019 22:31:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/</guid>
       <description>@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通</description>
     </item>
-    
     <item>
       <title>展会材料清单</title>
       <link>https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/</link>
       <pubDate>Tue, 11 Jun 2019 23:35:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/</guid>
       <description>桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*</description>
     </item>
-    
     <item>
       <title>给tempdb加2个文件做缓存</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</link>
       <pubDate>Wed, 12 Sep 2018 20:23:16 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</guid>
       <description>sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO</description>
     </item>
-    
     <item>
       <title>如何找到没有聚集索引的表</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</link>
       <pubDate>Wed, 12 Sep 2018 19:47:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</guid>
       <description>sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = &#39;USER_TABLE&#39; AND i.type_desc = &#39;HEAP&#39; ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/</description>
     </item>
-    
     <item>
       <title>持续实施成熟度模型</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</link>
       <pubDate>Wed, 12 Sep 2018 17:59:56 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>怎样生成唯一ID</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</link>
       <pubDate>Wed, 12 Sep 2018 10:05:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</guid>
       <description>1. 数据库自增长序列或字段 最常见的方式。利用数据库，全数据库唯一。 优点： 简单，代码方便，性能可以接受。 数字ID天然排序，对分页或者需要排序的结</description>
     </item>
-    
     <item>
       <title>在Emacs中按照黄金分割比例调整屏幕</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</link>
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
       <description>after install golden ratio package,let&amp;rsquo;s add it: (use-package golden-ratio :ensure t :diminish golden-ratio-mode :init (golden-ratio-mode 1))</description>
     </item>
-    
     <item>
       <title>Bosun go编写的跨平台监控系统</title>
       <link>https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/</link>
       <pubDate>Wed, 12 Sep 2018 09:46:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/</guid>
       <description>http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!</description>
     </item>
-    
     <item>
       <title>递归查询某个目录下的某种文件并输出为全路径文件名</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</link>
       <pubDate>Tue, 11 Sep 2018 12:16:33 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</guid>
       <description>用管理员权限启动PowerShell，然后执行以下脚本： Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}</description>
     </item>
-    
     <item>
       <title>在rsync时避免同步某些文件</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/</link>
       <pubDate>Tue, 11 Sep 2018 12:05:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/</guid>
       <description>list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude</description>
     </item>
-    
     <item>
       <title>更新SQLServer存储过程的脚本模版</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</link>
       <pubDate>Tue, 11 Sep 2018 11:40:50 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</guid>
       <description>`/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1) DROP PROCEDURE [dbo].[存储过程名]</description>
     </item>
-    
     <item>
       <title>如果用脚本迁移SQLServer数据库</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</link>
       <pubDate>Tue, 11 Sep 2018 11:33:28 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</guid>
       <description>迁移非系统数据库 use master go sp_detach_db &#39;非系统数据库&#39; go use master go sp_attach_db &#39;非系统数据库&#39;,&#39;C:\Sqldata\非系统数据库.mdf&#39;,&#39;C:\Sqldata\</description>
     </item>
-    
     <item>
       <title>产品经理的核心价值是什么</title>
       <link>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</link>
       <pubDate>Tue, 11 Sep 2018 09:59:49 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</guid>
       <description>发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。</description>
     </item>
-    
     <item>
       <title>surface死机自救法</title>
       <link>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</link>
       <pubDate>Mon, 10 Sep 2018 21:07:42 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</guid>
       <description>一般导致Surface无法正常开机有以下的几点原因： Windows更新没有优化到最新版本 不正常关机（电量完全耗尽在充电、强制关机等） 系统性能</description>
     </item>
-    
     <item>
       <title>怎么在PowerShell中启停站点</title>
       <link>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</link>
       <pubDate>Mon, 10 Sep 2018 21:00:21 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</guid>
       <description>启动 start-website -name &amp;quot;&amp;quot; 停止 stop-website -name &amp;quot;&amp;quot;</description>
     </item>
-    
     <item>
       <title>安装Opserver</title>
       <link>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</link>
       <pubDate>Mon, 10 Sep 2018 20:51:30 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</guid>
       <description>1 build报错 需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x</description>
     </item>
-    
     <item>
       <title>清除SqlServer AlwaysOn日志</title>
       <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
       <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</guid>
       <description>--dbName为数据库名 use dbName BACKUP LOG dbName To DISK = N&#39;nul&#39; go dbcc shrinkfile(dbName_log,0, TRUNCATEONLY) go dbcc shrinkdatabase(dbName,0, TRUNCATEONLY) go</description>
     </item>
-    
     <item>
       <title>QQ 微信和WPS在移动端的协作场景</title>
       <link>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</link>
       <pubDate>Fri, 29 Jun 2018 16:58:47 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</guid>
       <description>和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少</description>
     </item>
-    
     <item>
       <title>《国家电子文件管理十三五规划》节选</title>
       <link>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</link>
       <pubDate>Fri, 29 Jun 2018 15:39:46 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-29-national-electronic-document-management-thirteen-five-planning/</guid>
       <description>![《国家电子文件管理十三五规划》节选] (https://dn-samrain.qbox.me/%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86&amp;amp;amp;quot;%E5%8D%81%E4%B8%89%E4%BA%94&amp;amp;amp;quot;%E8%A7%84%E5%88%92.png)</description>
     </item>
-    
     <item>
       <title>Tips of Installing Net Framework 462 in WinServ2012</title>
       <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
       <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
       <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
     </item>
-    
     <item>
       <title>How to Design the Product Site</title>
       <link>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</link>
       <pubDate>Mon, 04 Jun 2018 14:27:55 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</guid>
       <description>左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反</description>
     </item>
-    
     <item>
       <title>2017 Gartner Magic Quadrant for Content Collaboration Platforms</title>
       <link>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</link>
       <pubDate>Sat, 02 Jun 2018 11:30:50 +0800</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</guid>
       <description>本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&amp;amp;ct=170725</description>
     </item>
-    
   </channel>
 </rss>

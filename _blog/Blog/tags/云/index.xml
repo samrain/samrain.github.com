@@ -6,15 +6,14 @@
     <description>Recent content in 云 on sam的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Apr 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samrainhan.com/tags/%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s the Cloud(转)</title>
       <link>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</link>
       <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</guid>
       <description>云计算擅长做什么呢？以下场景都是不错的利好方案： 没有基础技术设施而又需要可伸缩性的创业公司。 地理数据，政务信息之类的数据中心。 桌面办公（邮件</description>
     </item>
-    
   </channel>
 </rss>
