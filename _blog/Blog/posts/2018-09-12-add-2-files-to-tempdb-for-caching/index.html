@@ -16,8 +16,7 @@
 <meta property="article:modified_time" content="2018-09-12T20:23:16+08:00" />
 
 
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="给tempdb加2个文件做缓存"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="给tempdb加2个文件做缓存"/>
 <meta name="twitter:description" content="sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO"/>
 
   
@@ -44,7 +43,7 @@
   
   
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

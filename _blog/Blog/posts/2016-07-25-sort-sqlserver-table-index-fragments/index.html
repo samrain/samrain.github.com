@@ -16,8 +16,7 @@
 <meta property="article:modified_time" content="2016-07-25T00:00:00+00:00" />
 
 
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="整理SqlServer表上索引碎片"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="整理SqlServer表上索引碎片"/>
 <meta name="twitter:description" content="查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id ="/>
 
   
@@ -44,7 +43,7 @@
   
   
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

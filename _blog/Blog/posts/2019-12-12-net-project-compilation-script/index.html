@@ -16,8 +16,7 @@
 <meta property="article:modified_time" content="2019-12-12T11:15:47+08:00" />
 
 
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=".NET项目编译脚本"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content=".NET项目编译脚本"/>
 <meta name="twitter:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo"/>
 
   
@@ -44,7 +43,7 @@
   
   
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
