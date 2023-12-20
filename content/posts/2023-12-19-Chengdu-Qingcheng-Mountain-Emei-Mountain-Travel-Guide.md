@@ -5,27 +5,21 @@ tags = ["旅游","成都","青城山","三星堆","峨眉山","乐山","攻略",
 categories = ["family"]
 draft = false
 +++
-#rework 
 
->
+
+```
 📎Tips
 
->1. 上海>绵阳>都江堰>青城山
+1. 上海>绵阳>都江堰>青城山
+2. 青城山>成都
+3. 成都
+4. 成都>三星堆>成都
+5. 成都>峨眉山
+6. 峨眉山
+7. 峨眉山>乐山>成都
+8. 成都>上海
+```
 
->1. 青城山>成都
-
->1. 成都
-
->1. 成都>三星堆>成都
-
->1. 成都>峨眉山
-
->1. 峨眉山
-
->1. 峨眉山>乐山>成都
-
->1. 成都>上海
->
 # 必需品
 
 - 所有人身份证，包括小朋友
@@ -44,20 +38,19 @@ draft = false
 - 汽车手机支架 * 1
 - 充电宝 * 2
 
-# **📝****具体行程**
+# 📝具体行程
 
 ### 第一天 上海>绵阳>都江堰>青城山
 
 1. FM9409 浦东T1>绵阳T1 (08月09日 周三 08:30 - 11:30)
 
 1. 在机场租车，到「江油刘留肥肠(绵阳店) 」吃午饭（距离机场7.6公里）
+- 【一嗨出行】您已成功预订了丰田亚洲狮，订单号：1211536867。取车时间：08/09 12:30，地址：南郊机场送车点。门店指引： https://dwz.cn/d6OKf9OJ 。门店电话：0816-2277922。24小时客服热线：400-888-6608。  
+- 带身份证+驾照取车，下了飞机拿了行李打电话给0816-2277922，会开车送到机场。
 
-> 【一嗨出行】您已成功预订了丰田亚洲狮，订单号：1211536867。取车时间：08/09 12:30，地址：南郊机场送车点。门店指引： https://dwz.cn/d6OKf9OJ 。门店电话：0816-2277922。24小时客服热线：400-888-6608。  
-> 带身份证+驾照取车，下了飞机拿了行李打电话给0816-2277922，会开车送到机场。
+3. 驱车前往都江堰秦堰楼（133公里，1小时44分），然后沿着（秦堰楼→二王庙→安澜索桥（夫妻桥）→鱼嘴，飞沙堰→宝瓶口→离堆→伏龙观-南桥-西街）游玩，打卡茶马旧市
 
-1. 驱车前往都江堰秦堰楼（133公里，1小时44分），然后沿着（秦堰楼→二王庙→安澜索桥（夫妻桥）→鱼嘴，飞沙堰→宝瓶口→离堆→伏龙观-南桥-西街）游玩，打卡茶马旧市
-
-> 还有另外一种停车游玩攻略：车停水街附近，在水街旁边的幸福大道上直接坐1路公交车到二王庙（或景区北门）站下，下车路对面就是秦堰楼了，而且景区入口就在旁边（秦堰楼还没有进景区）。从都江堰景区正门出来到南桥，下桥就是南街，南街走一半左边就是西街，逛完西街回到南街继续走就到了幸福路，左转是玉垒山、城隍庙，旁边还有个文庙。逛完回到幸福路，然后向玉垒山的反方向走就到了宣化门，对面就是水街，你出发的地方。
+- 还有另外一种停车游玩攻略：车停水街附近，在水街旁边的幸福大道上直接坐1路公交车到二王庙（或景区北门）站下，下车路对面就是秦堰楼了，而且景区入口就在旁边（秦堰楼还没有进景区）。从都江堰景区正门出来到南桥，下桥就是南街，南街走一半左边就是西街，逛完西街回到南街继续走就到了幸福路，左转是玉垒山、城隍庙，旁边还有个文庙。逛完回到幸福路，然后向玉垒山的反方向走就到了宣化门，对面就是水街，你出发的地方。
 
 ![](https://cloud-pic.wpsgo.com/WEVMM01VS1IxaXd0QlFOWHpzUHFwZWo4M3IvNzFCWE81WUh6ZHVnNkRVRjB5cFBHaTJyWjh2aDBPREQwRzE1cUtzbFI4KzBsbnNlcERRd1o5NEhrYTlCdFhSSGViUTMvZmwyZEpnRmdvY3grZEFyR00vNE91ZG93VTR2M0VXOUVvcWxLdUhVMlZEdjhxVkJQTVFNek1IcUQxTVFINlVDL3djVXVLT1crSFJiVjd0eU1tNTU3b3M2c2hDYnpiMDA2dkhwVDRVdGtaZVBjMm52WE5HbGNDdjVrRlYwKzc5NDlSTUNhQ2JPNFRHQ1dpUWFKVCtEOTdmcjFRRnZnejRSRU1tTk9aRlp2RDJHcFlQcFRQNmxtMGc9PQ==/attach/object/XAELWBAAP4?)
 
@@ -84,17 +77,11 @@ draft = false
 
 1. 在青城山吃午饭
 
-青城山美食：
+青城山美食：白果炖鸡+青城泡菜+老腊肉
 
-• 白果炖鸡
+2. 开回成都斯维登精品酒店公寓（成都火车站西广场店）（94公里，1小时14分钟）
 
-• 青城泡菜
-
-• 老腊肉
-
-1. 开回成都斯维登精品酒店公寓（成都火车站西广场店）（94公里，1小时14分钟）
-
-1. 成都晚饭（可选择附近的贡香盐帮菜，走得动就去更远的地方比如「东门市井」晚饭）
+3. 成都晚饭（可选择附近的贡香盐帮菜，走得动就去更远的地方比如「东门市井」晚饭）
 
 ### 第三天 成都
 
@@ -178,11 +165,10 @@ draft = false
 
 1. 11:00 回到久别的家
 
-# **💰****旅游费用支出表**
+# 💰旅游费用支出表
 
-|   |   |   |   |   |
-|---|---|---|---|---|
 |**类别**|**事项**|**单价/规格**|**支出（元）**|**其他**|
+|---|---|---|---|---|
 |交通||8:05-11:15 浦东机场T1飞到绵阳南郊机场T1 FM9409|||
 |交通||6:55-9:35 东航MU5404 双流机场T2-浦东机场T1|||
 |交通|租车|- 一嗨租车<br>- 丰田亚洲狮（无级变速/2.0L/三厢/5座）<br>- 保险51元/天<br>- 租车190元/天|596|绵阳取车，成都还车，2天|
@@ -203,19 +189,18 @@ draft = false
 |景区交通|青城山前山白云索道|上行35元/人，下行30元/人，往返60元/人|||
 
 
-# 热门景点（高亮推荐）
+# 热门景点
 
-成都介绍：[https://v.qq.com/x/cover/mzc0020041w1i6n/b0034ioiphx.html](https://v.qq.com/x/cover/mzc0020041w1i6n/b0034ioiphx.html)
+[成都介绍](https://v.qq.com/x/cover/mzc0020041w1i6n/b0034ioiphx.html)
 
-峨眉山介绍 [https://tv.cctv.com/yskd/special/em/index.shtml](https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxcheckurl?requrl=http%3A%2F%2Fhttps%3A%2F%2Ftv.cctv.com%2Fyskd%2Fspecial%2Fem%2Findex.shtml&skey=%40crypt_d6be69f6_ea824ad47cede77275effbfa2baef89d&deviceid=e415456955323574&pass_ticket=3%252BEpu2FOA%252FGK85rC1f83sEkwrHlGP1Dk%252Bws1csmDDVclpbVyrFuFUlnzGYb0M8Z7&opcode=2&scene=1&username=@3e7d59b6aed857d2aee36289bcac7eec06a644b675b5c6b5c0bbddc360330026)
+ [峨眉山介绍](https://tv.cctv.com/yskd/special/em/index.shtml)
 
-【人文自然纪录片《峨眉山》全集】 [https://www.bilibili.com/video/BV1th411Z7sD/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f](https://www.bilibili.com/video/BV1th411Z7sD/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
+ [人文自然纪录片《峨眉山》全集](https://www.bilibili.com/video/BV1th411Z7sD/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
 
-【CCTV10【4K超清】大型考古纪录片《探秘三星堆》全10集】 [https://www.bilibili.com/video/BV1TY411E7md/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f](https://www.bilibili.com/video/BV1TY411E7md/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
+ [CCTV10【4K超清】大型考古纪录片《探秘三星堆》全10集](https://www.bilibili.com/video/BV1TY411E7md/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
 
-|   |   |   |   |
-|---|---|---|---|
 |景点|门票|交通|营业时间|
+|---|---|---|---|
 |大熊猫研究繁育基地|55|3号线|7:30-18:00|
 |成都博物馆|免|1号线|9:00-20:30 周一休|
 |锦里|免|3号线|全天|
@@ -266,51 +251,17 @@ draft = false
 
 推荐美食
 
-川菜：
+川菜：永乐饭店、温鸭子、大蓉和
 
-永乐饭店
+串串：马路边边、厕所串串、钢管厂五区小郡肝串串香、屋头串串
 
-温鸭子
+火锅：大院河.鲜鱼庄、蜀大侠火锅、孙婆婆美蛙兔火锅
 
-大蓉和
+烧烤：何师烧烤、石棉烧烤、飞火令西昌火盆烧烤、把把烧
 
-串串：
+小吃一条街：建设路小吃一条街、小酒馆——贰麻酒店、乐山鲜知味钵钵鸡（草堂北路店）
 
-马路边边
-
-厕所串串
-
-钢管厂五区小郡肝串串香
-
-屋头串串
-
-火锅：
-
-大院河.鲜鱼庄
-
-蜀大侠火锅
-
-孙婆婆美蛙兔火锅
-
-烧烤：
-
-何师烧烤
-
-石棉烧烤
-
-飞火令西昌火盆烧烤
-
-把把烧
-
-小吃一条街：
-
-建设路小吃一条街
-
-小酒馆——贰麻酒店
-
-乐山鲜知味钵钵鸡（草堂北路店）
-
-# **🔺****注意事项**
+# 注意事项
 
 - 提前在 三星堆博物馆微信公众号（只能买后7天的门票）或官网预约参观门票。60岁（含）以上老人凭本人身份证原件进馆，无需换票。
 - 成都博物馆免费，但是需要在公众号上预约最近5天门票，非常火爆
