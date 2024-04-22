@@ -1,0 +1,8 @@
+**/*.min.css
+**/vendor/
+**/_vendor/
+**/libs/
+public/
+
+blox-bootstrap/assets/scss/main.scss
+blox-bootstrap/assets/css/reveal_custom.css

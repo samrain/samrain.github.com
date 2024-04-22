@@ -1,0 +1,21 @@
+{{ if .Params.social }}
+<div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+  {{ range $links := .Params.social }}
+    {{ $link := .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\" rel=\"me noopener noreferrer\"" }}
+    {{ end }}
+    <a
+      class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="{{ $link | safeURL }}"
+      {{ $target | safeHTMLAttr }}
+      aria-label="{{ .icon | title }}"
+    >{{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1em;\"") }}</a>
+  {{ end }}
+</div>
+{{ end }}

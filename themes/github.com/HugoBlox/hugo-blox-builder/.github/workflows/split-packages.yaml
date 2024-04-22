@@ -1,0 +1,55 @@
+name: 'Package Splitter'
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+jobs:
+  packages_split:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # define package to repository map
+        package:
+          - local_path: 'academic-cv'
+            split_repository: 'theme-academic-cv'
+          - local_path: 'markdown-slides'
+            split_repository: 'theme-markdown-slides'
+          - local_path: 'blog'
+            split_repository: 'theme-blog'
+          - local_path: 'documentation'
+            split_repository: 'theme-documentation'
+          - local_path: 'portfolio'
+            split_repository: 'theme-portfolio'
+          - local_path: 'course'
+            split_repository: 'theme-online-course'
+          - local_path: 'link-in-bio'
+            split_repository: 'theme-link-in-bio'
+          - local_path: 'research-group'
+            split_repository: 'theme-research-group'
+          - local_path: 'second-brain'
+            split_repository: 'theme-second-brain'
+
+    steps:
+      -   uses: actions/checkout@v3
+
+      # step if no tag is pushed
+      - if: "!startsWith(github.ref, 'refs/tags/')"
+        uses: "symplify/monorepo-split-github-action@v2.3.0"
+        with:
+          # ↓ split "packages/<package-name><package-name>" directory
+          package_directory: 'starters/${{ matrix.package.local_path }}'
+
+          # ↓ into https://github.com/wowchemy/<package-name> repository
+          repository_organization: 'HugoBlox'
+          repository_name: '${{ matrix.package.split_repository }}'
+
+          # ↓ the user signed under the split commit
+          user_name: "Splitter Bot"
+          user_email: "no.reply@hugoblox.com"
