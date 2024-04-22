@@ -123,7 +123,6 @@ category = "categories"
 series = "series"
 archive = "archives"
 
-taxonomies = []
 markup:
   _merge: deep
 security:
