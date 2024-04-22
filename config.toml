@@ -123,6 +123,20 @@ category = "categories"
 series = "series"
 archive = "archives"
 
+taxonomies: []
+markup:
+  _merge: deep
+security:
+  _merge: deep
+params:
+  header:
+    navbar:
+      enable: false
+  extensions:
+    cms:
+      local_backend: true
+      publish_mode:
+
 [permalinks]
   post = "/:year/:month/:title/"
   
