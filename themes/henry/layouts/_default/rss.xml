@@ -1,0 +1,76 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}
+    {{ $pctx = .Site }}
+{{- end -}}
+
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+    {{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+    {{- $pages = $pctx.Pages -}}
+{{- end -}}
+
+{{- $pages := where $pages "Section" "not in" site.Params.invisibleSections -}}
+{{- $pages := where $pages "Params.noindex" "!=" true -}}
+
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+    {{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+{{- $title := .Site.Title -}}
+{{- if ne .Title  .Site.Title -}}
+    {{- if or (eq .Title  "Blogs") (eq .Title "Bs") -}}
+        {{- $title = (print .Site.Title " - Blog posts") -}}
+    {{- else -}}
+        {{- $title = (print .Site.Title " - " .Title)  -}}
+    {{- end -}}
+{{- end -}}
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>{{ $title }}</title>
+        <link>{{ .Permalink }}</link>
+        <description>Recent content - {{ $title }}</description>
+        <generator>Hugo -- gohugo.io</generator>
+        {{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
+        {{ with .Site.Author.email }}<managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}
+        {{ with .Site.Author.email }}<webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}
+        {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
+        {{/* most recent time the content of channel was modified */}}
+        {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</lastBuildDate>{{ end }}
+        {{ if (fileExists (printf "%s/%s" "static" .Site.Params.avatar)) }}
+            <image>
+                <url>{{.Site.BaseURL}}/{{.Site.Params.avatar}}</url>
+                <title>{{ $title }}</title>
+                <link>{{ .Permalink }}</link>
+            </image>
+        {{ else if (fileExists "static/images/favicon.png") }}
+            <image>
+                <url>{{.Site.BaseURL}}/images/favicon.png</url>
+                <title>{{ $title }}</title>
+                <link>{{ .Permalink }}</link>
+            </image>
+        {{ end }}
+
+        {{- with .OutputFormats.Get "RSS" -}}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+        {{- end -}}
+
+        {{ range $pages }}
+            <item>
+                <title>{{ .Title }}</title>
+                <link>{{ .Permalink }}</link>
+                <description>
+                    {{ .Content | html }}
+                </description>
+                {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+                <guid>{{ .Permalink }}</guid>
+                {{/* original publication date for channel or item */}}
+                <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
+            </item>
+        {{ end }}
+    </channel>
+</rss>

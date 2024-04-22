@@ -1,0 +1,61 @@
+{{ $title := .Site.Title }}
+{{ with .Params.title }}
+    {{ $title = (printf "%v · %v" $.Params.title $title) }}
+{{ end }}
+<title>{{ $title }}</title>
+
+{{ with .Site.Author.name }}
+    <meta name="author" content="{{ . }}">
+{{ end }}
+
+{{ with .Site.Params.Summary }}
+    <meta name="description" content="{{ . }}"/>
+{{ end }}
+
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex" />
+{{ else if .Params.noarchive }}
+<meta name="robots" content="noarchive" />
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="{{ .Site.Params.twitter }}"/>
+<meta name="twitter:title" content="{{ $title }}"/>
+<meta name="twitter:creator" content="{{ .Site.Params.twitter }}"/>
+<meta name="twitter:description" content="{{ if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.Summary }}{{ end }}"/>
+<meta property="twitter:url" content="{{ .Permalink }}">
+{{ $banner := .Params.banner }}
+{{ if $banner }}
+    {{ if not (hasPrefix $banner "http") }}
+        {{ if  (hasPrefix $banner "/") }}
+            {{/*  image in static directory   */}}
+            {{ $banner = (printf "%v%v" .Site.BaseURL $banner) }}
+        {{ else }}
+            {{/*  image in content/post directory   */}}
+            {{ $banner = (printf "%v%v" .Permalink $banner) }}
+
+        {{ end }}
+    {{ end }}
+{{ else if (fileExists "static/images/avatar.png") }}
+    {{ $banner = (printf "%v/%v" .Site.BaseURL "images/avatar.png") }}
+{{ end }}
+
+<!-- must be at least 120x120px -->
+{{ with $banner }}
+<meta name="twitter:image" content="{{ $banner }}">
+<meta property="og:image" content="{{ $banner}}">
+{{ end }}
+
+<!-- OG data -->
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.Summary }}{{ end }}"/>
+
+{{ with .Permalink }}<meta property="og:url" content="{{ . }}">{{ end }}
+<meta property="og:locale" content="{{ .Site.LanguageCode }}">
+<meta property="og:type" content="{{ if eq .Kind "page" }}article{{ else }}website{{ end }}"/>
+
+<link rel="canonical" href="{{ if .Params.canonicalUrl }}{{ .Params.canonicalUrl }}{{ else if .Permalink }}{{ .Permalink }}{{ end }}">
+
+<!-- <link rel="manifest" href="/my.webmanifest">-->

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}" class="no-js">
+{{- partial "head.html" . -}}
+<body>
+    {{/*  {{- partial "debug_hugo.html" . -}}  */}}
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    {{- block "content" . }}{{- end }}
+    </div>
+
+    <footer id="site-footer">
+        {{- partial "footer.html" . -}}
+    </footer>
+
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+    {{- partial "script.html" . -}}
+</body>
+</html>

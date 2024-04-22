@@ -1,0 +1,27 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    {{- partial "styles.html" . -}}
+
+    {{- partial "seo.html" . -}}
+
+    {{ if (fileExists "static/images/favicon.png") }}
+        <link rel="icon" href="/images/favicon.png" type="image/png">
+        <link rel="apple-touch-icon" href="/images/favicon.png">
+    {{ end }}
+    {{ if (fileExists "static/images/favicon.ico") }}
+        <link rel="icon" href="/images/favicon.ico">
+    {{ end }}
+
+    <meta name="format-detection" content="telephone=no">
+
+    {{- partial "head-additions.html" . -}}
+
+</head>

@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+//#region Theme Variables
+
+$font-size-regular: 20px;
+
+$font-size-xlarge: $font-size-regular * 2;
+$font-size-large: $font-size-regular * 1.5;
+//regular
+$font-size-medium: $font-size-regular * 0.875;
+$font-size-small: $font-size-regular * 0.75;
+
+$base-line-height: 1.5;
+
+$spacing-unit: 24px;
+$spacing-micro-unit: 6px;
+$spacing-content-sides: $spacing-unit;
+
+$mobile-width: 375px;
+$tablet-width: 600px;
+$screen-width: 740px;
+
+$font-family-0: "ibm-plex-serif", "IBM Plex Serif", ui-serif, Georgia, "Times New Roman", serif;            // base font
+$font-family-1: "ibm-plex-serif", "IBM Plex Serif", "ff-tisa-web-pro", Georgia, "Times New Roman", serif;   // header 2
+$font-family-2: "ibm-plex-sans", "IBM Plex Sans", ui-sans-serif, sans-serif;                                // header 1
+$font-family-3: ui-monospace, "SF Mono", SFMono-Regular, "ibm-plex-mono", "IBM Plex Mono", "Consolas",      // monospace
+monospace;
+
+// remember to update head-additions with the same theme
+$background-color: hsl(211.6, 18.1%, 20.6%);
+
+$color-header-index: lighten($background-color, 10%);
+$color-header: lighten($background-color, 60%);
+$color-text: hsl(0, 0%, 73.3%);
+$color-text2: hsl(0, 0%, 96.1%);
+$color-textunderline: hsl(0, 0%, 47.5%);
+$color-link: hsl(4.9, 60.4%, 60.4%); // ck orange : used in most hovers
+$color-link2: $color-text2;
+
+$color-divider: $color-textunderline;
+$color-blockquote: $color-divider;
+$color-blockquote-border: $color-divider;
+$color-code: hsl(34.3, 42.9%, 80.8%);
+
+//#endregion
+
+//#region Mixins
+
+@mixin media-query-small-screen() {
+  @media only screen and (max-width: $tablet-width) {
+      @content;
+  }
+}
+
+@mixin media-query-laptop() {
+  @media only screen and (min-width: $tablet-width + 1px) {
+      @content;
+  }
+}
+
+@mixin font-size-responsive($size: $font-size-regular, $size-small: $font-size-medium) {
+  font-size: $size;
+  @include media-query-small-screen() {
+      font-size: $size-small;
+  }
+}
+
+@mixin opacity($opacity: 75) {
+  filter: alpha(opacity=$opacity);
+  -moz-opacity: ($opacity * 0.01);
+  opacity: ($opacity * 0.01);
+}
+
+@mixin css-transition-opacity() {
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+   -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+       transition: opacity 1s ease-in;
+}
+
+// Using media queries with like this:
+// @include media-query-mobile() {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+//#endregion
+
+//#region Reset some basic elements
+// inspiration: https://www.joshwcomeau.com/css/custom-css-reset/
+
+// Use a more-intuitive box-sizing model.
+// percentages will resolve based on the "border-box"
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%; // for accessibility
+}
+
+body {
+  // Typographic tweaks!
+  // * Add accessible line-height
+  // * Improve text rendering
+
+  line-height: $base-line-height;
+  // -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  // Allow percentage-based heights in the application
+  height: 100%;
+}
+
+// Improve media defaults
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+// Remove built-in form typography styles
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+//   Avoid text overflows
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+//#endregion
