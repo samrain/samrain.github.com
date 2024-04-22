@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cpufreq on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/cpufreq/</link>
-    <description>Recent content in cpufreq on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/cpufreq/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Parallel介绍</title>
-      <link>https://www.samrainhan.com/posts/2015-02-03-parallel-overview/</link>
-      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-03-parallel-overview/</guid>
-      <description>What FSF项目，GNU Parallel，翻译为平行 http://www.gnu.org/software/parallel/ Why 可以替代xargs How 不仅可以在本机上平行处理任务，而且还能分散到其他联网电脑上处理。 ##</description>
-    </item>
-    <item>
-      <title>使用cpufreq降低CPU功耗</title>
-      <link>https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/</link>
-      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/</guid>
-      <description>##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Cpufreq</title>
+        <link>https://www.samrainhan.com/tags/cpufreq/</link>
+        <description>Recent content - sam的小窝 - Cpufreq</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 03 Feb 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/cpufreq/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

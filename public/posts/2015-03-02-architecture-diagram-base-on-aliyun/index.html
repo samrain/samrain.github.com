@@ -1,235 +1,174 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>基于阿里云搭建服务平台架构图 - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2015-03-02-architecture-diagram-base-on-aliyun/">基于阿里云搭建服务平台架构图</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2015-03-02" class="no-wrap"
-                                    title="Created at 2015/03/02">
-                                    2015-03-02</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2015-03-02" class="no-wrap"
-                                    title="Modifyed  at 2015/03/02">
-                                    2015-03-02</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>基于阿里云搭建服务平台架构图 · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                1059 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
-<p>基于阿里云服务平台实施的，如下所示：</p>
 
-<p><img src="http://samrain.qiniudn.com/基于阿里云搭建服务平台架构图.png" alt="基于阿里云搭建服务平台架构图" /></p>
 
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="基于阿里云搭建服务平台架构图 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="基于阿里云服务平台实施的，如下所示： 阿里云服务 采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2015-03-02-architecture-diagram-base-on-aliyun/">
+
+
+
+
+
+
+
+<meta property="og:title" content="基于阿里云搭建服务平台架构图 · sam的小窝">
+<meta property="og:description" content="基于阿里云服务平台实施的，如下所示： 阿里云服务 采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2015-03-02-architecture-diagram-base-on-aliyun/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2015-03-02-architecture-diagram-base-on-aliyun/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                基于阿里云搭建服务平台架构图
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p>基于阿里云服务平台实施的，如下所示：</p>
+<p><img src="http://samrain.qiniudn.com/%E5%9F%BA%E4%BA%8E%E9%98%BF%E9%87%8C%E4%BA%91%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0%E6%9E%B6%E6%9E%84%E5%9B%BE.png" alt="基于阿里云搭建服务平台架构图"></p>
 <h1 id="阿里云服务">阿里云服务</h1>
-
 <ol>
 <li>采用SLB（Server Load Balance，负载均衡）作为Web集群访问入口，负责为Web端的多台服务器进行流量分发。SLB是基于集群建设的，并且可以随时变配，按量付费。它不仅为我们实现了成熟的负载均衡方案，其稳定性与灵活性也为Web集群提供了更多可能。</li>
 <li>后端配置多台ECS（Elastic Compute Service，云服务器）实例，将主要应用服务都部署在ECS上。除了可弹性扩容这一特性，ECS提供的安全防护和快照备份为服务器安全和容灾提供了非常成熟的解决方案，这恰恰是我们这种业务型创业团队积累相对最薄弱的方面。另外，ECS多线接入骨干网络能保证网络的稳定和性能，使得任何网络的用户访问应用服务都非常顺畅。</li>
 <li>DB集群由多台RDS（Relational Database Service，关系型数据库服务）实例组成。RDS是云数据库，简单易用，使用方法与自行部署的数据库完全一样。其成熟的双机热备与底层资源隔离，保证了我们这两年来数据库的平稳运行。另外，强大的iDB Cloud控制台、专业的DBA团队支持，为我们监控数据库运行状况、定位和解决数据库问题，提供了非常多的建议和帮助。</li>
 <li>集群之间的共享资源统一存放在OCS（Open Cache Service，开放缓存服务）中。我们用OCS来存放数据路由和实时性不高的业务数据。缓存作为我们架构性能中非常重要的一个环节，在承受了来自整个集群各方面压力的同时，还要保证响应稳定高速。</li>
 </ol>
-
 <h1 id="优势">优势</h1>
-
 <ol>
-<li><p>便利的服务器弹性升级功能，可随时应付像“双十一”这样的大促。而通过使用传统IDC托管模式，物理机的维护、升级以及升级后的数据迁移都是比较头疼的。</p></li>
-
-<li><p>成熟可靠的数据备份与快照、数据库主从分离与同步的底层方案。团队无须承受自己造轮子的代价，可专注于业务开发。</p></li>
-
-<li><p>云计算产品经过检验、值得信赖的安全防护。</p></li>
-
-<li><p>精简了创业团队人员规模。云计算平台具备专业的技术支持与服务，使得团队不再需要数据库和服务器管理员。</p></li>
+<li>
+<p>便利的服务器弹性升级功能，可随时应付像“双十一”这样的大促。而通过使用传统IDC托管模式，物理机的维护、升级以及升级后的数据迁移都是比较头疼的。</p>
+</li>
+<li>
+<p>成熟可靠的数据备份与快照、数据库主从分离与同步的底层方案。团队无须承受自己造轮子的代价，可专注于业务开发。</p>
+</li>
+<li>
+<p>云计算产品经过检验、值得信赖的安全防护。</p>
+</li>
+<li>
+<p>精简了创业团队人员规模。云计算平台具备专业的技术支持与服务，使得团队不再需要数据库和服务器管理员。</p>
+</li>
 </ol>
-
 <h1 id="费用">费用</h1>
-
-<h3 id="总计-2868-2元-年">总计 2868.2元/年</h3>
-
+<h3 id="总计-28682元年">总计 2868.2元/年</h3>
 <ol>
 <li>SLB
-0.02*24*365=175.2元（一个实例一年费用）
-0.96*3*365= 1051.2元（3Mbps一年费用）</li>
+0.02<em>24</em>365=175.2元（一个实例一年费用）
+0.96<em>3</em>365= 1051.2元（3Mbps一年费用）</li>
 <li>ECS</li>
-<li>WEB Serv 32*10+0.3*5*10=320+15=335元（1核512M内存 一年费用 5G数据盘）</li>
-<li>APP Serv 85*10+0.3*5*10=850+15=865元（1核2G内存 一年费用 5G数据盘）</li>
+</ol>
+<ul>
+<li>WEB Serv 32<em>10+0.3</em>5*10=320+15=335元（1核512M内存 一年费用 5G数据盘）</li>
+<li>APP Serv 85<em>10+0.3</em>5*10=850+15=865元（1核2G内存 一年费用 5G数据盘）</li>
+</ul>
+<ol start="3">
 <li>RDS
 MySQL(版本5.1或5.5或5.6) 398元（240M内存 1G数据 一年费用）</li>
 <li>OCS
-0.04*0.125*24*365=43.8元（128MB容量 峰值吞吐量2MB/s 峰值qps2000次/秒）</li>
+0.04<em>0.125</em>24*365=43.8元（128MB容量 峰值吞吐量2MB/s 峰值qps2000次/秒）</li>
 </ol>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Mar 2015</div>
+    
 
 
+    
+    
 
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2014-06-23-both-supply-and-demand/">推动政府网站向供给和需求并重的建站模式转型</a></li>
+            
+            <li><a href="/posts/2014-06-22-icity-dashboard/">iCity仪表盘</a></li>
+            
+            <li><a href="/posts/2014-06-21-urban-process-performance-management-platform/">城市流程绩效管理平台</a></li>
+            
+            <li><a href="/posts/2010-04-01-what-the-cloud/">What&#39;s the Cloud(转)</a></li>
+            
         </ul>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
+    
+
+</div></section>
+
     </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

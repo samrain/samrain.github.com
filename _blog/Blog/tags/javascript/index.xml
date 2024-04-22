@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>javascript on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/javascript/</link>
-    <description>Recent content in javascript on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>JS显示当前电脑的目录</title>
-      <link>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</link>
-      <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>缩减HTML、CSS和JavaScript的大小</title>
-      <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>
-      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</guid>
-      <description>##缩减HTML的大小 使用PageSpeed Insights Chrome扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Javascript</title>
+        <link>https://www.samrainhan.com/tags/javascript/</link>
+        <description>Recent content - sam的小窝 - Javascript</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 29 Jun 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

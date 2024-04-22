@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>禁食 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%A6%81%E9%A3%9F/</link>
-    <description>Recent content in 禁食 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 Sep 2023 23:59:29 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%A6%81%E9%A3%9F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>间歇禁食</title>
-      <link>https://www.samrainhan.com/posts/2023-09-08-intermittent-fasting/</link>
-      <pubDate>Fri, 08 Sep 2023 23:59:29 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-08-intermittent-fasting/</guid>
-      <description>间歇性禁食（IF）是一种在禁食和进食之间循环的进食方式。 它没有指定您应该吃哪些食物，而是指定您什么时候应该吃。在这方面，它不是常规意义上的饮</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 禁食</title>
+        <link>https://www.samrainhan.com/tags/%E7%A6%81%E9%A3%9F/</link>
+        <description>Recent content - sam的小窝 - 禁食</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 08 Sep 2023 23:59:29 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%A6%81%E9%A3%9F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

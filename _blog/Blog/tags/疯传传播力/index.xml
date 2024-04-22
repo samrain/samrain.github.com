@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>疯传,传播力 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%96%AF%E4%BC%A0%E4%BC%A0%E6%92%AD%E5%8A%9B/</link>
-    <description>Recent content in 疯传,传播力 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Mar 2021 14:53:54 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%96%AF%E4%BC%A0%E4%BC%A0%E6%92%AD%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>疯传STEPPS六原则</title>
-      <link>https://www.samrainhan.com/posts/2021-03-30-six-principles-of-stepps/</link>
-      <pubDate>Tue, 30 Mar 2021 14:53:54 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-03-30-six-principles-of-stepps/</guid>
-      <description>疯传STEPPS六原则 传播力的六个原则：产品或创意富含社交货币，能够被诱发并激发情绪，具有公开性和使用价值，然后融合到一个故事中。社交货币、</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 疯传,传播力</title>
+        <link>https://www.samrainhan.com/tags/%E7%96%AF%E4%BC%A0%E4%BC%A0%E6%92%AD%E5%8A%9B/</link>
+        <description>Recent content - sam的小窝 - 疯传,传播力</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 30 Mar 2021 14:53:54 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%96%AF%E4%BC%A0%E4%BC%A0%E6%92%AD%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

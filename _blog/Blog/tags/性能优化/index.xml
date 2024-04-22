@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>性能优化 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
-    <description>Recent content in 性能优化 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>NET性能优化注意事项</title>
-      <link>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</link>
-      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</guid>
-      <description>避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 性能优化</title>
+        <link>https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+        <description>Recent content - sam的小窝 - 性能优化</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 12 May 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

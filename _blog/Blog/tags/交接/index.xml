@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>交接 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BA%A4%E6%8E%A5/</link>
-    <description>Recent content in 交接 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Aug 2022 14:19:56 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A4%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>项目交接</title>
-      <link>https://www.samrainhan.com/posts/2022-08-17-project-handover/</link>
-      <pubDate>Wed, 17 Aug 2022 14:19:56 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-17-project-handover/</guid>
-      <description>项目交接 所有的交接都是上家交给下家,下家就相当于上家的客户 客户第一,按照客户要求干 客户买了产品是要解决问题的.如果真正解决了,那么再买,且品</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 交接</title>
+        <link>https://www.samrainhan.com/tags/%E4%BA%A4%E6%8E%A5/</link>
+        <description>Recent content - sam的小窝 - 交接</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 17 Aug 2022 14:19:56 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A4%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

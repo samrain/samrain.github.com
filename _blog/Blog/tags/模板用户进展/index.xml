@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>模板,用户,进展 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E7%94%A8%E6%88%B7%E8%BF%9B%E5%B1%95/</link>
-    <description>Recent content in 模板,用户,进展 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 26 Jul 2021 22:59:09 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E7%94%A8%E6%88%B7%E8%BF%9B%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>模板-每周用户进展</title>
-      <link>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</link>
-      <pubDate>Mon, 26 Jul 2021 22:59:09 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-07-26-template-of-weekly-user-progress/</guid>
-      <description>1.用户推广概况 用户名 人数 电脑数 MAU 2.上周遗留问题进展 问题简述 Deadline 负责人 进展 是否解决 3.本周进展 目标 Deadline 负责人 是否完成 未完成的原因 4.本周遗留问</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 模板,用户,进展</title>
+        <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E7%94%A8%E6%88%B7%E8%BF%9B%E5%B1%95/</link>
+        <description>Recent content - sam的小窝 - 模板,用户,进展</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 26 Jul 2021 22:59:09 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E7%94%A8%E6%88%B7%E8%BF%9B%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>office on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/office/</link>
-    <description>Recent content in office on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 Jun 2019 02:02:54 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why We Use Office</title>
-      <link>https://www.samrainhan.com/posts/2019-06-22-why-we-use-office/</link>
-      <pubDate>Sat, 22 Jun 2019 02:02:54 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-06-22-why-we-use-office/</guid>
-      <description>Why we use office Why企业使用wps或ms office 中小企业的交流和协作现在都在慢慢从mail转向IM，比如企业微信和钉钉，于是除了邮件外，WPS还必须和I</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Office</title>
+        <link>https://www.samrainhan.com/tags/office/</link>
+        <description>Recent content - sam的小窝 - Office</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 22 Jun 2019 02:02:54 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

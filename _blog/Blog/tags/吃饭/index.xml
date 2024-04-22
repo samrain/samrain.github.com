@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>吃饭 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%90%83%E9%A5%AD/</link>
-    <description>Recent content in 吃饭 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%90%83%E9%A5%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>饭局几要素</title>
-      <link>https://www.samrainhan.com/posts/2015-07-12-some-elements-of-dinner/</link>
-      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-12-some-elements-of-dinner/</guid>
-      <description>准备 倾听 服务 破冷 尊重 段子</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 吃饭</title>
+        <link>https://www.samrainhan.com/tags/%E5%90%83%E9%A5%AD/</link>
+        <description>Recent content - sam的小窝 - 吃饭</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 12 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%90%83%E9%A5%AD/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

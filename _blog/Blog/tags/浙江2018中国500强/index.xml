@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>浙江,2018,中国500强 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%B5%99%E6%B1%9F2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/</link>
-    <description>Recent content in 浙江,2018,中国500强 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Dec 2020 11:19:10 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%B5%99%E6%B1%9F2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>浙江2018中国500强</title>
-      <link>https://www.samrainhan.com/posts/2020-12-13-zhejiang-2018-china-top-500/</link>
-      <pubDate>Sun, 13 Dec 2020 11:19:10 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2020-12-13-zhejiang-2018-china-top-500/</guid>
-      <description>浙江2018中国500强</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 浙江,2018,中国500强</title>
+        <link>https://www.samrainhan.com/tags/%E6%B5%99%E6%B1%9F2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/</link>
+        <description>Recent content - sam的小窝 - 浙江,2018,中国500强</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 13 Dec 2020 11:19:10 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%B5%99%E6%B1%9F2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>分析 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%88%86%E6%9E%90/</link>
-    <description>Recent content in 分析 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Aug 2023 08:12:26 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>为什么关注化妆品行业</title>
-      <link>https://www.samrainhan.com/posts/2023-08-28-why-focus-on-the-cosmetics-industry/</link>
-      <pubDate>Mon, 28 Aug 2023 08:12:26 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-28-why-focus-on-the-cosmetics-industry/</guid>
-      <description>截止2021年，中国已成为全球第二大化妆品消费市场，且据披露数据显示，2021年我国化妆品零售总额达4026亿元，同比增加18.4%。在大基</description>
-    </item>
-    <item>
-      <title>化妆品行业简单分析</title>
-      <link>https://www.samrainhan.com/posts/2023-08-24-a-simple-analysis-of-the-cosmetics-industry/</link>
-      <pubDate>Thu, 24 Aug 2023 08:30:20 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-24-a-simple-analysis-of-the-cosmetics-industry/</guid>
-      <description>产业链 业务流程 化妆品行业如何转型做新零售 化妆品行业转型升级要解决“专业性”与“信任感”的两大问题。 其一，通过线上平台，开展专业的化妆品知识营</description>
-    </item>
-    <item>
-      <title>桌面研究</title>
-      <link>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</link>
-      <pubDate>Sat, 19 Aug 2023 06:56:55 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-19-desktop-research/</guid>
-      <description>桌面研究（desk research）是指不进行一手资料的实地调研和采集，而是直接通过电脑、杂志、书籍、文档、互联网搜索等，对现有二手资料进行</description>
-    </item>
-    <item>
-      <title>5W2H分析法</title>
-      <link>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</link>
-      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</guid>
-      <description>出自MBA智库百科 5W2H分析法又称七何分析法 5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 分析</title>
+        <link>https://www.samrainhan.com/tags/%E5%88%86%E6%9E%90/</link>
+        <description>Recent content - sam的小窝 - 分析</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 28 Aug 2023 08:12:26 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

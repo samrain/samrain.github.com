@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2020,中国,企业,500强 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/2020%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A500%E5%BC%BA/</link>
-    <description>Recent content in 2020,中国,企业,500强 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Apr 2021 15:23:57 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/2020%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2020中国企业500强(包邮区)</title>
-      <link>https://www.samrainhan.com/posts/2021-04-24-2020-top-500-chinese-enterprises/</link>
-      <pubDate>Sat, 24 Apr 2021 15:23:57 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-04-24-2020-top-500-chinese-enterprises/</guid>
-      <description>2020中国企业500强(包邮区) 99 浙江恒逸集团有限公司 102 浙江荣盛控股集团有限公司 129 东浩兰生（集团）有限公司 135 光明食品（集团）有限公司 139 浙江</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 2020,中国,企业,500强</title>
+        <link>https://www.samrainhan.com/tags/2020%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A500%E5%BC%BA/</link>
+        <description>Recent content - sam的小窝 - 2020,中国,企业,500强</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 24 Apr 2021 15:23:57 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/2020%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

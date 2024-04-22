@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>协作 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/</link>
-    <description>Recent content in 协作 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Aug 2023 10:13:02 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>企业办公协作平台的三国演义</title>
-      <link>https://www.samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</link>
-      <pubDate>Tue, 29 Aug 2023 10:13:02 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</guid>
-      <description>2022年10月，钉钉的活跃人数达到了1.6亿，企业微信和腾讯会议分别是9000万和8000万以上，飞书最少，为119万。截至2022年3月</description>
-    </item>
-    <item>
-      <title>2017 Gartner Magic Quadrant for Content Collaboration Platforms</title>
-      <link>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</link>
-      <pubDate>Sat, 02 Jun 2018 11:30:50 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</guid>
-      <description>本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&amp;amp;ct=170725</description>
-    </item>
-    <item>
-      <title>怎么用开源中国的服务来进行协作和开发</title>
-      <link>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</link>
-      <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</guid>
-      <description>Getting Start 注册oschina用户(戳这里) 登录oschina.net 注册git@osc用户(戳这里)，请选择使用oschina账号登录 4.会提示以</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 协作</title>
+        <link>https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/</link>
+        <description>Recent content - sam的小窝 - 协作</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 29 Aug 2023 10:13:02 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

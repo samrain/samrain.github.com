@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>食谱 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E9%A3%9F%E8%B0%B1/</link>
-    <description>Recent content in 食谱 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Dec 2023 10:56:10 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>天天健康食谱</title>
-      <link>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</link>
-      <pubDate>Wed, 20 Dec 2023 10:56:10 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</guid>
-      <description>碳水、蛋白质、脂肪供能比例 碳水占每天总能量摄入比例的 55%～65%； 蛋白质占比 15%； 脂肪占比 20～30%（其中饱和脂肪酸不超过 10%） 碳水</description>
-    </item>
-    <item>
-      <title>儿童早餐食谱</title>
-      <link>https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/</link>
-      <pubDate>Mon, 31 Oct 2022 10:04:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/</guid>
-      <description>早餐 碳水 两片全麦面包/八宝饭/油炸小馒头配炼乳/煎饺/小猪包/意面/手抓饼/土豆泥 脂肪 黄油/花生酱/芝麻酱/坚果/椰子油/橄榄油 蛋白质 火腿肠</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 食谱</title>
+        <link>https://www.samrainhan.com/tags/%E9%A3%9F%E8%B0%B1/</link>
+        <description>Recent content - sam的小窝 - 食谱</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 20 Dec 2023 10:56:10 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

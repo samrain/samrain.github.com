@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>文档管理， 内部IT管理 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86-%E5%86%85%E9%83%A8it%E7%AE%A1%E7%90%86/</link>
-    <description>Recent content in 文档管理， 内部IT管理 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86-%E5%86%85%E9%83%A8it%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>部门制度</title>
-      <link>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</link>
-      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</guid>
-      <description>##一般会议执行制度 确定会议日程。确定会议中到底要讨论什么是保证会议效率的关键，没有会议日程就不要开会。 大会化小。短而主题独立的会议胜于长而</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 文档管理， 内部IT管理</title>
+        <link>https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86-%E5%86%85%E9%83%A8it%E7%AE%A1%E7%90%86/</link>
+        <description>Recent content - sam的小窝 - 文档管理， 内部IT管理</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 31 Aug 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86-%E5%86%85%E9%83%A8it%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

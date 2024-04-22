@@ -1,159 +1,116 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>如何把VIM变成Python IDE - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/">如何把VIM变成Python IDE</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2012-08-16" class="no-wrap"
-                                    title="Created at 2012/08/16">
-                                    2012-08-16</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2012-08-16" class="no-wrap"
-                                    title="Modifyed  at 2012/08/16">
-                                    2012-08-16</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>如何把VIM变成Python IDE · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                2167 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
-<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU">思维导图文件下载</a></p>
 
-<h2 id="原文链接-http-sontek-net-blog-detail-turning-vim-into-a-modern-python-ide"><a href="http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide">原文链接</a></h2>
 
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="如何把VIM变成Python IDE · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2012-08-16-how-to-become-vim-python-ide/">
+
+
+
+
+
+
+
+<meta property="og:title" content="如何把VIM变成Python IDE · sam的小窝">
+<meta property="og:description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2012-08-16-how-to-become-vim-python-ide/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2012-08-16-how-to-become-vim-python-ide/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                如何把VIM变成Python IDE
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU">思维导图文件下载</a></p>
+<h2 id="原文链接httpsonteknetblogdetailturning-vim-into-a-modern-python-ide"><a href="http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide">原文链接</a></h2>
 <h2 id="简介">简介</h2>
-
 <ul>
-<li><p><a href="http://sontek.net/blog/detail/python-with-a-modular-ide-vim">2008年的老文章</a></p></li>
-
-<li><p>开发环境最重要的部分之一</p>
-
-<pre><code>很容易的跨机器
-</code></pre></li>
-
-<li><p>用git来保存VIM配置</p>
-
-<pre><code>autoload目录目的是用来自动载入插件Pathogen
-
-我们使用Pathogen来载入bundle目录中的其他插件
-
-让我们下载Pathogen然后放进autoload目录中
-
-为了启动时可以载入，我们需要在文件~/.vimrc中加入
-
-把我们计划使用的插件用submodules方式放进git仓库中
-
-git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+<li>
+<p><a href="http://sontek.net/blog/detail/python-with-a-modular-ide-vim">2008年的老文章</a></p>
+</li>
+<li>
+<p>开发环境最重要的部分之一</p>
+<pre><code>  很容易的跨机器
 </code></pre>
+</li>
+<li>
+<p>用git来保存VIM配置</p>
+<pre><code>  autoload目录目的是用来自动载入插件Pathogen
 
+  我们使用Pathogen来载入bundle目录中的其他插件
+
+  让我们下载Pathogen然后放进autoload目录中
+
+  为了启动时可以载入，我们需要在文件~/.vimrc中加入
+
+  把我们计划使用的插件用submodules方式放进git仓库中
+
+  git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+</code></pre>
+</li>
+</ul>
 <p>git submodule add <a href="https://github.com/msanders/snipmate.vim.git">https://github.com/msanders/snipmate.vim.git</a> bundle/snipmate
 git submodule add <a href="https://github.com/tpope/vim-surround.git">https://github.com/tpope/vim-surround.git</a> bundle/surround
 git submodule add <a href="https://github.com/tpope/vim-git.git">https://github.com/tpope/vim-git.git</a> bundle/git
@@ -173,496 +130,450 @@ git submodule add <a href="https://github.com/sontek/rope-vim.git">https://githu
 git submodule init
 git submodule update
 git submodule foreach git submodule init
-git submodule foreach git submodule update</p></li>
-</ul>
-
+git submodule foreach git submodule update</p>
 <h2 id="基本的编辑和调试">基本的编辑和调试</h2>
-
 <ul>
-<li><p>代码折叠</p>
+<li>
+<p>代码折叠</p>
+<pre><code>  在~/.vimrc中添加
 
-<pre><code>在~/.vimrc中添加
+  然后就可以在方法内代码上输入'za'进行代码折叠和展开
+</code></pre>
+</li>
+<li>
+<p>窗口拆分</p>
+<pre><code>  有时代码折叠也不能解决问题
 
-然后就可以在方法内代码上输入'za'进行代码折叠和展开
-</code></pre></li>
+  打开多个窗口
 
-<li><p>窗口拆分</p>
+  打开多个文件
 
-<pre><code>有时代码折叠也不能解决问题
+  打开不同地方的同一个文件
 
-打开多个窗口
+  窗口拆分
 
-打开多个文件
+  注意
 
-打开不同地方的同一个文件
+  操作时必须切换中文输入法到英文模式
 
-窗口拆分
+  不需要三个键同时按下，建议先按前2个键，然后再按后面一个键
 
-注意
+  横向
 
-操作时必须切换中文输入法到英文模式
+  Ctrl+w+v
 
-不需要三个键同时按下，建议先按前2个键，然后再按后面一个键
+  纵向
 
-横向
+  Ctrl+w+s
 
-Ctrl+w+v
+  关闭拆分窗口
 
-纵向
+  Ctrl+w+q
 
-Ctrl+w+s
+  切换窗口
 
-关闭拆分窗口
+  上
 
-Ctrl+w+q
+  Ctrl+k
 
-切换窗口
+  下
 
-上
+  Ctrl+j
 
-Ctrl+k
+  左
 
-下
+  Ctrl+h
 
-Ctrl+j
+  右
 
-左
+  Ctrl+l
 
-Ctrl+h
+  在~/.vimrc中添加
+</code></pre>
+</li>
+<li>
+<p>片段</p>
+<pre><code>  使用片段加速开发
 
-右
+  使用方法
 
-Ctrl+l
+  新建一个Python文件，然后输入“def”，然后敲击“Tab”键，将会将定义好的片段自动输入到界面上
 
-在~/.vimrc中添加
-</code></pre></li>
+  修改片段办法
 
-<li><p>片段</p>
+  访问目录：～/.vim/bundle/snippets/snippets
 
-<pre><code>使用片段加速开发
+  修改那种语言的就选择那种语言名称开头的文件
 
-使用方法
+  例如：python.snippets
+</code></pre>
+</li>
+<li>
+<p>任务列表</p>
+<pre><code>  当前打开的文档中如果有以下字符串，会以嵌套窗口形式显示，并能直接导航到该行
 
-新建一个Python文件，然后输入“def”，然后敲击“Tab”键，将会将定义好的片段自动输入到界面上
+  TODO
 
-修改片段办法
+  FIXME
 
-访问目录：～/.vim/bundle/snippets/snippets
+  使用方法
 
-修改那种语言的就选择那种语言名称开头的文件
+  打开文档
 
-例如：python.snippets
-</code></pre></li>
+  敲击模式键，输入td打开窗口
 
-<li><p>任务列表</p>
+  如果有todolist，那么打开窗口
 
-<pre><code>当前打开的文档中如果有以下字符串，会以嵌套窗口形式显示，并能直接导航到该行
+  敲击“q”关闭
 
-TODO
+  否则提示没有
+</code></pre>
+</li>
+<li>
+<p>修订历史</p>
+<pre><code>  显示某个文件当前的所有修改记录
 
-FIXME
+  注意：如果文件关闭，就看不到以往的修改记录
 
-使用方法
+  使用方法
 
-打开文档
+  敲击模式键，输入&quot;g&quot;打开窗口
 
-敲击模式键，输入td打开窗口
+  使用“j”和“k”在不同版本间移动
 
-如果有todolist，那么打开窗口
+  使用“p”来显示不同之处
 
-敲击“q”关闭
+  使用回车，在右边窗口上显示不同版本的文件全部内容
 
-否则提示没有
-</code></pre></li>
-
-<li><p>修订历史</p>
-
-<pre><code>显示某个文件当前的所有修改记录
-
-注意：如果文件关闭，就看不到以往的修改记录
-
-使用方法
-
-敲击模式键，输入&quot;g&quot;打开窗口
-
-使用“j”和“k”在不同版本间移动
-
-使用“p”来显示不同之处
-
-使用回车，在右边窗口上显示不同版本的文件全部内容
-
-关闭如上
-</code></pre></li>
+  关闭如上
+</code></pre>
+</li>
 </ul>
-
 <h2 id="注意">注意</h2>
-
 <ul>
-<li><p>目前模式启动键为“,”逗号</p>
+<li>
+<p>目前模式启动键为“,”逗号</p>
+<pre><code>  在.Vimrc中是以“leader”表示
 
-<pre><code>在.Vimrc中是以“leader”表示
-
-可以在.vimrc中修改成其他键
-</code></pre></li>
+  可以在.vimrc中修改成其他键
+</code></pre>
+</li>
 </ul>
-
 <h2 id="语法高亮和验证">语法高亮和验证</h2>
-
 <ul>
-<li><p>PEP8</p>
+<li>
+<p>PEP8</p>
+<pre><code>  检查静态代码是否符合规范
 
-<pre><code>检查静态代码是否符合规范
+  使用方法
 
-使用方法
+  敲击模式键，输入&quot;8&quot;打开窗口
 
-敲击模式键，输入&quot;8&quot;打开窗口
+  使用“j”和“k”在不同问题间移动
 
-使用“j”和“k”在不同问题间移动
+  关闭
 
-关闭
+  光标在下方窗口，然后Ctrl+w，然后q
+</code></pre>
+</li>
+<li>
+<p>pyflakes</p>
+<pre><code>  显示未被使用的导入模块以及错误语法
 
-光标在下方窗口，然后Ctrl+w，然后q
-</code></pre></li>
+  当光标移动到被红色标注行时在底部显示错误提示
 
-<li><p>pyflakes</p>
-
-<pre><code>显示未被使用的导入模块以及错误语法
-
-当光标移动到被红色标注行时在底部显示错误提示
-
-不需要按键启动，因为是一直启动的
-</code></pre></li>
+  不需要按键启动，因为是一直启动的
+</code></pre>
+</li>
 </ul>
-
 <h2 id="tab完成和文档">tab完成和文档</h2>
-
 <ul>
-<li><p>SuperTab</p>
+<li>
+<p>SuperTab</p>
+<pre><code>  输入头几个字母，自动显示提示菜单
 
-<pre><code>输入头几个字母，自动显示提示菜单
+  当光标上下移动的时候，显示功能模块帮助信息
+</code></pre>
+</li>
+<li>
+<p>pydoc</p>
+<pre><code>  显示功能模块的帮助信息
 
-当光标上下移动的时候，显示功能模块帮助信息
-</code></pre></li>
+  如果想显示某个模块的帮助
 
-<li><p>pydoc</p>
+  光标停留在模块名上
 
-<pre><code>显示功能模块的帮助信息
+  敲击模式键，输入“pw”
 
-如果想显示某个模块的帮助
-
-光标停留在模块名上
-
-敲击模式键，输入“pw”
-
-关闭输入“:q”
-</code></pre></li>
+  关闭输入“:q”
+</code></pre>
+</li>
 </ul>
-
 <h2 id="代码导航">代码导航</h2>
-
 <ul>
-<li><p>缓冲区</p>
+<li>
+<p>缓冲区</p>
+<pre><code>  minibufexpl插件
 
-<pre><code>minibufexpl插件
+  不要使用tab标签
 
-不要使用tab标签
+  使用“:e文件名”新建buffer
 
-使用“:e文件名”新建buffer
+  使用“:b数字”在不同buffer之间导航
 
-使用“:b数字”在不同buffer之间导航
+  使用&quot;:b 文件名&quot;在不同buffer之间导航
 
-使用&quot;:b 文件名&quot;在不同buffer之间导航
+  可以只输入文件名的头几个字母，然后按“Tab”键
 
-可以只输入文件名的头几个字母，然后按“Tab”键
+  看目前全部buffer
 
-看目前全部buffer
+  输入&quot;:buffers&quot;
 
-输入&quot;:buffers&quot;
+  关闭使用&quot;:bd&quot;或者&quot;:bw&quot;
+</code></pre>
+</li>
+<li>
+<p>模糊文本文件搜索</p>
+<pre><code>  command-t插件
 
-关闭使用&quot;:bd&quot;或者&quot;:bw&quot;
-</code></pre></li>
+  在Ubuntu上预先安装Ruby和rake
 
-<li><p>模糊文本文件搜索</p>
+  查询所有包含条件字符串的文件 
 
-<pre><code>command-t插件
+  当前目录下
 
-在Ubuntu上预先安装Ruby和rake
+  当前所有buffers下
 
-查询所有包含条件字符串的文件 
+  敲击模式键，输入“f”
 
-当前目录下
+  在底部出现新窗口
 
-当前所有buffers下
+  输入查询条件自动查询当前目录下所有符合条件按的文件
 
-敲击模式键，输入“f”
+  关闭只需要进入修改模式然后退出
 
-在底部出现新窗口
+  敲击ESC键，然后输入“i”，再敲击ESC键
+</code></pre>
+</li>
+<li>
+<p>文件浏览器</p>
+<pre><code>  NERDTree 插件
 
-输入查询条件自动查询当前目录下所有符合条件按的文件
+  敲击模式键，输入“n”
 
-关闭只需要进入修改模式然后退出
+  一般情况下使用模糊文本文件搜索即可
+</code></pre>
+</li>
+<li>
+<p>重构和定义</p>
+<pre><code>  Ropevim插件
 
-敲击ESC键，然后输入“i”，再敲击ESC键
-</code></pre></li>
+  在代码中导航
 
-<li><p>文件浏览器</p>
+  支持自动插入重要过程，去定义点，重构和代码完成
 
-<pre><code>NERDTree 插件
+  最常使用的2个方法
 
-敲击模式键，输入“n”
+  快速跳转到方法或类的定义
 
-一般情况下使用模糊文本文件搜索即可
-</code></pre></li>
+  敲击模式键，输入&quot;j&quot;
 
-<li><p>重构和定义</p>
+  重命名东西，包括他们所有的引用上
 
-<pre><code>Ropevim插件
+  敲击模式键，输入&quot;r&quot;
 
-在代码中导航
+  注意
 
-支持自动插入重要过程，去定义点，重构和代码完成
+  第一次使用有可能会提示：rope project root folder
 
-最常使用的2个方法
+  输入.ropeproject，然后输入0，然后回车
+</code></pre>
+</li>
+<li>
+<p>搜索</p>
+<pre><code>  Ack插件
 
-快速跳转到方法或类的定义
+  在Ubuntu上预先安装
 
-敲击模式键，输入&quot;j&quot;
+  sudo apt-get install ack-grep
 
-重命名东西，包括他们所有的引用上
+  搜索当前目录下内容中包含条件字符串的文件清单，并显示所在行号
 
-敲击模式键，输入&quot;r&quot;
+  注意：
 
-注意
+  要在~/.vimrc上添加一行
 
-第一次使用有可能会提示：rope project root folder
+  let g:ackprg=&quot;ack-grep -H --nocolor --nogroup --column&quot;
 
-输入.ropeproject，然后输入0，然后回车
-</code></pre></li>
-
-<li><p>搜索</p>
-
-<pre><code>Ack插件
-
-在Ubuntu上预先安装
-
-sudo apt-get install ack-grep
-
-搜索当前目录下内容中包含条件字符串的文件清单，并显示所在行号
-
-注意：
-
-要在~/.vimrc上添加一行
-
-let g:ackprg=&quot;ack-grep -H --nocolor --nogroup --column&quot;
-
-原教程有误，报错找不到ack
-</code></pre></li>
+  原教程有误，报错找不到ack
+</code></pre>
+</li>
 </ul>
-
 <h2 id="整合使用git">整合使用Git</h2>
-
 <ul>
-<li><p>插件</p>
+<li>
+<p>插件</p>
+<pre><code>  git.vim
 
-<pre><code>git.vim
+  git配置文件语法高亮
 
-git配置文件语法高亮
+  fugitive
 
-fugitive
+  提供界面集成git功能
 
-提供界面集成git功能
+  diff
 
-diff
+  status update
 
-status update
+  commit
 
-commit
+  moving
 
-moving
+  告诉目前工作在那个分支上
 
-告诉目前工作在那个分支上
+  开始使用
 
-开始使用
+  敲击模式键，输入“c”
 
-敲击模式键，输入“c”
+  输入“:GXXXXX”
 
-输入“:GXXXXX”
+  Gedit
 
-Gedit
+  Gsplit
 
-Gsplit
+  Gvsplit
 
-Gvsplit
+  Gtabedit
 
-Gtabedit
+  Gdiff
 
-Gdiff
+  Gstatus
 
-Gstatus
+  Gcommit
 
-Gcommit
+  Gblame
 
-Gblame
+  Gmove
 
-Gmove
+  Ggrep
 
-Ggrep
+  Glog
 
-Glog
+  Gread
 
-Gread
+  Gwrite
 
-Gwrite
+  Gbrowse
 
-Gbrowse
+  关闭
 
-关闭
-
-敲击模式键，输入“cc”
-</code></pre></li>
+  敲击模式键，输入“cc”
+</code></pre>
+</li>
 </ul>
-
 <h2 id="集成测试">集成测试</h2>
-
 <ul>
-<li><p>Django nose</p>
+<li>
+<p>Django nose</p>
+<pre><code>  使用MakeGreen插件
 
-<pre><code>使用MakeGreen插件
+  使用
 
-使用
+  敲击模式键，输入“dt”
 
-敲击模式键，输入“dt”
+  在底部显示，如果通过就是绿色，否则是红色
+</code></pre>
+</li>
+<li>
+<p>Py.test</p>
+<pre><code>  使用py.test插件
 
-在底部显示，如果通过就是绿色，否则是红色
-</code></pre></li>
+  使用
 
-<li><p>Py.test</p>
+  敲击模式键
 
-<pre><code>使用py.test插件
+  输入“tf”
 
-使用
+  测试某个文件
 
-敲击模式键
+  输入“tc”
 
-输入“tf”
+  测试某个类
 
-测试某个文件
+  输入“tm”
 
-输入“tc”
+  测试某个方法
 
-测试某个类
+  输入“tn”
 
-输入“tm”
+  测试下一个
 
-测试某个方法
+  输入“tp”
 
-输入“tn”
+  测试上一个
 
-测试下一个
+  输入“te”
 
-输入“tp”
-
-测试上一个
-
-输入“te”
-
-测试错误
-</code></pre></li>
+  测试错误
+</code></pre>
+</li>
 </ul>
-
 <h2 id="virtualenv">Virtualenv</h2>
-
 <ul>
-<li><p>vim无法判断我们在虚拟环境中</p>
-
-<pre><code>Vim只能从安装过的库中找到自动完成代码
-</code></pre></li>
-
-<li><p>在.vimrc中添加代码</p></li>
+<li>
+<p>vim无法判断我们在虚拟环境中</p>
+<pre><code>  Vim只能从安装过的库中找到自动完成代码
+</code></pre>
+</li>
+<li>
+<p>在.vimrc中添加代码</p>
+</li>
 </ul>
-
 <h2 id="django">Django</h2>
-
 <ul>
-<li><p>输出Django的项目配置，以便于自动完成代码</p></li>
-
-<li><p>修改.vimrc</p>
-
-<pre><code>export DJANGO_SETTINGS_MODULE=project.settings
-</code></pre></li>
+<li>
+<p>输出Django的项目配置，以便于自动完成代码</p>
+</li>
+<li>
+<p>修改.vimrc</p>
+<pre><code>  export DJANGO_SETTINGS_MODULE=project.settings
+</code></pre>
+</li>
 </ul>
-
 <h2 id="随机提示">随机提示</h2>
-
 <ul>
-<li>新的颜色样式到<a href="http://code.google.com/p/vimcolorschemetest/">http://code.google.com/p/vimcolorschemetest/</a></li>
+<li>新的颜色样式到http://code.google.com/p/vimcolorschemetest/</li>
 </ul>
-
 <h2 id="默认安装">默认安装</h2>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Aug 2012</div>
+    
+
+
+    
+    
+
+    
+    
+
+</div></section>
+
     </div>
-</div>
 
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        </ul>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
-    </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

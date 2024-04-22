@@ -1,228 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> linux下中文OCR | sam的小窝</title>
-  <meta name="description" content="学习 &amp; 生活">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="linux下中文OCR" />
-<meta property="og:description" content="思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2013-05-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2013-05-07T00:00:00+00:00" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="linux下中文OCR"/>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+
+
+
+    
+
+<title>linux下中文OCR · sam的小窝</title>
+
+
+
+
+
+
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="linux下中文OCR · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
 <meta name="twitter:description" content="思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse"/>
+<meta property="twitter:url" content="https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/">
 
-  
-  
+
+
+
+
+
+
+<meta property="og:title" content="linux下中文OCR · sam的小窝">
+<meta property="og:description" content="思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse"/>
+
+<meta property="og:url" content="https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/">
+
+
     
-  
-  
-  <link rel="stylesheet" href="https://www.samrainhan.com/css/style-dark.css">
-  
-  
-  
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
 
-  
-<link rel="icon" type="image/png" href="https://www.samrainhan.com/images/favicon.ico" />
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-  
-  
-  
-  
-  
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
     
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-37708730-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-  
-  
-</head>
-
-<body class="max-width mx-auto px3 ltr">
-  <div class="content index py4">
-
-  <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        <li>
-          <a class="icon" href=" https://www.samrainhan.com/posts/2013-05-06-chrome-cool-features/">
-            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a class="icon" href="https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/">
-            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
-          </a>
-        </li>
-        
-        <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="#">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-      <span id="i-next" class="info" style="display:none;">Next post</span>
-      <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
-    
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&text=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&is_video=false&description=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&name=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR&description=%e6%80%9d%e7%bb%b4%e5%af%bc%e5%9b%be%e6%96%87%e4%bb%b6%e4%b8%8b%e8%bd%bd%20%e5%ae%89%e8%a3%85tesseract-ocr%20%e5%8c%85%e5%ae%89%e8%a3%85%20sudo%20apt-get%20install%20tesseract-ocr%20%e6%ba%90%e7%a0%81%e5%ae%89%e8%a3%85%20google%e7%ab%99%e7%82%b9%20%e5%ae%89%e8%a3%85tesseract-ocr%e7%9a%84%e4%b8%ad%e6%96%87%e8%af%ad%e8%a8%80%e5%8c%85%20%e4%b8%8b%e8%bd%bdtesse">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&t=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
     </div>
-    <div id="toc">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装tesseract-ocr">安装tesseract-ocr</a>
-      <ul>
-        <li><a href="#包安装">包安装</a></li>
-        <li><a href="#源码安装">源码安装</a></li>
-      </ul>
-    </li>
-    <li><a href="#安装tesseract-ocr的中文语言包">安装tesseract-ocr的中文语言包</a></li>
-    <li><a href="#识别">识别</a></li>
-    <li><a href="#结论">结论</a></li>
-    <li><a href="#windows同类软件">Windows同类软件</a></li>
-  </ul>
-</nav>
-    </div>
-  </span>
-</div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                linux下中文OCR
+            
 
+            
+            </h1>
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <h1 class="posttitle" itemprop="name headline">
-        linux下中文OCR
-      </h1>
-      <div class="meta">
-        
-        <div class="postdate">
-          
-          <time datetime="2013-05-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">2013-05-07</time>
-          
-        </div>
-        
-        
-        <div class="article-tag">
-            <i class="fas fa-tag"></i>
+            <h4 class="post-author">
             
-            
-            <a class="tag-link" href="/tags/linux" rel="tag">linux</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/ocr" rel="tag">OCR</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/%E4%B8%AD%E6%96%87ocr" rel="tag">中文OCR</a>
-            
-        </div>
-        
-      </div>
-    </header>
+            </h4>
 
-  
-    <div class="content" itemprop="articleBody">
-      <p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIMzg3c2ZfM1RPNFk/edit?usp=sharing">思维导图文件下载</a></p>
+        </header>
+
+        <article class="post-content">
+            <p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIMzg3c2ZfM1RPNFk/edit?usp=sharing">思维导图文件下载</a></p>
 <h2 id="安装tesseract-ocr">安装tesseract-ocr</h2>
 <h3 id="包安装">包安装</h3>
 <ul>
@@ -257,152 +119,46 @@ if (!doNotTrack) {
 <h2 id="windows同类软件">Windows同类软件</h2>
 <p><a href="http://down.tech.sina.com.cn/page/42105.html">汉王PDF OCR</a></p>
 
-    </div>
-  </article>
+        </article><div class="post-meta">
 
-  
-  
-
-
-
-
-
-  <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/">Home</a></li>
-         
-          <li><a href="/posts">Writings</a></li>
-         
-          <li><a href="/tags">Tags</a></li>
-         
-          <li><a href="/about">About</a></li>
-        
-      </ul>
-    </div>
-
-    <div id="toc-footer" style="display: none">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装tesseract-ocr">安装tesseract-ocr</a>
-      <ul>
-        <li><a href="#包安装">包安装</a></li>
-        <li><a href="#源码安装">源码安装</a></li>
-      </ul>
-    </li>
-    <li><a href="#安装tesseract-ocr的中文语言包">安装tesseract-ocr的中文语言包</a></li>
-    <li><a href="#识别">识别</a></li>
-    <li><a href="#结论">结论</a></li>
-    <li><a href="#windows同类软件">Windows同类软件</a></li>
-  </ul>
-</nav>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      
-      <ul>
-  
-  
+    <div class="post-date">May 2013</div>
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f">
-      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&text=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&is_video=false&description=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f">
-      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&title=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&name=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR&description=%e6%80%9d%e7%bb%b4%e5%af%bc%e5%9b%be%e6%96%87%e4%bb%b6%e4%b8%8b%e8%bd%bd%20%e5%ae%89%e8%a3%85tesseract-ocr%20%e5%8c%85%e5%ae%89%e8%a3%85%20sudo%20apt-get%20install%20tesseract-ocr%20%e6%ba%90%e7%a0%81%e5%ae%89%e8%a3%85%20google%e7%ab%99%e7%82%b9%20%e5%ae%89%e8%a3%85tesseract-ocr%e7%9a%84%e4%b8%ad%e6%96%87%e8%af%ad%e8%a8%80%e5%8c%85%20%e4%b8%8b%e8%bd%bdtesse">
-      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2013-05-07-ocr-in-linux%2f&t=linux%e4%b8%8b%e4%b8%ad%e6%96%87OCR">
-      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
+
+
+    
+    
+
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2013-01-15-disk-fragmentation/">解密磁盘碎片</a></li>
+            
+            <li><a href="/posts/2010-03-24-what-the-epoll/">What&#39;s the EPOLL(转)</a></li>
+            
+        </ul>
+    </div>
+    
+
+</div></section>
 
     </div>
 
-    <div id="actions-footer">
-      
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
-          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
-          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
-    </div>
-
-  </div>
-</div>
-
-
-  <footer id="footer">
-  <div class="footer-left">
-    Copyright  &copy; 2023  sam的小窝 
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </nav>
-  </div>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
 
-  </div>
+
+
+
+
+
+    
+    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
 </body>
-
-<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
-<script src=/lib/jquery/jquery.min.js></script>
-<script src=/js/main.js></script>
-
-
-
 </html>

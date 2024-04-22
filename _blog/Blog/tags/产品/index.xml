@@ -1,68 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>产品 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/</link>
-    <description>Recent content in 产品 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 Dec 2023 09:59:21 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>知识库产品售卖要诀</title>
-      <link>https://www.samrainhan.com/posts/2023-12-13-tips-for-selling-knowledge-base-products/</link>
-      <pubDate>Wed, 13 Dec 2023 09:59:21 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-13-tips-for-selling-knowledge-base-products/</guid>
-      <description>知识的定义 知识是对某个主题“认知”与“识别”的行为藉以确信的认识，并且这些认识拥有潜在的能力为特定目的而使用。意指透过经验或联想，而能够熟悉</description>
-    </item>
-    <item>
-      <title>知识库产品的一些思考</title>
-      <link>https://www.samrainhan.com/posts/2023-09-01-some-thoughts-on-knowledge-base-products/</link>
-      <pubDate>Fri, 01 Sep 2023 22:21:32 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-01-some-thoughts-on-knowledge-base-products/</guid>
-      <description>使用场景 研报的阅读 用AI辅助问题分类 企业实践 知识付费类企业实践 团队负责人是整个团队的知识管家，从团队中提取 只有老板在意公司的 知识收集往往滞后</description>
-    </item>
-    <item>
-      <title>JTBD</title>
-      <link>https://www.samrainhan.com/posts/2023-03-18-jtbd/</link>
-      <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-03-18-jtbd/</guid>
-      <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
-    </item>
-    <item>
-      <title>推荐书单-出自《俞军产品方法论》</title>
-      <link>https://www.samrainhan.com/posts/2023-03-03-recommended-book-list-from-yu-jun-product-methodology/</link>
-      <pubDate>Fri, 03 Mar 2023 10:26:14 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-03-03-recommended-book-list-from-yu-jun-product-methodology/</guid>
-      <description>1. 入门 以下三本书，都是既可以当作产品经理的入门书，又可以在职业生涯中反复读的书。 《社会心理学》(插图第7版，埃略特.阿伦森):适合成为“产品</description>
-    </item>
-    <item>
-      <title>公私网产品目标用户建议</title>
-      <link>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</link>
-      <pubDate>Tue, 15 Nov 2022 15:52:43 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</guid>
-      <description>一、公网SAAS产品目标用户建议 人数超过300人 年营收超过1亿 购买公网SAAS产品年付费超过6万 二、私有化产品目标用户建议 人数超过1500人</description>
-    </item>
-    <item>
-      <title>前5位的产品和管理技能</title>
-      <link>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</link>
-      <pubDate>Sat, 27 Aug 2022 11:21:26 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</guid>
-      <description>一个好的领导（或者产品经理），应该具备五项技能： SQL Excel 简洁写作 讲故事 区分优先级</description>
-    </item>
-    <item>
-      <title>How to Design the Product Site</title>
-      <link>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</link>
-      <pubDate>Mon, 04 Jun 2018 14:27:55 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</guid>
-      <description>左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反</description>
-    </item>
-    <item>
-      <title>对于微信产品的一点思考(总结别人文章的)</title>
-      <link>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</link>
-      <pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-26-think-of-wechat-about-product/</guid>
-      <description>思维导图文件下载 WHY 需求 心理诉求 自身需要 周边朋友反馈 群体效应 人内心欲望洞察 建立虚拟社会的规则 群体推动规则变化 HOW 面向场景做设计 除了核心功能都做成</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 产品</title>
+        <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/</link>
+        <description>Recent content - sam的小窝 - 产品</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 22 Apr 2024 22:28:40 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

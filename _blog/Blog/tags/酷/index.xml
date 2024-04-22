@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>酷 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E9%85%B7/</link>
-    <description>Recent content in 酷 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E9%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎么使用impress.js</title>
-      <link>https://www.samrainhan.com/posts/2013-05-20-impress-js/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-05-20-impress-js/</guid>
-      <description>思维导图文件下载 官网 缺点：许多细节都要自己指定，特别是页面宽度 优点：有全局的感觉，很炫 用法 官网指南 DEMO 功能设置 在每张slide的div标签中设</description>
-    </item>
-    <item>
-      <title>Chrome很酷功能</title>
-      <link>https://www.samrainhan.com/posts/2013-05-06-chrome-cool-features/</link>
-      <pubDate>Mon, 06 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-05-06-chrome-cool-features/</guid>
-      <description>思维导图文件下载 1.在Chrome地址栏内输入chrome://flags 2.功能介绍 密码生成 开启“启用密码生成功能”，然后进入任何一个注册</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 酷</title>
+        <link>https://www.samrainhan.com/tags/%E9%85%B7/</link>
+        <description>Recent content - sam的小窝 - 酷</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 20 May 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E9%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>public relations on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/public-relations/</link>
-    <description>Recent content in public relations on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/public-relations/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PR造势</title>
-      <link>https://www.samrainhan.com/posts/2015-07-13-public-relations-in-china/</link>
-      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-13-public-relations-in-china/</guid>
-      <description>1、选定主话题 2、围绕主话题设置几个子话题 3、选定希望发布的官方媒体 4、选定希望邀请参与讨论的自媒体 5、写稿（备用，如果媒体愿意自己写，那是</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Public Relations</title>
+        <link>https://www.samrainhan.com/tags/public-relations/</link>
+        <description>Recent content - sam的小窝 - Public Relations</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 13 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/public-relations/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

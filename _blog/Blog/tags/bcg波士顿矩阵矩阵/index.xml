@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>BCG,波士顿矩阵,矩阵 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/bcg%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5%E7%9F%A9%E9%98%B5/</link>
-    <description>Recent content in BCG,波士顿矩阵,矩阵 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jan 2022 09:00:17 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/bcg%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BCG矩阵</title>
-      <link>https://www.samrainhan.com/posts/2022-01-29-bcg-matrix/</link>
-      <pubDate>Sat, 29 Jan 2022 09:00:17 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-01-29-bcg-matrix/</guid>
-      <description>波士顿矩阵（BCG矩阵） 波士顿矩阵（BCG矩阵）是由美国波士顿咨询公司率先提出的、对企业当前的业务组合进行评价和决策的战略管理工具。主要考虑</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - BCG,波士顿矩阵,矩阵</title>
+        <link>https://www.samrainhan.com/tags/bcg%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5%E7%9F%A9%E9%98%B5/</link>
+        <description>Recent content - sam的小窝 - BCG,波士顿矩阵,矩阵</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 29 Jan 2022 09:00:17 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/bcg%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

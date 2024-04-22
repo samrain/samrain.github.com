@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>URL on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/url/</link>
-    <description>Recent content in URL on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/url/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>避免URL中出现JSESSIONID</title>
-      <link>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</link>
-      <pubDate>Sun, 24 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</guid>
-      <description>修改 web.xml &amp;lt;weblogic-web-app xmlns=&amp;quot;http://www.bea.com/ns/weblogic/weblogic-web-app&amp;quot;&amp;gt; &amp;lt;session-descriptor&amp;gt; &amp;lt;cookies-enabled&amp;gt;true&amp;lt;/cookies-enabled&amp;gt; &amp;lt;/session-descriptor&amp;gt; &amp;lt;session-config&amp;gt; &amp;lt;tracking-mode&amp;gt;COOKIE&amp;lt;/tracking-mode&amp;gt; &amp;lt;/session-config&amp;gt;</description>
-    </item>
-    <item>
-      <title>Java代码获取http请求的整个URL</title>
-      <link>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
-      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - URL</title>
+        <link>https://www.samrainhan.com/tags/url/</link>
+        <description>Recent content - sam的小窝 - URL</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 24 Jul 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/url/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

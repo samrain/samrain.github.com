@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>手机 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%89%8B%E6%9C%BA/</link>
-    <description>Recent content in 手机 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>极度失望的印象笔记-人脉</title>
-      <link>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</link>
-      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</guid>
-      <description>今天被人骗用了下印象笔记的人脉，一泡5啊。 竟然要和linkdin连接起来用，这也就算了。 最让人吐槽的是：我要和别人碰面，新建这个活动的时候，</description>
-    </item>
-    <item>
-      <title>华为荣耀3X小贴士</title>
-      <link>https://www.samrainhan.com/posts/2014-05-25-tips-of-huawei-honor-3x/</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-25-tips-of-huawei-honor-3x/</guid>
-      <description>荣耀3X维修点及换屏费用一览 上海聚眸网络信息技术有限公司 China上海市上海市虹口区赤峰路602号 021-65830477 680元 海叶格通讯科技有限公司 China</description>
-    </item>
-    <item>
-      <title>拍张3D照片</title>
-      <link>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</guid>
-      <description>原帖在此：拍张 3D 照片 #iPhone #Android 共4款： Seene #iPhone Moju #iPhone Phogy #Android 织图#iPhone #Android 因为我倾向于用android手机，所以就不试验iphone下的2款了，抱歉。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 手机</title>
+        <link>https://www.samrainhan.com/tags/%E6%89%8B%E6%9C%BA/</link>
+        <description>Recent content - sam的小窝 - 手机</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 27 May 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Erlang on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/erlang/</link>
-    <description>Recent content in Erlang on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tsung</title>
-      <link>https://www.samrainhan.com/posts/2015-07-21-tsung/</link>
-      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
-      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Erlang</title>
+        <link>https://www.samrainhan.com/tags/erlang/</link>
+        <description>Recent content - sam的小窝 - Erlang</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 21 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

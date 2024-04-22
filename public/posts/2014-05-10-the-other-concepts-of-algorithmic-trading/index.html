@@ -1,155 +1,108 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>程序化交易的另一些概念 - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/">程序化交易的另一些概念</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2014-05-10" class="no-wrap"
-                                    title="Created at 2014/05/10">
-                                    2014-05-10</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2014-05-10" class="no-wrap"
-                                    title="Modifyed  at 2014/05/10">
-                                    2014-05-10</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>程序化交易的另一些概念 · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                1311 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
-<h2 id="报酬比原则">报酬比原则</h2>
 
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="程序化交易的另一些概念 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="报酬比原则 宏观环境影响 月周图表的技术趋势 咬定长期趋势 短线技术趋势判断 日线图表 3日/5日等短期均线的方向和角度 关键技术位置的评判 距离止损位置的"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/">
+
+
+
+
+
+
+
+<meta property="og:title" content="程序化交易的另一些概念 · sam的小窝">
+<meta property="og:description" content="报酬比原则 宏观环境影响 月周图表的技术趋势 咬定长期趋势 短线技术趋势判断 日线图表 3日/5日等短期均线的方向和角度 关键技术位置的评判 距离止损位置的"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                程序化交易的另一些概念
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <h2 id="报酬比原则">报酬比原则</h2>
 <ul>
 <li>宏观环境影响
-
 <ul>
 <li>月周图表的技术趋势</li>
 <li>咬定长期趋势</li>
-</ul></li>
+</ul>
+</li>
 <li>短线技术趋势判断
-
 <ul>
 <li>日线图表</li>
 <li>3日/5日等短期均线的方向和角度</li>
-</ul></li>
+</ul>
+</li>
 <li>关键技术位置的评判</li>
 <li>距离止损位置的分辨</li>
 </ul>
-
 <h2 id="一致性原则">一致性原则</h2>
-
 <p>始终一贯</p>
-
 <h2 id="安全性原则">安全性原则</h2>
-
 <ul>
 <li>首要</li>
 <li>投入多大资金</li>
@@ -160,36 +113,32 @@ ga('send', 'pageview');
 90%-1000%</li>
 <li>亏钱和赚钱都要调整止损位</li>
 </ul>
-
 <h2 id="资金管理策略">资金管理策略</h2>
-
 <ul>
 <li>建仓
-
 <ul>
 <li>均额</li>
 <li>简单比例</li>
 <li>复合比例</li>
-</ul></li>
+</ul>
+</li>
 <li>加仓
-
 <ul>
 <li>等额</li>
 <li>金字塔式</li>
 <li>菱形</li>
-</ul></li>
+</ul>
+</li>
 <li>补仓</li>
 <li>多元化交易
-
 <ul>
 <li>不同周期间复合交易</li>
 <li>不同品种间复合交易</li>
-</ul></li>
+</ul>
+</li>
 <li>程式化原则</li>
 </ul>
-
 <h2 id="资金管理">资金管理</h2>
-
 <ul>
 <li>一天中单个头寸最大损失1.5%</li>
 <li>一天中最大损失4%</li>
@@ -200,70 +149,47 @@ ga('send', 'pageview');
 <li>最大亏损在5%以内</li>
 <li>保证金在总资本的20%-25%以内</li>
 </ul>
-
 <h2 id="交易三策略">交易三策略</h2>
-
 <ul>
 <li>入市策略
-
-<ul>
-<li>趋势跟踪法</li>
-<li>振荡器法</li>
-<li>价格模式</li>
-</ul></li>
+- 趋势跟踪法
+- 振荡器法
+- 价格模式</li>
 <li>退出策略
-
 <ul>
 <li>目标盈利</li>
 <li>跟踪止损</li>
 <li>固定止损</li>
-</ul></li>
+</ul>
+</li>
 <li>过滤策略
-
 <ul>
 <li>筛选出最具有交易价值的交易信号</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h2 id="选取最适合的序列模式进行隔日投资">选取最适合的序列模式进行隔日投资</h2>
-
 <h2 id="止损策略">止损策略</h2>
-
 <h2 id="盘整行情不适合趋势交易">盘整行情不适合趋势交易</h2>
-
-<h2 id="计算指标的历史数据周期-建议2分钟-而后选择交易频率-越短的交易频率适用越短的数据周期">计算指标的历史数据周期（建议2分钟），而后选择交易频率。越短的交易频率适用越短的数据周期。</h2>
-
+<h2 id="计算指标的历史数据周期建议2分钟而后选择交易频率越短的交易频率适用越短的数据周期">计算指标的历史数据周期（建议2分钟），而后选择交易频率。越短的交易频率适用越短的数据周期。</h2>
 <h2 id="特雷诺指数">特雷诺指数</h2>
-
 <p>指数越大，承担系统风险所获得的超额收益越高</p>
-
 <h2 id="詹森指数">詹森指数</h2>
-
 <p>越大，基金投资组合的业绩越好业绩越好</p>
-
 <h2 id="夏普指数">夏普指数</h2>
-
 <p>越大，基金投资组合的承担单位风险所获得的补偿越好</p>
-
-<h2 id="特定的市场波动环境下-技术指标会出现失效-所以需要构建多重指标体系">特定的市场波动环境下，技术指标会出现失效，所以需要构建多重指标体系</h2>
-
-<h2 id="高频用kdj-1分钟-emv交易策略-15分钟">高频用KDJ（1分钟），EMV交易策略（15分钟）</h2>
-
+<h2 id="特定的市场波动环境下技术指标会出现失效所以需要构建多重指标体系">特定的市场波动环境下，技术指标会出现失效，所以需要构建多重指标体系</h2>
+<h2 id="高频用kdj1分钟emv交易策略15分钟">高频用KDJ（1分钟），EMV交易策略（15分钟）</h2>
 <h2 id="at">AT</h2>
-
 <ul>
 <li>交易频率选择（日、分钟或更高频）</li>
 <li>确定计算指标的历史数据周期</li>
 <li>技术指标的阀值，从而指定交易规则</li>
 <li>风险控制原则，最主要是止损策略</li>
 </ul>
-
 <h2 id="指数异动规避子策略">指数异动规避子策略</h2>
-
-<h2 id="越短的交易间隔越需要灵敏的技术指标-计算周期要求更短-但较长的计算周期对于把握长期趋势很有帮助">越短的交易间隔越需要灵敏的技术指标，计算周期要求更短。但较长的计算周期对于把握长期趋势很有帮助</h2>
-
+<h2 id="越短的交易间隔越需要灵敏的技术指标计算周期要求更短但较长的计算周期对于把握长期趋势很有帮助">越短的交易间隔越需要灵敏的技术指标，计算周期要求更短。但较长的计算周期对于把握长期趋势很有帮助</h2>
 <h2 id="趋势策略">趋势策略</h2>
-
 <ul>
 <li>价格和交易量为基础的统计指标组合</li>
 <li>趋势交易、模式识别、反向交易、动量交易、均值回复</li>
@@ -272,216 +198,167 @@ ga('send', 'pageview');
 <li>通道</li>
 <li>胜率低（1/3），但是收益高，盈利：损失保持在3：1</li>
 </ul>
-
 <h2 id="动量策略">动量策略</h2>
-
 <h2 id="摆动策略">摆动策略</h2>
-
 <h2 id="缺口回补策略">缺口回补策略</h2>
-
 <h2 id="模式识别">模式识别</h2>
-
 <h2 id="影响交易的三个因素">影响交易的三个因素</h2>
-
 <ul>
 <li>进场滑点</li>
 <li>网络状况</li>
 <li>交易纪律执行情况</li>
 </ul>
-
-<h2 id="周期在5-15分钟">周期在5/15分钟</h2>
-
+<h2 id="周期在515分钟">周期在5/15分钟</h2>
 <h2 id="轮动">轮动</h2>
-
 <p>提高资金使用率</p>
-
 <h2 id="理念">理念</h2>
-
 <ul>
 <li>上升趋势中价格先下降</li>
 <li>下降趋势中价格先上升</li>
 </ul>
-
 <h2 id="目标">目标</h2>
-
 <ul>
 <li>压力线卖空</li>
 <li>支撑线做多</li>
 </ul>
-
 <h2 id="执行">执行</h2>
-
 <ul>
 <li>找到一个交易方案
-
 <ul>
 <li>识别趋势</li>
 <li>等待一个回调价位</li>
 <li>等待一个回调模式</li>
-</ul></li>
+</ul>
+</li>
 <li>实施交易计划
-
 <ul>
 <li>确定进入的信号</li>
 <li>进入市场</li>
 <li>设置一个止损点</li>
 <li>管理交易</li>
 <li>获取利润</li>
-</ul></li>
 </ul>
-
-<h2 id="最后半小时的交易数据-1分钟收盘数据序列">最后半小时的交易数据（1分钟收盘数据序列）</h2>
-
+</li>
+</ul>
+<h2 id="最后半小时的交易数据1分钟收盘数据序列">最后半小时的交易数据（1分钟收盘数据序列）</h2>
 <ul>
 <li>思路一：设计技术指标观察是否进入超跌状态</li>
 <li>思路二：历史股价序列与隔日收益率挖掘序列模式</li>
 </ul>
-
 <h2 id="套利投资">套利投资</h2>
-
 <ul>
 <li>高速交易获得基差和价差的短期时间窗</li>
 <li>实现组合下单策略</li>
 <li>快速判断交易品种的流动性</li>
 <li>调整多个交易品种的内部匹配</li>
 </ul>
-
-<h2 id="5-30-60-日线图-周线图-恰当时间用适当交易系统收取最大收益">（5,30,60,日线图，周线图）恰当时间用适当交易系统收取最大收益</h2>
-
+<h2 id="53060日线图周线图恰当时间用适当交易系统收取最大收益">（5,30,60,日线图，周线图）恰当时间用适当交易系统收取最大收益</h2>
 <h2 id="多指标策略体系">多指标策略体系</h2>
-
 <p>根据市场波动条件选择合适的指标体系</p>
-
 <h2 id="小波分析">小波分析</h2>
-
 <p>小波降噪后的数据</p>
-
 <h2 id="均线交叉信号不适合盘整和快速剧烈波动">均线交叉信号不适合盘整和快速剧烈波动</h2>
-
 <h2 id="经常使用的指标">经常使用的指标</h2>
-
 <ul>
 <li>移动平均指标</li>
 <li>MACD</li>
 <li>ADX</li>
 <li>趋势线</li>
 </ul>
-
 <h2 id="失败三因素">失败三因素</h2>
-
 <ul>
 <li>无知</li>
 <li>轻信</li>
 <li>懒惰</li>
 </ul>
-
 <h2 id="成功三因素">成功三因素</h2>
-
 <ul>
 <li>方法</li>
 <li>资金管理</li>
 <li>心理因素</li>
 </ul>
-
 <h2 id="交易计划">交易计划</h2>
-
 <h2 id="投资流程">投资流程</h2>
-
 <ul>
 <li>准备</li>
 <li>启蒙</li>
 <li>研究交易类型</li>
 <li>选择交易市场</li>
 <li>三大支柱
-
 <ul>
 <li>方法</li>
 <li>资金管理</li>
 <li>心理因素</li>
-</ul></li>
+</ul>
+</li>
 <li>开始交易</li>
 </ul>
-
 <h2 id="交易的推荐方式">交易的推荐方式</h2>
-
 <ul>
-<li>简单化</li>
-<li>组织化</li>
-<li>确定性</li>
-<li>过程导向法</li>
-<li>积极预期</li>
-
-<li><p>正确的验证方法</p></li>
-
-<li><p>第一步是进行分析并确定方案</p></li>
-
-<li><p>第二步是根据交易计划把握时机将交易方案落到实处
-前一天晚上做出方案，第二天关注交易计划</p></li>
+<li>
+<p>简单化</p>
+</li>
+<li>
+<p>组织化</p>
+</li>
+<li>
+<p>确定性</p>
+</li>
+<li>
+<p>过程导向法</p>
+</li>
+<li>
+<p>积极预期</p>
+</li>
+<li>
+<p>正确的验证方法</p>
+</li>
+<li>
+<p>第一步是进行分析并确定方案</p>
+</li>
+<li>
+<p>第二步是根据交易计划把握时机将交易方案落到实处
+前一天晚上做出方案，第二天关注交易计划</p>
+</li>
 </ul>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">May 2014</div>
+    
 
 
+    
+    
 
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2014-01-18-the-concepts-of-algorithmic-trading/">程序化交易的一些概念</a></li>
+            
         </ul>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
+    
+
+</div></section>
+
     </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

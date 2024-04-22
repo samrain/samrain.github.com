@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>运营 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%BF%90%E8%90%A5/</link>
-    <description>Recent content in 运营 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Mar 2021 23:23:04 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%BF%90%E8%90%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>运营任务</title>
-      <link>https://www.samrainhan.com/posts/2021-03-14-operational-tasks/</link>
-      <pubDate>Sun, 14 Mar 2021 23:23:04 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-03-14-operational-tasks/</guid>
-      <description>运营任务 运营任务 拉新 售前 现场演示 编写方案 测试方案 推广方案 技术方案 POC 提供测试版给客户自己安装 现场安装 测试 投标 正式部署 留存 解决问题 远程解决问题 现</description>
-    </item>
-    <item>
-      <title>运营</title>
-      <link>https://www.samrainhan.com/posts/2021-03-13-operation/</link>
-      <pubDate>Sat, 13 Mar 2021 22:20:46 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-03-13-operation/</guid>
-      <description>运营 运营 准备 对自家产品有所理解 产品定位 能解决用户什么样的需求 用户会在什么样的场景下使用自家产品 自家产品在行业里地位如何 商业模式又是什么样的 自</description>
-    </item>
-    <item>
-      <title>社会化媒体运营</title>
-      <link>https://www.samrainhan.com/posts/2015-06-23-social-media-operators/</link>
-      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-23-social-media-operators/</guid>
-      <description>1、选择平台 2、确定内容方向和平台目标（提供服务 OR 提供内容） 3、日复一日坚持发布优质内容 OR 提供优质服务 4、在 3 的基础上，洞察可推广的机会</description>
-    </item>
-    <item>
-      <title>降低运营成本几点考虑</title>
-      <link>https://www.samrainhan.com/posts/2013-03-27-reduce-operating-costs/</link>
-      <pubDate>Wed, 27 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-27-reduce-operating-costs/</guid>
-      <description>思维导图文件下载 降低打印成本 办公设备总成本 首次采购成本 耗材成本 耗材消耗=平均每月耗材量12年数 耗材采购成本 耗材更换成本 维护成本 纸张消耗=每天</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 运营</title>
+        <link>https://www.samrainhan.com/tags/%E8%BF%90%E8%90%A5/</link>
+        <description>Recent content - sam的小窝 - 运营</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 14 Mar 2021 23:23:04 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%BF%90%E8%90%A5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

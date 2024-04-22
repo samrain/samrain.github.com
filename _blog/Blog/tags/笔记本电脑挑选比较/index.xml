@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>笔记本,电脑,挑选,比较 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8C%91%E9%80%89%E6%AF%94%E8%BE%83/</link>
-    <description>Recent content in 笔记本,电脑,挑选,比较 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Aug 2021 22:38:01 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8C%91%E9%80%89%E6%AF%94%E8%BE%83/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>笔记本电脑挑选比较</title>
-      <link>https://www.samrainhan.com/posts/2021-08-14-laptop-comparison/</link>
-      <pubDate>Sat, 14 Aug 2021 22:38:01 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-08-14-laptop-comparison/</guid>
-      <description>最低价 笔记本电脑型号 CPU 单CPU计算耗费时间（秒，越小越好） 剪辑耗费时间（妙，越小越好） 6099 R7000 R7-4800h 151 6499 战99 R7-5800h 167 无 机械革命S2AIR R7-4800h 168 5699 小新Pr</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 笔记本,电脑,挑选,比较</title>
+        <link>https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8C%91%E9%80%89%E6%AF%94%E8%BE%83/</link>
+        <description>Recent content - sam的小窝 - 笔记本,电脑,挑选,比较</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 14 Aug 2021 22:38:01 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8C%91%E9%80%89%E6%AF%94%E8%BE%83/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

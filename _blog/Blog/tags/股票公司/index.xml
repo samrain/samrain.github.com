@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>股票,公司 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8/</link>
-    <description>Recent content in 股票,公司 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:29:50 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>买股票就是买公司</title>
-      <link>https://www.samrainhan.com/posts/2021-01-31-buying-stocks-is-buying-companies/</link>
-      <pubDate>Sun, 31 Jan 2021 22:29:50 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-01-31-buying-stocks-is-buying-companies/</guid>
-      <description>买股票就是买公司 我自己认为的，这个行业的“终局”在哪？ 这个公司的核心团队认为“终局”在哪？ 我们的想法有什么不同？</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 股票,公司</title>
+        <link>https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8/</link>
+        <description>Recent content - sam的小窝 - 股票,公司</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 31 Jan 2021 22:29:50 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

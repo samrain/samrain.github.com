@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>orgmode on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/orgmode/</link>
-    <description>Recent content in orgmode on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Mar 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>orgmode中设置自动换行</title>
-      <link>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</link>
-      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</guid>
-      <description>orgmode中设置自动换行 最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写ma</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Orgmode</title>
+        <link>https://www.samrainhan.com/tags/orgmode/</link>
+        <description>Recent content - sam的小窝 - Orgmode</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 25 Mar 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

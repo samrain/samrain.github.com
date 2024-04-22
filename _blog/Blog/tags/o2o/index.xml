@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>O2O on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/o2o/</link>
-    <description>Recent content in O2O on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/o2o/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>O2O核心－重视和每个顾客的交流，和每个顾客建立良好关系</title>
-      <link>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</link>
-      <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</guid>
-      <description>随着社交媒体的广泛普及，在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流的O2O方式已经变得很平</description>
-    </item>
-    <item>
-      <title>如何通过修改文件配置Git远程链接</title>
-      <link>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</link>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</guid>
-      <description>修改文件.git/config，在[remote &amp;quot;origin&amp;quot;]一节中将url=改为远程链接。例如url = git@github.com:samrain/samrain.github.com.git 然后执行g</description>
-    </item>
-    <item>
-      <title>我看O2O</title>
-      <link>https://www.samrainhan.com/posts/2014-06-08-o2o/</link>
-      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-06-08-o2o/</guid>
-      <description>核心 重视和每个顾客的交流，和每个顾客建立良好关系 方式 在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - O2O</title>
+        <link>https://www.samrainhan.com/tags/o2o/</link>
+        <description>Recent content - sam的小窝 - O2O</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 08 Jul 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/o2o/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

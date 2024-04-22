@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>浏览器 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
-    <description>Recent content in 浏览器 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎么在chromium中安装flash插件</title>
-      <link>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</link>
-      <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</guid>
-      <description>近期由于用choco的缘故，就install了一个chromium，因为chrome一直不能自动更新。 开始用Chromium发现InfoQ不</description>
-    </item>
-    <item>
-      <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>
-      <link>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</guid>
-      <description>如果想要在 Chrome 上测试网站在不同设备，不同分辨率的显示情况，那么就试试 Chrome 开发工具的设备模拟器吧。进入到开发者工具（快捷键 F12），应该是在右下侧</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 浏览器</title>
+        <link>https://www.samrainhan.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+        <description>Recent content - sam的小窝 - 浏览器</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 20 Jan 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

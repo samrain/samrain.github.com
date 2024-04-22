@@ -1,292 +1,242 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>快速安装我的Lubuntu - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2013-10-16-install-lubuntu-faster/">快速安装我的Lubuntu</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2013-10-16" class="no-wrap"
-                                    title="Created at 2013/10/16">
-                                    2013-10-16</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2013-10-16" class="no-wrap"
-                                    title="Modifyed  at 2013/10/16">
-                                    2013-10-16</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>快速安装我的Lubuntu · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                794 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
-<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing">思维导图文件下载</a></p>
 
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="快速安装我的Lubuntu · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2013-10-16-install-lubuntu-faster/">
+
+
+
+
+
+
+
+<meta property="og:title" content="快速安装我的Lubuntu · sam的小窝">
+<meta property="og:description" content="思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2013-10-16-install-lubuntu-faster/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2013-10-16-install-lubuntu-faster/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                快速安装我的Lubuntu
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing">思维导图文件下载</a></p>
 <h2 id="install">Install</h2>
-
 <p>完全弱智图形化安装界面，暂且不表</p>
-
 <h2 id="更换软件源地址">更换软件源地址</h2>
-
 <ul>
-<li><p>运行<code>software-properties-gtk</code></p></li>
-
-<li><p>点击选择框【下载自：】，选择“其他站点&hellip;..”</p></li>
-
-<li><p>点击按钮【选择最佳服务器】，跳出窗口“测试下载服务器”。</p></li>
-
-<li><p>等待窗口自动关闭后，系统会自动选中某个地址，然后点击按钮【选择服务器】。</p></li>
-
-<li><p>这时系统会提示你输入管理员密码。</p></li>
-
-<li><p>输入管理员密码后确认，回到最初界面。</p></li>
-
-<li><p>点击按钮【关闭】</p></li>
+<li>
+<p>运行<code>software-properties-gtk</code></p>
+</li>
+<li>
+<p>点击选择框【下载自：】，选择“其他站点&hellip;..”</p>
+</li>
+<li>
+<p>点击按钮【选择最佳服务器】，跳出窗口“测试下载服务器”。</p>
+</li>
+<li>
+<p>等待窗口自动关闭后，系统会自动选中某个地址，然后点击按钮【选择服务器】。</p>
+</li>
+<li>
+<p>这时系统会提示你输入管理员密码。</p>
+</li>
+<li>
+<p>输入管理员密码后确认，回到最初界面。</p>
+</li>
+<li>
+<p>点击按钮【关闭】</p>
+</li>
 </ul>
-
 <h2 id="安装完lubuntu后安装所有应用程序">安装完Lubuntu后安装所有应用程序</h2>
-
-<script src="https://gist.github.com/samrain/dd4c88b1d219467763f2.js"></script>
-
+<!-- raw HTML omitted -->
 <h2 id="配置">配置</h2>
-
 <ul>
-<li><p>配置输入法</p>
-
+<li>
+<p>配置输入法</p>
 <ul>
 <li>首先重启PC</li>
 <li><code>ibus-setup</code>
-
 <ul>
 <li>【常规】选项
-
 <ul>
 <li>选择【候选词排列方向】为“水平”</li>
 <li>选择【显示语言栏】为“活动时”</li>
 <li>选中【在应用程序窗口中启用内嵌编辑模式】</li>
 <li>选中【使用自定义字体】，并设置字体为“文泉驿微米黑”，大小为“14”</li>
-</ul></li>
+</ul>
+</li>
 <li>【高级】选项
-
 <ul>
 <li>选中【在所有应用程序中共享同一个输入法】</li>
-</ul></li>
-</ul></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><code>/usr/lib/ibus-sunpinyin/ibus-setup-sunpinyin</code>
-
 <ul>
-<li>【Pinyin Mode】选项</li>
+<li>【Pinyin Mode】选项
+<ul>
 <li>选择【Fuzzy Pinyin】，点击按钮【Fuzzy Pinyin Setup】，选中分辨不清的拼音</li>
 <li>选择【Smart Segmentation】</li>
 <li>选择【Inner Fuzzy】</li>
-<li>【Keyboard】选项</li>
+</ul>
+</li>
+<li>【Keyboard】选项
+<ul>
 <li>【Page Flip】选择“-/=”</li>
-<li>【General】选项</li>
+</ul>
+</li>
+<li>【General】选项
+<ul>
 <li>【Candiate Num】选择“3”</li>
 <li>【Memory Strength】选择“3”</li>
-</ul></li>
-</ul></li>
-
-<li><p>配置freemind</p>
-
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>配置freemind</p>
 <ul>
-<li>复制文件到目录&rdquo;~/.freemind&rdquo;
-
+<li>复制文件到目录&quot;~/.freemind&quot;
 <ul>
 <li>&ldquo;patterns.xml&rdquo;()</li>
-<li>“auto.properties&rdquo;()</li>
-</ul></li>
-</ul></li>
-
-<li><p>配置Emacs</p>
-
-<p>复制文件到目录&rdquo;~/.emacs.d&rdquo;</p></li>
-
-<li><p>配置profile-sync-daemon</p>
-
-<p>修改文件&rdquo;/etc/psd.conf&rdquo;，在【USERS=&ldquo;&ldquo;】输入用户名</p></li>
-
-<li><p>配置remmina</p>
-
-<p>复制所有的remmina文件到目录&rdquo;~/.remmina&rdquo;</p></li>
-
-<li><p>配置virtualbox</p>
-
-<p>导入之前的WinXP虚拟机</p></li>
-
-<li><p>配置calibre</p>
-
-<p>导入之前的电子书</p></li>
+<li>“auto.properties&quot;()</li>
 </ul>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
+</li>
+</ul>
+</li>
+<li>
+<p>配置Emacs</p>
+<p>复制文件到目录&quot;~/.emacs.d&quot;</p>
+</li>
+<li>
+<p>配置profile-sync-daemon</p>
+<p>修改文件&quot;/etc/psd.conf&quot;，在【USERS=&quot;&quot;】输入用户名</p>
+</li>
+<li>
+<p>配置remmina</p>
+<p>复制所有的remmina文件到目录&quot;~/.remmina&quot;</p>
+</li>
+<li>
+<p>配置virtualbox</p>
+<p>导入之前的WinXP虚拟机</p>
+</li>
+<li>
+<p>配置calibre</p>
+<p>导入之前的电子书</p>
+</li>
+</ul>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Oct 2013</div>
+    
 
 
+    
+    
 
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2013-09-03-mdad-mini-resurrection/">耳放MDAD Mini满血复活</a></li>
+            
+            <li><a href="/posts/2013-05-07-ocr-in-linux/">linux下中文OCR</a></li>
+            
+            <li><a href="/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/">怎么设置Terminator中的复制和粘帖快捷键</a></li>
+            
+            <li><a href="/posts/2013-01-15-disk-fragmentation/">解密磁盘碎片</a></li>
+            
+            <li><a href="/posts/2010-03-24-what-the-epoll/">What&#39;s the EPOLL(转)</a></li>
+            
         </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        </ul>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
+    
+
+</div></section>
+
     </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

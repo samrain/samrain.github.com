@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>建博客 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-    <description>Recent content in 建博客 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>用Freemind写博客</title>
-      <link>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</link>
-      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</guid>
-      <description>思维导图文件下载 What mm文件变成md文件 Why 写作简单 发布简单 记忆简单 修改简单 How 用Freemind写博客，然后保存成mm文件 上传到Google Dr</description>
-    </item>
-    <item>
-      <title>通过Github建博客</title>
-      <link>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</link>
-      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</guid>
-      <description>思维导图文件下载 登录Github 创建repo 名字必须是$username$.github.com 创建disqus帐号 Site URL = $username$.github.com shortname = $username$blogbygithub Site Name = $username$-blog-by-github Install</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 建博客</title>
+        <link>https://www.samrainhan.com/tags/%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <description>Recent content - sam的小窝 - 建博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 10 Dec 2012 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

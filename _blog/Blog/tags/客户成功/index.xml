@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>客户成功 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/</link>
-    <description>Recent content in 客户成功 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Sep 2022 08:46:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>客户成功助手</title>
-      <link>https://www.samrainhan.com/posts/2022-09-14-customer-success-assistant/</link>
-      <pubDate>Wed, 14 Sep 2022 08:46:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-09-14-customer-success-assistant/</guid>
-      <description>客户成功助手（以下简称客成助手） 业务场景一 用户提出问题给客户成功经理，客户成功经理将问题发送给客成助手，客成助手能返回问题的最适合答案。如果</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 客户成功</title>
+        <link>https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/</link>
+        <description>Recent content - sam的小窝 - 客户成功</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 14 Sep 2022 08:46:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

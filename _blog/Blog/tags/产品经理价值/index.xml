@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>产品经理,价值 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%BB%B7%E5%80%BC/</link>
-    <description>Recent content in 产品经理,价值 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Sep 2018 09:59:49 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>产品经理的核心价值是什么</title>
-      <link>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</link>
-      <pubDate>Tue, 11 Sep 2018 09:59:49 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/</guid>
-      <description>发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 产品经理,价值</title>
+        <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%BB%B7%E5%80%BC/</link>
+        <description>Recent content - sam的小窝 - 产品经理,价值</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 11 Sep 2018 09:59:49 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

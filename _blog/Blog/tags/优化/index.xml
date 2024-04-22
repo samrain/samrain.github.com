@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>优化 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BC%98%E5%8C%96/</link>
-    <description>Recent content in 优化 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 18 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>优化Web网站性能</title>
-      <link>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</link>
-      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</guid>
-      <description>静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量</description>
-    </item>
-    <item>
-      <title>优化ifelse和switch代码</title>
-      <link>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</link>
-      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</guid>
-      <description>概率高的放前面 嵌套Switch语句 概率高的放在一个switch 表驱动 最基本的解决办法就是把多个判断条件合成一个，也就是把若干个分支合成一个。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 优化</title>
+        <link>https://www.samrainhan.com/tags/%E4%BC%98%E5%8C%96/</link>
+        <description>Recent content - sam的小窝 - 优化</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 18 Jul 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 治疗,癌症,营养</title>
+        <link>http://localhost:55555/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/</link>
+        <description>Recent content - sam的小窝 - 治疗,癌症,营养</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 30 Jul 2022 17:25:25 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

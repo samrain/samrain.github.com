@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>百度 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%99%BE%E5%BA%A6/</link>
-    <description>Recent content in 百度 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 30 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%99%BE%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FIS 前端发布工具 百度出品</title>
-      <link>https://www.samrainhan.com/posts/2016-05-30-fis/</link>
-      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-05-30-fis/</guid>
-      <description>配置文件范例fis-conf.js //fis.config.set(&#39;modules.postpackager&#39;, &#39;simple&#39;); //Step 2. 取消下面的注释开启pack人工干预 //fis.config.set(&#39;pack&#39;, { // &#39;pkg/lib.js&#39;: [ // &#39;/lib/mod.js&#39;, // &#39;/modules/underscore/**.js&#39;, // &#39;/modules/backbone/**.js&#39;, // &#39;/modules/jquery/**.js&#39;, // &#39;/modules/vendor/**.js&#39;, // &#39;/modules/common/**.js&#39; // ] //}); //Step 3. 取消下面的注释可以开</description>
-    </item>
-    <item>
-      <title>（转）百度前端团队F.I.S 提倡的三种语言能力</title>
-      <link>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</link>
-      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</guid>
-      <description>有了这三种语言能力，你的团队前端工业化水平将有很大的提升。 ##资源定位 获取任何开发中所使用资源的线上路径。 可以有效的分离开发路径与部署路径之</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 百度</title>
+        <link>https://www.samrainhan.com/tags/%E7%99%BE%E5%BA%A6/</link>
+        <description>Recent content - sam的小窝 - 百度</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 30 May 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%99%BE%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>.net on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/.net/</link>
-    <description>Recent content in .net on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Nlog心得</title>
-      <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
-      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
-    </item>
-    <item>
-      <title>asmx文件是干什么的</title>
-      <link>https://www.samrainhan.com/posts/2015-03-11-asmx/</link>
-      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-03-11-asmx/</guid>
-      <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - .NET</title>
+        <link>https://www.samrainhan.com/tags/.net/</link>
+        <description>Recent content - sam的小窝 - .NET</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 11 May 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

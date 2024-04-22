@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>诊断 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%AF%8A%E6%96%AD/</link>
-    <description>Recent content in 诊断 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%AF%8A%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DNS工具</title>
-      <link>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</link>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</guid>
-      <description>域名健康诊断 dnspod.cn 我的PC上最优DNS服务器是哪个? dnspod.cn</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 诊断</title>
+        <link>https://www.samrainhan.com/tags/%E8%AF%8A%E6%96%AD/</link>
+        <description>Recent content - sam的小窝 - 诊断</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 30 Jul 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%AF%8A%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

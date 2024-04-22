@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>3D on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/3d/</link>
-    <description>Recent content in 3D on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/3d/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>拍张3D照片</title>
-      <link>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</guid>
-      <description>原帖在此：拍张 3D 照片 #iPhone #Android 共4款： Seene #iPhone Moju #iPhone Phogy #Android 织图#iPhone #Android 因为我倾向于用android手机，所以就不试验iphone下的2款了，抱歉。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 3D</title>
+        <link>https://www.samrainhan.com/tags/3d/</link>
+        <description>Recent content - sam的小窝 - 3D</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 25 May 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

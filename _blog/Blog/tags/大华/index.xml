@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>大华 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%A4%A7%E5%8D%8E/</link>
-    <description>Recent content in 大华 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Mar 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%A4%A7%E5%8D%8E/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>大华附近的宝山区小学一览</title>
-      <link>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</link>
-      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</guid>
-      <description>大场镇小学 场联路135号 56685439 大场中心小学 南大路16弄6号 56681359 大华小学 华灵路623号 66344669 大华二小 大华路863号 66396066 行知小学 行知路389弄1号 66395528 嘉华小学</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 大华</title>
+        <link>https://www.samrainhan.com/tags/%E5%A4%A7%E5%8D%8E/</link>
+        <description>Recent content - sam的小窝 - 大华</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 17 Mar 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%A4%A7%E5%8D%8E/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

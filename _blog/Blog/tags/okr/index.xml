@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OKR on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/okr/</link>
-    <description>Recent content in OKR on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Mar 2023 15:04:49 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/okr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OKR</title>
-      <link>https://www.samrainhan.com/posts/2023-03-08-okr/</link>
-      <pubDate>Wed, 08 Mar 2023 15:04:49 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-03-08-okr/</guid>
-      <description>OKR和KPI的区别主要在于： 作用环节：OKR主要用于绩效生产，KPI可以作为绩效评价的工具； 适用业务： 劳动密集型 业务标准流程通过SOP+K</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - OKR</title>
+        <link>https://www.samrainhan.com/tags/okr/</link>
+        <description>Recent content - sam的小窝 - OKR</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 08 Mar 2023 15:04:49 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/okr/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

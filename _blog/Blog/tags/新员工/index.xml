@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>新员工 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%96%B0%E5%91%98%E5%B7%A5/</link>
-    <description>Recent content in 新员工 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Dec 2020 23:30:03 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%96%B0%E5%91%98%E5%B7%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>新员工指导工作一览</title>
-      <link>https://www.samrainhan.com/posts/2020-12-12-list-of-new-employee-guidance/</link>
-      <pubDate>Sat, 12 Dec 2020 23:30:03 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2020-12-12-list-of-new-employee-guidance/</guid>
-      <description>新员工指导工作一览 企业文化传递 为新员工介绍公司的发展历史、发展前景及发展战略，介绍所属行业的发展情况； 积极宣导公司的价值观，帮助被指导员工不</description>
-    </item>
-    <item>
-      <title>新员工入职流程</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-checkin-process-for-new-employees/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-checkin-process-for-new-employees/</guid>
-      <description>人事部发出Offer给用人单位负责人 用人单位负责人回复同意 人事部发出正式offer给新员工个人邮箱，同时抄送给用人单位负责人。 用人单位负责人</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 新员工</title>
+        <link>https://www.samrainhan.com/tags/%E6%96%B0%E5%91%98%E5%B7%A5/</link>
+        <description>Recent content - sam的小窝 - 新员工</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 12 Dec 2020 23:30:03 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%96%B0%E5%91%98%E5%B7%A5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

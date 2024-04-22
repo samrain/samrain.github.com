@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tool on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/tool/</link>
-    <description>Recent content in tool on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Mar 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的工具</title>
-      <link>https://www.samrainhan.com/posts/2013-03-21-my-tools/</link>
-      <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-21-my-tools/</guid>
-      <description>思维导图文件下载 Office Google Drive WPS RAW照片文件编辑工具 Darktable 下载工具 Qbittorrent 代码托管 Github Bitbucket 图形文件编辑工具 GIMP 在线阅读 Google Reader 多显示器配置工具 arandr 思维导图工具 Freemind 文本编辑</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Tool</title>
+        <link>https://www.samrainhan.com/tags/tool/</link>
+        <description>Recent content - sam的小窝 - Tool</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 21 Mar 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

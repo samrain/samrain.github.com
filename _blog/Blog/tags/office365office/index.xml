@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Office365,office on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/office365office/</link>
-    <description>Recent content in Office365,office on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Dec 2019 23:12:31 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/office365office/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>office365的10件事</title>
-      <link>https://www.samrainhan.com/posts/2019-12-06-ten-things-of-o365/</link>
-      <pubDate>Fri, 06 Dec 2019 23:12:31 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-12-06-ten-things-of-o365/</guid>
-      <description>O365十件事 业界精英的选择 中国SAAS云服务中国市场份额No1 85%全球财富500强企业使用Office365 以实现高校的协作，安全的内容</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Office365,office</title>
+        <link>https://www.samrainhan.com/tags/office365office/</link>
+        <description>Recent content - sam的小窝 - Office365,office</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 06 Dec 2019 23:12:31 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/office365office/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

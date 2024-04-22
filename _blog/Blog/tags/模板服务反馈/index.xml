@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>模板,服务,反馈 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E6%9C%8D%E5%8A%A1%E5%8F%8D%E9%A6%88/</link>
-    <description>Recent content in 模板,服务,反馈 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jan 2020 23:05:58 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E6%9C%8D%E5%8A%A1%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>模板@现场服务反馈表</title>
-      <link>https://www.samrainhan.com/posts/2020-01-01-field-service-feedback-form/</link>
-      <pubDate>Tue, 21 Jan 2020 23:05:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2020-01-01-field-service-feedback-form/</guid>
-      <description>模板@现场服务反馈表</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 模板,服务,反馈</title>
+        <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E6%9C%8D%E5%8A%A1%E5%8F%8D%E9%A6%88/</link>
+        <description>Recent content - sam的小窝 - 模板,服务,反馈</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 21 Jan 2020 23:05:58 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF%E6%9C%8D%E5%8A%A1%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

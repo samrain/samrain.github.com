@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PowerShell on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/powershell/</link>
-    <description>Recent content in PowerShell on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PowerShell如何远程连接</title>
-      <link>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</link>
-      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</guid>
-      <description>在服务器上用管理员权限打开PowerShell终端 在PowerShell终端上执行Enable-PSRemoting，之后的确认操作，全部选</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - PowerShell</title>
+        <link>https://www.samrainhan.com/tags/powershell/</link>
+        <description>Recent content - sam的小窝 - PowerShell</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 26 Dec 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

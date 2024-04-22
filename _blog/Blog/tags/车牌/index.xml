@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>车牌 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%BD%A6%E7%89%8C/</link>
-    <description>Recent content in 车牌 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Mar 2023 09:28:52 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%BD%A6%E7%89%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>选号</title>
-      <link>https://www.samrainhan.com/posts/2023-03-06-number-selection/</link>
-      <pubDate>Mon, 06 Mar 2023 09:28:52 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-03-06-number-selection/</guid>
-      <description>最佳组合 数字价值排序为：8、6、9、0、1、7、5、3、2、4。 字母价值排序为：X、F、S、R、T、U、H、K、E、M、A、V、N、Y、L、</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 车牌</title>
+        <link>https://www.samrainhan.com/tags/%E8%BD%A6%E7%89%8C/</link>
+        <description>Recent content - sam的小窝 - 车牌</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 06 Mar 2023 09:28:52 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%BD%A6%E7%89%8C/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

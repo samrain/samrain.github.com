@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Virtualbox on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/virtualbox/</link>
-    <description>Recent content in Virtualbox on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>virtualbox静默启动虚拟机</title>
-      <link>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</link>
-      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/</guid>
-      <description>VBoxManage startvm [vm-name] &amp;ndash;type headless</description>
-    </item>
-    <item>
-      <title>备份virtualbox虚拟机</title>
-      <link>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-23-backup-virtualbox/</guid>
-      <description>1.确保虚拟机已经关闭 查看还有没有运行的虚拟机。 VBoxManage list runningvms 2.备份虚拟机 VBoxManage export %虚拟机名称% --ovf20 --manifest -o %备份目录%/XXXX.ova</description>
-    </item>
-    <item>
-      <title>怎么调整virtualbx的虚拟磁盘大小</title>
-      <link>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</link>
-      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</guid>
-      <description>WHY 为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了</description>
-    </item>
-    <item>
-      <title>virtualbox</title>
-      <link>https://www.samrainhan.com/posts/2014-08-31-virtualbox/</link>
-      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-31-virtualbox/</guid>
-      <description>如何复制已安装好系统的VDI文件作为新的Guest系统磁盘使用? 在VBox中如何和母机共享文件呢，就是在菜单“分配数据空间”里面把母机上面的</description>
-    </item>
-    <item>
-      <title>Install Gentoo In Virtualbox</title>
-      <link>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/</guid>
-      <description>思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Virtualbox</title>
+        <link>https://www.samrainhan.com/tags/virtualbox/</link>
+        <description>Recent content - sam的小窝 - Virtualbox</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 26 Jun 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 技术,人员,分级</title>
+        <link>http://localhost:55555/tags/%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%E5%88%86%E7%BA%A7/</link>
+        <description>Recent content - sam的小窝 - 技术,人员,分级</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 25 Aug 2021 17:01:52 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%E5%88%86%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>客户成功,经理 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86/</link>
-    <description>Recent content in 客户成功,经理 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Feb 2021 21:26:56 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>客户成功经理</title>
-      <link>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</link>
-      <pubDate>Mon, 15 Feb 2021 21:26:56 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-02-15-who-is-customer-success-manager/</guid>
-      <description>客户成功经理 CSM定义 Customer Success Manager：客户成功经理（指负责客户成功的基层同事），简称CSM。 大多数的销售模式大多数采用的是销售＋客户服务</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 客户成功,经理</title>
+        <link>https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86/</link>
+        <description>Recent content - sam的小窝 - 客户成功,经理</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 15 Feb 2021 21:26:56 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

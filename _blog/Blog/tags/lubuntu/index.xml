@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lubuntu on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/lubuntu/</link>
-    <description>Recent content in lubuntu on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/lubuntu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>快速安装我的Lubuntu V2.0版</title>
-      <link>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</link>
-      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</guid>
-      <description>Install 完全弱智图形化安装界面，如果是新手请选择自动分配空间. 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：</description>
-    </item>
-    <item>
-      <title>快速安装我的Lubuntu</title>
-      <link>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</link>
-      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</guid>
-      <description>思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Lubuntu</title>
+        <link>https://www.samrainhan.com/tags/lubuntu/</link>
+        <description>Recent content - sam的小窝 - Lubuntu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 09 May 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/lubuntu/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AWS on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/aws/</link>
-    <description>Recent content in AWS on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AWS使用心得</title>
-      <link>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</link>
-      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</guid>
-      <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
-    </item>
-    <item>
-      <title>AWS SQS和SNS的区别</title>
-      <link>https://www.samrainhan.com/posts/2015-06-09-difference-of-aws-sqs-and-sns/</link>
-      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-09-difference-of-aws-sqs-and-sns/</guid>
-      <description>SNS 无延迟 1条Message可以被多个订阅者取到 SQS 有延迟 一条Message被一个订阅者取掉后，其他订阅者取不道了。 附 stack overflow上的一条</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - AWS</title>
+        <link>https://www.samrainhan.com/tags/aws/</link>
+        <description>Recent content - sam的小窝 - AWS</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 22 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

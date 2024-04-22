@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>便利店 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BE%BF%E5%88%A9%E5%BA%97/</link>
-    <description>Recent content in 便利店 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Sep 2023 10:29:04 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BE%BF%E5%88%A9%E5%BA%97/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>摘抄之零售的哲学：7-Eleven便利店创始人自述</title>
-      <link>https://www.samrainhan.com/posts/2023-09-26-excerpt-the-philosophy-of-retailing-narrated-by-the-founder-of-7-eleven-convenience-store/</link>
-      <pubDate>Tue, 26 Sep 2023 10:29:04 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-26-excerpt-the-philosophy-of-retailing-narrated-by-the-founder-of-7-eleven-convenience-store/</guid>
-      <description>零售の哲学 做不了基础工作的人也无力发起革新。 只要有发现问题的意识，有效的信息自然就会出现。 不要随口说出数值目标。 越看似赚钱的事业越容易饱和。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 便利店</title>
+        <link>https://www.samrainhan.com/tags/%E4%BE%BF%E5%88%A9%E5%BA%97/</link>
+        <description>Recent content - sam的小窝 - 便利店</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 26 Sep 2023 10:29:04 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BE%BF%E5%88%A9%E5%BA%97/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 管理,效率,交流,合作</title>
+        <link>http://localhost:55555/tags/%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%E4%BA%A4%E6%B5%81%E5%90%88%E4%BD%9C/</link>
+        <description>Recent content - sam的小窝 - 管理,效率,交流,合作</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 01 Jul 2021 11:20:58 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%E4%BA%A4%E6%B5%81%E5%90%88%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

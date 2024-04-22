@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 矩阵,模型</title>
+        <link>http://localhost:55555/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/</link>
+        <description>Recent content - sam的小窝 - 矩阵,模型</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 01 Jun 2021 08:46:13 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

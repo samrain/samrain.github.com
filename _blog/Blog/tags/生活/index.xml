@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>生活 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%94%9F%E6%B4%BB/</link>
-    <description>Recent content in 生活 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Aug 2022 00:31:16 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>科技大佬一天工作生活计划</title>
-      <link>https://www.samrainhan.com/posts/2022-08-20-day-work-life-plan/</link>
-      <pubDate>Sat, 20 Aug 2022 00:31:16 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-20-day-work-life-plan/</guid>
-      <description>科技大佬一天工作生活计划 [[咒语]] 5分钟 自我行为准则(社交网络一天不超过3次,总时间不超过10分钟；锻炼身体；健康饮食) 感恩(感谢还活着,</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 生活</title>
+        <link>https://www.samrainhan.com/tags/%E7%94%9F%E6%B4%BB/</link>
+        <description>Recent content - sam的小窝 - 生活</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 20 Aug 2022 00:31:16 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>保障 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BF%9D%E9%9A%9C/</link>
-    <description>Recent content in 保障 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 06 Dec 2023 10:41:02 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%9D%E9%9A%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>服务保障能力建设</title>
-      <link>https://www.samrainhan.com/posts/2023-12-06-service-guarantee-capacity-building/</link>
-      <pubDate>Wed, 06 Dec 2023 10:41:02 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-06-service-guarantee-capacity-building/</guid>
-      <description>售后服务方面，企业服务保障方面的管理机制有哪些？ 组建独立的服务保障团队，包含各种岗位角色，有清晰的结构设计，制定岗位职责说明书和任职体系标准</description>
-    </item>
-    <item>
-      <title>后勤保障组</title>
-      <link>https://www.samrainhan.com/posts/2022-11-01-logistics-support-group/</link>
-      <pubDate>Tue, 01 Nov 2022 10:49:46 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-11-01-logistics-support-group/</guid>
-      <description>对前方各项工作的保障。全面、及时、不间断的后勤保障，是巩固和提高战斗力，完成KPI和各项任务的重要保证。 职能 物质保障 主要包括工作需要的软件、</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 保障</title>
+        <link>https://www.samrainhan.com/tags/%E4%BF%9D%E9%9A%9C/</link>
+        <description>Recent content - sam的小窝 - 保障</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 06 Dec 2023 10:41:02 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%9D%E9%9A%9C/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

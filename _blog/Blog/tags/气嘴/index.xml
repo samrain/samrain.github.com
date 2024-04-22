@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>气嘴 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%B0%94%E5%98%B4/</link>
-    <description>Recent content in 气嘴 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 27 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%B0%94%E5%98%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>自行车气嘴</title>
-      <link>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</link>
-      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</guid>
-      <description>法嘴 Presta Valve，公路车内胎或者管胎 优点：放气、微调气压较方便，也容易把气完全放掉。 缺点：需要特殊气针。 打气方式 将红色箭头处逆时针松开后，用</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 气嘴</title>
+        <link>https://www.samrainhan.com/tags/%E6%B0%94%E5%98%B4/</link>
+        <description>Recent content - sam的小窝 - 气嘴</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 27 Jun 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%B0%94%E5%98%B4/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>合作伙伴,销售,支持 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E9%94%80%E5%94%AE%E6%94%AF%E6%8C%81/</link>
-    <description>Recent content in 合作伙伴,销售,支持 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Apr 2021 09:14:20 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E9%94%80%E5%94%AE%E6%94%AF%E6%8C%81/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>针对合作伙伴销售的三个阶段的支持</title>
-      <link>https://www.samrainhan.com/posts/2021-04-27-support-for-the-three-stages-of-partner-sales/</link>
-      <pubDate>Tue, 27 Apr 2021 09:14:20 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-04-27-support-for-the-three-stages-of-partner-sales/</guid>
-      <description>针对合作伙伴销售的三个阶段的支持 售前 需求挖掘 售中 方案支持 技术交流 客户拜访 技术测试 售后 技术支持 客户服务</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 合作伙伴,销售,支持</title>
+        <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E9%94%80%E5%94%AE%E6%94%AF%E6%8C%81/</link>
+        <description>Recent content - sam的小窝 - 合作伙伴,销售,支持</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 27 Apr 2021 09:14:20 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E9%94%80%E5%94%AE%E6%94%AF%E6%8C%81/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

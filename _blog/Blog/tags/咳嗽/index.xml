@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咳嗽 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%92%B3%E5%97%BD/</link>
-    <description>Recent content in 咳嗽 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Jan 2023 10:21:29 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%92%B3%E5%97%BD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咳嗽四大原因</title>
-      <link>https://www.samrainhan.com/posts/2023-01-10-four-major-causes-of-cough/</link>
-      <pubDate>Tue, 10 Jan 2023 10:21:29 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-10-four-major-causes-of-cough/</guid>
-      <description>1. 鼻后滴漏综合征/鼻窦炎 现象： 鼻塞 躺下更糟 解决方案： 喝足够水分 鼻窦冲洗 吸入蒸汽 类固醇喷雾剂/口服类固醇 2. 胃食管反流 现象： 平躺时更糟 某些食物会</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 咳嗽</title>
+        <link>https://www.samrainhan.com/tags/%E5%92%B3%E5%97%BD/</link>
+        <description>Recent content - sam的小窝 - 咳嗽</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 10 Jan 2023 10:21:29 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%92%B3%E5%97%BD/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

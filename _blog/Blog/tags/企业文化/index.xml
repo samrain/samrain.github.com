@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>企业文化 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/</link>
-    <description>Recent content in 企业文化 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Jan 2023 08:49:34 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谷歌十诫</title>
-      <link>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</link>
-      <pubDate>Wed, 04 Jan 2023 08:49:34 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</guid>
-      <description>一切以用户为中心,其他一切纷至沓来 Focus on the user and all else will follow. 把一件事做到极致. It’s best to do one thing really, really well. 快比慢好. Fast is better than slow. 网络社会需要民主. Democracy on the web</description>
-    </item>
-    <item>
-      <title>（转）外企、企业文化、人性</title>
-      <link>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</link>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</guid>
-      <description>外企刻意制造并利用人性中一个很可怕的弱点——优越感。 外企怎么可能没有勾心斗角，每个企业都需要“善于勾心斗角”的人，再大的企业都一样，要不然怎</description>
-    </item>
-    <item>
-      <title>企业文化墙</title>
-      <link>https://www.samrainhan.com/posts/2013-04-23-enterprise-culture-wall/</link>
-      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-04-23-enterprise-culture-wall/</guid>
-      <description>思维导图文件下载 海报 标语 KISS——Keep It Simple &amp;amp; Stupid 谦虚、谨慎、勤奋、有恒——更快、更高、更强 没有完美的个人，只有趋于完美的团队 Logo 风采 个人 照</description>
-    </item>
-    <item>
-      <title>企业文化摘录</title>
-      <link>https://www.samrainhan.com/posts/2013-03-25-excerpts-of-corporate-culture/</link>
-      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-25-excerpts-of-corporate-culture/</guid>
-      <description>思维导图文件下载 企业常青树有一个共同 点，那就是“邪教式文化（cult-like culture）” Facebook座右铭：快速行动，打破常规 震</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 企业文化</title>
+        <link>https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/</link>
+        <description>Recent content - sam的小窝 - 企业文化</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 04 Jan 2023 08:49:34 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

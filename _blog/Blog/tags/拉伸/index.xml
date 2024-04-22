@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>拉伸 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%8B%89%E4%BC%B8/</link>
-    <description>Recent content in 拉伸 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Nov 2022 09:55:28 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%8B%89%E4%BC%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>静态拉伸</title>
-      <link>https://www.samrainhan.com/posts/2022-11-16-static-stretching/</link>
-      <pubDate>Wed, 16 Nov 2022 09:55:28 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-11-16-static-stretching/</guid>
-      <description>上斜方肌 坐姿,一侧手伸向身后，抓住椅子边缘。同侧肩或上臂有轻微的拉拽感。上半身向另一侧倾斜，保持头部竖 直。试着向天花板方向抬起同侧肩膀保持5</description>
-    </item>
-    <item>
-      <title> 10个最好的动态拉伸动作</title>
-      <link>https://www.samrainhan.com/posts/2022-08-16-10-best-dynamic-stretching-exercises/</link>
-      <pubDate>Tue, 16 Aug 2022 08:30:04 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-16-10-best-dynamic-stretching-exercises/</guid>
-      <description>10个最好的动态拉伸动作 撑地爬行（Inch worms）这个动作总共做10下。 双90度拉伸（90/90 Streches）这个动作一条腿5下。 旋</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 拉伸</title>
+        <link>https://www.samrainhan.com/tags/%E6%8B%89%E4%BC%B8/</link>
+        <description>Recent content - sam的小窝 - 拉伸</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 16 Nov 2022 09:55:28 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%8B%89%E4%BC%B8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

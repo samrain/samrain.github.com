@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>加密,密码,dropbox on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/</link>
-    <description>Recent content in 加密,密码,dropbox on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Sep 2018 16:24:46 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dropbox的用户密码加密机制</title>
-      <link>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</link>
-      <pubDate>Wed, 12 Sep 2018 16:24:46 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/</guid>
-      <description>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 加密,密码,dropbox</title>
+        <link>https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/</link>
+        <description>Recent content - sam的小窝 - 加密,密码,dropbox</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 12 Sep 2018 16:24:46 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

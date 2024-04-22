@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>import on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/import/</link>
-    <description>Recent content in import on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 Jul 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/import/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎样导入google日历</title>
-      <link>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</link>
-      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</guid>
-      <description>思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Import</title>
+        <link>https://www.samrainhan.com/tags/import/</link>
+        <description>Recent content - sam的小窝 - Import</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 31 Jul 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/import/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

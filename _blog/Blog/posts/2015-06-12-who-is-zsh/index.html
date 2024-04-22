@@ -1,227 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> zsh是什么 | sam的小窝</title>
-  <meta name="description" content="学习 &amp; 生活">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="zsh是什么" />
-<meta property="og:description" content="安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2015-06-12T00:00:00+00:00" />
-<meta property="article:modified_time" content="2015-06-12T00:00:00+00:00" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="zsh是什么"/>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+
+
+
+    
+
+<title>zsh是什么 · sam的小窝</title>
+
+
+
+
+
+
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="zsh是什么 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
 <meta name="twitter:description" content="安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会"/>
+<meta property="twitter:url" content="https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/">
 
-  
-  
+
+
+
+
+
+
+<meta property="og:title" content="zsh是什么 · sam的小窝">
+<meta property="og:description" content="安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会"/>
+
+<meta property="og:url" content="https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/">
+
+
     
-  
-  
-  <link rel="stylesheet" href="https://www.samrainhan.com/css/style-dark.css">
-  
-  
-  
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
 
-  
-<link rel="icon" type="image/png" href="https://www.samrainhan.com/images/favicon.ico" />
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-  
-  
-  
-  
-  
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
     
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-37708730-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-  
-  
-</head>
-
-<body class="max-width mx-auto px3 ltr">
-  <div class="content index py4">
-
-  <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        <li>
-          <a class="icon" href=" https://www.samrainhan.com/posts/2015-06-11-five-basic-training-program/">
-            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a class="icon" href="https://www.samrainhan.com/posts/2015-06-13-tsinghua-university-preparatory-school-reading-list/">
-            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
-          </a>
-        </li>
-        
-        <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="#">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-      <span id="i-next" class="info" style="display:none;">Next post</span>
-      <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
-    
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&text=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&is_video=false&description=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=zsh%e6%98%af%e4%bb%80%e4%b9%88&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&name=zsh%e6%98%af%e4%bb%80%e4%b9%88&description=%e5%ae%89%e8%a3%85%20wget%20https%3a%2f%2fgithub.com%2frobbyrussell%2foh-my-zsh%2fraw%2fmaster%2ftools%2finstall.sh%20-O%20-%20%7c%20sh%20chsh%20-s%20%2fbin%2fzsh%20%e7%89%9bB%e5%9c%b0%e6%96%b9%20%23%23%231.%e4%b8%87%e8%83%bd%e7%9a%84TAB%20%e4%b8%8d%e4%bb%85%e5%8f%af%e4%bb%a5%e8%87%aa%e5%8a%a8%e8%a1%a5%e5%85%a8%e5%91%bd%e4%bb%a4%ef%bc%8c%e5%88%97%e5%87%ba%e5%be%85%e9%80%89%e6%96%87%e4%bb%b6%e5%a4%b9%2f%e6%96%87%e4%bb%b6%ef%bc%8c%e8%bf%98%e8%83%bd%e6%98%be%e7%a4%ba%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4%e7%9a%84%e5%be%85%e9%80%89%e5%8f%82%e6%95%b0%e3%80%82%e6%af%94%e5%a6%82kill%e5%b0%b1%e4%bc%9a">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&t=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
     </div>
-    <div id="toc">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装">安装</a></li>
-    <li><a href="#牛b地方">牛B地方</a>
-      <ul>
-        <li><a href="#3快速进入目录">3.快速进入目录</a></li>
-        <li><a href="#4-强大的历史记录">4. 强大的历史记录</a></li>
-        <li><a href="#5智能拼写纠正">5.智能拼写纠正</a></li>
-        <li><a href="#6目录浏览和跳转">6.目录浏览和跳转</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </div>
-  </span>
-</div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                zsh是什么
+            
 
+            
+            </h1>
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <h1 class="posttitle" itemprop="name headline">
-        zsh是什么
-      </h1>
-      <div class="meta">
-        
-        <div class="postdate">
-          
-          <time datetime="2015-06-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2015-06-12</time>
-          
-        </div>
-        
-        
-        <div class="article-tag">
-            <i class="fas fa-tag"></i>
+            <h4 class="post-author">
             
-            
-            <a class="tag-link" href="/tags/git" rel="tag">Git</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6" rel="tag">版本控制</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/%E4%BB%93%E5%BA%93%E5%9B%BE" rel="tag">仓库图</a>
-            
-        </div>
-        
-      </div>
-    </header>
+            </h4>
 
-  
-    <div class="content" itemprop="articleBody">
-      <h2 id="安装">安装</h2>
+        </header>
+
+        <article class="post-content">
+            <h2 id="安装">安装</h2>
 <pre tabindex="0"><code>wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 chsh -s /bin/zsh
 </code></pre><h2 id="牛b地方">牛B地方</h2>
@@ -245,151 +108,48 @@ chsh -s /bin/zsh
 <h3 id="6目录浏览和跳转">6.目录浏览和跳转</h3>
 <p>输入<code>d</code>，即可列出你在这个会话里访问的目录列表，输入列表前的序号，即可直接跳转。</p>
 
-    </div>
-  </article>
+        </article><div class="post-meta">
 
-  
-  
-
-
-
-
-
-  <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/">Home</a></li>
-         
-          <li><a href="/posts">Writings</a></li>
-         
-          <li><a href="/tags">Tags</a></li>
-         
-          <li><a href="/about">About</a></li>
-        
-      </ul>
-    </div>
-
-    <div id="toc-footer" style="display: none">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装">安装</a></li>
-    <li><a href="#牛b地方">牛B地方</a>
-      <ul>
-        <li><a href="#3快速进入目录">3.快速进入目录</a></li>
-        <li><a href="#4-强大的历史记录">4. 强大的历史记录</a></li>
-        <li><a href="#5智能拼写纠正">5.智能拼写纠正</a></li>
-        <li><a href="#6目录浏览和跳转">6.目录浏览和跳转</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      
-      <ul>
-  
-  
+    <div class="post-date">Jun 2015</div>
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f">
-      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&text=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&is_video=false&description=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=zsh%e6%98%af%e4%bb%80%e4%b9%88&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f">
-      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&title=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&name=zsh%e6%98%af%e4%bb%80%e4%b9%88&description=%e5%ae%89%e8%a3%85%20wget%20https%3a%2f%2fgithub.com%2frobbyrussell%2foh-my-zsh%2fraw%2fmaster%2ftools%2finstall.sh%20-O%20-%20%7c%20sh%20chsh%20-s%20%2fbin%2fzsh%20%e7%89%9bB%e5%9c%b0%e6%96%b9%20%23%23%231.%e4%b8%87%e8%83%bd%e7%9a%84TAB%20%e4%b8%8d%e4%bb%85%e5%8f%af%e4%bb%a5%e8%87%aa%e5%8a%a8%e8%a1%a5%e5%85%a8%e5%91%bd%e4%bb%a4%ef%bc%8c%e5%88%97%e5%87%ba%e5%be%85%e9%80%89%e6%96%87%e4%bb%b6%e5%a4%b9%2f%e6%96%87%e4%bb%b6%ef%bc%8c%e8%bf%98%e8%83%bd%e6%98%be%e7%a4%ba%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4%e7%9a%84%e5%be%85%e9%80%89%e5%8f%82%e6%95%b0%e3%80%82%e6%af%94%e5%a6%82kill%e5%b0%b1%e4%bc%9a">
-      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2015-06-12-who-is-zsh%2f&t=zsh%e6%98%af%e4%bb%80%e4%b9%88">
-      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
+
+
+    
+    
+
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2015-06-02-enable-gzip-on-iis6/">在IIS6上开启gzip</a></li>
+            
+            <li><a href="/posts/2015-06-01-repository-chart-of-git/">Git仓库版本控制建议结构图</a></li>
+            
+            <li><a href="/posts/2013-01-15-git-command-interpretation/">Git命令释义</a></li>
+            
+        </ul>
+    </div>
+    
+
+</div></section>
 
     </div>
 
-    <div id="actions-footer">
-      
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
-          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
-          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
-    </div>
-
-  </div>
-</div>
-
-
-  <footer id="footer">
-  <div class="footer-left">
-    Copyright  &copy; 2023  sam的小窝 
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </nav>
-  </div>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
 
-  </div>
+
+
+
+
+
+    
+    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
 </body>
-
-<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
-<script src=/lib/jquery/jquery.min.js></script>
-<script src=/js/main.js></script>
-
-
-
 </html>

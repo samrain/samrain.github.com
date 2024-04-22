@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>nook2 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/nook2/</link>
-    <description>Recent content in nook2 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/nook2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>解决pdf文件不能在nook2上观看问题</title>
-      <link>https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/</link>
-      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/</guid>
-      <description>在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Nook2</title>
+        <link>https://www.samrainhan.com/tags/nook2/</link>
+        <description>Recent content - sam的小窝 - Nook2</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 10 Sep 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/nook2/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux,swap on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/linuxswap/</link>
-    <description>Recent content in linux,swap on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Mar 2021 23:45:59 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/linuxswap/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>扩大swap大小</title>
-      <link>https://www.samrainhan.com/posts/2021-03-20-resize-swap/</link>
-      <pubDate>Sat, 20 Mar 2021 23:45:59 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-03-20-resize-swap/</guid>
-      <description>扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Linux,swap</title>
+        <link>https://www.samrainhan.com/tags/linuxswap/</link>
+        <description>Recent content - sam的小窝 - Linux,swap</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 20 Mar 2021 23:45:59 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/linuxswap/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>前端 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%89%8D%E7%AB%AF/</link>
-    <description>Recent content in 前端 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>（转）百度前端团队F.I.S 提倡的三种语言能力</title>
-      <link>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</link>
-      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</guid>
-      <description>有了这三种语言能力，你的团队前端工业化水平将有很大的提升。 ##资源定位 获取任何开发中所使用资源的线上路径。 可以有效的分离开发路径与部署路径之</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 前端</title>
+        <link>https://www.samrainhan.com/tags/%E5%89%8D%E7%AB%AF/</link>
+        <description>Recent content - sam的小窝 - 前端</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 11 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

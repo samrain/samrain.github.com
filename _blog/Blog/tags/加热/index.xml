@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>加热 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%8A%A0%E7%83%AD/</link>
-    <description>Recent content in 加热 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Dec 2023 21:05:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E7%83%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>微波炉加热食物时间表</title>
-      <link>https://www.samrainhan.com/posts/2023-12-10-microwave-food-heating-schedule/</link>
-      <pubDate>Sun, 10 Dec 2023 21:05:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-10-microwave-food-heating-schedule/</guid>
-      <description>微波炉加热食物时间表（700W如下，每增加200W，缩短1～2分钟） 食材 时间 解冻 6~8分钟 牛奶 1分钟 熟米饭、馒头（先喷点水） 1~2分钟 素菜 中</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 加热</title>
+        <link>https://www.samrainhan.com/tags/%E5%8A%A0%E7%83%AD/</link>
+        <description>Recent content - sam的小窝 - 加热</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 10 Dec 2023 21:05:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E7%83%AD/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

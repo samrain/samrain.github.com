@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 中国,哲学,道,法,术,器</title>
+        <link>http://localhost:55555/tags/%E4%B8%AD%E5%9B%BD%E5%93%B2%E5%AD%A6%E9%81%93%E6%B3%95%E6%9C%AF%E5%99%A8/</link>
+        <description>Recent content - sam的小窝 - 中国,哲学,道,法,术,器</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 14 Apr 2021 16:25:52 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E4%B8%AD%E5%9B%BD%E5%93%B2%E5%AD%A6%E9%81%93%E6%B3%95%E6%9C%AF%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

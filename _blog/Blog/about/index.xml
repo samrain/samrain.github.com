@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>About on sam的小窝</title>
-    <link>https://www.samrainhan.com/about/</link>
-    <description>Recent content in About on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 Jun 2018 11:05:13 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/about/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - About</title>
+        <link>https://www.samrainhan.com/about/</link>
+        <description>Recent content - sam的小窝 - About</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 02 Jun 2018 11:05:13 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/about/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,245 +1,181 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>网站群建设模式 - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2014-06-12-site-construction-model-group/">网站群建设模式</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2014-06-12" class="no-wrap"
-                                    title="Created at 2014/06/12">
-                                    2014-06-12</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2014-06-12" class="no-wrap"
-                                    title="Modifyed  at 2014/06/12">
-                                    2014-06-12</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>网站群建设模式 · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                1940 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。</p>
 
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="网站群建设模式 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。 1.加强"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2014-06-12-site-construction-model-group/">
+
+
+
+
+
+
+
+<meta property="og:title" content="网站群建设模式 · sam的小窝">
+<meta property="og:description" content="在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。 1.加强"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2014-06-12-site-construction-model-group/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2014-06-12-site-construction-model-group/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                网站群建设模式
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p>在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。</p>
 <p>1.加强领导，统筹规划</p>
-
 <p>政府门户网站群的建设需要政府各部门及多个下属单位的支持和配合，因此，门户网站群的实施首先需要政府主管领导的高度重视，建立必要的组织领导机构，保证必要的建设资金和工作人员，统一管理和协调各方面关系，建立健全规章制度。</p>
-
 <p>在政府网站群的建设中，必须做好统一规划，没有好的规划，就不能有效的组织资源，为用户提供有效的服务。站群规划涉及到多个层面内容，一般来说要考虑以下几方面：</p>
-
 <ul>
-<li><p>站群规划：规划网站的命名规则，网站之间的信息共享和交换规则，建立资源和服务之间的对应关系，设计网站页面规划设计。网站频道和栏目的设置要体现网站业务处理层的组织结构，网站的访问应该保证用户最多点击三次鼠标就进入自己想要得到的内容，因此，栏目的垂直分层最好不要超过三层。</p></li>
-
-<li><p>服务规划：确定用户对象，提供信息服务、办事服务项目等内容的统一规划。</p></li>
-
-<li><p>资源规划：按照政府各职能部门的工作职责，全面建立政府的服务资源目录体系。</p></li>
-
-<li><p>运行规划：确定网站管理和运行的职责划分和运行操作流程。明确各部门的分工和责任、工作要求和操作规范。</p></li>
-
-<li><p>安全规划：根据站群系统安全管理需要，从系统平台、系统安全、应用安全和内容安全进行相关安全策略的规划。</p></li>
+<li>
+<p>站群规划：规划网站的命名规则，网站之间的信息共享和交换规则，建立资源和服务之间的对应关系，设计网站页面规划设计。网站频道和栏目的设置要体现网站业务处理层的组织结构，网站的访问应该保证用户最多点击三次鼠标就进入自己想要得到的内容，因此，栏目的垂直分层最好不要超过三层。</p>
+</li>
+<li>
+<p>服务规划：确定用户对象，提供信息服务、办事服务项目等内容的统一规划。</p>
+</li>
+<li>
+<p>资源规划：按照政府各职能部门的工作职责，全面建立政府的服务资源目录体系。</p>
+</li>
+<li>
+<p>运行规划：确定网站管理和运行的职责划分和运行操作流程。明确各部门的分工和责任、工作要求和操作规范。</p>
+</li>
+<li>
+<p>安全规划：根据站群系统安全管理需要，从系统平台、系统安全、应用安全和内容安全进行相关安全策略的规划。</p>
+</li>
 </ul>
-
 <p>2.整合资源，加强应用</p>
-
 <p>在构建站群的过程中，资源整合问题始终贯穿于站群的初期建设以及后期维护的整个过程。</p>
-
 <p>在站群的建立初期，需要采用一套行之有效的服务资源整合模式和分类方法。通过调查服务事项，形成网上信息和服务资源目录。该目录要明确规定各部门应该提供的信息和服务，实行“统分结合，以统为主”的资源管理体制，打破部门限制，实现统一的信息与应用服务。</p>
-
 <p>在站群的运行维护中，也要不断整合主站和子站之间的信息，以保障信息的即时性和一致性。目前，大多数政府站群维护人员常常感到网站的有效内容匮乏和已有信息的更新维护困难。其根源在于主站与部门子站之间脱节，主站与部门子站之间并没有形成有效的协同机制，各部门的信息资源缺少有效整合。</p>
-
 <p>要实现有效的资源整合，必须在主站和部门子站之间，在站群与现有政务应用之间建立有效的协同资源整合机制，使得主站与部门子站实现互动，使站群与政务业务应用之间形成沟通机制，使主站成为提供“公共服务、公众参与和整合政务信息的窗口，成为区域内所有政府服务的统一电子门户窗口”。</p>
-
 <p>在整合资源的同时，必须加强推广应用，根据公众参与和公共服务(在线办事)的需要，进行相应的系统功能建设。建立网上‘的沟通渠道，提供网上论坛、民意调查、在线访谈等对话交互功能，提供从服务事项公示、表单下载、在线申请、在线咨询与投诉、到办理过程和办理结果公示的服务功能，具备动态表单定制能力。</p>
-
 <p>3.加强系统支撑平台建设</p>
-
 <p>建设政府门户网站群，涉及到大规模子站建设及到原有网站资源和原有应用系统的资源整合问题。为此，要完成政府网站群的建设任务，必须有一个功能完善、系统灵活的支撑平台。就目前的应用看，该系统支撑平台应具备一下功能：</p>
-
 <ul>
-<li><p>资源集成能力：支持信息资源的整合，应用资源的整合，支持外部网站的信息采集和分类管理、原有网站的信息整合，支持对结构化数据信息的整合、支持对非结构化数据的整合、支持多媒体信息的整合、支持对各种附件信息的整合。</p></li>
-
-<li><p>内容管理和发布能力：提供多网站建站支持、提供网站的栏目结构的搭建和维护功能、提供文章的制作编辑和管理功能、提供子网站之间、栏目之间的文章推荐功能、提供页面模板的制作和管理功能、提供模板组件的制作和管理功能、提供对内容发布的审核管理功能、提供内容的发布服务、提供对发布过程的监控管理。</p></li>
-
-<li><p>网上交互能力：具备多种形式的网上交互功能，包括：电子邮件、网上对话、网上论坛、在线访谈、网上调查等功能。</p></li>
-
-<li><p>应用集成能力：满足政府网站“在线办事”的要求，提供可定制的表单下载和表单信息管理功能、提供网上受理服务功能和办事结果公示功能，提供应用集成服务，实现“一站式”服务。</p></li>
-
-<li><p>系统管理能力：提供对网站群的集中管理，提供对服务器平台结构的部署和管理，提供对网上应用系统的管理，提供对系统安全性的管理。</p></li>
-
-<li><p>系统扩展能力：系统具备多层面的扩展能力，包括：系统平台级扩展，支持异构平台配置、支持多服务器分布式系统配置、支持负载均衡和多层面的系统集群。支持系统功能的扩展，系统功能的扩展不影响系统的总体结构。</p></li>
+<li>
+<p>资源集成能力：支持信息资源的整合，应用资源的整合，支持外部网站的信息采集和分类管理、原有网站的信息整合，支持对结构化数据信息的整合、支持对非结构化数据的整合、支持多媒体信息的整合、支持对各种附件信息的整合。</p>
+</li>
+<li>
+<p>内容管理和发布能力：提供多网站建站支持、提供网站的栏目结构的搭建和维护功能、提供文章的制作编辑和管理功能、提供子网站之间、栏目之间的文章推荐功能、提供页面模板的制作和管理功能、提供模板组件的制作和管理功能、提供对内容发布的审核管理功能、提供内容的发布服务、提供对发布过程的监控管理。</p>
+</li>
+<li>
+<p>网上交互能力：具备多种形式的网上交互功能，包括：电子邮件、网上对话、网上论坛、在线访谈、网上调查等功能。</p>
+</li>
+<li>
+<p>应用集成能力：满足政府网站“在线办事”的要求，提供可定制的表单下载和表单信息管理功能、提供网上受理服务功能和办事结果公示功能，提供应用集成服务，实现“一站式”服务。</p>
+</li>
+<li>
+<p>系统管理能力：提供对网站群的集中管理，提供对服务器平台结构的部署和管理，提供对网上应用系统的管理，提供对系统安全性的管理。</p>
+</li>
+<li>
+<p>系统扩展能力：系统具备多层面的扩展能力，包括：系统平台级扩展，支持异构平台配置、支持多服务器分布式系统配置、支持负载均衡和多层面的系统集群。支持系统功能的扩展，系统功能的扩展不影响系统的总体结构。</p>
+</li>
 </ul>
-
 <p>4.组织保障与运行维护</p>
-
 <p>政府门户网站整个建设实施过程不仅需要前期细致缜密的详细规划以及具体的实施技术方案，更需要后期大量人力和资源的投入，以便在有效的时间内完成数据迁移、资源准备、内容制作及更新等大量服务性工作。为此，需要选择成熟的技术、专业的公司、经验丰富的实施人员，来保证项目成功实施。</p>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Jun 2014</div>
+    
 
 
+    
+    
 
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2014-06-11-website-group-characteristics/">网站群特征</a></li>
+            
+            <li><a href="/posts/2014-06-10-large-group-of-construction-and-site--management-model/">大型网站群的建设及管理模式</a></li>
+            
+            <li><a href="/posts/2013-04-08-cio-work/">CIO工作内容片段</a></li>
+            
         </ul>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
+    
+
+</div></section>
+
     </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

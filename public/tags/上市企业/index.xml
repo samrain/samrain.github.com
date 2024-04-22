@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 上市企业</title>
+        <link>http://localhost:55555/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/</link>
+        <description>Recent content - sam的小窝 - 上市企业</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 25 Aug 2023 15:18:01 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

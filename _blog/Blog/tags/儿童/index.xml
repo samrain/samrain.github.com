@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>儿童 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%84%BF%E7%AB%A5/</link>
-    <description>Recent content in 儿童 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 20 Jan 2023 20:49:49 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%84%BF%E7%AB%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Win和MacOS上的儿童模式比较</title>
-      <link>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</link>
-      <pubDate>Fri, 20 Jan 2023 20:49:49 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</guid>
-      <description>儿童模式是啥 有时也叫家长控制。 作为家长为了防止小孩沉迷网络、接触到超出年龄限制的内容而设置的一种具备限制性和监管性的系统模式，儿童模式在一定</description>
-    </item>
-    <item>
-      <title>儿童早餐食谱</title>
-      <link>https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/</link>
-      <pubDate>Mon, 31 Oct 2022 10:04:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/</guid>
-      <description>早餐 碳水 两片全麦面包/八宝饭/油炸小馒头配炼乳/煎饺/小猪包/意面/手抓饼/土豆泥 脂肪 黄油/花生酱/芝麻酱/坚果/椰子油/橄榄油 蛋白质 火腿肠</description>
-    </item>
-    <item>
-      <title>2022精英少年夏令营规划</title>
-      <link>https://www.samrainhan.com/posts/2022-08-25-2022-elite-youth-summer-camp-planning/</link>
-      <pubDate>Thu, 25 Aug 2022 21:09:20 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-25-2022-elite-youth-summer-camp-planning/</guid>
-      <description>Why 希望营员们在我们营造的学习氛围下，学到的不仅仅是知识，更多的是能力的培养和道德的熏陶！ Who 营长:妈妈 辅导员:爸爸 小营员:儿子,女儿 顾问:外公</description>
-    </item>
-    <item>
-      <title>华德福空间体育教学随记</title>
-      <link>https://www.samrainhan.com/posts/2016-06-15-waldorf-space-about-the-sports-teaching/</link>
-      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-15-waldorf-space-about-the-sports-teaching/</guid>
-      <description>教学录音片段 20141018-001 20141018-002 20141018-003 20141019-001 20141019-002 歌词 1.找一个朋友来，找一个朋友来，找一个朋友来。 朋友不嫉妒，朋友要帮助，朋友要忍耐，朋友要相爱 2.围着小山村转一转，</description>
-    </item>
-    <item>
-      <title>华德福本老师的布道</title>
-      <link>https://www.samrainhan.com/posts/2016-06-14-waldorf-teachers-sermon/</link>
-      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-14-waldorf-teachers-sermon/</guid>
-      <description>歌词</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 儿童</title>
+        <link>https://www.samrainhan.com/tags/%E5%84%BF%E7%AB%A5/</link>
+        <description>Recent content - sam的小窝 - 儿童</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 20 Jan 2023 20:49:49 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%84%BF%E7%AB%A5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

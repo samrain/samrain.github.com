@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>生成帮助文档 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%94%9F%E6%88%90%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</link>
-    <description>Recent content in 生成帮助文档 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E6%88%90%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>导出js注释工具-JSDOC</title>
-      <link>https://www.samrainhan.com/posts/2015-02-04-js-comment-builder/</link>
-      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-04-js-comment-builder/</guid>
-      <description>what 官网在此 代码在此 install sudo npm install -g git+https://github.com/jsdoc3/jsdoc.git 或者 npm install jsdoc@&amp;#34;&amp;lt;=3.3.0&amp;#34; how JSDoc会从/**开头的注释中抽取信息。 标签就是一些以@开头的命令，所有标签用法见这里 jsdoc where-is-js-files 访问当</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 生成帮助文档</title>
+        <link>https://www.samrainhan.com/tags/%E7%94%9F%E6%88%90%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</link>
+        <description>Recent content - sam的小窝 - 生成帮助文档</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 04 Feb 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E6%88%90%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

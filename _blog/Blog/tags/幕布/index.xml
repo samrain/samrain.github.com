@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>幕布 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%B9%95%E5%B8%83/</link>
-    <description>Recent content in 幕布 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:36:48 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%B9%95%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>幕布导出为markdown</title>
-      <link>https://www.samrainhan.com/posts/2023-03-15-mubu-export-as-markdown/</link>
-      <pubDate>Wed, 15 Mar 2023 11:36:48 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-03-15-mubu-export-as-markdown/</guid>
-      <description>幕布导出为HTML格式文件 用浏览器打开刚导出的HTML文件，全选复制 打开Markdown编辑器（我是用Obsidian），新建文件，然后粘帖</description>
-    </item>
-    <item>
-      <title>投影幕布计算</title>
-      <link>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</link>
-      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/</guid>
-      <description>对角线长度即为一般意义上的幕布大小，比如150寸幕布，即表示对角线长度为150寸=3.81米(100寸=2.54m) 如果是4:3，那么幕布为</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 幕布</title>
+        <link>https://www.samrainhan.com/tags/%E5%B9%95%E5%B8%83/</link>
+        <description>Recent content - sam的小窝 - 幕布</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 15 Mar 2023 11:36:48 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%B9%95%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

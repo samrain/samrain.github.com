@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>步道 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%AD%A5%E9%81%93/</link>
-    <description>Recent content in 步道 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Aug 2022 19:10:06 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%AD%A5%E9%81%93/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>上海周边古道</title>
-      <link>https://www.samrainhan.com/posts/2022-08-05-ancient-roads-around-shanghai/</link>
-      <pubDate>Fri, 05 Aug 2022 19:10:06 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-05-ancient-roads-around-shanghai/</guid>
-      <description>谈仙岭古道（嘉兴） 打卡点：山、、湖、石城，等 位置：在南北湖景区里，谈仙石城城门后面的台阶。 强度：低强度。 导航：岭脚下（海宁），走上是谈仙石</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 步道</title>
+        <link>https://www.samrainhan.com/tags/%E6%AD%A5%E9%81%93/</link>
+        <description>Recent content - sam的小窝 - 步道</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 05 Aug 2022 19:10:06 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%AD%A5%E9%81%93/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>记录 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%AE%B0%E5%BD%95/</link>
-    <description>Recent content in 记录 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Aug 2022 11:38:24 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>各种笔记记录法PK</title>
-      <link>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</link>
-      <pubDate>Wed, 24 Aug 2022 11:38:24 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</guid>
-      <description>各种笔记记录法PK 标签式 标签越来越多，越复杂，导致来了新记录打标签很痛苦，大脑也不利于记录和工作。 笔记本式 笔记本式还是传统的，整理费劲，且容</description>
-    </item>
-    <item>
-      <title>A4记录法</title>
-      <link>https://www.samrainhan.com/posts/2021-05-17-a4-recording-method/</link>
-      <pubDate>Mon, 17 May 2021 21:10:17 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-05-17-a4-recording-method/</guid>
-      <description>A4记录法 按照以下几项简单的步骤反复开展即可。每天写10份。写好之后就分门别类地放入不同的文件夹中。工作、家庭、兴趣、人际关系等等，准备7到</description>
-    </item>
-    <item>
-      <title>如何自动化记录每天的工作、学习和生活</title>
-      <link>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</link>
-      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</guid>
-      <description>##各种记录/渠道： evernote 在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google</description>
-    </item>
-    <item>
-      <title>旁听活动记录</title>
-      <link>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</link>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</guid>
-      <description>贴心Tips 给外校同学车补（150元/4人），帮助他们晚上回家 红色胶带固定地上的线，可以和环境的红布协调 ###想法 做一个虚拟现实系统，可以复</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 记录</title>
+        <link>https://www.samrainhan.com/tags/%E8%AE%B0%E5%BD%95/</link>
+        <description>Recent content - sam的小窝 - 记录</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 24 Aug 2022 11:38:24 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

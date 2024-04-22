@@ -1,226 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> .NET项目编译脚本 | sam的小窝</title>
-  <meta name="description" content="学习 &amp; 生活">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content=".NET项目编译脚本" />
-<meta property="og:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-12-12T11:15:47+08:00" />
-<meta property="article:modified_time" content="2019-12-12T11:15:47+08:00" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content=".NET项目编译脚本"/>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+
+
+
+    
+
+<title>.NET项目编译脚本 · sam的小窝</title>
+
+
+
+
+
+
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content=".NET项目编译脚本 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
 <meta name="twitter:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo"/>
+<meta property="twitter:url" content="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">
 
-  
-  
+
+
+
+
+
+
+<meta property="og:title" content=".NET项目编译脚本 · sam的小窝">
+<meta property="og:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo"/>
+
+<meta property="og:url" content="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">
+
+
     
-  
-  
-  <link rel="stylesheet" href="https://www.samrainhan.com/css/style-dark.css">
-  
-  
-  
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
 
-  
-<link rel="icon" type="image/png" href="https://www.samrainhan.com/images/favicon.ico" />
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-  
-  
-  
-  
-  
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
     
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-37708730-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-  
-  
-</head>
-
-<body class="max-width mx-auto px3 ltr">
-  <div class="content index py4">
-
-  <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        <li>
-          <a class="icon" href=" https://www.samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/">
-            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a class="icon" href="https://www.samrainhan.com/posts/2019-12-12-product-promotion-channels/">
-            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
-          </a>
-        </li>
-        
-        <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="#">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-      <span id="i-next" class="info" style="display:none;">Next post</span>
-      <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
-    
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&text=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&is_video=false&description=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&name=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac&description=%e7%bc%96%e8%af%91%e6%95%b4%e4%bd%93%e9%a1%b9%e7%9b%ae%20compile%20call%20%25dir-of-bat%25%25filename-of-get-last-version%25%20call%20%25dir-of-bat%25%25filename-of-clean-sln%25%20call%20%25dir-of-bat%25%25filename-of-rebulid-sln%25%20%e8%8e%b7%e5%8f%96%e6%9c%80%e6%96%b0%e4%bb%a3%e7%a0%81%20get-last-version%20call%20%26%2334%3bd%3a%5cProgram%20Files%20%28x86%29%5cMicrosoft%20Visual%20Studio%2010.0%5cCommon7%5cTools%5cvsvars32.bat%26%2334%3b%20tf%20get%20%25dir-of-code%25%20%2frecursive%20%e6%b8%85%e7%90%86%e5%b7%a5%e7%a8%8b%20clean-sln%20msbuild%20%25dir-of-sln-code%25%25name-of-sln%25%20%2fnologo%20%2fnoconlog%20%2fm%20%2fp%3aBuildlnParallel%3dtrue%20%2ft%3aClean%20%2fp%3aConfiguration%3dRelease%20%2ffl%20%2fflp%3aerrorsonly%3bAppend%3blogfile%3d%25filename-of-compile-log%25%20%e9%87%8d%e6%96%b0%e7%bc%96%e8%af%91%e5%b7%a5%e7%a8%8b%20rebulid-sln%20MSBuild%20%25dir-of-sln-code%25%25name-of-sln%25%20%2fnologo%20%2fnoconlog%20%2fm%20%2fp%3aBuildlnParallel%3dtrue%20%2ft%3aRebuild%20%2fp%3aConfiguration%3dRelease%20%2ffl%20%2fflp%3aerrorsonly%3bAppend%3blogfile%3d%25filename-of-compile-log%25%20%e5%8f%91%e5%b8%83%e5%b7%a5%e7%a8%8b%20msbuild%20%25dir-of-code%25%25name-of-project%25%5c%25name-of-project%25.csproj%20%2fnologo">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&t=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
     </div>
-    <div id="toc">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#编译整体项目-compile">编译整体项目 compile</a></li>
-    <li><a href="#获取最新代码-get-last-version">获取最新代码 get-last-version</a></li>
-    <li><a href="#清理工程-clean-sln">清理工程 clean-sln</a></li>
-    <li><a href="#重新编译工程-rebulid-sln">重新编译工程 rebulid-sln</a></li>
-    <li><a href="#发布工程">发布工程</a></li>
-    <li><a href="#发布网站">发布网站</a></li>
-  </ul>
-</nav>
-    </div>
-  </span>
-</div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                .NET项目编译脚本
+            
 
+            
+            </h1>
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <h1 class="posttitle" itemprop="name headline">
-        .NET项目编译脚本
-      </h1>
-      <div class="meta">
-        
-        <div class="postdate">
-          
-          <time datetime="2019-12-12 11:15:47 &#43;0800 CST" itemprop="datePublished">2019-12-12</time>
-          
-        </div>
-        
-        <div class="article-category">
-            <i class="fas fa-archive"></i>
+            <h4 class="post-author">
             
-            
-            <a class="category-link" href="/categories/family">family</a>
-            
-        </div>
-        
-        
-        <div class="article-tag">
-            <i class="fas fa-tag"></i>
-            
-            
-            <a class="tag-link" href="/tags/%E6%97%85%E6%B8%B8%E9%9D%92%E6%B5%B7" rel="tag">旅游,青海</a>
-            
-        </div>
-        
-      </div>
-    </header>
+            </h4>
 
-  
-    <div class="content" itemprop="articleBody">
-      <h2 id="编译整体项目-compile">编译整体项目 compile</h2>
+        </header>
+
+        <article class="post-content">
+            <h2 id="编译整体项目-compile">编译整体项目 compile</h2>
 <pre tabindex="0"><code>call %dir-of-bat%%filename-of-get-last-version%
 call %dir-of-bat%%filename-of-clean-sln%
 call %dir-of-bat%%filename-of-rebulid-sln%
@@ -242,148 +106,48 @@ del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-projec
 
 del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
 </code></pre>
-    </div>
-  </article>
+        </article><div class="post-meta">
 
-  
-  
-
-
-
-
-
-  <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/">Home</a></li>
-         
-          <li><a href="/posts">Writings</a></li>
-         
-          <li><a href="/tags">Tags</a></li>
-         
-          <li><a href="/about">About</a></li>
-        
-      </ul>
-    </div>
-
-    <div id="toc-footer" style="display: none">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#编译整体项目-compile">编译整体项目 compile</a></li>
-    <li><a href="#获取最新代码-get-last-version">获取最新代码 get-last-version</a></li>
-    <li><a href="#清理工程-clean-sln">清理工程 clean-sln</a></li>
-    <li><a href="#重新编译工程-rebulid-sln">重新编译工程 rebulid-sln</a></li>
-    <li><a href="#发布工程">发布工程</a></li>
-    <li><a href="#发布网站">发布网站</a></li>
-  </ul>
-</nav>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      
-      <ul>
-  
-  
+    <div class="post-date">Dec 2019</div>
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f">
-      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&text=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&is_video=false&description=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f">
-      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&title=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&name=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac&description=%e7%bc%96%e8%af%91%e6%95%b4%e4%bd%93%e9%a1%b9%e7%9b%ae%20compile%20call%20%25dir-of-bat%25%25filename-of-get-last-version%25%20call%20%25dir-of-bat%25%25filename-of-clean-sln%25%20call%20%25dir-of-bat%25%25filename-of-rebulid-sln%25%20%e8%8e%b7%e5%8f%96%e6%9c%80%e6%96%b0%e4%bb%a3%e7%a0%81%20get-last-version%20call%20%26%2334%3bd%3a%5cProgram%20Files%20%28x86%29%5cMicrosoft%20Visual%20Studio%2010.0%5cCommon7%5cTools%5cvsvars32.bat%26%2334%3b%20tf%20get%20%25dir-of-code%25%20%2frecursive%20%e6%b8%85%e7%90%86%e5%b7%a5%e7%a8%8b%20clean-sln%20msbuild%20%25dir-of-sln-code%25%25name-of-sln%25%20%2fnologo%20%2fnoconlog%20%2fm%20%2fp%3aBuildlnParallel%3dtrue%20%2ft%3aClean%20%2fp%3aConfiguration%3dRelease%20%2ffl%20%2fflp%3aerrorsonly%3bAppend%3blogfile%3d%25filename-of-compile-log%25%20%e9%87%8d%e6%96%b0%e7%bc%96%e8%af%91%e5%b7%a5%e7%a8%8b%20rebulid-sln%20MSBuild%20%25dir-of-sln-code%25%25name-of-sln%25%20%2fnologo%20%2fnoconlog%20%2fm%20%2fp%3aBuildlnParallel%3dtrue%20%2ft%3aRebuild%20%2fp%3aConfiguration%3dRelease%20%2ffl%20%2fflp%3aerrorsonly%3bAppend%3blogfile%3d%25filename-of-compile-log%25%20%e5%8f%91%e5%b8%83%e5%b7%a5%e7%a8%8b%20msbuild%20%25dir-of-code%25%25name-of-project%25%5c%25name-of-project%25.csproj%20%2fnologo">
-      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2019-12-12-net-project-compilation-script%2f&t=.NET%e9%a1%b9%e7%9b%ae%e7%bc%96%e8%af%91%e8%84%9a%e6%9c%ac">
-      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
+
+
+    
+    
+         <div class="post-taxonomies"> 
+        <div class="post-taxonomy"><a href="/categories#family">family</a></div>
+         </div> 
+    
+
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2019-12-12-qinghai-7th-great-circle-line/">青海7日大环线</a></li>
+            
+        </ul>
+    </div>
+    
+
+</div></section>
 
     </div>
 
-    <div id="actions-footer">
-      
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
-          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
-          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
-    </div>
-
-  </div>
-</div>
-
-
-  <footer id="footer">
-  <div class="footer-left">
-    Copyright  &copy; 2023  sam的小窝 
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </nav>
-  </div>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
 
-  </div>
+
+
+
+
+
+    
+    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
 </body>
-
-<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
-<script src=/lib/jquery/jquery.min.js></script>
-<script src=/js/main.js></script>
-
-
-
 </html>

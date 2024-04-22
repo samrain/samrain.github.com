@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>营销,赋能,效率 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80%E8%B5%8B%E8%83%BD%E6%95%88%E7%8E%87/</link>
-    <description>Recent content in 营销,赋能,效率 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Nov 2019 00:44:43 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80%E8%B5%8B%E8%83%BD%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>五感</title>
-      <link>https://www.samrainhan.com/posts/2019-11-25-five-senses/</link>
-      <pubDate>Mon, 25 Nov 2019 00:44:43 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-11-25-five-senses/</guid>
-      <description>视觉 听觉 味觉 触觉 嗅觉</description>
-    </item>
-    <item>
-      <title>营销获客优于赋能，优于效率提升</title>
-      <link>https://www.samrainhan.com/posts/2019-07-24-add-customers-better-than-empowerment/</link>
-      <pubDate>Wed, 24 Jul 2019 16:56:52 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-07-24-add-customers-better-than-empowerment/</guid>
-      <description>就用户付费意愿来说，营销获客优于赋能、优于效率提升。 赋能比如在供应链金融、整合供应链领域，帮助企业提高业务能力；效率提升比如提供业务流程操作</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 营销,赋能,效率</title>
+        <link>https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80%E8%B5%8B%E8%83%BD%E6%95%88%E7%8E%87/</link>
+        <description>Recent content - sam的小窝 - 营销,赋能,效率</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 25 Nov 2019 00:44:43 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80%E8%B5%8B%E8%83%BD%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

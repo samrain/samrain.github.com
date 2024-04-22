@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>自动化 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
-    <description>Recent content in 自动化 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何自动化记录每天的工作、学习和生活</title>
-      <link>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</link>
-      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</guid>
-      <description>##各种记录/渠道： evernote 在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 自动化</title>
+        <link>https://www.samrainhan.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+        <description>Recent content - sam的小窝 - 自动化</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 26 Jun 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

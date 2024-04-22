@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>会议 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BC%9A%E8%AE%AE/</link>
-    <description>Recent content in 会议 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Sep 2022 22:57:52 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BC%9A%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>会议管理规范(转)</title>
-      <link>https://www.samrainhan.com/posts/2022-09-23-conference-management-specifications/</link>
-      <pubDate>Fri, 23 Sep 2022 22:57:52 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-09-23-conference-management-specifications/</guid>
-      <description>1. 目的 会议是高效沟通的方式之一，是日常工作中必要的活动，会议的必要性决定了会议的重要性。但因为会议的复杂性影响了会议的效率，因此会议的时长和</description>
-    </item>
-    <item>
-      <title>部门制度</title>
-      <link>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</link>
-      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-31-departmental-systems/</guid>
-      <description>##一般会议执行制度 确定会议日程。确定会议中到底要讨论什么是保证会议效率的关键，没有会议日程就不要开会。 大会化小。短而主题独立的会议胜于长而</description>
-    </item>
-    <item>
-      <title>开会怎么赚钱</title>
-      <link>https://www.samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</link>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-06-09-how-to-make-money-by-meetings/</guid>
-      <description>收入 赞助商 最大收入 根据赞助费用多少,分为钻石,白金,金牌 好处是可以拥有展台,或把logo放在大背板上,还有些议题专门留给赞助商 赞助议题有2个</description>
-    </item>
-    <item>
-      <title>会议通用描述</title>
-      <link>https://www.samrainhan.com/posts/2013-04-02-meeting-wiki/</link>
-      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-04-02-meeting-wiki/</guid>
-      <description>思维导图文件下载 Why 解决不同部门间问题 同部门内为了一个目标而进行的商讨 Who 会议主持人 会议参与者 会议记录员 What 确定会议日程 确定会议中到底要讨论什么是</description>
-    </item>
-    <item>
-      <title>例会制度</title>
-      <link>https://www.samrainhan.com/posts/2013-03-28-system-of-regular-meeting/</link>
-      <pubDate>Thu, 28 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-28-system-of-regular-meeting/</guid>
-      <description>思维导图文件下载 Why 定时聚拢大家共同明确目标，有问题立即解决 When 周例会：每周最后一天（一般为周五）下午16:30-17:00，如果碰到特殊情况，</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 会议</title>
+        <link>https://www.samrainhan.com/tags/%E4%BC%9A%E8%AE%AE/</link>
+        <description>Recent content - sam的小窝 - 会议</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 23 Sep 2022 22:57:52 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BC%9A%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

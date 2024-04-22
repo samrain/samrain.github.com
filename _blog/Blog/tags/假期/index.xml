@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>假期 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%81%87%E6%9C%9F/</link>
-    <description>Recent content in 假期 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Aug 2022 21:09:20 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%81%87%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2022精英少年夏令营规划</title>
-      <link>https://www.samrainhan.com/posts/2022-08-25-2022-elite-youth-summer-camp-planning/</link>
-      <pubDate>Thu, 25 Aug 2022 21:09:20 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-25-2022-elite-youth-summer-camp-planning/</guid>
-      <description>Why 希望营员们在我们营造的学习氛围下，学到的不仅仅是知识，更多的是能力的培养和道德的熏陶！ Who 营长:妈妈 辅导员:爸爸 小营员:儿子,女儿 顾问:外公</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 假期</title>
+        <link>https://www.samrainhan.com/tags/%E5%81%87%E6%9C%9F/</link>
+        <description>Recent content - sam的小窝 - 假期</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 25 Aug 2022 21:09:20 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%81%87%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

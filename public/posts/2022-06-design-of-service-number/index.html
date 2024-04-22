@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+
+
+    
+
+<title>服务号功能设计 · sam的小窝</title>
+
+
+
+
+
+
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="服务号功能设计 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="发送 及时发送通知信息给某人或某些人 定时发送通知信息给某人或某些人 通知信息包括 按照通知是否需要被通知人来执行分为 通告，知悉即可不需要执行 任务，"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2022-06-design-of-service-number/">
+
+
+
+
+
+
+
+<meta property="og:title" content="服务号功能设计 · sam的小窝">
+<meta property="og:description" content="发送 及时发送通知信息给某人或某些人 定时发送通知信息给某人或某些人 通知信息包括 按照通知是否需要被通知人来执行分为 通告，知悉即可不需要执行 任务，"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2022-06-design-of-service-number/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2022-06-design-of-service-number/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                服务号功能设计
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <h1 id="发送">发送</h1>
+<ol>
+<li>及时发送通知信息给某人或某些人</li>
+<li>定时发送通知信息给某人或某些人</li>
+<li>通知信息包括
+<ol>
+<li>按照通知是否需要被通知人来执行分为
+<ol>
+<li>通告，知悉即可不需要执行</li>
+<li>任务，要在规定时间完成规定工作</li>
+</ol>
+</li>
+<li>按照被通知人分为
+<ol>
+<li>部分员工</li>
+<li>部门全体员工</li>
+</ol>
+</li>
+<li>按照业务分为
+<ol>
+<li>产品新增订单</li>
+<li>产品客户端、云的新增功能</li>
+<li>产品相关的权益通知</li>
+<li>产品订单状态的跟进情况</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="回答">回答</h1>
+<ol>
+<li>返回提问人和他相关的最近TOP5通知信息</li>
+<li>返回问题答案</li>
+<li>返回公司或部门制度</li>
+<li>返回业务流程</li>
+<li>记录每次提问的回复是否真正解决问题。把解决不好的问题收集起来，想办法获得正确答案并填写回去。</li>
+<li>记录咨询的问题，并能显示Top10</li>
+</ol>
+<h1 id="数据连接和计算">数据连接和计算</h1>
+<blockquote>
+<p>通过服务号来建立服务号，优化服务号。比如通过和机器人对话，能建立后台知识库，能发消息，能提问题。没有后台管理界面，全部都在前台通过对话完成。</p>
+</blockquote>
+<ol>
+<li>找到风险大的项目</li>
+<li>计算各个组最新KPI完成情况</li>
+<li>建立按照产品线维度的知识库，可以通过关键字查询所需资料；</li>
+<li>建立按照客户行业划分的知识库和案例库，可以通过关键字（客户名称、区域、行业、项目经理姓名）查询案例和项目参考资料；</li>
+<li>建立踩坑案例库</li>
+<li>建立产品订单库并跟踪状态</li>
+</ol>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Feb 2022</div>
+    
+
+
+    
+    
+         <div class="post-taxonomies"> 
+        <div class="post-taxonomy"><a href="/categories#work">work</a></div>
+         </div> 
+    
+
+    
+    
+
+</div></section>
+
+    </div>
+
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
+
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
+</body>
+</html>

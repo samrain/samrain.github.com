@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>home on sam的小窝</title>
-    <link>https://www.samrainhan.com/categories/home/</link>
-    <description>Recent content in home on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Dec 2021 11:14:58 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/categories/home/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>上海市殡仪馆信息一览表</title>
-      <link>https://www.samrainhan.com/posts/2021-12-13-shanghai-funeral-home-information-list/</link>
-      <pubDate>Mon, 13 Dec 2021 11:14:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-12-13-shanghai-funeral-home-information-list/</guid>
-      <description>上海市殡仪馆信息一览表 设施名称 服务对象 业务范围 地 址 单位网址 微信公众号 电 话 设施性质 资质荣誉 便民服务 上海市龙华殡仪馆 全市居民 殡仪服务 徐汇区田林街</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Home</title>
+        <link>https://www.samrainhan.com/categories/home/</link>
+        <description>Recent content - sam的小窝 - Home</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 13 Dec 2021 11:14:58 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/categories/home/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

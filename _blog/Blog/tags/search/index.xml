@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>search on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/search/</link>
-    <description>Recent content in search on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何用搜索引擎搜索文档呢?</title>
-      <link>https://www.samrainhan.com/posts/2016-04-19-search-file-by-search-site/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-04-19-search-file-by-search-site/</guid>
-      <description>如果你使用google，在检索词前加入 inurl:pdf 如果你使用百度，在检索词前加上 filetype:all ，如要特定PDF格式则输入 filetype:PDF</description>
-    </item>
-    <item>
-      <title>建立你的主题关键词</title>
-      <link>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</link>
-      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</guid>
-      <description>根据搜索结果的提示，一步步更换关键词直至找到靠谱的结果。 更换语言，别有洞天。有时更换为英语能够让你获取更精准的结果。所以这也是为什么，我的主</description>
-    </item>
-    <item>
-      <title>GOOGLE搜索从入门到精通</title>
-      <link>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</link>
-      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</guid>
-      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;quot; 强制搜索在文字前添加加号+</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Search</title>
+        <link>https://www.samrainhan.com/tags/search/</link>
+        <description>Recent content - sam的小窝 - Search</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 19 Apr 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

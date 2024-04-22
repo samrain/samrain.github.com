@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>knowledge on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/knowledge/</link>
-    <description>Recent content in knowledge on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/knowledge/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>个人知识管理平台V2.0</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-personal-knowledge-management-platform-v2/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-personal-knowledge-management-platform-v2/</guid>
-      <description>一般流程 1收集 工具 Chrome(pc,手机,平板) Evernote剪藏插件 feedly.com ifttt.com 纸笔 微信 一般场景 PC上网发现好东东 使用Evernote剪藏插件</description>
-    </item>
-    <item>
-      <title>个人知识管理平台</title>
-      <link>https://www.samrainhan.com/posts/2013-03-21-personal-knowledge-management-platform/</link>
-      <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-21-personal-knowledge-management-platform/</guid>
-      <description>思维导图文件下载 一般流程 1收集 工具 Chrome(pc,手机,平板) Evernote剪藏插件 Google Reader(pc,手机,平板) ifttt.com 纸笔 录音笔 一般</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Knowledge</title>
+        <link>https://www.samrainhan.com/tags/knowledge/</link>
+        <description>Recent content - sam的小窝 - Knowledge</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/knowledge/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

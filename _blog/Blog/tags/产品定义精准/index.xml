@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>产品,定义,精准 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%AE%9A%E4%B9%89%E7%B2%BE%E5%87%86/</link>
-    <description>Recent content in 产品,定义,精准 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 23 Feb 2021 12:11:35 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%AE%9A%E4%B9%89%E7%B2%BE%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>究竟什么样的产品定义才算精准呢</title>
-      <link>https://www.samrainhan.com/posts/2021-02-23-what-kind-of-product-definition-is-accurate/</link>
-      <pubDate>Tue, 23 Feb 2021 12:11:35 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-02-23-what-kind-of-product-definition-is-accurate/</guid>
-      <description>究竟什么样的产品定义才算精准呢？ 我们认为它包含以下几个方面： 用户群精准； 对用户群需求和人性的把握精准； 功能设定精准； 直指产业级痛点； 品质把握</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 产品,定义,精准</title>
+        <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%AE%9A%E4%B9%89%E7%B2%BE%E5%87%86/</link>
+        <description>Recent content - sam的小窝 - 产品,定义,精准</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 23 Feb 2021 12:11:35 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%AE%9A%E4%B9%89%E7%B2%BE%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

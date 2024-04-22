@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>5W on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/5w/</link>
-    <description>Recent content in 5W on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 07 Feb 2022 13:43:40 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/5w/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>6W3H</title>
-      <link>https://www.samrainhan.com/posts/2022-07-6w3h/</link>
-      <pubDate>Mon, 07 Feb 2022 13:43:40 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-07-6w3h/</guid>
-      <description>What——指要做的是什么及描述达成命令事项后的状态 When——指全部工作完成的时间及各步骤完成的时间 Where——泛指各项活动发生的场所 W</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 5W</title>
+        <link>https://www.samrainhan.com/tags/5w/</link>
+        <description>Recent content - sam的小窝 - 5W</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 07 Feb 2022 13:43:40 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/5w/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

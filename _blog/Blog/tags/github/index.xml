@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>github on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/github/</link>
-    <description>Recent content in github on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 Jun 2018 15:38:05 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Publish My Blog</title>
-      <link>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
-      <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description>博客流水线</description>
-    </item>
-    <item>
-      <title>Markdown语法</title>
-      <link>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</link>
-      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</guid>
-      <description>思维导图文件下载 致谢 站在这位 巨人 的肩膀上 直接使用HTML 一般来说直接使用 特殊：块标签必须在前后加上空白，例如：div,table,pre,p</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Github</title>
+        <link>https://www.samrainhan.com/tags/github/</link>
+        <description>Recent content - sam的小窝 - Github</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 02 Jun 2018 15:38:05 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

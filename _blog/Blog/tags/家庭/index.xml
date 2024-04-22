@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>家庭 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%AE%B6%E5%BA%AD/</link>
-    <description>Recent content in 家庭 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Sep 2023 08:21:14 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%AE%B6%E5%BA%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>家庭常见食品清单</title>
-      <link>https://www.samrainhan.com/posts/2023-09-21-common-household-food-list/</link>
-      <pubDate>Thu, 21 Sep 2023 08:21:14 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-21-common-household-food-list/</guid>
-      <description>碳水 大米 东北大米 红薯 芋头 玉米 面条 宽面 方便面 意大利面 刀切小馒头 小猪包/熊猫包 饺子 八宝饭 手抓饼 鸡肉饼 蛋白质 酸奶 无糖酸奶 有糖酸奶 牛奶 水牛奶 牛肉 牛肋</description>
-    </item>
-    <item>
-      <title>讨论家庭教育</title>
-      <link>https://www.samrainhan.com/posts/2013-03-25-discuss-of-family-education/</link>
-      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-25-discuss-of-family-education/</guid>
-      <description>思维导图文件下载 人品教育 善良 乐于助人 勤劳勇敢 心情教育 培养孩子对生命的爱心 鼓励教育 给予适当鼓励，激发无限潜力 让孩子学会吃苦</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 家庭</title>
+        <link>https://www.samrainhan.com/tags/%E5%AE%B6%E5%BA%AD/</link>
+        <description>Recent content - sam的小窝 - 家庭</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 21 Sep 2023 08:21:14 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%AE%B6%E5%BA%AD/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

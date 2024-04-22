@@ -1,68 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>google on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/google/</link>
-    <description>Recent content in google on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Jan 2023 08:49:34 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谷歌十诫</title>
-      <link>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</link>
-      <pubDate>Wed, 04 Jan 2023 08:49:34 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-04-google-ten-commandments/</guid>
-      <description>一切以用户为中心,其他一切纷至沓来 Focus on the user and all else will follow. 把一件事做到极致. It’s best to do one thing really, really well. 快比慢好. Fast is better than slow. 网络社会需要民主. Democracy on the web</description>
-    </item>
-    <item>
-      <title>批量导出redmine任务并导入到google日历中</title>
-      <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
-      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
-      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
-    </item>
-    <item>
-      <title>google招聘标准</title>
-      <link>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</link>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid>
-      <description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description>
-    </item>
-    <item>
-      <title>怎样导入google日历</title>
-      <link>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</link>
-      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/</guid>
-      <description>思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成</description>
-    </item>
-    <item>
-      <title>怎么用Google日历</title>
-      <link>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</link>
-      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</guid>
-      <description>思维导图文件下载 键盘快捷键 日历界面 Ctrl+? / Cmd+? 或 ? 快捷键菜单 调出键盘快捷键菜单 C 创建活动 可让您创建新活动。 / 搜索 将光标放在搜索框中 Ctrl+z / Cmd+z 或 z 撤消 撤</description>
-    </item>
-    <item>
-      <title>Gmail快捷键</title>
-      <link>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</link>
-      <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-18-gmail-shortcuts/</guid>
-      <description>思维导图文件下载 十大快捷键 显示您所在任何页面中的键盘快捷键帮助菜单：？ 在当前窗口中写新邮件：c 回复邮件：r 转发：f 删除会话：# 转到收件箱：g</description>
-    </item>
-    <item>
-      <title>Chrome介绍</title>
-      <link>https://www.samrainhan.com/posts/2013-03-11-chrome/</link>
-      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-11-chrome/</guid>
-      <description>思维导图文件下载 功能 仅一行代码，打造一个在线编辑器:http://www.oschina.net/news/37360/one-line-c</description>
-    </item>
-    <item>
-      <title>GOOGLE搜索从入门到精通</title>
-      <link>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</link>
-      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</guid>
-      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;quot; 强制搜索在文字前添加加号+</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Google</title>
+        <link>https://www.samrainhan.com/tags/google/</link>
+        <description>Recent content - sam的小窝 - Google</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 04 Jan 2023 08:49:34 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

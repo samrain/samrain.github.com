@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>建议 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%BB%BA%E8%AE%AE/</link>
-    <description>Recent content in 建议 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Jan 2021 16:00:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%BB%BA%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎样提建议</title>
-      <link>https://www.samrainhan.com/posts/2021-01-27-how-to-make-suggestions/</link>
-      <pubDate>Wed, 27 Jan 2021 16:00:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-01-27-how-to-make-suggestions/</guid>
-      <description>怎样提建议 “请问能占用您多少时间？我有两件关于XX的事情想向您汇报，请问能占用您五分钟吗？” 当你对自己的核心建议感到满意，也可以肯定地回答下</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 建议</title>
+        <link>https://www.samrainhan.com/tags/%E5%BB%BA%E8%AE%AE/</link>
+        <description>Recent content - sam的小窝 - 建议</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 27 Jan 2021 16:00:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%BB%BA%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

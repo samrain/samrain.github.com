@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>国产化 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/</link>
-    <description>Recent content in 国产化 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 Sep 2023 08:20:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2&#43;8&#43;N</title>
-      <link>https://www.samrainhan.com/posts/2023-09-22-2-8-n/</link>
-      <pubDate>Fri, 22 Sep 2023 08:20:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-22-2-8-n/</guid>
-      <description>2 就是首先实现党政机关范围内的替代，同时顺带打磨产品、培育骨干企业; 党委 政府 8 在产品相对好用、生态比较成熟后，将由党政系统扩大到 8 大关键行业</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 国产化</title>
+        <link>https://www.samrainhan.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/</link>
+        <description>Recent content - sam的小窝 - 国产化</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 22 Sep 2023 08:20:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>投资结构 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%8A%95%E8%B5%84%E7%BB%93%E6%9E%84/</link>
-    <description>Recent content in 投资结构 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 31 Jan 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%8A%95%E8%B5%84%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>李嘉诚投资结构</title>
-      <link>https://www.samrainhan.com/posts/2015-01-31-li-ka-shing-investment-structure/</link>
-      <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-01-31-li-ka-shing-investment-structure/</guid>
-      <description>|行业|投资回报率| | : | :-: | | 地产 | 53% | | 基建(天然气、水跟电) | 42% | | 码头 | 24% | | 能源 | 13% | | 零售 | 7% | | 电信 | 5% |</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 投资结构</title>
+        <link>https://www.samrainhan.com/tags/%E6%8A%95%E8%B5%84%E7%BB%93%E6%9E%84/</link>
+        <description>Recent content - sam的小窝 - 投资结构</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 31 Jan 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%8A%95%E8%B5%84%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

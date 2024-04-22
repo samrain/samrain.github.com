@@ -1,60 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>上海 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/</link>
-    <description>Recent content in 上海 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Dec 2020 11:20:08 +0800</lastBuildDate>
-    
-	<atom:link href="http://samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>上海家具最便宜的地方</title>
-      <link>http://samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</link>
-      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</guid>
-      <description>###红星美凯龙 汶水店（上海市宝山区汶水路1555号） 真北店（上海市普陀区真北路1108号） ###上海月星家居广场 上海市普陀区澳门路168号</description>
-    </item>
-    
-    <item>
-      <title>上海的怀旧跳蚤集市</title>
-      <link>http://samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</link>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</guid>
-      <description>怀旧跳蚤集市 淘宝网 豆瓣网 Vintagefair复古市集 豆瓣网 鹦鹉螺复古市集 豆瓣网 UTAU艺术空间 豆瓣网 单车市集 豆瓣网 联洋广场跳蚤市场 新浪微博</description>
-    </item>
-    
-    <item>
-      <title>上海浦江两岸骑行一日行程</title>
-      <link>http://samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</link>
-      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</guid>
-      <description>大华三路真华路 南 交通路真华路 东 交通路中兴路 东 上海火车站北广场 被阻隔在里面绕了一圈重新回到中兴路 东 中兴路长兴路 南 长兴路永兴路 东 永兴路西藏北路 南</description>
-    </item>
-    
-    <item>
-      <title>旅游拍照，驴友最爱：”文化上海“系列_全景图</title>
-      <link>http://samrainhan.com/posts/2013-04-26-shanghai-museum2012/</link>
-      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://samrainhan.com/posts/2013-04-26-shanghai-museum2012/</guid>
-      <description>介绍如下：博物馆的秘密 ”文化上海“系列画廊_全景图.jpg ”文化上海“系列美术馆_全景图.jpg ”文化上海“系列博物馆_全景图.jpg ”文化</description>
-    </item>
-    
-    <item>
-      <title>江浙温泉大全</title>
-      <link>http://samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</link>
-      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</guid>
-      <description>思维导图文件下载 上海之根雪狼湖度假村 丽水莲都区 南京 汤山颐尚温泉 汤山一号温泉度假区 嘉善 宁波东钱湖 宁海 南溪 安吉 江南天池温泉 嵊州 常州 新安江温泉 无锡</description>
-    </item>
-    
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 上海</title>
+        <link>http://localhost:55555/tags/%E4%B8%8A%E6%B5%B7/</link>
+        <description>Recent content - sam的小窝 - 上海</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 03 Oct 2023 17:00:19 CST</lastBuildDate>
+        <atom:link href="http://localhost:55555/tags/%E4%B8%8A%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

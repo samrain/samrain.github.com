@@ -1,117 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Windows on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/windows/</link>
-    <description>Recent content in Windows on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 20 Jan 2023 20:49:49 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Win和MacOS上的儿童模式比较</title>
-      <link>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</link>
-      <pubDate>Fri, 20 Jan 2023 20:49:49 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</guid>
-      <description>儿童模式是啥 有时也叫家长控制。 作为家长为了防止小孩沉迷网络、接触到超出年龄限制的内容而设置的一种具备限制性和监管性的系统模式，儿童模式在一定</description>
-    </item>
-    <item>
-      <title>Tips of Installing Net Framework 462 in WinServ2012</title>
-      <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
-      <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
-      <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
-    </item>
-    <item>
-      <title>如何在Windows上看电池寿命</title>
-      <link>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</link>
-      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</guid>
-      <description>右击【开始】菜单，选择【命令提示符（管理员）】 输入 cd c:\ 输入 powercfg /batteryreport 输入 c:\battery-report.html,浏览器会显示文件内容</description>
-    </item>
-    <item>
-      <title>如何提高windows程序的性能</title>
-      <link>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</link>
-      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</guid>
-      <description>调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此</description>
-    </item>
-    <item>
-      <title>如果在Win2012 R2上安装net framework 4.6.2报错怎么办</title>
-      <link>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</link>
-      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</guid>
-      <description>必须要在安装KB2919355 KB地址： https://support.microsoft.com/zh-cn/kb/2919355 安装顺序：KB2919442、clearcompressionflag.exe、KB2919355</description>
-    </item>
-    <item>
-      <title>利用命令强制结束Windows进程</title>
-      <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
-      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
-      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
-    </item>
-    <item>
-      <title>Chocolatey</title>
-      <link>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</link>
-      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</guid>
-      <description>方便蛮方便，但是有几个缺点： 至少要在win7以上使用，因为要用到Powershell 如果在国内用，下载国外资源非常慢</description>
-    </item>
-    <item>
-      <title>Windows上免费开源的SFTP服务器</title>
-      <link>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</link>
-      <pubDate>Sat, 21 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</guid>
-      <description>http://www.freesshd.com/</description>
-    </item>
-    <item>
-      <title>删除windows服务</title>
-      <link>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</link>
-      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</guid>
-      <description>sc delete 服务名 如果服务名中间有空格，就需要前后加引号。</description>
-    </item>
-    <item>
-      <title>解决调用Tuxedo服务问题</title>
-      <link>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</link>
-      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</guid>
-      <description>解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all</description>
-    </item>
-    <item>
-      <title>删除Windows服务</title>
-      <link>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</link>
-      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</guid>
-      <description>用sc.exe这个Windows命令 开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单： # (如果服务名中间有空格，就需</description>
-    </item>
-    <item>
-      <title>英文Windows VPS 安装中文包</title>
-      <link>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</link>
-      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</guid>
-      <description>Why 国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国</description>
-    </item>
-    <item>
-      <title>在Win2008上部署 Windows SharePoint Services 3.0</title>
-      <link>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
-      <description>Why 一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装</description>
-    </item>
-    <item>
-      <title>Windows 服务快捷启动命令</title>
-      <link>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</link>
-      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</guid>
-      <description>gpedit.msc－－－－－组策略 sndrec32－－－－－录音机 nslookup－－－－－地址侦测器 explorer－－－－－－打开资源</description>
-    </item>
-    <item>
-      <title>AutoHotkey如何在Win8上正常使用</title>
-      <link>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</guid>
-      <description>在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Windows</title>
+        <link>https://www.samrainhan.com/tags/windows/</link>
+        <description>Recent content - sam的小窝 - Windows</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 20 Jan 2023 20:49:49 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

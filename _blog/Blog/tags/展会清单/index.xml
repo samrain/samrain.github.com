@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>展会,清单 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%B1%95%E4%BC%9A%E6%B8%85%E5%8D%95/</link>
-    <description>Recent content in 展会,清单 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Jun 2019 23:35:46 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%B1%95%E4%BC%9A%E6%B8%85%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>展会材料清单</title>
-      <link>https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/</link>
-      <pubDate>Tue, 11 Jun 2019 23:35:46 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/</guid>
-      <description>桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 展会,清单</title>
+        <link>https://www.samrainhan.com/tags/%E5%B1%95%E4%BC%9A%E6%B8%85%E5%8D%95/</link>
+        <description>Recent content - sam的小窝 - 展会,清单</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 11 Jun 2019 23:35:46 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%B1%95%E4%BC%9A%E6%B8%85%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

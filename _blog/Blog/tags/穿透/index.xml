@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>穿透 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E7%A9%BF%E9%80%8F/</link>
-    <description>Recent content in 穿透 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>初学ngrok</title>
-      <link>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</link>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</guid>
-      <description>官网在此：ngrok.com 源码在此：github.com/ngrok 前辈高人的中文说明在此：NGROK 内网穿透利器 下面只说我自己试验成功的</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 穿透</title>
+        <link>https://www.samrainhan.com/tags/%E7%A9%BF%E9%80%8F/</link>
+        <description>Recent content - sam的小窝 - 穿透</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 29 Jul 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

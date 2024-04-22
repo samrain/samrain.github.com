@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>QR code on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/qr-code/</link>
-    <description>Recent content in QR code on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/qr-code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>二维码的各种类型</title>
-      <link>https://www.samrainhan.com/posts/2014-05-30-qr-code-generator/</link>
-      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-05-30-qr-code-generator/</guid>
-      <description>免费制作二维码站点 改图网 草料二维码 FreeFormatter.com QR Code Generator 联系人信息 address books (vcard) 姓名 name 公司 company 行业 occupation 电话 telephone 电邮 email 地址 address 网址 website URL 备注 note 事件 events (vcalendar, vevent) 标题 title 位置 location 描述 description 开始</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - QR Code</title>
+        <link>https://www.samrainhan.com/tags/qr-code/</link>
+        <description>Recent content - sam的小窝 - QR Code</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 30 May 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/qr-code/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

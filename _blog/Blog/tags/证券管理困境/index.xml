@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>证券,管理,困境 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%AF%81%E5%88%B8%E7%AE%A1%E7%90%86%E5%9B%B0%E5%A2%83/</link>
-    <description>Recent content in 证券,管理,困境 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 May 2021 15:06:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%AF%81%E5%88%B8%E7%AE%A1%E7%90%86%E5%9B%B0%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>证券行业管理层困境</title>
-      <link>https://www.samrainhan.com/posts/2021-05-21-management-dilemma-in-the-securities-industry/</link>
-      <pubDate>Sun, 16 May 2021 15:06:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-05-21-management-dilemma-in-the-securities-industry/</guid>
-      <description>证券行业管理层困境 管理层的困境在于组织的连锁化—这对长期风险调整后收入最大化的实现至关重要一必须不受短期的具体紧急交易的影响。 我们有成千上万</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 证券,管理,困境</title>
+        <link>https://www.samrainhan.com/tags/%E8%AF%81%E5%88%B8%E7%AE%A1%E7%90%86%E5%9B%B0%E5%A2%83/</link>
+        <description>Recent content - sam的小窝 - 证券,管理,困境</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 16 May 2021 15:06:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%AF%81%E5%88%B8%E7%AE%A1%E7%90%86%E5%9B%B0%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

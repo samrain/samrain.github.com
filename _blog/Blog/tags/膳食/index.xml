@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>膳食 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%86%B3%E9%A3%9F/</link>
-    <description>Recent content in 膳食 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Jan 2023 16:09:25 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%86%B3%E9%A3%9F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>膳食指南</title>
-      <link>https://www.samrainhan.com/posts/2023-01-28-dietary-guidelines/</link>
-      <pubDate>Sat, 28 Jan 2023 16:09:25 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-28-dietary-guidelines/</guid>
-      <description>每天半斤水果 以下是柑橘类水果，任选其一 20颗金桔 5个柠檬 2个中等橘子 2个中等柑 1个橙子 1个葡萄柚 2~3瓣大柚子</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 膳食</title>
+        <link>https://www.samrainhan.com/tags/%E8%86%B3%E9%A3%9F/</link>
+        <description>Recent content - sam的小窝 - 膳食</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 28 Jan 2023 16:09:25 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%86%B3%E9%A3%9F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

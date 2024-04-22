@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OCR on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/ocr/</link>
-    <description>Recent content in OCR on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>linux下中文OCR</title>
-      <link>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</link>
-      <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</guid>
-      <description>思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - OCR</title>
+        <link>https://www.samrainhan.com/tags/ocr/</link>
+        <description>Recent content - sam的小窝 - OCR</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 07 May 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

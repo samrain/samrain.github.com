@@ -1,359 +1,126 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> 怎样在TPLink路由器上限制网站访问 | sam的小窝</title>
-  <meta name="description" content="学习 &amp; 生活">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="怎样在TPLink路由器上限制网站访问" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-09-13T09:20:18+08:00" />
-<meta property="article:modified_time" content="2023-09-13T09:20:18+08:00" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="怎样在TPLink路由器上限制网站访问"/>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+
+
+
+    
+
+<title>怎样在TPLink路由器上限制网站访问 · sam的小窝</title>
+
+
+
+
+
+
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="怎样在TPLink路由器上限制网站访问 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
 <meta name="twitter:description" content=""/>
+<meta property="twitter:url" content="https://www.samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/">
 
-  
-  
+
+
+
+
+
+
+<meta property="og:title" content="怎样在TPLink路由器上限制网站访问 · sam的小窝">
+<meta property="og:description" content=""/>
+
+<meta property="og:url" content="https://www.samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="https://www.samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/">
+
+
     
-  
-  
-  <link rel="stylesheet" href="https://www.samrainhan.com/css/style-dark.css">
-  
-  
-  
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
 
-  
-<link rel="icon" type="image/png" href="https://www.samrainhan.com/images/favicon.ico" />
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-  
-  
-  
-  
-  
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
     
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-37708730-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-  
-  
-</head>
-
-<body class="max-width mx-auto px3 ltr">
-  <div class="content index py4">
-
-  <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        <li>
-          <a class="icon" href=" https://www.samrainhan.com/posts/2023-09-12-excerpt-memoirs-of-a-stock-operator/">
-            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a class="icon" href="https://www.samrainhan.com/posts/2023-09-14-vitamin-d-supplement/">
-            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
-          </a>
-        </li>
-        
-        <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="#">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-      <span id="i-next" class="info" style="display:none;">Next post</span>
-      <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
-    
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&text=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&is_video=false&description=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&name=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae&description=">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&t=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
     </div>
-    <div id="toc">
-      <nav id="TableOfContents"></nav>
-    </div>
-  </span>
-</div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                怎样在TPLink路由器上限制网站访问
+            
 
+            
+            </h1>
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <h1 class="posttitle" itemprop="name headline">
-        怎样在TPLink路由器上限制网站访问
-      </h1>
-      <div class="meta">
-        
-        <div class="postdate">
-          
-          <time datetime="2023-09-13 09:20:18 &#43;0800 CST" itemprop="datePublished">2023-09-13</time>
-          
-        </div>
-        
-        <div class="article-category">
-            <i class="fas fa-archive"></i>
+            <h4 class="post-author">
             
-            
-            <a class="category-link" href="/categories/family">family</a>
-            
-        </div>
-        
-        
-        <div class="article-tag">
-            <i class="fas fa-tag"></i>
-            
-            
-            <a class="tag-link" href="/tags/tplink" rel="tag">TPLink</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8" rel="tag">路由器</a>
-            
-             ,  
-            <a class="tag-link" href="/tags/%E9%99%90%E5%88%B6%E8%AE%BF%E9%97%AE" rel="tag">限制访问</a>
-            
-        </div>
-        
-      </div>
-    </header>
+            </h4>
 
-  
-    <div class="content" itemprop="articleBody">
-      <p><img src="https://cloud-pic.wpsgo.com/S2MxR1R2QSs5bTVlTE5hd2VtQVNSSThzT3hlYldPY1liRjREck5PczVOUnlYQkR6R01TR0tCMUo1VUpDM3o4SU9tTnYzUXU0OHdNY0NnRGk5Q0VxQ1h1N3NWb2grMzNpUG1OK0hGWFl2enF0bTdzRjZ4TUNnbjVsdS9hWlYvcFBuVXFBMFpVMGw0dGE3ZS9IU21ZUTY2Wk13UHZCOUR0TGhrVlZ3aGhSbGg1ZFE5ekVnbzNsTW1uTE9VOVZNZHdESDlDeWY0bkxTYk9TOWJrQXcvTEwrWk5kSEZ6SmVrR3VPRVREd2l2SG0xZWJydHBpSUpJMmhLVVpLWDdaeXZQckxyVXU0OEJiN0hnYUd0ZDFncU1KSmtwMysxb290UVpsKytqRFIwWVBBanpLTEpmeUIzdXUzbFJpTWJtRkpnPT0=/attach/object/7cb7c3f8974c72e0f89e069a22795843de9075b3?" alt=""></p>
+        </header>
+
+        <article class="post-content">
+            <p><img src="https://cloud-pic.wpsgo.com/S2MxR1R2QSs5bTVlTE5hd2VtQVNSSThzT3hlYldPY1liRjREck5PczVOUnlYQkR6R01TR0tCMUo1VUpDM3o4SU9tTnYzUXU0OHdNY0NnRGk5Q0VxQ1h1N3NWb2grMzNpUG1OK0hGWFl2enF0bTdzRjZ4TUNnbjVsdS9hWlYvcFBuVXFBMFpVMGw0dGE3ZS9IU21ZUTY2Wk13UHZCOUR0TGhrVlZ3aGhSbGg1ZFE5ekVnbzNsTW1uTE9VOVZNZHdESDlDeWY0bkxTYk9TOWJrQXcvTEwrWk5kSEZ6SmVrR3VPRVREd2l2SG0xZWJydHBpSUpJMmhLVVpLWDdaeXZQckxyVXU0OEJiN0hnYUd0ZDFncU1KSmtwMysxb290UVpsKytqRFIwWVBBanpLTEpmeUIzdXUzbFJpTWJtRkpnPT0=/attach/object/7cb7c3f8974c72e0f89e069a22795843de9075b3?" alt=""></p>
 <p><img src="https://cloud-pic.wpsgo.com/S2MxR1R2QSs5bTVlTE5hd2VtQVNSSThzT3hlYldPY1liRjREck5PczVOUnlYQkR6R01TR0tCMUo1VUpDM3o4SU9tTnYzUXU0OHdNY0NnRGk5Q0VxQ1h1N3NWb2grMzNpUG1OK0hGWFl2enF0bTdzRjZ4TUNnbjVsdS9hWlYvcFBuVXFBMFpVMGw0dGE3ZS9IU21ZUTY2Wk13UHZCOUR0TGhrVlZ3aGhSbGg1ZFE5ekVnbzNsTW1uTE9VOVZNZHdESDlDeWY0bkxTYk9TOWJrQXcvTEwrWk5kSEZ6SmVrR3VPRVREd2l2SG0xZWJydHBpSUpJMmhLVVpLWDdaeXZQckxyVXU0OEJiN0hnYUd0ZDFncU1KSmtwMysxb290UVpsKytqRFIwWVBBanpLTEpmeUIzdXUzbFJpTWJtRkpnPT0=/attach/object/01c76eea4b70f5f8e0be94b298ac1700c599df46?" alt=""></p>
 <p><img src="https://cloud-pic.wpsgo.com/S2MxR1R2QSs5bTVlTE5hd2VtQVNSSThzT3hlYldPY1liRjREck5PczVOUnlYQkR6R01TR0tCMUo1VUpDM3o4SU9tTnYzUXU0OHdNY0NnRGk5Q0VxQ1h1N3NWb2grMzNpUG1OK0hGWFl2enF0bTdzRjZ4TUNnbjVsdS9hWlYvcFBuVXFBMFpVMGw0dGE3ZS9IU21ZUTY2Wk13UHZCOUR0TGhrVlZ3aGhSbGg1ZFE5ekVnbzNsTW1uTE9VOVZNZHdESDlDeWY0bkxTYk9TOWJrQXcvTEwrWk5kSEZ6SmVrR3VPRVREd2l2SG0xZWJydHBpSUpJMmhLVVpLWDdaeXZQckxyVXU0OEJiN0hnYUd0ZDFncU1KSmtwMysxb290UVpsKytqRFIwWVBBanpLTEpmeUIzdXUzbFJpTWJtRkpnPT0=/attach/object/e06725b1676478be18cd31eef00d95e4d9fddade?" alt=""></p>
 
-    </div>
-  </article>
+        </article><div class="post-meta">
 
-  
-  
-
-
-
-
-
-  <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/">Home</a></li>
-         
-          <li><a href="/posts">Writings</a></li>
-         
-          <li><a href="/tags">Tags</a></li>
-         
-          <li><a href="/about">About</a></li>
-        
-      </ul>
-    </div>
-
-    <div id="toc-footer" style="display: none">
-      <nav id="TableOfContents"></nav>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      
-      <ul>
-  
-  
+    <div class="post-date">Sep 2023</div>
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f">
-      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&text=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&is_video=false&description=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae&body=Check out this article: https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f">
-      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&title=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&name=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae&description=">
-      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.samrainhan.com%2fposts%2f2023-09-13-how-to-restrict-website-access-on-tplink-router%2f&t=%e6%80%8e%e6%a0%b7%e5%9c%a8TPLink%e8%b7%af%e7%94%b1%e5%99%a8%e4%b8%8a%e9%99%90%e5%88%b6%e7%bd%91%e7%ab%99%e8%ae%bf%e9%97%ae">
-      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
+
+
+    
+    
+         <div class="post-taxonomies"> 
+        <div class="post-taxonomy"><a href="/categories#family">family</a></div>
+         </div> 
+    
+
+    
+    
+
+</div></section>
 
     </div>
 
-    <div id="actions-footer">
-      
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
-          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
-          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
-          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
-    </div>
-
-  </div>
-</div>
-
-
-  <footer id="footer">
-  <div class="footer-left">
-    Copyright  &copy; 2023  sam的小窝 
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-        <li><a href="/">Home</a></li>
-         
-        <li><a href="/posts">Writings</a></li>
-         
-        <li><a href="/tags">Tags</a></li>
-         
-        <li><a href="/about">About</a></li>
-        
-      </ul>
-    </nav>
-  </div>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
 
-  </div>
+
+
+
+
+
+    
+    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
 </body>
-
-<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
-<script src=/lib/jquery/jquery.min.js></script>
-<script src=/js/main.js></script>
-
-
-
 </html>

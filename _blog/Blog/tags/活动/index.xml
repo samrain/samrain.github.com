@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>活动 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%B4%BB%E5%8A%A8/</link>
-    <description>Recent content in 活动 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>旁听活动记录</title>
-      <link>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</link>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-08-13-attend-event-record/</guid>
-      <description>贴心Tips 给外校同学车补（150元/4人），帮助他们晚上回家 红色胶带固定地上的线，可以和环境的红布协调 ###想法 做一个虚拟现实系统，可以复</description>
-    </item>
-    <item>
-      <title>活动推广互联网部分</title>
-      <link>https://www.samrainhan.com/posts/2014-06-08-activities-to-promote-internet-content-and-quotes/</link>
-      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-06-08-activities-to-promote-internet-content-and-quotes/</guid>
-      <description>活动推广互联网部分 官方网站 仅PC 仅手机 自适应（PC和手机) 工具 电子邀请函 电子楼书(2D/3D) 小游戏</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 活动</title>
+        <link>https://www.samrainhan.com/tags/%E6%B4%BB%E5%8A%A8/</link>
+        <description>Recent content - sam的小窝 - 活动</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 13 Aug 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

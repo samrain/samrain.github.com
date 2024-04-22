@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>7号电池 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/7%E5%8F%B7%E7%94%B5%E6%B1%A0/</link>
-    <description>Recent content in 7号电池 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/7%E5%8F%B7%E7%94%B5%E6%B1%A0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>镍氢电池充电须知</title>
-      <link>https://www.samrainhan.com/posts/2016-06-19-nickel-metal-hydride-battery-information/</link>
-      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-19-nickel-metal-hydride-battery-information/</guid>
-      <description>新电池或者是长时间闲置不用电池 用0.1C（1/10容量电流，例如2000mAH电池就是200ma）电流充满后休息1小时，而后用0.2C放电，</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 7号电池</title>
+        <link>https://www.samrainhan.com/tags/7%E5%8F%B7%E7%94%B5%E6%B1%A0/</link>
+        <description>Recent content - sam的小窝 - 7号电池</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 19 Jun 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/7%E5%8F%B7%E7%94%B5%E6%B1%A0/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

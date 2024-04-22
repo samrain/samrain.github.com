@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Amazon on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/amazon/</link>
-    <description>Recent content in Amazon on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AWS使用心得</title>
-      <link>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</link>
-      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-07-22-use-of-aws/</guid>
-      <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Amazon</title>
+        <link>https://www.samrainhan.com/tags/amazon/</link>
+        <description>Recent content - sam的小窝 - Amazon</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 22 Jul 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>年终报告,述职,汇报 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%B9%B4%E7%BB%88%E6%8A%A5%E5%91%8A%E8%BF%B0%E8%81%8C%E6%B1%87%E6%8A%A5/</link>
-    <description>Recent content in 年终报告,述职,汇报 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Aug 2020 23:51:40 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%B9%B4%E7%BB%88%E6%8A%A5%E5%91%8A%E8%BF%B0%E8%81%8C%E6%B1%87%E6%8A%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎么写年终述职</title>
-      <link>https://www.samrainhan.com/posts/2020-08-28-how-to-write-year-end-report/</link>
-      <pubDate>Fri, 28 Aug 2020 23:51:40 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2020-08-28-how-to-write-year-end-report/</guid>
-      <description>怎么写年终述职 1. 工作业绩 尽量说清楚业绩是不是达标了，完成了多少项目，工作进展到了什么程度。 很多人写的是工作内容，而不是具体的工作成果，做了那</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 年终报告,述职,汇报</title>
+        <link>https://www.samrainhan.com/tags/%E5%B9%B4%E7%BB%88%E6%8A%A5%E5%91%8A%E8%BF%B0%E8%81%8C%E6%B1%87%E6%8A%A5/</link>
+        <description>Recent content - sam的小窝 - 年终报告,述职,汇报</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 28 Aug 2020 23:51:40 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%B9%B4%E7%BB%88%E6%8A%A5%E5%91%8A%E8%BF%B0%E8%81%8C%E6%B1%87%E6%8A%A5/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

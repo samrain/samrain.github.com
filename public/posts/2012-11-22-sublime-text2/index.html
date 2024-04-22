@@ -1,442 +1,366 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>Sublime Text2简介 - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2012-11-22-sublime-text2/">Sublime Text2简介</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2012-11-22" class="no-wrap"
-                                    title="Created at 2012/11/22">
-                                    2012-11-22</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2012-11-22" class="no-wrap"
-                                    title="Modifyed  at 2012/11/22">
-                                    2012-11-22</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>Sublime Text2简介 · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                1044 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 
-<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIN1ZzSTg5TmQyVzA">思维导图文件下载</a></p>
 
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="Sublime Text2简介 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="思维导图文件下载 安装 老窝 ubuntu PPA 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Soda 修改Gloabl S"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2012-11-22-sublime-text2/">
+
+
+
+
+
+
+
+<meta property="og:title" content="Sublime Text2简介 · sam的小窝">
+<meta property="og:description" content="思维导图文件下载 安装 老窝 ubuntu PPA 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Soda 修改Gloabl S"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2012-11-22-sublime-text2/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2012-11-22-sublime-text2/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                Sublime Text2简介
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeIN1ZzSTg5TmQyVzA">思维导图文件下载</a></p>
 <h1 id="安装">安装</h1>
-
 <ul>
-<li><p><a href="http://www.sublimetext.com/2">老窝</a></p></li>
-
-<li><p>ubuntu PPA</p></li>
+<li>
+<p><a href="http://www.sublimetext.com/2">老窝</a></p>
+</li>
+<li>
+<p>ubuntu PPA</p>
+</li>
 </ul>
-
-<pre>
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-
-sudo apt-get update
-
-sudo apt-get install sublime-text-2-dev
-</pre>
-
-<h1 id="学习视频-https-tutsplus-com-course-improve-workflow-in-sublime-text-2"><a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">学习视频</a></h1>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h1 id="学习视频httpstutspluscomcourseimprove-workflow-in-sublime-text-2"><a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">学习视频</a></h1>
 <h1 id="美化">美化</h1>
-
 <ul>
-<li><p><a href="https://github.com/dmatarazzo/Sublime-Text-2-Icon">更改图标</a></p></li>
+<li>
+<p><a href="https://github.com/dmatarazzo/Sublime-Text-2-Icon">更改图标</a></p>
+</li>
+<li>
+<p><a href="https://github.com/buymeasoda/soda-theme">添加Soda主题</a></p>
+<pre><code>  运行Packge Control Install,安装Theme-Soda
 
-<li><p><a href="https://github.com/buymeasoda/soda-theme">添加Soda主题</a></p>
-
-<pre><code>运行Packge Control Install,安装Theme-Soda
-
-修改Gloabl Setting-User，添加 &quot;theme&quot;: &quot;Soda Dark.sublime-theme&quot;
-</code></pre></li>
+  修改Gloabl Setting-User，添加 &quot;theme&quot;: &quot;Soda Dark.sublime-theme&quot;
+</code></pre>
+</li>
 </ul>
-
 <h1 id="插件">插件</h1>
-
 <ul>
-<li><p>ZenCoding</p>
-
-<pre><code>Ctrl+Alt+Enter
-</code></pre></li>
-
-<li><p>jsFormat</p>
-
-<pre><code>格式化js
-</code></pre></li>
-
-<li><p><a href="http://wbond.net/sublime_packages/sftp">sFtp</a></p>
-
-<pre><code>通过sftp/ftp直接管理远程文件，或者同步本地文件/文件夹到服务器对应目录，可以选择保存本地文件时自动上传
-</code></pre></li>
-
-<li><p>DocBlockr</p>
-
-<pre><code>在JS函数上方输入/**、回车，doc就生成好了，还可以按tab在各项移动
-</code></pre></li>
-
-<li><p>sublime-jslint</p>
-
-<pre><code>打开一个js文件，control+j，即可输出jsLint检查的结果
-</code></pre></li>
-
-<li><p>Sublime CodeIntel</p>
-
-<pre><code>代码自动提示
-</code></pre></li>
-
-<li><p>JsMinifier</p>
-
-<pre><code>该插件基于Google Closure compiler，自动压缩js文件
-</code></pre></li>
-
-<li><p>Bracket Highlighter</p>
-
-<pre><code>类似于代码匹配，可以匹配括号，引号等符号内的范围
-</code></pre></li>
-
-<li><p>GBK to UTF8</p>
-
-<pre><code>将文件编码从GBK转黄成UTF8，快捷键Ctrl+Shift+C
-</code></pre></li>
-
-<li><p>Git</p>
-
-<pre><code>基本上实现了git的所有功能
-</code></pre></li>
-
-<li><p>Clipboard History</p>
-
-<pre><code>粘贴板历史记录，方便使用复制/剪切的内容。
-</code></pre></li>
-
-<li><p>Tortoise</p>
-
-<pre><code>Windows-only plugin that provides key bindings and menu entries for TortoiseSVN, TortoiseGit and TortoiseHg.
-</code></pre></li>
-
-<li><p>Terminal</p>
-
-<pre><code>Open a terminal at the current file, or the root of your project. Can be configured to use a custom terminal.
-</code></pre></li>
-
-<li><p><a href="https://github.com/kemayo/sublime-text-2-clipboard-history">sublime-text-2-clipboard-history</a></p>
-
-<pre><code>保存剪贴板历史，不包含多重选择
-</code></pre></li>
-
-<li><p><a href="https://github.com/SublimeText/CTags">CTags</a></p>
-
-<pre><code>working with tags generated by Exuberant CTags
-</code></pre></li>
-
-<li><p>GenerateUUID</p>
-
-<pre><code>generate a UUID v4
-</code></pre></li>
-
-<li><p><a href="https://github.com/titoBouzout/SideBarEnhancements">SideBarEnhancements</a></p>
-
-<pre><code>边栏增强工具
-</code></pre></li>
-
-<li><p><a href="https://github.com/stuartherbert/sublime-phpsnippets">sublime-phpsnippets</a></p>
-
-<pre><code>更多的PHP代码片段
-</code></pre></li>
-
-<li><p><a href="https://github.com/devtellect/sublime-twitter-bootstrap-snippets">sublime-twitter-bootstrap-snippets</a></p>
-
-<pre><code>关于bootstrap的代码片段
-</code></pre></li>
-
-<li><p><a href="https://github.com/erichard/SublimeCTagsPHP">SublimeCTagsPHP</a></p>
-
-<pre><code>PHP专用的CTags插件
-</code></pre></li>
-
-<li><p><a href="https://github.com/yangweijie/ThinkPHP-Snippets">ThinkPHP-Snippets</a></p>
-
-<pre><code>ThinkPHP的代码片段
-</code></pre></li>
-
-<li><p><a href="https://github.com/oct8cat/sublime-phpdox">PhpDox</a></p>
-
-<pre><code>通过快捷键从当前PHP代码中生成符合PHPDoc标准的注释
-</code></pre></li>
+<li>
+<p>ZenCoding</p>
+<pre><code>  Ctrl+Alt+Enter
+</code></pre>
+</li>
+<li>
+<p>jsFormat</p>
+<pre><code>  格式化js
+</code></pre>
+</li>
+<li>
+<p><a href="http://wbond.net/sublime_packages/sftp">sFtp</a></p>
+<pre><code>  通过sftp/ftp直接管理远程文件，或者同步本地文件/文件夹到服务器对应目录，可以选择保存本地文件时自动上传
+</code></pre>
+</li>
+<li>
+<p>DocBlockr</p>
+<pre><code>  在JS函数上方输入/**、回车，doc就生成好了，还可以按tab在各项移动
+</code></pre>
+</li>
+<li>
+<p>sublime-jslint</p>
+<pre><code>  打开一个js文件，control+j，即可输出jsLint检查的结果
+</code></pre>
+</li>
+<li>
+<p>Sublime CodeIntel</p>
+<pre><code>  代码自动提示
+</code></pre>
+</li>
+<li>
+<p>JsMinifier</p>
+<pre><code>  该插件基于Google Closure compiler，自动压缩js文件
+</code></pre>
+</li>
+<li>
+<p>Bracket Highlighter</p>
+<pre><code>  类似于代码匹配，可以匹配括号，引号等符号内的范围
+</code></pre>
+</li>
+<li>
+<p>GBK to UTF8</p>
+<pre><code>  将文件编码从GBK转黄成UTF8，快捷键Ctrl+Shift+C
+</code></pre>
+</li>
+<li>
+<p>Git</p>
+<pre><code>  基本上实现了git的所有功能
+</code></pre>
+</li>
+<li>
+<p>Clipboard History</p>
+<pre><code>  粘贴板历史记录，方便使用复制/剪切的内容。
+</code></pre>
+</li>
+<li>
+<p>Tortoise</p>
+<pre><code>  Windows-only plugin that provides key bindings and menu entries for TortoiseSVN, TortoiseGit and TortoiseHg.
+</code></pre>
+</li>
+<li>
+<p>Terminal</p>
+<pre><code>  Open a terminal at the current file, or the root of your project. Can be configured to use a custom terminal.
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/kemayo/sublime-text-2-clipboard-history">sublime-text-2-clipboard-history</a></p>
+<pre><code>  保存剪贴板历史，不包含多重选择
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/SublimeText/CTags">CTags</a></p>
+<pre><code>  working with tags generated by Exuberant CTags
+</code></pre>
+</li>
+<li>
+<p>GenerateUUID</p>
+<pre><code>  generate a UUID v4
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/titoBouzout/SideBarEnhancements">SideBarEnhancements</a></p>
+<pre><code>  边栏增强工具
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/stuartherbert/sublime-phpsnippets">sublime-phpsnippets</a></p>
+<pre><code>  更多的PHP代码片段
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/devtellect/sublime-twitter-bootstrap-snippets">sublime-twitter-bootstrap-snippets</a></p>
+<pre><code>  关于bootstrap的代码片段
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/erichard/SublimeCTagsPHP">SublimeCTagsPHP</a></p>
+<pre><code>  PHP专用的CTags插件
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/yangweijie/ThinkPHP-Snippets">ThinkPHP-Snippets</a></p>
+<pre><code>  ThinkPHP的代码片段
+</code></pre>
+</li>
+<li>
+<p><a href="https://github.com/oct8cat/sublime-phpdox">PhpDox</a></p>
+<pre><code>  通过快捷键从当前PHP代码中生成符合PHPDoc标准的注释
+</code></pre>
+</li>
 </ul>
-
 <h1 id="tips">TIPs</h1>
-
 <ul>
-<li><p>快捷的命令面板</p>
+<li>
+<p>快捷的命令面板</p>
+<pre><code>  Ctrl+Shift+p
+</code></pre>
+</li>
+<li>
+<p>Goto Anything</p>
+<pre><code>  Ctrl+p
+</code></pre>
+</li>
+<li>
+<p>快速列出/跳转到某个函数</p>
+<pre><code>  Ctrl+p然后输入@
 
-<pre><code>Ctrl+Shift+p
-</code></pre></li>
+  Ctrl+r
+</code></pre>
+</li>
+<li>
+<p>在当前文件中进行搜索</p>
+<pre><code>  Ctrl+p然后输入#
+</code></pre>
+</li>
+<li>
+<p>在指定目录下所有文件中搜索内容</p>
+<pre><code>  CTRL + SHIFT + f
+</code></pre>
+</li>
+<li>
+<p>加上数字跳转到相应的行</p>
+<pre><code>  Ctrl+p然后输入:
 
-<li><p>Goto Anything</p>
+  Ctrl+g
+</code></pre>
+</li>
+<li>
+<p>而更酷的是你可以用 Command+P 加上一些关键词跳转到某个文件同时加上 @ 来列出/跳转到目标文件中的某个函数，或是同时加上 # 来在目标文件中进行搜索，或是同时加上 : 和数字来跳转到目标文件中相应的行。</p>
+</li>
+<li>
+<p>多重选择</p>
+<pre><code>  单个选择相同文字
 
-<pre><code>Ctrl+p
-</code></pre></li>
+  选中文字
 
-<li><p>快速列出/跳转到某个函数</p>
+  连续按Ctrl+d
 
-<pre><code>Ctrl+p然后输入@
+  选择所有相同文字
 
-Ctrl+r
-</code></pre></li>
+  选中文字
 
-<li><p>在当前文件中进行搜索</p>
+  Alt+F3
 
-<pre><code>Ctrl+p然后输入#
-</code></pre></li>
+  单个选择不同文字
 
-<li><p>在指定目录下所有文件中搜索内容</p>
+  按住Ctrl鼠标选择
 
-<pre><code>CTRL + SHIFT + f
-</code></pre></li>
+  不选择相同文字中的某些
 
-<li><p>加上数字跳转到相应的行</p>
+  选中文字
 
-<pre><code>Ctrl+p然后输入:
+  连续按Ctrl+K，Ctrl+d
+</code></pre>
+</li>
+<li>
+<p>安装包控制</p>
+<pre><code>  1. Ctrl+`
 
-Ctrl+g
-</code></pre></li>
+  2. 输入以下字符串然后回车
 
-<li><p>而更酷的是你可以用 Command+P 加上一些关键词跳转到某个文件同时加上 @ 来列出/跳转到目标文件中的某个函数，或是同时加上 # 来在目标文件中进行搜索，或是同时加上 : 和数字来跳转到目标文件中相应的行。</p></li>
+  import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
 
-<li><p>多重选择</p>
+  3. 重启Sublime Text2
 
-<pre><code>单个选择相同文字
+  4.Ctrl+Shift+p然后输入pci，如果有那么说明安装上去了
+</code></pre>
+</li>
+<li>
+<p>激活VIM模式</p>
+<pre><code>  修改Preference-Setting-User，添加以下语句&quot;ignored_packages&quot;: []
+</code></pre>
+</li>
+<li>
+<p>无干扰模式</p>
+<pre><code>  Shift+F11
+</code></pre>
+</li>
+<li>
+<p>TextMate Bundle</p>
+<pre><code>  Bundle 放到 Packages 目录里就能用。但对 Bundle 中的 command 并不支持
 
-选中文字
+  TextMate 的色彩主题也是可以放到 Packages 目录里直接用的
+</code></pre>
+</li>
+<li>
+<p>选择多行中的同一列进行同时编辑</p>
+<pre><code>  Shift键+鼠标右键
 
-连续按Ctrl+d
-
-选择所有相同文字
-
-选中文字
-
-Alt+F3
-
-单个选择不同文字
-
-按住Ctrl鼠标选择
-
-不选择相同文字中的某些
-
-选中文字
-
-连续按Ctrl+K，Ctrl+d
-</code></pre></li>
-
-<li><p>安装包控制</p>
-
-<pre><code>1. Ctrl+`
-
-2. 输入以下字符串然后回车
-
-import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
-
-3. 重启Sublime Text2
-
-4.Ctrl+Shift+p然后输入pci，如果有那么说明安装上去了
-</code></pre></li>
-
-<li><p>激活VIM模式</p>
-
-<pre><code>修改Preference-Setting-User，添加以下语句&quot;ignored_packages&quot;: []
-</code></pre></li>
-
-<li><p>无干扰模式</p>
-
-<pre><code>Shift+F11
-</code></pre></li>
-
-<li><p>TextMate Bundle</p>
-
-<pre><code>Bundle 放到 Packages 目录里就能用。但对 Bundle 中的 command 并不支持
-
-TextMate 的色彩主题也是可以放到 Packages 目录里直接用的
-</code></pre></li>
-
-<li><p>选择多行中的同一列进行同时编辑</p>
-
-<pre><code>Shift键+鼠标右键
-
-或者Ctrl+Alt+Up/Down
-</code></pre></li>
+  或者Ctrl+Alt+Up/Down</code></pre>
+</li>
 </ul>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Nov 2012</div>
+    
 
 
+    
+    
 
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+    
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            <li><a href="/posts/2012-11-22-markdown-grammar/">Markdown语法</a></li>
+            
         </ul>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
+    
+
+</div></section>
+
     </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
+    </div>
+
+
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

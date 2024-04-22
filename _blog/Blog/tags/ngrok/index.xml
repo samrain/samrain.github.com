@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ngrok on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/ngrok/</link>
-    <description>Recent content in ngrok on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何把内网的服务公布到公网上</title>
-      <link>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</guid>
-      <description>ngrok 这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。 下载 https://ngrok.com/download 配置 编辑配置文件 ngrok.config auth_token: dxW21sgRz-DscM932vgkDxe http_proxy: &amp;quot;http://192.168.16.41:60002&amp;quot; tunnels: calibre-server: subdomain: samebook proto: https: 8080 其中</description>
-    </item>
-    <item>
-      <title>初学ngrok</title>
-      <link>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</link>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-29-ngrok-getting-started/</guid>
-      <description>官网在此：ngrok.com 源码在此：github.com/ngrok 前辈高人的中文说明在此：NGROK 内网穿透利器 下面只说我自己试验成功的</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Ngrok</title>
+        <link>https://www.samrainhan.com/tags/ngrok/</link>
+        <description>Recent content - sam的小窝 - Ngrok</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 20 Apr 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

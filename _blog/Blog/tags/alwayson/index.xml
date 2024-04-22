@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AlwaysOn on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/alwayson/</link>
-    <description>Recent content in AlwaysOn on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/alwayson/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SQL Server High Availability Solution</title>
-      <link>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</link>
-      <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/</guid>
-      <description>SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - AlwaysOn</title>
+        <link>https://www.samrainhan.com/tags/alwayson/</link>
+        <description>Recent content - sam的小窝 - AlwaysOn</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 19 May 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/alwayson/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

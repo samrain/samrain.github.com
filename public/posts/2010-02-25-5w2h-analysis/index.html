@@ -1,238 +1,159 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet"
-        href="http://samrainhan.com/css/frameworks.css" />
-    <link crossorigin="anonymous" media="all"
-        rel="stylesheet" href="http://samrainhan.com/css/github.css" />
+<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>5W2H分析法 - sam的小窝</title>
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://samrainhan.com/images/favicon.ico">
-    <meta name="theme-color" content="#1e2327">
+
     
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-37708730-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-</head>
 
-<body class="env-production emoji-size-boost page-responsive page-profile">
-  <div class="position-relative js-header-wrapper ">
-    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
-        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
-    </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
-        <div class="Header-item d-none d-lg-flex">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div
-            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
-            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
-                aria-expanded="false">
-                <div class="position-relative">
-                </div>
-            </div>
-        </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
-            <a class="Header-link" href="http://samrainhan.com/" aria-label="Homepage"
-                data-ga-click="Header, go to dashboard, icon:logo">
-                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
-                    width="32" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-            </a>
-        </div>
-        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-            <details class="details-overlay details-reset">
-                <summary class="Header-link" aria-label="View profile and more"
-                    data-ga-click="Header, show menu, icon:avatar">
-                    
-                    <img alt="" class="avatar" src="http://samrainhan.com/images/avatar.png" height="20" width="20">
-                    
-                </summary>
-            </details>
-        </div>
-    </header>
-</div>
 
-<div id="start-of-content" class="show-on-focus"></div>
-<div id="js-flash-container">
-</div>
+    
 
-  
-<div class="application-main " data-commit-hovercards-enabled="">
-    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-        <main id="js-repo-pjax-container" data-pjax-container="">
-            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
-                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
-                    <div class="mb-3 d-flex">
-                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
-                            <a class="avatar mr-1" href="http://samrainhan.com/about/">
-                            
-                                <img
-                                    src="http://samrainhan.com/images/avatar.png" width="26" height="26">
-                            
-                            </a>
-                            <span class="author"><a
-                                    href="http://samrainhan.com/">韩雨</a></span>
-                            <span class="path-divider">/</span>
-                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://samrainhan.com/posts/2010-02-25-5w2h-analysis/">5W2H分析法</a></strong>
-
-                            <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2010-02-25" class="no-wrap"
-                                    title="Created at 2010/02/25">
-                                    2010-02-25</time-ago>
-                                <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2010-02-25" class="no-wrap"
-                                    title="Modifyed  at 2010/02/25">
-                                    2010-02-25</time-ago>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
+<title>5W2H分析法 · sam的小窝</title>
 
 
 
 
-            </div>
-            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
-                <div class="repository-content ">
-                    <div class="Box mt-3 position-relative">
-                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                1158 Words
-                                
-                            </div>
-                        </div>
 
-                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>出自<a href="http://wiki.mbalib.com/">MBA智库百科</a></p>
 
+
+
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="samrain"/>
+<meta name="twitter:title" content="5W2H分析法 · sam的小窝"/>
+<meta name="twitter:creator" content="samrain"/>
+<meta name="twitter:description" content="出自MBA智库百科 5W2H分析法又称七何分析法 5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广"/>
+<meta property="twitter:url" content="http://localhost:55555/posts/2010-02-25-5w2h-analysis/">
+
+
+
+
+
+
+
+<meta property="og:title" content="5W2H分析法 · sam的小窝">
+<meta property="og:description" content="出自MBA智库百科 5W2H分析法又称七何分析法 5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广"/>
+
+<meta property="og:url" content="http://localhost:55555/posts/2010-02-25-5w2h-analysis/">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:type" content="article"/>
+
+<link rel="canonical" href="http://localhost:55555/posts/2010-02-25-5w2h-analysis/">
+
+
+    
+
+    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
+<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
+
+
+<meta name="theme-color" content="#2B343E"></head><body>
+    
+    <div class="goto bottom">
+        <a href="#site-footer">↓</a>
+    </div>
+    <div id="site-content">
+    <section class="post">
+        <header class="post-header">
+            <h1 class="post-title">
+            
+                5W2H分析法
+            
+
+            
+            </h1>
+
+            <h4 class="post-author">
+            
+            </h4>
+
+        </header>
+
+        <article class="post-content">
+            <p>出自<a href="http://wiki.mbalib.com/">MBA智库百科</a></p>
 <p>5W2H分析法又称七何分析法</p>
-
 <p>5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广泛用于企业管理和技术活动，对于决策和执行性的活动措施也非常有帮助，也有助于弥补考虑问题的疏漏。发明者用五个以W开头的英语单词和两个以H开头的英语单词进行设问，发现解决问题的线索，寻找发明思路，进行设计构思，从而搞出新的发明项目， 这就叫做5W2H法。</p>
-
 <ul>
-<li><p>为什么（Why）？</p>
-
-<pre><code>为什么采用这个技术参数？为什么不能有响声？为什么停用？为什么变成红色：为什么要做成这个形状？为什么采用机器代替人力？为什么产品的制 造要经过这么多环节？为什么非做不可？
-</code></pre></li>
-
-<li><p>做什么（What）？</p>
-
-<pre><code>条件是什么？哪一部分工作要做？目的是什么？重点是什么？与什么有关系？功能是什么？规范是什么？工作对象是什么？
-</code></pre></li>
-
-<li><p>谁（Who）？</p>
-
-<pre><code>谁来办最方便？谁会生产？谁可以办？谁是顾客？谁被忽略了？谁是决策人？谁会受益？
-</code></pre></li>
-
-<li><p>何时（When）？</p>
-
-<pre><code>何时要完成？何时安装？何时销售？何时是最佳营业时间？何时工作人员容易疲劳？何时产量最高？何时完成最为时宜？需要几天才算合理？
-</code></pre></li>
-
-<li><p>何地（Where）？</p>
-
-<pre><code>何地最适宜某物生长？何处生产最经济？从何处买？还有什么地方可以作销售点？安装在什么地方最合适？何地有资源？
-</code></pre></li>
-
-<li><p>怎样（How to）？</p>
-
-<pre><code>怎样做省力？怎样做最快？怎样做效率最高？怎样改进？怎样得到？怎样避免失败？ 怎样求发展？怎样增加销路？怎样达到效率？怎样才能使产品更加美观大方？怎样使产品用起来方便？
-</code></pre></li>
-
-<li><p>多少（How much）？</p>
-
-<pre><code>功能指标达到多少？销售多少？成本多少？输出功率多少？效率多高？尺寸多少？重量多少？
-</code></pre></li>
+<li>
+<p>为什么（Why）？</p>
+<pre><code>  为什么采用这个技术参数？为什么不能有响声？为什么停用？为什么变成红色：为什么要做成这个形状？为什么采用机器代替人力？为什么产品的制 造要经过这么多环节？为什么非做不可？
+</code></pre>
+</li>
+<li>
+<p>做什么（What）？</p>
+<pre><code>  条件是什么？哪一部分工作要做？目的是什么？重点是什么？与什么有关系？功能是什么？规范是什么？工作对象是什么？
+</code></pre>
+</li>
+<li>
+<p>谁（Who）？</p>
+<pre><code>  谁来办最方便？谁会生产？谁可以办？谁是顾客？谁被忽略了？谁是决策人？谁会受益？
+</code></pre>
+</li>
+<li>
+<p>何时（When）？</p>
+<pre><code>  何时要完成？何时安装？何时销售？何时是最佳营业时间？何时工作人员容易疲劳？何时产量最高？何时完成最为时宜？需要几天才算合理？
+</code></pre>
+</li>
+<li>
+<p>何地（Where）？</p>
+<pre><code>  何地最适宜某物生长？何处生产最经济？从何处买？还有什么地方可以作销售点？安装在什么地方最合适？何地有资源？
+</code></pre>
+</li>
+<li>
+<p>怎样（How to）？</p>
+<pre><code>  怎样做省力？怎样做最快？怎样做效率最高？怎样改进？怎样得到？怎样避免失败？ 怎样求发展？怎样增加销路？怎样达到效率？怎样才能使产品更加美观大方？怎样使产品用起来方便？
+</code></pre>
+</li>
+<li>
+<p>多少（How much）？</p>
+<pre><code>  功能指标达到多少？销售多少？成本多少？输出功率多少？效率多高？尺寸多少？重量多少？
+</code></pre>
+</li>
 </ul>
-
 <p>提出疑问于发现问题和解决问题是极其重要的。创造力高的人，都具有善于提问题的能力，众所周知，提出一个好的问题，就意味着问题解决了一半。提问题的技巧高，可以发挥人的想象力。相反，有些问题提出来，反而挫伤我们的想象力。发明者在设计新产品时，常常提出：为什么（Why）；做什么（What）；何 人做（Who）；何时（When）；何地（Where）；如何（How）；多少（How much）。这就构成了5W2H法的总框架。如果提问题中常有“假如……”. “如果……”. “是否……”这样的虚构，就是一种设问，设问需要更高的想象力。</p>
-
 <p>在发明设计中，对问题不敏感，看不出毛病是与平时不善于提问有密切关系的。对一个问题追根刨底，有可能发现新的知识和新的疑问。所以从根本上说，学会发明首先要学会提问，善于提问。阻碍提问的因素，一是怕提问多，被别人看成什么也不懂的傻瓜，二是随着年龄和知识的增长，提问欲望渐渐淡薄。如果提问得不到答复和鼓励，反而遭人讥讽，结果在人的潜意识中就形成了这种看法：好提问. 好挑毛病的人是扰 乱别人的讨厌鬼，最好紧闭嘴唇，不看. 不闻. 不问，但是这恰恰阻碍了人的创造性的发挥。</p>
-</article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+
+        </article><div class="post-meta">
+
+    <div class="post-date">Feb 2010</div>
+    
+
+
+    
+    
+
+    
+    
+
+</div></section>
+
     </div>
-</div>
 
+    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+</footer>
 
-
-  <div class="footer container-lg width-full p-responsive" role="contentinfo">
-    <div
-        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-            <li class="mr-3 mr-lg-0">© 2019. Theme by <a href="https://github.com/MeiK2333/github-style"><span>github-style</span></a></li>
-        </ul>
-
-        <a aria-label="Homepage" title="sam的小窝" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="http://samrainhan.com/">
-            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
-                aria-hidden="true">
-                <path fill-rule="evenodd"
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-        <ul
-            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        </ul>
+    <div class="goto top">
+        <a href="#site-content">↑</a>
     </div>
-    <div class="d-flex flex-justify-center pb-6">
-        <span class="f6 text-gray-light"></span>
-    </div>
-</div>
 
-<script crossorigin="anonymous"
-    type="application/javascript" src="http://samrainhan.com/js/frameworks.js"></script>
 
-<script crossorigin="anonymous" async="async"
-    type="application/javascript" src="http://samrainhan.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
+
+
+
+
+    <script src="/js/bundle.js" type="module"></script>
 </body>
-
 </html>

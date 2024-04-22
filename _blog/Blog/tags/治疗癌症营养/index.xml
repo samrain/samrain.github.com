@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>治疗,癌症,营养 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/</link>
-    <description>Recent content in 治疗,癌症,营养 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 30 Jul 2022 17:25:25 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>放疗和化疗病人的营养支持</title>
-      <link>https://www.samrainhan.com/posts/2022-07-30-nutritional-support-for-radiotherapy-and-chemotherapy-patients/</link>
-      <pubDate>Sat, 30 Jul 2022 17:25:25 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-07-30-nutritional-support-for-radiotherapy-and-chemotherapy-patients/</guid>
-      <description>化疗病人的营养支持 在食品的调配上，应注意色. 香. 味. 形，以增进食欲，并少食多餐，肉食以冷食. 气味小为主。对食欲减退者根据病人口味给予清淡易消</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 治疗,癌症,营养</title>
+        <link>https://www.samrainhan.com/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/</link>
+        <description>Recent content - sam的小窝 - 治疗,癌症,营养</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 30 Jul 2022 17:25:25 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%B2%BB%E7%96%97%E7%99%8C%E7%97%87%E8%90%A5%E5%85%BB/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

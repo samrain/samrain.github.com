@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>标准 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%A0%87%E5%87%86/</link>
-    <description>Recent content in 标准 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Sep 2023 09:02:43 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>美国股市的上市公司行业分类标准</title>
-      <link>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</link>
-      <pubDate>Sat, 23 Sep 2023 09:02:43 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</guid>
-      <description>GICS和ICB是目前美国和国际上大部分股票市场常用的。TRBC以及美国政府统计部门使用的NAICS和SIC也比较常用。 全球行业分类标准 (Global Industry</description>
-    </item>
-    <item>
-      <title>google招聘标准</title>
-      <link>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</link>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid>
-      <description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 标准</title>
+        <link>https://www.samrainhan.com/tags/%E6%A0%87%E5%87%86/</link>
+        <description>Recent content - sam的小窝 - 标准</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 23 Sep 2023 09:02:43 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

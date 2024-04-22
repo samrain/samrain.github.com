@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>存储 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%AD%98%E5%82%A8/</link>
-    <description>Recent content in 存储 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 Jun 2018 11:30:50 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%AD%98%E5%82%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2017 Gartner Magic Quadrant for Content Collaboration Platforms</title>
-      <link>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</link>
-      <pubDate>Sat, 02 Jun 2018 11:30:50 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-02-2017-gartner-magic-quadrant-for-content-collaboration-platforms/</guid>
-      <description>本文是翻译之：https://www.gartner.com/doc/reprints?id=1-47KHUO6&amp;amp;ct=170725</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 存储</title>
+        <link>https://www.samrainhan.com/tags/%E5%AD%98%E5%82%A8/</link>
+        <description>Recent content - sam的小窝 - 存储</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sat, 02 Jun 2018 11:30:50 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%AD%98%E5%82%A8/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

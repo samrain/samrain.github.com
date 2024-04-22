@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>学习,公式,ANEW on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8Fanew/</link>
-    <description>Recent content in 学习,公式,ANEW on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jan 2020 23:16:06 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8Fanew/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ANEW学习公式</title>
-      <link>https://www.samrainhan.com/posts/2020-01-01-anew-learning-formula/</link>
-      <pubDate>Tue, 21 Jan 2020 23:16:06 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2020-01-01-anew-learning-formula/</guid>
-      <description>ANEW学习公式 强烈的愿望 对自己的认识 无尽的好奇心 从低开始</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 学习,公式,ANEW</title>
+        <link>https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8Fanew/</link>
+        <description>Recent content - sam的小窝 - 学习,公式,ANEW</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 21 Jan 2020 23:16:06 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8Fanew/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

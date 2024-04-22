@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PowerDesigner on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/powerdesigner/</link>
-    <description>Recent content in PowerDesigner on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/powerdesigner/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>使用PowerDesigner生成HTML功能</title>
-      <link>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</link>
-      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-04-29-export-as-html-on-powerdesigner/</guid>
-      <description>创建一个new Report; 选择【file】—【new】—【Multi-Model Report】，然后定义Report Name,这个主要是HTML的名称</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - PowerDesigner</title>
+        <link>https://www.samrainhan.com/tags/powerdesigner/</link>
+        <description>Recent content - sam的小窝 - PowerDesigner</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 29 Apr 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/powerdesigner/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

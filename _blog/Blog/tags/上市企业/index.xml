@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>上市企业 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/</link>
-    <description>Recent content in 上市企业 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Aug 2023 15:18:01 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>大消费上市公司清单（包含沪深港股和美股）</title>
-      <link>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</link>
-      <pubDate>Fri, 25 Aug 2023 15:18:01 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</guid>
-      <description>大消费上市公司清单（包含沪深港股和美股） 大类 行业 细分行业 股票代码 股票名称 所属交易所 购 商贸零售 - 000007 *ST全新 深交所 购 商贸零售 000058 深赛格 深交所 购 商</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 上市企业</title>
+        <link>https://www.samrainhan.com/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/</link>
+        <description>Recent content - sam的小窝 - 上市企业</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 25 Aug 2023 15:18:01 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8A%E5%B8%82%E4%BC%81%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

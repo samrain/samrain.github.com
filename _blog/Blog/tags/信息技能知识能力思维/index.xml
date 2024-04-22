@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>信息,技能,知识,能力,思维 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E8%83%BD%E7%9F%A5%E8%AF%86%E8%83%BD%E5%8A%9B%E6%80%9D%E7%BB%B4/</link>
-    <description>Recent content in 信息,技能,知识,能力,思维 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Jan 2021 17:29:53 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E8%83%BD%E7%9F%A5%E8%AF%86%E8%83%BD%E5%8A%9B%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>信息、技能、知识、能力、思维</title>
-      <link>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</link>
-      <pubDate>Tue, 26 Jan 2021 17:29:53 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</guid>
-      <description>信息、技能、知识、能力、思维 @startuml title 数据-&amp;gt;信息:工具收集 信息-&amp;gt;技能:模板和练习 信息-&amp;gt;知识:归纳总结，实践出真知 知识-&amp;g</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 信息,技能,知识,能力,思维</title>
+        <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E8%83%BD%E7%9F%A5%E8%AF%86%E8%83%BD%E5%8A%9B%E6%80%9D%E7%BB%B4/</link>
+        <description>Recent content - sam的小窝 - 信息,技能,知识,能力,思维</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 26 Jan 2021 17:29:53 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E8%83%BD%E7%9F%A5%E8%AF%86%E8%83%BD%E5%8A%9B%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

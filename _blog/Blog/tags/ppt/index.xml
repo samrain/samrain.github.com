@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PPT on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/ppt/</link>
-    <description>Recent content in PPT on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>制作ppt的非office工具</title>
-      <link>https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/</link>
-      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/</guid>
-      <description>思维导图文件下载 inkscape + sozi inkscape是矢量文件编辑工具，Sozi是 inkscape 的外掛.使用SVG和JS来播放图片和文字 转如何制作 优点：不需要做编程方</description>
-    </item>
-    <item>
-      <title>PPT模板和素材</title>
-      <link>https://www.samrainhan.com/posts/2013-03-18-ppt-templates-and-clip/</link>
-      <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-03-18-ppt-templates-and-clip/</guid>
-      <description>思维导图文件下载 中文 扑奔PPT Power Bar 无忧PPT 搜PPT网 PPT中国 PPT资源之家 我的PPT 英文 graphicsland 韩国TG公司 CrystalGraphics Brainy Betty maniactive presentationpro 美国怪兽模版公司 动画工厂</description>
-    </item>
-    <item>
-      <title>怎么更好的开会(转google经验)</title>
-      <link>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</link>
-      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</guid>
-      <description>1. 有一个明确的议程 2. 指定专门的note-taker 3. 钻小会（Carve out micro-meeting） 4. Hold office hours. 5. 要数据，不要政治 （Discou</description>
-    </item>
-    <item>
-      <title>PPT模板和素材</title>
-      <link>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</link>
-      <pubDate>Fri, 26 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</guid>
-      <description>中文 扑奔PPT Power Bar 无忧PPT 搜PPT网 PPT中国 PPT资源之家 wordppt 英文 graphicsland 韩国TG公司 CrystalGraphics brainybetty maniactive animationfactory websiteestates presentationpro 美国怪兽模版公司 动画工厂 presentationhelper</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Ppt</title>
+        <link>https://www.samrainhan.com/tags/ppt/</link>
+        <description>Recent content - sam的小窝 - Ppt</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 09 May 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

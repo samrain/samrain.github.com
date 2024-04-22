@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>openresty on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/openresty/</link>
-    <description>Recent content in openresty on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/openresty/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>learn openresty</title>
-      <link>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</link>
-      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</guid>
-      <description>openresty管理命令 #重启 nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload #关闭 nginx -c ~/下载/wor</description>
-    </item>
-    <item>
-      <title>OpenResty第三方模块</title>
-      <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
-      <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
-      <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Openresty</title>
+        <link>https://www.samrainhan.com/tags/openresty/</link>
+        <description>Recent content - sam的小窝 - Openresty</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 16 Jun 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/openresty/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

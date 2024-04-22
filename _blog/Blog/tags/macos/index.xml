@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MacOS on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/macos/</link>
-    <description>Recent content in MacOS on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 20 Jan 2023 20:49:49 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Win和MacOS上的儿童模式比较</title>
-      <link>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</link>
-      <pubDate>Fri, 20 Jan 2023 20:49:49 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</guid>
-      <description>儿童模式是啥 有时也叫家长控制。 作为家长为了防止小孩沉迷网络、接触到超出年龄限制的内容而设置的一种具备限制性和监管性的系统模式，儿童模式在一定</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - MacOS</title>
+        <link>https://www.samrainhan.com/tags/macos/</link>
+        <description>Recent content - sam的小窝 - MacOS</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Fri, 20 Jan 2023 20:49:49 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

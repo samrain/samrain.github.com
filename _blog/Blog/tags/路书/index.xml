@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>路书 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%B7%AF%E4%B9%A6/</link>
-    <description>Recent content in 路书 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 19 Dec 2023 10:06:44 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%B7%AF%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>一都一堆三山（成都&#43;三星堆&#43;青城山&#43;峨眉山&#43;乐山）旅游攻略</title>
-      <link>https://www.samrainhan.com/posts/2023-12-19-chengdu-qingcheng-mountain-emei-mountain-travel-guide/</link>
-      <pubDate>Tue, 19 Dec 2023 10:06:44 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-19-chengdu-qingcheng-mountain-emei-mountain-travel-guide/</guid>
-      <description>📎Tips 1. 上海&amp;gt;绵阳&amp;gt;都江堰&amp;gt;青城山 2. 青城山&amp;gt;成都 3. 成都 4. 成都&amp;gt;三星堆&amp;gt;成都 5. 成都&amp;gt;峨眉山 6. 峨眉</description>
-    </item>
-    <item>
-      <title>雁荡山三天两夜路书</title>
-      <link>https://www.samrainhan.com/posts/2023-12-05-book-of-three-days-and-two-nights-in-yandang-mountain/</link>
-      <pubDate>Tue, 05 Dec 2023 09:46:21 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-12-05-book-of-three-days-and-two-nights-in-yandang-mountain/</guid>
-      <description>简述 购买B线旅游联票 第一天：灵峰（白天+夜场） 第二天：大龙湫 第三天：灵岩、方洞、三折瀑 简介 位于浙江省乐清市境内的雁荡山风景区，形成于大约一点</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 路书</title>
+        <link>https://www.samrainhan.com/tags/%E8%B7%AF%E4%B9%A6/</link>
+        <description>Recent content - sam的小窝 - 路书</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Tue, 19 Dec 2023 10:06:44 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%B7%AF%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

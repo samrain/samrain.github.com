@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>食品 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E9%A3%9F%E5%93%81/</link>
-    <description>Recent content in 食品 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Sep 2023 08:21:14 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>家庭常见食品清单</title>
-      <link>https://www.samrainhan.com/posts/2023-09-21-common-household-food-list/</link>
-      <pubDate>Thu, 21 Sep 2023 08:21:14 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-21-common-household-food-list/</guid>
-      <description>碳水 大米 东北大米 红薯 芋头 玉米 面条 宽面 方便面 意大利面 刀切小馒头 小猪包/熊猫包 饺子 八宝饭 手抓饼 鸡肉饼 蛋白质 酸奶 无糖酸奶 有糖酸奶 牛奶 水牛奶 牛肉 牛肋</description>
-    </item>
-    <item>
-      <title>助便食品</title>
-      <link>https://www.samrainhan.com/posts/2023-08-17-bowel-aid-food/</link>
-      <pubDate>Thu, 17 Aug 2023 10:22:08 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-08-17-bowel-aid-food/</guid>
-      <description>有效 西梅干 猕猴桃 火龙果 麦麸 潜力 梨 魔芋 奇亚籽 有点 咖啡 茶 大量水 冷藏</description>
-    </item>
-    <item>
-      <title>健身最佳5类食品</title>
-      <link>https://www.samrainhan.com/posts/2022-08-22-5-best-foods-for-fitness/</link>
-      <pubDate>Mon, 22 Aug 2022 13:44:51 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-08-22-5-best-foods-for-fitness/</guid>
-      <description>蓝莓 十字花科植物，比如花菜，花椰菜，羽衣甘蓝 橙色植物，比如红薯，橙子，南瓜 生姜 蛋白质，比如瘦肉，蛋白粉</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 食品</title>
+        <link>https://www.samrainhan.com/tags/%E9%A3%9F%E5%93%81/</link>
+        <description>Recent content - sam的小窝 - 食品</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 21 Sep 2023 08:21:14 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

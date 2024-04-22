@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ssh on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/ssh/</link>
-    <description>Recent content in ssh on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>为ssh连接指定别名并记住密码</title>
-      <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</guid>
-      <description>Why 维护多台linux服务器, 需要ssh进行操作，每次都要输入 ssh user@x.x.x.x并输入密码OOXX#*&amp;amp;^%, 是一件很浪费时间</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Ssh</title>
+        <link>https://www.samrainhan.com/tags/ssh/</link>
+        <description>Recent content - sam的小窝 - Ssh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 19 Feb 2015 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

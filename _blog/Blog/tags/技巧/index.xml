@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>技巧 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%8A%80%E5%B7%A7/</link>
-    <description>Recent content in 技巧 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>面试技巧</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-interview-tips/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-interview-tips/</guid>
-      <description>##电话面试的主要目的： 确定对方是否很愿意换工作 初步确定对方是否符合公司的价值观，是否能和公司一起成长 初步判断沟通能力问题不在乎答案，而是在</description>
-    </item>
-    <item>
-      <title>培训的基本规范及技巧</title>
-      <link>https://www.samrainhan.com/posts/2013-04-01-basic-norms-and-skills-of-training/</link>
-      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-04-01-basic-norms-and-skills-of-training/</guid>
-      <description>思维导图文件下载 基本规范 结构 开场白 30秒-2分钟 10-15% 提高听众的兴趣， 捕捉注意 营造气氛，使听众与你一致 简述演讲的目的和要点 稳定情绪，增强信心 主体</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 技巧</title>
+        <link>https://www.samrainhan.com/tags/%E6%8A%80%E5%B7%A7/</link>
+        <description>Recent content - sam的小窝 - 技巧</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

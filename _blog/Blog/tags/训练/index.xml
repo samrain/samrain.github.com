@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>训练 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%AE%AD%E7%BB%83/</link>
-    <description>Recent content in 训练 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Jan 2023 11:45:28 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%AE%AD%E7%BB%83/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>无器械健身通用训练计划</title>
-      <link>https://www.samrainhan.com/posts/2023-01-23-universal-training-program-without-equipment/</link>
-      <pubDate>Mon, 23 Jan 2023 11:45:28 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-01-23-universal-training-program-without-equipment/</guid>
-      <description>这套训练计划的核心就是首先选择一个做12下力竭的重量，首先来做一组启动组，做到力竭为止。然后休息15秒，开始正式的训练！使用相同的重量继续来</description>
-    </item>
-    <item>
-      <title>12个每个人都应该做的训练动作</title>
-      <link>https://www.samrainhan.com/posts/2022-12-30-12-exercises-everyone-should-be-doing/</link>
-      <pubDate>Fri, 30 Dec 2022 09:00:37 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2022-12-30-12-exercises-everyone-should-be-doing/</guid>
-      <description>1 后蹲 / Back Squat 2 硬拉 / Deadlift 3 卧推 / Bench Press 4 引体 / Pull Up 5 面拉 / Facepull 6 外旋动作/ External Rotation 7 剪蹲 / Lunges 8 俯卧撑 / Push Up 9 过头举 / Overhead Press 10 仰卧三头臂屈伸 / Lying Tricep Extension 11 杠铃</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 训练</title>
+        <link>https://www.samrainhan.com/tags/%E8%AE%AD%E7%BB%83/</link>
+        <description>Recent content - sam的小窝 - 训练</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 23 Jan 2023 11:45:28 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%AE%AD%E7%BB%83/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

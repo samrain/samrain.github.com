@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>规定 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E8%A7%84%E5%AE%9A/</link>
-    <description>Recent content in 规定 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E8%A7%84%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>办公环境IT管理规定</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-it-office-environment-regulations/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-it-office-environment-regulations/</guid>
-      <description>办公环境指公司内部网络Intrant、远程分支机构内部网络及访问Internet ##信息安全管理 数据安全的管理主要作用为了确保数据的实时可用</description>
-    </item>
-    <item>
-      <title>生产环境IT管理规定</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</guid>
-      <description>分为2类人群：后台服务人员和IT运维人员 后台服务人员：在有门禁的专门房间内，通过特殊线路接入生产环境。进出房间必须每人使用各自的门禁卡。 IT</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 规定</title>
+        <link>https://www.samrainhan.com/tags/%E8%A7%84%E5%AE%9A/</link>
+        <description>Recent content - sam的小窝 - 规定</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E8%A7%84%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

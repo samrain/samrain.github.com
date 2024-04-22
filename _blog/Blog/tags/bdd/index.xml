@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>BDD on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/bdd/</link>
-    <description>Recent content in BDD on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 17 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BDD example</title>
-      <link>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</link>
-      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</guid>
-      <description>一般模式 Given When Then 例子 添加图书到购物车并计算总额 Given 书A价值30.5元 And 书B价值25.8元 When 我选择书A And 我点击了&amp;quot;添加到购物车&amp;quot</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - BDD</title>
+        <link>https://www.samrainhan.com/tags/bdd/</link>
+        <description>Recent content - sam的小窝 - BDD</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 17 Jul 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

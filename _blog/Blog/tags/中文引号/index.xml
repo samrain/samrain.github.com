@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>中文引号 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E5%BC%95%E5%8F%B7/</link>
-    <description>Recent content in 中文引号 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Mar 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E5%BC%95%E5%8F%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何用搜狗拼音输入法在Windows上打出「」</title>
-      <link>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</link>
-      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</guid>
-      <description>如何用搜狗拼音输入法在Windows上打出「」 最近看了一篇blog（作者Hindy，链接在此）， 提倡中文引号应该用「」而不是‘’。我仔细考虑</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 中文引号</title>
+        <link>https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E5%BC%95%E5%8F%B7/</link>
+        <description>Recent content - sam的小窝 - 中文引号</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 24 Mar 2016 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E4%B8%AD%E6%96%87%E5%BC%95%E5%8F%B7/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

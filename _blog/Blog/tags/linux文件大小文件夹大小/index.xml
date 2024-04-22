@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux,文件大小,文件夹大小 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F/</link>
-    <description>Recent content in linux,文件大小,文件夹大小 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Jan 2021 13:54:58 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux下查看文件和文件夹大小</title>
-      <link>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</link>
-      <pubDate>Sun, 24 Jan 2021 13:54:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</guid>
-      <description>Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Linux,文件大小,文件夹大小</title>
+        <link>https://www.samrainhan.com/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F/</link>
+        <description>Recent content - sam的小窝 - Linux,文件大小,文件夹大小</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 24 Jan 2021 13:54:58 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>go program on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/go-program/</link>
-    <description>Recent content in go program on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 Jul 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/go-program/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>学习golang</title>
-      <link>https://www.samrainhan.com/posts/2013-07-31-study-golang/</link>
-      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2013-07-31-study-golang/</guid>
-      <description>思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - Go Program</title>
+        <link>https://www.samrainhan.com/tags/go-program/</link>
+        <description>Recent content - sam的小窝 - Go Program</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Wed, 31 Jul 2013 00:00:00 UTC</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/go-program/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

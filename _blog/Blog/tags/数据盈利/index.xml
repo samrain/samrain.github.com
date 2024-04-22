@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>数据,盈利 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%95%B0%E6%8D%AE%E7%9B%88%E5%88%A9/</link>
-    <description>Recent content in 数据,盈利 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Jun 2021 23:28:07 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%95%B0%E6%8D%AE%E7%9B%88%E5%88%A9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>数据赚钱</title>
-      <link>https://www.samrainhan.com/posts/2021-06-17-data-to-make-money/</link>
-      <pubDate>Thu, 17 Jun 2021 23:28:07 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-06-17-data-to-make-money/</guid>
-      <description>数据赚钱 数据做生意是个悖论，我们要知道什么情况下的信息不对称，能赚钱。 数据本身没有价值，你要利用这个数据源，理解以后你在那个场景里面应用，那</description>
-    </item>
-    <item>
-      <title>数据能力中的盈利能力</title>
-      <link>https://www.samrainhan.com/posts/2021-03-04-profitability-in-data-capability/</link>
-      <pubDate>Thu, 04 Mar 2021 11:47:14 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-03-04-profitability-in-data-capability/</guid>
-      <description>数据能力中的盈利能力 中小企业管理转型升级建立数据化管理能力是核心 核心员工的学习机会（团队榜样） 组织内训形成传统（执行能力） 管理者带头持续改善</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 数据,盈利</title>
+        <link>https://www.samrainhan.com/tags/%E6%95%B0%E6%8D%AE%E7%9B%88%E5%88%A9/</link>
+        <description>Recent content - sam的小窝 - 数据,盈利</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Thu, 17 Jun 2021 23:28:07 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%95%B0%E6%8D%AE%E7%9B%88%E5%88%A9/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>WPS on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/wps/</link>
-    <description>Recent content in WPS on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Sep 2023 09:32:11 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/wps/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AirScript</title>
-      <link>https://www.samrainhan.com/posts/2023-09-25-airscript/</link>
-      <pubDate>Mon, 25 Sep 2023 09:32:11 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-25-airscript/</guid>
-      <description>金山文档 AirScript 是一个简单快速的轻量级脚本应用开发平台，它基于云技术构建，可让您快速轻松地创建与金山文档 Office 文件交互的业务应用。 我们在金山文档的组件</description>
-    </item>
-    <item>
-      <title>QQ 微信和WPS在移动端的协作场景</title>
-      <link>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</link>
-      <pubDate>Fri, 29 Jun 2018 16:58:47 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</guid>
-      <description>和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - WPS</title>
+        <link>https://www.samrainhan.com/tags/wps/</link>
+        <description>Recent content - sam的小窝 - WPS</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Mon, 25 Sep 2023 09:32:11 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/wps/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

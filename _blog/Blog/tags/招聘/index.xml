@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>招聘 on sam的小窝</title>
-    <link>https://www.samrainhan.com/tags/%E6%8B%9B%E8%81%98/</link>
-    <description>Recent content in 招聘 on sam的小窝</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Sep 2023 14:35:58 +0800</lastBuildDate>
-    <atom:link href="https://www.samrainhan.com/tags/%E6%8B%9B%E8%81%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2023年上半年职场风向</title>
-      <link>https://www.samrainhan.com/posts/2023-09-24-hr-trends-in-the-first-half-of-2023/</link>
-      <pubDate>Sun, 24 Sep 2023 14:35:58 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2023-09-24-hr-trends-in-the-first-half-of-2023/</guid>
-      <description>地理分布 上海》北京》深圳》广州》杭州》成都》苏州》武汉》南京》重庆 增长最快的6个行业 新能源 新材料 新能源汽车 智能制造 芯片 生物技术 新职位最多的5</description>
-    </item>
-    <item>
-      <title>招聘基本要求</title>
-      <link>https://www.samrainhan.com/posts/2021-06-10-basic-requirements-for-recruitment/</link>
-      <pubDate>Thu, 10 Jun 2021 13:52:24 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2021-06-10-basic-requirements-for-recruitment/</guid>
-      <description>招聘基本要求 智力 领导力 上进心</description>
-    </item>
-    <item>
-      <title>google招聘标准</title>
-      <link>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</link>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2015-02-14-recruitment-requirements/</guid>
-      <description>第一标准：学习的能力。 第二标准：领导力。 第三标准：谦逊。 第四标准：主人翁意识。 第五标准：专业知识。</description>
-    </item>
-    <item>
-      <title>员工招聘流程</title>
-      <link>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-process/</link>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-process/</guid>
-      <description>人事部收到审批通过的人员招聘要求（JD、薪酬标准、最晚到岗时间和招聘负责人等） 第一步，人事部采用各种方法寻找符合要求的人员。当发现有适合人员</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+
+        <title>sam的小窝 - 招聘</title>
+        <link>https://www.samrainhan.com/tags/%E6%8B%9B%E8%81%98/</link>
+        <description>Recent content - sam的小窝 - 招聘</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        
+        
+        
+        
+        <lastBuildDate>Sun, 24 Sep 2023 14:35:58 CST</lastBuildDate>
+        <atom:link href="https://www.samrainhan.com/tags/%E6%8B%9B%E8%81%98/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>
