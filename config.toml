@@ -5,7 +5,7 @@ title = "sam的小窝"
 author = "Sam Han"
 theme = "ink"
 canonifyurls = true
-paginate = 3
+paginate = 5
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 
@@ -60,6 +60,8 @@ hasCJKLanguage = true
 	# show latest posts in single page
 	showLatestPosts = true
 	readMore = ""
+
+	mode = "auto"
 
 	# Share
 	enableShare = true
