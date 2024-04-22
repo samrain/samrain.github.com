@@ -1,0 +1,38 @@
+{
+  "name": "doks",
+  "version": "1.6.0",
+  "description": "Doks theme",
+  "author": "Hyas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gethyas/doks.git"
+  },
+  "scripts": {
+    "create": "hugo new",
+    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "format": "prettier **/** -w -c",
+    "build": "hugo --minify --gc",
+    "preview": "vite preview --outDir public"
+  },
+  "dependencies": {
+    "@hyas/doks-core": "^1.6.0",
+    "@hyas/images": "^3.2.0",
+    "@hyas/inline-svg": "^1.1.0",
+    "@hyas/seo": "^2.3.0",
+    "@tabler/icons": "^3.2.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.10"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
