@@ -6010,9 +6010,5 @@
   </url><url>
     <loc>http://localhost:55555/tags/vi/</loc>
     <lastmod>2010-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/archives/</loc>
-  </url><url>
-    <loc>http://localhost:55555/series/</loc>
   </url>
 </urlset>
