@@ -1,13 +1,7 @@
 {{ define "main"}}
 <div id="archive">
   <ul class="post-list">
-
-  {{ $pages := .Paginator.Pages }}
-  {{ if .Site.Params.showAllPostsArchive }}
-    {{ $pages = .Pages }}
-  {{ end }}
-
-  {{ range (sort $pages "Date" "desc") }}
+  {{ range (sort .Paginator.Pages "Date" "desc") }}
     {{ $pageYear := (.Date.Format "2006") }}
     {{ if (ne $pageYear ($.Scratch.Get "year")) }}
     {{ $.Scratch.Set "year" $pageYear }}
@@ -23,8 +17,6 @@
     </li>
     {{ end }}
   </ul>
-  {{ if eq .Site.Params.showAllPostsArchive false }}
-    {{ partial "pagination.html" . }}
-  {{ end }}
+  {{ partial "pagination.html" . }}
 </div>
 {{ end }}
