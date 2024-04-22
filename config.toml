@@ -3,16 +3,11 @@ baseURL = "http://samrainhan.com/"
 languageCode = "zh-cn"
 title = "sam的小窝"
 author = "Sam Han"
-theme = "academic"
+theme = "archie"
 canonifyurls = true
 paginate = 5
-security:
-  funcs:
-    getenv:
-      - ^HUGO_
-      - ^WC_
 
-	  
+
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 
