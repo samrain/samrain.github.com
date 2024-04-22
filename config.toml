@@ -117,11 +117,11 @@ hasCJKLanguage = true
 	twitter-square = ""
 	github-square = "https://github.com/samrain"
 
-[taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
-archive = "archives"
+# [taxonomies]
+# tag = "tags"
+# category = "categories"
+# series = "series"
+# archive = "archives"
 
 [permalinks]
   post = "/:year/:month/:title/"
