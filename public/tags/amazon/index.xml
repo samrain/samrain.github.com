@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>Amazon on sam的小窝</title>
-        <link>http://localhost:55555/tags/amazon/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>AWS使用心得</title>
-                    <link>http://localhost:55555/posts/2015-07-22-use-of-aws/</link>
-                    <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-                    <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon on sam的小窝</title>
+    <link>http://localhost:55555/tags/amazon/</link>
+    <description>Recent content in Amazon on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS使用心得</title>
+      <link>http://localhost:55555/posts/2015-07-22-use-of-aws/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55555/posts/2015-07-22-use-of-aws/</guid>
+      <description>windows2003 R2自带安装文件 放在目录：C:\WINDOWS\Installation</description>
+    </item>
+  </channel>
 </rss>

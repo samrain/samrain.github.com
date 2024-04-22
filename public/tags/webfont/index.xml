@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>Webfont on sam的小窝</title>
-        <link>http://localhost:55555/tags/webfont/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>webfont</title>
-                    <link>http://localhost:55555/posts/2016-07-28-webfont/</link>
-                    <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
-                    <description>英文 比较适合用webfont webfont比较小，一共就26个字母，几十K 中文 比较适合用本地字体 webfont比较大，几M 挑出本页面上用到的</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webfont on sam的小窝</title>
+    <link>http://localhost:55555/tags/webfont/</link>
+    <description>Recent content in Webfont on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/webfont/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>webfont</title>
+      <link>http://localhost:55555/posts/2016-07-28-webfont/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55555/posts/2016-07-28-webfont/</guid>
+      <description>英文 比较适合用webfont webfont比较小，一共就26个字母，几十K 中文 比较适合用本地字体 webfont比较大，几M 挑出本页面上用到的</description>
+    </item>
+  </channel>
 </rss>

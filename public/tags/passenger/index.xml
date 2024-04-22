@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>Passenger on sam的小窝</title>
-        <link>http://localhost:55555/tags/passenger/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
-                    <link>http://localhost:55555/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>
-                    <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
-                    <description>把redmine装在passenger上，然后用nginx反向代理提供服务</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Passenger on sam的小窝</title>
+    <link>http://localhost:55555/tags/passenger/</link>
+    <description>Recent content in Passenger on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/passenger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
+      <link>http://localhost:55555/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55555/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</guid>
+      <description>把redmine装在passenger上，然后用nginx反向代理提供服务</description>
+    </item>
+  </channel>
 </rss>

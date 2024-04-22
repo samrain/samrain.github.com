@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>SQL Server on sam的小窝</title>
-        <link>http://localhost:55555/tags/sql-server/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>SQL Server High Availability Solution</title>
-                    <link>http://localhost:55555/posts/2016-05-19-sql-server-high-availability-solution/</link>
-                    <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
-                    <description>SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL Server on sam的小窝</title>
+    <link>http://localhost:55555/tags/sql-server/</link>
+    <description>Recent content in SQL Server on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server High Availability Solution</title>
+      <link>http://localhost:55555/posts/2016-05-19-sql-server-high-availability-solution/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55555/posts/2016-05-19-sql-server-high-availability-solution/</guid>
+      <description>SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2</description>
+    </item>
+  </channel>
 </rss>

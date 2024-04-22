@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>Icon on sam的小窝</title>
-        <link>http://localhost:55555/tags/icon/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>图标查询网站</title>
-                    <link>http://localhost:55555/posts/2016-07-14-icon-query-website/</link>
-                    <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
-                    <description>https://www.iconfinder.com/ https://thenounproject.com/</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icon on sam的小窝</title>
+    <link>http://localhost:55555/tags/icon/</link>
+    <description>Recent content in Icon on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/icon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>图标查询网站</title>
+      <link>http://localhost:55555/posts/2016-07-14-icon-query-website/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55555/posts/2016-07-14-icon-query-website/</guid>
+      <description>https://www.iconfinder.com/ https://thenounproject.com/</description>
+    </item>
+  </channel>
 </rss>

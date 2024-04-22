@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>One One on sam的小窝</title>
-        <link>http://localhost:55555/tags/one-one/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>和同事1对1面聊（One One）模板</title>
-                    <link>http://localhost:55555/posts/2023-12-16-one-on-one-chat-template-with-colleagues/</link>
-                    <pubDate>Sat, 16 Dec 2023 16:31:59 +0800</pubDate>
-                    <description>最近工作的开心吗？ 开心的原因 不开心的原因 对工作的建议 你的未来抱负（3个目标） 你的长期计划 你的最近一个季度的3个目标 你的短期计划 需要的支持（比</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One One on sam的小窝</title>
+    <link>http://localhost:55555/tags/one-one/</link>
+    <description>Recent content in One One on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 16 Dec 2023 16:31:59 +0800</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/one-one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>和同事1对1面聊（One One）模板</title>
+      <link>http://localhost:55555/posts/2023-12-16-one-on-one-chat-template-with-colleagues/</link>
+      <pubDate>Sat, 16 Dec 2023 16:31:59 +0800</pubDate>
+      <guid>http://localhost:55555/posts/2023-12-16-one-on-one-chat-template-with-colleagues/</guid>
+      <description>最近工作的开心吗？ 开心的原因 不开心的原因 对工作的建议 你的未来抱负（3个目标） 你的长期计划 你的最近一个季度的3个目标 你的短期计划 需要的支持（比</description>
+    </item>
+  </channel>
 </rss>

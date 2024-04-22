@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>需求 on sam的小窝</title>
-        <link>http://localhost:55555/tags/%E9%9C%80%E6%B1%82/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>JTBD</title>
-                    <link>http://localhost:55555/posts/2023-03-18-jtbd/</link>
-                    <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
-                    <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>需求 on sam的小窝</title>
+    <link>http://localhost:55555/tags/%E9%9C%80%E6%B1%82/</link>
+    <description>Recent content in 需求 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 Mar 2023 20:29:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/%E9%9C%80%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JTBD</title>
+      <link>http://localhost:55555/posts/2023-03-18-jtbd/</link>
+      <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
+      <guid>http://localhost:55555/posts/2023-03-18-jtbd/</guid>
+      <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
+    </item>
+  </channel>
 </rss>

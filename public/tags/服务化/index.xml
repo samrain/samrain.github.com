@@ -1,20 +1,19 @@
-<rss version="2.0">
-    <channel>
-        <title>服务化 on sam的小窝</title>
-        <link>http://localhost:55555/tags/%E6%9C%8D%E5%8A%A1%E5%8C%96/</link>
-        <description>Recent content in sam的小窝</description>
-
-         
-            
-                 
-                <item>
-                    <title>产品服务化</title>
-                    <link>http://localhost:55555/posts/2024-04-22-product-serviceization/</link>
-                    <pubDate>Mon, 22 Apr 2024 22:28:40 +0800</pubDate>
-                    <description>产品服务化 产品服务化的特征 产品服务化是以产品为主线,服务依附于产品而存在; 产品服务化在服务过程中,对服务没有明确的考核; 产品与服务是不可分割</description>
-                </item>
-                
-            
-        
-    </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>服务化 on sam的小窝</title>
+    <link>http://localhost:55555/tags/%E6%9C%8D%E5%8A%A1%E5%8C%96/</link>
+    <description>Recent content in 服务化 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 Apr 2024 22:28:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:55555/tags/%E6%9C%8D%E5%8A%A1%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>产品服务化</title>
+      <link>http://localhost:55555/posts/2024-04-22-product-serviceization/</link>
+      <pubDate>Mon, 22 Apr 2024 22:28:40 +0800</pubDate>
+      <guid>http://localhost:55555/posts/2024-04-22-product-serviceization/</guid>
+      <description>产品服务化 产品服务化的特征 产品服务化是以产品为主线,服务依附于产品而存在; 产品服务化在服务过程中,对服务没有明确的考核; 产品与服务是不可分割</description>
+    </item>
+  </channel>
 </rss>
