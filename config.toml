@@ -2,7 +2,7 @@
 baseURL = "http://samrainhan.com/"
 languageCode = "zh-cn"
 title = "sam的小窝"
-theme = "cactus"
+theme = "lean"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 
@@ -28,7 +28,7 @@ hasCJKLanguage = true
 
 	enableGoogleAnalytics = false
 	googleAnalytics = "UA-37708730-1"
-	
+
 	enableBaiduAnalytics = false
 	# Set the value to your baidu analysis code if you want to use baidu analytics
 	baiduAnalytics = ''
