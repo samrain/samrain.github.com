@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Shell</title>
+        <title>Shell on sam的小窝</title>
         <link>http://localhost:55555/tags/shell/</link>
-        <description>Recent content - sam的小窝 - Shell</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>在线查询shell命令帮助</title>
+                    <link>http://localhost:55555/posts/2015-06-30-shell-help-online/</link>
+                    <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+                    <description>网址:http://www.explainshell.com 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清楚一些。</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Tue, 30 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

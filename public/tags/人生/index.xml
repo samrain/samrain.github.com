@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - 人生</title>
+        <title>人生 on sam的小窝</title>
         <link>http://localhost:55555/tags/%E4%BA%BA%E7%94%9F/</link>
-        <description>Recent content - sam的小窝 - 人生</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>HP大中华区总裁孙振耀撰文谈退休并畅谈人生(转)</title>
+                    <link>http://localhost:55555/posts/2013-03-11-sun-zhenyao-talk-about-life/</link>
+                    <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+                    <description>我有个有趣的观察，外企公司多的是25-35岁的白领，40岁以上的员工很少，二三十岁的外企员工是意气风发的，但外企公司40岁附近的经理人是很尴</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Mon, 11 Mar 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

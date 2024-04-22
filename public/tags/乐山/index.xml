@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - 乐山</title>
+        <title>乐山 on sam的小窝</title>
         <link>http://localhost:55555/tags/%E4%B9%90%E5%B1%B1/</link>
-        <description>Recent content - sam的小窝 - 乐山</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>一都一堆三山（成都&#43;三星堆&#43;青城山&#43;峨眉山&#43;乐山）旅游攻略</title>
+                    <link>http://localhost:55555/posts/2023-12-19-chengdu-qingcheng-mountain-emei-mountain-travel-guide/</link>
+                    <pubDate>Tue, 19 Dec 2023 10:06:44 +0800</pubDate>
+                    <description>📎Tips 1. 上海&gt;绵阳&gt;都江堰&gt;青城山 2. 青城山&gt;成都 3. 成都 4. 成都&gt;三星堆&gt;成都 5. 成都&gt;峨眉山 6. 峨眉</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Tue, 19 Dec 2023 10:06:44 CST</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/%E4%B9%90%E5%B1%B1/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

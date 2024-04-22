@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - PowerShell, Site</title>
+        <title>PowerShell, Site on sam的小窝</title>
         <link>http://localhost:55555/tags/powershell-site/</link>
-        <description>Recent content - sam的小窝 - PowerShell, Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>怎么在PowerShell中启停站点</title>
+                    <link>http://localhost:55555/posts/2018-09-10-start-or-stop-sites-by-powershell/</link>
+                    <pubDate>Mon, 10 Sep 2018 21:00:21 +0800</pubDate>
+                    <description>启动 start-website -name &quot;&quot; 停止 stop-website -name &quot;&quot;</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Mon, 10 Sep 2018 21:00:21 CST</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/powershell-site/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

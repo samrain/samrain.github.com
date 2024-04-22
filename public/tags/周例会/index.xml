@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - 周例会</title>
+        <title>周例会 on sam的小窝</title>
         <link>http://localhost:55555/tags/%E5%91%A8%E4%BE%8B%E4%BC%9A/</link>
-        <description>Recent content - sam的小窝 - 周例会</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>周例会流程最佳实践</title>
+                    <link>http://localhost:55555/posts/2013-03-28-weekly-meeting-process-best-practices/</link>
+                    <pubDate>Thu, 28 Mar 2013 00:00:00 +0000</pubDate>
+                    <description>思维导图文件下载 1.会议主持:通报上周会决议，并由各团队leader回复决议完成情况 2.各团队leader：上周问题及解决方案/下周目标 3.</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Thu, 28 Mar 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/%E5%91%A8%E4%BE%8B%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

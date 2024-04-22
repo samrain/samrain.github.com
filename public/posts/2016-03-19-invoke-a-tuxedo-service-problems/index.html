@@ -1,89 +1,132 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<html lang="en">
+
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>解决调用Tuxedo服务问题 | sam的小窝</title>
+    <meta name="description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for …" />
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
-
-    
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preload" href="/fonts/nunito-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/oswald-v49-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-800.woff2" as="font" type="font/woff2" crossorigin>
 
 
 
     
 
-<title>解决调用Tuxedo服务问题 · sam的小窝</title>
 
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="解决调用Tuxedo服务问题 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all"/>
-<meta property="twitter:url" content="http://localhost:55555/posts/2016-03-19-invoke-a-tuxedo-service-problems/">
-
-
-
-
-
-
-
-<meta property="og:title" content="解决调用Tuxedo服务问题 · sam的小窝">
-<meta property="og:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all"/>
-
+<link rel="stylesheet" href="/scss/styles.scss" integrity="" media="all">
 <meta property="og:url" content="http://localhost:55555/posts/2016-03-19-invoke-a-tuxedo-service-problems/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="解决调用Tuxedo服务问题">
+  <meta property="og:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-03-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-03-19T00:00:00+00:00">
+    <meta property="article:tag" content="Windows">
+    <meta property="article:tag" content="Tuxedo">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="解决调用Tuxedo服务问题">
+<meta name="twitter:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all">
 
-<link rel="canonical" href="http://localhost:55555/posts/2016-03-19-invoke-a-tuxedo-service-problems/">
+<meta property="article:published_time" content="2016-03-19" />
+
+<meta property="article:modified_time" content=" 2016-03-19" />
 
 
+<link rel="icon" href="http://localhost:55555/favicon.ico" sizes="32x32">
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:55555/favicon.svg">
+
+
+<link rel="apple-touch-icon" href="http://localhost:55555/apple-touch-icon.png" />
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:55555/favicon-32x32.png">
+
+  
     
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
+      
     
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
+  
+
+
+</head><body class="posts page-page">
+<a class="skip-link" href="#content">Skip to content</a>
+
+
+
+
+
+<header class="header ">
+    <div class="container wrap">
+
+        
+        <a class="site-title-link" href="http://localhost:55555/">
+            <span class="site-title">sam的小窝</span>
+        </a>
+        
+        
+        
+        <nav class="main-menu">
+            <ul class="main-menu__wrapper">
+                
+                <li class="top-menu-item">
+                    <a href="/" class="menu-link">Home</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/posts" class="menu-link">Writings</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/tags" class="menu-link">Tags</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/about" class="menu-link">About</a>
+                    
+                </li>
+                
+            </ul>
+
+            <div class="main-menu__cta-language-wrapper">
+                
+
+                
+
+                
+
+                
+            </div>
+
+        </nav>
+        <button class="hamburger" type="button" aria-label="Toggle Menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        
     </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
+</header><section id="content" class="container wrap" data-pagefind-body>
             
-                解决调用Tuxedo服务问题
+                <header>
+                    <p class="breadcrumb"><a href="/posts/">Posts</a></p>
+                    <h1 class="title">解决调用Tuxedo服务问题</h1>
+                </header>
             
-
             
-            </h1>
-
-            <h4 class="post-author">
+            <article class="content">
             
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <h2 id="解决调用tuxedo服务问题">解决调用Tuxedo服务问题</h2>
+    <h2 id="解决调用tuxedo服务问题">解决调用Tuxedo服务问题</h2>
 <p>用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：</p>
 <blockquote>
 <p>System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.
@@ -102,45 +145,115 @@ at Interface.Tuxedo.TuxedoHelper..cctor()
 <p>怀疑启动服务的用户不对,遂打开任务管理器,发现<code>w3wp</code>用户名千奇百怪.</p>
 <p>进IIS管理器-应用程序池发现运行账号设置为<code>ApplicationPoolIdentify</code>,罪魁祸首就是他.这样就是使得启动用户名和程序池的名称一样.把所有程序池的运行用户都设置为同一个admin用户,问题解决.</p>
 
-        </article><div class="post-meta">
 
-    <div class="post-date">Mar 2016</div>
-    
-
-
-    
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
             
-            <li><a href="/posts/2015-07-14-install-chinese-language-on-win2k3/">英文Windows VPS 安装中文包</a></li>
+            </article>
             
-            <li><a href="/posts/2014-08-31-windows-service-quick-start-command/">Windows 服务快捷启动命令</a></li>
+        </section><footer class="footer">
+    <div class="container wrap">
+
+        <div class="footer__menu-cta-wrapper">
+
+            <div class="footer__menu">
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="column no-children-links">
+                    <p class="top-menu-item">&nbsp;</p>
+                    <ul>
+                        
+                        <li class="menu-item">
+                            <a href="/" class="menu-link">Home</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/posts" class="menu-link">Writings</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/tags" class="menu-link">Tags</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/about" class="menu-link">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
             
-        </ul>
+        </div>
+
+        <div class="footer__logo-social-wrapper">
+            
+
+
+</div>
+
+        <hr class="footer-hr">
+
+        <div class="copyright">
+            <p>Copyright © 2024 All Rights Reserved. <a href="https://github.com/cncf/dot-org-hugo-theme">Dot Org Theme</a> for Hugo by <a href="https://www.cncf.io">CNCF</a>.</p>
+
+            <div class="copyright__accessibility-git-wrapper">
+                </div>
+        </div>
     </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+
+<script defer src="http://localhost:55555/js/hoverintent.min.js"></script>
 
 
 
 
 
 
-    <script src="/js/bundle.js" type="module"></script>
+
+<script defer src="http://localhost:55555/js/scripts.js"></script>
+
+
+
+
+
 </body>
 </html>

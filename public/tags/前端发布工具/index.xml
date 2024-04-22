@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - 前端发布工具</title>
+        <title>前端发布工具 on sam的小窝</title>
         <link>http://localhost:55555/tags/%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7/</link>
-        <description>Recent content - sam的小窝 - 前端发布工具</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>FIS 前端发布工具 百度出品</title>
+                    <link>http://localhost:55555/posts/2016-05-30-fis/</link>
+                    <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+                    <description>配置文件范例fis-conf.js //fis.config.set('modules.postpackager', 'simple'); //Step 2. 取消下面的注释开启pack人工干预 //fis.config.set('pack', { // 'pkg/lib.js': [ // '/lib/mod.js', // '/modules/underscore/**.js', // '/modules/backbone/**.js', // '/modules/jquery/**.js', // '/modules/vendor/**.js', // '/modules/common/**.js' // ] //}); //Step 3. 取消下面的注释可以开</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Mon, 30 May 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Browser</title>
+        <title>Browser on sam的小窝</title>
         <link>http://localhost:55555/tags/browser/</link>
-        <description>Recent content - sam的小窝 - Browser</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>Chrome介绍</title>
+                    <link>http://localhost:55555/posts/2013-03-11-chrome/</link>
+                    <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+                    <description>思维导图文件下载 功能 仅一行代码，打造一个在线编辑器:http://www.oschina.net/news/37360/one-line-c</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Mon, 11 Mar 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

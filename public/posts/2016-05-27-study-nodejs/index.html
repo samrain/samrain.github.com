@@ -1,89 +1,132 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<html lang="en">
+
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习node.js | sam的小窝</title>
+    <meta name="description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出" />
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
-
-    
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preload" href="/fonts/nunito-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/oswald-v49-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-800.woff2" as="font" type="font/woff2" crossorigin>
 
 
 
     
 
-<title>学习node.js · sam的小窝</title>
 
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="学习node.js · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出"/>
-<meta property="twitter:url" content="http://localhost:55555/posts/2016-05-27-study-nodejs/">
-
-
-
-
-
-
-
-<meta property="og:title" content="学习node.js · sam的小窝">
-<meta property="og:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出"/>
-
+<link rel="stylesheet" href="/scss/styles.scss" integrity="" media="all">
 <meta property="og:url" content="http://localhost:55555/posts/2016-05-27-study-nodejs/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="学习node.js">
+  <meta property="og:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-05-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-05-27T00:00:00+00:00">
+    <meta property="article:tag" content="Chrome">
+    <meta property="article:tag" content="Nodejs">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="学习node.js">
+<meta name="twitter:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出">
 
-<link rel="canonical" href="http://localhost:55555/posts/2016-05-27-study-nodejs/">
+<meta property="article:published_time" content="2016-05-27" />
+
+<meta property="article:modified_time" content=" 2016-05-27" />
 
 
+<link rel="icon" href="http://localhost:55555/favicon.ico" sizes="32x32">
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:55555/favicon.svg">
+
+
+<link rel="apple-touch-icon" href="http://localhost:55555/apple-touch-icon.png" />
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:55555/favicon-32x32.png">
+
+  
     
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
+      
     
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
+  
+
+
+</head><body class="posts page-page">
+<a class="skip-link" href="#content">Skip to content</a>
+
+
+
+
+
+<header class="header ">
+    <div class="container wrap">
+
+        
+        <a class="site-title-link" href="http://localhost:55555/">
+            <span class="site-title">sam的小窝</span>
+        </a>
+        
+        
+        
+        <nav class="main-menu">
+            <ul class="main-menu__wrapper">
+                
+                <li class="top-menu-item">
+                    <a href="/" class="menu-link">Home</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/posts" class="menu-link">Writings</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/tags" class="menu-link">Tags</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/about" class="menu-link">About</a>
+                    
+                </li>
+                
+            </ul>
+
+            <div class="main-menu__cta-language-wrapper">
+                
+
+                
+
+                
+
+                
+            </div>
+
+        </nav>
+        <button class="hamburger" type="button" aria-label="Toggle Menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        
     </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
+</header><section id="content" class="container wrap" data-pagefind-body>
             
-                学习node.js
+                <header>
+                    <p class="breadcrumb"><a href="/posts/">Posts</a></p>
+                    <h1 class="title">学习node.js</h1>
+                </header>
             
-
             
-            </h1>
-
-            <h4 class="post-author">
+            <article class="content">
             
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <h1 id="每个模块都有requireexportsmodule三个预先定义好的变量可供使用a-idorgheadline1a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+    <h1 id="每个模块都有requireexportsmodule三个预先定义好的变量可供使用a-idorgheadline1a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
 <ul>
 <li>require
 <ul>
@@ -297,47 +340,115 @@ https官方文档： <a href="http://nodejs.org/api/https.html">http://nodejs.or
 <p>Zlib官方文档： <a href="http://nodejs.org/api/zlib.html%E3%80%82zlib%E6%A8%A1%E5%9D%97%E6%8F%90%E4%BE%9B%E4%BA%86%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%9A%84%E5%8A%9F%E8%83%BD%E3%80%82%E5%BD%93%E6%88%91%E4%BB%AC%E5%A4%84%E7%90%86HTTP%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94%E6%97%B6%EF%BC%8C%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0%E8%BF%99%E4%B8%AA%E6%A8%A1%E5%9D%97">http://nodejs.org/api/zlib.html。zlib模块提供了数据压缩和解压的功能。当我们处理HTTP请求和响应时，可能需要用到这个模块</a>。</p>
 <p>Net官方文档： <a href="http://nodejs.org/api/net.html%E3%80%82net%E6%A8%A1%E5%9D%97%E5%8F%AF%E7%94%A8%E4%BA%8E%E5%88%9B%E5%BB%BASocket%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%88%96Socket%E5%AE%A2%E6%88%B7%E7%AB%AF">http://nodejs.org/api/net.html。net模块可用于创建Socket服务器或Socket客户端</a>。</p>
 
-        </article><div class="post-meta">
 
-    <div class="post-date">May 2016</div>
-    
+            
+            </article>
+            
+        </section><footer class="footer">
+    <div class="container wrap">
+
+        <div class="footer__menu-cta-wrapper">
+
+            <div class="footer__menu">
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="column no-children-links">
+                    <p class="top-menu-item">&nbsp;</p>
+                    <ul>
+                        
+                        <li class="menu-item">
+                            <a href="/" class="menu-link">Home</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/posts" class="menu-link">Writings</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/tags" class="menu-link">Tags</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/about" class="menu-link">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            
+        </div>
+
+        <div class="footer__logo-social-wrapper">
+            
 
 
-    
-    
+</div>
 
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
-            
-            <li><a href="/posts/2015-06-19-sample-config-of-grunt/">Grunt配置文件</a></li>
-            
-            <li><a href="/posts/2015-02-06-harp/">介绍Harp</a></li>
-            
-            <li><a href="/posts/2013-05-06-chrome-cool-features/">Chrome很酷功能</a></li>
-            
-        </ul>
+        <hr class="footer-hr">
+
+        <div class="copyright">
+            <p>Copyright © 2024 All Rights Reserved. <a href="https://github.com/cncf/dot-org-hugo-theme">Dot Org Theme</a> for Hugo by <a href="https://www.cncf.io">CNCF</a>.</p>
+
+            <div class="copyright__accessibility-git-wrapper">
+                </div>
+        </div>
     </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+
+<script defer src="http://localhost:55555/js/hoverintent.min.js"></script>
 
 
 
 
 
 
-    <script src="/js/bundle.js" type="module"></script>
+
+<script defer src="http://localhost:55555/js/scripts.js"></script>
+
+
+
+
+
 </body>
 </html>

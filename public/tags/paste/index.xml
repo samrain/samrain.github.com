@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Paste</title>
+        <title>Paste on sam的小窝</title>
         <link>http://localhost:55555/tags/paste/</link>
-        <description>Recent content - sam的小窝 - Paste</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>怎么设置Terminator中的复制和粘帖快捷键</title>
+                    <link>http://localhost:55555/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</link>
+                    <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+                    <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Mon, 25 Mar 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/paste/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -1,89 +1,134 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
+<html lang="en">
+
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常用加解密算法的.net实现 | sam的小窝</title>
+    <meta name="description" content="常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu" />
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
-
-    
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preload" href="/fonts/nunito-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/oswald-v49-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-v25-latin-800.woff2" as="font" type="font/woff2" crossorigin>
 
 
 
     
 
-<title>常用加解密算法的.net实现 · sam的小窝</title>
 
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="常用加解密算法的.net实现 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu"/>
-<meta property="twitter:url" content="http://localhost:55555/posts/2015-07-03-common-encryption-algorithm-by-net-implement/">
-
-
-
-
-
-
-
-<meta property="og:title" content="常用加解密算法的.net实现 · sam的小窝">
-<meta property="og:description" content="常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu"/>
-
+<link rel="stylesheet" href="/scss/styles.scss" integrity="" media="all">
 <meta property="og:url" content="http://localhost:55555/posts/2015-07-03-common-encryption-algorithm-by-net-implement/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="常用加解密算法的.net实现">
+  <meta property="og:description" content="常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-07-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2015-07-03T00:00:00+00:00">
+    <meta property="article:tag" content="加密">
+    <meta property="article:tag" content="解密">
+    <meta property="article:tag" content="算法">
+    <meta property="article:tag" content="Net">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="常用加解密算法的.net实现">
+<meta name="twitter:description" content="常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu">
 
-<link rel="canonical" href="http://localhost:55555/posts/2015-07-03-common-encryption-algorithm-by-net-implement/">
+<meta property="article:published_time" content="2015-07-03" />
+
+<meta property="article:modified_time" content=" 2015-07-03" />
 
 
+<link rel="icon" href="http://localhost:55555/favicon.ico" sizes="32x32">
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:55555/favicon.svg">
+
+
+<link rel="apple-touch-icon" href="http://localhost:55555/apple-touch-icon.png" />
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:55555/favicon-32x32.png">
+
+  
     
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='http://localhost:55555/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='http://localhost:55555/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
+      
     
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
+  
+
+
+</head><body class="posts page-page">
+<a class="skip-link" href="#content">Skip to content</a>
+
+
+
+
+
+<header class="header ">
+    <div class="container wrap">
+
+        
+        <a class="site-title-link" href="http://localhost:55555/">
+            <span class="site-title">sam的小窝</span>
+        </a>
+        
+        
+        
+        <nav class="main-menu">
+            <ul class="main-menu__wrapper">
+                
+                <li class="top-menu-item">
+                    <a href="/" class="menu-link">Home</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/posts" class="menu-link">Writings</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/tags" class="menu-link">Tags</a>
+                    
+                </li>
+                
+                <li class="top-menu-item">
+                    <a href="/about" class="menu-link">About</a>
+                    
+                </li>
+                
+            </ul>
+
+            <div class="main-menu__cta-language-wrapper">
+                
+
+                
+
+                
+
+                
+            </div>
+
+        </nav>
+        <button class="hamburger" type="button" aria-label="Toggle Menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        
     </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
+</header><section id="content" class="container wrap" data-pagefind-body>
             
-                常用加解密算法的.net实现
+                <header>
+                    <p class="breadcrumb"><a href="/posts/">Posts</a></p>
+                    <h1 class="title">常用加解密算法的.net实现</h1>
+                </header>
             
-
             
-            </h1>
-
-            <h4 class="post-author">
+            <article class="content">
             
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <p>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：<code>System.Security.Cryptography</code>。.NET Framework 中的数据加密算法仍然不够完全，如 IDEA、BLOWFISH、其它算法，如ElGamal、Deffie-Hellman、ECC 等，对于一些其它的数据校验算法支持也不够，如 CRC、SFV 等，开发人员只能去从早期代码做移植或者寻找第三方厂商的实现。</p>
+    <p>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：<code>System.Security.Cryptography</code>。.NET Framework 中的数据加密算法仍然不够完全，如 IDEA、BLOWFISH、其它算法，如ElGamal、Deffie-Hellman、ECC 等，对于一些其它的数据校验算法支持也不够，如 CRC、SFV 等，开发人员只能去从早期代码做移植或者寻找第三方厂商的实现。</p>
 <p><code>System.Security.Cryptography</code>命名空间提供加密服务，包括安全的数据编码和解码，以及许多其他操作，例如散列法、随机数字生成和消息身份验证。</p>
 <p><code>System.Security.Cryptography</code>是按如下方式组织的：</p>
 <h2 id="对称加密">对称加密</h2>
@@ -135,45 +180,115 @@
 <p>加密密钥需要尽可能地随机，以便使生成的密钥很难再现，所以随机数生成是许多加密操作不可分割的组成部分。</p>
 <p>在 .NET Framework 中，<code>RNGCryptoServiceProvider</code>是随机数生成器算法的实现，对于数据算法，.NET Framework 则在其它命名空间中实现，如 Convert 类实现 Base 64 编码，System.Text 来实现编码方式的转换等。</p>
 
-        </article><div class="post-meta">
 
-    <div class="post-date">Jul 2015</div>
-    
-
-
-    
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
             
-            <li><a href="/posts/2015-05-13-commonly-used-encryption-algorithm/">常用加解密算法</a></li>
+            </article>
             
-            <li><a href="/posts/2015-06-16-introduce-of-ssl/">SSL介绍</a></li>
+        </section><footer class="footer">
+    <div class="container wrap">
+
+        <div class="footer__menu-cta-wrapper">
+
+            <div class="footer__menu">
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="column no-children-links">
+                    <p class="top-menu-item">&nbsp;</p>
+                    <ul>
+                        
+                        <li class="menu-item">
+                            <a href="/" class="menu-link">Home</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/posts" class="menu-link">Writings</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/tags" class="menu-link">Tags</a>
+                        </li>
+                        
+                        <li class="menu-item">
+                            <a href="/about" class="menu-link">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
             
-        </ul>
+        </div>
+
+        <div class="footer__logo-social-wrapper">
+            
+
+
+</div>
+
+        <hr class="footer-hr">
+
+        <div class="copyright">
+            <p>Copyright © 2024 All Rights Reserved. <a href="https://github.com/cncf/dot-org-hugo-theme">Dot Org Theme</a> for Hugo by <a href="https://www.cncf.io">CNCF</a>.</p>
+
+            <div class="copyright__accessibility-git-wrapper">
+                </div>
+        </div>
     </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+
+<script defer src="http://localhost:55555/js/hoverintent.min.js"></script>
 
 
 
 
 
 
-    <script src="/js/bundle.js" type="module"></script>
+
+<script defer src="http://localhost:55555/js/scripts.js"></script>
+
+
+
+
+
 </body>
 </html>

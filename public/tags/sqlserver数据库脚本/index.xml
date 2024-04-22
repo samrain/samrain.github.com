@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - SQLServer,数据库,脚本</title>
+        <title>SQLServer,数据库,脚本 on sam的小窝</title>
         <link>http://localhost:55555/tags/sqlserver%E6%95%B0%E6%8D%AE%E5%BA%93%E8%84%9A%E6%9C%AC/</link>
-        <description>Recent content - sam的小窝 - SQLServer,数据库,脚本</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>如果用脚本迁移SQLServer数据库</title>
+                    <link>http://localhost:55555/posts/2018-09-11-migrate-sqlserver-database/</link>
+                    <pubDate>Tue, 11 Sep 2018 11:33:28 +0800</pubDate>
+                    <description>迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Tue, 11 Sep 2018 11:33:28 CST</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/sqlserver%E6%95%B0%E6%8D%AE%E5%BA%93%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

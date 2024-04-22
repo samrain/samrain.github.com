@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - SNS</title>
+        <title>SNS on sam的小窝</title>
         <link>http://localhost:55555/tags/sns/</link>
-        <description>Recent content - sam的小窝 - SNS</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>AWS SQS和SNS的区别</title>
+                    <link>http://localhost:55555/posts/2015-06-09-difference-of-aws-sqs-and-sns/</link>
+                    <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+                    <description>SNS 无延迟 1条Message可以被多个订阅者取到 SQS 有延迟 一条Message被一个订阅者取掉后，其他订阅者取不道了。 附 stack overflow上的一条</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Tue, 09 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/sns/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

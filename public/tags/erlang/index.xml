@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Erlang</title>
+        <title>Erlang on sam的小窝</title>
         <link>http://localhost:55555/tags/erlang/</link>
-        <description>Recent content - sam的小窝 - Erlang</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>Tsung</title>
+                    <link>http://localhost:55555/posts/2015-07-21-tsung/</link>
+                    <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+                    <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Tue, 21 Jul 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

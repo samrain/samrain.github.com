@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Serif</title>
+        <title>Serif on sam的小窝</title>
         <link>http://localhost:55555/tags/serif/</link>
-        <description>Recent content - sam的小窝 - Serif</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>serif和sans serif的区别</title>
+                    <link>http://localhost:55555/posts/2015-02-18-difference-of-serif-and-sans-serif/</link>
+                    <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+                    <description>Serif有衬字体和Sans Serif无衬字体（通常简写为Sans）是字体的两大种类。 区别 |对比项|Serif|Sans| |-| |笔划开始/结束</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Wed, 18 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/serif/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - CwRsyncServer</title>
+        <title>CwRsyncServer on sam的小窝</title>
         <link>http://localhost:55555/tags/cwrsyncserver/</link>
-        <description>Recent content - sam的小窝 - CwRsyncServer</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>安装cwRsyncServer</title>
+                    <link>http://localhost:55555/posts/2016-06-09-cwrsyncserver/</link>
+                    <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
+                    <description>下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Thu, 09 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/cwrsyncserver/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -1,17 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - PMO</title>
+        <title>PMO on sam的小窝</title>
         <link>http://localhost:55555/tags/pmo/</link>
-        <description>Recent content - sam的小窝 - PMO</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>PMO的文章摘抄</title>
+                    <link>http://localhost:55555/posts/2022-10-28-excerpts-from-pmo-articles/</link>
+                    <pubDate>Fri, 28 Oct 2022 11:35:12 +0800</pubDate>
+                    <description>项目管理办公室 一个项目管理办公室（简称PMO）是一个企业，政府机构，或中的一组或部门的企业定义并维护标准的项目管理组织内。PMO 努力在项目执</description>
+                </item>
+                
+            
+                 
+                <item>
+                    <title>PMO是什么?</title>
+                    <link>http://localhost:55555/posts/2022-09-19-what-is-pmo/</link>
+                    <pubDate>Mon, 19 Sep 2022 14:44:54 +0800</pubDate>
+                    <description>一、PMO是什么？ PMO是项目管理办公室Project Management Office简称。 PMO是一个企业/政府机构或其中部门中定义并维护项目管理标准，负责</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Fri, 28 Oct 2022 11:35:12 CST</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/pmo/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

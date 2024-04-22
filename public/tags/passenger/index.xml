@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Passenger</title>
+        <title>Passenger on sam的小窝</title>
         <link>http://localhost:55555/tags/passenger/</link>
-        <description>Recent content - sam的小窝 - Passenger</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
+                    <link>http://localhost:55555/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>
+                    <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+                    <description>把redmine装在passenger上，然后用nginx反向代理提供服务</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Wed, 23 Mar 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/passenger/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

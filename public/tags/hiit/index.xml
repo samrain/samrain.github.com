@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - HIIT</title>
+        <title>HIIT on sam的小窝</title>
         <link>http://localhost:55555/tags/hiit/</link>
-        <description>Recent content - sam的小窝 - HIIT</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>半小时健身</title>
+                    <link>http://localhost:55555/posts/2022-11-04-half-an-hour-fitness/</link>
+                    <pubDate>Fri, 04 Nov 2022 11:17:25 +0800</pubDate>
+                    <description>第一套 跳绳 并脚跳*100 滑雪步*100 高抬腿*100 并脚跳*100 单脚跳左右各*100 并脚跳*100 双摇*100 并脚跳*100 第二套 HIIT 俯卧撑</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Fri, 04 Nov 2022 11:17:25 CST</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/hiit/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

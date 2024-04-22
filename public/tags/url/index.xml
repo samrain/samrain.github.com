@@ -1,17 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - URL</title>
+        <title>URL on sam的小窝</title>
         <link>http://localhost:55555/tags/url/</link>
-        <description>Recent content - sam的小窝 - URL</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>避免URL中出现JSESSIONID</title>
+                    <link>http://localhost:55555/posts/2016-07-24-avoid-jsessionid-in-url/</link>
+                    <pubDate>Sun, 24 Jul 2016 00:00:00 +0000</pubDate>
+                    <description>修改 web.xml &lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;</description>
+                </item>
+                
+            
+                 
+                <item>
+                    <title>Java代码获取http请求的整个URL</title>
+                    <link>http://localhost:55555/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
+                    <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
+                    <description>String url=request.getScheme()+&quot;://&quot;; url+=request.getHeader(&quot;host&quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&quot;?&quot;+request.getQueryString();</description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Sun, 24 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/url/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

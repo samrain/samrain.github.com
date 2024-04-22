@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0">
     <channel>
-
-        <title>sam的小窝 - Website</title>
+        <title>Website on sam的小窝</title>
         <link>http://localhost:55555/tags/website/</link>
-        <description>Recent content - sam的小窝 - Website</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <description>Recent content in sam的小窝</description>
+
+         
+            
+                 
+                <item>
+                    <title>站点发布时序图</title>
+                    <link>http://localhost:55555/posts/2016-07-22-site-release-sequence-diagram/</link>
+                    <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
+                    <description></description>
+                </item>
+                
+            
         
-        
-        
-        
-        <lastBuildDate>Fri, 22 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="http://localhost:55555/tags/website/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
