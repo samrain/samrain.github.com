@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 模板</title>
-        <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF/</link>
-        <description>Recent content - sam的小窝 - 模板</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 16 Dec 2023 16:31:59 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模板 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF/</link>
+    <description>Recent content in 模板 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 16 Dec 2023 16:31:59 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>和同事1对1面聊（One One）模板</title>
+      <link>https://www.samrainhan.com/posts/2023-12-16-one-on-one-chat-template-with-colleagues/</link>
+      <pubDate>Sat, 16 Dec 2023 16:31:59 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-16-one-on-one-chat-template-with-colleagues/</guid>
+      <description>最近工作的开心吗？ 开心的原因 不开心的原因 对工作的建议 你的未来抱负（3个目标） 你的长期计划 你的最近一个季度的3个目标 你的短期计划 需要的支持（比</description>
+    </item>
+    <item>
+      <title>模板-技术服务团队周报</title>
+      <link>https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/</link>
+      <pubDate>Wed, 21 Sep 2022 20:07:09 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/</guid>
+      <description>1. OKR完成情况 2. 问题汇总分析 a. 本周问题看板 i. 本周最热项目 ii. 本周重点项目问题 b. 本月问题看板 i. 本月最热项目 ii. 本月最热问题 iii. 本月标杆项目问题 iv. 本</description>
+    </item>
+    <item>
+      <title>怎么更好的开会(转google经验)</title>
+      <link>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</link>
+      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-03-24-what-do-the-meeting-do-better/</guid>
+      <description>1. 有一个明确的议程 2. 指定专门的note-taker 3. 钻小会（Carve out micro-meeting） 4. Hold office hours. 5. 要数据，不要政治 （Discou</description>
+    </item>
+    <item>
+      <title>PPT模板和素材</title>
+      <link>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</link>
+      <pubDate>Fri, 26 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-02-26-ppt-templates-and-clip/</guid>
+      <description>中文 扑奔PPT Power Bar 无忧PPT 搜PPT网 PPT中国 PPT资源之家 wordppt 英文 graphicsland 韩国TG公司 CrystalGraphics brainybetty maniactive animationfactory websiteestates presentationpro 美国怪兽模版公司 动画工厂 presentationhelper</description>
+    </item>
+  </channel>
 </rss>

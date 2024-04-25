@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 股票</title>
-        <link>https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8/</link>
-        <description>Recent content - sam的小窝 - 股票</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 23 Sep 2023 09:02:43 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>股票 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8/</link>
+    <description>Recent content in 股票 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 23 Sep 2023 09:02:43 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%82%A1%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>美国股市的上市公司行业分类标准</title>
+      <link>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</link>
+      <pubDate>Sat, 23 Sep 2023 09:02:43 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-23-industry-classification-standards-for-listed-companies-in-the-us-stock-market/</guid>
+      <description>GICS和ICB是目前美国和国际上大部分股票市场常用的。TRBC以及美国政府统计部门使用的NAICS和SIC也比较常用。 全球行业分类标准 (Global Industry</description>
+    </item>
+    <item>
+      <title>摘抄之「万无一失的投资 Fail-Save-Investing」</title>
+      <link>https://www.samrainhan.com/posts/2023-09-15-fail-save-investing/</link>
+      <pubDate>Fri, 15 Sep 2023 10:28:30 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-15-fail-save-investing/</guid>
+      <description>有些⼈可能会告诉您，在为退休储蓄时，您不能谨慎⾏事未经证实的投资策略是您 获得舒适未来的唯⼀希望。但如果你问哈利·布朗（Harry Browne</description>
+    </item>
+    <item>
+      <title>摘抄-股票作手回忆录</title>
+      <link>https://www.samrainhan.com/posts/2023-09-12-excerpt-memoirs-of-a-stock-operator/</link>
+      <pubDate>Tue, 12 Sep 2023 14:58:40 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-12-excerpt-memoirs-of-a-stock-operator/</guid>
+      <description>研究整体大势，建立头寸并拿住它。 我可以总结出一条规律：在较窄的市场中，如果市场走不出明确方向，只是在很窄的区间内震来荡去，那么要预测下一次大</description>
+    </item>
+    <item>
+      <title>大消费上市公司清单（包含沪深港股和美股）</title>
+      <link>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</link>
+      <pubDate>Fri, 25 Aug 2023 15:18:01 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-25-list-of-large-consumer-listed-companies-including-shanghai-shenzhen-hong-kong-and-us-stocks/</guid>
+      <description>大消费上市公司清单（包含沪深港股和美股） 大类 行业 细分行业 股票代码 股票名称 所属交易所 购 商贸零售 - 000007 *ST全新 深交所 购 商贸零售 000058 深赛格 深交所 购 商</description>
+    </item>
+  </channel>
 </rss>

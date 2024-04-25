@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - NFS,存储,文件协议</title>
-        <link>https://www.samrainhan.com/tags/nfs%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8D%8F%E8%AE%AE/</link>
-        <description>Recent content - sam的小窝 - NFS,存储,文件协议</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 20 Jun 2019 08:01:37 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/nfs%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NFS,存储,文件协议 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/nfs%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8D%8F%E8%AE%AE/</link>
+    <description>Recent content in NFS,存储,文件协议 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Jun 2019 08:01:37 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/nfs%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFS的缺点</title>
+      <link>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</link>
+      <pubDate>Thu, 20 Jun 2019 08:01:37 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</guid>
+      <description>1. 单点故障，如果nfs server宕机，所有客户端无法连接 2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差） 3.</description>
+    </item>
+  </channel>
 </rss>

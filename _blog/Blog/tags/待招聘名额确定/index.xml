@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 待招聘名额确定</title>
-        <link>https://www.samrainhan.com/tags/%E5%BE%85%E6%8B%9B%E8%81%98%E5%90%8D%E9%A2%9D%E7%A1%AE%E5%AE%9A/</link>
-        <description>Recent content - sam的小窝 - 待招聘名额确定</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%BE%85%E6%8B%9B%E8%81%98%E5%90%8D%E9%A2%9D%E7%A1%AE%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>待招聘名额确定 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%BE%85%E6%8B%9B%E8%81%98%E5%90%8D%E9%A2%9D%E7%A1%AE%E5%AE%9A/</link>
+    <description>Recent content in 待招聘名额确定 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%BE%85%E6%8B%9B%E8%81%98%E5%90%8D%E9%A2%9D%E7%A1%AE%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>员工待招聘名额确定流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-quota-to-be-determined-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-staff-recruitment-quota-to-be-determined-process/</guid>
+      <description>###根据既定计划或者部门预算 在年初或者年中，根据公司的总体目标，部门编制年度/半年度计划及预算。计划包括时间点及完成的目标及考核标准，预算</description>
+    </item>
+  </channel>
 </rss>

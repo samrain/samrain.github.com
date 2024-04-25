@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 外企</title>
-        <link>https://www.samrainhan.com/tags/%E5%A4%96%E4%BC%81/</link>
-        <description>Recent content - sam的小窝 - 外企</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 29 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%A4%96%E4%BC%81/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>外企 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%A4%96%E4%BC%81/</link>
+    <description>Recent content in 外企 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%A4%96%E4%BC%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>（转）外企、企业文化、人性</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-29-foreign-companies-corporate-culture-humanity/</guid>
+      <description>外企刻意制造并利用人性中一个很可怕的弱点——优越感。 外企怎么可能没有勾心斗角，每个企业都需要“善于勾心斗角”的人，再大的企业都一样，要不然怎</description>
+    </item>
+  </channel>
 </rss>

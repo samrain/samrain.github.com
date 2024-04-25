@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Gif</title>
-        <link>https://www.samrainhan.com/tags/gif/</link>
-        <description>Recent content - sam的小窝 - Gif</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 25 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/gif/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gif on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/gif/</link>
+    <description>Recent content in Gif on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/gif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>视频转gif的js库</title>
+      <link>https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/</link>
+      <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/</guid>
+      <description>Yahoo开源的库，详见：http://yahoo.github.io/gifshot/</description>
+    </item>
+    <item>
+      <title>Emacs 中将文件编码转换为 UTF-8</title>
+      <link>https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/</guid>
+      <description>打开一个文件后键盘依次输入 C-x C-m f utf-8 RET 或者用鼠标右键点击最左下角那个字母，比如 C ，这时会显示 Coding system for saving file (default chinese-gbk-dos): 然后输入 utf-8 后回车即可。</description>
+    </item>
+  </channel>
 </rss>

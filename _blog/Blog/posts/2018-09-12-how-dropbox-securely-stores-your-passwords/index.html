@@ -1,128 +1,109 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Dropbox的用户密码加密机制 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="Dropbox的用户密码加密机制">
+  <meta property="og:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-09-12T16:24:46+08:00">
+    <meta property="article:modified_time" content="2018-09-12T16:24:46+08:00">
+    <meta property="article:tag" content="加密,密码,dropbox">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Dropbox的用户密码加密机制">
+<meta name="twitter:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Dropbox的用户密码加密机制</h1>
+			<div class="meta">Posted on Sep 12, 2018</div>
+		</div>
+		
 
-
-    
-
-<title>Dropbox的用户密码加密机制 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="Dropbox的用户密码加密机制 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
-
-
-
-
-
-
-
-<meta property="og:title" content="Dropbox的用户密码加密机制 · sam的小窝">
-<meta property="og:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                Dropbox的用户密码加密机制
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <p>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</p>
+		<section class="body">
+			<p>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</p>
 <p>Dropbox的加密机制构建在三层加密基础之上，从里到外就像洋葱一样层层叠加。他们先是使用SHA512散列算法对明文密码进行散列，然后针对散列值进行bcrypt再散列。为什么在bcrypt之前要先做SHA散列呢？有些bcrypt实现会把散列值长度截至72字节，从而降低了密码的熵值，而有的则允许变长密码，这样容易受到DoS攻击。使用SHA512散列可以得到固定长度的512字节散列值，避免了上述的两个问题。</p>
 <p>在SHA散列之后是bcrypt散列。bcrypt散列算法是一种加盐（salt）散列算法，每个密码都有不同的“盐”，并且是分开存储的。bcrypt速度比较慢，这样就很难通过硬件加速来加快破解速度。而且bcrypt散列使用了成本因子10（每个因子相当于每一步计算需要耗费100毫秒的时间），这样就更是加大了暴力破解的难度。</p>
 <p>经过bcrypt散列之后，散列值会再次经过AES256算法的加密，这次加密会使用到秘钥，也就是所谓的“胡椒粉”（pepper）。胡椒粉也是被单独存储的，所以就算密码被偷了，没有这些胡椒粉，那些不怀好意的人也拿它们没办法。</p>
 <p>经过SHA512、bcrypt和AES256的三层加固，用户就可以高枕无忧了。</p>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">Sep 2018</div>
-    
-
-
-    
-    
-         <div class="post-taxonomies"> 
-        <div class="post-taxonomy"><a href="/categories#study">study</a></div>
-         </div> 
-    
-
-    
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox">加密,密码,dropbox</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

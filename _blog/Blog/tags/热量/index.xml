@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 热量</title>
-        <link>https://www.samrainhan.com/tags/%E7%83%AD%E9%87%8F/</link>
-        <description>Recent content - sam的小窝 - 热量</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 10 Nov 2022 20:40:16 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%83%AD%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>热量 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%83%AD%E9%87%8F/</link>
+    <description>Recent content in 热量 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Nov 2022 20:40:16 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%83%AD%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每日所需热量</title>
+      <link>https://www.samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</link>
+      <pubDate>Thu, 10 Nov 2022 20:40:16 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</guid>
+      <description>公式 男 (665+1.37*体重kg) + 5*高度cm-6.7*年龄)*活动系数 女 (665+9.6*体重kg) + 1.9*高度cm-4.7*年龄)</description>
+    </item>
+  </channel>
 </rss>

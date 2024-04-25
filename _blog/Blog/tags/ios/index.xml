@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - IOS</title>
-        <link>https://www.samrainhan.com/tags/ios/</link>
-        <description>Recent content - sam的小窝 - IOS</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 02 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IOS on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/ios/</link>
+    <description>Recent content in IOS on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IOS开发环境配置学习手册</title>
+      <link>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</link>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/</guid>
+      <description>准备 一台Mac电脑（OSX升级到10.10），安装最新的XCode。 上developer.apple.com 到为每个人申请开发证书 为每个产品</description>
+    </item>
+  </channel>
 </rss>

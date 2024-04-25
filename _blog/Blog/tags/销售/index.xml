@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 销售</title>
-        <link>https://www.samrainhan.com/tags/%E9%94%80%E5%94%AE/</link>
-        <description>Recent content - sam的小窝 - 销售</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 20 Feb 2023 10:04:45 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%94%80%E5%94%AE/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>销售 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%94%80%E5%94%AE/</link>
+    <description>Recent content in 销售 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 20 Feb 2023 10:04:45 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%94%80%E5%94%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>收入模型</title>
+      <link>https://www.samrainhan.com/posts/2023-02-20-revenue-model/</link>
+      <pubDate>Mon, 20 Feb 2023 10:04:45 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-02-20-revenue-model/</guid>
+      <description>新客收入 原厂销售 销售机会总量 销售数量 原厂销售数量@销售 代理商 @渠道 客户主动 @市场营销 人均销售机会数 @销售管理 平均销售胜率 @售前 平均销售规模 解</description>
+    </item>
+    <item>
+      <title>销售业绩统计</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-08-13-sales-statistics/</guid>
+      <description>##分为三个实体 合同 甲方 乙方 总金额 付款比例 税点 发票类型 签订合同时间 售出/采购 合同内部编号 收/付款 收/付 时间 付款人 付款金额 付款理由 和那个合同对</description>
+    </item>
+  </channel>
 </rss>

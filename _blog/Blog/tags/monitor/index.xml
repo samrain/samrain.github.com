@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Monitor</title>
-        <link>https://www.samrainhan.com/tags/monitor/</link>
-        <description>Recent content - sam的小窝 - Monitor</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 11 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitor on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/monitor/</link>
+    <description>Recent content in Monitor on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitorbook 监视网页内容变化</title>
+      <link>https://www.samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</guid>
+      <description>Why 比如：电商价格监控，有货无货监控 What 官网在此 https://monitorbook.com/ 免费版本可以监控 5 个项目以及每小时一次的刷新，监控内容可以是数字也可以是文字，设置警告项当低于</description>
+    </item>
+  </channel>
 </rss>

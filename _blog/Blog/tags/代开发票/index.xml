@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 代开发票</title>
-        <link>https://www.samrainhan.com/tags/%E4%BB%A3%E5%BC%80%E5%8F%91%E7%A5%A8/</link>
-        <description>Recent content - sam的小窝 - 代开发票</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 24 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BB%A3%E5%BC%80%E5%8F%91%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>代开发票 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BB%A3%E5%BC%80%E5%8F%91%E7%A5%A8/</link>
+    <description>Recent content in 代开发票 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 24 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BB%A3%E5%BC%80%E5%8F%91%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>税务局代开发票流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-24-revenue-and-invoicing-process/</link>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-24-revenue-and-invoicing-process/</guid>
+      <description>准备材料清单 对方一般纳税人资格证复印件（对方为一般纳税人） 双方合同 印花税票，贴在合同上 对方付款证明，如果未付款须写证明（确认开票金额和用途）</description>
+    </item>
+  </channel>
 </rss>

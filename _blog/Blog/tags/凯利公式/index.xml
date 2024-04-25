@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 凯利,公式</title>
-        <link>https://www.samrainhan.com/tags/%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F/</link>
-        <description>Recent content - sam的小窝 - 凯利,公式</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 12 Aug 2021 14:52:46 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>凯利,公式 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F/</link>
+    <description>Recent content in 凯利,公式 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Aug 2021 14:52:46 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>凯利公式</title>
+      <link>https://www.samrainhan.com/posts/2021-08-12-kelly-formula/</link>
+      <pubDate>Thu, 12 Aug 2021 14:52:46 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-08-12-kelly-formula/</guid>
+      <description>凯利公式 预期收益=胜率×赔率-败率 资金投入比例=预期收益/胜率=（胜率×赔率-败率）/胜率 赔率=赌对了的收益/赌输了的损失 败率=1-胜率 如果</description>
+    </item>
+  </channel>
 </rss>

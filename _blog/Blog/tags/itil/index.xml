@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - ITIL</title>
-        <link>https://www.samrainhan.com/tags/itil/</link>
-        <description>Recent content - sam的小窝 - ITIL</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 25 Mar 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/itil/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ITIL on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/itil/</link>
+    <description>Recent content in ITIL on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/itil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ITIL</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-itil/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-itil/</guid>
+      <description>思维导图文件下载 6大模块 业务管理 服务管理 服务支持 事件管理 问题管理 配置管理 变更管理 发布管理 服务提供 服务级别管理 IT服务财务管理 IT服务持续性管</description>
+    </item>
+  </channel>
 </rss>

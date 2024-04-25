@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 减免税</title>
-        <link>https://www.samrainhan.com/tags/%E5%87%8F%E5%85%8D%E7%A8%8E/</link>
-        <description>Recent content - sam的小窝 - 减免税</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 28 Nov 2012 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%87%8F%E5%85%8D%E7%A8%8E/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>减免税 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%87%8F%E5%85%8D%E7%A8%8E/</link>
+    <description>Recent content in 减免税 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 28 Nov 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%87%8F%E5%85%8D%E7%A8%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>what are 双软认证</title>
+      <link>https://www.samrainhan.com/posts/2012-11-28-the-identification-software-companies-and-software-product-registration/</link>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-11-28-the-identification-software-companies-and-software-product-registration/</guid>
+      <description>思维导图文件下载 定义 软件企业的认定和软件产品的登记 获得软件企业和软件产品的认证资质 对企业知识产权的一种保护方式 让企业享受国家提供给软件行业的</description>
+    </item>
+  </channel>
 </rss>

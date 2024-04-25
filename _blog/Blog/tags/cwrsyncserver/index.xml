@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - CwRsyncServer</title>
-        <link>https://www.samrainhan.com/tags/cwrsyncserver/</link>
-        <description>Recent content - sam的小窝 - CwRsyncServer</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 09 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/cwrsyncserver/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CwRsyncServer on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/cwrsyncserver/</link>
+    <description>Recent content in CwRsyncServer on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/cwrsyncserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装cwRsyncServer</title>
+      <link>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</link>
+      <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/</guid>
+      <description>下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运</description>
+    </item>
+  </channel>
 </rss>

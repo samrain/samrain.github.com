@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 高盛</title>
-        <link>https://www.samrainhan.com/tags/%E9%AB%98%E7%9B%9B/</link>
-        <description>Recent content - sam的小窝 - 高盛</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 22 Feb 2021 16:23:30 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%AB%98%E7%9B%9B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>高盛 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%AB%98%E7%9B%9B/</link>
+    <description>Recent content in 高盛 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 Feb 2021 16:23:30 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%AB%98%E7%9B%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高盛十诫</title>
+      <link>https://www.samrainhan.com/posts/2021-02-22-goldman-sachs-ten-commandments/</link>
+      <pubDate>Mon, 22 Feb 2021 16:23:30 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-02-22-goldman-sachs-ten-commandments/</guid>
+      <description>高盛十诫 不要把时间浪费在我们并不很想发展的业务上。 通常情况下由老板—而不是助理财务总监来作出决定。你知道谁是老板吗? 拿到一流业务和拿到二流业</description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 矩阵,模型</title>
-        <link>https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/</link>
-        <description>Recent content - sam的小窝 - 矩阵,模型</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 01 Jun 2021 08:46:13 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>矩阵,模型 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 矩阵,模型 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Jun 2021 08:46:13 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%9F%A9%E9%98%B5%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用矩阵模型</title>
+      <link>https://www.samrainhan.com/posts/2021-06-01-use-a-matrix-model/</link>
+      <pubDate>Tue, 01 Jun 2021 08:46:13 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-06-01-use-a-matrix-model/</guid>
+      <description>使用矩阵模型 生活中处处都可应用这样的矩阵模型，与其生硬地记忆各候选项的优劣再做选择，不如多做练习熟练掌握并灵活运用这样的矩阵模型。 刚开始运用</description>
+    </item>
+  </channel>
 </rss>

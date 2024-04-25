@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 笔记</title>
-        <link>https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0/</link>
-        <description>Recent content - sam的小窝 - 笔记</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 24 Aug 2022 11:38:24 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 24 Aug 2022 11:38:24 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>各种笔记记录法PK</title>
+      <link>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</link>
+      <pubDate>Wed, 24 Aug 2022 11:38:24 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-24-how-to-take-notes/</guid>
+      <description>各种笔记记录法PK 标签式 标签越来越多，越复杂，导致来了新记录打标签很痛苦，大脑也不利于记录和工作。 笔记本式 笔记本式还是传统的，整理费劲，且容</description>
+    </item>
+  </channel>
 </rss>

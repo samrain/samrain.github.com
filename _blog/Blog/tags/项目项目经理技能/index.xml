@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 项目,项目经理,技能</title>
-        <link>https://www.samrainhan.com/tags/%E9%A1%B9%E7%9B%AE%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E6%8A%80%E8%83%BD/</link>
-        <description>Recent content - sam的小窝 - 项目,项目经理,技能</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 28 Jan 2022 22:40:56 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%A1%B9%E7%9B%AE%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>项目,项目经理,技能 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%A1%B9%E7%9B%AE%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E6%8A%80%E8%83%BD/</link>
+    <description>Recent content in 项目,项目经理,技能 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jan 2022 22:40:56 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%A1%B9%E7%9B%AE%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>项目经理的基本技能</title>
+      <link>https://www.samrainhan.com/posts/2022-01-28-essential-skills-for-project-managers/</link>
+      <pubDate>Fri, 28 Jan 2022 22:40:56 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-01-28-essential-skills-for-project-managers/</guid>
+      <description>人际交往能力 软技能对于 PM 的工作至关重要。更具体地说：人际交往能力。OSP International 总裁兼项目管理播客主持人Cornelius Fichtner解释说：</description>
+    </item>
+  </channel>
 </rss>

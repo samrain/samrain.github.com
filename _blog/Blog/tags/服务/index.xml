@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 服务</title>
-        <link>https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1/</link>
-        <description>Recent content - sam的小窝 - 服务</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 22 Apr 2024 22:28:40 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>服务 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1/</link>
+    <description>Recent content in 服务 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 Apr 2024 22:28:40 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>产品服务化</title>
+      <link>https://www.samrainhan.com/posts/2024-04-22-product-serviceization/</link>
+      <pubDate>Mon, 22 Apr 2024 22:28:40 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-04-22-product-serviceization/</guid>
+      <description>产品服务化 产品服务化的特征 产品服务化是以产品为主线,服务依附于产品而存在; 产品服务化在服务过程中,对服务没有明确的考核; 产品与服务是不可分割</description>
+    </item>
+    <item>
+      <title>服务保障能力建设</title>
+      <link>https://www.samrainhan.com/posts/2023-12-06-service-guarantee-capacity-building/</link>
+      <pubDate>Wed, 06 Dec 2023 10:41:02 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-06-service-guarantee-capacity-building/</guid>
+      <description>售后服务方面，企业服务保障方面的管理机制有哪些？ 组建独立的服务保障团队，包含各种岗位角色，有清晰的结构设计，制定岗位职责说明书和任职体系标准</description>
+    </item>
+    <item>
+      <title>IT服务的价值</title>
+      <link>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</link>
+      <pubDate>Mon, 12 Sep 2022 17:30:07 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-09-12-the-value-of-it-services/</guid>
+      <description>IT服务的价值 1. 外部质量服务是真正用户可见可感知的，而内部质量服务是对外部质量服务的保障， 通常称为Qualty Assurance。 2. 服务质量</description>
+    </item>
+    <item>
+      <title>常用SAAS服务</title>
+      <link>https://www.samrainhan.com/posts/2018-06-05-list-of-regular-saas/</link>
+      <pubDate>Tue, 05 Jun 2018 10:28:18 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-05-list-of-regular-saas/</guid>
+      <description>常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证</description>
+    </item>
+    <item>
+      <title>删除windows服务</title>
+      <link>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</guid>
+      <description>sc delete 服务名 如果服务名中间有空格，就需要前后加引号。</description>
+    </item>
+    <item>
+      <title>删除Windows服务</title>
+      <link>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</link>
+      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</guid>
+      <description>用sc.exe这个Windows命令 开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单： # (如果服务名中间有空格，就需</description>
+    </item>
+  </channel>
 </rss>

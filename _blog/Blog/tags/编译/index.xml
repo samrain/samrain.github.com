@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 编译</title>
-        <link>https://www.samrainhan.com/tags/%E7%BC%96%E8%AF%91/</link>
-        <description>Recent content - sam的小窝 - 编译</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 01 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编译 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%BC%96%E8%AF%91/</link>
+    <description>Recent content in 编译 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#编译小贴士</title>
+      <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
+      <description>不想看到pdb文件 在编译时设置高级选项中 Output - Debug info 为 None Any CPU是什么意思 Visual Studio的编译选项 build下的platform有X64、Any</description>
+    </item>
+    <item>
+      <title>msbuild参数效果对比</title>
+      <link>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</guid>
+      <description>结论 加/m的效果明显,而加/p:BuildlnParallel=true,并不明显. 试验数据 以下是在一台虚拟机上的测试结果,分配了4个CPU</description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 管理</title>
-        <link>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86/</link>
-        <description>Recent content - sam的小窝 - 管理</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 17 Sep 2023 22:40:52 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管理 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 管理 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 17 Sep 2023 22:40:52 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMP IT UP by 弗兰克·斯洛特曼</title>
+      <link>https://www.samrainhan.com/posts/2023-09-17-amp-it-up-by-frank-slotman/</link>
+      <pubDate>Sun, 17 Sep 2023 22:40:52 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-17-amp-it-up-by-frank-slotman/</guid>
+      <description>全世界最成功的软件企业家有哪些？弗兰克·斯洛特曼 (Frank Slootman) 一定在名单里面。他是云计算公司 Snowflake 的 CEO，在此之前，还担任过另外两家软件公司（Data Domain</description>
+    </item>
+    <item>
+      <title>唐炳森采访语录</title>
+      <link>https://www.samrainhan.com/posts/2023-01-11-interview-with-tang-bingsen/</link>
+      <pubDate>Wed, 11 Jan 2023 23:31:38 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-11-interview-with-tang-bingsen/</guid>
+      <description>战略要向二级市场投资人学习。巴菲特动动脑筋就能获得收益，所以战略想得最明白的是二级市场那帮人。 管理要像 “海盗” 学习。很多公司看上去管理好，实</description>
+    </item>
+    <item>
+      <title>PMO是什么?</title>
+      <link>https://www.samrainhan.com/posts/2022-09-19-what-is-pmo/</link>
+      <pubDate>Mon, 19 Sep 2022 14:44:54 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-09-19-what-is-pmo/</guid>
+      <description>一、PMO是什么？ PMO是项目管理办公室Project Management Office简称。 PMO是一个企业/政府机构或其中部门中定义并维护项目管理标准，负责</description>
+    </item>
+    <item>
+      <title>前5位的产品和管理技能</title>
+      <link>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</link>
+      <pubDate>Sat, 27 Aug 2022 11:21:26 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-27-top-5-product-and-management-skills/</guid>
+      <description>一个好的领导（或者产品经理），应该具备五项技能： SQL Excel 简洁写作 讲故事 区分优先级</description>
+    </item>
+    <item>
+      <title>简单任务管理</title>
+      <link>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</link>
+      <pubDate>Tue, 05 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</guid>
+      <description>任务清单用excel编辑后导出为html放在WebServer上供大家访问 最重要的放在最上面 根据人员排序 如果一个功能是有多人配合完成的，需要</description>
+    </item>
+    <item>
+      <title>指尖上的政府</title>
+      <link>https://www.samrainhan.com/posts/2014-06-20-government-fingertips/</link>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-20-government-fingertips/</guid>
+      <description>面对势不可挡的移动互联网浪潮，面对传统互联网用户大范围向移动互联网融合的势头，加之庞大的社会化媒体用户量和其惊人的增长速度，打通互联网、移动</description>
+    </item>
+    <item>
+      <title>个性化智慧门户</title>
+      <link>https://www.samrainhan.com/posts/2014-06-19-personalized-intelligence-portal/</link>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-19-personalized-intelligence-portal/</guid>
+      <description>个性化智慧门户理想模型是指将个性化信息服务的完整流程和已有的电子政务系统紧密结合的理想状态，因此，理想模型必须包括这两大部分内容: 1.个性化</description>
+    </item>
+    <item>
+      <title>政府门户网站</title>
+      <link>https://www.samrainhan.com/posts/2014-06-18-government-portal/</link>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-18-government-portal/</guid>
+      <description>政府门户网站的定位至少有以下三个方面： 1.市民服务功能 市民服务是政府门户的最主要功能。以最终外部用户的使用满意为目标。政府门户应当一定程度的</description>
+    </item>
+    <item>
+      <title>实施网站群需要注重的几个关键环节</title>
+      <link>https://www.samrainhan.com/posts/2014-06-17-key-aspects-of-the-groups-website/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-17-key-aspects-of-the-groups-website/</guid>
+      <description>##1.明确关注点 实现全面、均衡、可控、协调地发展电子政务的目标; 以政府网站为抓手转向政府网站群为抓手!任务、重心、策略都要发生变化; 形成网</description>
+    </item>
+    <item>
+      <title>衡量网站群的关键指标</title>
+      <link>https://www.samrainhan.com/posts/2014-06-16-key-indicators-to-measure-the-groups-website/</link>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-16-key-indicators-to-measure-the-groups-website/</guid>
+      <description>衡量网站群的关键外显性标志 站内单点登录; 统一网站群搜索; 一站式受理服务程度; 相对统一的界面设计和风格; 衡量网站群的关键内在性标志 网站群之间的</description>
+    </item>
+    <item>
+      <title>网站群产品选型原则</title>
+      <link>https://www.samrainhan.com/posts/2014-06-15-product-selection-principles-website-group/</link>
+      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-15-product-selection-principles-website-group/</guid>
+      <description>网站群在国内是一个比较新的概念与建站模式,整个技术体系的发展模式与思路还处在一个一边摸索一边发展的阶段,所以,在产品选型上就要更加慎重,尤其</description>
+    </item>
+    <item>
+      <title>网站群工作机制</title>
+      <link>https://www.samrainhan.com/posts/2014-06-14-website-group-working-mechanism/</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-14-website-group-working-mechanism/</guid>
+      <description>政府网站是政府信息公开、办事平台、便民服务、政府与市民互动交流总平台，因此，政府门户网站建设与管理涉及政府各部门，综合性、业务性、技术性和安</description>
+    </item>
+    <item>
+      <title>网站群建设模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-13-website-group-functions-envisaged/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-13-website-group-functions-envisaged/</guid>
+      <description>根据网站群建设模式的目标要求，它应当是一个集站点群设计、开发、注册、部署、管理、调用及内容管理于一体的站点群支撑平台，根据业务特征可划分为站</description>
+    </item>
+    <item>
+      <title>网站群建设模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-12-site-construction-model-group/</link>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-12-site-construction-model-group/</guid>
+      <description>在建设模式上,必须建设统一的规范标准体系,建立必要的规范制度。通过分布式信息维护模式和审核机制,做到信息层级管理,资源共享和再利用。 1.加强</description>
+    </item>
+    <item>
+      <title>网站群特征</title>
+      <link>https://www.samrainhan.com/posts/2014-06-11-website-group-characteristics/</link>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-11-website-group-characteristics/</guid>
+      <description>技术性定义:是指统一部署,统一标准,建立在统一技术构架基础之上,信息可以实现基于特定权限共享呈送的“一群网站”。是以政府网为核心、以电子政务</description>
+    </item>
+    <item>
+      <title>大型网站群的建设及管理模式</title>
+      <link>https://www.samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</link>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-10-large-group-of-construction-and-site--management-model/</guid>
+      <description>中国企业的信息化建设自20世纪90年代开始，域名（网站）、企业邮箱、OA是企业信息化的起步点，随着拨号上网用户的增加，以及1999-2001</description>
+    </item>
+    <item>
+      <title>CIO工作内容片段</title>
+      <link>https://www.samrainhan.com/posts/2013-04-08-cio-work/</link>
+      <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-04-08-cio-work/</guid>
+      <description>思维导图文件下载 首席信息官的职责 直接参与企业与信息科技运用有关的业务发展决策 确保信息科技战略，尤其是信息系统开发战略，符合总体业务战略和信息</description>
+    </item>
+  </channel>
 </rss>

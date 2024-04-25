@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 成功</title>
-        <link>https://www.samrainhan.com/tags/%E6%88%90%E5%8A%9F/</link>
-        <description>Recent content - sam的小窝 - 成功</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 13 Aug 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%88%90%E5%8A%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>成功 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%88%90%E5%8A%9F/</link>
+    <description>Recent content in 成功 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%88%90%E5%8A%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小米成功经验</title>
+      <link>https://www.samrainhan.com/posts/2014-08-13-mimu-successful-experience/</link>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-08-13-mimu-successful-experience/</guid>
+      <description>粉丝参与产品创新 用户体验 扁平化管理 粉丝经济 电子商务直销去除渠道成本和销售成本 新媒体和自媒体营销，去除营销成本 现代人不相信广告，相信社交 APP</description>
+    </item>
+  </channel>
 </rss>

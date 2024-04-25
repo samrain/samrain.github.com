@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 图片</title>
-        <link>https://www.samrainhan.com/tags/%E5%9B%BE%E7%89%87/</link>
-        <description>Recent content - sam的小窝 - 图片</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 14 Jan 2023 20:38:19 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图片 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%9B%BE%E7%89%87/</link>
+    <description>Recent content in 图片 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 14 Jan 2023 20:38:19 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文字描述生成图片</title>
+      <link>https://www.samrainhan.com/posts/2023-01-14-text-to-generate-picture/</link>
+      <pubDate>Sat, 14 Jan 2023 20:38:19 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-14-text-to-generate-picture/</guid>
+      <description>最火的是： https://openai.com/dall-e-2/ 清华的： https://models.aminer.cn/CogView/ 百度的： https://wenxin.baidu.com/moduleApi/ernieVilg 其他免费的： https://art.elbo.ai/ https://creator.nolibox.com/guest</description>
+    </item>
+    <item>
+      <title>怎么确定app图片尺寸</title>
+      <link>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</guid>
+      <description>Android碎片化严重，但它现在反而比iOS好处理。因为如今的Android屏幕逻辑像素已经趋于统一了：360x640，就看你设成几倍了。</description>
+    </item>
+  </channel>
 </rss>

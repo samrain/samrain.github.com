@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 加密</title>
-        <link>https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86/</link>
-        <description>Recent content - sam的小窝 - 加密</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 04 Oct 2023 09:08:51 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>加密 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86/</link>
+    <description>Recent content in 加密 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 04 Oct 2023 09:08:51 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>明文加密简易方案</title>
+      <link>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</link>
+      <pubDate>Wed, 04 Oct 2023 09:08:51 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</guid>
+      <description>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A</description>
+    </item>
+    <item>
+      <title>加密密码</title>
+      <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
+      <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
+    </item>
+    <item>
+      <title>公钥编码格式</title>
+      <link>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</guid>
+      <description>公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com</description>
+    </item>
+    <item>
+      <title>RSA算法在.net中实现</title>
+      <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</guid>
+      <description>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击</description>
+    </item>
+    <item>
+      <title>常用加解密算法的.net实现</title>
+      <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
+      <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
+      <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
+    </item>
+    <item>
+      <title>SSL介绍</title>
+      <link>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</link>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</guid>
+      <description>##SSL握手过程 通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交</description>
+    </item>
+    <item>
+      <title>常用加解密算法</title>
+      <link>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</guid>
+      <description>1.常用密钥算法 密钥算法用来对敏感数据、摘要、签名等信息进行加密。 对称加密算法 DES（Data Encryption Standard） 数据加密标准，速度较快，适</description>
+    </item>
+  </channel>
 </rss>

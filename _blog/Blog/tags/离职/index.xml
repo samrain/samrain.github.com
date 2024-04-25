@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 离职</title>
-        <link>https://www.samrainhan.com/tags/%E7%A6%BB%E8%81%8C/</link>
-        <description>Recent content - sam的小窝 - 离职</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%A6%BB%E8%81%8C/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>离职 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%A6%BB%E8%81%8C/</link>
+    <description>Recent content in 离职 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%A6%BB%E8%81%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>员工离职流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-employee-turnover-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-employee-turnover-process/</guid>
+      <description>第一步，员工发辞职报告邮件给部门负责人 第二步，部门负责人回复同意后抄送给人事部专用邮箱 第三步，该邮件经过人事部审核通过后，转发至IT部指定邮</description>
+    </item>
+  </channel>
 </rss>

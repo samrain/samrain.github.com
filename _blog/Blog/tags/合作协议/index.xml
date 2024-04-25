@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 合作协议</title>
-        <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E5%8D%8F%E8%AE%AE/</link>
-        <description>Recent content - sam的小窝 - 合作协议</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 13 Dec 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>合作协议 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E5%8D%8F%E8%AE%AE/</link>
+    <description>Recent content in 合作协议 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 13 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>合作协议模版</title>
+      <link>https://www.samrainhan.com/posts/2013-12-13-cooperation-agreement-template/</link>
+      <pubDate>Fri, 13 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-12-13-cooperation-agreement-template/</guid>
+      <description>首页 协议名称：XXXXXXXXXX服务协议书 服务单位（甲方）：XXXXXXXXXX公司 被服务单位（乙方）：XXXXXXXX公司 签订日期：年月</description>
+    </item>
+  </channel>
 </rss>

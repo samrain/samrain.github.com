@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 场所</title>
-        <link>https://www.samrainhan.com/tags/%E5%9C%BA%E6%89%80/</link>
-        <description>Recent content - sam的小窝 - 场所</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 23 Apr 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%9C%BA%E6%89%80/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>场所 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%9C%BA%E6%89%80/</link>
+    <description>Recent content in 场所 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9C%BA%E6%89%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>上海活动场所</title>
+      <link>https://www.samrainhan.com/posts/2013-04-23-shanghai-venues/</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-04-23-shanghai-venues/</guid>
+      <description>思维导图文件下载 地区 静安别墅 同乐坊 田子坊 尚街LOFT 组织 公益跳蚤会</description>
+    </item>
+  </channel>
 </rss>

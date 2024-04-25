@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 小学</title>
-        <link>https://www.samrainhan.com/tags/%E5%B0%8F%E5%AD%A6/</link>
-        <description>Recent content - sam的小窝 - 小学</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 13 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%B0%8F%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小学 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B0%8F%E5%AD%A6/</link>
+    <description>Recent content in 小学 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 13 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%B0%8F%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(转未经证实)清华附小学生阅读书单</title>
+      <link>https://www.samrainhan.com/posts/2015-06-13-tsinghua-university-preparatory-school-reading-list/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-13-tsinghua-university-preparatory-school-reading-list/</guid>
+      <description>1、一年级上学期必读书目和选读书目（逐年修订） 《猜猜我有多爱你》（必读） 山姆．麦克布雷尼 明天出版社 《蚯蚓的日记》（选读） 朵琳．克罗宁 少年儿童</description>
+    </item>
+    <item>
+      <title>大华附近的宝山区小学一览</title>
+      <link>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-17-school-around-dahua/</guid>
+      <description>大场镇小学 场联路135号 56685439 大场中心小学 南大路16弄6号 56681359 大华小学 华灵路623号 66344669 大华二小 大华路863号 66396066 行知小学 行知路389弄1号 66395528 嘉华小学</description>
+    </item>
+  </channel>
 </rss>

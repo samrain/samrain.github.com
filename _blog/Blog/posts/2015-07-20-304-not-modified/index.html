@@ -1,124 +1,115 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>304 Not Modified - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-07-20-304-not-modified/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="304 Not Modified">
+  <meta property="og:description" content="客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-07-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2015-07-20T00:00:00+00:00">
+    <meta property="article:tag" content="Http">
+    <meta property="article:tag" content="Status">
+    <meta property="article:tag" content="304">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="304 Not Modified">
+<meta name="twitter:description" content="客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">304 Not Modified</h1>
+			<div class="meta">Posted on Jul 20, 2015</div>
+		</div>
+		
 
-
-    
-
-<title>304 Not Modified · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="304 Not Modified · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2015-07-20-304-not-modified/">
-
-
-
-
-
-
-
-<meta property="og:title" content="304 Not Modified · sam的小窝">
-<meta property="og:description" content="客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-07-20-304-not-modified/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2015-07-20-304-not-modified/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                304 Not Modified
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <p>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来缓冲的文档还可以继续使用。</p>
+		<section class="body">
+			<p>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来缓冲的文档还可以继续使用。</p>
 <p>如果客户端在请求一个文件的时候，发现自己缓存的文件有 Last Modified ，那么在请求中会包含 If Modified Since ，这个时间就是缓存文件的 Last Modified 。因此，如果请求中包含 If Modified Since，就说明已经有缓存在客户端。只要判断这个时间和当前请求的文件的修改时间就可以确定是返回 304 还是 200 。对于静态文件，例如：CSS、图片，服务器会自动完成 Last Modified 和 If Modified Since 的比较，完成缓存或者更新。但是对于动态页面，就是动态产生的页面，往往没有包含 Last Modified 信息，这样浏览器、网关等都不会做缓存，也就是在每次请求的时候都完成一个 200 的请求。</p>
 <p>这个 304 状态一般主要在用户刷新页面(F5键)的时候触发.</p>
 <p>当用户在刷新页面的时候，因为原来的页面里的很多图片已经缓存过，客户端的浏览器已经记录了图片的最后更新时间(Last Mod)，所以在用户刷新页面的时候，会向服务器提交一个字段：<code>If-Modified-Since: Wed, 08 Sep 2010 21:35:06 GMT</code></p>
 <p>这个时候，服务器端的程序先取得这个字段的值，然后与服务器上的图片最后修改时间对比，如果相同，就直接返回 304 Not Modified ，然后停止。这样就不用把图片重新传输到客户端，达到节省带宽的目的。</p>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">Jul 2015</div>
-    
-
-
-    
-    
-
-    
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/http">http</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/status">status</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/304">304</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

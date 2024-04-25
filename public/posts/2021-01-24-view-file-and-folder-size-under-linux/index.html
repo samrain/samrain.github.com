@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Linux下查看文件和文件夹大小 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	
-  <meta itemprop="name" content="Linux下查看文件和文件夹大小">
-  <meta itemprop="description" content="Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *">
-  <meta itemprop="datePublished" content="2021-01-24T13:54:58+08:00">
-  <meta itemprop="dateModified" content="2021-01-24T13:54:58+08:00">
-  <meta itemprop="wordCount" content="55">
-  <meta itemprop="keywords" content="Linux,文件大小,文件夹大小"><meta property="og:url" content="http://localhost:55555/posts/2021-01-24-view-file-and-folder-size-under-linux/">
+	<meta name="description" content="Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:55555/posts/2021-01-24-view-file-and-folder-size-under-linux/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Linux下查看文件和文件夹大小">
   <meta property="og:description" content="Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *">
@@ -21,118 +16,89 @@
     <meta property="article:tag" content="Linux,文件大小,文件夹大小">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Linux下查看文件和文件夹大小">
 <meta name="twitter:description" content="Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *">
-<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="http://localhost:55555/[]" />
+<script src="http://localhost:55555/js/feather.min.js"></script>
+	
+	
+        <link href="http://localhost:55555/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.css" />
-
-	<script src="http://localhost:55555/js/feather.min.js"></script>
 	
-		<script src="http://localhost:55555/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+		
 </head>
-
-
 <body>
-
-
-	
-	<div class="container wrapper">
-		<div class="header">
-	
-	<h1 class="site-title"><a href="http://localhost:55555/">sam的小窝</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"><li><a href="" title="github"><i data-feather=""></i></a></li><li><a href="" title="linkedin"><i data-feather=""></i></a></li><li><a href="" title="email"><i data-feather=""></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
-		</nav>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:55555/">sam的小窝</a>
 	</div>
-
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="http://localhost:55555/">Home</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/posts">Writings</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/tags">Tags</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/about">About</a>
-			</li>
-			
-		</ul>
+	<nav>
+		
+		<a href="http://localhost:55555/">Home</a>
+		
+		<a href="http://localhost:55555/posts">Writings</a>
+		
+		<a href="http://localhost:55555/tags">Tags</a>
+		
+		<a href="http://localhost:55555/about">About</a>
+		
+		
 	</nav>
-</div>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Linux下查看文件和文件夹大小</h1>
+			<div class="meta">Posted on Jan 24, 2021</div>
+		</div>
+		
 
-		<div class="post">
-    <div class="post-header">
-    
-    <div class="meta">
-        <div class="date">
-            <span class="day">24</span>
-            <span class="rest">Jan 2021</span>
-        </div>
-    </div>
-    
-    <div class="matter">
-        <h1 class="title">Linux下查看文件和文件夹大小</h1>
-    </div>
-</div>
-
-
-    
-    
-    <h1 id="linux下查看文件和文件夹大小">Linux下查看文件和文件夹大小</h1>
+		<section class="body">
+			<h1 id="linux下查看文件和文件夹大小">Linux下查看文件和文件夹大小</h1>
 <h2 id="1-查看系统中文件的使用情况">1. 查看系统中文件的使用情况</h2>
 <p><code>df -h</code></p>
 <h2 id="2-查看当前目录下各个文件及目录占用空间大小">2. 查看当前目录下各个文件及目录占用空间大小</h2>
 <p><code>du -sh *</code></p>
 
-    <hr class="footer-separator" />
-<div class="tags">
-    
-    
-    <ul class="flat">
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F">linux,文件大小,文件夹大小</a>
-        </li>
-        
-    </ul>
-    
-    
-</div>
+		</section>
 
-
-
-<div class="back">
-    <a href="http://localhost:55555/"><span aria-hidden="true">← Back</span></a>
-</div>
-
-
-<div class="back">
-    
-</div>
-
-</div>
-
-	</div>
-	
-
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div>2021 </div>
-		
-	</nav>
-</div><script>feather.replace()</script>
-	
-</body>
-
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="http://localhost:55555/tags/linux%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E5%A4%A7%E5%B0%8F">linux,文件大小,文件夹大小</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

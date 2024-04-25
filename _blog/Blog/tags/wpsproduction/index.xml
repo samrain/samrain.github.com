@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - WPS,production</title>
-        <link>https://www.samrainhan.com/tags/wpsproduction/</link>
-        <description>Recent content - sam的小窝 - WPS,production</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 18 Jun 2019 06:37:10 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/wpsproduction/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WPS,production on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/wpsproduction/</link>
+    <description>Recent content in WPS,production on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Jun 2019 06:37:10 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/wpsproduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WPS产品矩阵</title>
+      <link>https://www.samrainhan.com/posts/2019-06-18-matrix-of-wps/</link>
+      <pubDate>Tue, 18 Jun 2019 06:37:10 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-06-18-matrix-of-wps/</guid>
+      <description>Package App 有否单独客户端 Windows Linux Mac IOS Android H5 服务可否私有化 Office WPS Office [x] [x] [x] [x] [x] [x] [x] Office WPS PDF [x] [x] [x] [x] [x] Office WPS写得 [x] Office WPS秀堂 [x] Office WPS便签 [x]office [x]office [x]office [x] 文档管理 云文</description>
+    </item>
+  </channel>
 </rss>

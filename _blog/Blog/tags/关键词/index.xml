@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 关键词</title>
-        <link>https://www.samrainhan.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
-        <description>Recent content - sam的小窝 - 关键词</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 18 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>关键词 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
+    <description>Recent content in 关键词 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 18 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建立你的主题关键词</title>
+      <link>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-18-create-your-keywords/</guid>
+      <description>根据搜索结果的提示，一步步更换关键词直至找到靠谱的结果。 更换语言，别有洞天。有时更换为英语能够让你获取更精准的结果。所以这也是为什么，我的主</description>
+    </item>
+  </channel>
 </rss>

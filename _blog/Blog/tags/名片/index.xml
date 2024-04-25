@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 名片</title>
-        <link>https://www.samrainhan.com/tags/%E5%90%8D%E7%89%87/</link>
-        <description>Recent content - sam的小窝 - 名片</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 08 Mar 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%90%8D%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>名片 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%90%8D%E7%89%87/</link>
+    <description>Recent content in 名片 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%90%8D%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>名片和iphone的尺寸及比例</title>
+      <link>https://www.samrainhan.com/posts/2015-03-08-the-size-and-proportion-of-the-card-and-the-iphone/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-08-the-size-and-proportion-of-the-card-and-the-iphone/</guid>
+      <description>Iphone 5S 123.8/58.6=2.11262798635 6 138.1/67.0=2.06119402985 6+ 158.1/77.8=2.03213367609 名片 窄式 90/45=2 ###美式 90/50=1.8 ###中式 90/54=1.66666666667 ###欧式 85/54=1.57407407407 ###超窄 90/40=2.25</description>
+    </item>
+    <item>
+      <title>名片包含了那些必需信息</title>
+      <link>https://www.samrainhan.com/posts/2015-02-27-the-informations-of-business-card/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-27-the-informations-of-business-card/</guid>
+      <description>个人信息 姓名 部门 职务 邮箱 手机 公司信息 公司名称 logo 公司网址 总机 传真 办公地址 企业口号 微信 微博</description>
+    </item>
+  </channel>
 </rss>

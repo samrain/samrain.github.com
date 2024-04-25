@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 信息,难以抗拒</title>
-        <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E9%9A%BE%E4%BB%A5%E6%8A%97%E6%8B%92/</link>
-        <description>Recent content - sam的小窝 - 信息,难以抗拒</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 20 Jul 2021 17:32:54 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E9%9A%BE%E4%BB%A5%E6%8A%97%E6%8B%92/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>信息,难以抗拒 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E9%9A%BE%E4%BB%A5%E6%8A%97%E6%8B%92/</link>
+    <description>Recent content in 信息,难以抗拒 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Jul 2021 17:32:54 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E9%9A%BE%E4%BB%A5%E6%8A%97%E6%8B%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>难以抗拒的信息</title>
+      <link>https://www.samrainhan.com/posts/2021-07-20-irresistible-information/</link>
+      <pubDate>Tue, 20 Jul 2021 17:32:54 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-07-20-irresistible-information/</guid>
+      <description>在适当情况下，总是存在一种简单的信息包装方法，使信息变得令人难以抗拒。我们的任务就是要找到这种包装方法。 我们要像Hotmail和苹果公司那样</description>
+    </item>
+  </channel>
 </rss>

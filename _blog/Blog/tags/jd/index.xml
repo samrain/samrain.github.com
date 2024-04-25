@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - JD</title>
-        <link>https://www.samrainhan.com/tags/jd/</link>
-        <description>Recent content - sam的小窝 - JD</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 08 Feb 2023 17:32:26 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/jd/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JD on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/jd/</link>
+    <description>Recent content in JD on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Feb 2023 17:32:26 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/jd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>某些岗位JD</title>
+      <link>https://www.samrainhan.com/posts/2023-02-08-some-jd/</link>
+      <pubDate>Wed, 08 Feb 2023 17:32:26 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-02-08-some-jd/</guid>
+      <description>技术支持专家 岗位职责： 1.负责政企客户技术对接工作，处理和解决二线技术问题，能够主动推动问题直到闭环； 2.主动收集，评估并整理客户需求，能协</description>
+    </item>
+    <item>
+      <title>技术支持专家JD</title>
+      <link>https://www.samrainhan.com/posts/2022-08-07-technical-support-specialist-jd/</link>
+      <pubDate>Sun, 07 Aug 2022 12:59:33 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-07-technical-support-specialist-jd/</guid>
+      <description>技术支持专家JD 岗位职责 负责政企客户技术对接工作，处理和解决二线技术问题，能够主动推动问题直到闭环； 主动收集，评估并整理客户需求，能协助产研</description>
+    </item>
+  </channel>
 </rss>

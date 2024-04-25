@@ -2,16 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:55555/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:55555/categories/</loc>
     <lastmod>2024-04-22T22:28:40+08:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/posts/</loc>
+    <lastmod>2024-04-22T22:28:40+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55555/</loc>
     <lastmod>2024-04-22T22:28:40+08:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/tags/</loc>
@@ -199,12 +196,6 @@
   </url><url>
     <loc>http://localhost:55555/tags/%E9%A3%9F%E7%89%A9/</loc>
     <lastmod>2023-12-04T13:16:16+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/2023/11/blog-with-jupyter-notebooks/</loc>
-    <lastmod>2023-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/post/</loc>
-    <lastmod>2023-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/tags/%E5%8A%A0%E5%AF%86/</loc>
     <lastmod>2023-10-04T09:08:51+08:00</lastmod>
@@ -925,9 +916,6 @@
   </url><url>
     <loc>http://localhost:55555/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</loc>
     <lastmod>2022-10-27T09:28:32+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/posts/2022-10-12-eight-principles-of-balanced-diet/</loc>
     <lastmod>2022-10-12T14:42:14+08:00</lastmod>
@@ -2210,21 +2198,6 @@
     <loc>http://localhost:55555/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7wps%E4%BA%91%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2020-12-13T10:15:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:55555/tags/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/categories/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/2020/12/welcome-to-hugo-blox-builder-the-website-builder-for-hugo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/tags/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:55555/tags/linux%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2020-12-12T23:33:20+08:00</lastmod>
   </url><url>
@@ -2528,9 +2501,6 @@
     <loc>http://localhost:55555/posts/2019-07-23-what-is-the-netdisk/</loc>
     <lastmod>2019-07-23T17:29:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:55555/2019/07/writing-technical-content-in-markdown/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:55555/tags/%E6%96%87%E6%A1%A3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
     <lastmod>2019-07-09T15:37:45+08:00</lastmod>
   </url><url>
@@ -2648,23 +2618,8 @@
     <loc>http://localhost:55555/posts/2019-04-26-c9-move-to-aws-c9/</loc>
     <lastmod>2019-04-26T14:52:53+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55555/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:55555/posts/2019-02-16-why-build-blog-with-cloud9/</loc>
     <lastmod>2019-02-16T15:57:22+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/tags/%E8%BF%90%E5%8A%A8%E6%8B%89%E4%BC%B8/</loc>
     <lastmod>2018-09-12T21:04:04+08:00</lastmod>
@@ -3434,6 +3389,9 @@
     <loc>http://localhost:55555/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</loc>
     <lastmod>2016-05-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:55555/tags/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2016-05-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:55555/posts/2016-05-20-linux-command-line-tool/</loc>
     <lastmod>2016-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -3500,25 +3458,10 @@
     <loc>http://localhost:55555/tags/%E7%94%9F%E6%88%90html/</loc>
     <lastmod>2016-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55555/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:55555/tags/favicon/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/posts/2016-04-27-favicon-ico/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/posts/2016-04-26-install-httpload/</loc>
@@ -3727,9 +3670,6 @@
   </url><url>
     <loc>http://localhost:55555/posts/2015-10-13-the-first-day-of-the-9th-month-of-the-chinese-lunisolar-calendar/</loc>
     <lastmod>2015-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/</loc>
     <lastmod>2015-07-29T00:00:00+00:00</lastmod>
@@ -5329,9 +5269,6 @@
   </url><url>
     <loc>http://localhost:55555/posts/2013-07-31-what-is-the-value-of-doing-the-government-high-tech-project/</loc>
     <lastmod>2013-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:55555/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55555/posts/2013-05-28-strange-life/</loc>
     <lastmod>2013-05-28T00:00:00+00:00</lastmod>

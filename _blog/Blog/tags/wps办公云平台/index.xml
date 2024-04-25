@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - WPS,办公,云,平台</title>
-        <link>https://www.samrainhan.com/tags/wps%E5%8A%9E%E5%85%AC%E4%BA%91%E5%B9%B3%E5%8F%B0/</link>
-        <description>Recent content - sam的小窝 - WPS,办公,云,平台</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 21 Jan 2020 23:34:49 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/wps%E5%8A%9E%E5%85%AC%E4%BA%91%E5%B9%B3%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WPS,办公,云,平台 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/wps%E5%8A%9E%E5%85%AC%E4%BA%91%E5%B9%B3%E5%8F%B0/</link>
+    <description>Recent content in WPS,办公,云,平台 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 21 Jan 2020 23:34:49 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/wps%E5%8A%9E%E5%85%AC%E4%BA%91%E5%B9%B3%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WPS办公云平台</title>
+      <link>https://www.samrainhan.com/posts/2020-01-01-wps-office-cloud-platform/</link>
+      <pubDate>Tue, 21 Jan 2020 23:34:49 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2020-01-01-wps-office-cloud-platform/</guid>
+      <description>WPS办公云平台 重要合作伙伴 高校 金智教育 赛尔网络 大型企业 新华三 华为 目标 提供数字工作空间和智能工作助理，帮助企业实现数字化转型。 版本 个人版 提供</description>
+    </item>
+  </channel>
 </rss>

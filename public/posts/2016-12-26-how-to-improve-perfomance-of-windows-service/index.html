@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>如何提高windows程序的性能 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	
-  <meta itemprop="name" content="如何提高windows程序的性能">
-  <meta itemprop="description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此">
-  <meta itemprop="datePublished" content="2016-12-26T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2016-12-26T00:00:00+00:00">
-  <meta itemprop="wordCount" content="982">
-  <meta itemprop="keywords" content="Windows,性能"><meta property="og:url" content="http://localhost:55555/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
+	<meta name="description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:55555/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="如何提高windows程序的性能">
   <meta property="og:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此">
@@ -22,75 +17,55 @@
     <meta property="article:tag" content="性能">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="如何提高windows程序的性能">
 <meta name="twitter:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此">
-<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="http://localhost:55555/[]" />
+<script src="http://localhost:55555/js/feather.min.js"></script>
+	
+	
+        <link href="http://localhost:55555/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.css" />
-
-	<script src="http://localhost:55555/js/feather.min.js"></script>
 	
-		<script src="http://localhost:55555/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+		
 </head>
-
-
 <body>
-
-
-	
-	<div class="container wrapper">
-		<div class="header">
-	
-	<h1 class="site-title"><a href="http://localhost:55555/">sam的小窝</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"><li><a href="" title="github"><i data-feather=""></i></a></li><li><a href="" title="linkedin"><i data-feather=""></i></a></li><li><a href="" title="email"><i data-feather=""></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
-		</nav>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:55555/">sam的小窝</a>
 	</div>
-
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="http://localhost:55555/">Home</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/posts">Writings</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/tags">Tags</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/about">About</a>
-			</li>
-			
-		</ul>
+	<nav>
+		
+		<a href="http://localhost:55555/">Home</a>
+		
+		<a href="http://localhost:55555/posts">Writings</a>
+		
+		<a href="http://localhost:55555/tags">Tags</a>
+		
+		<a href="http://localhost:55555/about">About</a>
+		
+		
 	</nav>
-</div>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">如何提高windows程序的性能</h1>
+			<div class="meta">Posted on Dec 26, 2016</div>
+		</div>
+		
 
-		<div class="post">
-    <div class="post-header">
-    
-    <div class="meta">
-        <div class="date">
-            <span class="day">26</span>
-            <span class="rest">Dec 2016</span>
-        </div>
-    </div>
-    
-    <div class="matter">
-        <h1 class="title">如何提高windows程序的性能</h1>
-    </div>
-</div>
-
-
-    
-    
-    <h1 id="调整windows服务器">调整windows服务器</h1>
+		<section class="body">
+			<h1 id="调整windows服务器">调整windows服务器</h1>
 <h2 id="调整tcptimedwaitdelay">调整TcpTimedWaitDelay</h2>
 <p>描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此时间间隔通称 TIME_WAIT 状态或两倍最大段生命周期（2MSL）状态。此时间期间，重新打开到客户机和服务器的连接的成本少于建立新连接。减少此条目的值允许 TCP/IP 更快地释放已关闭的连接，为新连接提供更多资源。如果运行的应用程序需要快速释放和创建新连接，而且由于 TIME_WAIT 中存在很多连接，导致低吞吐量，则调整此参数。 如何查看或设置： 使用 regedit 命令访问 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/ Services/TCPIP/Parameters 注册表子键并创建名为 TcpTimedWaitDelay 的新 REG_DWORD 值。 将此值设置为十进制 30，其为十六进制 0x0000001e。该值将等待时间设置为 30 秒。 停止并重新启动系统。 缺省值：0xF0，它将等待时间设置为 240 秒（4 分钟）。 建议值：最小值为 0x1E，它将等待时间设置为 30 秒。</p>
 <p>打开注册表编辑器，如 Regedit.exe 或 Regedt32.exe。</p>
@@ -143,48 +118,37 @@
 &lt;/basicHttpBinding&gt;
 </code></pre>
 
-    <hr class="footer-separator" />
-<div class="tags">
-    
-    
-    <ul class="flat">
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/windows">windows</a>
-        </li>
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/%E6%80%A7%E8%83%BD">性能</a>
-        </li>
-        
-    </ul>
-    
-    
-</div>
+		</section>
 
-
-
-<div class="back">
-    <a href="http://localhost:55555/"><span aria-hidden="true">← Back</span></a>
-</div>
-
-
-<div class="back">
-    
-</div>
-
-</div>
-
-	</div>
-	
-
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div>2016 </div>
-		
-	</nav>
-</div><script>feather.replace()</script>
-	
-</body>
-
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="http://localhost:55555/tags/windows">windows</a></li>
+					
+					<li><a href="http://localhost:55555/tags/%E6%80%A7%E8%83%BD">性能</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

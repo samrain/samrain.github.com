@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Onboard Desingn</title>
-        <link>https://www.samrainhan.com/tags/onboard-desingn/</link>
-        <description>Recent content - sam的小窝 - Onboard Desingn</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 27 May 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/onboard-desingn/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onboard Desingn on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/onboard-desingn/</link>
+    <description>Recent content in Onboard Desingn on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 27 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/onboard-desingn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>onboard design做法</title>
+      <link>https://www.samrainhan.com/posts/2015-05-27-onboard-desing/</link>
+      <pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-05-27-onboard-desing/</guid>
+      <description>汇总提炼了别人的做法： 清楚需求和目标后，找一个安静的地方，给自己5-15分钟时间。 1.到打印机旁拿一摞白纸，准备好笔。 2.取3-4张，平铺在</description>
+    </item>
+  </channel>
 </rss>

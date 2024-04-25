@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Csharp</title>
-        <link>https://www.samrainhan.com/tags/csharp/</link>
-        <description>Recent content - sam的小窝 - Csharp</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 13 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Csharp on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/csharp/</link>
+    <description>Recent content in Csharp on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>会话状态Session State</title>
+      <link>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</link>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</guid>
+      <description>InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器</description>
+    </item>
+    <item>
+      <title>VisualStudio Build和Rebuild的区别</title>
+      <link>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</link>
+      <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</guid>
+      <description>Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。 Build只是针对有更改过的文件进行编译。 Clean+Bui</description>
+    </item>
+    <item>
+      <title>CodeFile和CodeBehide的区别</title>
+      <link>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</guid>
+      <description>CodeBehind 指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容</description>
+    </item>
+    <item>
+      <title>配置AssemblyInfo.cs</title>
+      <link>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</guid>
+      <description>其实等同于可以在VS上选择项目的属性，其中有个 ～{Assembly Information..}～ 按钮，单击后修改窗口上的值。 对于版本号Ass</description>
+    </item>
+    <item>
+      <title>C#编译小贴士</title>
+      <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
+      <description>不想看到pdb文件 在编译时设置高级选项中 Output - Debug info 为 None Any CPU是什么意思 Visual Studio的编译选项 build下的platform有X64、Any</description>
+    </item>
+    <item>
+      <title>Nlog心得</title>
+      <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
+      <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
+    </item>
+    <item>
+      <title>wsdl帮助</title>
+      <link>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</guid>
+      <description>wsdl.exe 使用 ASP.NET，根据 WSDL 协定文件、XSD 架构和 .discomap 发现文档，为 Xml Web Services 客户端和 Xml Web Services 生成代码的实用工具。此工具可以与 disco.exe 一起使用。 参数 wsdl.exe &amp;lt</description>
+    </item>
+  </channel>
 </rss>

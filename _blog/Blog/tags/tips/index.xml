@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Tips</title>
-        <link>https://www.samrainhan.com/tags/tips/</link>
-        <description>Recent content - sam的小窝 - Tips</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 27 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/tips/</link>
+    <description>Recent content in Tips on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 27 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些摘录</title>
+      <link>https://www.samrainhan.com/posts/2016-07-27-some-excerpts/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-27-some-excerpts/</guid>
+      <description>把宝押在人身上而不是想法上 最有效地缩短生产周期的方法就是压缩在制品数量。 我们应该去理解为什么他们会提出这样的需求，而不是着急着去寻找解决方案</description>
+    </item>
+    <item>
+      <title>GOOGLE搜索从入门到精通</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-03-11-google-search-tips/</guid>
+      <description>思维导图文件下载 在线介绍 一般使用 包含：空格 不包含：减号- 或者:大写OR 用句子做关键字，必须加英文双引号&amp;quot; 强制搜索在文字前添加加号+</description>
+    </item>
+  </channel>
 </rss>

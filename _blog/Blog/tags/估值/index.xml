@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 估值</title>
-        <link>https://www.samrainhan.com/tags/%E4%BC%B0%E5%80%BC/</link>
-        <description>Recent content - sam的小窝 - 估值</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 03 Mar 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BC%B0%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>估值 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BC%B0%E5%80%BC/</link>
+    <description>Recent content in 估值 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BC%B0%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公司估值</title>
+      <link>https://www.samrainhan.com/posts/2015-03-03-company-valuations/</link>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-03-company-valuations/</guid>
+      <description>##三个角度：收益+同类公司+资产 ##投资比例不超过50% ##主要考虑2个因素：融资规模+出让股权比例 ##净资产=未来的现金收入用一个贴现率</description>
+    </item>
+  </channel>
 </rss>

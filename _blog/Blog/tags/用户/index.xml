@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 用户</title>
-        <link>https://www.samrainhan.com/tags/%E7%94%A8%E6%88%B7/</link>
-        <description>Recent content - sam的小窝 - 用户</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 15 Nov 2022 15:52:43 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%94%A8%E6%88%B7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>用户 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%94%A8%E6%88%B7/</link>
+    <description>Recent content in 用户 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Nov 2022 15:52:43 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%94%A8%E6%88%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公私网产品目标用户建议</title>
+      <link>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</link>
+      <pubDate>Tue, 15 Nov 2022 15:52:43 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-11-15-suggestions-for-target-users-of-public-and-private-network-products/</guid>
+      <description>一、公网SAAS产品目标用户建议 人数超过300人 年营收超过1亿 购买公网SAAS产品年付费超过6万 二、私有化产品目标用户建议 人数超过1500人</description>
+    </item>
+  </channel>
 </rss>

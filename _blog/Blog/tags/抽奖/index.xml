@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 抽奖</title>
-        <link>https://www.samrainhan.com/tags/%E6%8A%BD%E5%A5%96/</link>
-        <description>Recent content - sam的小窝 - 抽奖</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 15 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%8A%BD%E5%A5%96/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>抽奖 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8A%BD%E5%A5%96/</link>
+    <description>Recent content in 抽奖 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%8A%BD%E5%A5%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微信抽奖需求</title>
+      <link>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/</guid>
+      <description>抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景</description>
+    </item>
+  </channel>
 </rss>

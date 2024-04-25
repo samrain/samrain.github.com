@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Sans</title>
-        <link>https://www.samrainhan.com/tags/sans/</link>
-        <description>Recent content - sam的小窝 - Sans</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 18 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/sans/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sans on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/sans/</link>
+    <description>Recent content in Sans on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/sans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>serif和sans serif的区别</title>
+      <link>https://www.samrainhan.com/posts/2015-02-18-difference-of-serif-and-sans-serif/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-18-difference-of-serif-and-sans-serif/</guid>
+      <description>Serif有衬字体和Sans Serif无衬字体（通常简写为Sans）是字体的两大种类。 区别 |对比项|Serif|Sans| |-| |笔划开始/结束</description>
+    </item>
+    <item>
+      <title>思源黑体</title>
+      <link>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</guid>
+      <description>Why 由google和adobe联手发起的消灭豆腐字(NoTo) 工程 下载 官网下载 我的百度云盘 安装 1.下载zip文件 2.解压zip文件 linux下</description>
+    </item>
+  </channel>
 </rss>

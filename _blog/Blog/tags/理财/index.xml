@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 理财</title>
-        <link>https://www.samrainhan.com/tags/%E7%90%86%E8%B4%A2/</link>
-        <description>Recent content - sam的小窝 - 理财</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 28 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%90%86%E8%B4%A2/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>理财 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%90%86%E8%B4%A2/</link>
+    <description>Recent content in 理财 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 28 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%90%86%E8%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理财建议</title>
+      <link>https://www.samrainhan.com/posts/2016-06-28-financial-advice/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-28-financial-advice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>票据理财建议</title>
+      <link>https://www.samrainhan.com/posts/2016-06-18-paper-financial-advice/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-18-paper-financial-advice/</guid>
+      <description>投资者来选择票据理财时，最好选择那些一手票据的产品，那些经过一道以上抵押的（也就是背书），出现假票的几率比较高。 其次，最好选择由上市银行负责</description>
+    </item>
+  </channel>
 </rss>

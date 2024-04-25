@@ -1,90 +1,71 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>NET性能优化注意事项 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="NET性能优化注意事项">
+  <meta property="og:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-05-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2015-05-12T00:00:00+00:00">
+    <meta property="article:tag" content="Net">
+    <meta property="article:tag" content="性能优化">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="NET性能优化注意事项">
+<meta name="twitter:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">NET性能优化注意事项</h1>
+			<div class="meta">Posted on May 12, 2015</div>
+		</div>
+		
 
-
-    
-
-<title>NET性能优化注意事项 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="NET性能优化注意事项 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/">
-
-
-
-
-
-
-
-<meta property="og:title" content="NET性能优化注意事项 · sam的小窝">
-<meta property="og:description" content="避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                NET性能优化注意事项
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <h2 id="避免使用arraylist">避免使用ArrayList。</h2>
+		<section class="body">
+			<h2 id="避免使用arraylist">避免使用ArrayList。</h2>
 <p>因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要拆箱回实际的类型。建议使用自定义的集合类型代替ArrayList。.net 2.0提供了一个新的类型，叫泛型，这是一个强类型，使用泛型集合就可以避免了封箱和拆箱的发生，提高了性能。</p>
 <h2 id="使用hashtale代替其他字典集合类型">使用HashTale代替其他字典集合类型</h2>
 <p>存放少量数据的时候可以使用HashTable.（如StringDictionary,NameValueCollection,HybridCollection），</p>
@@ -196,35 +177,42 @@ for(int i=0; i&lt;10; i++)
 </code></pre><h2 id="避免使用递归调用和嵌套循环使用他们会严重影响性能在不得不用的时候才使用">避免使用递归调用和嵌套循环，使用他们会严重影响性能，在不得不用的时候才使用。</h2>
 <h2 id="使用适当的caching策略来提高性能">使用适当的Caching策略来提高性能</h2>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">May 2015</div>
-    
-
-
-    
-    
-
-    
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/net">NET</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96">性能优化</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

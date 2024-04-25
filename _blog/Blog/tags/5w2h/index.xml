@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 5W2H</title>
-        <link>https://www.samrainhan.com/tags/5w2h/</link>
-        <description>Recent content - sam的小窝 - 5W2H</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 25 Feb 2010 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/5w2h/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5W2H on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/5w2h/</link>
+    <description>Recent content in 5W2H on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/5w2h/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5W2H分析法</title>
+      <link>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-02-25-5w2h-analysis/</guid>
+      <description>出自MBA智库百科 5W2H分析法又称七何分析法 5W2H法是第二世界大战中美国陆军兵器修理部首创。简单. 方便，易于理解. 使用，富有启发意义，广</description>
+    </item>
+  </channel>
 </rss>

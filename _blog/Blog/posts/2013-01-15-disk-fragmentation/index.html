@@ -1,90 +1,73 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>解密磁盘碎片 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="解密磁盘碎片">
+  <meta property="og:description" content="思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-01-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2013-01-15T00:00:00+00:00">
+    <meta property="article:tag" content="Fragmentation">
+    <meta property="article:tag" content="Disk">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="磁盘碎片">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="解密磁盘碎片">
+<meta name="twitter:description" content="思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">解密磁盘碎片</h1>
+			<div class="meta">Posted on Jan 15, 2013</div>
+		</div>
+		
 
-
-    
-
-<title>解密磁盘碎片 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="解密磁盘碎片 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">
-
-
-
-
-
-
-
-<meta property="og:title" content="解密磁盘碎片 · sam的小窝">
-<meta property="og:description" content="思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                解密磁盘碎片
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIbTZEU2dMQkJ0MjA/edit">思维导图文件下载</a></p>
+		<section class="body">
+			<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIbTZEU2dMQkJ0MjA/edit">思维导图文件下载</a></p>
 <h2 id="why">WHY</h2>
 <h3 id="磁盘驱动器上有很多扇区每个扇区都能存放一小段数据-文件特别是大文件的存储需要占用很多不同的扇区-假设现在你有很多个文件存在的文件系统里-每个文件都会被存储在一系列连续的扇区里-后来你更新了其中的一个文件它的体积变大了-文件系统会尝试把文件新增的部分存放到紧邻原始文件的扇区里-可不幸的是它周边已经没连续的足够扇区空间了文件需要被分割成数段这些都在自动进行的-当从磁盘上读取这个文件时磁盘磁头需要跨越数个不同的物理位置来读取各个扇区">磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件存在的文件系统里， 每个文件都会被存储在一系列连续的扇区里。 后来你更新了其中的一个文件，它的体积变大了。 文件系统会尝试把文件新增的部分存放到紧邻原始文件的扇区里。 可不幸的是，它周边已经没连续的足够扇区空间了，文件需要被分割成数段——这些都在自动进行的。 当从磁盘上读取这个文件时，磁盘磁头需要跨越数个不同的物理位置来读取各个扇区</h3>
 <h2 id="what">WHAT</h2>
@@ -124,44 +107,46 @@
 <li>如果你真想整理一个文件系统， 这最简单的方式也许是最可靠的方式： 把文件从这个分区里考出，删除这些文件， 然后考回这些文件。 当你把文件考回硬盘时，文件系统会智能为文件分配存储空间。</li>
 </ul>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">Jan 2013</div>
-    
-
-
-    
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
-            
-            <li><a href="/posts/2010-03-24-what-the-epoll/">What&#39;s the EPOLL(转)</a></li>
-            
-        </ul>
-    </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/fragmentation">fragmentation</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/disk">disk</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/linux">linux</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/%E7%A3%81%E7%9B%98%E7%A2%8E%E7%89%87">磁盘碎片</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

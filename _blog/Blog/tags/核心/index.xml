@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 核心</title>
-        <link>https://www.samrainhan.com/tags/%E6%A0%B8%E5%BF%83/</link>
-        <description>Recent content - sam的小窝 - 核心</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 07 Aug 2023 07:57:41 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%A0%B8%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>核心 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%A0%B8%E5%BF%83/</link>
+    <description>Recent content in 核心 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Aug 2023 07:57:41 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%A0%B8%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>核心训练-2023年版</title>
+      <link>https://www.samrainhan.com/posts/2023-08-07-core-training-2023-edition/</link>
+      <pubDate>Mon, 07 Aug 2023 07:57:41 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-07-core-training-2023-edition/</guid>
+      <description>1. 下腹卷腹上刺 面朝上仰卧，双脚摆动到最高点，用力向上顶，屁股离地2秒。 一组10次，做完休息10秒，然后做下一组，直到做不动换下一个动作。 2. 坐</description>
+    </item>
+  </channel>
 </rss>

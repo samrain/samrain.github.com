@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - SFTP</title>
-        <link>https://www.samrainhan.com/tags/sftp/</link>
-        <description>Recent content - sam的小窝 - SFTP</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 21 May 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/sftp/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SFTP on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/sftp/</link>
+    <description>Recent content in SFTP on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 21 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/sftp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows上免费开源的SFTP服务器</title>
+      <link>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</guid>
+      <description>http://www.freesshd.com/</description>
+    </item>
+  </channel>
 </rss>

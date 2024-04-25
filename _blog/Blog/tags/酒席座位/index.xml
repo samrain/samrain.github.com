@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 酒席,座位</title>
-        <link>https://www.samrainhan.com/tags/%E9%85%92%E5%B8%AD%E5%BA%A7%E4%BD%8D/</link>
-        <description>Recent content - sam的小窝 - 酒席,座位</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 09 Aug 2020 11:44:42 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%85%92%E5%B8%AD%E5%BA%A7%E4%BD%8D/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>酒席,座位 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%85%92%E5%B8%AD%E5%BA%A7%E4%BD%8D/</link>
+    <description>Recent content in 酒席,座位 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 09 Aug 2020 11:44:42 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%85%92%E5%B8%AD%E5%BA%A7%E4%BD%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎么安排酒席上的座位</title>
+      <link>https://www.samrainhan.com/posts/2020-08-09-how-to-arrange-the-seats-at-the-banquet/</link>
+      <pubDate>Sun, 09 Aug 2020 11:44:42 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2020-08-09-how-to-arrange-the-seats-at-the-banquet/</guid>
+      <description>怎么安排酒席上的座位 离开正门最远的是主桌，距离主桌近的尊贵。 每桌主位是以面对正门的位置为准，其他座位以右为尊，以左为卑。 多桌需要在每张桌子上</description>
+    </item>
+  </channel>
 </rss>

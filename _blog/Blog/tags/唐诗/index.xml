@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 唐诗</title>
-        <link>https://www.samrainhan.com/tags/%E5%94%90%E8%AF%97/</link>
-        <description>Recent content - sam的小窝 - 唐诗</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 15 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%94%90%E8%AF%97/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>唐诗 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%94%90%E8%AF%97/</link>
+    <description>Recent content in 唐诗 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%94%90%E8%AF%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>36首诗词</title>
+      <link>https://www.samrainhan.com/posts/2015-06-15-36-poems/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-15-36-poems/</guid>
+      <description>## 01.《将进酒》·李白 君不见黄河之水天上来，奔流到海不复回。 君不见高堂明镜悲白发，朝如青丝暮成雪。 人生得意须尽欢，莫使金樽空对月。 天生我材</description>
+    </item>
+  </channel>
 </rss>

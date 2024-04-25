@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 信息侦察</title>
-        <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E4%BE%A6%E5%AF%9F/</link>
-        <description>Recent content - sam的小窝 - 信息侦察</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 05 Sep 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E4%BE%A6%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>信息侦察 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E4%BE%A6%E5%AF%9F/</link>
+    <description>Recent content in 信息侦察 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E4%BE%A6%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信息侦察</title>
+      <link>https://www.samrainhan.com/posts/2014-09-05-information-reconnaissance/</link>
+      <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-09-05-information-reconnaissance/</guid>
+      <description>##目的 判断个人从事什么职业,有多少钱,爱好什么,肯为什么付钱 判断公司的规模,经营方向,和诚信 ##个人 姓名 手机 邮箱 QQ号 住址 微信 个人网站 生日</description>
+    </item>
+  </channel>
 </rss>

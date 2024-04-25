@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 强制结束</title>
-        <link>https://www.samrainhan.com/tags/%E5%BC%BA%E5%88%B6%E7%BB%93%E6%9D%9F/</link>
-        <description>Recent content - sam的小窝 - 强制结束</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 30 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%BC%BA%E5%88%B6%E7%BB%93%E6%9D%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>强制结束 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%BC%BA%E5%88%B6%E7%BB%93%E6%9D%9F/</link>
+    <description>Recent content in 强制结束 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%BC%BA%E5%88%B6%E7%BB%93%E6%9D%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用命令强制结束Windows进程</title>
+      <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
+      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
+    </item>
+  </channel>
 </rss>

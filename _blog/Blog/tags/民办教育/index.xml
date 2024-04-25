@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 民办教育</title>
-        <link>https://www.samrainhan.com/tags/%E6%B0%91%E5%8A%9E%E6%95%99%E8%82%B2/</link>
-        <description>Recent content - sam的小窝 - 民办教育</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Aug 2023 08:24:09 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%B0%91%E5%8A%9E%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>民办教育 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%B0%91%E5%8A%9E%E6%95%99%E8%82%B2/</link>
+    <description>Recent content in 民办教育 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Aug 2023 08:24:09 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%B0%91%E5%8A%9E%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>民办教育目标客户</title>
+      <link>https://www.samrainhan.com/posts/2023-08-31-private-education-target-customers/</link>
+      <pubDate>Thu, 31 Aug 2023 08:24:09 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-31-private-education-target-customers/</guid>
+      <description>中公教育 新东方 希望教育 天立教育 科德教育 紫光学大 好未来 中国东方教育 中教控股 宇华教育 华夏视听教育 中国科培 中汇集团 睿见教育 枫叶教育</description>
+    </item>
+  </channel>
 </rss>

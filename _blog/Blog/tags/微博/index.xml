@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 微博</title>
-        <link>https://www.samrainhan.com/tags/%E5%BE%AE%E5%8D%9A/</link>
-        <description>Recent content - sam的小窝 - 微博</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%BE%AE%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微博 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%BE%AE%E5%8D%9A/</link>
+    <description>Recent content in 微博 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%BE%AE%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微博代运营的KPI指标</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-weibo-kpi/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-weibo-kpi/</guid>
+      <description>增加粉丝数量，其中活跃粉丝X%以上 活动参与者XXX人，转发及评论量平均每话题XXX人以上 日常论题 X条/日 互动回复 X条/日 微博活动 X活动/月 页</description>
+    </item>
+  </channel>
 </rss>

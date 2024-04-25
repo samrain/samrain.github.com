@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 学习</title>
-        <link>https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0/</link>
-        <description>Recent content - sam的小窝 - 学习</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 26 May 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 学习 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 26 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>团队自我学习的简单招数</title>
+      <link>https://www.samrainhan.com/posts/2016-05-26-team-learning-simple-tips/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-26-team-learning-simple-tips/</guid>
+      <description>在墙壁上贴上不同的标语，每个标语是一个不同的主题。 让团队成员选择：懂的站左边，不懂的站右边。 然后不懂的人从懂的组中选择一人结成搭档共同学习这</description>
+    </item>
+    <item>
+      <title>如何自动化记录每天的工作、学习和生活</title>
+      <link>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</link>
+      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</guid>
+      <description>##各种记录/渠道： evernote 在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google</description>
+    </item>
+    <item>
+      <title>学习重要，还是经营人脉重要？</title>
+      <link>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</guid>
+      <description>#(转)李笑來老師的文章 有一次在北大讲座，遇到一位学生问我，“老师，你说学习重要，还是经营人脉重要？”看着他一脸大杂烩的表情，我先拿出本子记</description>
+    </item>
+  </channel>
 </rss>

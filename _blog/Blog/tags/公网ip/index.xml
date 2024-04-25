@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 公网IP</title>
-        <link>https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/</link>
-        <description>Recent content - sam的小窝 - 公网IP</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 05 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公网IP on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/</link>
+    <description>Recent content in 公网IP on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>得到当前电脑的公网IP</title>
+      <link>https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</guid>
+      <description>http://www.whatismyip.com/</description>
+    </item>
+  </channel>
 </rss>

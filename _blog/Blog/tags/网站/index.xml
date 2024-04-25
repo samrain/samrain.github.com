@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 网站</title>
-        <link>https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99/</link>
-        <description>Recent content - sam的小窝 - 网站</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 04 Jun 2018 14:27:55 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网站 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99/</link>
+    <description>Recent content in 网站 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Jun 2018 14:27:55 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Design the Product Site</title>
+      <link>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</link>
+      <pubDate>Mon, 04 Jun 2018 14:27:55 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-04-how-to-design-the-product-site/</guid>
+      <description>左上角为banner 右上角为全文搜索 右下是详细内容 左下为菜单 下载 安装 新手上路 概览 组件 所有API的目录，包括接口、文档、示例、度量、所有者、反</description>
+    </item>
+    <item>
+      <title>How to Publish My Blog</title>
+      <link>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
+      <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
+      <description>博客流水线</description>
+    </item>
+    <item>
+      <title>优化Web网站性能</title>
+      <link>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</guid>
+      <description>静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量</description>
+    </item>
+    <item>
+      <title>牛B个人网站</title>
+      <link>https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/</guid>
+      <description>程序员 http://www.clarkduvall.com/</description>
+    </item>
+    <item>
+      <title>站点发布时序图</title>
+      <link>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-01-29-sequence-diagram-for-distribute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>向日葵产品分析</title>
+      <link>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</link>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</guid>
+      <description>#定价 4680元/年 #产品介绍 1个个人网站 公司介绍 产品资料 个人信息 10个承诺转介绍客户 1个手机网站 网络名片 随时随地向客户展示专业代理人身份信</description>
+    </item>
+    <item>
+      <title>最新网站案例By泉盛</title>
+      <link>https://www.samrainhan.com/posts/2014-05-10-the-newest-cases-of-coprize-com/</link>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-10-the-newest-cases-of-coprize-com/</guid>
+      <description>禧福集团 颢辉贸易 申蓝广告 上海创意产业集聚区资源共享公共服务平台 鑫众传媒 南方周末-创新之声 南方周末-方太青竹简 南方周末-健康饮酒中国行 郑明明集</description>
+    </item>
+    <item>
+      <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>
+      <link>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-01-18-chrome-developer-tools-simulate-various-browsers-display-on-a-variety-of-handheld-terminals/</guid>
+      <description>如果想要在 Chrome 上测试网站在不同设备，不同分辨率的显示情况，那么就试试 Chrome 开发工具的设备模拟器吧。进入到开发者工具（快捷键 F12），应该是在右下侧</description>
+    </item>
+  </channel>
 </rss>

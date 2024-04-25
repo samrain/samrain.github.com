@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 居家</title>
-        <link>https://www.samrainhan.com/tags/%E5%B1%85%E5%AE%B6/</link>
-        <description>Recent content - sam的小窝 - 居家</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 02 Jan 2023 16:29:29 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%B1%85%E5%AE%B6/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>居家 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B1%85%E5%AE%B6/</link>
+    <description>Recent content in 居家 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 02 Jan 2023 16:29:29 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%B1%85%E5%AE%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十分钟居家全身训练（不需要器械！）</title>
+      <link>https://www.samrainhan.com/posts/2023-01-02-10-minute-full-body-workout-at-home-no-equipment-required/</link>
+      <pubDate>Mon, 02 Jan 2023 16:29:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-02-10-minute-full-body-workout-at-home-no-equipment-required/</guid>
+      <description>一共包含了10个动作，每个动作的分配时间是30秒，总共加起来就是5分钟的时间。对于新手来说，每个动作的30秒，你做15秒钟，然后休息15秒；</description>
+    </item>
+  </channel>
 </rss>

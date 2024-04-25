@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 制度变革</title>
-        <link>https://www.samrainhan.com/tags/%E5%88%B6%E5%BA%A6%E5%8F%98%E9%9D%A9/</link>
-        <description>Recent content - sam的小窝 - 制度变革</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%88%B6%E5%BA%A6%E5%8F%98%E9%9D%A9/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>制度变革 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%88%B6%E5%BA%A6%E5%8F%98%E9%9D%A9/</link>
+    <description>Recent content in 制度变革 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%88%B6%E5%BA%A6%E5%8F%98%E9%9D%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>制度变更流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-institutional-change-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-institutional-change-process/</guid>
+      <description>随着使用的深入和公司的发展，业务流程和制度也会更新。需要有相应的制度变更流程 第一步，由制度修改人提交变更申请及变更草案到制度审核委员会邮箱 第</description>
+    </item>
+  </channel>
 </rss>

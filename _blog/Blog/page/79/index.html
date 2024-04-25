@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>sam的小窝 | Home </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="学习 &amp; 生活" />
+	<meta property="og:image" content=""/>
+	<link rel="alternate" type="application/rss+xml" href="https://www.samrainhan.com/index.xml" title="sam的小窝" />
+	<meta property="og:url" content="https://www.samrainhan.com/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="sam的小窝">
+  <meta property="og:description" content="学习 &amp; 生活">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="sam的小窝">
+<meta name="twitter:description" content="学习 &amp; 生活">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+		
+</head>
+
+	<body>
+		<div class="content">
+			<header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
+
+			
+			<main class="list">
+				<div class="site-description"></div>
+				
+				
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-02-16-why-build-blog-with-cloud9/">2019 02 16 Why Build Blog With Cloud9</a></h1>
+					<time>Feb 16, 2019</time>
+					<br><div class="description">
+	
+	hello world&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2019-02-16-why-build-blog-with-cloud9/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/">运动拉伸最佳实践</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	1.热身运动 1.1低强度训练5～10分钟 1.2旋转关节 顺序，手指，手腕，手肘，肩部，颈部，腰（腰椎段），胯（髋关节），膝（膝关节），脚脖子（&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-sports-stretching-best-practices/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	sql脚本如下： USE [master]; GO alter database tempdb modify file (name='tempdev', size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N'tempdev2', FILENAME = N'E:\SQLDATA\tempdev2.ndf' , SIZE = 8GB , FILEGROWTH = 0); GO&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = 'USER_TABLE' AND i.type_desc = 'HEAP' ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/">Read more ⟶</a>
+				</section>
+				
+				
+
+<ul class="pagination">
+	<span class="page-item page-prev">
+	
+    <a href="https://www.samrainhan.com/page/78/" class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev</span></a>
+	
+	</span>
+	<span class="page-item page-next">
+	
+    <a href="https://www.samrainhan.com/page/80/" class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
+	
+	</span>
+</ul>
+
+
+			</main>
+			<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+  
+
+
+<script>
+  feather.replace()
+</script>
+		</div>
+		
+	</body>
+</html>

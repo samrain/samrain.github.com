@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 可见性</title>
-        <link>https://www.samrainhan.com/tags/%E5%8F%AF%E8%A7%81%E6%80%A7/</link>
-        <description>Recent content - sam的小窝 - 可见性</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 26 Jun 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%8F%AF%E8%A7%81%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>可见性 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%8F%AF%E8%A7%81%E6%80%A7/</link>
+    <description>Recent content in 可见性 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 26 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8F%AF%E8%A7%81%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>优化可见性</title>
+      <link>https://www.samrainhan.com/posts/2014-06-26-optimize-visibility/</link>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-26-optimize-visibility/</guid>
+      <description>当前，搜索引擎已经成为互联网的主要应用之一。2011年美国皮尤调查（Pew）发布的调查统计结果显示，92%的成年互联网用户会使用搜索引擎在互</description>
+    </item>
+  </channel>
 </rss>

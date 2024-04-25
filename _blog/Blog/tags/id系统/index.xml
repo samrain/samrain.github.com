@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - ID,系统</title>
-        <link>https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/</link>
-        <description>Recent content - sam的小窝 - ID,系统</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 12 Sep 2018 10:05:42 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ID,系统 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in ID,系统 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 10:05:42 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/id%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎样生成唯一ID</title>
+      <link>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</link>
+      <pubDate>Wed, 12 Sep 2018 10:05:42 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</guid>
+      <description>1. 数据库自增长序列或字段 最常见的方式。利用数据库，全数据库唯一。 优点： 简单，代码方便，性能可以接受。 数字ID天然排序，对分页或者需要排序的结</description>
+    </item>
+  </channel>
 </rss>

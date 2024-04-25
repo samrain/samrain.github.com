@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 共和国教科书</title>
-        <link>https://www.samrainhan.com/tags/%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E7%A7%91%E4%B9%A6/</link>
-        <description>Recent content - sam的小窝 - 共和国教科书</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 09 Jul 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E7%A7%91%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>共和国教科书 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E7%A7%91%E4%B9%A6/</link>
+    <description>Recent content in 共和国教科书 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E7%A7%91%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读《新国文教授法》序有感及摘录</title>
+      <link>https://www.samrainhan.com/posts/2015-07-09-thoughts-of-reading-the-new-chinese-literature/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-07-09-thoughts-of-reading-the-new-chinese-literature/</guid>
+      <description>人 人不读书，何以成人 承载着新思想新学说的书本，只有成为海量读物或被海量传阅之后，其巨大的影响力才能迸发出。 有限的启蒙-&amp;gt;开官智 普遍的启</description>
+    </item>
+  </channel>
 </rss>

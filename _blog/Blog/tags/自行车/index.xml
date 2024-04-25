@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 自行车</title>
-        <link>https://www.samrainhan.com/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/</link>
-        <description>Recent content - sam的小窝 - 自行车</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 27 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自行车 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/</link>
+    <description>Recent content in 自行车 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 27 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自行车气嘴</title>
+      <link>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-27-bike-valve/</guid>
+      <description>法嘴 Presta Valve，公路车内胎或者管胎 优点：放气、微调气压较方便，也容易把气完全放掉。 缺点：需要特殊气针。 打气方式 将红色箭头处逆时针松开后，用</description>
+    </item>
+    <item>
+      <title>怎样从美嘴转法嘴</title>
+      <link>https://www.samrainhan.com/posts/2015-03-06-transfor-schrader-value-to-presta-value/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-06-transfor-schrader-value-to-presta-value/</guid>
+      <description>##保证一个原则： 密封套必须是靠外 小弹簧必须在最里面 美嘴用的密封套是大口，法嘴用的是小口</description>
+    </item>
+    <item>
+      <title>上海浦江两岸骑行一日行程</title>
+      <link>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</guid>
+      <description>大华三路真华路 南 交通路真华路 东 交通路中兴路 东 上海火车站北广场 被阻隔在里面绕了一圈重新回到中兴路 东 中兴路长兴路 南 长兴路永兴路 东 永兴路西藏北路 南</description>
+    </item>
+  </channel>
 </rss>

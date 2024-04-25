@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 日志</title>
-        <link>https://www.samrainhan.com/tags/%E6%97%A5%E5%BF%97/</link>
-        <description>Recent content - sam的小窝 - 日志</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 26 Dec 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日志 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%97%A5%E5%BF%97/</link>
+    <description>Recent content in 日志 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开启AD FS 2.0 的审计日志</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</guid>
+      <description>why 防止人为或者自动方式恶意登录其他人账号或暴力破解密码。 how 当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库</description>
+    </item>
+    <item>
+      <title>清理sqlserver数据库日志</title>
+      <link>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/</guid>
+      <description>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH</description>
+    </item>
+    <item>
+      <title>如何记录日志</title>
+      <link>https://www.samrainhan.com/posts/2016-03-22-how-to-log/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-03-22-how-to-log/</guid>
+      <description>日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即</description>
+    </item>
+  </channel>
 </rss>

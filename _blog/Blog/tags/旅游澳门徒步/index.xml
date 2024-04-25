@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 旅游,澳门,徒步</title>
-        <link>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E6%BE%B3%E9%97%A8%E5%BE%92%E6%AD%A5/</link>
-        <description>Recent content - sam的小窝 - 旅游,澳门,徒步</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 11 Jun 2019 00:23:59 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E6%BE%B3%E9%97%A8%E5%BE%92%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>旅游,澳门,徒步 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E6%BE%B3%E9%97%A8%E5%BE%92%E6%AD%A5/</link>
+    <description>Recent content in 旅游,澳门,徒步 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:23:59 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%97%85%E6%B8%B8%E6%BE%B3%E9%97%A8%E5%BE%92%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>澳门游路线</title>
+      <link>https://www.samrainhan.com/posts/2019-06-11-macau-tour-route/</link>
+      <pubDate>Tue, 11 Jun 2019 00:23:59 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-06-11-macau-tour-route/</guid>
+      <description>拱北过关》赌场班车去银河》shopping》赌场班车》新葡京》西望洋花园》妈阁庙》郑家大屋》下环街市》圣老楞佐教堂》岗顶前地》河东图书馆》议</description>
+    </item>
+  </channel>
 </rss>

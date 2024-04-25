@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 云</title>
-        <link>https://www.samrainhan.com/tags/%E4%BA%91/</link>
-        <description>Recent content - sam的小窝 - 云</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 01 Apr 2010 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>云 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BA%91/</link>
+    <description>Recent content in 云 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 01 Apr 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s the Cloud(转)</title>
+      <link>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-04-01-what-the-cloud/</guid>
+      <description>云计算擅长做什么呢？以下场景都是不错的利好方案： 没有基础技术设施而又需要可伸缩性的创业公司。 地理数据，政务信息之类的数据中心。 桌面办公（邮件</description>
+    </item>
+  </channel>
 </rss>

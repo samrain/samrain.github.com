@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 排便</title>
-        <link>https://www.samrainhan.com/tags/%E6%8E%92%E4%BE%BF/</link>
-        <description>Recent content - sam的小窝 - 排便</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 17 Aug 2023 10:22:08 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%8E%92%E4%BE%BF/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>排便 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8E%92%E4%BE%BF/</link>
+    <description>Recent content in 排便 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 17 Aug 2023 10:22:08 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%8E%92%E4%BE%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>助便食品</title>
+      <link>https://www.samrainhan.com/posts/2023-08-17-bowel-aid-food/</link>
+      <pubDate>Thu, 17 Aug 2023 10:22:08 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-17-bowel-aid-food/</guid>
+      <description>有效 西梅干 猕猴桃 火龙果 麦麸 潜力 梨 魔芋 奇亚籽 有点 咖啡 茶 大量水 冷藏</description>
+    </item>
+  </channel>
 </rss>

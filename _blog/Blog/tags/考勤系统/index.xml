@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 考勤系统</title>
-        <link>https://www.samrainhan.com/tags/%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F/</link>
-        <description>Recent content - sam的小窝 - 考勤系统</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 23 Dec 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>考勤系统 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 考勤系统 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>考勤系统建议</title>
+      <link>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</link>
+      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</guid>
+      <description>why 面临如下问题： 复杂的网络环境下联网 考勤点分散,全国甚至世界范围内 人员指纹数据自动备份 考勤机容量有限，人数多无法直接使用 人员调动时不需要重新</description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 信息化,政府,政务,数字转型</title>
-        <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E5%8C%96%E6%94%BF%E5%BA%9C%E6%94%BF%E5%8A%A1%E6%95%B0%E5%AD%97%E8%BD%AC%E5%9E%8B/</link>
-        <description>Recent content - sam的小窝 - 信息化,政府,政务,数字转型</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 30 Jun 2019 16:30:41 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E5%8C%96%E6%94%BF%E5%BA%9C%E6%94%BF%E5%8A%A1%E6%95%B0%E5%AD%97%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>信息化,政府,政务,数字转型 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E5%8C%96%E6%94%BF%E5%BA%9C%E6%94%BF%E5%8A%A1%E6%95%B0%E5%AD%97%E8%BD%AC%E5%9E%8B/</link>
+    <description>Recent content in 信息化,政府,政务,数字转型 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 30 Jun 2019 16:30:41 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E6%81%AF%E5%8C%96%E6%94%BF%E5%BA%9C%E6%94%BF%E5%8A%A1%E6%95%B0%E5%AD%97%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>政务信息化</title>
+      <link>https://www.samrainhan.com/posts/2019-06-30-government-digital-transformation/</link>
+      <pubDate>Sun, 30 Jun 2019 16:30:41 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-06-30-government-digital-transformation/</guid>
+      <description>社会责任 不环保 计算使用WPS节省的资源 不参与慈善公益活动 向慈善公益组织捐赠WPS 不保证产品质量安全 通过各种国家和国际认证 获得多个知识产权证明</description>
+    </item>
+  </channel>
 </rss>

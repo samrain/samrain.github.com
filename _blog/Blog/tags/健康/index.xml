@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 健康</title>
-        <link>https://www.samrainhan.com/tags/%E5%81%A5%E5%BA%B7/</link>
-        <description>Recent content - sam的小窝 - 健康</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 20 Dec 2023 10:56:10 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%81%A5%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>健康 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%81%A5%E5%BA%B7/</link>
+    <description>Recent content in 健康 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Dec 2023 10:56:10 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%81%A5%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>天天健康食谱</title>
+      <link>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</link>
+      <pubDate>Wed, 20 Dec 2023 10:56:10 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</guid>
+      <description>碳水、蛋白质、脂肪供能比例 碳水占每天总能量摄入比例的 55%～65%； 蛋白质占比 15%； 脂肪占比 20～30%（其中饱和脂肪酸不超过 10%） 碳水</description>
+    </item>
+    <item>
+      <title>补充维生素D</title>
+      <link>https://www.samrainhan.com/posts/2023-09-14-vitamin-d-supplement/</link>
+      <pubDate>Thu, 14 Sep 2023 09:25:42 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-14-vitamin-d-supplement/</guid>
+      <description>每天补充剂量： 65岁之前：400IU 65岁之后：800IU</description>
+    </item>
+    <item>
+      <title>紫黑色食物</title>
+      <link>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</link>
+      <pubDate>Wed, 06 Sep 2023 23:08:02 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</guid>
+      <description>紫黑色食物往往富含花青素，花青素有着强大的抗氧化、抗炎效应。花青素是食物届的『变色龙』，不同酸碱度下可以是红、紫、蓝、绿、黄多种颜色。 水果中</description>
+    </item>
+    <item>
+      <title>常见健康食品</title>
+      <link>https://www.samrainhan.com/posts/2023-08-04-common-health-foods/</link>
+      <pubDate>Fri, 04 Aug 2023 19:50:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-04-common-health-foods/</guid>
+      <description>香蕉 糖分可以达到16%以上，吃一根基本上就能摄入30克碳水。每100克大概有380毫克钾，有助于保持细胞当中的电解质平衡，预防肌肉痉挛，对于</description>
+    </item>
+    <item>
+      <title> 摘自-明《修龄要指》</title>
+      <link>https://www.samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</link>
+      <pubDate>Mon, 04 Jun 2018 10:33:41 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-04-xiu-lin-yao-zhi/</guid>
+      <description>人的脸要常常用手摩擦，头发多加梳理以防止脱发和发白。 两眼时常转动则眼有光彩和灵活。 耳常注意倾听，日久则听觉灵敏。 齿常叩击以利固齿。口宜常闭以</description>
+    </item>
+  </channel>
 </rss>

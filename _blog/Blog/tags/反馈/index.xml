@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 反馈</title>
-        <link>https://www.samrainhan.com/tags/%E5%8F%8D%E9%A6%88/</link>
-        <description>Recent content - sam的小窝 - 反馈</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 03 May 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>反馈 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%8F%8D%E9%A6%88/</link>
+    <description>Recent content in 反馈 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>速度收集客户意见</title>
+      <link>https://www.samrainhan.com/posts/2016-05-03-collect-customer-feedback/</link>
+      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-03-collect-customer-feedback/</guid>
+      <description>在线反馈 在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。 主动给用户打回访电话 因为可以看</description>
+    </item>
+  </channel>
 </rss>

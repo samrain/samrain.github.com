@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 编程</title>
-        <link>https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B/</link>
-        <description>Recent content - sam的小窝 - 编程</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 23 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何能够更好的编程</title>
+      <link>https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/</guid>
+      <description>你使用源代码管理么？ 你能在一步之内编译程序么？ 你每天都编译代码么？ 你有bug数据库么？ 你在写新代码前会修复bug么？ 你有最新的日程安排么？ 你</description>
+    </item>
+    <item>
+      <title>优化ifelse和switch代码</title>
+      <link>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</guid>
+      <description>概率高的放前面 嵌套Switch语句 概率高的放在一个switch 表驱动 最基本的解决办法就是把多个判断条件合成一个，也就是把若干个分支合成一个。</description>
+    </item>
+  </channel>
 </rss>

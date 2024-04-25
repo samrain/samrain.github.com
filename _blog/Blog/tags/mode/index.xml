@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Mode</title>
-        <link>https://www.samrainhan.com/tags/mode/</link>
-        <description>Recent content - sam的小窝 - Mode</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 21 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/mode/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mode on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/mode/</link>
+    <description>Recent content in Mode on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 21 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/mode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs Dir mode</title>
+      <link>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/</guid>
+      <description>常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读</description>
+    </item>
+  </channel>
 </rss>

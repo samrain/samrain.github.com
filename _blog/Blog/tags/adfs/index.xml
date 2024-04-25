@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - ADFS</title>
-        <link>https://www.samrainhan.com/tags/adfs/</link>
-        <description>Recent content - sam的小窝 - ADFS</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 26 Dec 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/adfs/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ADFS on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/adfs/</link>
+    <description>Recent content in ADFS on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/adfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开启AD FS 2.0 的审计日志</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/</guid>
+      <description>why 防止人为或者自动方式恶意登录其他人账号或暴力破解密码。 how 当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库</description>
+    </item>
+    <item>
+      <title>检查ADFS服务是否有效</title>
+      <link>https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/</link>
+      <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/</guid>
+      <description>https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx</description>
+    </item>
+  </channel>
 </rss>

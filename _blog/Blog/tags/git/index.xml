@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Git</title>
-        <link>https://www.samrainhan.com/tags/git/</link>
-        <description>Recent content - sam的小窝 - Git</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 18 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/git/</link>
+    <description>Recent content in Git on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 18 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git@OSC 简单流程</title>
+      <link>https://www.samrainhan.com/posts/2015-06-18-simple-process-at-git@osc/</link>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-18-simple-process-at-git@osc/</guid>
+      <description>私有项目流程 公有项目流程</description>
+    </item>
+    <item>
+      <title>zsh是什么</title>
+      <link>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-12-who-is-zsh/</guid>
+      <description>安装 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /bin/zsh 牛B地方 ###1.万能的TAB 不仅可以自动补全命令，列出待选文件夹/文件，还能显示一些命令的待选参数。比如kill就会</description>
+    </item>
+    <item>
+      <title>在IIS6上开启gzip</title>
+      <link>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</link>
+      <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-02-enable-gzip-on-iis6/</guid>
+      <description>IIS6上默认没有开启gzip，而IIS7以上则默认开启。因为gzip的功能实在是太好用了，可以极大提高网站性能。所以接下来让我们来尝试下开</description>
+    </item>
+    <item>
+      <title>Git仓库版本控制建议结构图</title>
+      <link>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-01-repository-chart-of-git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git命令释义</title>
+      <link>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</link>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/</guid>
+      <description>思维导图文件下载 基本操作 init 初始化Git仓库 创建.git隐藏目录 add add . 添加目录和子目录下所有文件 add filename1 filename2 添加某些文件 commit commit -m 版本更新说明 提交版本，</description>
+    </item>
+    <item>
+      <title>用Freemind写博客</title>
+      <link>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</guid>
+      <description>思维导图文件下载 What mm文件变成md文件 Why 写作简单 发布简单 记忆简单 修改简单 How 用Freemind写博客，然后保存成mm文件 上传到Google Dr</description>
+    </item>
+    <item>
+      <title>通过Github建博客</title>
+      <link>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</guid>
+      <description>思维导图文件下载 登录Github 创建repo 名字必须是$username$.github.com 创建disqus帐号 Site URL = $username$.github.com shortname = $username$blogbygithub Site Name = $username$-blog-by-github Install</description>
+    </item>
+    <item>
+      <title>Github简单使用</title>
+      <link>https://www.samrainhan.com/posts/2012-11-27-simple-to-use-github/</link>
+      <pubDate>Tue, 27 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-11-27-simple-to-use-github/</guid>
+      <description>思维导图文件下载 注册Github帐号 建立第一个项目 配置本地计算机 检查现有的ssh key cd ~/.ssh 如果显示“No such file or directory”,那么请执行第</description>
+    </item>
+  </channel>
 </rss>

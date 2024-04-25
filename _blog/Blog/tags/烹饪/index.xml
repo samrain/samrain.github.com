@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 烹饪</title>
-        <link>https://www.samrainhan.com/tags/%E7%83%B9%E9%A5%AA/</link>
-        <description>Recent content - sam的小窝 - 烹饪</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 20 Dec 2023 10:56:10 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%83%B9%E9%A5%AA/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>烹饪 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%83%B9%E9%A5%AA/</link>
+    <description>Recent content in 烹饪 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Dec 2023 10:56:10 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%83%B9%E9%A5%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>天天健康食谱</title>
+      <link>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</link>
+      <pubDate>Wed, 20 Dec 2023 10:56:10 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-20-daily-healthy-recipes/</guid>
+      <description>碳水、蛋白质、脂肪供能比例 碳水占每天总能量摄入比例的 55%～65%； 蛋白质占比 15%； 脂肪占比 20～30%（其中饱和脂肪酸不超过 10%） 碳水</description>
+    </item>
+    <item>
+      <title>微波炉菜谱</title>
+      <link>https://www.samrainhan.com/posts/2023-12-18-microwave-recipes/</link>
+      <pubDate>Mon, 18 Dec 2023 11:18:38 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-18-microwave-recipes/</guid>
+      <description>杯子蒸蛋 在杯子里到一点点油，刚好够覆盖杯底就好： 打入鸡蛋，加上和鸡蛋的量差不多的牛奶 将鸡蛋和牛奶打散后，加入一点奶酪碎，这样杯子鸡蛋做出来奶</description>
+    </item>
+    <item>
+      <title>卤菜飘香</title>
+      <link>https://www.samrainhan.com/posts/2023-12-15-braised-soy-sauce/</link>
+      <pubDate>Fri, 15 Dec 2023 11:01:43 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-15-braised-soy-sauce/</guid>
+      <description>前香 这是你首次接触卤菜时所闻到的香味。前香的香料选择上，我们倾向于选择香味淡雅、不喧宾夺主的香料，如桂皮。桂皮是卤菜中常见的君料之一，桂皮回</description>
+    </item>
+    <item>
+      <title>常用香料</title>
+      <link>https://www.samrainhan.com/posts/2023-12-14-commonly-spices/</link>
+      <pubDate>Thu, 14 Dec 2023 09:34:52 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-14-commonly-spices/</guid>
+      <description>八角 味道芳香，回甜，不但可以增加香味，还能增加回味，促进食欲。以广西产八角质量相对较好。是卤菜中的绝对主料。购买时如果有明显刺鼻的气味或者酸</description>
+    </item>
+    <item>
+      <title>鸡胸肉解决方案</title>
+      <link>https://www.samrainhan.com/posts/2023-12-12-chicken-breast-solution/</link>
+      <pubDate>Tue, 12 Dec 2023 14:17:17 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-12-chicken-breast-solution/</guid>
+      <description>1. 怎么挑 冰鲜肉好于冻肉 鸡小胸好于鸡大胸 2. 怎么切 盖上保鲜膜，用刀背、擀面杖、酒瓶、调料瓶都能拍。⚠️注意不要用力过猛，容易拍烂。 比如整块鸡大胸</description>
+    </item>
+    <item>
+      <title>微波炉加热食物时间表</title>
+      <link>https://www.samrainhan.com/posts/2023-12-10-microwave-food-heating-schedule/</link>
+      <pubDate>Sun, 10 Dec 2023 21:05:07 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-10-microwave-food-heating-schedule/</guid>
+      <description>微波炉加热食物时间表（700W如下，每增加200W，缩短1～2分钟） 食材 时间 解冻 6~8分钟 牛奶 1分钟 熟米饭、馒头（先喷点水） 1~2分钟 素菜 中</description>
+    </item>
+    <item>
+      <title>煮饭</title>
+      <link>https://www.samrainhan.com/posts/2023-09-02-cook-rice/</link>
+      <pubDate>Sat, 02 Sep 2023 07:36:51 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-02-cook-rice/</guid>
+      <description>步骤 淘米 洗干净 浸泡 10分钟 加水 水面比米高出1.5到2厘米 加料 几滴食用油和白醋 焖饭 米饭熟后搅拌均匀，盖上盖子再焖5分钟 加粗粮 常见粗粮：糙米、紫</description>
+    </item>
+    <item>
+      <title>菜谱A</title>
+      <link>https://www.samrainhan.com/posts/2023-01-18-recipe-a/</link>
+      <pubDate>Wed, 18 Jan 2023 10:00:51 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-18-recipe-a/</guid>
+      <description>香菇炖鸡 干香菇泡发，切`姜片，打葱结，切玉米 鸡洗净切块，加面粉揉搓后清水洗净 热锅加油，入鸡块翻炒，加热水、香菇、姜葱、玉米，烧开后倒入砂锅，</description>
+    </item>
+  </channel>
 </rss>

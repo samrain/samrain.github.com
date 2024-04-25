@@ -1,90 +1,71 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>明文加密简易方案 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="明文加密简易方案">
+  <meta property="og:description" content="自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-10-04T09:08:51+08:00">
+    <meta property="article:modified_time" content="2023-10-04T09:08:51+08:00">
+    <meta property="article:tag" content="加密">
+    <meta property="article:tag" content="密码">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="明文加密简易方案">
+<meta name="twitter:description" content="自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">明文加密简易方案</h1>
+			<div class="meta">Posted on Oct 4, 2023</div>
+		</div>
+		
 
-
-    
-
-<title>明文加密简易方案 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="明文加密简易方案 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/">
-
-
-
-
-
-
-
-<meta property="og:title" content="明文加密简易方案 · sam的小窝">
-<meta property="og:description" content="自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                明文加密简易方案
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <ol>
+		<section class="body">
+			<ol>
 <li>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。</li>
 <li>使用这个密码用AES算法加密明文得到一串字符。</li>
 <li>把这串字符用Base64编码。</li>
@@ -92,62 +73,42 @@
 <li>加密完成。</li>
 </ol>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">Oct 2023</div>
-    
-
-
-    
-    
-         <div class="post-taxonomies"> 
-        <div class="post-taxonomy"><a href="/categories#work">work</a></div>
-         </div> 
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
-            
-            <li><a href="/posts/2016-07-10-encrypted-password/">加密密码</a></li>
-            
-            <li><a href="/posts/2022-12-27-send-and-receive-passwords-in-im/">在IM中发送和接受密码</a></li>
-            
-            <li><a href="/posts/2016-05-25-public-key-encoding/">公钥编码格式</a></li>
-            
-            <li><a href="/posts/2016-05-24-rsa-algorithm-in-net-realized/">RSA算法在.net中实现</a></li>
-            
-            <li><a href="/posts/2015-07-03-common-encryption-algorithm-by-net-implement/">常用加解密算法的.net实现</a></li>
-            
-            <li><a href="/posts/2015-06-16-introduce-of-ssl/">SSL介绍</a></li>
-            
-            <li><a href="/posts/2015-05-13-commonly-used-encryption-algorithm/">常用加解密算法</a></li>
-            
-            <li><a href="/posts/2015-02-19-ssh-the-server-without-password/">为ssh连接指定别名并记住密码</a></li>
-            
-        </ul>
-    </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86">加密</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/%E5%AF%86%E7%A0%81">密码</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

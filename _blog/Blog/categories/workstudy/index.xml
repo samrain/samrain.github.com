@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Work,study</title>
-        <link>https://www.samrainhan.com/categories/workstudy/</link>
-        <description>Recent content - sam的小窝 - Work,study</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 01 Jul 2021 11:20:58 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/categories/workstudy/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work,study on sam的小窝</title>
+    <link>https://www.samrainhan.com/categories/workstudy/</link>
+    <description>Recent content in Work,study on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 01 Jul 2021 11:20:58 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/categories/workstudy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>金句</title>
+      <link>https://www.samrainhan.com/posts/2021-07-01-golden-sentences/</link>
+      <pubDate>Thu, 01 Jul 2021 11:20:58 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-07-01-golden-sentences/</guid>
+      <description>金句 发明千千万，起点是一问。禽兽不如人，过在不会问。智者何得巧，愚者问得笨。人力胜天功，只在每事问。 中国人无疑是世界上最能隐忍的民族，不幸的</description>
+    </item>
+    <item>
+      <title>网盘的前世今生</title>
+      <link>https://www.samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</link>
+      <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

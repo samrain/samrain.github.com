@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 面试,招聘</title>
-        <link>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95%E6%8B%9B%E8%81%98/</link>
-        <description>Recent content - sam的小窝 - 面试,招聘</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 26 Jan 2021 16:46:57 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95%E6%8B%9B%E8%81%98/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>面试,招聘 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95%E6%8B%9B%E8%81%98/</link>
+    <description>Recent content in 面试,招聘 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 Jan 2021 16:46:57 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%9D%A2%E8%AF%95%E6%8B%9B%E8%81%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>四轮面试准则</title>
+      <link>https://www.samrainhan.com/posts/2021-01-26-four-round-interview-criteria/</link>
+      <pubDate>Tue, 26 Jan 2021 16:46:57 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-01-26-four-round-interview-criteria/</guid>
+      <description>四轮面试准则（转载） 面试官通过4轮面试就可以有86%的自信确认是否聘用候选人，4轮面试之后的每一轮面试仅可能提高1%的效用 1. 样例测试 预测候选</description>
+    </item>
+  </channel>
 </rss>

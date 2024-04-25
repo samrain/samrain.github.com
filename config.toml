@@ -31,7 +31,7 @@ hasCJKLanguage = true
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
 
-	enableGoogleAnalytics = false
+	enableGoogleAnalytics = true
 	googleAnalytics = "UA-37708730-1"
 
 	enableBaiduAnalytics = false

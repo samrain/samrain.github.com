@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 程序化交易</title>
-        <link>https://www.samrainhan.com/tags/%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
-        <description>Recent content - sam的小窝 - 程序化交易</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 10 May 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程序化交易 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
+    <description>Recent content in 程序化交易 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 10 May 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序化交易的另一些概念</title>
+      <link>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</link>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</guid>
+      <description>报酬比原则 宏观环境影响 月周图表的技术趋势 咬定长期趋势 短线技术趋势判断 日线图表 3日/5日等短期均线的方向和角度 关键技术位置的评判 距离止损位置的</description>
+    </item>
+    <item>
+      <title>程序化交易的一些概念</title>
+      <link>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</guid>
+      <description>#入市策略 趋势跟踪法 震荡期法 价格模式 #过滤策略 筛选出最具有交易价值的交易信号 #退出策略 目标盈利 跟踪止损 固定止损 #最后15分钟收益率，对次日股</description>
+    </item>
+  </channel>
 </rss>

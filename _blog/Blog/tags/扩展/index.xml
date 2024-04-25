@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 扩展</title>
-        <link>https://www.samrainhan.com/tags/%E6%89%A9%E5%B1%95/</link>
-        <description>Recent content - sam的小窝 - 扩展</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 26 Dec 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>扩展 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%89%A9%E5%B1%95/</link>
+    <description>Recent content in 扩展 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 26 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎样下载Chrome扩展程序</title>
+      <link>https://www.samrainhan.com/posts/2016-12-26-how-download-chrome-extension/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-12-26-how-download-chrome-extension/</guid>
+      <description>http://chrome-extension-downloader.com/</description>
+    </item>
+  </channel>
 </rss>

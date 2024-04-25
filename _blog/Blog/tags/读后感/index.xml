@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 读后感</title>
-        <link>https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
-        <description>Recent content - sam的小窝 - 读后感</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 16 Sep 2023 19:52:29 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>读后感 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+    <description>Recent content in 读后感 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 16 Sep 2023 19:52:29 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读后感-茑屋书店经营哲学</title>
+      <link>https://www.samrainhan.com/posts/2023-09-16-thoughts-after-reading-tsutaya-bookstore-business-philosophy/</link>
+      <pubDate>Sat, 16 Sep 2023 19:52:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-16-thoughts-after-reading-tsutaya-bookstore-business-philosophy/</guid>
+      <description>个人的成长与公司的成长无关，而与其是否愿意不断挑战不擅长之事以及其所下决心的大小有关。 决定公司规模大小的只有每一位员工梦想的总和。 赚钱是不断</description>
+    </item>
+    <item>
+      <title>摘抄-股票作手回忆录</title>
+      <link>https://www.samrainhan.com/posts/2023-09-12-excerpt-memoirs-of-a-stock-operator/</link>
+      <pubDate>Tue, 12 Sep 2023 14:58:40 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-12-excerpt-memoirs-of-a-stock-operator/</guid>
+      <description>研究整体大势，建立头寸并拿住它。 我可以总结出一条规律：在较窄的市场中，如果市场走不出明确方向，只是在很窄的区间内震来荡去，那么要预测下一次大</description>
+    </item>
+    <item>
+      <title>读后感-贫困一代 被社会囚禁的年轻人</title>
+      <link>https://www.samrainhan.com/posts/2023-02-09-after-reading-the-poor-generation-young-people-imprisoned-by-society/</link>
+      <pubDate>Thu, 09 Feb 2023 06:19:44 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-02-09-after-reading-the-poor-generation-young-people-imprisoned-by-society/</guid>
+      <description>学费越来越贵，学生一直在偿还助学贷款，在读书期间就开始去黑心企业打工，被欺压各种加班和自掏腰包，导致没有时间好好学习。 等毕业后，因为东京的租</description>
+    </item>
+    <item>
+      <title>读后感-小米创业思考</title>
+      <link>https://www.samrainhan.com/posts/2023-01-03-reflections-after-reading-thinking-about-xiaomi-entrepreneurship/</link>
+      <pubDate>Tue, 03 Jan 2023 19:12:07 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-03-reflections-after-reading-thinking-about-xiaomi-entrepreneurship/</guid>
+      <description>互联网思维七字决 专注 极致 口碑 快 专注的四个核心命题 清晰的使命、愿景 深刻的洞察力，了解行业，了解用户需求，找到机会。 明确而坚定的目标及与之匹配的</description>
+    </item>
+    <item>
+      <title>读后感-系统之思</title>
+      <link>https://www.samrainhan.com/posts/2022-08-09-after-reading-thinking-of-the-system/</link>
+      <pubDate>Tue, 09 Aug 2022 13:58:51 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-09-after-reading-thinking-of-the-system/</guid>
+      <description>任何成长都存在限制。从根本上讲，关键不是追求持续成长，而是选择在哪些因素的限制之下维持生存。 陷阱1：政策阻力 当系统中多个参与者有不同的目标，</description>
+    </item>
+    <item>
+      <title>读后感-华为的冬天</title>
+      <link>https://www.samrainhan.com/posts/2022-08-06-after-reading-huawei-winter/</link>
+      <pubDate>Sat, 06 Aug 2022 13:42:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-06-after-reading-huawei-winter/</guid>
+      <description>读后感-华为的冬天 失败这一天是一定会到来，大家要准备迎接，这是我从不动摇的看法，这是历史规律。 讨论华为有什么危机，你的部门有什么危机，你的科</description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 云文档,ROI,网盘,文档中台</title>
-        <link>https://www.samrainhan.com/tags/%E4%BA%91%E6%96%87%E6%A1%A3roi%E7%BD%91%E7%9B%98%E6%96%87%E6%A1%A3%E4%B8%AD%E5%8F%B0/</link>
-        <description>Recent content - sam的小窝 - 云文档,ROI,网盘,文档中台</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 20 Dec 2019 05:45:56 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E6%96%87%E6%A1%A3roi%E7%BD%91%E7%9B%98%E6%96%87%E6%A1%A3%E4%B8%AD%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>云文档,ROI,网盘,文档中台 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BA%91%E6%96%87%E6%A1%A3roi%E7%BD%91%E7%9B%98%E6%96%87%E6%A1%A3%E4%B8%AD%E5%8F%B0/</link>
+    <description>Recent content in 云文档,ROI,网盘,文档中台 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 20 Dec 2019 05:45:56 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%91%E6%96%87%E6%A1%A3roi%E7%BD%91%E7%9B%98%E6%96%87%E6%A1%A3%E4%B8%AD%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>云文档对于企业的好处及ROI</title>
+      <link>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</link>
+      <pubDate>Fri, 20 Dec 2019 05:45:56 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-12-17-benefits-and-roi-of-cloud-documents-for-enterprises/</guid>
+      <description>Gartner Group进行的一项类似研究发现 每天用于归档和维护现有信息，或搜索新信息的时间平均为37分钟或8%工作日 使用自动文件管理系统可以节省至少一</description>
+    </item>
+  </channel>
 </rss>

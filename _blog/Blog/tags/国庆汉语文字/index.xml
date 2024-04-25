@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 国庆,汉语,文字</title>
-        <link>https://www.samrainhan.com/tags/%E5%9B%BD%E5%BA%86%E6%B1%89%E8%AF%AD%E6%96%87%E5%AD%97/</link>
-        <description>Recent content - sam的小窝 - 国庆,汉语,文字</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 27 Nov 2021 23:39:29 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BD%E5%BA%86%E6%B1%89%E8%AF%AD%E6%96%87%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>国庆,汉语,文字 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%9B%BD%E5%BA%86%E6%B1%89%E8%AF%AD%E6%96%87%E5%AD%97/</link>
+    <description>Recent content in 国庆,汉语,文字 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 27 Nov 2021 23:39:29 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9B%BD%E5%BA%86%E6%B1%89%E8%AF%AD%E6%96%87%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>国庆杂谈</title>
+      <link>https://www.samrainhan.com/posts/2021-11-27-national-day/</link>
+      <pubDate>Sat, 27 Nov 2021 23:39:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-11-27-national-day/</guid>
+      <description>一、说文解字 国 演变历史 A：周代中期金文，就是较早的“国”。 B：周代晚期的金文 C：秦代的小篆 D：隶书 E：楷书 F：太平天国，洪秀全改 G：魏晋南北</description>
+    </item>
+  </channel>
 </rss>

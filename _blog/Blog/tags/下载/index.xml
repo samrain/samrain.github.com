@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 下载</title>
-        <link>https://www.samrainhan.com/tags/%E4%B8%8B%E8%BD%BD/</link>
-        <description>Recent content - sam的小窝 - 下载</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 17 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>下载 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%B8%8B%E8%BD%BD/</link>
+    <description>Recent content in 下载 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决并行下载问题</title>
+      <link>https://www.samrainhan.com/posts/2016-06-17-solve-the-problem-of-parallel-downloads/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-17-solve-the-problem-of-parallel-downloads/</guid>
+      <description>怪不得很多网站把静态资源放在其他域名上，比如 360buyimg.com 或 sinaimg.cn 因为要解决：并行下载 对于最常见的IE6和IE7在HTTP/1.1中默认每个域名只有2个连接</description>
+    </item>
+  </channel>
 </rss>

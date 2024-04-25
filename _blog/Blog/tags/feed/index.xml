@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Feed</title>
-        <link>https://www.samrainhan.com/tags/feed/</link>
-        <description>Recent content - sam的小窝 - Feed</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 10 Jul 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/feed/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feed on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/feed/</link>
+    <description>Recent content in Feed on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 10 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为没有Feed的网页生成RSS格式订阅源</title>
+      <link>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-07-10-make-rss-for-the-no-feed-webpages/</guid>
+      <description>FEED43是一个在线应用，可以为不提供 Feed 的网页生成 RSS 格式的 Feed，以供阅读器订阅。 中文非官方教程在此</description>
+    </item>
+  </channel>
 </rss>

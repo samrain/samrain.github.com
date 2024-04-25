@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 表格,统计,分析</title>
-        <link>https://www.samrainhan.com/tags/%E8%A1%A8%E6%A0%BC%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</link>
-        <description>Recent content - sam的小窝 - 表格,统计,分析</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 13 Feb 2022 11:23:28 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%A1%A8%E6%A0%BC%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>表格,统计,分析 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%A1%A8%E6%A0%BC%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 表格,统计,分析 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 13 Feb 2022 11:23:28 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%A1%A8%E6%A0%BC%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一维和二维表格互相转换</title>
+      <link>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</link>
+      <pubDate>Sun, 13 Feb 2022 11:23:28 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</guid>
+      <description>一维转二维 使用数据透视图即可，按照需求选择行和列。 特别需要注意的是，「值」的计数项中要设置为求和，且「值」的数据必须是数字，不能是中文或者英</description>
+    </item>
+  </channel>
 </rss>

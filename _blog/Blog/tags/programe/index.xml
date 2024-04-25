@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Programe</title>
-        <link>https://www.samrainhan.com/tags/programe/</link>
-        <description>Recent content - sam的小窝 - Programe</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 31 Jul 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/programe/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programe on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/programe/</link>
+    <description>Recent content in Programe on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 31 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/programe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThoughtWorks(中国)程序员读书雷达</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-thoughtworks-china-programmer-reading-radar/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-07-31-thoughtworks-china-programmer-reading-radar/</guid>
+      <description>思维导图文件下载 Coding Practice | 编程实践 基础篇 Clean Code《代码整洁之道》 Pragmatic Unit Testing《单元测试之道》 The Productive Programmer《卓有成效的程序员》</description>
+    </item>
+  </channel>
 </rss>

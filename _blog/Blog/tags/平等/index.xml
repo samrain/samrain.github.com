@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 平等</title>
-        <link>https://www.samrainhan.com/tags/%E5%B9%B3%E7%AD%89/</link>
-        <description>Recent content - sam的小窝 - 平等</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 10 Apr 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%B9%B3%E7%AD%89/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>平等 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B9%B3%E7%AD%89/</link>
+    <description>Recent content in 平等 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 10 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%B9%B3%E7%AD%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公正、平等、共享</title>
+      <link>https://www.samrainhan.com/posts/2013-04-10-fair-equality-share/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-04-10-fair-equality-share/</guid>
+      <description>思维导图文件下载 公正 尊重契约 道德 平等 恕 人人平等 己所不欲勿施于人 建立契约时那瞬间的平等 人人向往不平等,希望高人一筹 共享 利益 知识 其他 信息</description>
+    </item>
+  </channel>
 </rss>

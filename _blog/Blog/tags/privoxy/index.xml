@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Privoxy</title>
-        <link>https://www.samrainhan.com/tags/privoxy/</link>
-        <description>Recent content - sam的小窝 - Privoxy</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 20 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/privoxy/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privoxy on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/privoxy/</link>
+    <description>Recent content in Privoxy on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/privoxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何把内网的服务公布到公网上</title>
+      <link>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</guid>
+      <description>ngrok 这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。 下载 https://ngrok.com/download 配置 编辑配置文件 ngrok.config auth_token: dxW21sgRz-DscM932vgkDxe http_proxy: &amp;quot;http://192.168.16.41:60002&amp;quot; tunnels: calibre-server: subdomain: samebook proto: https: 8080 其中</description>
+    </item>
+  </channel>
 </rss>

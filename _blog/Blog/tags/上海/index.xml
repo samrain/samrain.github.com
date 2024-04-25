@@ -1,17 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 上海</title>
-        <link>https://www.samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/</link>
-        <description>Recent content - sam的小窝 - 上海</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 03 Oct 2023 17:00:19 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>上海 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/</link>
+    <description>Recent content in 上海 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 Oct 2023 17:00:19 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%B8%8A%E6%B5%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年上海国际学校招生考试一览表</title>
+      <link>https://www.samrainhan.com/posts/2023-10-03-2023-shanghai-international-school-admissions-examination-list/</link>
+      <pubDate>Tue, 03 Oct 2023 17:00:19 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-10-03-2023-shanghai-international-school-admissions-examination-list/</guid>
+      <description>学校名称 招生考试日期 &amp;mdash; &amp;mdash; 上海天华英澳美 9月23日 领科 待定 光华剑桥 待定 上海阿德科特 暂定10月中下旬 星河湾双语 暂定11月或12月 WLSA上海学校</description>
+    </item>
+    <item>
+      <title>选号</title>
+      <link>https://www.samrainhan.com/posts/2023-03-06-number-selection/</link>
+      <pubDate>Mon, 06 Mar 2023 09:28:52 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-03-06-number-selection/</guid>
+      <description>最佳组合 数字价值排序为：8、6、9、0、1、7、5、3、2、4。 字母价值排序为：X、F、S、R、T、U、H、K、E、M、A、V、N、Y、L、</description>
+    </item>
+    <item>
+      <title>上海周边古道</title>
+      <link>https://www.samrainhan.com/posts/2022-08-05-ancient-roads-around-shanghai/</link>
+      <pubDate>Fri, 05 Aug 2022 19:10:06 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-05-ancient-roads-around-shanghai/</guid>
+      <description>谈仙岭古道（嘉兴） 打卡点：山、、湖、石城，等 位置：在南北湖景区里，谈仙石城城门后面的台阶。 强度：低强度。 导航：岭脚下（海宁），走上是谈仙石</description>
+    </item>
+    <item>
+      <title>上海2022必打卡的30个新地标</title>
+      <link>https://www.samrainhan.com/posts/2022-08-04-30-new-landmarks-in-shanghai-2022/</link>
+      <pubDate>Thu, 04 Aug 2022 08:52:55 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-04-30-new-landmarks-in-shanghai-2022/</guid>
+      <description>上海2022必打卡的30个新地标 天安千树 恒基 旭辉天地 西岸凤巢AI PLAZA 前滩太古里 北外滩来福士 瑞虹天地太阳宫 大宁久光百货 博荟广场 全新徐汇宜家 松江印</description>
+    </item>
+    <item>
+      <title>上海必逛10家书店</title>
+      <link>https://www.samrainhan.com/posts/2022-08-03-10-must-visit-bookstores-in-shanghai/</link>
+      <pubDate>Wed, 03 Aug 2022 22:16:18 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-08-03-10-must-visit-bookstores-in-shanghai/</guid>
+      <description>上海必逛10家书店 茑屋书店（前滩太古里店） 朵云书院旗舰店 建投书局（浦江店） 玻璃宫艺术书局 思南书局·诗歌店 新华文创·光的空间 大隐书局 几何书店 多</description>
+    </item>
+    <item>
+      <title>上海家具最便宜的地方</title>
+      <link>https://www.samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</link>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-08-03-shanghai-furniture-cheapest-place/</guid>
+      <description>###红星美凯龙 汶水店（上海市宝山区汶水路1555号） 真北店（上海市普陀区真北路1108号） ###上海月星家居广场 上海市普陀区澳门路168号</description>
+    </item>
+    <item>
+      <title>上海的怀旧跳蚤集市</title>
+      <link>https://www.samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-29-nostalgia-flea-market/</guid>
+      <description>怀旧跳蚤集市 淘宝网 豆瓣网 Vintagefair复古市集 豆瓣网 鹦鹉螺复古市集 豆瓣网 UTAU艺术空间 豆瓣网 单车市集 豆瓣网 联洋广场跳蚤市场 新浪微博</description>
+    </item>
+    <item>
+      <title>上海浦江两岸骑行一日行程</title>
+      <link>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-26-day-visit-to-shanghai-huangpu-river-ride/</guid>
+      <description>大华三路真华路 南 交通路真华路 东 交通路中兴路 东 上海火车站北广场 被阻隔在里面绕了一圈重新回到中兴路 东 中兴路长兴路 南 长兴路永兴路 东 永兴路西藏北路 南</description>
+    </item>
+    <item>
+      <title>旅游拍照，驴友最爱：”文化上海“系列_全景图</title>
+      <link>https://www.samrainhan.com/posts/2013-04-26-shanghai-museum2012/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-04-26-shanghai-museum2012/</guid>
+      <description>介绍如下：博物馆的秘密 ”文化上海“系列画廊_全景图.jpg ”文化上海“系列美术馆_全景图.jpg ”文化上海“系列博物馆_全景图.jpg ”文化</description>
+    </item>
+    <item>
+      <title>江浙温泉大全</title>
+      <link>https://www.samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-12-28-2013-jiangsu-and-zhejiang-spa-daquan/</guid>
+      <description>思维导图文件下载 上海之根雪狼湖度假村 丽水莲都区 南京 汤山颐尚温泉 汤山一号温泉度假区 嘉善 宁波东钱湖 宁海 南溪 安吉 江南天池温泉 嵊州 常州 新安江温泉 无锡</description>
+    </item>
+  </channel>
 </rss>

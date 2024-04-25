@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - O365,销售,套路</title>
-        <link>https://www.samrainhan.com/tags/o365%E9%94%80%E5%94%AE%E5%A5%97%E8%B7%AF/</link>
-        <description>Recent content - sam的小窝 - O365,销售,套路</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 20 Dec 2019 05:54:49 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/o365%E9%94%80%E5%94%AE%E5%A5%97%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O365,销售,套路 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/o365%E9%94%80%E5%94%AE%E5%A5%97%E8%B7%AF/</link>
+    <description>Recent content in O365,销售,套路 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 20 Dec 2019 05:54:49 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/o365%E9%94%80%E5%94%AE%E5%A5%97%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O365销售套路</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</link>
+      <pubDate>Fri, 20 Dec 2019 05:54:49 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-12-20-o365-sales-plan/</guid>
+      <description>O365销售套路 销售的KPI 每个客户要求月活50个以上就算合格客户。 即使某个客户月活远远超过50也算一个合格客户，而不会算额外业绩。 每年每个</description>
+    </item>
+  </channel>
 </rss>

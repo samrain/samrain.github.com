@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 工作内容</title>
-        <link>https://www.samrainhan.com/tags/%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/</link>
-        <description>Recent content - sam的小窝 - 工作内容</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 08 Apr 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作内容 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/</link>
+    <description>Recent content in 工作内容 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 08 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CIO工作内容片段</title>
+      <link>https://www.samrainhan.com/posts/2013-04-08-cio-work/</link>
+      <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-04-08-cio-work/</guid>
+      <description>思维导图文件下载 首席信息官的职责 直接参与企业与信息科技运用有关的业务发展决策 确保信息科技战略，尤其是信息系统开发战略，符合总体业务战略和信息</description>
+    </item>
+  </channel>
 </rss>

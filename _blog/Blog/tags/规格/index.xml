@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 规格</title>
-        <link>https://www.samrainhan.com/tags/%E8%A7%84%E6%A0%BC/</link>
-        <description>Recent content - sam的小窝 - 规格</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 09 May 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%A7%84%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>规格 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%A7%84%E6%A0%BC/</link>
+    <description>Recent content in 规格 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 09 May 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%A7%84%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微信代运营-产品规格</title>
+      <link>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-09-acting-operations-weichat/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

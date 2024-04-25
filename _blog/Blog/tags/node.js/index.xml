@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Node.js</title>
-        <link>https://www.samrainhan.com/tags/node.js/</link>
-        <description>Recent content - sam的小窝 - Node.js</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 08 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/node.js/</link>
+    <description>Recent content in Node.js on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何更新nodejs</title>
+      <link>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</guid>
+      <description>What 升级nodejs到0.12。 Why 今天收到通知nodejs稳定版stable终于升到了0.12，对于我这个不升不舒服斯基来说，又要up咯。 How 安</description>
+    </item>
+  </channel>
 </rss>

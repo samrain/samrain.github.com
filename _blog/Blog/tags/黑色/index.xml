@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 黑色</title>
-        <link>https://www.samrainhan.com/tags/%E9%BB%91%E8%89%B2/</link>
-        <description>Recent content - sam的小窝 - 黑色</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 06 Sep 2023 23:08:02 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%BB%91%E8%89%B2/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黑色 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%BB%91%E8%89%B2/</link>
+    <description>Recent content in 黑色 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 Sep 2023 23:08:02 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%BB%91%E8%89%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>紫黑色食物</title>
+      <link>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</link>
+      <pubDate>Wed, 06 Sep 2023 23:08:02 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</guid>
+      <description>紫黑色食物往往富含花青素，花青素有着强大的抗氧化、抗炎效应。花青素是食物届的『变色龙』，不同酸碱度下可以是红、紫、蓝、绿、黄多种颜色。 水果中</description>
+    </item>
+  </channel>
 </rss>

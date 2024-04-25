@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 编辑器,命令行</title>
-        <link>https://www.samrainhan.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
-        <description>Recent content - sam的小窝 - 编辑器,命令行</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 05 Feb 2021 15:29:33 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编辑器,命令行 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
+    <description>Recent content in 编辑器,命令行 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Feb 2021 15:29:33 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micro使用心得</title>
+      <link>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</link>
+      <pubDate>Fri, 05 Feb 2021 15:29:33 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</guid>
+      <description>Micro使用心得 在一个界面上按照横向分割窗口 vsplit &#39;filename&#39; 在一个界面上按照纵向分割窗口 hsplit &#39;filename&#39; 安装filemanager插件，显示目录树 tree</description>
+    </item>
+  </channel>
 </rss>

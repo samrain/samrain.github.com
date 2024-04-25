@@ -1,90 +1,72 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>RSA算法在.net中实现 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="RSA算法在.net中实现">
+  <meta property="og:description" content="RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-05-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-05-24T00:00:00+00:00">
+    <meta property="article:tag" content="加密">
+    <meta property="article:tag" content="RSA">
+    <meta property="article:tag" content="Net">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="RSA算法在.net中实现">
+<meta name="twitter:description" content="RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">RSA算法在.net中实现</h1>
+			<div class="meta">Posted on May 24, 2016</div>
+		</div>
+		
 
-
-    
-
-<title>RSA算法在.net中实现 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="RSA算法在.net中实现 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">
-
-
-
-
-
-
-
-<meta property="og:title" content="RSA算法在.net中实现 · sam的小窝">
-<meta property="og:description" content="RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                RSA算法在.net中实现
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <p>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击的考验，逐渐为人们接受，普遍认为是目前最优秀的公钥方案之一。RSA的安全性依赖于大数的因子分解，但并没有从理论上证明破译RSA的难度与大数分解难度等价。</p>
+		<section class="body">
+			<p>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击的考验，逐渐为人们接受，普遍认为是目前最优秀的公钥方案之一。RSA的安全性依赖于大数的因子分解，但并没有从理论上证明破译RSA的难度与大数分解难度等价。</p>
 <p>.NET 为不对称加密提供了 RSACryptoServiceProvider 和 DSACryptoServiceProvider 类（命名空间：System.Security.Cryptography）。这些类在您使用默认构造函数创建新实例时创建一个公钥/私钥对。既可以存储不对称密钥以用在多个会话中，也可以只为一个会话生成不对称密钥。只支持公钥加密，私钥解密。公钥可以被广泛地使用，私钥应被严密地保护起来。</p>
 <p>RSACryptoServiceProvider类包括：Modulus、Exponent、P、Q、DP、DQ、InverseQ、D等8个属性，其中Modulus和Exponent就是公钥，Modulus和D就是私钥，RSACryptoServiceProvider类提供导出公钥的方法，也提供导出私钥的方法，但导出的私钥包含上面8个属性，显然要用RSACryptoServiceProvider实现私钥加密公钥是不可行的。从RSA的原理来看，公钥加密私钥解密和私钥加密公钥解密应该是等价的。</p>
 <p>每当创建不对称算法类的新实例时，都生成一个公钥/私钥对。创建该类的新实例后，可以用以下两种方法之一提取密钥信息：</p>
@@ -99,48 +81,44 @@
 <p>它返回RSAParameters 结构以保存密钥信息。导出密钥–参数形式。
 对应导出方法：ImportParameters方法。导入指定的RSAParameters。可以将 RSACryptoServiceProvider 类初始化为 RSAParameters 结构的值。</p>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">May 2016</div>
-    
-
-
-    
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
-            
-            <li><a href="/posts/2015-07-03-common-encryption-algorithm-by-net-implement/">常用加解密算法的.net实现</a></li>
-            
-            <li><a href="/posts/2015-06-16-introduce-of-ssl/">SSL介绍</a></li>
-            
-            <li><a href="/posts/2015-05-13-commonly-used-encryption-algorithm/">常用加解密算法</a></li>
-            
-        </ul>
-    </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/%E5%8A%A0%E5%AF%86">加密</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/rsa">RSA</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/net">Net</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

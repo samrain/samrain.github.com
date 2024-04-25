@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 臀肌</title>
-        <link>https://www.samrainhan.com/tags/%E8%87%80%E8%82%8C/</link>
-        <description>Recent content - sam的小窝 - 臀肌</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 27 Sep 2023 16:51:08 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%87%80%E8%82%8C/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>臀肌 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%87%80%E8%82%8C/</link>
+    <description>Recent content in 臀肌 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 27 Sep 2023 16:51:08 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%87%80%E8%82%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>臀肌腘绳肌训练动作梯度排行</title>
+      <link>https://www.samrainhan.com/posts/2023-09-27-gluteal-hamstring-training-movement-gradient-ranking/</link>
+      <pubDate>Wed, 27 Sep 2023 16:51:08 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-27-gluteal-hamstring-training-movement-gradient-ranking/</guid>
+      <description>杠铃臀冲 低杆深蹲/罗马尼亚硬拉/GHR/地板滑动臀桥腿弯举/前倾上台阶/臀拉 壶铃摇摆/弹力带后踢腿/坐姿腿弯举/单腿绳索罗马尼亚硬拉 单腿哑铃</description>
+    </item>
+  </channel>
 </rss>

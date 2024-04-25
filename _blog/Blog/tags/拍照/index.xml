@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 拍照</title>
-        <link>https://www.samrainhan.com/tags/%E6%8B%8D%E7%85%A7/</link>
-        <description>Recent content - sam的小窝 - 拍照</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%8B%8D%E7%85%A7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>拍照 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8B%8D%E7%85%A7/</link>
+    <description>Recent content in 拍照 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%8B%8D%E7%85%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给食物拍照的小技能</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</guid>
+      <description>###三种拍摄角度 0 45 90 ###三种构图方法 空间感 突出主体 斜入（筷子/吸管） ###拍照三宝 靠窗拍 干净底 趁热拍</description>
+    </item>
+    <item>
+      <title>拍张3D照片</title>
+      <link>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-25-3d-photo-shots/</guid>
+      <description>原帖在此：拍张 3D 照片 #iPhone #Android 共4款： Seene #iPhone Moju #iPhone Phogy #Android 织图#iPhone #Android 因为我倾向于用android手机，所以就不试验iphone下的2款了，抱歉。</description>
+    </item>
+    <item>
+      <title>婚纱照以及选择婚纱的注意事项</title>
+      <link>https://www.samrainhan.com/posts/2013-03-11-note-of-the-wedding/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-03-11-note-of-the-wedding/</guid>
+      <description>定金25％，拍照时付50％，取件时付25％ 一、预约 多走几家影楼询问价格内容，其它影楼有的优惠，只要你提出来，都会满足你。影楼不会答应你拿走套</description>
+    </item>
+  </channel>
 </rss>

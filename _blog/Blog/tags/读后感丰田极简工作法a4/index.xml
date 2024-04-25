@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 读后感,丰田,极简,工作法,A4</title>
-        <link>https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B8%B0%E7%94%B0%E6%9E%81%E7%AE%80%E5%B7%A5%E4%BD%9C%E6%B3%95a4/</link>
-        <description>Recent content - sam的小窝 - 读后感,丰田,极简,工作法,A4</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 14 Dec 2021 09:00:56 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B8%B0%E7%94%B0%E6%9E%81%E7%AE%80%E5%B7%A5%E4%BD%9C%E6%B3%95a4/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>读后感,丰田,极简,工作法,A4 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B8%B0%E7%94%B0%E6%9E%81%E7%AE%80%E5%B7%A5%E4%BD%9C%E6%B3%95a4/</link>
+    <description>Recent content in 读后感,丰田,极简,工作法,A4 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 14 Dec 2021 09:00:56 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B8%B0%E7%94%B0%E6%9E%81%E7%AE%80%E5%B7%A5%E4%BD%9C%E6%B3%95a4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读后感-丰田极简一页A4工作法</title>
+      <link>https://www.samrainhan.com/posts/2021-12-14-after-reading-toyota-minimalist-one-page-a4-working-method/</link>
+      <pubDate>Tue, 14 Dec 2021 09:00:56 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-12-14-after-reading-toyota-minimalist-one-page-a4-working-method/</guid>
+      <description>要将信息或资料整理成可以向别人解释说明的形式。以“让别人理解”为前提，就能看见“总结”的方向，从而选择和筛选信息，进而再去“整理” 。 怎么才能</description>
+    </item>
+  </channel>
 </rss>

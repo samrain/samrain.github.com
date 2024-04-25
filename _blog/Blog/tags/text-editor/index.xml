@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Text Editor</title>
-        <link>https://www.samrainhan.com/tags/text-editor/</link>
-        <description>Recent content - sam的小窝 - Text Editor</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 31 Jul 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text Editor on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/text-editor/</link>
+    <description>Recent content in Text Editor on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 31 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>玩转Emacs</title>
+      <link>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-07-31-play-emacs/</guid>
+      <description>思维导图文件下载 快捷键 粘帖:c-y 新建/打开文件:c-x c-f 替换打开的文件:c-x c-v 保存文件: c-x c-s 写文件(需要输入文件名，回车默认不变): c-x c-w</description>
+    </item>
+  </channel>
 </rss>

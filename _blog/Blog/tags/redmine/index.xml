@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Redmine</title>
-        <link>https://www.samrainhan.com/tags/redmine/</link>
-        <description>Recent content - sam的小窝 - Redmine</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 15 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/redmine/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redmine on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/redmine/</link>
+    <description>Recent content in Redmine on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/redmine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>批量导出redmine任务并导入到google日历中</title>
+      <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
+      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
+    </item>
+    <item>
+      <title>把redmine装在passenger上，然后用nginx反向代理提供服务</title>
+      <link>https://www.samrainhan.com/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-03-23-intall-redmine-in-passenger-and-proxy-by-nginx/</guid>
+      <description>把redmine装在passenger上，然后用nginx反向代理提供服务</description>
+    </item>
+    <item>
+      <title>Puma&#43;Nginx&#43;Mariadb&#43;Redmine</title>
+      <link>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/</guid>
+      <description>以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;amp;&amp;amp;</description>
+    </item>
+    <item>
+      <title>learn Redmine</title>
+      <link>https://www.samrainhan.com/posts/2013-03-25-learn-redmine/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-03-25-learn-redmine/</guid>
+      <description>思维导图文件下载 建议 将所有项目都设置为私有 除了管理类角色外其他角色都设置为 问题可见：创建或分配给用户的问题 管理类角色 问题可见：全部问题 在某个</description>
+    </item>
+  </channel>
 </rss>

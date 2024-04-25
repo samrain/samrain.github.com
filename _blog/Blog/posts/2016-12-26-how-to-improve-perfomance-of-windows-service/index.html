@@ -1,90 +1,71 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>如何提高windows程序的性能 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
+  <meta property="og:site_name" content="sam的小窝">
+  <meta property="og:title" content="如何提高windows程序的性能">
+  <meta property="og:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-12-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-12-26T00:00:00+00:00">
+    <meta property="article:tag" content="Windows">
+    <meta property="article:tag" content="性能">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="如何提高windows程序的性能">
+<meta name="twitter:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此">
+<script src="https://www.samrainhan.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://www.samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
-    <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://www.samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
 
+	
+	
 
-    
-    
-    <link rel="stylesheet" href="/css/style.min.b3811a3e015f634603baaa833554cd7e43b46c63178c34ea4e81bfb8a6763040.css">
+	
+	
+	
+	
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://www.samrainhan.com/">sam的小窝</a>
+	</div>
+	<nav>
+		
+		<a href="https://www.samrainhan.com/">Home</a>
+		
+		<a href="https://www.samrainhan.com/posts">Writings</a>
+		
+		<a href="https://www.samrainhan.com/tags">Tags</a>
+		
+		<a href="https://www.samrainhan.com/about">About</a>
+		
+		
+	</nav>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">如何提高windows程序的性能</h1>
+			<div class="meta">Posted on Dec 26, 2016</div>
+		</div>
+		
 
-
-    
-
-<title>如何提高windows程序的性能 · sam的小窝</title>
-
-
-
-
-
-
-
-
-<meta name="twitter:dnt" content="on">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="samrain"/>
-<meta name="twitter:title" content="如何提高windows程序的性能 · sam的小窝"/>
-<meta name="twitter:creator" content="samrain"/>
-<meta name="twitter:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此"/>
-<meta property="twitter:url" content="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
-
-
-
-
-
-
-
-<meta property="og:title" content="如何提高windows程序的性能 · sam的小窝">
-<meta property="og:description" content="调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此"/>
-
-<meta property="og:url" content="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:type" content="article"/>
-
-<link rel="canonical" href="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">
-
-
-    
-
-    <meta name="format-detection" content="telephone=no"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="alternate" type="application/rss+xml" title="sam的小窝" />
-<link href='https://www.samrainhan.com/blog/feed.xml' rel="feed" type="application/rss+xml" title="sam的小窝" />
-
-
-<meta name="theme-color" content="#2B343E"></head><body>
-    
-    <div class="goto bottom">
-        <a href="#site-footer">↓</a>
-    </div>
-    <div id="site-content">
-    <section class="post">
-        <header class="post-header">
-            <h1 class="post-title">
-            
-                如何提高windows程序的性能
-            
-
-            
-            </h1>
-
-            <h4 class="post-author">
-            
-            </h4>
-
-        </header>
-
-        <article class="post-content">
-            <h1 id="调整windows服务器">调整windows服务器</h1>
+		<section class="body">
+			<h1 id="调整windows服务器">调整windows服务器</h1>
 <h2 id="调整tcptimedwaitdelay">调整TcpTimedWaitDelay</h2>
 <p>描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此时间间隔通称 TIME_WAIT 状态或两倍最大段生命周期（2MSL）状态。此时间期间，重新打开到客户机和服务器的连接的成本少于建立新连接。减少此条目的值允许 TCP/IP 更快地释放已关闭的连接，为新连接提供更多资源。如果运行的应用程序需要快速释放和创建新连接，而且由于 TIME_WAIT 中存在很多连接，导致低吞吐量，则调整此参数。 如何查看或设置： 使用 regedit 命令访问 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/ Services/TCPIP/Parameters 注册表子键并创建名为 TcpTimedWaitDelay 的新 REG_DWORD 值。 将此值设置为十进制 30，其为十六进制 0x0000001e。该值将等待时间设置为 30 秒。 停止并重新启动系统。 缺省值：0xF0，它将等待时间设置为 240 秒（4 分钟）。 建议值：最小值为 0x1E，它将等待时间设置为 30 秒。</p>
 <p>打开注册表编辑器，如 Regedit.exe 或 Regedt32.exe。</p>
@@ -137,62 +118,42 @@
 &lt;/basicHttpBinding&gt;
 </code></pre>
 
-        </article><div class="post-meta">
+		</section>
 
-    <div class="post-date">Dec 2016</div>
-    
-
-
-    
-    
-
-    
-    
-    <div class="post-related">
-        <h4> Related: </h4>
-        <ul class="post-related-links">
-            
-            <li><a href="/posts/2016-12-26-display-battery-life-on-windows/">如何在Windows上看电池寿命</a></li>
-            
-            <li><a href="/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/">如果在Win2012 R2上安装net framework 4.6.2报错怎么办</a></li>
-            
-            <li><a href="/posts/2016-07-18-optimizing-web-site-performance/">优化Web网站性能</a></li>
-            
-            <li><a href="/posts/2016-06-30-using-the-command-forces-over-windows-process/">利用命令强制结束Windows进程</a></li>
-            
-            <li><a href="/posts/2016-05-31-chocolatey/">Chocolatey</a></li>
-            
-            <li><a href="/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/">Windows上免费开源的SFTP服务器</a></li>
-            
-            <li><a href="/posts/2016-05-12-delete-windows-service/">删除windows服务</a></li>
-            
-            <li><a href="/posts/2016-03-19-invoke-a-tuxedo-service-problems/">解决调用Tuxedo服务问题</a></li>
-            
-            <li><a href="/posts/2015-07-14-install-chinese-language-on-win2k3/">英文Windows VPS 安装中文包</a></li>
-            
-            <li><a href="/posts/2014-08-31-windows-service-quick-start-command/">Windows 服务快捷启动命令</a></li>
-            
-        </ul>
-    </div>
-    
-
-</div></section>
-
-    </div>
-
-    <footer id="site-footer"><div class="powered-by">Powered by <a href="https://github.com/kaushikgopal/henry-hugo">Henry</a></div>
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://www.samrainhan.com/tags/windows">windows</a></li>
+					
+					<li><a href="https://www.samrainhan.com/tags/%E6%80%A7%E8%83%BD">性能</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
 </footer>
 
-    <div class="goto top">
-        <a href="#site-content">↑</a>
-    </div>
+
+  
 
 
-
-
-
-
-    
-    <script src="/js/bundle.min.3f6a78d7853c85714efa3e91dc8b3df86a485fe3b819c12091ec03dfa02a457a.js" type="module"></script>
-</body>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

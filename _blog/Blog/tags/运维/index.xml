@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 运维</title>
-        <link>https://www.samrainhan.com/tags/%E8%BF%90%E7%BB%B4/</link>
-        <description>Recent content - sam的小窝 - 运维</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 12 Dec 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%BF%90%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>运维 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%BF%90%E7%BB%B4/</link>
+    <description>Recent content in 运维 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%BF%90%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT运维外包调查问卷</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/</guid>
+      <description>#IT运维外包调查问卷 ##基本信息 企业名称 联系人姓名 联系人职务 联系人手机 联系人Email ##人员 总人数 平均办公室人数 ##工作情况介绍 上下班时</description>
+    </item>
+    <item>
+      <title>IT运维外包调查问卷</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/</guid>
+      <description>#向OpenFire和Spark说再见 由于人力和服务器资源整合，运行了一年多的OpenFire已于上周关闭。 回想过程中的酸甜苦辣，特此撰文纪</description>
+    </item>
+  </channel>
 </rss>

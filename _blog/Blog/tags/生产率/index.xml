@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 生产率</title>
-        <link>https://www.samrainhan.com/tags/%E7%94%9F%E4%BA%A7%E7%8E%87/</link>
-        <description>Recent content - sam的小窝 - 生产率</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 04 Jun 2021 09:41:34 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E4%BA%A7%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生产率 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%94%9F%E4%BA%A7%E7%8E%87/</link>
+    <description>Recent content in 生产率 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 04 Jun 2021 09:41:34 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%94%9F%E4%BA%A7%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>提高生产率</title>
+      <link>https://www.samrainhan.com/posts/2021-06-04-increase-productivity/</link>
+      <pubDate>Fri, 04 Jun 2021 09:41:34 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-06-04-increase-productivity/</guid>
+      <description>提高生产率 提升生产率，才是解决劳动力不足问题的正确方法。 以提高生产率的两种思路“提高产出”和“减少投入”为目标，可以采取两种手段，即“改良”</description>
+    </item>
+  </channel>
 </rss>

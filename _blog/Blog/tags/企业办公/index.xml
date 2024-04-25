@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 企业,办公</title>
-        <link>https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E5%8A%9E%E5%85%AC/</link>
-        <description>Recent content - sam的小窝 - 企业,办公</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 09 Mar 2021 10:22:57 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E5%8A%9E%E5%85%AC/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>企业,办公 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E5%8A%9E%E5%85%AC/</link>
+    <description>Recent content in 企业,办公 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 09 Mar 2021 10:22:57 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BC%81%E4%B8%9A%E5%8A%9E%E5%85%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>企业一般办公需求</title>
+      <link>https://www.samrainhan.com/posts/2021-03-09-general-office-needs-of-enterprises/</link>
+      <pubDate>Tue, 09 Mar 2021 10:22:57 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-03-09-general-office-needs-of-enterprises/</guid>
+      <description>企业一般办公需求 获取服务 查看个人信息 寻求帮助 行政 人事 财务 IT 业务（因人而异） 主动服务 消息推送 提醒 沟通协作 找人 通讯录 实时性 实时 会议 IM 电话 延时 邮件</description>
+    </item>
+  </channel>
 </rss>

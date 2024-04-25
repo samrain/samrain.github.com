@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 人力资源</title>
-        <link>https://www.samrainhan.com/tags/%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90/</link>
-        <description>Recent content - sam的小窝 - 人力资源</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 25 Jun 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>人力资源 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90/</link>
+    <description>Recent content in 人力资源 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>面试步骤</title>
+      <link>https://www.samrainhan.com/posts/2015-06-25-how-do-interview/</link>
+      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-06-25-how-do-interview/</guid>
+      <description>第一阶段 寒暄 简短自我介绍 问对方如何评价自己，优缺点是什么。考察对方是否对自己有足够的了解。 第二阶段 提问 工作经验：除第一份工作外，如果频繁跳槽</description>
+    </item>
+  </channel>
 </rss>

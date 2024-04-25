@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Opserver, 监控, NET</title>
-        <link>https://www.samrainhan.com/tags/opserver-%E7%9B%91%E6%8E%A7-net/</link>
-        <description>Recent content - sam的小窝 - Opserver, 监控, NET</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 10 Sep 2018 20:51:30 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/opserver-%E7%9B%91%E6%8E%A7-net/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opserver, 监控, NET on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/opserver-%E7%9B%91%E6%8E%A7-net/</link>
+    <description>Recent content in Opserver, 监控, NET on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 Sep 2018 20:51:30 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/opserver-%E7%9B%91%E6%8E%A7-net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装Opserver</title>
+      <link>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</link>
+      <pubDate>Mon, 10 Sep 2018 20:51:30 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</guid>
+      <description>1 build报错 需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x</description>
+    </item>
+  </channel>
 </rss>

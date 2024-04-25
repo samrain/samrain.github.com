@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 工业互联网,工业,互联网,标准,体系</title>
-        <link>https://www.samrainhan.com/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB/</link>
-        <description>Recent content - sam的小窝 - 工业互联网,工业,互联网,标准,体系</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 20 Dec 2019 05:56:08 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工业互联网,工业,互联网,标准,体系 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB/</link>
+    <description>Recent content in 工业互联网,工业,互联网,标准,体系 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 20 Dec 2019 05:56:08 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工业互联网标准体系</title>
+      <link>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</link>
+      <pubDate>Fri, 20 Dec 2019 05:56:08 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-12-20-industrial-internet-standard-system/</guid>
+      <description>工业互联网标准体系</description>
+    </item>
+  </channel>
 </rss>

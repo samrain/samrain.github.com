@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 管理,知识,工作者</title>
-        <link>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E8%80%85/</link>
-        <description>Recent content - sam的小窝 - 管理,知识,工作者</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 12 Jun 2021 15:53:23 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管理,知识,工作者 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E8%80%85/</link>
+    <description>Recent content in 管理,知识,工作者 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 12 Jun 2021 15:53:23 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>管理知识工作者</title>
+      <link>https://www.samrainhan.com/posts/2021-06-12-management-knowledge-workers/</link>
+      <pubDate>Sat, 12 Jun 2021 15:53:23 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-06-12-management-knowledge-workers/</guid>
+      <description>管理知识工作者 今天管理的最大挑战是用管理体力劳动者的方式管理知识工作者。 管理知识工作者是管理上一个全新的物种。 不了解知识工作者的特点和需求就</description>
+    </item>
+  </channel>
 </rss>

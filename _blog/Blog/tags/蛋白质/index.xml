@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 蛋白质</title>
-        <link>https://www.samrainhan.com/tags/%E8%9B%8B%E7%99%BD%E8%B4%A8/</link>
-        <description>Recent content - sam的小窝 - 蛋白质</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 28 Dec 2022 10:37:37 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%9B%8B%E7%99%BD%E8%B4%A8/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>蛋白质 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%9B%8B%E7%99%BD%E8%B4%A8/</link>
+    <description>Recent content in 蛋白质 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 28 Dec 2022 10:37:37 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%9B%8B%E7%99%BD%E8%B4%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10种你没意识到的高蛋白食物</title>
+      <link>https://www.samrainhan.com/posts/2022-12-28-10-high-protein-foods/</link>
+      <pubDate>Wed, 28 Dec 2022 10:37:37 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-12-28-10-high-protein-foods/</guid>
+      <description>意大利面 / pasta 豌豆/ peas 帕尔马雷奇亚干酪 / parmesan reggiano 菠菜 / spinach 南瓜子 / pumpkin seeds 白软干酪 / cottagecheese 藜麦 / quinoa 毛豆 / edamame 燕麦 / oatmeal 扁豆 / lentils 额外选项 螺旋藻 / spirulina 每磅体重0.7~</description>
+    </item>
+  </channel>
 </rss>

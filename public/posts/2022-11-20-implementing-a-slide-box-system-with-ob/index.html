@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>我对用OB来实现滑箱系统的想法 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	
-  <meta itemprop="name" content="我对用OB来实现滑箱系统的想法">
-  <meta itemprop="description" content="如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间">
-  <meta itemprop="datePublished" content="2022-11-20T16:14:20+08:00">
-  <meta itemprop="dateModified" content="2022-11-20T16:14:20+08:00">
-  <meta itemprop="wordCount" content="436">
-  <meta itemprop="keywords" content="OB,个人知识管理"><meta property="og:url" content="http://localhost:55555/posts/2022-11-20-implementing-a-slide-box-system-with-ob/">
+	<meta name="description" content="如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:55555/posts/2022-11-20-implementing-a-slide-box-system-with-ob/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="我对用OB来实现滑箱系统的想法">
   <meta property="og:description" content="如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间">
@@ -22,75 +17,55 @@
     <meta property="article:tag" content="个人知识管理">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="我对用OB来实现滑箱系统的想法">
 <meta name="twitter:description" content="如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间">
-<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="http://localhost:55555/[]" />
+<script src="http://localhost:55555/js/feather.min.js"></script>
+	
+	
+        <link href="http://localhost:55555/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.css" />
-
-	<script src="http://localhost:55555/js/feather.min.js"></script>
 	
-		<script src="http://localhost:55555/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+		
 </head>
-
-
 <body>
-
-
-	
-	<div class="container wrapper">
-		<div class="header">
-	
-	<h1 class="site-title"><a href="http://localhost:55555/">sam的小窝</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"><li><a href="" title="github"><i data-feather=""></i></a></li><li><a href="" title="linkedin"><i data-feather=""></i></a></li><li><a href="" title="email"><i data-feather=""></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
-		</nav>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:55555/">sam的小窝</a>
 	</div>
-
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="http://localhost:55555/">Home</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/posts">Writings</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/tags">Tags</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/about">About</a>
-			</li>
-			
-		</ul>
+	<nav>
+		
+		<a href="http://localhost:55555/">Home</a>
+		
+		<a href="http://localhost:55555/posts">Writings</a>
+		
+		<a href="http://localhost:55555/tags">Tags</a>
+		
+		<a href="http://localhost:55555/about">About</a>
+		
+		
 	</nav>
-</div>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">我对用OB来实现滑箱系统的想法</h1>
+			<div class="meta">Posted on Nov 20, 2022</div>
+		</div>
+		
 
-		<div class="post">
-    <div class="post-header">
-    
-    <div class="meta">
-        <div class="date">
-            <span class="day">20</span>
-            <span class="rest">Nov 2022</span>
-        </div>
-    </div>
-    
-    <div class="matter">
-        <h1 class="title">我对用OB来实现滑箱系统的想法</h1>
-    </div>
-</div>
-
-
-    
-    
-    <p>如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间的关系。</p>
+		<section class="body">
+			<p>如果absidian已经实现了双向连接，为什么还要用滑箱上面的这些老旧的编号来命名文件。完全可以通过双向连接来更方便的组织和拿到这些内容之间的关系。</p>
 <p>按照传统的滑箱笔记法一共分成三类笔记，一类是随手写下自己的想法，一类是看过的文章笔记摘录，还有一类是指正在进行的项目。</p>
 <p>印象笔记支持随手笔记和文章笔记的初稿。对于正在进行的项目也能被很好支持。</p>
 <p>所以ob对于印象笔记来说只有双向链接，才是它的杀手锏。</p>
@@ -99,48 +74,37 @@
 <p>所以我觉得适合的工作流，应该是在印象笔记中，写随手笔记以及做文章摘录，然后定时的将随手笔记以及文章摘录，，用自己的话来写组成永久笔记，再放入到ob中建立双向连接。至于项目，可以放在印象笔记，也可以放在ob中。但是最终还是要放到ob中。</p>
 <p>ob就是那个滑箱。</p>
 
-    <hr class="footer-separator" />
-<div class="tags">
-    
-    
-    <ul class="flat">
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/ob">OB</a>
-        </li>
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86">个人知识管理</a>
-        </li>
-        
-    </ul>
-    
-    
-</div>
+		</section>
 
-
-
-<div class="back">
-    <a href="http://localhost:55555/"><span aria-hidden="true">← Back</span></a>
-</div>
-
-
-<div class="back">
-    
-</div>
-
-</div>
-
-	</div>
-	
-
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div>2022 </div>
-		
-	</nav>
-</div><script>feather.replace()</script>
-	
-</body>
-
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="http://localhost:55555/tags/ob">OB</a></li>
+					
+					<li><a href="http://localhost:55555/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86">个人知识管理</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Google日历</title>
-        <link>https://www.samrainhan.com/tags/google%E6%97%A5%E5%8E%86/</link>
-        <description>Recent content - sam的小窝 - Google日历</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 08 May 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/google%E6%97%A5%E5%8E%86/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google日历 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/google%E6%97%A5%E5%8E%86/</link>
+    <description>Recent content in Google日历 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/google%E6%97%A5%E5%8E%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎么用Google日历</title>
+      <link>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</link>
+      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-05-08-how-to-use-google-calendar/</guid>
+      <description>思维导图文件下载 键盘快捷键 日历界面 Ctrl+? / Cmd+? 或 ? 快捷键菜单 调出键盘快捷键菜单 C 创建活动 可让您创建新活动。 / 搜索 将光标放在搜索框中 Ctrl+z / Cmd+z 或 z 撤消 撤</description>
+    </item>
+  </channel>
 </rss>

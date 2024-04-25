@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 需求</title>
-        <link>https://www.samrainhan.com/tags/%E9%9C%80%E6%B1%82/</link>
-        <description>Recent content - sam的小窝 - 需求</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sat, 18 Mar 2023 20:29:37 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%9C%80%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>需求 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%9C%80%E6%B1%82/</link>
+    <description>Recent content in 需求 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 Mar 2023 20:29:37 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%9C%80%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JTBD</title>
+      <link>https://www.samrainhan.com/posts/2023-03-18-jtbd/</link>
+      <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-03-18-jtbd/</guid>
+      <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
+    </item>
+  </channel>
 </rss>

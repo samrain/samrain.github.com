@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Airscript</title>
-        <link>https://www.samrainhan.com/tags/airscript/</link>
-        <description>Recent content - sam的小窝 - Airscript</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 25 Sep 2023 09:32:11 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/airscript/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airscript on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/airscript/</link>
+    <description>Recent content in Airscript on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 25 Sep 2023 09:32:11 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/airscript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AirScript</title>
+      <link>https://www.samrainhan.com/posts/2023-09-25-airscript/</link>
+      <pubDate>Mon, 25 Sep 2023 09:32:11 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-25-airscript/</guid>
+      <description>金山文档 AirScript 是一个简单快速的轻量级脚本应用开发平台，它基于云技术构建，可让您快速轻松地创建与金山文档 Office 文件交互的业务应用。 我们在金山文档的组件</description>
+    </item>
+  </channel>
 </rss>

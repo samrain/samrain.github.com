@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Ide</title>
-        <link>https://www.samrainhan.com/tags/ide/</link>
-        <description>Recent content - sam的小窝 - Ide</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 22 Nov 2012 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/ide/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ide on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/ide/</link>
+    <description>Recent content in Ide on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 22 Nov 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sublime Text2简介</title>
+      <link>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</link>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-11-22-sublime-text2/</guid>
+      <description>思维导图文件下载 安装 老窝 ubuntu PPA 学习视频 美化 更改图标 添加Soda主题 运行Packge Control Install,安装Theme-Soda 修改Gloabl S</description>
+    </item>
+    <item>
+      <title>如何把VIM变成Python IDE</title>
+      <link>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/</guid>
+      <description>思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自</description>
+    </item>
+  </channel>
 </rss>

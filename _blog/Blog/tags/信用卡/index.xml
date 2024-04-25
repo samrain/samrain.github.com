@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 信用卡</title>
-        <link>https://www.samrainhan.com/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/</link>
-        <description>Recent content - sam的小窝 - 信用卡</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 06 May 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>信用卡 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/</link>
+    <description>Recent content in 信用卡 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>浦发银行美国运通白金卡(简称浦发AE白)开卡后必须要做的几件事</title>
+      <link>https://www.samrainhan.com/posts/2016-05-06-what-will-we-do-after-getting-the-spdb-ae-platinum-credit-card/</link>
+      <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-06-what-will-we-do-after-getting-the-spdb-ae-platinum-credit-card/</guid>
+      <description>背景介绍 浦发银行美国运通白金卡(简称浦发AE白)官网 http://www.spdbccc.com.cn/zh/wap/newwap/meiyun/index.html#rd 网上大家的内容收集 https://zhuanlan.zhihu.com/p/20679319 http://www.eee.com/article-3318.html http://www.flyertea.com/article-7995-1.html 一次性 必做 安装浦大喜奔APP 绑定浦发银行信用卡中心微信号(sp</description>
+    </item>
+  </channel>
 </rss>

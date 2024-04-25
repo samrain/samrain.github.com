@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - PMO,项目管理</title>
-        <link>https://www.samrainhan.com/tags/pmo%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</link>
-        <description>Recent content - sam的小窝 - PMO,项目管理</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 23 Dec 2021 00:03:01 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/pmo%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PMO,项目管理 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/pmo%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in PMO,项目管理 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Dec 2021 00:03:01 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/pmo%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMO</title>
+      <link>https://www.samrainhan.com/posts/2021-12-22-pmo/</link>
+      <pubDate>Thu, 23 Dec 2021 00:03:01 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-12-22-pmo/</guid>
+      <description>一、PMO是什么？ PMO是项目管理办公室Project Management Office简称。 PMO是一个企业/政府机构或其中部门中定义并维护项目管理标准，负责</description>
+    </item>
+  </channel>
 </rss>

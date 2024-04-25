@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 2021,财富,500强</title>
-        <link>https://www.samrainhan.com/tags/2021%E8%B4%A2%E5%AF%8C500%E5%BC%BA/</link>
-        <description>Recent content - sam的小窝 - 2021,财富,500强</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 05 Aug 2021 11:01:13 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/2021%E8%B4%A2%E5%AF%8C500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021,财富,500强 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/2021%E8%B4%A2%E5%AF%8C500%E5%BC%BA/</link>
+    <description>Recent content in 2021,财富,500强 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 Aug 2021 11:01:13 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/2021%E8%B4%A2%E5%AF%8C500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>包邮区内2021年《财富》世界500强</title>
+      <link>https://www.samrainhan.com/posts/2021-08-05-2021-fortune-global-500/</link>
+      <pubDate>Thu, 05 Aug 2021 11:01:13 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-08-05-2021-fortune-global-500/</guid>
+      <description>包邮区内2021年《财富》世界500强 排名 公司名称 所在省份 所在市 60 上海汽车集团股份有限公司 上海市 上海市 63 阿里巴巴集团 浙江省 杭州市 67 恒力集团 江</description>
+    </item>
+  </channel>
 </rss>

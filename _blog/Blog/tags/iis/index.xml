@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - IIS</title>
-        <link>https://www.samrainhan.com/tags/iis/</link>
-        <description>Recent content - sam的小窝 - IIS</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 13 Jul 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/iis/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IIS on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/iis/</link>
+    <description>Recent content in IIS on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/iis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>会话状态Session State</title>
+      <link>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</link>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</guid>
+      <description>InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器</description>
+    </item>
+  </channel>
 </rss>

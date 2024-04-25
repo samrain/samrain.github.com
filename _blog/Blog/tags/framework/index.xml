@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Framework</title>
-        <link>https://www.samrainhan.com/tags/framework/</link>
-        <description>Recent content - sam的小窝 - Framework</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 05 Jun 2018 09:45:19 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/framework/</link>
+    <description>Recent content in Framework on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 05 Jun 2018 09:45:19 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips of Installing Net Framework 462 in WinServ2012</title>
+      <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
+      <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
+      <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
+    </item>
+  </channel>
 </rss>

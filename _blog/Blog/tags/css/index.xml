@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Css</title>
-        <link>https://www.samrainhan.com/tags/css/</link>
-        <description>Recent content - sam的小窝 - Css</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 10 Mar 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/css/</link>
+    <description>Recent content in Css on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>缩减HTML、CSS和JavaScript的大小</title>
+      <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</guid>
+      <description>##缩减HTML的大小 使用PageSpeed Insights Chrome扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的</description>
+    </item>
+  </channel>
 </rss>

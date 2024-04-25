@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 目录</title>
-        <link>https://www.samrainhan.com/tags/%E7%9B%AE%E5%BD%95/</link>
-        <description>Recent content - sam的小窝 - 目录</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 29 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%9B%AE%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>目录 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%9B%AE%E5%BD%95/</link>
+    <description>Recent content in 目录 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 29 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%9B%AE%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS显示当前电脑的目录</title>
+      <link>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</link>
+      <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

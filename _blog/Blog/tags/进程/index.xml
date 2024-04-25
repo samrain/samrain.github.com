@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 进程</title>
-        <link>https://www.samrainhan.com/tags/%E8%BF%9B%E7%A8%8B/</link>
-        <description>Recent content - sam的小窝 - 进程</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 30 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%BF%9B%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>进程 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%BF%9B%E7%A8%8B/</link>
+    <description>Recent content in 进程 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%BF%9B%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用命令强制结束Windows进程</title>
+      <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
+      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
+    </item>
+    <item>
+      <title>让linux进程在后台可靠运行的几种方法</title>
+      <link>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</guid>
+      <description>nohup/setsid 无疑是临时需要时最方便的方法 disown 能帮助我们来事后补救当前已经在运行了的作业 screen 则是在大批量操作时不二的选择了。 详细见：http://www.i</description>
+    </item>
+  </channel>
 </rss>

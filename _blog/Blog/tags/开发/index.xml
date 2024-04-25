@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 开发</title>
-        <link>https://www.samrainhan.com/tags/%E5%BC%80%E5%8F%91/</link>
-        <description>Recent content - sam的小窝 - 开发</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 05 Feb 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开发 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 开发 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎么用开源中国的服务来进行协作和开发</title>
+      <link>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</link>
+      <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-05-how-to-use-oschina-net-services-to-collaborate-and-develop/</guid>
+      <description>Getting Start 注册oschina用户(戳这里) 登录oschina.net 注册git@osc用户(戳这里)，请选择使用oschina账号登录 4.会提示以</description>
+    </item>
+  </channel>
 </rss>

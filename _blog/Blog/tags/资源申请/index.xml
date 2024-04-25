@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 资源申请</title>
-        <link>https://www.samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/</link>
-        <description>Recent content - sam的小窝 - 资源申请</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 31 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>资源申请 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/</link>
+    <description>Recent content in 资源申请 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>资源申请流程</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-resources-application-process/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-resources-application-process/</guid>
+      <description>第一步，员工发资源申请报告给部门负责人 第二步，根据资源的多少和紧急程度，可能会提交到更高一级的人员来进行审批 第三步，根据资源类型的不同来分，</description>
+    </item>
+  </channel>
 </rss>

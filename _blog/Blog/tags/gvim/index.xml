@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Gvim</title>
-        <link>https://www.samrainhan.com/tags/gvim/</link>
-        <description>Recent content - sam的小窝 - Gvim</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 11 Feb 2010 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/gvim/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gvim on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/gvim/</link>
+    <description>Recent content in Gvim on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 11 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/gvim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GVim编辑窍门</title>
+      <link>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</link>
+      <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</guid>
+      <description>准备工作 首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test 查找替换 按几下 ESC 进入 Normal 模式， 输入以下命令： :%s/ /\r/g 回车后得到的效果如下</description>
+    </item>
+  </channel>
 </rss>

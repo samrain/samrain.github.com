@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 做菜</title>
-        <link>https://www.samrainhan.com/tags/%E5%81%9A%E8%8F%9C/</link>
-        <description>Recent content - sam的小窝 - 做菜</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 18 Jan 2023 10:00:51 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%81%9A%E8%8F%9C/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>做菜 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%81%9A%E8%8F%9C/</link>
+    <description>Recent content in 做菜 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Jan 2023 10:00:51 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%81%9A%E8%8F%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>菜谱A</title>
+      <link>https://www.samrainhan.com/posts/2023-01-18-recipe-a/</link>
+      <pubDate>Wed, 18 Jan 2023 10:00:51 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-18-recipe-a/</guid>
+      <description>香菇炖鸡 干香菇泡发，切`姜片，打葱结，切玉米 鸡洗净切块，加面粉揉搓后清水洗净 热锅加油，入鸡块翻炒，加热水、香菇、姜葱、玉米，烧开后倒入砂锅，</description>
+    </item>
+  </channel>
 </rss>

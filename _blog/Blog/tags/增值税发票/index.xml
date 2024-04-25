@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 增值税发票</title>
-        <link>https://www.samrainhan.com/tags/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8/</link>
-        <description>Recent content - sam的小窝 - 增值税发票</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 21 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>增值税发票 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8/</link>
+    <description>Recent content in 增值税发票 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开增值税发票的物品清单</title>
+      <link>https://www.samrainhan.com/posts/2016-04-21-list-of-get-vat-invoice/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-21-list-of-get-vat-invoice/</guid>
+      <description>对方的合同 开票信息 付款证明或开票证明（要盖对方公章） 一般纳税人证明或3个月对方开出的增票复印件</description>
+    </item>
+  </channel>
 </rss>

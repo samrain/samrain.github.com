@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 食物</title>
-        <link>https://www.samrainhan.com/tags/%E9%A3%9F%E7%89%A9/</link>
-        <description>Recent content - sam的小窝 - 食物</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 04 Dec 2023 13:16:16 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>食物 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%A3%9F%E7%89%A9/</link>
+    <description>Recent content in 食物 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Dec 2023 13:16:16 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%A3%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>健身食物红黑榜</title>
+      <link>https://www.samrainhan.com/posts/2023-12-04-fitness-food-red-and-black-list/</link>
+      <pubDate>Mon, 04 Dec 2023 13:16:16 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-12-04-fitness-food-red-and-black-list/</guid>
+      <description>主食类 扁豆 鹰嘴豆 高纤苦荞麦片 小麦 意大利面 大麦 苦荞麦面 荞麦 玉米饼 燕麦饭 莜麦米饭 鲜玉米 山药 芋头 玉米面粥 玉米粥 黑米粥 米粉 无糖藕粉 肉蛋鱼类 鱼肚 鸡胸肉</description>
+    </item>
+    <item>
+      <title>紫黑色食物</title>
+      <link>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</link>
+      <pubDate>Wed, 06 Sep 2023 23:08:02 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-09-06-purple-black-food/</guid>
+      <description>紫黑色食物往往富含花青素，花青素有着强大的抗氧化、抗炎效应。花青素是食物届的『变色龙』，不同酸碱度下可以是红、紫、蓝、绿、黄多种颜色。 水果中</description>
+    </item>
+    <item>
+      <title>睡个好觉的食物</title>
+      <link>https://www.samrainhan.com/posts/2023-08-20-food-for-a-good-night-sleep/</link>
+      <pubDate>Sun, 20 Aug 2023 13:56:55 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-20-food-for-a-good-night-sleep/</guid>
+      <description>开心果 蔓越莓 枸杞 奇异果 牛奶及乳制品 地中海饮食</description>
+    </item>
+    <item>
+      <title>常见健康食品</title>
+      <link>https://www.samrainhan.com/posts/2023-08-04-common-health-foods/</link>
+      <pubDate>Fri, 04 Aug 2023 19:50:29 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-04-common-health-foods/</guid>
+      <description>香蕉 糖分可以达到16%以上，吃一根基本上就能摄入30克碳水。每100克大概有380毫克钾，有助于保持细胞当中的电解质平衡，预防肌肉痉挛，对于</description>
+    </item>
+    <item>
+      <title>10种你没意识到的高蛋白食物</title>
+      <link>https://www.samrainhan.com/posts/2022-12-28-10-high-protein-foods/</link>
+      <pubDate>Wed, 28 Dec 2022 10:37:37 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2022-12-28-10-high-protein-foods/</guid>
+      <description>意大利面 / pasta 豌豆/ peas 帕尔马雷奇亚干酪 / parmesan reggiano 菠菜 / spinach 南瓜子 / pumpkin seeds 白软干酪 / cottagecheese 藜麦 / quinoa 毛豆 / edamame 燕麦 / oatmeal 扁豆 / lentils 额外选项 螺旋藻 / spirulina 每磅体重0.7~</description>
+    </item>
+    <item>
+      <title>给食物拍照的小技能</title>
+      <link>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-31-tips-to-take-pictures-of-food/</guid>
+      <description>###三种拍摄角度 0 45 90 ###三种构图方法 空间感 突出主体 斜入（筷子/吸管） ###拍照三宝 靠窗拍 干净底 趁热拍</description>
+    </item>
+  </channel>
 </rss>

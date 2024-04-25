@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 物流</title>
-        <link>https://www.samrainhan.com/tags/%E7%89%A9%E6%B5%81/</link>
-        <description>Recent content - sam的小窝 - 物流</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 12 Dec 2013 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>物流 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E7%89%A9%E6%B5%81/</link>
+    <description>Recent content in 物流 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>园区智能化方案</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-park-intelligent-solutions/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-12-12-park-intelligent-solutions/</guid>
+      <description>思维导图文件下载 需求分析 分期建设 选择系统品牌及设备规格时需为分期建设考虑整体系统的兼容性。 兼容性 可扩充性 预留空间和接口 系统清单 综合布线系统 主</description>
+    </item>
+  </channel>
 </rss>

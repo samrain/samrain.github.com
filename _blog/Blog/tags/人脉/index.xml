@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 人脉</title>
-        <link>https://www.samrainhan.com/tags/%E4%BA%BA%E8%84%89/</link>
-        <description>Recent content - sam的小窝 - 人脉</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Tue, 27 May 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%BA%E8%84%89/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>人脉 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BA%BA%E8%84%89/</link>
+    <description>Recent content in 人脉 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 27 May 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%BA%E8%84%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>极度失望的印象笔记-人脉</title>
+      <link>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</link>
+      <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-05-27-extremely-disappointed-evernote-contacts/</guid>
+      <description>今天被人骗用了下印象笔记的人脉，一泡5啊。 竟然要和linkdin连接起来用，这也就算了。 最让人吐槽的是：我要和别人碰面，新建这个活动的时候，</description>
+    </item>
+    <item>
+      <title>学习重要，还是经营人脉重要？</title>
+      <link>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2010-02-20-contacts-or-learning-important/</guid>
+      <description>#(转)李笑來老師的文章 有一次在北大讲座，遇到一位学生问我，“老师，你说学习重要，还是经营人脉重要？”看着他一脸大杂烩的表情，我先拿出本子记</description>
+    </item>
+  </channel>
 </rss>

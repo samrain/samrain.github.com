@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Watir</title>
-        <link>https://www.samrainhan.com/tags/watir/</link>
-        <description>Recent content - sam的小窝 - Watir</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Thu, 05 Mar 2015 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/watir/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Watir on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/watir/</link>
+    <description>Recent content in Watir on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/watir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>watir 网页程序自动化测试工具</title>
+      <link>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</link>
+      <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</guid>
+      <description>安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到</description>
+    </item>
+  </channel>
 </rss>

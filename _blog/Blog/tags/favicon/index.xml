@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Favicon</title>
-        <link>https://www.samrainhan.com/tags/favicon/</link>
-        <description>Recent content - sam的小窝 - Favicon</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 27 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/favicon/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Favicon on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/favicon/</link>
+    <description>Recent content in Favicon on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/favicon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>favicon.ico</title>
+      <link>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</guid>
+      <description>默认放在服务器根目录下 如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;lt;link rel=&amp;ldquo;shortcut icon&amp;rdquo; href=http://www.example.com/favicon.ico&amp;gt;` 优化性能 配置fa</description>
+    </item>
+  </channel>
 </rss>

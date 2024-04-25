@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - QQ</title>
-        <link>https://www.samrainhan.com/tags/qq/</link>
-        <description>Recent content - sam的小窝 - QQ</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 29 Jun 2018 16:58:47 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/qq/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QQ on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/qq/</link>
+    <description>Recent content in QQ on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 29 Jun 2018 16:58:47 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/qq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QQ 微信和WPS在移动端的协作场景</title>
+      <link>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</link>
+      <pubDate>Fri, 29 Jun 2018 16:58:47 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-06-29-qq-wechat-wps-collaboration-scene-in-the-mobilephone/</guid>
+      <description>和客户或者合作伙伴开会讨论时，待人到齐后，使用微信的面对面建群的功能建立一个讨论群，以方便以后跟进进度，也便于增加透明度，降低沟通成本，减少</description>
+    </item>
+  </channel>
 </rss>

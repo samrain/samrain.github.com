@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 击剑</title>
-        <link>https://www.samrainhan.com/tags/%E5%87%BB%E5%89%91/</link>
-        <description>Recent content - sam的小窝 - 击剑</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Sun, 15 Jan 2023 14:46:33 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%87%BB%E5%89%91/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>击剑 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%87%BB%E5%89%91/</link>
+    <description>Recent content in 击剑 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Jan 2023 14:46:33 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%87%BB%E5%89%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>击剑日记</title>
+      <link>https://www.samrainhan.com/posts/2023-01-15-fencing-diary/</link>
+      <pubDate>Sun, 15 Jan 2023 14:46:33 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-01-15-fencing-diary/</guid>
+      <description>1. 有意识地在上课前思考需要加强的内容 2. 和教练一起回顾上次比赛中的错误 3. 课前复习在上节个别课上学到的东西 4. 今天主要集中在薄弱能力上训练</description>
+    </item>
+  </channel>
 </rss>

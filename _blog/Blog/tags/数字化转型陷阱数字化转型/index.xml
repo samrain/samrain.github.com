@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 数字化,转型,陷阱,数字化转型</title>
-        <link>https://www.samrainhan.com/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E9%99%B7%E9%98%B1%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link>
-        <description>Recent content - sam的小窝 - 数字化,转型,陷阱,数字化转型</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 21 Jul 2021 11:08:40 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E9%99%B7%E9%98%B1%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数字化,转型,陷阱,数字化转型 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E9%99%B7%E9%98%B1%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link>
+    <description>Recent content in 数字化,转型,陷阱,数字化转型 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 21 Jul 2021 11:08:40 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E9%99%B7%E9%98%B1%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数字化转型中的5个常见陷阱</title>
+      <link>https://www.samrainhan.com/posts/2021-07-21-5-common-pitfalls-of-digital-transformation/</link>
+      <pubDate>Wed, 21 Jul 2021 11:08:40 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-07-21-5-common-pitfalls-of-digital-transformation/</guid>
+      <description>在数字化转型方面，有五个需要解决的常见陷阱。 被忽视的变革管理 战略目标的错位 系统集成商的管理 业务流程不明确 数据迁移困难 变革的关键在员工。数字化</description>
+    </item>
+  </channel>
 </rss>

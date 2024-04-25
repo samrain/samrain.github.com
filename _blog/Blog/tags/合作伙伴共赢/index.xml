@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 合作伙伴,共赢</title>
-        <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%85%B1%E8%B5%A2/</link>
-        <description>Recent content - sam的小窝 - 合作伙伴,共赢</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 10 May 2021 14:06:09 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%85%B1%E8%B5%A2/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>合作伙伴,共赢 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%85%B1%E8%B5%A2/</link>
+    <description>Recent content in 合作伙伴,共赢 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 May 2021 14:06:09 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%85%B1%E8%B5%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>合作伙伴共赢</title>
+      <link>https://www.samrainhan.com/posts/2021-05-10-win-win-for-partners/</link>
+      <pubDate>Mon, 10 May 2021 14:06:09 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2021-05-10-win-win-for-partners/</guid>
+      <description>合作伙伴共赢 最佳实践 合作伙伴培训》商机挖掘》首单落地》联合市场宣传》项目复制 项目支持 售前：联合商机挖掘、项目报备保护、前期需求挖掘 售中：技术</description>
+    </item>
+  </channel>
 </rss>

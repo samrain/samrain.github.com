@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 拼音</title>
-        <link>https://www.samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/</link>
-        <description>Recent content - sam的小窝 - 拼音</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Wed, 16 Aug 2023 22:02:55 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>拼音 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/</link>
+    <description>Recent content in 拼音 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Aug 2023 22:02:55 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置ubuntu上拼音输入法Fcitx5</title>
+      <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
+      <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
+      <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
+    </item>
+  </channel>
 </rss>

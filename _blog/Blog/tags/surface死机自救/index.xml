@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Surface,死机,自救</title>
-        <link>https://www.samrainhan.com/tags/surface%E6%AD%BB%E6%9C%BA%E8%87%AA%E6%95%91/</link>
-        <description>Recent content - sam的小窝 - Surface,死机,自救</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 10 Sep 2018 21:07:42 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/surface%E6%AD%BB%E6%9C%BA%E8%87%AA%E6%95%91/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surface,死机,自救 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/surface%E6%AD%BB%E6%9C%BA%E8%87%AA%E6%95%91/</link>
+    <description>Recent content in Surface,死机,自救 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 Sep 2018 21:07:42 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/surface%E6%AD%BB%E6%9C%BA%E8%87%AA%E6%95%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>surface死机自救法</title>
+      <link>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</link>
+      <pubDate>Mon, 10 Sep 2018 21:07:42 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/</guid>
+      <description>一般导致Surface无法正常开机有以下的几点原因： Windows更新没有优化到最新版本 不正常关机（电量完全耗尽在充电、强制关机等） 系统性能</description>
+    </item>
+  </channel>
 </rss>

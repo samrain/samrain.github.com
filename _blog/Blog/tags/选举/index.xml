@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 选举</title>
-        <link>https://www.samrainhan.com/tags/%E9%80%89%E4%B8%BE/</link>
-        <description>Recent content - sam的小窝 - 选举</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 19 Nov 2012 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E9%80%89%E4%B8%BE/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>选举 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E9%80%89%E4%B8%BE/</link>
+    <description>Recent content in 选举 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Nov 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E9%80%89%E4%B8%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是差额选举？</title>
+      <link>https://www.samrainhan.com/posts/2012-11-19-whats-the-competitive-election/</link>
+      <pubDate>Mon, 19 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2012-11-19-whats-the-competitive-election/</guid>
+      <description>思维导图文件下载 差额投票 一人多票 让选民表达他们最讨厌那部分候选人 统计哪部分候选人遭受的反对最多，它会将反对者相对最多的人淘汰掉 等额选举 每一位</description>
+    </item>
+  </channel>
 </rss>

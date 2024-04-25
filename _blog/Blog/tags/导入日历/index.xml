@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 导入日历</title>
-        <link>https://www.samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E6%97%A5%E5%8E%86/</link>
-        <description>Recent content - sam的小窝 - 导入日历</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 15 Apr 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E6%97%A5%E5%8E%86/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>导入日历 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E6%97%A5%E5%8E%86/</link>
+    <description>Recent content in 导入日历 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E6%97%A5%E5%8E%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>批量导出redmine任务并导入到google日历中</title>
+      <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
+      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 日出</title>
-        <link>https://www.samrainhan.com/tags/%E6%97%A5%E5%87%BA/</link>
-        <description>Recent content - sam的小窝 - 日出</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 18 Aug 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E6%97%A5%E5%87%BA/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日出 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E6%97%A5%E5%87%BA/</link>
+    <description>Recent content in 日出 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E6%97%A5%E5%87%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>丽水三日游</title>
+      <link>https://www.samrainhan.com/posts/2014-08-18-lishui-trip/</link>
+      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-08-18-lishui-trip/</guid>
+      <description>##第一天 上海出发，沿沈海高速经嘉绍大桥到【遂昌金矿旅游区】，约493.7公里 5小时4分钟。中饭在金华休息站吃。里程参考 【遂昌金矿旅游区】，</description>
+    </item>
+  </channel>
 </rss>

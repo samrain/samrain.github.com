@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 产品分析</title>
-        <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/</link>
-        <description>Recent content - sam的小窝 - 产品分析</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 25 Jul 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>产品分析 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 产品分析 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 25 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>向日葵产品分析</title>
+      <link>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</link>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-07-25-sunflower-product-analysis/</guid>
+      <description>#定价 4680元/年 #产品介绍 1个个人网站 公司介绍 产品资料 个人信息 10个承诺转介绍客户 1个手机网站 网络名片 随时随地向客户展示专业代理人身份信</description>
+    </item>
+  </channel>
 </rss>

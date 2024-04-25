@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55555&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Dropbox的用户密码加密机制 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	
-  <meta itemprop="name" content="Dropbox的用户密码加密机制">
-  <meta itemprop="description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur">
-  <meta itemprop="datePublished" content="2018-09-12T16:24:46+08:00">
-  <meta itemprop="dateModified" content="2018-09-12T16:24:46+08:00">
-  <meta itemprop="wordCount" content="607">
-  <meta itemprop="keywords" content="加密,密码,dropbox"><meta property="og:url" content="http://localhost:55555/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
+	<meta name="description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:55555/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Dropbox的用户密码加密机制">
   <meta property="og:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur">
@@ -21,118 +16,89 @@
     <meta property="article:tag" content="加密,密码,dropbox">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Dropbox的用户密码加密机制">
 <meta name="twitter:description" content="英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-secur">
-<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="http://localhost:55555/[]" />
+<script src="http://localhost:55555/js/feather.min.js"></script>
+	
+	
+        <link href="http://localhost:55555/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.css" />
-
-	<script src="http://localhost:55555/js/feather.min.js"></script>
 	
-		<script src="http://localhost:55555/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:55555/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:55555/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+		
 </head>
-
-
 <body>
-
-
-	
-	<div class="container wrapper">
-		<div class="header">
-	
-	<h1 class="site-title"><a href="http://localhost:55555/">sam的小窝</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"><li><a href="" title="github"><i data-feather=""></i></a></li><li><a href="" title="linkedin"><i data-feather=""></i></a></li><li><a href="" title="email"><i data-feather=""></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
-		</nav>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:55555/">sam的小窝</a>
 	</div>
-
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="http://localhost:55555/">Home</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/posts">Writings</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/tags">Tags</a>
-			</li>
-			
-			<li>
-				<a href="http://localhost:55555/about">About</a>
-			</li>
-			
-		</ul>
+	<nav>
+		
+		<a href="http://localhost:55555/">Home</a>
+		
+		<a href="http://localhost:55555/posts">Writings</a>
+		
+		<a href="http://localhost:55555/tags">Tags</a>
+		
+		<a href="http://localhost:55555/about">About</a>
+		
+		
 	</nav>
-</div>
+</header>
 
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Dropbox的用户密码加密机制</h1>
+			<div class="meta">Posted on Sep 12, 2018</div>
+		</div>
+		
 
-		<div class="post">
-    <div class="post-header">
-    
-    <div class="meta">
-        <div class="date">
-            <span class="day">12</span>
-            <span class="rest">Sep 2018</span>
-        </div>
-    </div>
-    
-    <div class="matter">
-        <h1 class="title">Dropbox的用户密码加密机制</h1>
-    </div>
-</div>
-
-
-    
-    
-    <p>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</p>
+		<section class="body">
+			<p>英文原文在Dropbox官博https://blogs.dropbox.com/tech/2016/09/how-dropbox-securely-stores-your-passwords/</p>
 <p>Dropbox的加密机制构建在三层加密基础之上，从里到外就像洋葱一样层层叠加。他们先是使用SHA512散列算法对明文密码进行散列，然后针对散列值进行bcrypt再散列。为什么在bcrypt之前要先做SHA散列呢？有些bcrypt实现会把散列值长度截至72字节，从而降低了密码的熵值，而有的则允许变长密码，这样容易受到DoS攻击。使用SHA512散列可以得到固定长度的512字节散列值，避免了上述的两个问题。</p>
 <p>在SHA散列之后是bcrypt散列。bcrypt散列算法是一种加盐（salt）散列算法，每个密码都有不同的“盐”，并且是分开存储的。bcrypt速度比较慢，这样就很难通过硬件加速来加快破解速度。而且bcrypt散列使用了成本因子10（每个因子相当于每一步计算需要耗费100毫秒的时间），这样就更是加大了暴力破解的难度。</p>
 <p>经过bcrypt散列之后，散列值会再次经过AES256算法的加密，这次加密会使用到秘钥，也就是所谓的“胡椒粉”（pepper）。胡椒粉也是被单独存储的，所以就算密码被偷了，没有这些胡椒粉，那些不怀好意的人也拿它们没办法。</p>
 <p>经过SHA512、bcrypt和AES256的三层加固，用户就可以高枕无忧了。</p>
 
-    <hr class="footer-separator" />
-<div class="tags">
-    
-    
-    <ul class="flat">
-        
-        
-        <li class="tag-li"><a href="http://localhost:55555/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox">加密,密码,dropbox</a>
-        </li>
-        
-    </ul>
-    
-    
-</div>
+		</section>
 
-
-
-<div class="back">
-    <a href="http://localhost:55555/"><span aria-hidden="true">← Back</span></a>
-</div>
-
-
-<div class="back">
-    
-</div>
-
-</div>
-
-	</div>
-	
-
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div>2018 </div>
-		
-	</nav>
-</div><script>feather.replace()</script>
-	
-</body>
-
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="http://localhost:55555/tags/%E5%8A%A0%E5%AF%86%E5%AF%86%E7%A0%81dropbox">加密,密码,dropbox</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
+    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script></div>
+    </body>
 </html>

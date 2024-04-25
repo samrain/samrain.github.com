@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - Categories</title>
-        <link>https://www.samrainhan.com/categories/</link>
-        <description>Recent content - sam的小窝 - Categories</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 22 Apr 2024 22:28:40 CST</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on sam的小窝</title>
+    <link>https://www.samrainhan.com/categories/</link>
+    <description>Recent content in Categories on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 Apr 2024 22:28:40 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work</title>
+      <link>https://www.samrainhan.com/categories/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>https://www.samrainhan.com/categories/family/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study</title>
+      <link>https://www.samrainhan.com/categories/study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://www.samrainhan.com/categories/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/home/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work,study</title>
+      <link>https://www.samrainhan.com/categories/workstudy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/workstudy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Play</title>
+      <link>https://www.samrainhan.com/categories/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/play/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study,work</title>
+      <link>https://www.samrainhan.com/categories/studywork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/studywork/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study,rust</title>
+      <link>https://www.samrainhan.com/categories/studyrust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/categories/studyrust/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

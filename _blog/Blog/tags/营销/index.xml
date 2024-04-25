@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 营销</title>
-        <link>https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80/</link>
-        <description>Recent content - sam的小窝 - 营销</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Fri, 24 Jun 2016 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>营销 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80/</link>
+    <description>Recent content in 营销 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 24 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%90%A5%E9%94%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>圈子营销&gt;逼格营销</title>
+      <link>https://www.samrainhan.com/posts/2016-06-24-network-marketing-pretend-bility-marketing/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-06-24-network-marketing-pretend-bility-marketing/</guid>
+      <description>这种带有小众组织烙印的商品，即便没有更多逼格，也一样能卖。甚至是没有商品也一样能，比如慈善对于捐款者来说可以买到快乐与尊重。</description>
+    </item>
+    <item>
+      <title>网络营销</title>
+      <link>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</link>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2016-05-22-internet-marketing/</guid>
+      <description>网站的价值 网站给用户解决了什么问题？ 用户上我的网站和别人的网站有什么区别？ 在我的网站上会获得更好的信息还是更好的体验？ 用户是否会记得我的网站</description>
+    </item>
+    <item>
+      <title>电影营销之全案推广</title>
+      <link>https://www.samrainhan.com/posts/2015-02-26-movie-marketing-promotion/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2015-02-26-movie-marketing-promotion/</guid>
+      <description>内地的营销公司分为两种形态：要么是在做内容营销部分就是前期植入广告和商务合作推广，如聚思传媒、合润传媒等；要么是专注在做后期的影片推广，就是</description>
+    </item>
+    <item>
+      <title>客户营销流程最佳实践</title>
+      <link>https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/</guid>
+      <description>思维导图文件下载 1.研究客户（也许就是你自己），寻找他觉得不爽的地方 2.问客户想不想爽 3.客户说想 4.我们提时间计划、预算和目标 5.我们和客</description>
+    </item>
+  </channel>
 </rss>

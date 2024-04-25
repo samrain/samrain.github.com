@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-
-        <title>sam的小窝 - 城市流程</title>
-        <link>https://www.samrainhan.com/tags/%E5%9F%8E%E5%B8%82%E6%B5%81%E7%A8%8B/</link>
-        <description>Recent content - sam的小窝 - 城市流程</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        
-        
-        
-        
-        <lastBuildDate>Mon, 23 Jun 2014 00:00:00 UTC</lastBuildDate>
-        <atom:link href="https://www.samrainhan.com/tags/%E5%9F%8E%E5%B8%82%E6%B5%81%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>城市流程 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%9F%8E%E5%B8%82%E6%B5%81%E7%A8%8B/</link>
+    <description>Recent content in 城市流程 on sam的小窝</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%9F%8E%E5%B8%82%E6%B5%81%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推动政府网站向供给和需求并重的建站模式转型</title>
+      <link>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-23-both-supply-and-demand/</guid>
+      <description>从用户体验优化和服务供给规范两个角度共同推动政府网站优化与改进“双轮驱动”的政府网站建站模式，形成由需求端向供给端回溯、“自下而上”的创新驱</description>
+    </item>
+    <item>
+      <title>iCity仪表盘</title>
+      <link>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-22-icity-dashboard/</guid>
+      <description>iCity仪表盘报告提供了更及时的表现手法和工作进展报告,有些数据启用实时更新,例如公共交通数据,而有些数据则每日、每周或是每月进行统计分析</description>
+    </item>
+    <item>
+      <title>城市流程绩效管理平台</title>
+      <link>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</link>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.samrainhan.com/posts/2014-06-21-urban-process-performance-management-platform/</guid>
+      <description>城市流程绩效管理平台基于云计算,通过整合与城市管理流程自动化,使用先进的技术与综合服务质量评估体系,驱动公共服务的效率和有效性。同时,市民可</description>
+    </item>
+  </channel>
 </rss>
