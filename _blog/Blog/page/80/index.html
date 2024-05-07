@@ -62,6 +62,17 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">给tempdb加2个文件做缓存</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	sql脚本如下： USE [master]; GO alter database tempdb modify file (name='tempdev', size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N'tempdev2', FILENAME = N'E:\SQLDATA\tempdev2.ndf' , SIZE = 8GB , FILEGROWTH = 0); GO&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表</a></h1>
 					<time>Sep 12, 2018</time>
 					<br><div class="description">
@@ -103,17 +114,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-how-dropbox-securely-stores-your-passwords/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/">NET代码检查工具</a></h1>
-					<time>Sep 12, 2018</time>
-					<br><div class="description">
-	
-	1.检查是否符合编码标准的工具 FxCop，StyleCop和ReSharper 2.静态分析工具 Coverity，Sonar，CAT.NET和&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/">Read more ⟶</a>
 				</section>
 				
 				
