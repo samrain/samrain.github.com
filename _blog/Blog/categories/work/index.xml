@@ -6,8 +6,15 @@
     <description>Recent content in Work on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 22 Apr 2024 22:28:40 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2024 23:32:28 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>企业AIGC实践案例小结</title>
+      <link>https://www.samrainhan.com/posts/2024-05-07-summary-of-enterprise-aigc-practice-cases/</link>
+      <pubDate>Tue, 07 May 2024 23:32:28 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-05-07-summary-of-enterprise-aigc-practice-cases/</guid>
+      <description>内容生成(39) 结构化信息归纳总结 文案、科研项目书生成 宣传内容、广告等生成 根据产品生成卖点介绍 办公辅助(36) 会议纪要 、邮件编写 合同管理、合</description>
+    </item>
     <item>
       <title>产品服务化</title>
       <link>https://www.samrainhan.com/posts/2024-04-22-product-serviceization/</link>
