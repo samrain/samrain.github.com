@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>评估 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E8%AF%84%E4%BC%B0/</link>
+    <description>Recent content in 评估 on sam的小窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 May 2024 20:53:58 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E8%AF%84%E4%BC%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>需求评估流程</title>
+      <link>https://www.samrainhan.com/posts/2024-05-30-demand-assessment-process/</link>
+      <pubDate>Thu, 30 May 2024 20:53:58 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-05-30-demand-assessment-process/</guid>
+      <description>mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&amp;gt;a[客户提问题] a--&amp;gt;b[客户已有产品能否解决] b--&amp;gt;|否</description>
+    </item>
+  </channel>
+</rss>

@@ -64,6 +64,17 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">整理SqlServer表上索引碎片</a></h1>
+					<time>Jul 25, 2016</time>
+					<br><div class="description">
+	
+	查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">避免URL中出现JSESSIONID</a></h1>
 					<time>Jul 24, 2016</time>
 					<br><div class="description">
@@ -105,17 +116,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Emacs 添加一条org</a></h1>
-					<time>Jul 20, 2016</time>
-					<br><div class="description">
-	
-	M-X org-add-note&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Read more ⟶</a>
 				</section>
 				
 				
