@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>资源申请 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/</link>
+    <link>http://localhost:1313/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/</link>
     <description>Recent content in 资源申请 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>资源申请流程</title>
-      <link>http://samrainhan.com/posts/2014-07-31-resources-application-process/</link>
+      <link>http://localhost:1313/posts/2014-07-31-resources-application-process/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-07-31-resources-application-process/</guid>
-      <description>第一步，员工发资源申请报告给部门负责人 第二步，根据资源的多少和紧急程度，可能会提交到更高一级的人员来进行审批 第三步，根据资源类型的不同来分，</description>
+      <guid>http://localhost:1313/posts/2014-07-31-resources-application-process/</guid>
+      <description>&lt;p&gt;第一步，员工发资源申请报告给部门负责人&lt;/p&gt;&#xA;&lt;p&gt;第二步，根据资源的多少和紧急程度，可能会提交到更高一级的人员来进行审批&lt;/p&gt;&#xA;&lt;p&gt;第三步，根据资源类型的不同来分，例如办公环境帐号、生产环境帐号、测试环境帐号，或者是电脑、其他IT设备等&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

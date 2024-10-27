@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookie on sam的小窝</title>
-    <link>http://samrainhan.com/tags/cookie/</link>
+    <link>http://localhost:1313/tags/cookie/</link>
     <description>Recent content in Cookie on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 15 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设置cookie为HttpOnly</title>
-      <link>http://samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</link>
+      <link>http://localhost:1313/posts/2016-07-15-set-cookie-is-httponly/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</guid>
-      <description>对于 .NET 2.0 应用可以在web.config中启用 HttpOnly &amp;lt;httpCookies httpOnlyCookies=&amp;quot;true&amp;quot;&amp;gt;</description>
+      <guid>http://localhost:1313/posts/2016-07-15-set-cookie-is-httponly/</guid>
+      <description>&lt;p&gt;对于 .NET 2.0 应用可以在web.config中启用 HttpOnly&#xA;&lt;code&gt;&amp;lt;httpCookies httpOnlyCookies=&amp;quot;true&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>收集,临时,任务 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E6%94%B6%E9%9B%86%E4%B8%B4%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+    <link>http://localhost:1313/tags/%E6%94%B6%E9%9B%86%E4%B8%B4%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
     <description>Recent content in 收集,临时,任务 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 19 Aug 2021 11:33:46 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E6%94%B6%E9%9B%86%E4%B8%B4%E6%97%B6%E4%BB%BB%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%94%B6%E9%9B%86%E4%B8%B4%E6%97%B6%E4%BB%BB%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>收集临时任务</title>
-      <link>http://samrainhan.com/posts/2021-08-19-collect-temporary-tasks/</link>
+      <link>http://localhost:1313/posts/2021-08-19-collect-temporary-tasks/</link>
       <pubDate>Thu, 19 Aug 2021 11:33:46 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-08-19-collect-temporary-tasks/</guid>
-      <description>收集临时任务 各自发送任务情况 任何人收到临时任务后，请转发给专用邮箱。 微信、钉钉、QQ、邮件均可以快速转发。 如果文字不方便，可以截长图后发邮件</description>
+      <guid>http://localhost:1313/posts/2021-08-19-collect-temporary-tasks/</guid>
+      <description>&lt;h1 id=&#34;收集临时任务&#34;&gt;收集临时任务&lt;/h1&gt;&#xA;&lt;h2 id=&#34;各自发送任务情况&#34;&gt;各自发送任务情况&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;任何人收到临时任务后，请转发给专用邮箱。&lt;/li&gt;&#xA;&lt;li&gt;微信、钉钉、QQ、邮件均可以快速转发。&lt;/li&gt;&#xA;&lt;li&gt;如果文字不方便，可以截长图后发邮件。&lt;/li&gt;&#xA;&lt;li&gt;如果有附件，请一并转发。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;专人整理搜集&#34;&gt;专人整理搜集&lt;/h2&gt;&#xA;&lt;p&gt;每天专人定时整理导入到【临时任务收集表】&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

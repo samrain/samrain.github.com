@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>传播,宣传,推广 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%BC%A0%E6%92%AD%E5%AE%A3%E4%BC%A0%E6%8E%A8%E5%B9%BF/</link>
+    <link>http://localhost:1313/tags/%E4%BC%A0%E6%92%AD%E5%AE%A3%E4%BC%A0%E6%8E%A8%E5%B9%BF/</link>
     <description>Recent content in 传播,宣传,推广 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 12 Dec 2019 11:53:49 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E4%BC%A0%E6%92%AD%E5%AE%A3%E4%BC%A0%E6%8E%A8%E5%B9%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BC%A0%E6%92%AD%E5%AE%A3%E4%BC%A0%E6%8E%A8%E5%B9%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>9大传播方式</title>
-      <link>http://samrainhan.com/posts/2019-12-12-9-ways-to-spread/</link>
+      <link>http://localhost:1313/posts/2019-12-12-9-ways-to-spread/</link>
       <pubDate>Thu, 12 Dec 2019 11:53:49 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2019-12-12-9-ways-to-spread/</guid>
-      <description>口碑传播 服务创造 公益行为 传播方式品质创造 事件创造 故事 意见领袖 电视大众媒体 博客传播 邮件传播 视频传播 事件传播 网络广告 论坛</description>
+      <guid>http://localhost:1313/posts/2019-12-12-9-ways-to-spread/</guid>
+      <description>&lt;h2 id=&#34;口碑传播&#34;&gt;口碑传播&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;服务创造&lt;/li&gt;&#xA;&lt;li&gt;公益行为&lt;/li&gt;&#xA;&lt;li&gt;传播方式品质创造&lt;/li&gt;&#xA;&lt;li&gt;事件创造&lt;/li&gt;&#xA;&lt;li&gt;故事&lt;/li&gt;&#xA;&lt;li&gt;意见领袖&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;电视大众媒体&#34;&gt;电视大众媒体&lt;/h2&gt;&#xA;&lt;h2 id=&#34;博客传播&#34;&gt;博客传播&lt;/h2&gt;&#xA;&lt;h2 id=&#34;邮件传播&#34;&gt;邮件传播&lt;/h2&gt;&#xA;&lt;h2 id=&#34;视频传播&#34;&gt;视频传播&lt;/h2&gt;&#xA;&lt;h2 id=&#34;事件传播&#34;&gt;事件传播&lt;/h2&gt;&#xA;&lt;h2 id=&#34;网络广告&#34;&gt;网络广告&lt;/h2&gt;&#xA;&lt;h2 id=&#34;论坛&#34;&gt;论坛&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

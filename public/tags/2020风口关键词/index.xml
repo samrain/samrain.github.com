@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020,风口,关键词 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/2020%E9%A3%8E%E5%8F%A3%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
+    <link>http://localhost:1313/tags/2020%E9%A3%8E%E5%8F%A3%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
     <description>Recent content in 2020,风口,关键词 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Mar 2021 11:28:07 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/2020%E9%A3%8E%E5%8F%A3%E5%85%B3%E9%94%AE%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/2020%E9%A3%8E%E5%8F%A3%E5%85%B3%E9%94%AE%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2020风口</title>
-      <link>http://samrainhan.com/posts/2021-03-07-2020-tuyere/</link>
+      <link>http://localhost:1313/posts/2021-03-07-2020-tuyere/</link>
       <pubDate>Sun, 07 Mar 2021 11:28:07 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-03-07-2020-tuyere/</guid>
-      <description>2020风口 1. 在数字化环境中以人为本 2. 产业互联网 2018年爆发 数字化》数据化》智能化 产业互联网可分为制造业互联网、农业互联网和服务业互联网。</description>
+      <guid>http://localhost:1313/posts/2021-03-07-2020-tuyere/</guid>
+      <description>&lt;h1 id=&#34;2020风口&#34;&gt;2020风口&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-在数字化环境中以人为本&#34;&gt;1. 在数字化环境中以人为本&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-产业互联网&#34;&gt;2. 产业互联网&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2018年爆发&lt;/li&gt;&#xA;&lt;li&gt;数字化》数据化》智能化&lt;/li&gt;&#xA;&lt;li&gt;产业互联网可分为制造业互联网、农业互联网和服务业互联网。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;3-灾害情况下工作&#34;&gt;3. 灾害情况下工作&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-自主创新&#34;&gt;4. 自主创新&lt;/h2&gt;&#xA;&lt;h2 id=&#34;5-敏捷&#34;&gt;5. 敏捷&lt;/h2&gt;&#xA;&lt;p&gt;可以帮助企业培养适应性思维和打造跨职能团队，以提高企业应对市场变化的速度、质量、灵活性和有效性，从而拉近企业与客户之间的关系，还可帮助企业利用人工智能等新兴技术近乎实时地预测并且实现与客户之间的有效互动。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

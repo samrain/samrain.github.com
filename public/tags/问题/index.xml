@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>问题 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E9%97%AE%E9%A2%98/</link>
+    <link>http://localhost:1313/tags/%E9%97%AE%E9%A2%98/</link>
     <description>Recent content in 问题 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 24 Feb 2021 15:07:05 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E9%97%AE%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%97%AE%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎么写问题</title>
-      <link>http://samrainhan.com/posts/2021-02-24-how-to-write-a-question/</link>
+      <link>http://localhost:1313/posts/2021-02-24-how-to-write-a-question/</link>
       <pubDate>Wed, 24 Feb 2021 15:07:05 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-02-24-how-to-write-a-question/</guid>
-      <description>怎么写问题 问题是什么。 假设问题的原因 证实每个问题的假设 预测实验的结果。 观察实验的结果。 由实验得出结论</description>
+      <guid>http://localhost:1313/posts/2021-02-24-how-to-write-a-question/</guid>
+      <description>&lt;h1 id=&#34;怎么写问题&#34;&gt;怎么写问题&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;问题是什么。&lt;/li&gt;&#xA;&lt;li&gt;假设问题的原因&lt;/li&gt;&#xA;&lt;li&gt;证实每个问题的假设&lt;/li&gt;&#xA;&lt;li&gt;预测实验的结果。&lt;/li&gt;&#xA;&lt;li&gt;观察实验的结果。&lt;/li&gt;&#xA;&lt;li&gt;由实验得出结论&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

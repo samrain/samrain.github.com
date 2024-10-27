@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>训练,靠墙 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E8%AE%AD%E7%BB%83%E9%9D%A0%E5%A2%99/</link>
+    <link>http://localhost:1313/tags/%E8%AE%AD%E7%BB%83%E9%9D%A0%E5%A2%99/</link>
     <description>Recent content in 训练,靠墙 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Jan 2020 23:17:05 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E8%AE%AD%E7%BB%83%E9%9D%A0%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%AE%AD%E7%BB%83%E9%9D%A0%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>靠墙训练</title>
-      <link>http://samrainhan.com/posts/2020-01-01-exercise-against-the-wall/</link>
+      <link>http://localhost:1313/posts/2020-01-01-exercise-against-the-wall/</link>
       <pubDate>Tue, 21 Jan 2020 23:17:05 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2020-01-01-exercise-against-the-wall/</guid>
-      <description>腿部力量训练 靠墙静蹲 单腿靠墙静蹲 对墙下蹲 抱头下蹲 扶墙单腿半蹲 扶墙高抬腿 单脚提踵 练完拉伸 大腿后群拉伸 大腿前群拉伸 小腿拉伸 髋前部拉伸 臀肌拉伸 背部</description>
+      <guid>http://localhost:1313/posts/2020-01-01-exercise-against-the-wall/</guid>
+      <description>&lt;h2 id=&#34;腿部力量训练&#34;&gt;腿部力量训练&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;靠墙静蹲&lt;/li&gt;&#xA;&lt;li&gt;单腿靠墙静蹲&lt;/li&gt;&#xA;&lt;li&gt;对墙下蹲&lt;/li&gt;&#xA;&lt;li&gt;抱头下蹲&lt;/li&gt;&#xA;&lt;li&gt;扶墙单腿半蹲&lt;/li&gt;&#xA;&lt;li&gt;扶墙高抬腿&lt;/li&gt;&#xA;&lt;li&gt;单脚提踵&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;练完拉伸&#34;&gt;练完拉伸&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;大腿后群拉伸&lt;/li&gt;&#xA;&lt;li&gt;大腿前群拉伸&lt;/li&gt;&#xA;&lt;li&gt;小腿拉伸&lt;/li&gt;&#xA;&lt;li&gt;髋前部拉伸&lt;/li&gt;&#xA;&lt;li&gt;臀肌拉伸&lt;/li&gt;&#xA;&lt;li&gt;背部拉伸&lt;/li&gt;&#xA;&lt;li&gt;胸部拉伸&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

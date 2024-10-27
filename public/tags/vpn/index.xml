@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VPN on sam的小窝</title>
-    <link>http://samrainhan.com/tags/vpn/</link>
+    <link>http://localhost:1313/tags/vpn/</link>
     <description>Recent content in VPN on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 15 Jan 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Ubuntu上使用命令行CLI方式使用VPN</title>
-      <link>http://samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</link>
+      <link>http://localhost:1313/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</guid>
-      <description>思维导图文件下载 安装客户端 sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome 设置客户端 sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start 拨号 sudo pon vpnname 使用 sudo addroute 挂断 sudo poff vpnname</description>
+      <guid>http://localhost:1313/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIbWRnWDNwT0NtcG8/edit&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装客户端&#34;&gt;安装客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-apt-get-install-pptpd-network-manager-pptp-network-manager-vpnc-network-manager-gnome&#34;&gt;sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome&lt;/h3&gt;&#xA;&lt;h2 id=&#34;设置客户端&#34;&gt;设置客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pptpsetup---create-vpnname---server-ip---username-test---password-test---encrypt---start&#34;&gt;sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start&lt;/h3&gt;&#xA;&lt;h2 id=&#34;拨号&#34;&gt;拨号&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pon-vpnname&#34;&gt;sudo pon vpnname&lt;/h3&gt;&#xA;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-addroute&#34;&gt;sudo addroute&lt;/h3&gt;&#xA;&lt;h2 id=&#34;挂断&#34;&gt;挂断&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-poff-vpnname&#34;&gt;sudo poff vpnname&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

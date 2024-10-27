@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>投诉,粉丝,顾客 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E6%8A%95%E8%AF%89%E7%B2%89%E4%B8%9D%E9%A1%BE%E5%AE%A2/</link>
+    <link>http://localhost:1313/tags/%E6%8A%95%E8%AF%89%E7%B2%89%E4%B8%9D%E9%A1%BE%E5%AE%A2/</link>
     <description>Recent content in 投诉,粉丝,顾客 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Jan 2021 16:36:15 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E6%8A%95%E8%AF%89%E7%B2%89%E4%B8%9D%E9%A1%BE%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%8A%95%E8%AF%89%E7%B2%89%E4%B8%9D%E9%A1%BE%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投诉是粉丝的开始</title>
-      <link>http://samrainhan.com/posts/2021-01-27-complaints-are-the-beginning-of-fans/</link>
+      <link>http://localhost:1313/posts/2021-01-27-complaints-are-the-beginning-of-fans/</link>
       <pubDate>Wed, 27 Jan 2021 16:36:15 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-01-27-complaints-are-the-beginning-of-fans/</guid>
-      <description>投诉是粉丝的开始 如果你想成为一个有作为的人，就应该采取实际行动，拿出诚意，将投诉客变为你的铁杆粉丝。 如果你是客人，而对方又妥善处理好了你的投</description>
+      <guid>http://localhost:1313/posts/2021-01-27-complaints-are-the-beginning-of-fans/</guid>
+      <description>&lt;h1 id=&#34;投诉是粉丝的开始&#34;&gt;投诉是粉丝的开始&lt;/h1&gt;&#xA;&lt;p&gt;如果你想成为一个有作为的人，就应该采取实际行动，拿出诚意，将投诉客变为你的铁杆粉丝。&lt;/p&gt;&#xA;&lt;p&gt;如果你是客人，而对方又妥善处理好了你的投诉，你肯定会为他的态度所感动，赞叹他“真了不起”。反之，你原本是这家店铺的忠实顾客，可你的投诉却被店家忽视，你肯定会向周围宣传说：“这种店我以后再也不去了！”&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

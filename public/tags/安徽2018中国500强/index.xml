@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>安徽,2018,中国500强 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%AE%89%E5%BE%BD2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/</link>
+    <link>http://localhost:1313/tags/%E5%AE%89%E5%BE%BD2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/</link>
     <description>Recent content in 安徽,2018,中国500强 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 13 Dec 2020 11:21:17 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%AE%89%E5%BE%BD2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AE%89%E5%BE%BD2018%E4%B8%AD%E5%9B%BD500%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安徽2018中国500强</title>
-      <link>http://samrainhan.com/posts/2020-12-13-anhui-2018-china-top-500/</link>
+      <link>http://localhost:1313/posts/2020-12-13-anhui-2018-china-top-500/</link>
       <pubDate>Sun, 13 Dec 2020 11:21:17 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2020-12-13-anhui-2018-china-top-500/</guid>
-      <description>安徽2018中国500强</description>
+      <guid>http://localhost:1313/posts/2020-12-13-anhui-2018-china-top-500/</guid>
+      <description>&lt;h1 id=&#34;安徽2018中国500强&#34;&gt;安徽2018中国500强&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pic.downk.cc/item/5f6cc7d9160a154a6791a9db.png&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f6cc7d9160a154a6791a9db.png&#34; alt=&#34;安徽2018中国500强&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>解决bpool空间不够的问题 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="问题 Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t" />
+	<meta name="description" content="问题
+Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space.
+检查命令
+df -h /
+zfs list -o space rpool bpool
+zfs list -t snapshot
+解决问题命令:
+sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy
+" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">
+	<meta property="og:url" content="http://localhost:1313/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="解决bpool空间不够的问题">
-  <meta property="og:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t">
+  <meta property="og:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space.
+检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,16 +27,17 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="解决bpool空间不够的问题">
-  <meta name="twitter:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t">
-<script src="http://samrainhan.com/js/feather.min.js"></script>
+  <meta name="twitter:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space.
+检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy">
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="http://samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -42,17 +52,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://samrainhan.com/">sam的小窝</a>
+		<a href="http://localhost:1313/">sam的小窝</a>
 	</div>
 	<nav>
 		
-		<a href="http://samrainhan.com/">Home</a>
+		<a href="http://localhost:1313/">Home</a>
 		
-		<a href="http://samrainhan.com/posts">Writings</a>
+		<a href="http://localhost:1313/posts">Writings</a>
 		
-		<a href="http://samrainhan.com/tags">Tags</a>
+		<a href="http://localhost:1313/tags">Tags</a>
 		
-		<a href="http://samrainhan.com/about">About</a>
+		<a href="http://localhost:1313/about">About</a>
 		
 		
 	</nav>
@@ -84,9 +94,9 @@ zfs list -t snapshot
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="http://samrainhan.com/tags/linux">linux</a></li>
+					<li><a href="http://localhost:1313/tags/linux">linux</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/ubuntu">ubuntu</a></li>
+					<li><a href="http://localhost:1313/tags/ubuntu">ubuntu</a></li>
 					
 				</ul>
 			</nav>
@@ -105,11 +115,6 @@ zfs list -t snapshot
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

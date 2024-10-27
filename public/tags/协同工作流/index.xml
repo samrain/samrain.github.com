@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>协同,工作流 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+    <link>http://localhost:1313/tags/%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
     <description>Recent content in 协同,工作流 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 08 Feb 2022 15:35:05 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5种常见协同工作流</title>
-      <link>http://samrainhan.com/posts/2022-02-08-5-common-collaborative-workflows/</link>
+      <link>http://localhost:1313/posts/2022-02-08-5-common-collaborative-workflows/</link>
       <pubDate>Tue, 08 Feb 2022 15:35:05 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2022-02-08-5-common-collaborative-workflows/</guid>
-      <description>5种常见协同工作流 1. 团队内部工作 团队协调工作流程就是要有足够的可见性来保持团队的一致性。作为一名经理，你需要知道你的团队正在做什么，他们何时</description>
+      <guid>http://localhost:1313/posts/2022-02-08-5-common-collaborative-workflows/</guid>
+      <description>&lt;h1 id=&#34;5种常见协同工作流&#34;&gt;5种常见协同工作流&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-团队内部工作&#34;&gt;1. 团队内部工作&lt;/h2&gt;&#xA;&lt;p&gt;团队协调工作流程就是要有足够的可见性来保持团队的一致性。作为一名经理，你需要知道你的团队正在做什么，他们何时被淹没或阻塞，以及他们是否达到或错过了他们的最后期限。要获取此信息，您可能需要定期召开状态更新会议；您可能会从一个工具跳到另一个工具，检查进度并确保每个人都有他们需要的信息；或者你可能会在IM上度过你的日子，戳戳并催促人们更新。此过程中的每一步都构成了您的团队协调工作流程。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

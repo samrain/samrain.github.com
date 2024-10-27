@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>场景 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%9C%BA%E6%99%AF/</link>
+    <link>http://localhost:1313/tags/%E5%9C%BA%E6%99%AF/</link>
     <description>Recent content in 场景 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 08 Aug 2024 09:30:01 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%9C%BA%E6%99%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%9C%BA%E6%99%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>构建十个智能场景满足多样教学需求</title>
-      <link>http://samrainhan.com/posts/2024-08-08-build-ten-intelligent-scenarios-to-meet-diverse-teaching-needs/</link>
+      <link>http://localhost:1313/posts/2024-08-08-build-ten-intelligent-scenarios-to-meet-diverse-teaching-needs/</link>
       <pubDate>Thu, 08 Aug 2024 09:30:01 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2024-08-08-build-ten-intelligent-scenarios-to-meet-diverse-teaching-needs/</guid>
-      <description>构建十个智能场景满足多样教学需求： 24H智能学伴 备课辅助 教学管理 数字人与国际化 智能体协作 知识图谱 课堂授课帮手 资源检索与推荐 题库建设 智能批改</description>
+      <guid>http://localhost:1313/posts/2024-08-08-build-ten-intelligent-scenarios-to-meet-diverse-teaching-needs/</guid>
+      <description>&lt;p&gt;构建十个智能场景满足多样教学需求：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;24H智能学伴&lt;/li&gt;&#xA;&lt;li&gt;备课辅助&lt;/li&gt;&#xA;&lt;li&gt;教学管理&lt;/li&gt;&#xA;&lt;li&gt;数字人与国际化&lt;/li&gt;&#xA;&lt;li&gt;智能体协作&lt;/li&gt;&#xA;&lt;li&gt;知识图谱&lt;/li&gt;&#xA;&lt;li&gt;课堂授课帮手&lt;/li&gt;&#xA;&lt;li&gt;资源检索与推荐&lt;/li&gt;&#xA;&lt;li&gt;题库建设&lt;/li&gt;&#xA;&lt;li&gt;智能批改&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

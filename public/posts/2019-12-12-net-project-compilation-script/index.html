@@ -1,13 +1,34 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>.NET项目编译脚本 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo" />
+	<meta name="description" content="编译整体项目 compile
+call %dir-of-bat%%filename-of-get-last-version%
+call %dir-of-bat%%filename-of-clean-sln%
+call %dir-of-bat%%filename-of-rebulid-sln%
+获取最新代码 get-last-version
+call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34;
+tf get %dir-of-code% /recursive
+清理工程 clean-sln
+msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
+重新编译工程 rebulid-sln
+MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
+发布工程
+msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild;ResolveReferences;_CopyWebApplication /p:Configuration=Release /p:OutDir=%dir-of-deploy%%name-of-project% /fl /flp:errorsonly;Append;logfile=%filename-of-log%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-pdb%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-nlog%
+发布网站
+aspnet_compiler /nologo -f -c -v /%name-of-project% -p %dir-of-code%%name-of-project% %dir-of-deploy%%name-of-project%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
+" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://samrainhan.com/posts/2019-12-12-net-project-compilation-script/">
+	<meta property="og:url" content="http://localhost:1313/posts/2019-12-12-net-project-compilation-script/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content=".NET项目编译脚本">
-  <meta property="og:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo">
+  <meta property="og:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild;ResolveReferences;_CopyWebApplication /p:Configuration=Release /p:OutDir=%dir-of-deploy%%name-of-project% /fl /flp:errorsonly;Append;logfile=%filename-of-log% del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-pdb% del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-nlog% 发布网站 aspnet_compiler /nologo -f -c -v /%name-of-project% -p %dir-of-code%%name-of-project% %dir-of-deploy%%name-of-project% del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,16 +38,16 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content=".NET项目编译脚本">
-  <meta name="twitter:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo">
-<script src="http://samrainhan.com/js/feather.min.js"></script>
+  <meta name="twitter:description" content="编译整体项目 compile call %dir-of-bat%%filename-of-get-last-version% call %dir-of-bat%%filename-of-clean-sln% call %dir-of-bat%%filename-of-rebulid-sln% 获取最新代码 get-last-version call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34; tf get %dir-of-code% /recursive 清理工程 clean-sln msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 重新编译工程 rebulid-sln MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log% 发布工程 msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild;ResolveReferences;_CopyWebApplication /p:Configuration=Release /p:OutDir=%dir-of-deploy%%name-of-project% /fl /flp:errorsonly;Append;logfile=%filename-of-log% del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-pdb% del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-nlog% 发布网站 aspnet_compiler /nologo -f -c -v /%name-of-project% -p %dir-of-code%%name-of-project% %dir-of-deploy%%name-of-project% del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%">
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="http://samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -41,17 +62,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://samrainhan.com/">sam的小窝</a>
+		<a href="http://localhost:1313/">sam的小窝</a>
 	</div>
 	<nav>
 		
-		<a href="http://samrainhan.com/">Home</a>
+		<a href="http://localhost:1313/">Home</a>
 		
-		<a href="http://samrainhan.com/posts">Writings</a>
+		<a href="http://localhost:1313/posts">Writings</a>
 		
-		<a href="http://samrainhan.com/tags">Tags</a>
+		<a href="http://localhost:1313/tags">Tags</a>
 		
-		<a href="http://samrainhan.com/about">About</a>
+		<a href="http://localhost:1313/about">About</a>
 		
 		
 	</nav>
@@ -96,7 +117,7 @@ del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="http://samrainhan.com/tags/%E6%97%85%E6%B8%B8%E9%9D%92%E6%B5%B7">旅游,青海</a></li>
+					<li><a href="http://localhost:1313/tags/%E6%97%85%E6%B8%B8%E9%9D%92%E6%B5%B7">旅游,青海</a></li>
 					
 				</ul>
 			</nav>
@@ -115,11 +136,6 @@ del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

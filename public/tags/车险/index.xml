@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>车险 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E8%BD%A6%E9%99%A9/</link>
+    <link>http://localhost:1313/tags/%E8%BD%A6%E9%99%A9/</link>
     <description>Recent content in 车险 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Aug 2024 12:02:17 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E8%BD%A6%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%BD%A6%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tesla Model3 丐版车险选择对比</title>
-      <link>http://samrainhan.com/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</link>
+      <link>http://localhost:1313/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</link>
       <pubDate>Wed, 07 Aug 2024 12:02:17 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</guid>
-      <description>给一辆2023年Model3丐版选择车险，详细表格见这个 https://kdocs.cn/l/csjBaEgWl4Gf</description>
+      <guid>http://localhost:1313/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</guid>
+      <description>&lt;p&gt;给一辆2023年Model3丐版选择车险，详细表格见这个 &lt;a href=&#34;https://kdocs.cn/l/csjBaEgWl4Gf&#34;&gt;https://kdocs.cn/l/csjBaEgWl4Gf&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>公网IP on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/</link>
+    <link>http://localhost:1313/tags/%E5%85%AC%E7%BD%91ip/</link>
     <description>Recent content in 公网IP on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%85%AC%E7%BD%91ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>得到当前电脑的公网IP</title>
-      <link>http://samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</link>
+      <link>http://localhost:1313/posts/2016-06-05-get-current-computer-network-ip/</link>
       <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/</guid>
-      <description>http://www.whatismyip.com/</description>
+      <guid>http://localhost:1313/posts/2016-06-05-get-current-computer-network-ip/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.whatismyip.com/&#34;&gt;http://www.whatismyip.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

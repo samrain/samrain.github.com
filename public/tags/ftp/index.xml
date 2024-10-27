@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FTP on sam的小窝</title>
-    <link>http://samrainhan.com/tags/ftp/</link>
+    <link>http://localhost:1313/tags/ftp/</link>
     <description>Recent content in FTP on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>部门制度</title>
-      <link>http://samrainhan.com/posts/2014-08-31-departmental-systems/</link>
+      <link>http://localhost:1313/posts/2014-08-31-departmental-systems/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-08-31-departmental-systems/</guid>
-      <description>##一般会议执行制度 确定会议日程。确定会议中到底要讨论什么是保证会议效率的关键，没有会议日程就不要开会。 大会化小。短而主题独立的会议胜于长而</description>
+      <guid>http://localhost:1313/posts/2014-08-31-departmental-systems/</guid>
+      <description>&lt;p&gt;##一般会议执行制度&lt;/p&gt;&#xA;&lt;p&gt;确定会议日程。确定会议中到底要讨论什么是保证会议效率的关键，没有会议日程就不要开会。&lt;/p&gt;&#xA;&lt;p&gt;大会化小。短而主题独立的会议胜于长而多主题的会议。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

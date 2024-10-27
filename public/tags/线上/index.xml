@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>线上 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E7%BA%BF%E4%B8%8A/</link>
+    <link>http://localhost:1313/tags/%E7%BA%BF%E4%B8%8A/</link>
     <description>Recent content in 线上 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 03 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E7%BA%BF%E4%B8%8A/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%BA%BF%E4%B8%8A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>线上与线下的活动有什么推广渠道</title>
-      <link>http://samrainhan.com/posts/2014-08-03-promotion-channels-online-and-offline-activities/</link>
+      <link>http://localhost:1313/posts/2014-08-03-promotion-channels-online-and-offline-activities/</link>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-08-03-promotion-channels-online-and-offline-activities/</guid>
-      <description>定位-&amp;gt;确定目标群体-&amp;gt;分析现状-&amp;gt;确定我们处于那个阶段-&amp;gt;建立不同的市场策略-&amp;gt;执行 ##线上推广分为： 1.数</description>
+      <guid>http://localhost:1313/posts/2014-08-03-promotion-channels-online-and-offline-activities/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;定位-&amp;gt;确定目标群体-&amp;gt;分析现状-&amp;gt;确定我们处于那个阶段-&amp;gt;建立不同的市场策略-&amp;gt;执行&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;##线上推广分为：&lt;/p&gt;&#xA;&lt;p&gt;1.数据库营销，销售额贡献度不大，转化率较低；但是挖掘潜在人群，品牌发力上从投资回报率来说不错&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

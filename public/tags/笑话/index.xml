@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笑话 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E7%AC%91%E8%AF%9D/</link>
+    <link>http://localhost:1313/tags/%E7%AC%91%E8%AF%9D/</link>
     <description>Recent content in 笑话 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 14 Jun 2019 23:17:48 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E7%AC%91%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%AC%91%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>笑话</title>
-      <link>http://samrainhan.com/posts/2019-06-14-jokes/</link>
+      <link>http://localhost:1313/posts/2019-06-14-jokes/</link>
       <pubDate>Fri, 14 Jun 2019 23:17:48 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2019-06-14-jokes/</guid>
-      <description>一个老外问我傻B和牛B中的B是什么意思。我告诉他，B是个副词，形容很厉害，比如傻B就是“傻的很厉害”，牛B就是“牛的很厉害”，装B就是“装的</description>
+      <guid>http://localhost:1313/posts/2019-06-14-jokes/</guid>
+      <description>&lt;p&gt;一个老外问我傻B和牛B中的B是什么意思。我告诉他，B是个副词，形容很厉害，比如傻B就是“傻的很厉害”，牛B就是“牛的很厉害”，装B就是“装的很厉害”。不久，老外到中国女朋友家吃饭，女朋友妈妈烧的菜很好吃，老外竖起大拇指说——你妈B！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

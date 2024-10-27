@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Tcpdump介绍 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原" />
+	<meta name="description" content="Why
+看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原来那串命令就是tcpdump XXXX，很神奇。
+由于平常工作偶尔也会用到Wireshark，不过一般都是在Windows上，很少在Linux下用，所以很好奇tcpdump。" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://samrainhan.com/posts/2015-05-03-tcpdump/">
+	<meta property="og:url" content="http://localhost:1313/posts/2015-05-03-tcpdump/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Tcpdump介绍">
-  <meta property="og:description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原">
+  <meta property="og:description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原来那串命令就是tcpdump XXXX，很神奇。 由于平常工作偶尔也会用到Wireshark，不过一般都是在Windows上，很少在Linux下用，所以很好奇tcpdump。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -20,16 +22,16 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tcpdump介绍">
-  <meta name="twitter:description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原">
-<script src="http://samrainhan.com/js/feather.min.js"></script>
+  <meta name="twitter:description" content="Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原来那串命令就是tcpdump XXXX，很神奇。 由于平常工作偶尔也会用到Wireshark，不过一般都是在Windows上，很少在Linux下用，所以很好奇tcpdump。">
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="http://samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -44,17 +46,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://samrainhan.com/">sam的小窝</a>
+		<a href="http://localhost:1313/">sam的小窝</a>
 	</div>
 	<nav>
 		
-		<a href="http://samrainhan.com/">Home</a>
+		<a href="http://localhost:1313/">Home</a>
 		
-		<a href="http://samrainhan.com/posts">Writings</a>
+		<a href="http://localhost:1313/posts">Writings</a>
 		
-		<a href="http://samrainhan.com/tags">Tags</a>
+		<a href="http://localhost:1313/tags">Tags</a>
 		
-		<a href="http://samrainhan.com/about">About</a>
+		<a href="http://localhost:1313/about">About</a>
 		
 		
 	</nav>
@@ -260,13 +262,13 @@ ether的包进行处理和分析</li>
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="http://samrainhan.com/tags/linux">linux</a></li>
+					<li><a href="http://localhost:1313/tags/linux">linux</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/%E9%80%9A%E4%BF%A1">通信</a></li>
+					<li><a href="http://localhost:1313/tags/%E9%80%9A%E4%BF%A1">通信</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/%E6%8A%A5%E6%96%87">报文</a></li>
+					<li><a href="http://localhost:1313/tags/%E6%8A%A5%E6%96%87">报文</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/tcpdump">tcpdump</a></li>
+					<li><a href="http://localhost:1313/tags/tcpdump">tcpdump</a></li>
 					
 				</ul>
 			</nav>
@@ -285,11 +287,6 @@ ether的包进行处理和分析</li>
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

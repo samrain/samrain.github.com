@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>快递 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%BF%AB%E9%80%92/</link>
+    <link>http://localhost:1313/tags/%E5%BF%AB%E9%80%92/</link>
     <description>Recent content in 快递 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 23 Jun 2021 09:04:55 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%BF%AB%E9%80%92/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%BF%AB%E9%80%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>国内快递去米国的选择</title>
-      <link>http://samrainhan.com/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</link>
+      <link>http://localhost:1313/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</link>
       <pubDate>Wed, 23 Jun 2021 09:04:55 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</guid>
-      <description>国内快递去米国的选择 建议采取邮政渠道或者商业快件渠道 参考 1. 商业快件服务 200克的文件，无论是UPS，Fedex ，DHL，价格都在280人民币</description>
+      <guid>http://localhost:1313/posts/2021-06-22-the-choice-of-domestic-express-delivery-to-the-u.s/</guid>
+      <description>&lt;h1 id=&#34;国内快递去米国的选择&#34;&gt;国内快递去米国的选择&lt;/h1&gt;&#xA;&lt;h2 id=&#34;建议采取邮政渠道或者商业快件渠道&#34;&gt;建议采取邮政渠道或者商业快件渠道&lt;/h2&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-商业快件服务&#34;&gt;1. 商业快件服务&lt;/h3&gt;&#xA;&lt;p&gt;200克的文件，无论是UPS，Fedex ，DHL，价格都在280人民币左右。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-中国邮政国际ems&#34;&gt;2. 中国邮政国际EMS&lt;/h3&gt;&#xA;&lt;p&gt;价格180人民币+报关5人民币。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

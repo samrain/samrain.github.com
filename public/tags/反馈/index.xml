@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>反馈 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%8F%8D%E9%A6%88/</link>
+    <link>http://localhost:1313/tags/%E5%8F%8D%E9%A6%88/</link>
     <description>Recent content in 反馈 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8F%8D%E9%A6%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>速度收集客户意见</title>
-      <link>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</link>
+      <link>http://localhost:1313/posts/2016-05-03-collect-customer-feedback/</link>
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2016-05-03-collect-customer-feedback/</guid>
-      <description>在线反馈 在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。 主动给用户打回访电话 因为可以看</description>
+      <guid>http://localhost:1313/posts/2016-05-03-collect-customer-feedback/</guid>
+      <description>&lt;h2 id=&#34;在线反馈a-idsec-5-2-namesec-5-2a&#34;&gt;在线反馈&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。&lt;/p&gt;&#xA;&lt;h2 id=&#34;主动给用户打回访电话a-idsec-5-3-namesec-5-3a&#34;&gt;主动给用户打回访电话&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;因为可以看到用户的在线状态，而且很多用户后台留有手机，挑选几个在线的用户，打个电话过去。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

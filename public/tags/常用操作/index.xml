@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>常用操作 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
+    <link>http://localhost:1313/tags/%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
     <description>Recent content in 常用操作 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux常用操作</title>
-      <link>http://samrainhan.com/posts/2015-02-10-common-linux-operating/</link>
+      <link>http://localhost:1313/posts/2015-02-10-common-linux-operating/</link>
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-02-10-common-linux-operating/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/2015-02-10-common-linux-operating/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>

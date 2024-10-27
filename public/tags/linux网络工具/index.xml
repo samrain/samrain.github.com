@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux,网络,工具 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/linux%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</link>
+    <link>http://localhost:1313/tags/linux%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</link>
     <description>Recent content in Linux,网络,工具 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 12 Dec 2020 23:33:20 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/linux%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用linux网络工具命令</title>
-      <link>http://samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</link>
+      <link>http://localhost:1313/posts/2020-12-12-common-linux-network-tool-commands/</link>
       <pubDate>Sat, 12 Dec 2020 23:33:20 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2020-12-12-common-linux-network-tool-commands/</guid>
-      <description>常用linux网络工具命令</description>
+      <guid>http://localhost:1313/posts/2020-12-12-common-linux-network-tool-commands/</guid>
+      <description>&lt;h1 id=&#34;常用linux网络工具命令&#34;&gt;常用linux网络工具命令&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pic.downk.cc/item/5f6cb58c160a154a678b1bb2.jpg&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f6cb58c160a154a678b1bb2.jpg&#34; alt=&#34;常用linux网络工具命令&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

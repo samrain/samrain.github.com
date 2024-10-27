@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vi on sam的小窝</title>
-    <link>http://samrainhan.com/tags/vi/</link>
+    <link>http://localhost:1313/tags/vi/</link>
     <description>Recent content in Vi on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 11 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/vi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GVim编辑窍门</title>
-      <link>http://samrainhan.com/posts/2010-02-11-gvim-editing-tips/</link>
+      <link>http://localhost:1313/posts/2010-02-11-gvim-editing-tips/</link>
       <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2010-02-11-gvim-editing-tips/</guid>
-      <description>准备工作 首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test 查找替换 按几下 ESC 进入 Normal 模式， 输入以下命令： :%s/ /\r/g 回车后得到的效果如下</description>
+      <guid>http://localhost:1313/posts/2010-02-11-gvim-editing-tips/</guid>
+      <description>&lt;h1 id=&#34;准备工作&#34;&gt;准备工作&lt;/h1&gt;&#xA;&lt;p&gt;首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test&lt;/p&gt;&#xA;&lt;h1 id=&#34;查找替换&#34;&gt;查找替换&lt;/h1&gt;&#xA;&lt;p&gt;按几下 ESC 进入 Normal 模式， 输入以下命令： &lt;code&gt;:%s/ /\r/g&lt;/code&gt; 回车后得到的效果如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;this&#xA;is&#xA;a&#xA;test&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;解说： 这条命令的作用是将文章中所有的空格替换为回车。 几乎所有的编辑器都支持查找替换， 但并不是所有的编辑器都支持把空格替换为回车， 因此这个功能在许多别的编辑器里做起来是比较繁琐的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

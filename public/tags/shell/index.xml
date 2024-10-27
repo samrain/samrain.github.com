@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on sam的小窝</title>
-    <link>http://samrainhan.com/tags/shell/</link>
+    <link>http://localhost:1313/tags/shell/</link>
     <description>Recent content in Shell on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 30 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在线查询shell命令帮助</title>
-      <link>http://samrainhan.com/posts/2015-06-30-shell-help-online/</link>
+      <link>http://localhost:1313/posts/2015-06-30-shell-help-online/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-06-30-shell-help-online/</guid>
-      <description>网址:http://www.explainshell.com 都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清楚一些。</description>
+      <guid>http://localhost:1313/posts/2015-06-30-shell-help-online/</guid>
+      <description>&lt;p&gt;网址:&lt;a href=&#34;&#34;&gt;http://www.explainshell.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;都是英文的，感觉就像是把man里面的内容复制出来一样，不过有连线看的更清楚一些。&lt;/p&gt;&#xA;&lt;p&gt;感觉有点鸡肋，一般不懂就直接看man了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

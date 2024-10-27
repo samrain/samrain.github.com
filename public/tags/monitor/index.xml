@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monitor on sam的小窝</title>
-    <link>http://samrainhan.com/tags/monitor/</link>
+    <link>http://localhost:1313/tags/monitor/</link>
     <description>Recent content in Monitor on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 11 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitorbook 监视网页内容变化</title>
-      <link>http://samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</link>
+      <link>http://localhost:1313/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</link>
       <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</guid>
-      <description>Why 比如：电商价格监控，有货无货监控 What 官网在此 https://monitorbook.com/ 免费版本可以监控 5 个项目以及每小时一次的刷新，监控内容可以是数字也可以是文字，设置警告项当低于</description>
+      <guid>http://localhost:1313/posts/2015-02-11-monitorbook-monitor-change-of-webpage/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;比如：电商价格监控，有货无货监控&lt;/p&gt;&#xA;&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;官网在此 &lt;a href=&#34;https://monitorbook.com/&#34;&gt;https://monitorbook.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;免费版本可以监控 5 个项目以及每小时一次的刷新，监控内容可以是数字也可以是文字，设置警告项当低于、高于或者等于某一值时发邮件通知。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

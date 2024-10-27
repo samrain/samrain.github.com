@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SAAS on sam的小窝</title>
-    <link>http://samrainhan.com/tags/saas/</link>
+    <link>http://localhost:1313/tags/saas/</link>
     <description>Recent content in SAAS on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 05 Jun 2018 10:28:18 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/saas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用SAAS服务</title>
-      <link>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</link>
+      <link>http://localhost:1313/posts/2018-06-05-list-of-regular-saas/</link>
       <pubDate>Tue, 05 Jun 2018 10:28:18 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2018-06-05-list-of-regular-saas/</guid>
-      <description>常用SAAS服务列表： DigitalOcean 用于服务器 Linode 用于更多的服务器 Cloudflare 用于 DNS 和 SSL Ottomatik 用于数据库备份 AWS 用于存储和队列 Pusher 用于实时事件 Authy 用于双因子认证</description>
+      <guid>http://localhost:1313/posts/2018-06-05-list-of-regular-saas/</guid>
+      <description>&lt;p&gt;常用SAAS服务列表：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DigitalOcean 用于服务器&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Linode 用于更多的服务器&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Cloudflare 用于 DNS 和 SSL&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ottomatik 用于数据库备份&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AWS 用于存储和队列&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Pusher 用于实时事件&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Authy 用于双因子认证&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>在Linux上安装HL-1218w的驱动 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default &ldquo;Download&rdquo; directory. (The directory location varies depending on your Linux distribution.) e.g. /home/(LoginName)/Download Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g." />
+	<meta name="description" content="在Linux上安装HL-1218w的驱动
+Step1. Download the tool.(linux-brprinter-installer-..-.gz)
+The tool will be downloaded into the default &ldquo;Download&rdquo; directory.
+(The directory location varies depending on your Linux distribution.)
+e.g. /home/(LoginName)/Download
+Step2. Open a terminal window.
+Step3. Go to the directory you downloaded the file to in the last step. By using the cd command.
+e.g.
+cd Downloads 
+Step4. Enter this command to extract the downloaded file:
+gunzip linux-brprinter-installer-*.*.*-*.gz
+e.g. gunzip linux-brprinter-installer-2.1.1-1.gz
+Step5. Get superuser authorization with the &ldquo;su&rdquo; command or &ldquo;sudo su&rdquo; command.
+Step6. Run the tool:
+bash linux-brprinter-installer-*.*.*-* Brother machine name
+e.g. bash linux-brprinter-installer-2.1.1-1 HL-1218W" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://samrainhan.com/posts/2020-08-27-install-hl-1218w-driver-on-linux/">
+	<meta property="og:url" content="http://localhost:1313/posts/2020-08-27-install-hl-1218w-driver-on-linux/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="在Linux上安装HL-1218w的驱动">
-  <meta property="og:description" content="在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default “Download” directory. (The directory location varies depending on your Linux distribution.) e.g. /home/(LoginName)/Download Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.">
+  <meta property="og:description" content="在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default “Download” directory.
+(The directory location varies depending on your Linux distribution.)
+e.g. /home/(LoginName)/Download
+Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.
+cd Downloads Step4. Enter this command to extract the downloaded file: gunzip linux-brprinter-installer-*.*.*-*.gz e.g. gunzip linux-brprinter-installer-2.1.1-1.gz
+Step5. Get superuser authorization with the “su” command or “sudo su” command. Step6. Run the tool: bash linux-brprinter-installer-*.*.*-* Brother machine name e.g. bash linux-brprinter-installer-2.1.1-1 HL-1218W">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,16 +37,21 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="在Linux上安装HL-1218w的驱动">
-  <meta name="twitter:description" content="在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default “Download” directory. (The directory location varies depending on your Linux distribution.) e.g. /home/(LoginName)/Download Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.">
-<script src="http://samrainhan.com/js/feather.min.js"></script>
+  <meta name="twitter:description" content="在Linux上安装HL-1218w的驱动 Step1. Download the tool.(linux-brprinter-installer-..-.gz) The tool will be downloaded into the default “Download” directory.
+(The directory location varies depending on your Linux distribution.)
+e.g. /home/(LoginName)/Download
+Step2. Open a terminal window. Step3. Go to the directory you downloaded the file to in the last step. By using the cd command. e.g.
+cd Downloads Step4. Enter this command to extract the downloaded file: gunzip linux-brprinter-installer-*.*.*-*.gz e.g. gunzip linux-brprinter-installer-2.1.1-1.gz
+Step5. Get superuser authorization with the “su” command or “sudo su” command. Step6. Run the tool: bash linux-brprinter-installer-*.*.*-* Brother machine name e.g. bash linux-brprinter-installer-2.1.1-1 HL-1218W">
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="http://samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -41,17 +66,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://samrainhan.com/">sam的小窝</a>
+		<a href="http://localhost:1313/">sam的小窝</a>
 	</div>
 	<nav>
 		
-		<a href="http://samrainhan.com/">Home</a>
+		<a href="http://localhost:1313/">Home</a>
 		
-		<a href="http://samrainhan.com/posts">Writings</a>
+		<a href="http://localhost:1313/posts">Writings</a>
 		
-		<a href="http://samrainhan.com/tags">Tags</a>
+		<a href="http://localhost:1313/tags">Tags</a>
 		
-		<a href="http://samrainhan.com/about">About</a>
+		<a href="http://localhost:1313/about">About</a>
 		
 		
 	</nav>
@@ -96,7 +121,7 @@
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="http://samrainhan.com/tags/linuxbrother%E6%89%93%E5%8D%B0%E6%9C%BA%E9%A9%B1%E5%8A%A8">linux,brother,打印机,驱动</a></li>
+					<li><a href="http://localhost:1313/tags/linuxbrother%E6%89%93%E5%8D%B0%E6%9C%BA%E9%A9%B1%E5%8A%A8">linux,brother,打印机,驱动</a></li>
 					
 				</ul>
 			</nav>
@@ -115,11 +140,6 @@
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

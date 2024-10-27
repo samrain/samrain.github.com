@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KK,语录 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/kk%E8%AF%AD%E5%BD%95/</link>
+    <link>http://localhost:1313/tags/kk%E8%AF%AD%E5%BD%95/</link>
     <description>Recent content in KK,语录 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 16 May 2021 14:50:56 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/kk%E8%AF%AD%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/kk%E8%AF%AD%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KK语录</title>
-      <link>http://samrainhan.com/posts/2021-05-16-kk-quotations/</link>
+      <link>http://localhost:1313/posts/2021-05-16-kk-quotations/</link>
       <pubDate>Sun, 16 May 2021 14:50:56 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-05-16-kk-quotations/</guid>
-      <description>KK语录 智者看到一样东西，疑问要比答案多。 小时候，让你与其它同学格格不入的东西，长大后会帮助你成功，如果你不失去它的话。 金钱的作用被高估了。</description>
+      <guid>http://localhost:1313/posts/2021-05-16-kk-quotations/</guid>
+      <description>&lt;h1 id=&#34;kk语录&#34;&gt;KK语录&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;智者看到一样东西，疑问要比答案多。&lt;/li&gt;&#xA;&lt;li&gt;小时候，让你与其它同学格格不入的东西，长大后会帮助你成功，如果你不失去它的话。&lt;/li&gt;&#xA;&lt;li&gt;金钱的作用被高估了。真正的创新很少需要大量资金，否则大公司将垄断创新。相反，几乎所有的突破都是由那些缺乏钱的人实现的，正是因为他们资源有限，才被迫进行创新，依靠自己的热情、毅力和独创性来寻找新的方法。资源不足是创新的优势。&lt;/li&gt;&#xA;&lt;li&gt;成功的秘诀：少承诺，多交付。&lt;/li&gt;&#xA;&lt;li&gt;实现一个目标，拿到什么结果是次要的，更重要的是，它让你改变了多少。&lt;/li&gt;&#xA;&lt;li&gt;唯一可以接受的债务，是购买价值极有可能增加的东西。大多数商品一旦购买，价值就会减少或消失，不要借钱进行这类消费。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

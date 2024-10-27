@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>家庭教育 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/</link>
+    <link>http://localhost:1313/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/</link>
     <description>Recent content in 家庭教育 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>讨论家庭教育</title>
-      <link>http://samrainhan.com/posts/2013-03-25-discuss-of-family-education/</link>
+      <link>http://localhost:1313/posts/2013-03-25-discuss-of-family-education/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2013-03-25-discuss-of-family-education/</guid>
-      <description>思维导图文件下载 人品教育 善良 乐于助人 勤劳勇敢 心情教育 培养孩子对生命的爱心 鼓励教育 给予适当鼓励，激发无限潜力 让孩子学会吃苦</description>
+      <guid>http://localhost:1313/posts/2013-03-25-discuss-of-family-education/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIaWFreGxEOHEtZUE/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;人品教育&#34;&gt;人品教育&lt;/h2&gt;&#xA;&lt;h3 id=&#34;善良&#34;&gt;善良&lt;/h3&gt;&#xA;&lt;h3 id=&#34;乐于助人&#34;&gt;乐于助人&lt;/h3&gt;&#xA;&lt;h3 id=&#34;勤劳勇敢&#34;&gt;勤劳勇敢&lt;/h3&gt;&#xA;&lt;h2 id=&#34;心情教育&#34;&gt;心情教育&lt;/h2&gt;&#xA;&lt;h3 id=&#34;培养孩子对生命的爱心&#34;&gt;培养孩子对生命的爱心&lt;/h3&gt;&#xA;&lt;h2 id=&#34;鼓励教育&#34;&gt;鼓励教育&lt;/h2&gt;&#xA;&lt;h3 id=&#34;给予适当鼓励激发无限潜力&#34;&gt;给予适当鼓励，激发无限潜力&lt;/h3&gt;&#xA;&lt;h2 id=&#34;让孩子学会吃苦&#34;&gt;让孩子学会吃苦&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

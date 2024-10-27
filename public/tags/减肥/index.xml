@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>减肥 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%87%8F%E8%82%A5/</link>
+    <link>http://localhost:1313/tags/%E5%87%8F%E8%82%A5/</link>
     <description>Recent content in 减肥 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 10 Nov 2022 20:40:16 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%87%8F%E8%82%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%87%8F%E8%82%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>每日所需热量</title>
-      <link>http://samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</link>
+      <link>http://localhost:1313/posts/2022-11-10-daily-calorie-requirement/</link>
       <pubDate>Thu, 10 Nov 2022 20:40:16 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2022-11-10-daily-calorie-requirement/</guid>
-      <description>公式 男 (665+1.37*体重kg) + 5*高度cm-6.7*年龄)*活动系数 女 (665+9.6*体重kg) + 1.9*高度cm-4.7*年龄)</description>
+      <guid>http://localhost:1313/posts/2022-11-10-daily-calorie-requirement/</guid>
+      <description>&lt;h1 id=&#34;公式&#34;&gt;公式&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;男&#xA;(665+1.37&lt;code&gt;*&lt;/code&gt;体重kg) + 5&lt;code&gt;*&lt;/code&gt;高度cm-6.7&lt;code&gt;*&lt;/code&gt;年龄)&lt;code&gt;*&lt;/code&gt;活动系数&lt;/li&gt;&#xA;&lt;li&gt;女&#xA;(665+9.6&lt;code&gt;*&lt;/code&gt;体重kg) + 1.9&lt;code&gt;*&lt;/code&gt;高度cm-4.7&lt;code&gt;*&lt;/code&gt;年龄)&lt;code&gt;*&lt;/code&gt;活动系数&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;活动系数&#34;&gt;活动系数&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1.1: 上班坐下班躺&lt;/li&gt;&#xA;&lt;li&gt;1.2: 步行+轻量活动&lt;/li&gt;&#xA;&lt;li&gt;1.3: 轻体力劳动或保持运动&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;减肥的热量缺口建议为每日所需热量的1015&#34;&gt;减肥的热量缺口建议为每日所需热量的10~15%&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

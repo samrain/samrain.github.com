@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>布局 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%B8%83%E5%B1%80/</link>
+    <link>http://localhost:1313/tags/%E5%B8%83%E5%B1%80/</link>
     <description>Recent content in 布局 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%B8%83%E5%B1%80/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%B8%83%E5%B1%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用黄金比例来布局</title>
-      <link>http://samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</link>
+      <link>http://localhost:1313/posts/2016-06-13-use-the-golden-ratio-to-layout/</link>
       <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/</guid>
-      <description>黄金比例基于斐波那契数列，在自然界的造化物中得以完美体验，比例基本为1:1.618 黄金比例工具 goledenRATIO Golden Ratio Typography Calculator Phicalculator Atrise Golden Section</description>
+      <guid>http://localhost:1313/posts/2016-06-13-use-the-golden-ratio-to-layout/</guid>
+      <description>&lt;p&gt;黄金比例基于斐波那契数列，在自然界的造化物中得以完美体验，比例基本为1:1.618&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//samrain.qiniudn.com/fibonaccispiral.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;黄金比例工具&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/goldenratio-tool-for-every/id485258055?mt=12&#34;&gt;goledenRATIO&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.pearsonified.com/typography/&#34;&gt;Golden Ratio Typography Calculator&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.thismanslife.co.uk/projects/phiculator/&#34;&gt;Phicalculator&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://atrise.com/golden-section/&#34;&gt;Atrise Golden Section&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

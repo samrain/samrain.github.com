@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>公钥 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%85%AC%E9%92%A5/</link>
+    <link>http://localhost:1313/tags/%E5%85%AC%E9%92%A5/</link>
     <description>Recent content in 公钥 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 25 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%85%AC%E9%92%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%85%AC%E9%92%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>公钥编码格式</title>
-      <link>http://samrainhan.com/posts/2016-05-25-public-key-encoding/</link>
+      <link>http://localhost:1313/posts/2016-05-25-public-key-encoding/</link>
       <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2016-05-25-public-key-encoding/</guid>
-      <description>公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com</description>
+      <guid>http://localhost:1313/posts/2016-05-25-public-key-encoding/</guid>
+      <description>&lt;h1 id=&#34;公钥的编码格式有asn1标准也有cryptoapi标准a-idorgheadline3a&#34;&gt;公钥的编码格式有ASN.1标准，也有CryptoAPI标准。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;他们之间是可以进行转换的，可以参考：&lt;a href=&#34;http://www.jensign.com/JavaScience/dotnet/JKeyNet/&#34;&gt;http://www.jensign.com/JavaScience/dotnet/JKeyNet/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;asn1标准a-idorgheadline1a&#34;&gt;ASN.1标准&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SubjectPublicKeyInfo数字证书格式(你提供的第一种格式）&lt;/li&gt;&#xA;&lt;li&gt;PKCS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cryptoapi标准a-idorgheadline2a&#34;&gt;CryptoAPI标准&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CSP Parameter（后面的那种格式）&lt;/li&gt;&#xA;&lt;li&gt;CSP容器。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

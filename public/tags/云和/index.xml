@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>云和 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%BA%91%E5%92%8C/</link>
+    <link>http://localhost:1313/tags/%E4%BA%91%E5%92%8C/</link>
     <description>Recent content in 云和 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E4%BA%91%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BA%91%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>丽水三日游</title>
-      <link>http://samrainhan.com/posts/2014-08-18-lishui-trip/</link>
+      <link>http://localhost:1313/posts/2014-08-18-lishui-trip/</link>
       <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-08-18-lishui-trip/</guid>
-      <description>##第一天 上海出发，沿沈海高速经嘉绍大桥到【遂昌金矿旅游区】，约493.7公里 5小时4分钟。中饭在金华休息站吃。里程参考 【遂昌金矿旅游区】，</description>
+      <guid>http://localhost:1313/posts/2014-08-18-lishui-trip/</guid>
+      <description>&lt;p&gt;##第一天&lt;/p&gt;&#xA;&lt;p&gt;上海出发，沿沈海高速经嘉绍大桥到【遂昌金矿旅游区】，约493.7公里 5小时4分钟。中饭在金华休息站吃。&lt;a href=&#34;http://map.qq.com/?l=213807969&#34;&gt;里程参考&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;【遂昌金矿旅游区】，约游玩3小时，里面的唐代矿坑要戴头盔，因为确实很容易碰到头。里面还有矿车改造的小火车，我们坐的时候很荣幸的碰到有生之年第一次脱轨，火车时间修了半天才搞定。在黑漆漆的矿坑里面呼啸而过确实蛮刺激的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

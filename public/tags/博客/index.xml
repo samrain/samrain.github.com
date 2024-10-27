@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in 博客 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 02 Jun 2018 15:38:05 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Publish My Blog</title>
-      <link>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
+      <link>http://localhost:1313/posts/2018-06-02-how-to-publish-my-blog/</link>
       <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description>博客流水线</description>
+      <guid>http://localhost:1313/posts/2018-06-02-how-to-publish-my-blog/</guid>
+      <description>&lt;h1 id=&#34;博客流水线&#34;&gt;博客流水线&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pic.downk.cc/item/5f28920014195aa59423ae63.png&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f28920014195aa59423ae63.png&#34; alt=&#34;博客流水线&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown语法</title>
-      <link>http://samrainhan.com/posts/2012-11-22-markdown-grammar/</link>
+      <link>http://localhost:1313/posts/2012-11-22-markdown-grammar/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2012-11-22-markdown-grammar/</guid>
-      <description>思维导图文件下载 致谢 站在这位 巨人 的肩膀上 直接使用HTML 一般来说直接使用 特殊：块标签必须在前后加上空白，例如：div,table,pre,p</description>
+      <guid>http://localhost:1313/posts/2012-11-22-markdown-grammar/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/open?id=0B1DrsqrLRzeIMmhPN3Bvc0ZlZG8&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;致谢&#34;&gt;致谢&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;站在这位 &lt;em&gt;&lt;a href=&#34;http://markdown.tw/&#34;&gt;巨人&lt;/a&gt;&lt;/em&gt; 的肩膀上&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;直接使用html&#34;&gt;直接使用HTML&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;一般来说直接使用&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;特殊：块标签必须在前后加上空白，例如：&lt;code&gt;div&lt;/code&gt;,&lt;code&gt;table&lt;/code&gt;,&lt;code&gt;pre&lt;/code&gt;,&lt;code&gt;p&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;注意：块标签中的MD语法无效，而段标签中有效，例如：&lt;code&gt;span&lt;/code&gt;,&lt;code&gt;cite&lt;/code&gt;,&lt;code&gt;del&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

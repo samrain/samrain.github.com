@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erlang on sam的小窝</title>
-    <link>http://samrainhan.com/tags/erlang/</link>
+    <link>http://localhost:1313/tags/erlang/</link>
     <description>Recent content in Erlang on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tsung</title>
-      <link>http://samrainhan.com/posts/2015-07-21-tsung/</link>
+      <link>http://localhost:1313/posts/2015-07-21-tsung/</link>
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-07-21-tsung/</guid>
-      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
+      <guid>http://localhost:1313/posts/2015-07-21-tsung/</guid>
+      <description>&lt;p&gt;Tsung 是一个压力测试工具，使用Erlang写成。官网在此：&lt;a href=&#34;&#34;&gt;http://tsung.erlang-projects.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;可以测试包括HTTP, WebDAV, PostgreSQL, MySQL, LDAP, and XMPP/Jabber等服务器。针对 HTTP 测试，Tsung 支持 HTTP 1.0/1.1 ，包含一个代理模式的会话记录、支持 GET、POST 和 PUT 以及 DELETE 方法，支持 Cookie 和基本的 WWW 认证，同时还支持 SSL。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

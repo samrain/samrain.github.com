@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SharePoint on sam的小窝</title>
-    <link>http://samrainhan.com/tags/sharepoint/</link>
+    <link>http://localhost:1313/tags/sharepoint/</link>
     <description>Recent content in SharePoint on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Win2008上部署 Windows SharePoint Services 3.0</title>
-      <link>http://samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
+      <link>http://localhost:1313/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
-      <description>Why 一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装</description>
+      <guid>http://localhost:1313/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装。于是就有了以下的内容：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

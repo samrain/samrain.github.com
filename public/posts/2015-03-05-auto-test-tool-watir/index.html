@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>watir 网页程序自动化测试工具 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到" />
+	<meta name="description" content="安装
+sudo apt-get install ruby ruby-dev
+
+gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org
+
+sudo gem install watir rspec --no-rdoc --no-ri
+
+sudo apt-get install firefox
+
+sudo apt-get install xvfb
+如果要用chrome做测试，那么
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb
+sudo apt-get -f install
+下载最新的驱动下来解压到PATH中（用 echo $PATH来看在哪里）
+写测试文件put.rb
+# -*- coding: utf-8 -*-
+require &#34;rspec&#34;
+require &#34;headless&#34;
+require &#39;watir-webdriver&#39;
+
+describe &#34;put&#34; do
+  #headless = Headless.new
+  #headless.start
+  let(:browser) { @browser ||= Watir::Browser.new :chrome } 
+  before { browser.goto &#34;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &#34; }
+  after { browser.close  }
+
+  it &#34;put the info&#34; do
+    browser.execute_script(&#34;SubmitUser()&#34;)
+    browser.text_field(:id =&gt; &#34;name&#34;).set &#34;测试数据&#34;
+    browser.text_field(:id =&gt; &#34;phone&#34;).set &#34;1383838438&#34;
+    browser.text_field(:id =&gt; &#34;email&#34;).set &#34;白宫&#34;
+    browser.execute_script(&#34;SubmitUserInfo()&#34;)
+  end
+  #headless.destroy
+end
+测试运行
+rspec put.rb
+" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://samrainhan.com/posts/2015-03-05-auto-test-tool-watir/">
+	<meta property="og:url" content="http://localhost:1313/posts/2015-03-05-auto-test-tool-watir/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="watir 网页程序自动化测试工具">
-  <meta property="og:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到">
+  <meta property="og:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到PATH中（用 echo $PATH来看在哪里）
+写测试文件put.rb # -*- coding: utf-8 -*- require &#34;rspec&#34; require &#34;headless&#34; require &#39;watir-webdriver&#39; describe &#34;put&#34; do #headless = Headless.new #headless.start let(:browser) { @browser ||= Watir::Browser.new :chrome } before { browser.goto &#34;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &#34; } after { browser.close } it &#34;put the info&#34; do browser.execute_script(&#34;SubmitUser()&#34;) browser.text_field(:id =&gt; &#34;name&#34;).set &#34;测试数据&#34; browser.text_field(:id =&gt; &#34;phone&#34;).set &#34;1383838438&#34; browser.text_field(:id =&gt; &#34;email&#34;).set &#34;白宫&#34; browser.execute_script(&#34;SubmitUserInfo()&#34;) end #headless.destroy end 测试运行 rspec put.rb">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,16 +59,18 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="watir 网页程序自动化测试工具">
-  <meta name="twitter:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到">
-<script src="http://samrainhan.com/js/feather.min.js"></script>
+  <meta name="twitter:description" content="安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;&amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;&amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到PATH中（用 echo $PATH来看在哪里）
+写测试文件put.rb # -*- coding: utf-8 -*- require &#34;rspec&#34; require &#34;headless&#34; require &#39;watir-webdriver&#39; describe &#34;put&#34; do #headless = Headless.new #headless.start let(:browser) { @browser ||= Watir::Browser.new :chrome } before { browser.goto &#34;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &#34; } after { browser.close } it &#34;put the info&#34; do browser.execute_script(&#34;SubmitUser()&#34;) browser.text_field(:id =&gt; &#34;name&#34;).set &#34;测试数据&#34; browser.text_field(:id =&gt; &#34;phone&#34;).set &#34;1383838438&#34; browser.text_field(:id =&gt; &#34;email&#34;).set &#34;白宫&#34; browser.execute_script(&#34;SubmitUserInfo()&#34;) end #headless.destroy end 测试运行 rspec put.rb">
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="http://samrainhan.com/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://samrainhan.com/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://samrainhan.com/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
 	
 
 	
@@ -43,17 +85,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://samrainhan.com/">sam的小窝</a>
+		<a href="http://localhost:1313/">sam的小窝</a>
 	</div>
 	<nav>
 		
-		<a href="http://samrainhan.com/">Home</a>
+		<a href="http://localhost:1313/">Home</a>
 		
-		<a href="http://samrainhan.com/posts">Writings</a>
+		<a href="http://localhost:1313/posts">Writings</a>
 		
-		<a href="http://samrainhan.com/tags">Tags</a>
+		<a href="http://localhost:1313/tags">Tags</a>
 		
-		<a href="http://samrainhan.com/about">About</a>
+		<a href="http://localhost:1313/about">About</a>
 		
 		
 	</nav>
@@ -115,11 +157,11 @@ end
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="http://samrainhan.com/tags/%E6%B5%8B%E8%AF%95">测试</a></li>
+					<li><a href="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95">测试</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/watir">watir</a></li>
+					<li><a href="http://localhost:1313/tags/watir">watir</a></li>
 					
-					<li><a href="http://samrainhan.com/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95">网页测试</a></li>
+					<li><a href="http://localhost:1313/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95">网页测试</a></li>
 					
 				</ul>
 			</nav>
@@ -138,11 +180,6 @@ end
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

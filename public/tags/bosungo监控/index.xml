@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bosun,go,监控 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/bosungo%E7%9B%91%E6%8E%A7/</link>
+    <link>http://localhost:1313/tags/bosungo%E7%9B%91%E6%8E%A7/</link>
     <description>Recent content in Bosun,go,监控 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Sep 2018 09:46:47 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/bosungo%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bosungo%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bosun go编写的跨平台监控系统</title>
-      <link>http://samrainhan.com/posts/2018-09-12-what-is-bosun/</link>
+      <link>http://localhost:1313/posts/2018-09-12-what-is-bosun/</link>
       <pubDate>Wed, 12 Sep 2018 09:46:47 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2018-09-12-what-is-bosun/</guid>
-      <description>http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!</description>
+      <guid>http://localhost:1313/posts/2018-09-12-what-is-bosun/</guid>
+      <description>&lt;p&gt;http://localhost:8070/&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://bosun.org/scollector/&#34;&gt;http://bosun.org/scollector/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://bosun.org/quickstart#scollector&#34;&gt;http://bosun.org/quickstart#scollector&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://zhengheng.me/2015/12/09/bosun-install/&#34;&gt;http://zhengheng.me/2015/12/09/bosun-install/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;http://localhost:8070/hello world!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

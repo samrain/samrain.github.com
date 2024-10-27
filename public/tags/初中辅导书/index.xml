@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>初中,辅导书 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%88%9D%E4%B8%AD%E8%BE%85%E5%AF%BC%E4%B9%A6/</link>
+    <link>http://localhost:1313/tags/%E5%88%9D%E4%B8%AD%E8%BE%85%E5%AF%BC%E4%B9%A6/</link>
     <description>Recent content in 初中,辅导书 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 19 Feb 2021 14:39:49 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%88%9D%E4%B8%AD%E8%BE%85%E5%AF%BC%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%88%9D%E4%B8%AD%E8%BE%85%E5%AF%BC%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>初中辅导书</title>
-      <link>http://samrainhan.com/posts/2021-02-19-junior-high-school-tutorial/</link>
+      <link>http://localhost:1313/posts/2021-02-19-junior-high-school-tutorial/</link>
       <pubDate>Fri, 19 Feb 2021 14:39:49 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-02-19-junior-high-school-tutorial/</guid>
-      <description>初中辅导书 数学 《五年中考三年模拟》 《B卷必刷》 物理化学 《尖子生学案》 英语 人教社的《教材解读》 数理化 《培优新方法》 数理化英 薛金星的《初中基础知</description>
+      <guid>http://localhost:1313/posts/2021-02-19-junior-high-school-tutorial/</guid>
+      <description>&lt;h1 id=&#34;初中辅导书&#34;&gt;初中辅导书&lt;/h1&gt;&#xA;&lt;h2 id=&#34;数学&#34;&gt;数学&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;《五年中考三年模拟》&lt;/li&gt;&#xA;&lt;li&gt;《B卷必刷》&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;物理化学&#34;&gt;物理化学&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;《尖子生学案》&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;英语&#34;&gt;英语&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;人教社的《教材解读》&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;数理化&#34;&gt;数理化&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;《培优新方法》&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;数理化英&#34;&gt;数理化英&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;薛金星的《初中基础知识手册》&lt;/li&gt;&#xA;&lt;li&gt;《点拨》&lt;/li&gt;&#xA;&lt;li&gt;《典中点》&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

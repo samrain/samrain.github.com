@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网页测试 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/</link>
+    <link>http://localhost:1313/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 网页测试 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 05 Mar 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>watir 网页程序自动化测试工具</title>
-      <link>http://samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</link>
+      <link>http://localhost:1313/posts/2015-03-05-auto-test-tool-watir/</link>
       <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2015-03-05-auto-test-tool-watir/</guid>
-      <description>安装 sudo apt-get install ruby ruby-dev gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org sudo gem install watir rspec --no-rdoc --no-ri sudo apt-get install firefox sudo apt-get install xvfb 如果要用chrome做测试，那么 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb sudo apt-get -f install 下载最新的驱动下来解压到</description>
+      <guid>http://localhost:1313/posts/2015-03-05-auto-test-tool-watir/</guid>
+      <description>&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install ruby ruby-dev&#xA;&#xA;gem source -r http://rubygems.org/ &amp;amp;&amp;amp; gem source -a https://ruby.taobao.org&#xA;&#xA;sudo gem install watir rspec --no-rdoc --no-ri&#xA;&#xA;sudo apt-get install firefox&#xA;&#xA;sudo apt-get install xvfb&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果要用chrome做测试，那么&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &amp;amp;&amp;amp; sudo dpkg -i g*.deb&#xA;sudo apt-get -f install&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;下载&lt;a href=&#34;http://chromedriver.storage.googleapis.com/index.html&#34;&gt;最新的驱动&lt;/a&gt;下来解压到PATH中（用 echo $PATH来看在哪里）&lt;/p&gt;&#xA;&lt;h2 id=&#34;写测试文件putrb&#34;&gt;写测试文件&lt;code&gt;put.rb&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# -*- coding: utf-8 -*-&#xA;require &amp;#34;rspec&amp;#34;&#xA;require &amp;#34;headless&amp;#34;&#xA;require &amp;#39;watir-webdriver&amp;#39;&#xA;&#xA;describe &amp;#34;put&amp;#34; do&#xA;  #headless = Headless.new&#xA;  #headless.start&#xA;  let(:browser) { @browser ||= Watir::Browser.new :chrome } &#xA;  before { browser.goto &amp;#34;http://cms.coprize.cn/CMS(prize)/dat/Domains/Coprize/mprize/pag/wap/index.html &amp;#34; }&#xA;  after { browser.close  }&#xA;&#xA;  it &amp;#34;put the info&amp;#34; do&#xA;    browser.execute_script(&amp;#34;SubmitUser()&amp;#34;)&#xA;    browser.text_field(:id =&amp;gt; &amp;#34;name&amp;#34;).set &amp;#34;测试数据&amp;#34;&#xA;    browser.text_field(:id =&amp;gt; &amp;#34;phone&amp;#34;).set &amp;#34;1383838438&amp;#34;&#xA;    browser.text_field(:id =&amp;gt; &amp;#34;email&amp;#34;).set &amp;#34;白宫&amp;#34;&#xA;    browser.execute_script(&amp;#34;SubmitUserInfo()&amp;#34;)&#xA;  end&#xA;  #headless.destroy&#xA;end&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;测试运行&#34;&gt;测试运行&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rspec put.rb&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

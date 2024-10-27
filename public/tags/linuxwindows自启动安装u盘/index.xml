@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux,Windows,自启动,安装,U盘 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/</link>
+    <link>http://localhost:1313/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/</link>
     <description>Recent content in Linux,Windows,自启动,安装,U盘 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Feb 2021 00:19:34 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linuxwindows%E8%87%AA%E5%90%AF%E5%8A%A8%E5%AE%89%E8%A3%85u%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Linux上制作Windows自启动安装U盘</title>
-      <link>http://samrainhan.com/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</link>
+      <link>http://localhost:1313/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</link>
       <pubDate>Mon, 15 Feb 2021 00:19:34 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</guid>
-      <description>在Linux上制作Windows自启动安装U盘 官网在此 Features Support Legacy PC/UEFI booting Support FAT32 and NTFS filesystems Support using physical installation disc or disk image as source Supported Windows® installation images Windows Vista and later Any language or edition variants Windows PE Run</description>
+      <guid>http://localhost:1313/posts/2021-02-15-making-windows-self-starting-installation-udisk-on-linux/</guid>
+      <description>&lt;h1 id=&#34;在linux上制作windows自启动安装u盘&#34;&gt;在Linux上制作Windows自启动安装U盘&lt;/h1&gt;&#xA;&lt;h2 id=&#34;官网在此httpsgithubcomwoeusbwoeusb&#34;&gt;&lt;a href=&#34;https://github.com/WoeUSB/WoeUSB&#34;&gt;官网在此&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support Legacy PC/UEFI booting&lt;/li&gt;&#xA;&lt;li&gt;Support FAT32 and NTFS filesystems&lt;/li&gt;&#xA;&lt;li&gt;Support using physical installation disc or disk image as source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;supported-windows-installation-images&#34;&gt;Supported Windows® installation images&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows Vista and later&lt;/li&gt;&#xA;&lt;li&gt;Any language or edition variants&lt;/li&gt;&#xA;&lt;li&gt;Windows PE&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;run&#34;&gt;Run&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载程序(&lt;a href=&#34;https://github.com/WoeUSB/WoeUSB/releases&#34;&gt;https://github.com/WoeUSB/WoeUSB/releases&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;添加运行权限&#xA;&lt;code&gt;chmod +x path/woeusb-5.0.4.bash &lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;做启动U盘&#xA;&lt;code&gt;sudo path/woeusb-5.0.4.bash --device /xxx/windows_10.iso /dev/sda &lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

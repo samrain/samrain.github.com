@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文字 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E6%96%87%E5%AD%97/</link>
+    <link>http://localhost:1313/tags/%E6%96%87%E5%AD%97/</link>
     <description>Recent content in 文字 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 14 Jan 2023 20:38:19 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E6%96%87%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%96%87%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文字描述生成图片</title>
-      <link>http://samrainhan.com/posts/2023-01-14-text-to-generate-picture/</link>
+      <link>http://localhost:1313/posts/2023-01-14-text-to-generate-picture/</link>
       <pubDate>Sat, 14 Jan 2023 20:38:19 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2023-01-14-text-to-generate-picture/</guid>
-      <description>最火的是： https://openai.com/dall-e-2/ 清华的： https://models.aminer.cn/CogView/ 百度的： https://wenxin.baidu.com/moduleApi/ernieVilg 其他免费的： https://art.elbo.ai/ https://creator.nolibox.com/guest</description>
+      <guid>http://localhost:1313/posts/2023-01-14-text-to-generate-picture/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;最火的是： &lt;a href=&#34;https://openai.com/dall-e-2/&#34;&gt;https://openai.com/dall-e-2/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;清华的： &lt;a href=&#34;https://models.aminer.cn/CogView/&#34;&gt;https://models.aminer.cn/CogView/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;百度的： &lt;a href=&#34;https://wenxin.baidu.com/moduleApi/ernieVilg&#34;&gt;https://wenxin.baidu.com/moduleApi/ernieVilg&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;其他免费的：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://art.elbo.ai/&#34;&gt;https://art.elbo.ai/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://creator.nolibox.com/guest&#34;&gt;https://creator.nolibox.com/guest&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中文显示 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA/</link>
+    <link>http://localhost:1313/tags/%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA/</link>
     <description>Recent content in 中文显示 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 29 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决ubuntu下面的openjdk1.6的中文显示问题</title>
-      <link>http://samrainhan.com/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</link>
+      <link>http://localhost:1313/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</link>
       <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</guid>
-      <description>一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是</description>
+      <guid>http://localhost:1313/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/</guid>
+      <description>&lt;p&gt;一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是发现配置文件“fontconfig.properties”，于是想自己改改看吧，必须用管理员权限：&lt;code&gt;sudo gedit fontconfig.properties&lt;/code&gt;&#xA;修改了其中&lt;code&gt;# Chinese fonts&lt;/code&gt;下面的代码，改好后是这样的：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

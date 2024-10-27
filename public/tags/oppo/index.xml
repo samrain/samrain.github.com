@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OPPO on sam的小窝</title>
-    <link>http://samrainhan.com/tags/oppo/</link>
+    <link>http://localhost:1313/tags/oppo/</link>
     <description>Recent content in OPPO on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 10 Feb 2023 17:40:41 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/oppo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/oppo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OPPO Pad使用心得</title>
-      <link>http://samrainhan.com/posts/2023-02-10-oppo-pad-experience/</link>
+      <link>http://localhost:1313/posts/2023-02-10-oppo-pad-experience/</link>
       <pubDate>Fri, 10 Feb 2023 17:40:41 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2023-02-10-oppo-pad-experience/</guid>
-      <description>QQ音乐 默认设置下，熄屏后QQ音乐播放完当前歌曲后就会停止播放。一旦打开屏幕，就会继续播放。 如果想要在锁屏情况下一直播放，需要打开如下设置：</description>
+      <guid>http://localhost:1313/posts/2023-02-10-oppo-pad-experience/</guid>
+      <description>&lt;h1 id=&#34;qq音乐&#34;&gt;QQ音乐&lt;/h1&gt;&#xA;&lt;p&gt;默认设置下，熄屏后QQ音乐播放完当前歌曲后就会停止播放。一旦打开屏幕，就会继续播放。&#xA;如果想要在锁屏情况下一直播放，需要打开如下设置：应用-QQ音乐-耗电管理-允许完全后台行为&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

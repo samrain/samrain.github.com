@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>监事会 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E7%9B%91%E4%BA%8B%E4%BC%9A/</link>
+    <link>http://localhost:1313/tags/%E7%9B%91%E4%BA%8B%E4%BC%9A/</link>
     <description>Recent content in 监事会 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 30 Aug 2022 10:20:29 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E7%9B%91%E4%BA%8B%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%9B%91%E4%BA%8B%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>监事会的权利和义务</title>
-      <link>http://samrainhan.com/posts/2022-08-30-rights-and-obligations-of-the-supervisory-board/</link>
+      <link>http://localhost:1313/posts/2022-08-30-rights-and-obligations-of-the-supervisory-board/</link>
       <pubDate>Tue, 30 Aug 2022 10:20:29 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2022-08-30-rights-and-obligations-of-the-supervisory-board/</guid>
-      <description>第五十一条 有限责任公司设监事会，其成员不得少于三人。股东人数较少或者规模较小的有限责任公司，可以设一至二名监事，不设监事会。 监事会应当包括股</description>
+      <guid>http://localhost:1313/posts/2022-08-30-rights-and-obligations-of-the-supervisory-board/</guid>
+      <description>&lt;h1 id=&#34;第五十一条有限责任公司设监事会其成员不得少于三人股东人数较少或者规模较小的有限责任公司可以设一至二名监事不设监事会&#34;&gt;第五十一条　有限责任公司设监事会，其成员不得少于三人。股东人数较少或者规模较小的有限责任公司，可以设一至二名监事，不设监事会。&lt;/h1&gt;&#xA;&lt;p&gt;　　监事会应当包括股东代表和适当比例的公司职工代表，其中职工代表的比例不得低于三分之一，具体比例由公司章程规定。监事会中的职工代表由公司职工通过职工代表大会、职工大会或者其他形式民主选举产生。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

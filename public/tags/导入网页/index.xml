@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>导入网页 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E7%BD%91%E9%A1%B5/</link>
+    <link>http://localhost:1313/tags/%E5%AF%BC%E5%85%A5%E7%BD%91%E9%A1%B5/</link>
     <description>Recent content in 导入网页 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 24 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E5%AF%BC%E5%85%A5%E7%BD%91%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AF%BC%E5%85%A5%E7%BD%91%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试导入网页</title>
-      <link>http://samrainhan.com/posts/2014-09-24-test-for-include-html/</link>
+      <link>http://localhost:1313/posts/2014-09-24-test-for-include-html/</link>
       <pubDate>Wed, 24 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-09-24-test-for-include-html/</guid>
-      <description>ss</description>
+      <guid>http://localhost:1313/posts/2014-09-24-test-for-include-html/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://samrain.qiniudn.com/222.webp&#34; alt=&#34;test webp&#34; title=&#34;test webp&#34;&gt;&#xA;ss&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

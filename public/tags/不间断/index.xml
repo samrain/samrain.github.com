@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>不间断 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%B8%8D%E9%97%B4%E6%96%AD/</link>
+    <link>http://localhost:1313/tags/%E4%B8%8D%E9%97%B4%E6%96%AD/</link>
     <description>Recent content in 不间断 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 29 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E4%B8%8D%E9%97%B4%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%B8%8D%E9%97%B4%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7×24小时不间断运行</title>
-      <link>http://samrainhan.com/posts/2014-07-29-724-hour-operation/</link>
+      <link>http://localhost:1313/posts/2014-07-29-724-hour-operation/</link>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://samrainhan.com/posts/2014-07-29-724-hour-operation/</guid>
-      <description>1.设置AutoHotkey的属性为【以管理员身份启动】 2.设置开机不需要密码登陆系统 control userpasswords2 3.修改ahk文件 将第四行从#n::改为::，这样</description>
+      <guid>http://localhost:1313/posts/2014-07-29-724-hour-operation/</guid>
+      <description>&lt;p&gt;1.设置AutoHotkey的属性为【以管理员身份启动】&lt;/p&gt;&#xA;&lt;p&gt;2.设置开机不需要密码登陆系统&#xA;&lt;code&gt;control userpasswords2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;3.修改ahk文件&lt;/p&gt;&#xA;&lt;p&gt;将第四行从&lt;code&gt;#n::&lt;/code&gt;改为&lt;code&gt;::&lt;/code&gt;，这样就可以让AutoHotkey启动时就开始执行脚本。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>保险 on sam的小窝</title>
-    <link>http://samrainhan.com/tags/%E4%BF%9D%E9%99%A9/</link>
+    <link>http://localhost:1313/tags/%E4%BF%9D%E9%99%A9/</link>
     <description>Recent content in 保险 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Aug 2024 12:02:17 +0800</lastBuildDate>
-    <atom:link href="http://samrainhan.com/tags/%E4%BF%9D%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BF%9D%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tesla Model3 丐版车险选择对比</title>
-      <link>http://samrainhan.com/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</link>
+      <link>http://localhost:1313/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</link>
       <pubDate>Wed, 07 Aug 2024 12:02:17 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</guid>
-      <description>给一辆2023年Model3丐版选择车险，详细表格见这个 https://kdocs.cn/l/csjBaEgWl4Gf</description>
+      <guid>http://localhost:1313/posts/2024-08-07-comparison-table-of-auto-insurance-quotes/</guid>
+      <description>&lt;p&gt;给一辆2023年Model3丐版选择车险，详细表格见这个 &lt;a href=&#34;https://kdocs.cn/l/csjBaEgWl4Gf&#34;&gt;https://kdocs.cn/l/csjBaEgWl4Gf&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>摘抄之「万无一失的投资 Fail-Save-Investing」</title>
-      <link>http://samrainhan.com/posts/2023-09-15-fail-save-investing/</link>
+      <link>http://localhost:1313/posts/2023-09-15-fail-save-investing/</link>
       <pubDate>Fri, 15 Sep 2023 10:28:30 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2023-09-15-fail-save-investing/</guid>
-      <description>有些⼈可能会告诉您，在为退休储蓄时，您不能谨慎⾏事未经证实的投资策略是您 获得舒适未来的唯⼀希望。但如果你问哈利·布朗（Harry Browne</description>
+      <guid>http://localhost:1313/posts/2023-09-15-fail-save-investing/</guid>
+      <description>&lt;p&gt;有些⼈可能会告诉您，在为退休储蓄时，您不能谨慎⾏事未经证实的投资策略是您 获得舒适未来的唯⼀希望。但如果你问哈利·布朗（Harry Browne），他是美国最重 要的商业作家之⼀，也是⼴受追捧的公共演讲家，他会说这只是⼀堆空话。&lt;/p&gt;</description>
     </item>
     <item>
       <title>车险</title>
-      <link>http://samrainhan.com/posts/2023-03-01-car-insurance/</link>
+      <link>http://localhost:1313/posts/2023-03-01-car-insurance/</link>
       <pubDate>Wed, 01 Mar 2023 21:06:49 +0800</pubDate>
-      <guid>http://samrainhan.com/posts/2023-03-01-car-insurance/</guid>
-      <description>商业险 车损险「必买」 保额229900/保费4519.34 三者险「必买」 保额200万/保费1577.41 车上人员责任险 司机 保额2万/保费51.</description>
+      <guid>http://localhost:1313/posts/2023-03-01-car-insurance/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;商业险&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;车损险「必买」&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;保额229900/保费4519.34&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;三者险「必买」&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;保额200万/保费1577.41&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;车上人员责任险&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;司机&#xA;&#xA;    保额2万/保费51.15&#xA;&#xA;乘客&#xA;&#xA;    保额8万/保费131.48&#xA;&#xA;    4名，平均1人2万&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;其他福利&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
