@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TPLink on sam的小窝</title>
-    <link>http://localhost:55555/tags/tplink/</link>
+    <link>http://samrainhan.com/tags/tplink/</link>
     <description>Recent content in TPLink on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 13 Sep 2023 09:20:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/tplink/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/tplink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怎样在TPLink路由器上限制网站访问</title>
-      <link>http://localhost:55555/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/</link>
+      <link>http://samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/</link>
       <pubDate>Wed, 13 Sep 2023 09:20:18 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/</guid>
+      <guid>http://samrainhan.com/posts/2023-09-13-how-to-restrict-website-access-on-tplink-router/</guid>
       <description></description>
     </item>
   </channel>

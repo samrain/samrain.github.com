@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网盘,协作 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E7%BD%91%E7%9B%98%E5%8D%8F%E4%BD%9C/</link>
+    <link>http://samrainhan.com/tags/%E7%BD%91%E7%9B%98%E5%8D%8F%E4%BD%9C/</link>
     <description>Recent content in 网盘,协作 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 23 Jul 2019 17:29:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E7%BD%91%E7%9B%98%E5%8D%8F%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E7%BD%91%E7%9B%98%E5%8D%8F%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网盘的前世今生</title>
-      <link>http://localhost:55555/posts/2019-07-23-what-is-the-netdisk/</link>
+      <link>http://samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</link>
       <pubDate>Tue, 23 Jul 2019 17:29:25 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2019-07-23-what-is-the-netdisk/</guid>
+      <guid>http://samrainhan.com/posts/2019-07-23-what-is-the-netdisk/</guid>
       <description></description>
     </item>
   </channel>

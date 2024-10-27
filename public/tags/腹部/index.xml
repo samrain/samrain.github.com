@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>腹部 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E8%85%B9%E9%83%A8/</link>
+    <link>http://samrainhan.com/tags/%E8%85%B9%E9%83%A8/</link>
     <description>Recent content in 腹部 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Aug 2023 07:57:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E8%85%B9%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E8%85%B9%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>核心训练-2023年版</title>
-      <link>http://localhost:55555/posts/2023-08-07-core-training-2023-edition/</link>
+      <link>http://samrainhan.com/posts/2023-08-07-core-training-2023-edition/</link>
       <pubDate>Mon, 07 Aug 2023 07:57:41 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-08-07-core-training-2023-edition/</guid>
+      <guid>http://samrainhan.com/posts/2023-08-07-core-training-2023-edition/</guid>
       <description>1. 下腹卷腹上刺 面朝上仰卧，双脚摆动到最高点，用力向上顶，屁股离地2秒。 一组10次，做完休息10秒，然后做下一组，直到做不动换下一个动作。 2. 坐</description>
     </item>
   </channel>

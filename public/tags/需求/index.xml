@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>需求 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E9%9C%80%E6%B1%82/</link>
+    <link>http://samrainhan.com/tags/%E9%9C%80%E6%B1%82/</link>
     <description>Recent content in 需求 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Mar 2023 20:29:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E9%9C%80%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 20:53:58 +0800</lastBuildDate>
+    <atom:link href="http://samrainhan.com/tags/%E9%9C%80%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>需求评估流程</title>
+      <link>http://samrainhan.com/posts/2024-05-30-demand-assessment-process/</link>
+      <pubDate>Thu, 30 May 2024 20:53:58 +0800</pubDate>
+      <guid>http://samrainhan.com/posts/2024-05-30-demand-assessment-process/</guid>
+      <description>mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&amp;gt;a[客户提问题] a--&amp;gt;b[客户已有产品能否解决] b--&amp;gt;|否</description>
+    </item>
     <item>
       <title>JTBD</title>
-      <link>http://localhost:55555/posts/2023-03-18-jtbd/</link>
+      <link>http://samrainhan.com/posts/2023-03-18-jtbd/</link>
       <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-03-18-jtbd/</guid>
+      <guid>http://samrainhan.com/posts/2023-03-18-jtbd/</guid>
       <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>留学 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E7%95%99%E5%AD%A6/</link>
+    <link>http://samrainhan.com/tags/%E7%95%99%E5%AD%A6/</link>
     <description>Recent content in 留学 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 24 Dec 2023 10:02:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E7%95%99%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E7%95%99%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>留学报考</title>
-      <link>http://localhost:55555/posts/2023-12-24-study-abroad-application/</link>
+      <link>http://samrainhan.com/posts/2023-12-24-study-abroad-application/</link>
       <pubDate>Sun, 24 Dec 2023 10:02:55 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-12-24-study-abroad-application/</guid>
+      <guid>http://samrainhan.com/posts/2023-12-24-study-abroad-application/</guid>
       <description></description>
     </item>
   </channel>

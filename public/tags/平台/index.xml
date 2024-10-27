@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>平台 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E5%B9%B3%E5%8F%B0/</link>
+    <link>http://samrainhan.com/tags/%E5%B9%B3%E5%8F%B0/</link>
     <description>Recent content in 平台 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 29 Aug 2023 10:13:02 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E5%B9%B3%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E5%B9%B3%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>企业办公协作平台的三国演义</title>
-      <link>http://localhost:55555/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</link>
+      <link>http://samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</link>
       <pubDate>Tue, 29 Aug 2023 10:13:02 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</guid>
+      <guid>http://samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</guid>
       <description>2022年10月，钉钉的活跃人数达到了1.6亿，企业微信和腾讯会议分别是9000万和8000万以上，飞书最少，为119万。截至2022年3月</description>
     </item>
   </channel>

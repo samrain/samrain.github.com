@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.NET on sam的小窝</title>
-    <link>http://localhost:55555/tags/.net/</link>
+    <link>http://samrainhan.com/tags/.net/</link>
     <description>Recent content in .NET on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nlog心得</title>
-      <link>http://localhost:55555/posts/2015-05-11-nlog/</link>
+      <link>http://samrainhan.com/posts/2015-05-11-nlog/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55555/posts/2015-05-11-nlog/</guid>
+      <guid>http://samrainhan.com/posts/2015-05-11-nlog/</guid>
       <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
     </item>
     <item>
       <title>asmx文件是干什么的</title>
-      <link>http://localhost:55555/posts/2015-03-11-asmx/</link>
+      <link>http://samrainhan.com/posts/2015-03-11-asmx/</link>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55555/posts/2015-03-11-asmx/</guid>
+      <guid>http://samrainhan.com/posts/2015-03-11-asmx/</guid>
       <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
     </item>
   </channel>

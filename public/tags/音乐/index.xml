@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>音乐 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E9%9F%B3%E4%B9%90/</link>
+    <link>http://samrainhan.com/tags/%E9%9F%B3%E4%B9%90/</link>
     <description>Recent content in 音乐 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 03 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>耳放MDAD Mini满血复活</title>
-      <link>http://localhost:55555/posts/2013-09-03-mdad-mini-resurrection/</link>
+      <link>http://samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</link>
       <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55555/posts/2013-09-03-mdad-mini-resurrection/</guid>
+      <guid>http://samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</guid>
       <description>思维导图文件下载 原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。</description>
     </item>
   </channel>

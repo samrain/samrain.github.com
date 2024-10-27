@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>拼音 on sam的小窝</title>
-    <link>http://localhost:55555/tags/%E6%8B%BC%E9%9F%B3/</link>
+    <link>http://samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/</link>
     <description>Recent content in 拼音 on sam的小窝</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 16 Aug 2023 22:02:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55555/tags/%E6%8B%BC%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://samrainhan.com/tags/%E6%8B%BC%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>配置ubuntu上拼音输入法Fcitx5</title>
-      <link>http://localhost:55555/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
+      <link>http://samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
-      <guid>http://localhost:55555/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
+      <guid>http://samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
       <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
     </item>
   </channel>
