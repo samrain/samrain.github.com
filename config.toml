@@ -22,10 +22,6 @@ hasCJKLanguage = true
 	enableRSS = true
 	enableToc = true
 
-#	enableDisqus = true
-#	disqusShortname = "samrainblogbygithub"
-
-
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
