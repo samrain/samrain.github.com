@@ -22,8 +22,9 @@ hasCJKLanguage = true
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = true
-	disqusShortname = "samrainblogbygithub"
+#	enableDisqus = true
+#	disqusShortname = "samrainblogbygithub"
+
 
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
@@ -125,7 +126,7 @@ hasCJKLanguage = true
 
 [permalinks]
   post = "/:year/:month/:title/"
-  
+
 # summaryLength = 2
 
 # Main menu which appears below site header.
