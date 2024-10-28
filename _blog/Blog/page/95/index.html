@@ -64,11 +64,59 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-28-financial-advice/">理财建议</a></h1>
+					<time>Jun 28, 2016</time>
+					<br><div class="description">
+	
+	<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-28-financial-advice/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/">清理sqlserver数据库日志</a></h1>
 					<time>Jun 27, 2016</time>
 					<br><div class="description">
 	
-	-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH&hellip;
+	<pre><code>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询
+
+-- USE %DNName%
+
+-- GO
+
+-- SELECT file_id, name FROM sys.database_files;
+
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE --简单模式
+GO
+USE ％DNName％
+GO
+DBCC SHRINKFILE (N'％DNName_Log%' , 11, TRUNCATEONLY)
+
+GO
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL --还原为完全模式
+GO
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/">Read more ⟶</a>
@@ -79,7 +127,7 @@
 					<time>Jun 26, 2016</time>
 					<br><div class="description">
 	
-	VBoxManage startvm [vm-name] &ndash;type headless&hellip;
+	<p>VBoxManage startvm [vm-name] &ndash;type headless</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/">Read more ⟶</a>
@@ -90,7 +138,7 @@
 					<time>Jun 25, 2016</time>
 					<br><div class="description">
 	
-	Yahoo开源的库，详见：http://yahoo.github.io/gifshot/&hellip;
+	<p>Yahoo开源的库，详见：<a href="http://yahoo.github.io/gifshot/">http://yahoo.github.io/gifshot/</a></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-25-video-gif-js-library/">Read more ⟶</a>
@@ -101,21 +149,10 @@
 					<time>Jun 24, 2016</time>
 					<br><div class="description">
 	
-	这种带有小众组织烙印的商品，即便没有更多逼格，也一样能卖。甚至是没有商品也一样能，比如慈善对于捐款者来说可以买到快乐与尊重。&hellip;
+	<p>这种带有小众组织烙印的商品，即便没有更多逼格，也一样能卖。甚至是没有商品也一样能，比如慈善对于捐款者来说可以买到快乐与尊重。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-24-network-marketing-pretend-bility-marketing/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/">如何能够更好的编程</a></h1>
-					<time>Jun 23, 2016</time>
-					<br><div class="description">
-	
-	你使用源代码管理么？ 你能在一步之内编译程序么？ 你每天都编译代码么？ 你有bug数据库么？ 你在写新代码前会修复bug么？ 你有最新的日程安排么？ 你&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +173,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

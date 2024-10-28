@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2022-08-23-aac-to-mp3/</link>
       <pubDate>Tue, 23 Aug 2022 21:03:18 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-08-23-aac-to-mp3/</guid>
-      <description>aac转mp3 ffmpeg -i filename.aac -acodec libmp3lame filename.mp3</description>
+      <description>&lt;h1 id=&#34;aac转mp3&#34;&gt;aac转mp3&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;ffmpeg -i filename.aac -acodec libmp3lame filename.mp3&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

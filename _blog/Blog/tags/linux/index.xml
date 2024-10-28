@@ -13,154 +13,154 @@
       <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
-      <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
+      <description>&lt;p&gt;因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把fcitx4删除干净 &lt;code&gt;sudo apt remove fcitx*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;安装fcitx5 &lt;code&gt;sudo apt install fcitx5 &lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;下载肥猫wiki词库文件zhwiki.dict，下载地址： &lt;a href=&#34;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&#34;&gt;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;词典文件复制到&lt;code&gt;~/.local/share/_fcitx5_/pinyin/dictionaries&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;li&gt;重启fcitx5&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>解决bpool空间不够的问题</title>
       <link>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</link>
       <pubDate>Thu, 27 Oct 2022 09:28:32 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</guid>
-      <description>问题 Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t</description>
+      <description>&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;&#xA;&lt;p&gt;Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space.&lt;/p&gt;&#xA;&lt;h1 id=&#34;检查命令&#34;&gt;检查命令&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;df -h /&#xA;zfs list -o space rpool bpool&#xA;zfs list -t snapshot&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;解决问题命令&#34;&gt;解决问题命令:&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zfs list -t snapshot | grep autozsys | awk &amp;#39;{print $1}&amp;#39; | xargs -n1 sudo zfs destroy&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Linux系统下设置静态IP</title>
       <link>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</link>
       <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/</guid>
-      <description>编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下</description>
+      <description>&lt;h2 id=&#34;编辑-etcnetworkinterfacesa-idorgheadline25a&#34;&gt;编辑 &lt;code&gt;etc/network/interfaces&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;将dhcp-一行屏蔽a-idorgheadline23a&#34;&gt;将dhcp 一行屏蔽&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;# The primary network interface&#xA;&#xA;auto eth0&#xA;&#xA;#iface eth0 inet dhcp&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;添加和静态ip有关的参数a-idorgheadline24a&#34;&gt;添加和静态ip有关的参数&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;# The primary network interface&#xA;&#xA;iface eth0 inet static&#xA;&#xA;address 192.168.0.10&#xA;&#xA;netmask 255.255.255.0&#xA;&#xA;gateway 192.168.0.1&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;编辑-etcresolvconf-设置dnsa-idorgheadline26a&#34;&gt;编辑 &lt;code&gt;/etc/resolv.conf&lt;/code&gt; ，设置dns&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;nameserver 202.96.134.133&#xA;&#xA;nameserver 202.106.0.20&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 &lt;code&gt;/etc/ppp/peers/dsl-provider&lt;/code&gt; 注释掉userpeerdns这一行即可&lt;/p&gt;</description>
     </item>
     <item>
       <title>让linux进程在后台可靠运行的几种方法</title>
       <link>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</link>
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</guid>
-      <description>nohup/setsid 无疑是临时需要时最方便的方法 disown 能帮助我们来事后补救当前已经在运行了的作业 screen 则是在大批量操作时不二的选择了。 详细见：http://www.i</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;nohup/setsid 无疑是临时需要时最方便的方法&lt;/li&gt;&#xA;&lt;li&gt;disown 能帮助我们来事后补救当前已经在运行了的作业&lt;/li&gt;&#xA;&lt;li&gt;screen 则是在大批量操作时不二的选择了。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;详细见：&lt;a href=&#34;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html&#34;&gt;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux的目录和文件权限</title>
       <link>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</link>
       <pubDate>Fri, 03 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</guid>
-      <description>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4+2+1</description>
+      <description>&lt;p&gt;文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。&lt;/p&gt;&#xA;&lt;p&gt;r： 读     4&lt;/p&gt;&#xA;&lt;p&gt;w：写     2&lt;/p&gt;&#xA;&lt;p&gt;x： 执行 1&lt;/p&gt;&#xA;&lt;p&gt;-：  无     0&lt;/p&gt;&#xA;&lt;p&gt;rwx合起来就是4+2+1=7&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;# 要改变文件权限，可使用下面命令：&#xA;chmod 777 x.file&#xA;&#xA;# 看目录情况：&#xA;ls -l&#xA;&#xA;# 要改变文件所属组，可使用下面命令&#xA;chown :users conkyrc.sample&#xA;&#xA;# 要改变文件所属用户，可使用下面命令&#xA;chown user conkyrc.sample&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;要修改目录，使用 -R参数就可以了，方法和前面一样。&lt;/p&gt;</description>
     </item>
     <item>
       <title>linux 命令行工具</title>
       <link>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</link>
       <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</guid>
-      <description>看网络状况 iftop &amp;amp; iptraf</description>
+      <description>&lt;h3 id=&#34;看网络状况&#34;&gt;看网络状况&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;iftop &amp;amp; iptraf&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>双网卡一块上网另一块上局域网</title>
       <link>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</guid>
-      <description>双网卡一块上网另一块上局域网</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;双网卡一块上网另一块上局域网&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>如何解决客户端无法连接上Xen服务器</title>
       <link>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</link>
       <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-29-client-can-not-connect-to-xen-server/</guid>
-      <description>#看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#xA;#看是否硬盘分区是否已经装满&#xA;df -h&#xA;&#xA;#进入log目录&#xA;cd /var/log&#xA;&#xA;#看文件的大小&#xA;du -ksh *.*&#xA;&#xA;#删除大log文件&#xA;rm *.gz -f&#xA;&#xA;#重启xapi服务&#xA;service xapi stop&#xA;service xapi start&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Tcpdump介绍</title>
       <link>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</link>
       <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-03-tcpdump/</guid>
-      <description>Why 看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;看到一个F5的兄弟解决生产问题时，用Wireshark排查问题之前都是在Server上输入一串命令，然后FTP下载到本地来。偷偷看了下，原来那串命令就是&lt;code&gt;tcpdump XXXX&lt;/code&gt;，很神奇。&#xA;由于平常工作偶尔也会用到Wireshark，不过一般都是在Windows上，很少在Linux下用，所以很好奇&lt;code&gt;tcpdump&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenResty第三方模块</title>
       <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
       <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
-      <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
+      <description>&lt;p&gt;&lt;code&gt;LuaJIT&lt;/code&gt; 1.5.8.1后默认安装，是Lua的实时编译器&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ArrayVarNginxModule&lt;/code&gt; 在nginx配置文件中使用数组变量&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;AuthRequestNginxModule&lt;/code&gt; 身份验证，允许基于子请求的验证，它工作在接入阶段，因此可以很好地与其他接入模块（access，auth_basic）合作。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何安装bacula</title>
       <link>https://www.samrainhan.com/posts/2015-03-04-install-bacula/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-04-install-bacula/</guid>
-      <description>bacula是著名的备份软件，官网在此 ##服务器安装 sudo apt-get install gcc g++ sqlite libsqlite3-dev make cd bacula-* ./configure -with-sqlite3 make sudo make install ##客户端安装 cd bacula-* ./configure --prefix=/opt/bacula --enable-client-only make sudo make install</description>
+      <description>&lt;p&gt;bacula是著名的备份软件，&lt;a href=&#34;http://www.bacula.org/&#34;&gt;官网在此&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;##服务器安装&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install gcc g++ sqlite libsqlite3-dev make&#xA;cd bacula-*&#xA;./configure -with-sqlite3&#xA;make&#xA;sudo make install&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;##客户端安装&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd bacula-*&#xA;./configure --prefix=/opt/bacula --enable-client-only&#xA;make&#xA;sudo make install&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Linux常用操作</title>
       <link>https://www.samrainhan.com/posts/2015-02-10-common-linux-operating/</link>
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-10-common-linux-operating/</guid>
-      <description></description>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Cobbler 网络安装环境4Linux</title>
       <link>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</link>
       <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</guid>
-      <description>What 官网在此 Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。 How 该工具使用python开发，小</description>
+      <description>&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://fedorahosted.org/cobbler/&#34;&gt;官网在此&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。&lt;/p&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;&#xA;&lt;p&gt;该工具使用python开发，小巧轻便（才15k行代码），使用简单的命令即可完成PXE网络安装环境的配置，同时还可以管理DHCP，DNS，以及yum包镜像。&lt;/p&gt;</description>
     </item>
     <item>
       <title>搜狗linux输入法有黑框</title>
       <link>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</link>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-09-12-sogou-input-method-has-boxed-on-linux/</guid>
-      <description>我的环境是Lubuntu1404..asdf 安装xcompmgr后重启 启动xcompmgr解决了问题</description>
+      <description>&lt;p&gt;我的环境是Lubuntu1404..asdf&lt;/p&gt;&#xA;&lt;p&gt;安装xcompmgr后重启&lt;/p&gt;&#xA;&lt;p&gt;启动xcompmgr解决了问题&lt;/p&gt;</description>
     </item>
     <item>
       <title>怎么在Ubuntu上安装LEMP（linux/nginx/MySQL/PHP）</title>
       <link>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</link>
       <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</guid>
-      <description>英文原帖在此:How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04 简化翻译如下 安装程序文件 运行sudo apt-get update 运行sudo apt-get install mysql-server php5-mysql nginx php5-fpm 配置MySQL 运行sudo mysql_install_db 运行s</description>
+      <description>&lt;h2 id=&#34;英文原帖在此how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-1204httpswwwdigitaloceancomcommunityarticleshow-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;英文原帖在此:&lt;a href=&#34;https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;简化翻译如下&#34;&gt;简化翻译如下&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安装程序文件&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get install mysql-server php5-mysql nginx php5-fpm&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;配置MySQL&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo mysql_install_db&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo /usr/bin/mysql_secure_installation&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;配置nginx&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo service nginx start&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>转换图形文件在linux命令行方式</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</guid>
-      <description>安装ImageMagick 将当前目录下的图片文件按照文件名排序后合成pdf convert *.png out.pdf 缩小文件尺寸 convert -resize 50%x50% *.jpg</description>
+      <description>&lt;h2 id=&#34;安装imagemagickhttpwwwimagemagickorg-官网&#34;&gt;安装&lt;a href=&#34;http://www.imagemagick.org/&#34; title=&#34;官网&#34;&gt;ImageMagick&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;将当前目录下的图片文件按照文件名排序后合成pdf&#34;&gt;将当前目录下的图片文件按照文件名排序后合成pdf&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert *.png out.pdf&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;缩小文件尺寸&#34;&gt;缩小文件尺寸&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert -resize 50%x50%  *.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速安装我的Lubuntu V2.0版</title>
       <link>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</link>
       <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</guid>
-      <description>Install 完全弱智图形化安装界面，如果是新手请选择自动分配空间. 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：</description>
+      <description>&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;完全弱智图形化安装界面，如果是新手请选择自动分配空间.&lt;/p&gt;&#xA;&lt;h2 id=&#34;更换软件源地址&#34;&gt;更换软件源地址&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;运行&lt;code&gt;software-properties-gtk&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击选择框【下载自：】，选择“其他站点&amp;hellip;..”&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速安装我的Lubuntu</title>
       <link>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</guid>
-      <description>思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;完全弱智图形化安装界面，暂且不表&lt;/p&gt;&#xA;&lt;h2 id=&#34;更换软件源地址&#34;&gt;更换软件源地址&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;运行&lt;code&gt;software-properties-gtk&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击选择框【下载自：】，选择“其他站点&amp;hellip;..”&lt;/p&gt;</description>
     </item>
     <item>
       <title>耳放MDAD Mini满血复活</title>
       <link>https://www.samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</link>
       <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/</guid>
-      <description>思维导图文件下载 原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。&#xA;上周末晚脑抽就想试试看，结果试了半个多小时终于成功了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>linux下中文OCR</title>
       <link>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</link>
       <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</guid>
-      <description>思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIMzg3c2ZfM1RPNFk/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装tesseract-ocr&#34;&gt;安装tesseract-ocr&lt;/h2&gt;&#xA;&lt;h3 id=&#34;包安装&#34;&gt;包安装&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt-get install tesseract-ocr&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;源码安装&#34;&gt;源码安装&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.google.com/p/tesseract-ocr/&#34;&gt;google站点&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;安装tesseract-ocr的中文语言包&#34;&gt;安装tesseract-ocr的中文语言包&lt;/h2&gt;&#xA;&lt;p&gt;下载&lt;a href=&#34;https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.chi_sim.tar.gz&amp;amp;can=2&amp;amp;q=&#34;&gt;tesseract-ocr-3.02.chi_sim.tar.gz&lt;/a&gt;&#xA;解压到目录/usr/share/tesseract-ocr/tessdata/&lt;/p&gt;&#xA;&lt;h2 id=&#34;识别&#34;&gt;识别&lt;/h2&gt;&#xA;&lt;p&gt;运行&lt;code&gt;tesseract *.jpeg output.filename -l chi_sim&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;-l chi_sim&lt;/code&gt;指明语言是中文简体&lt;/li&gt;&#xA;&lt;li&gt;详细用法看man&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;一般识别图像，如果有pdf那么必须转换为图像&lt;/p&gt;</description>
     </item>
     <item>
       <title>解密磁盘碎片</title>
       <link>https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/</guid>
-      <description>思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIbTZEU2dMQkJ0MjA/edit&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why&#34;&gt;WHY&lt;/h2&gt;&#xA;&lt;h3 id=&#34;磁盘驱动器上有很多扇区每个扇区都能存放一小段数据-文件特别是大文件的存储需要占用很多不同的扇区-假设现在你有很多个文件存在的文件系统里-每个文件都会被存储在一系列连续的扇区里-后来你更新了其中的一个文件它的体积变大了-文件系统会尝试把文件新增的部分存放到紧邻原始文件的扇区里-可不幸的是它周边已经没连续的足够扇区空间了文件需要被分割成数段这些都在自动进行的-当从磁盘上读取这个文件时磁盘磁头需要跨越数个不同的物理位置来读取各个扇区&#34;&gt;磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件存在的文件系统里， 每个文件都会被存储在一系列连续的扇区里。 后来你更新了其中的一个文件，它的体积变大了。 文件系统会尝试把文件新增的部分存放到紧邻原始文件的扇区里。 可不幸的是，它周边已经没连续的足够扇区空间了，文件需要被分割成数段——这些都在自动进行的。 当从磁盘上读取这个文件时，磁盘磁头需要跨越数个不同的物理位置来读取各个扇区&lt;/h3&gt;&#xA;&lt;h2 id=&#34;what&#34;&gt;WHAT&lt;/h2&gt;&#xA;&lt;h3 id=&#34;使速度降低&#34;&gt;使速度降低&lt;/h3&gt;&#xA;&lt;h2 id=&#34;who&#34;&gt;WHO&lt;/h2&gt;&#xA;&lt;h3 id=&#34;硬盘类型&#34;&gt;硬盘类型&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;机械硬盘&lt;/li&gt;&#xA;&lt;li&gt;固态硬盘&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;os&#34;&gt;OS&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows&lt;/li&gt;&#xA;&lt;li&gt;Linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;HOW&lt;/h2&gt;&#xA;&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FAT&#xA;当你把一个文件存入FAT文件系统里时， 系统会尽量的把它存到靠近磁盘开始的地方。 当你存入第二个文件时， 它会紧接着第一个文件——一个接着一个。 当原始文件体积变大后，它们一定会产生碎片。 根本没有留给它们增长的空间。&lt;/li&gt;&#xA;&lt;li&gt;NTFS&#xA;它会在磁盘上在文件周围分配一些“缓冲”的空闲空间， 尽管如此，任何Windows用户都会告诉你， 经过一段时间的使用后，NTFS文件系统还是会形成碎片。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EXT4&#xA;把所有文件都分散到了整个磁盘上， 每两个文件之间都留有相当巨大的空闲空间。 当文件被修改、体积增加时，它们通常有足够的空间来扩展。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;磁盘整理&#34;&gt;磁盘整理&lt;/h2&gt;&#xA;&lt;h3 id=&#34;windows-1&#34;&gt;Windows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;通过在后台运行一个磁盘碎片整理进程来解决这个问题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;linux-1&#34;&gt;Linux&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一旦有碎片产生时，文件系统会尝试移动整个文件来消除碎片， 所以你不需要一个碎片整理工具。&lt;/li&gt;&#xA;&lt;li&gt;如果你真想整理一个文件系统， 这最简单的方式也许是最可靠的方式： 把文件从这个分区里考出，删除这些文件， 然后考回这些文件。 当你把文件考回硬盘时，文件系统会智能为文件分配存储空间。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>What&#39;s the EPOLL(转)</title>
       <link>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</guid>
-      <description>传统的select以及poll的效率会因为 在线人数的线形递增而导致呈二次乃至三次方的下降. 自从Linux提供了/dev/epoll的 设备以及</description>
+      <description>&lt;p&gt;传统的select以及poll的效率会因为 在线人数的线形递增而导致呈二次乃至三次方的下降.&#xA;自从Linux提供了/dev/epoll的 设备以及后来2.6内核中对/dev/epoll设备的访问的封装（System Epoll）之后，这种现象得到了大大的缓解.&#xA;总共不过4个 API：epoll_create, epoll_ctl, epoll_wait和close。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

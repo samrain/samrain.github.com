@@ -2,12 +2,49 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Emacs Dir mode - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读" />
+	<meta name="description" content="常用快捷键
+
+c-x d 或c-x f 进入Dir mode
+h或c-h m显示帮助信息
+p或c-p ↑ 向上移动
+n或c-n或space ↓ 向下移动
+v 预览文件/文件夹并设为只读
+q 退出预览
+s 改变排序规则（循环变化），总共两种：by name/date。
+f或enter编辑文件内容
+d 一个个给文件加上待删除标志
+m 一个个给文件加上待操作标志
+u 一个个给文件撤消待操作标志
+U 清空所有文件的待操作标志
+x 批量删除被设置过标志的文件
+D 删除当前文件
+C 复制文件
+R 重命名/移动文件
+Z 压缩/解压
+w 复制文件名
+y 给出文件类型信息 (通过 file 命令)
+t 对当前buffer标记状态互换，比如总共有5个文件，2个被标记，互换后就是3个被标记
+!或X 对当前文件执行shell命令
+&amp; 异步执行一条shell命令
+&#43; 创建子目录
+%m,%d,%u 用正则表达式来执行命令
+** 标记所有可执行文件
+*. 标记所有同扩展名文件
+*/ 标记所有目录
+g 刷新目录
+C-/, C-_, C-x u undo
+M-{,M-} 已标记的文件之间移动
+c-x c-j 跳转到当前文件所在目录
+先输入一个数字再输入以上快捷键，可以批量处理多个文件
+
+配置文件修改
+
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-06-21-emacs-dir-mode/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Emacs Dir mode">
-  <meta property="og:description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读">
+  <meta property="og:description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读 q 退出预览 s 改变排序规则（循环变化），总共两种：by name/date。 f或enter编辑文件内容 d 一个个给文件加上待删除标志 m 一个个给文件加上待操作标志 u 一个个给文件撤消待操作标志 U 清空所有文件的待操作标志 x 批量删除被设置过标志的文件 D 删除当前文件 C 复制文件 R 重命名/移动文件 Z 压缩/解压 w 复制文件名 y 给出文件类型信息 (通过 file 命令) t 对当前buffer标记状态互换，比如总共有5个文件，2个被标记，互换后就是3个被标记 !或X 对当前文件执行shell命令 &amp; 异步执行一条shell命令 &#43; 创建子目录 %m,%d,%u 用正则表达式来执行命令 ** 标记所有可执行文件 *. 标记所有同扩展名文件 */ 标记所有目录 g 刷新目录 C-/, C-_, C-x u undo M-{,M-} 已标记的文件之间移动 c-x c-j 跳转到当前文件所在目录 先输入一个数字再输入以上快捷键，可以批量处理多个文件 配置文件修改">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +55,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Emacs Dir mode">
-  <meta name="twitter:description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读">
+  <meta name="twitter:description" content="常用快捷键 c-x d 或c-x f 进入Dir mode h或c-h m显示帮助信息 p或c-p ↑ 向上移动 n或c-n或space ↓ 向下移动 v 预览文件/文件夹并设为只读 q 退出预览 s 改变排序规则（循环变化），总共两种：by name/date。 f或enter编辑文件内容 d 一个个给文件加上待删除标志 m 一个个给文件加上待操作标志 u 一个个给文件撤消待操作标志 U 清空所有文件的待操作标志 x 批量删除被设置过标志的文件 D 删除当前文件 C 复制文件 R 重命名/移动文件 Z 压缩/解压 w 复制文件名 y 给出文件类型信息 (通过 file 命令) t 对当前buffer标记状态互换，比如总共有5个文件，2个被标记，互换后就是3个被标记 !或X 对当前文件执行shell命令 &amp; 异步执行一条shell命令 &#43; 创建子目录 %m,%d,%u 用正则表达式来执行命令 ** 标记所有可执行文件 *. 标记所有同扩展名文件 */ 标记所有目录 g 刷新目录 C-/, C-_, C-x u undo M-{,M-} 已标记的文件之间移动 c-x c-j 跳转到当前文件所在目录 先输入一个数字再输入以上快捷键，可以批量处理多个文件 配置文件修改">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -126,22 +163,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

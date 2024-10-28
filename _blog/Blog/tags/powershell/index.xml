@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-how-remote-connect-by-powershell/</guid>
-      <description>在服务器上用管理员权限打开PowerShell终端 在PowerShell终端上执行Enable-PSRemoting，之后的确认操作，全部选</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在服务器上用管理员权限打开PowerShell终端&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在PowerShell终端上执行&lt;code&gt;Enable-PSRemoting&lt;/code&gt;，之后的确认操作，全部选是&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在客户端上用管理员权限打开PowerShell终端&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,36 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Linux的目录和文件权限 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4&#43;2&#43;1" />
+	<meta name="description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。
+r： 读     4
+w：写     2
+x： 执行 1
+-：  无     0
+rwx合起来就是4&#43;2&#43;1=7
+# 要改变文件权限，可使用下面命令：
+chmod 777 x.file
+
+# 看目录情况：
+ls -l
+
+# 要改变文件所属组，可使用下面命令
+chown :users conkyrc.sample
+
+# 要改变文件所属用户，可使用下面命令
+chown user conkyrc.sample
+
+要修改目录，使用 -R参数就可以了，方法和前面一样。" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Linux的目录和文件权限">
-  <meta property="og:description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4&#43;2&#43;1">
+  <meta property="og:description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。
+r： 读 4
+w：写 2
+x： 执行 1
+-： 无 0
+rwx合起来就是4&#43;2&#43;1=7
+# 要改变文件权限，可使用下面命令： chmod 777 x.file # 看目录情况： ls -l # 要改变文件所属组，可使用下面命令 chown :users conkyrc.sample # 要改变文件所属用户，可使用下面命令 chown user conkyrc.sample 要修改目录，使用 -R参数就可以了，方法和前面一样。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +42,13 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Linux的目录和文件权限">
-  <meta name="twitter:description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4&#43;2&#43;1">
+  <meta name="twitter:description" content="文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。
+r： 读 4
+w：写 2
+x： 执行 1
+-： 无 0
+rwx合起来就是4&#43;2&#43;1=7
+# 要改变文件权限，可使用下面命令： chmod 777 x.file # 看目录情况： ls -l # 要改变文件所属组，可使用下面命令 chown :users conkyrc.sample # 要改变文件所属用户，可使用下面命令 chown user conkyrc.sample 要修改目录，使用 -R参数就可以了，方法和前面一样。">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -107,22 +137,23 @@ chown user conkyrc.sample
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

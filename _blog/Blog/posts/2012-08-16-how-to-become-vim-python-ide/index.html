@@ -2,12 +2,63 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>如何把VIM变成Python IDE - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自" />
+	<meta name="description" content="思维导图文件下载
+原文链接
+简介
+
+
+2008年的老文章
+
+
+开发环境最重要的部分之一
+  很容易的跨机器
+
+
+
+用git来保存VIM配置
+  autoload目录目的是用来自动载入插件Pathogen
+
+  我们使用Pathogen来载入bundle目录中的其他插件
+
+  让我们下载Pathogen然后放进autoload目录中
+
+  为了启动时可以载入，我们需要在文件~/.vimrc中加入
+
+  把我们计划使用的插件用submodules方式放进git仓库中
+
+  git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+
+
+
+git submodule add https://github.com/msanders/snipmate.vim.git bundle/snipmate
+git submodule add https://github.com/tpope/vim-surround.git bundle/surround
+git submodule add https://github.com/tpope/vim-git.git bundle/git
+git submodule add https://github.com/ervandew/supertab.git bundle/supertab
+git submodule add https://github.com/sontek/minibufexpl.vim.git bundle/minibufexpl
+git submodule add https://github.com/wincent/Command-T.git bundle/command-t
+git submodule add https://github.com/mitechie/pyflakes-pathogen.git
+git submodule add https://github.com/mileszs/ack.vim.git bundle/ack
+git submodule add https://github.com/sjl/gundo.vim.git bundle/gundo
+git submodule add https://github.com/fs111/pydoc.vim.git bundle/pydoc
+git submodule add https://github.com/vim-scripts/pep8.git bundle/pep8
+git submodule add https://github.com/alfredodeza/pytest.vim.git bundle/py.test
+git submodule add https://github.com/reinh/vim-makegreen bundle/makegreen
+git submodule add https://github.com/vim-scripts/TaskList.vim.git bundle/tasklist
+git submodule add https://github.com/vim-scripts/The-NERD-tree.git bundle/nerdtree
+git submodule add https://github.com/sontek/rope-vim.git bundle/ropevim
+git submodule init
+git submodule update
+git submodule foreach git submodule init
+git submodule foreach git submodule update" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2012-08-16-how-to-become-vim-python-ide/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="如何把VIM变成Python IDE">
-  <meta property="og:description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自">
+  <meta property="og:description" content="思维导图文件下载
+原文链接 简介 2008年的老文章
+开发环境最重要的部分之一
+很容易的跨机器 用git来保存VIM配置
+autoload目录目的是用来自动载入插件Pathogen 我们使用Pathogen来载入bundle目录中的其他插件 让我们下载Pathogen然后放进autoload目录中 为了启动时可以载入，我们需要在文件~/.vimrc中加入 把我们计划使用的插件用submodules方式放进git仓库中 git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive git submodule add https://github.com/msanders/snipmate.vim.git bundle/snipmate git submodule add https://github.com/tpope/vim-surround.git bundle/surround git submodule add https://github.com/tpope/vim-git.git bundle/git git submodule add https://github.com/ervandew/supertab.git bundle/supertab git submodule add https://github.com/sontek/minibufexpl.vim.git bundle/minibufexpl git submodule add https://github.com/wincent/Command-T.git bundle/command-t git submodule add https://github.com/mitechie/pyflakes-pathogen.git git submodule add https://github.com/mileszs/ack.vim.git bundle/ack git submodule add https://github.com/sjl/gundo.vim.git bundle/gundo git submodule add https://github.com/fs111/pydoc.vim.git bundle/pydoc git submodule add https://github.com/vim-scripts/pep8.git bundle/pep8 git submodule add https://github.com/alfredodeza/pytest.vim.git bundle/py.test git submodule add https://github.com/reinh/vim-makegreen bundle/makegreen git submodule add https://github.com/vim-scripts/TaskList.vim.git bundle/tasklist git submodule add https://github.com/vim-scripts/The-NERD-tree.git bundle/nerdtree git submodule add https://github.com/sontek/rope-vim.git bundle/ropevim git submodule init git submodule update git submodule foreach git submodule init git submodule foreach git submodule update">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +70,11 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="如何把VIM变成Python IDE">
-  <meta name="twitter:description" content="思维导图文件下载 原文链接 简介 2008年的老文章 开发环境最重要的部分之一 很容易的跨机器 用git来保存VIM配置 autoload目录目的是用来自">
+  <meta name="twitter:description" content="思维导图文件下载
+原文链接 简介 2008年的老文章
+开发环境最重要的部分之一
+很容易的跨机器 用git来保存VIM配置
+autoload目录目的是用来自动载入插件Pathogen 我们使用Pathogen来载入bundle目录中的其他插件 让我们下载Pathogen然后放进autoload目录中 为了启动时可以载入，我们需要在文件~/.vimrc中加入 把我们计划使用的插件用submodules方式放进git仓库中 git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive git submodule add https://github.com/msanders/snipmate.vim.git bundle/snipmate git submodule add https://github.com/tpope/vim-surround.git bundle/surround git submodule add https://github.com/tpope/vim-git.git bundle/git git submodule add https://github.com/ervandew/supertab.git bundle/supertab git submodule add https://github.com/sontek/minibufexpl.vim.git bundle/minibufexpl git submodule add https://github.com/wincent/Command-T.git bundle/command-t git submodule add https://github.com/mitechie/pyflakes-pathogen.git git submodule add https://github.com/mileszs/ack.vim.git bundle/ack git submodule add https://github.com/sjl/gundo.vim.git bundle/gundo git submodule add https://github.com/fs111/pydoc.vim.git bundle/pydoc git submodule add https://github.com/vim-scripts/pep8.git bundle/pep8 git submodule add https://github.com/alfredodeza/pytest.vim.git bundle/py.test git submodule add https://github.com/reinh/vim-makegreen bundle/makegreen git submodule add https://github.com/vim-scripts/TaskList.vim.git bundle/tasklist git submodule add https://github.com/vim-scripts/The-NERD-tree.git bundle/nerdtree git submodule add https://github.com/sontek/rope-vim.git bundle/ropevim git submodule init git submodule update git submodule foreach git submodule init git submodule foreach git submodule update">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -553,22 +608,23 @@ git submodule foreach git submodule update</p>
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

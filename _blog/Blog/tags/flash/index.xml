@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</link>
       <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-01-20-install-flash-in-chromium/</guid>
-      <description>近期由于用choco的缘故，就install了一个chromium，因为chrome一直不能自动更新。 开始用Chromium发现InfoQ不</description>
+      <description>&lt;p&gt;近期由于用choco的缘故，就install了一个chromium，因为chrome一直不能自动更新。&lt;/p&gt;&#xA;&lt;p&gt;开始用Chromium发现InfoQ不能看视频，提示我没有装Flash。那我就跟着提示去Adobe网站 &lt;a href=&#34;https://get.adobe.com/cn/flashplayer/?no_redirect&#34;&gt;https://get.adobe.com/cn/flashplayer/?no_redirect&lt;/a&gt; 安装好后重启浏览器和电脑还是提示我有问题。仔细看发现Adobe网站认为我装了Chrome，让我装的Flash版本不对。所以我就进入Adobe网站上这个链接 &lt;a href=&#34;https://get.adobe.com/cn/flashplayer/otherversions/&#34;&gt;https://get.adobe.com/cn/flashplayer/otherversions/&lt;/a&gt; ，选择*【Windows 10/Windows 8】&lt;em&gt;和&lt;/em&gt;【FP 20 for Opera and Chromium - PPAPI】*，再下载安装就ok了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

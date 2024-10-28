@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</link>
       <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2012-12-10-write-blog-by-freemind/</guid>
-      <description>思维导图文件下载 What mm文件变成md文件 Why 写作简单 发布简单 记忆简单 修改简单 How 用Freemind写博客，然后保存成mm文件 上传到Google Dr</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what&#34;&gt;What&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;mm文件变成md文件&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;why&#34;&gt;Why&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;写作简单&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;发布简单&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;记忆简单&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;修改简单&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;how&#34;&gt;How&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;用Freemind写博客，然后保存成mm文件&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;上传到Google Drive上，然后共享给所有人，记录下分享URL&lt;/p&gt;</description>
     </item>
     <item>
       <title>通过Github建博客</title>
       <link>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</link>
       <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2012-12-10-built-blog-by-github/</guid>
-      <description>思维导图文件下载 登录Github 创建repo 名字必须是$username$.github.com 创建disqus帐号 Site URL = $username$.github.com shortname = $username$blogbygithub Site Name = $username$-blog-by-github Install</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/open?id=0B1DrsqrLRzeIRVczRmZtRV85RFk&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;登录githubhttpsgithubcom&#34;&gt;&lt;a href=&#34;https://github.com&#34;&gt;登录Github&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;创建repohttpsgithubcomnew&#34;&gt;&lt;a href=&#34;https://github.com/new&#34;&gt;创建repo&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;名字必须是$username$.github.com&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;创建disqus帐号httpdisquscomadminregister&#34;&gt;&lt;a href=&#34;http://disqus.com/admin/register/&#34;&gt;创建disqus帐号&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;pre&gt;&lt;code&gt;Site URL = $username$.github.com&#xD;&#xA;shortname = $username$blogbygithub&#xD;&#xA;Site Name = $username$-blog-by-github&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h1 id=&#34;install-jekyll-bootstrap&#34;&gt;Install Jekyll-Bootstrap&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;git clone &lt;a href=&#34;mailto:git@github.com&#34;&gt;git@github.com&lt;/a&gt;:samrain/template4blog.git $username$.github.com&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;cd $username$.github.com&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;edit _config.yml&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;title : 你的博客名称&lt;/code&gt;&#xA;&lt;code&gt;name : 你的姓名&lt;/code&gt;&#xA;&lt;code&gt;email : 你的邮箱&lt;/code&gt;&#xA;&lt;code&gt;github : https://github.com/$username$/&lt;/code&gt;&#xA;&lt;code&gt;production_url : http://$username$.github.com&lt;/code&gt;&#xA;&lt;code&gt;short_name : 你在disqus上注册用户的短名&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

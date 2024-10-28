@@ -64,11 +64,31 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/">在Emacs中按照黄金分割比例调整屏幕</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	<p>after install golden ratio package,let&rsquo;s add it:</p>
+<pre><code>(use-package golden-ratio
+  :ensure t
+  :diminish golden-ratio-mode
+  :init
+  (golden-ratio-mode 1))</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/">Bosun go编写的跨平台监控系统</a></h1>
 					<time>Sep 12, 2018</time>
 					<br><div class="description">
 	
-	http://localhost:8070/ http://bosun.org/scollector/ http://bosun.org/quickstart#scollector http://zhengheng.me/2015/12/09/bosun-install/ http://localhost:8070/hello world!&hellip;
+	<p>http://localhost:8070/</p>
+<p><a href="http://bosun.org/scollector/">http://bosun.org/scollector/</a></p>
+<p><a href="http://bosun.org/quickstart#scollector">http://bosun.org/quickstart#scollector</a></p>
+<p><a href="http://zhengheng.me/2015/12/09/bosun-install/">http://zhengheng.me/2015/12/09/bosun-install/</a></p>
+<p>http://localhost:8070/hello world!</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/">Read more ⟶</a>
@@ -79,7 +99,8 @@
 					<time>Sep 11, 2018</time>
 					<br><div class="description">
 	
-	用管理员权限启动PowerShell，然后执行以下脚本： Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}&hellip;
+	<p>用管理员权限启动PowerShell，然后执行以下脚本：</p>
+<pre><code>Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/">Read more ⟶</a>
@@ -90,7 +111,21 @@
 					<time>Sep 11, 2018</time>
 					<br><div class="description">
 	
-	list.exclude Config/dll.config Logger.config rsync4test.bat set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\ rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude&hellip;
+	<ul>
+<li>
+<p>list.exclude</p>
+<pre><code>  Config/dll.config
+  Logger.config
+</code></pre>
+</li>
+<li>
+<p>rsync4test.bat</p>
+<pre><code>  set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\
+
+  rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude
+</code></pre>
+</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/">Read more ⟶</a>
@@ -101,21 +136,24 @@
 					<time>Sep 11, 2018</time>
 					<br><div class="description">
 	
-	`/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/` if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and OBJECTPROPERTY(id, N'IsProcedure') = 1) DROP PROCEDURE [dbo].[存储过程名]&hellip;
+	<pre><code>    `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/`
+
+    if exists (select top(1) id from sysobjects where id = object_id(N'存储过程名') and        OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE [dbo].[存储过程名]
+    GO
+
+
+    SET ANSI_NULLS ON
+    GO
+
+
+    SET QUOTED_IDENTIFIER ON
+    GO
+
+    CREATE PROCEDURE [dbo].[存储过程名]</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a></h1>
-					<time>Sep 11, 2018</time>
-					<br><div class="description">
-	
-	迁移非系统数据库 use master go sp_detach_db '非系统数据库' go use master go sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +174,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

@@ -13,28 +13,28 @@
       <link>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</link>
       <pubDate>Wed, 04 Oct 2023 09:08:51 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</guid>
-      <description>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。&lt;/li&gt;&#xA;&lt;li&gt;使用这个密码用AES算法加密明文得到一串字符。&lt;/li&gt;&#xA;&lt;li&gt;把这串字符用Base64编码。&lt;/li&gt;&#xA;&lt;li&gt;把8位密码填入到生成字符串的最后一位等号之前。&lt;/li&gt;&#xA;&lt;li&gt;加密完成。&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>在IM中发送和接受密码</title>
       <link>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</link>
       <pubDate>Tue, 27 Dec 2022 17:01:18 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-12-27-send-and-receive-passwords-in-im/</guid>
-      <description>发送密码 用浏览器访问https://tool.oschina.net/encrypt 点击「加密/解密」 把密码粘帖到左边方框「明文」中 在「加密</description>
+      <description>&lt;h1 id=&#34;发送密码&#34;&gt;发送密码&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;用浏览器访问&lt;a href=&#34;https://tool.oschina.net/encrypt&#34;&gt;https://tool.oschina.net/encrypt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;点击「加密/解密」&lt;/li&gt;&#xA;&lt;li&gt;把密码粘帖到左边方框「明文」中&lt;/li&gt;&#xA;&lt;li&gt;在「加密算法:」中选择「TripleDes」&lt;/li&gt;&#xA;&lt;li&gt;在「密码」中输入当天日期，例如20220101&lt;/li&gt;&#xA;&lt;li&gt;点击按钮「加密」&lt;/li&gt;&#xA;&lt;li&gt;复制右边方框「密文」中内容&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cloud-pic.wpsgo.com/Z1U2eW5vNEVSdlJxSkJ5SHVaNm9BS1hzVlUxN05JMDB0QjdHK3hqcFd0MVBaVDFzWkFqRFlBRHFLcldVMnQ5SjFPZWZTUm40N2RkS25xNTlUZmRwUWVOUldzL3QzYlZiSEw2bnlWZDlUdUthZ1hQdWwvRml0RFIxYWxtSWlWU1lGNmY2SDgyQjhpaEhjQkRXdVlLN2lubWljbFZ4OU9GbkRnUlZ0Tm5lRFhPR25UMmhyVzdUd2k4VTc4OEJEQXM4ZG1LcVpIOGw0K2VZREc3N0dmYlFDS2FhRS91aXpRNWJNN2JBUHVUSU9wZFJOMFB3UHRxQi8wK2FlbWV6RC9rS0xtRTAxc2NqZ0NNNUJramRzZkVub3c9PQ==/attach/object/CM5KGAYAFU&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>加密密码</title>
       <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
-      <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
+      <description>&lt;p&gt;具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的&amp;rsquo;随机&amp;rsquo;字符串就是所谓的&amp;rsquo;盐&#39;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>为ssh连接指定别名并记住密码</title>
       <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</guid>
-      <description>Why 维护多台linux服务器, 需要ssh进行操作，每次都要输入 ssh user@x.x.x.x并输入密码OOXX#*&amp;amp;^%, 是一件很浪费时间</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;维护多台linux服务器, 需要&lt;code&gt;ssh&lt;/code&gt;进行操作，每次都要输入 &lt;code&gt;ssh user@x.x.x.x&lt;/code&gt;并输入密码&lt;code&gt;OOXX#*&amp;amp;^%&lt;/code&gt;, 是一件很浪费时间的事.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

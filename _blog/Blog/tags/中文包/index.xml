@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</guid>
-      <description>Why 国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国外VPS或服务器一般未安装东亚（中国韩国日本等国）语言支持，所以无法正常显示中文，因此我们需要使其支持中文，避免乱码。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

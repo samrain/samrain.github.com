@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</link>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</guid>
-      <description>1.设置AutoHotkey的属性为【以管理员身份启动】 2.设置开机不需要密码登陆系统 control userpasswords2 3.修改ahk文件 将第四行从#n::改为::，这样</description>
+      <description>&lt;p&gt;1.设置AutoHotkey的属性为【以管理员身份启动】&lt;/p&gt;&#xA;&lt;p&gt;2.设置开机不需要密码登陆系统&#xA;&lt;code&gt;control userpasswords2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;3.修改ahk文件&lt;/p&gt;&#xA;&lt;p&gt;将第四行从&lt;code&gt;#n::&lt;/code&gt;改为&lt;code&gt;::&lt;/code&gt;，这样就可以让AutoHotkey启动时就开始执行脚本。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

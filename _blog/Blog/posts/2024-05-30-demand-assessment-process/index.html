@@ -2,12 +2,42 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>需求评估流程 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&gt;a[客户提问题] a--&gt;b[客户已有产品能否解决] b--&gt;|否" />
+	<meta name="description" content="
+mermaid代码如下：
+--- 
+title: 需求评估常规流程 
+---
+
+flowchart TD
+开始--&gt;a[客户提问题]
+a--&gt;b[客户已有产品能否解决]
+b--&gt;|否|id8[是否在合同范围内]
+b--&gt;|是|id7[&#34;提供解决方案，
+询问客户是否满意&#34;]
+id7--&gt;|满意|id10[结束]
+id7--&gt;|不满意|a
+id8--&gt;|是|id1[用标品是否能解决问题]
+id8--&gt;|否|id9[&#34;告诉客户不在合同范围内，
+要么本期不做，
+要么走需求变更&#34;]
+id9--&gt;id10
+id1--&gt;|能|id7
+id1--&gt;|不能|id2[用计划中的功能是否能解决问题]
+id2--&gt;|能|id6[排期是否能满足项目DDL]
+id6--&gt;|能|id7
+id6--&gt;|不能|id4[是否能二开解决问题]
+id2--&gt;|不能|id3[是否能开发新功能]
+id3--&gt;|能|确定排期--&gt;id6
+id3--&gt;|不能|id4
+id4--&gt;|能|服务商给出概要设计和开发计划--&gt;id7
+id4--&gt;|不能|明确告诉客户做不了--&gt;id10
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2024-05-30-demand-assessment-process/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="需求评估流程">
-  <meta property="og:description" content="mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&gt;a[客户提问题] a--&gt;b[客户已有产品能否解决] b--&gt;|否">
+  <meta property="og:description" content="mermaid代码如下：
+--- title: 需求评估常规流程 --- flowchart TD 开始--&gt;a[客户提问题] a--&gt;b[客户已有产品能否解决] b--&gt;|否|id8[是否在合同范围内] b--&gt;|是|id7[&#34;提供解决方案， 询问客户是否满意&#34;] id7--&gt;|满意|id10[结束] id7--&gt;|不满意|a id8--&gt;|是|id1[用标品是否能解决问题] id8--&gt;|否|id9[&#34;告诉客户不在合同范围内， 要么本期不做， 要么走需求变更&#34;] id9--&gt;id10 id1--&gt;|能|id7 id1--&gt;|不能|id2[用计划中的功能是否能解决问题] id2--&gt;|能|id6[排期是否能满足项目DDL] id6--&gt;|能|id7 id6--&gt;|不能|id4[是否能二开解决问题] id2--&gt;|不能|id3[是否能开发新功能] id3--&gt;|能|确定排期--&gt;id6 id3--&gt;|不能|id4 id4--&gt;|能|服务商给出概要设计和开发计划--&gt;id7 id4--&gt;|不能|明确告诉客户做不了--&gt;id10">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +49,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="需求评估流程">
-  <meta name="twitter:description" content="mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&gt;a[客户提问题] a--&gt;b[客户已有产品能否解决] b--&gt;|否">
+  <meta name="twitter:description" content="mermaid代码如下：
+--- title: 需求评估常规流程 --- flowchart TD 开始--&gt;a[客户提问题] a--&gt;b[客户已有产品能否解决] b--&gt;|否|id8[是否在合同范围内] b--&gt;|是|id7[&#34;提供解决方案， 询问客户是否满意&#34;] id7--&gt;|满意|id10[结束] id7--&gt;|不满意|a id8--&gt;|是|id1[用标品是否能解决问题] id8--&gt;|否|id9[&#34;告诉客户不在合同范围内， 要么本期不做， 要么走需求变更&#34;] id9--&gt;id10 id1--&gt;|能|id7 id1--&gt;|不能|id2[用计划中的功能是否能解决问题] id2--&gt;|能|id6[排期是否能满足项目DDL] id6--&gt;|能|id7 id6--&gt;|不能|id4[是否能二开解决问题] id2--&gt;|不能|id3[是否能开发新功能] id3--&gt;|能|确定排期--&gt;id6 id3--&gt;|不能|id4 id4--&gt;|能|服务商给出概要设计和开发计划--&gt;id7 id4--&gt;|不能|明确告诉客户做不了--&gt;id10">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -120,22 +151,23 @@ id4--&gt;|不能|明确告诉客户做不了--&gt;id10
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

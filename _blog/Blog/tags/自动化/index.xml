@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</link>
       <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-26-auto-record-everyday/</guid>
-      <description>##各种记录/渠道： evernote 在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google</description>
+      <description>&lt;p&gt;##各种记录/渠道：&lt;/p&gt;&#xA;&lt;h3 id=&#34;evernote&#34;&gt;evernote&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;在ifttt上没有trigger，所以只能通过触发其他channel的trigger来记录。比如整理完后在google日历上增加一个事件，就能借日历触发ifttt保存记录。&#xA;$Todo$ 如果想要把笔记备份到google硬盘上：通过分享邮件到samrainhan@gmail.com也能触发ifttt保存笔记到google硬盘。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

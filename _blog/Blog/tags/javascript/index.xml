@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</link>
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-29-display-the-current-computer-catalog-with-js/</guid>
-      <description></description>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>缩减HTML、CSS和JavaScript的大小</title>
       <link>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</link>
       <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-10-reduced-web-resources-size/</guid>
-      <description>##缩减HTML的大小 使用PageSpeed Insights Chrome扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的</description>
+      <description>&lt;p&gt;##缩减HTML的大小&lt;/p&gt;&#xA;&lt;p&gt;使用&lt;a href=&#34;https://developers.google.com/speed/docs/insights/using_chrome?hl=zh-CN&#34;&gt;PageSpeed Insights Chrome&lt;/a&gt;扩展功能来生成优化版HTML代码。对HTML页面进行分析，然后浏览“缩减HTML的大小”规则。点击“查看经过优化的内容”，以获取经过优化的HTML代码。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

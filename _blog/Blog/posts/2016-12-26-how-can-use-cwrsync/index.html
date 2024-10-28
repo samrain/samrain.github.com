@@ -2,12 +2,24 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>处理cwRsync运行错误 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="cwRsync 4.2在同步的时候会有错误： uid 4294967295 (-1) is impossible to set on &ldquo;/cygdriver/&hellip;&rdquo; 或者 gid 4294967295 (-1) is impossible to set on &ldquo;/cygdriver/&hellip;&rdquo; 如果不想看到提示这些错误 1、可以在命令行加参数 --no-super 2、在服务器端的配置文" />
+	<meta name="description" content="cwRsync 4.2在同步的时候会有错误：
+uid 4294967295 (-1) is impossible to set on &ldquo;/cygdriver/&hellip;&rdquo;
+或者
+gid 4294967295 (-1) is impossible to set on &ldquo;/cygdriver/&hellip;&rdquo;
+如果不想看到提示这些错误
+1、可以在命令行加参数 --no-super
+2、在服务器端的配置文件中添加：" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-12-26-how-can-use-cwrsync/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="处理cwRsync运行错误">
-  <meta property="og:description" content="cwRsync 4.2在同步的时候会有错误： uid 4294967295 (-1) is impossible to set on “/cygdriver/…” 或者 gid 4294967295 (-1) is impossible to set on “/cygdriver/…” 如果不想看到提示这些错误 1、可以在命令行加参数 --no-super 2、在服务器端的配置文">
+  <meta property="og:description" content="cwRsync 4.2在同步的时候会有错误：
+uid 4294967295 (-1) is impossible to set on “/cygdriver/…”
+或者
+gid 4294967295 (-1) is impossible to set on “/cygdriver/…”
+如果不想看到提示这些错误
+1、可以在命令行加参数 --no-super
+2、在服务器端的配置文件中添加：">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +30,13 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="处理cwRsync运行错误">
-  <meta name="twitter:description" content="cwRsync 4.2在同步的时候会有错误： uid 4294967295 (-1) is impossible to set on “/cygdriver/…” 或者 gid 4294967295 (-1) is impossible to set on “/cygdriver/…” 如果不想看到提示这些错误 1、可以在命令行加参数 --no-super 2、在服务器端的配置文">
+  <meta name="twitter:description" content="cwRsync 4.2在同步的时候会有错误：
+uid 4294967295 (-1) is impossible to set on “/cygdriver/…”
+或者
+gid 4294967295 (-1) is impossible to set on “/cygdriver/…”
+如果不想看到提示这些错误
+1、可以在命令行加参数 --no-super
+2、在服务器端的配置文件中添加：">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -99,22 +117,23 @@ fake super = yes
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

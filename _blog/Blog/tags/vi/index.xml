@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</link>
       <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2010-02-11-gvim-editing-tips/</guid>
-      <description>准备工作 首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test 查找替换 按几下 ESC 进入 Normal 模式， 输入以下命令： :%s/ /\r/g 回车后得到的效果如下</description>
+      <description>&lt;h1 id=&#34;准备工作&#34;&gt;准备工作&lt;/h1&gt;&#xA;&lt;p&gt;首先， 我们打开 VIM， 输入一段文本， 用于今天的演示：this is a test&lt;/p&gt;&#xA;&lt;h1 id=&#34;查找替换&#34;&gt;查找替换&lt;/h1&gt;&#xA;&lt;p&gt;按几下 ESC 进入 Normal 模式， 输入以下命令： &lt;code&gt;:%s/ /\r/g&lt;/code&gt; 回车后得到的效果如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;this&#xA;is&#xA;a&#xA;test&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;解说： 这条命令的作用是将文章中所有的空格替换为回车。 几乎所有的编辑器都支持查找替换， 但并不是所有的编辑器都支持把空格替换为回车， 因此这个功能在许多别的编辑器里做起来是比较繁琐的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

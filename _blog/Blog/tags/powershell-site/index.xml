@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</link>
       <pubDate>Mon, 10 Sep 2018 21:00:21 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/</guid>
-      <description>启动 start-website -name &amp;quot;&amp;quot; 停止 stop-website -name &amp;quot;&amp;quot;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;启动&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;start-website -name &amp;quot;&amp;quot;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;停止&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;stop-website -name &amp;quot;&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

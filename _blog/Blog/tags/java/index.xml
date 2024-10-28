@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
+      <description>&lt;pre&gt;&lt;code&gt;String url=request.getScheme()+&amp;quot;://&amp;quot;; &#xA;url+=request.getHeader(&amp;quot;host&amp;quot;); &#xA;url+=request.getRequestURI(); &#xA;if(request.getQueryString()!=null) &#xA;url+=&amp;quot;?&amp;quot;+request.getQueryString();&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,33 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>扩大swap大小 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m" />
+	<meta name="description" content="扩大swap大小
+代码如下：
+swapon -s
+free -m
+sudo swapoff /swapfile
+swapon -s
+free -m
+fallocate -l 8G /swap
+sudo fallocate -l 8G /swap
+du -sh /swap
+chown root:root /swap
+sudo chown root:root /swap
+sudo chmod 600 /swap
+mkswap -L swap /swap
+sudo mkswap -L swap /swap
+swapon /swap
+sudo swapon /swap
+free -h
+sudo micro /etc/fstab
+free -m
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2021-03-20-resize-swap/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="扩大swap大小">
-  <meta property="og:description" content="扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m">
+  <meta property="og:description" content="扩大swap大小 代码如下：
+swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,7 +38,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="扩大swap大小">
-  <meta name="twitter:description" content="扩大swap大小 代码如下： swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m">
+  <meta name="twitter:description" content="扩大swap大小 代码如下：
+swapon -s free -m sudo swapoff /swapfile swapon -s free -m fallocate -l 8G /swap sudo fallocate -l 8G /swap du -sh /swap chown root:root /swap sudo chown root:root /swap sudo chmod 600 /swap mkswap -L swap /swap sudo mkswap -L swap /swap swapon /swap sudo swapon /swap free -h sudo micro /etc/fstab free -m">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -105,22 +127,23 @@ free -m
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

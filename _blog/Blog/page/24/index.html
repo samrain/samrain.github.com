@@ -64,11 +64,60 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/">儿童早餐食谱</a></h1>
+					<time>Oct 31, 2022</time>
+					<br><div class="description">
+	
+	<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">早餐</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">碳水</td>
+          <td style="text-align: left">两片全麦面包/八宝饭/油炸小馒头配炼乳/煎饺/小猪包/意面/手抓饼/土豆泥</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">脂肪</td>
+          <td style="text-align: left">黄油/花生酱/芝麻酱/坚果/椰子油/橄榄油</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">蛋白质</td>
+          <td style="text-align: left">火腿肠/香肠/奶酪/鸡蛋/培根/牛/羊/猪/鱼/虾</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">维生素C+水果</td>
+          <td style="text-align: left">半个苹果/橙子(其他应季水果)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">蛋白质+钙</td>
+          <td style="text-align: left">250毫升牛奶/豆奶</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">维生素A+蔬菜</td>
+          <td style="text-align: left">胡萝卜/南瓜/红薯/玉米/芦笋/西兰花/菠菜/豌豆/黄绿蔬菜</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">维生素AD</td>
+          <td style="text-align: left">1粒胶囊</td>
+      </tr>
+  </tbody>
+</table>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2022-10-31-children-breakfast-recipes/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/">PMO的文章摘抄</a></h1>
 					<time>Oct 28, 2022</time>
 					<br><div class="description">
 	
-	项目管理办公室 一个项目管理办公室（简称PMO）是一个企业，政府机构，或中的一组或部门的企业定义并维护标准的项目管理组织内。PMO 努力在项目执&hellip;
+	<p>项目管理办公室<br>
+一个项目管理办公室（简称PMO）是一个企业，政府机构，或中的一组或部门的企业定义并维护标准的项目管理组织内。PMO 努力在项目执行中标准化和引入重复经济。PMO 是有关项目管理和执行实践的文档、指南和指标的来源。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2022-10-28-excerpts-from-pmo-articles/">Read more ⟶</a>
@@ -79,7 +128,15 @@
 					<time>Oct 27, 2022</time>
 					<br><div class="description">
 	
-	问题 Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t&hellip;
+	<h1 id="问题">问题</h1>
+<p>Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space.</p>
+<h1 id="检查命令">检查命令</h1>
+<pre tabindex="0"><code>df -h /
+zfs list -o space rpool bpool
+zfs list -t snapshot
+</code></pre><h1 id="解决问题命令">解决问题命令:</h1>
+<pre tabindex="0"><code>sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">Read more ⟶</a>
@@ -90,7 +147,55 @@
 					<time>Oct 12, 2022</time>
 					<br><div class="description">
 	
-	《中国居民膳食指南（2022）》提炼出了平衡膳食八准则： 1. 食物多样，合理搭配； 每天摄入12种以上食物,每周25种以上 每天谷类200300克,&hellip;
+	<p>《中国居民膳食指南（2022）》提炼出了平衡膳食八准则：</p>
+<h1 id="1-食物多样合理搭配">1. 食物多样，合理搭配；</h1>
+<ul>
+<li>每天摄入12种以上食物,每周25种以上</li>
+<li>每天谷类200<del>300克,包括全谷物和杂豆类50</del>150克,薯类50~100克</li>
+</ul>
+<h1 id="2-吃动平衡健康体重">2. 吃动平衡，健康体重；</h1>
+<ul>
+<li>每周至少5天中等强度运动,累计150分钟以上,每天6000步</li>
+<li>每周2~3天高强度有氧或无氧运动</li>
+<li>每小时站立一次</li>
+</ul>
+<h1 id="3-多吃蔬果奶类全谷大豆">3. 多吃蔬果、奶类、全谷、大豆；</h1>
+<ul>
+<li>每天蔬菜300克,其中深色蔬菜占一半</li>
+<li>每天200~350克水果</li>
+<li>每天300毫升液奶或相当的奶制品</li>
+<li>经常吃全谷物和大豆制品,适量吃坚果</li>
+</ul>
+<h1 id="4-适量吃鱼禽蛋瘦肉">4. 适量吃鱼、禽、蛋、瘦肉；</h1>
+<ul>
+<li>每天鱼、禽、蛋、瘦肉平均120~200克</li>
+<li>优先选择鱼,每周鱼2次或300~500克</li>
+<li>每周蛋300~350克</li>
+<li>每周畜禽肉300~500克</li>
+<li>少吃深加工肉制品</li>
+</ul>
+<h1 id="5-少盐少油控糖限酒">5. 少盐少油，控糖限酒；</h1>
+<ul>
+<li>少吃高盐和油炸食品,每天食盐5克,油25~30克</li>
+<li>糖25克以下</li>
+<li>反式脂肪酸2克</li>
+<li>酒精不超过15克</li>
+</ul>
+<h1 id="6-规律进餐足量饮水">6. 规律进餐，足量饮水；</h1>
+<ul>
+<li>每天喝水1700毫升</li>
+<li>喝白水或茶水</li>
+<li>规律进餐,饮食适度</li>
+</ul>
+<h1 id="7-会烹会选会看标签">7. 会烹会选，会看标签；</h1>
+<ul>
+<li>选择新鲜的,营养素密度高的食物</li>
+<li>阅读食品标签,合理选择预包装食品</li>
+</ul>
+<h1 id="8-公筷分餐杜绝浪费">8. 公筷分餐，杜绝浪费。</h1>
+<ul>
+<li>生熟分开,熟食第二次加热要热透</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2022-10-12-eight-principles-of-balanced-diet/">Read more ⟶</a>
@@ -101,21 +206,11 @@
 					<time>Sep 23, 2022</time>
 					<br><div class="description">
 	
-	1. 目的 会议是高效沟通的方式之一，是日常工作中必要的活动，会议的必要性决定了会议的重要性。但因为会议的复杂性影响了会议的效率，因此会议的时长和&hellip;
+	<h1 id="1目的">1. <strong>目的</strong></h1>
+<p>会议是高效沟通的方式之一，是日常工作中必要的活动，会议的必要性决定了会议的重要性。但因为会议的复杂性影响了会议的效率，因此会议的时长和频次，会影响大家对会议的积极性。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2022-09-23-conference-management-specifications/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/">模板-技术服务团队周报</a></h1>
-					<time>Sep 21, 2022</time>
-					<br><div class="description">
-	
-	1. OKR完成情况 2. 问题汇总分析 a. 本周问题看板 i. 本周最热项目 ii. 本周重点项目问题 b. 本月问题看板 i. 本月最热项目 ii. 本月最热问题 iii. 本月标杆项目问题 iv. 本&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2022-09-21-template-technical-service-team-weekly-report/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +231,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

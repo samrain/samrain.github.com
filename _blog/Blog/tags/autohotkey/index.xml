@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</link>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-29-724-hour-operation/</guid>
-      <description>1.设置AutoHotkey的属性为【以管理员身份启动】 2.设置开机不需要密码登陆系统 control userpasswords2 3.修改ahk文件 将第四行从#n::改为::，这样</description>
+      <description>&lt;p&gt;1.设置AutoHotkey的属性为【以管理员身份启动】&lt;/p&gt;&#xA;&lt;p&gt;2.设置开机不需要密码登陆系统&#xA;&lt;code&gt;control userpasswords2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;3.修改ahk文件&lt;/p&gt;&#xA;&lt;p&gt;将第四行从&lt;code&gt;#n::&lt;/code&gt;改为&lt;code&gt;::&lt;/code&gt;，这样就可以让AutoHotkey启动时就开始执行脚本。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AutoHotkey如何在Win8上正常使用</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</guid>
-      <description>在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。</description>
+      <description>&lt;h2 id=&#34;在启动autohotkey时使用管理员权限右键点击可执行文件或者快捷方式然后选择running-as-administrator&#34;&gt;在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

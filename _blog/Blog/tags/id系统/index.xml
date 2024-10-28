@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</link>
       <pubDate>Wed, 12 Sep 2018 10:05:42 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/</guid>
-      <description>1. 数据库自增长序列或字段 最常见的方式。利用数据库，全数据库唯一。 优点： 简单，代码方便，性能可以接受。 数字ID天然排序，对分页或者需要排序的结</description>
+      <description>&lt;h2 id=&#34;1-数据库自增长序列或字段&#34;&gt;1. 数据库自增长序列或字段&lt;/h2&gt;&#xA;&lt;p&gt;最常见的方式。利用数据库，全数据库唯一。&lt;/p&gt;&#xA;&lt;p&gt;优点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;简单，代码方便，性能可以接受。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;数字ID天然排序，对分页或者需要排序的结果很有帮助。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

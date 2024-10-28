@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</link>
       <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-17-bdd-example/</guid>
-      <description>一般模式 Given When Then 例子 添加图书到购物车并计算总额 Given 书A价值30.5元 And 书B价值25.8元 When 我选择书A And 我点击了&amp;quot;添加到购物车&amp;quot</description>
+      <description>&lt;h2 id=&#34;一般模式a-idorgheadline21a&#34;&gt;一般模式&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Given&#xA;When&#xA;Then&lt;/p&gt;&#xA;&lt;h2 id=&#34;例子a-idorgheadline22a&#34;&gt;例子&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;添加图书到购物车并计算总额&#xA;Given 书A价值30.5元&#xA;And 书B价值25.8元&#xA;When 我选择书A&#xA;And 我点击了&amp;quot;添加到购物车&amp;quot;按钮&#xA;Then 我应该看到书A在我的购物车里&#xA;And 总价是30.5元&#xA;When 我选择书B&#xA;And 我第二次点击了&amp;quot;添加到购物车&amp;quot;按钮&#xA;Then 我应该看到书A和书B都在我的购物车里&#xA;And 总价是82.1元&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

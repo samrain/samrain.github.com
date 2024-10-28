@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</guid>
-      <description>安装ImageMagick 将当前目录下的图片文件按照文件名排序后合成pdf convert *.png out.pdf 缩小文件尺寸 convert -resize 50%x50% *.jpg</description>
+      <description>&lt;h2 id=&#34;安装imagemagickhttpwwwimagemagickorg-官网&#34;&gt;安装&lt;a href=&#34;http://www.imagemagick.org/&#34; title=&#34;官网&#34;&gt;ImageMagick&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;将当前目录下的图片文件按照文件名排序后合成pdf&#34;&gt;将当前目录下的图片文件按照文件名排序后合成pdf&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert *.png out.pdf&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;缩小文件尺寸&#34;&gt;缩小文件尺寸&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert -resize 50%x50%  *.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>在Ubuntu上使用命令行CLI方式使用VPN</title>
       <link>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</guid>
-      <description>思维导图文件下载 安装客户端 sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome 设置客户端 sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start 拨号 sudo pon vpnname 使用 sudo addroute 挂断 sudo poff vpnname</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIbWRnWDNwT0NtcG8/edit&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装客户端&#34;&gt;安装客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-apt-get-install-pptpd-network-manager-pptp-network-manager-vpnc-network-manager-gnome&#34;&gt;sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome&lt;/h3&gt;&#xA;&lt;h2 id=&#34;设置客户端&#34;&gt;设置客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pptpsetup---create-vpnname---server-ip---username-test---password-test---encrypt---start&#34;&gt;sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start&lt;/h3&gt;&#xA;&lt;h2 id=&#34;拨号&#34;&gt;拨号&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pon-vpnname&#34;&gt;sudo pon vpnname&lt;/h3&gt;&#xA;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-addroute&#34;&gt;sudo addroute&lt;/h3&gt;&#xA;&lt;h2 id=&#34;挂断&#34;&gt;挂断&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-poff-vpnname&#34;&gt;sudo poff vpnname&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

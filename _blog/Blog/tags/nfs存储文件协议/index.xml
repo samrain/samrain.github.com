@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</link>
       <pubDate>Thu, 20 Jun 2019 08:01:37 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/</guid>
-      <description>1. 单点故障，如果nfs server宕机，所有客户端无法连接 2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差） 3.</description>
+      <description>&lt;h2 id=&#34;1-单点故障如果nfs-server宕机所有客户端无法连接&#34;&gt;1. 单点故障，如果nfs server宕机，所有客户端无法连接&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-高并发场合nfs效率低2千万的pv日网站不是瓶颈除非网站架构性能太差&#34;&gt;2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差）&lt;/h2&gt;&#xA;&lt;h2 id=&#34;3-客户端认证时候基于ip和主机名权限是根绝id识别安全性一般放置于内网比较好&#34;&gt;3. 客户端认证时候基于ip和主机名，权限是根绝ID识别，安全性一般，（放置于内网比较好）&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-nfs数据传输是明文对数据完整性不做完整&#34;&gt;4. NFS数据传输是明文，对数据完整性不做完整&lt;/h2&gt;&#xA;&lt;h2 id=&#34;5-多台机器挂载nfs时候连接管理麻烦尤其服务器端出问题所有nfs-客户端都是挂掉状态&#34;&gt;5. 多台机器挂载NFS时候，连接管理麻烦，尤其服务器端出问题，所有NFS 客户端都是挂掉状态&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

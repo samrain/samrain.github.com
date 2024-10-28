@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</link>
       <pubDate>Sat, 02 Jun 2018 15:38:05 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-06-02-how-to-publish-my-blog/</guid>
-      <description>博客流水线</description>
+      <description>&lt;h1 id=&#34;博客流水线&#34;&gt;博客流水线&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pic.downk.cc/item/5f28920014195aa59423ae63.png&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f28920014195aa59423ae63.png&#34; alt=&#34;博客流水线&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown语法</title>
       <link>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2012-11-22-markdown-grammar/</guid>
-      <description>思维导图文件下载 致谢 站在这位 巨人 的肩膀上 直接使用HTML 一般来说直接使用 特殊：块标签必须在前后加上空白，例如：div,table,pre,p</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/open?id=0B1DrsqrLRzeIMmhPN3Bvc0ZlZG8&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;致谢&#34;&gt;致谢&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;站在这位 &lt;em&gt;&lt;a href=&#34;http://markdown.tw/&#34;&gt;巨人&lt;/a&gt;&lt;/em&gt; 的肩膀上&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;直接使用html&#34;&gt;直接使用HTML&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;一般来说直接使用&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;特殊：块标签必须在前后加上空白，例如：&lt;code&gt;div&lt;/code&gt;,&lt;code&gt;table&lt;/code&gt;,&lt;code&gt;pre&lt;/code&gt;,&lt;code&gt;p&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;注意：块标签中的MD语法无效，而段标签中有效，例如：&lt;code&gt;span&lt;/code&gt;,&lt;code&gt;cite&lt;/code&gt;,&lt;code&gt;del&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

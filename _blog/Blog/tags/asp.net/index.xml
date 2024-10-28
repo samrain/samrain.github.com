@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2015-03-11-asmx/</link>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-11-asmx/</guid>
-      <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
+      <description>&lt;p&gt;Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用XML描述(如标准的WSDL),客户根据描述生成本地代理,通过代理向服务端发SOAP消息,调用服务.&lt;/p&gt;</description>
     </item>
     <item>
       <title>在 Windows Server 2003 中启用 ASP.NET 2.0</title>
       <link>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-01-30-enable-asp.net2.0-in-windows-server-2003/</guid>
-      <description>##在 IIS 中的&amp;quot;Web 服务扩展&amp;quot;选项卡上启用 单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。 在导航窗格中，在</description>
+      <description>&lt;p&gt;##在 IIS 中的&amp;quot;Web 服务扩展&amp;quot;选项卡上启用&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;单击开始，指向管理工具，然后单击Internet Information Services (IIS) 管理器。&lt;/li&gt;&#xA;&lt;li&gt;在导航窗格中，在服务器名下单击Web 服务扩展。&lt;/li&gt;&#xA;&lt;li&gt;找到ASP.NET v2.0.50727，请单击，然后单击允许。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;##CLI命令启用&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

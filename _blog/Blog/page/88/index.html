@@ -64,11 +64,26 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">如何提高windows程序的性能</a></h1>
+					<time>Dec 26, 2016</time>
+					<br><div class="description">
+	
+	<h1 id="调整windows服务器">调整windows服务器</h1>
+<h2 id="调整tcptimedwaitdelay">调整TcpTimedWaitDelay</h2>
+<p>描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此时间间隔通称 TIME_WAIT 状态或两倍最大段生命周期（2MSL）状态。此时间期间，重新打开到客户机和服务器的连接的成本少于建立新连接。减少此条目的值允许 TCP/IP 更快地释放已关闭的连接，为新连接提供更多资源。如果运行的应用程序需要快速释放和创建新连接，而且由于 TIME_WAIT 中存在很多连接，导致低吞吐量，则调整此参数。 如何查看或设置： 使用 regedit 命令访问 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/ Services/TCPIP/Parameters 注册表子键并创建名为 TcpTimedWaitDelay 的新 REG_DWORD 值。 将此值设置为十进制 30，其为十六进制 0x0000001e。该值将等待时间设置为 30 秒。 停止并重新启动系统。 缺省值：0xF0，它将等待时间设置为 240 秒（4 分钟）。 建议值：最小值为 0x1E，它将等待时间设置为 30 秒。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/">如果在Win2012 R2上安装net framework 4.6.2报错怎么办</a></h1>
 					<time>Dec 26, 2016</time>
 					<br><div class="description">
 	
-	必须要在安装KB2919355 KB地址： https://support.microsoft.com/zh-cn/kb/2919355 安装顺序：KB2919442、clearcompressionflag.exe、KB2919355&hellip;
+	<p>必须要在安装KB2919355</p>
+<p>KB地址： <a href="https://support.microsoft.com/zh-cn/kb/2919355">https://support.microsoft.com/zh-cn/kb/2919355</a></p>
+<p>安装顺序：KB2919442、clearcompressionflag.exe、KB2919355、KB2932046、KB2959977、KB2937592、KB2938439、KB2934018</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/">Read more ⟶</a>
@@ -79,7 +94,10 @@
 					<time>Dec 26, 2016</time>
 					<br><div class="description">
 	
-	why 防止人为或者自动方式恶意登录其他人账号或暴力破解密码。 how 当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库&hellip;
+	<h1 id="why">why</h1>
+<p>防止人为或者自动方式恶意登录其他人账号或暴力破解密码。</p>
+<h1 id="how">how</h1>
+<p>当生产环境上有人多次输错密码时，记录进审计日志中。而后由其他服务把记录转存到数据库中。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-12-26-how-to-open-adfs2.0-audit-event/">Read more ⟶</a>
@@ -90,7 +108,7 @@
 					<time>Dec 26, 2016</time>
 					<br><div class="description">
 	
-	http://chrome-extension-downloader.com/&hellip;
+	<p><a href="http://chrome-extension-downloader.com/">http://chrome-extension-downloader.com/</a></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-12-26-how-download-chrome-extension/">Read more ⟶</a>
@@ -101,21 +119,11 @@
 					<time>Jul 29, 2016</time>
 					<br><div class="description">
 	
-	1月1日 十二月初一 农历十二月,洗澡不要太频繁,否则耗散肾气.宜斋戒静居. 1月2日 十二月初二 中医认为&quot;寒性凝滞,寒性收引&quot;&hellip;
+	<p>1月1日 十二月初一 农历十二月,洗澡不要太频繁,否则耗散肾气.宜斋戒静居.</p>
+<p>1月2日 十二月初二 中医认为&quot;寒性凝滞,寒性收引&quot;,起居注意保暖,对肩、颈、脚部更要倍加呵护。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-29-24-solar-terms-keeping-in-good-health/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-28-webfont/">webfont</a></h1>
-					<time>Jul 28, 2016</time>
-					<br><div class="description">
-	
-	英文 比较适合用webfont webfont比较小，一共就26个字母，几十K 中文 比较适合用本地字体 webfont比较大，几M 挑出本页面上用到的&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-28-webfont/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +144,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

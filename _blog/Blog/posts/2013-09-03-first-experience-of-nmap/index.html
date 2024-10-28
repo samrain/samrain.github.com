@@ -2,12 +2,59 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Nmap初体验 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管" />
+	<meta name="description" content="思维导图文件下载
+What
+网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息
+where
+攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破
+防:管理员日常维护工具，找到目前的漏洞，第一时间修复它
+how
+install
+
+具体参见官网
+Ubuntu安装办法
+
+sudo apt-get install alien
+下载最新的Nmap、Ncat、Nping、Zenmap的RPM包
+sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm
+sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb
+
+
+
+启动方式
+
+命令行:nmap
+图形界面:Zenmap
+
+自带10种扫描方式
+
+Intense scan
+(nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出
+Intense scan plus UDP
+(nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描
+Intense scan,all TCP ports
+(nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围
+Intense scan,no ping
+(nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描
+Ping scan
+(nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描
+Quick scan
+(nmap -T4 -F) 快速的扫描 -F 快速模式。
+Quick scan plus
+(nmap -sV -T4 -O -F &ndash;version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 &ndash;version-light 设定侦测等级为2。
+Quick traceroute
+(nmap -sn &ndash;traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。
+Regular scan
+规则扫描
+Slow comprehensive scan
+(nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 &ndash;script all) 慢速全面扫描。
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Nmap初体验">
-  <meta property="og:description" content="思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管">
+  <meta property="og:description" content="思维导图文件下载
+What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管理员日常维护工具，找到目前的漏洞，第一时间修复它 how install 具体参见官网 Ubuntu安装办法 sudo apt-get install alien 下载最新的Nmap、Ncat、Nping、Zenmap的RPM包 sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb 启动方式 命令行:nmap 图形界面:Zenmap 自带10种扫描方式 Intense scan (nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出 Intense scan plus UDP (nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描 Intense scan,all TCP ports (nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围 Intense scan,no ping (nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描 Ping scan (nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描 Quick scan (nmap -T4 -F) 快速的扫描 -F 快速模式。 Quick scan plus (nmap -sV -T4 -O -F –version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 –version-light 设定侦测等级为2。 Quick traceroute (nmap -sn –traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。 Regular scan 规则扫描 Slow comprehensive scan (nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 –script all) 慢速全面扫描。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -21,7 +68,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nmap初体验">
-  <meta name="twitter:description" content="思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管">
+  <meta name="twitter:description" content="思维导图文件下载
+What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管理员日常维护工具，找到目前的漏洞，第一时间修复它 how install 具体参见官网 Ubuntu安装办法 sudo apt-get install alien 下载最新的Nmap、Ncat、Nping、Zenmap的RPM包 sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb 启动方式 命令行:nmap 图形界面:Zenmap 自带10种扫描方式 Intense scan (nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出 Intense scan plus UDP (nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描 Intense scan,all TCP ports (nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围 Intense scan,no ping (nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描 Ping scan (nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描 Quick scan (nmap -T4 -F) 快速的扫描 -F 快速模式。 Quick scan plus (nmap -sV -T4 -O -F –version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 –version-light 设定侦测等级为2。 Quick traceroute (nmap -sn –traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。 Regular scan 规则扫描 Slow comprehensive scan (nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 –script all) 慢速全面扫描。">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -144,22 +192,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

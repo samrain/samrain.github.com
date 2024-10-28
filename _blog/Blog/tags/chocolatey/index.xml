@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</link>
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-09-try-chocolatey/</guid>
-      <description>太长了不好拼写，以下简写为choco吧，也是向官方看齐。 官网在此：https://chocolatey.org/，如何安装和使用上面写的很清</description>
+      <description>&lt;p&gt;太长了不好拼写，以下简写为choco吧，也是向官方看齐。&lt;/p&gt;&#xA;&lt;p&gt;官网在此：&lt;a href=&#34;https://chocolatey.org/&#34;&gt;https://chocolatey.org/&lt;/a&gt;，如何安装和使用上面写的很清楚，总的来说很像debian系的apt-get安装软件。由于偶一直在用ubuntu，所以非常适应。&lt;/p&gt;&#xA;&lt;p&gt;刚开始还有点小担心，这上面的软件到底会不会挂马病毒什么，毕竟是windows，怕啊。但是后来看到一篇文章说下载链接都是直接从软件官网上引过来的，并且我也测试安装了几个软件，确实也属实。❤算放进肚子里了，但是又有闹心的事情——由于都是从官网下载，所以在国内的速度超慢，完全的不能接受。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

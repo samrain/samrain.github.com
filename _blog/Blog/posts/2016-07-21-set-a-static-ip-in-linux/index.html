@@ -2,12 +2,36 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Linux系统下设置静态IP - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下" />
+	<meta name="description" content="编辑 etc/network/interfaces
+将dhcp 一行屏蔽
+# The primary network interface
+
+auto eth0
+
+#iface eth0 inet dhcp
+
+添加和静态ip有关的参数
+# The primary network interface
+
+iface eth0 inet static
+
+address 192.168.0.10
+
+netmask 255.255.255.0
+
+gateway 192.168.0.1
+
+编辑 /etc/resolv.conf ，设置dns
+nameserver 202.96.134.133
+
+nameserver 202.106.0.20
+
+ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 /etc/ppp/peers/dsl-provider 注释掉userpeerdns这一行即可" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Linux系统下设置静态IP">
-  <meta property="og:description" content="编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下">
+  <meta property="og:description" content="编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 /etc/ppp/peers/dsl-provider 注释掉userpeerdns这一行即可">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +42,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Linux系统下设置静态IP">
-  <meta name="twitter:description" content="编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下">
+  <meta name="twitter:description" content="编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 /etc/ppp/peers/dsl-provider 注释掉userpeerdns这一行即可">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -118,22 +142,23 @@ $sudo ifup eth0
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

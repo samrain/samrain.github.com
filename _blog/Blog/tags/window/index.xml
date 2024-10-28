@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2015-03-01-install-ubuntu-with-uefi/</link>
       <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-01-install-ubuntu-with-uefi/</guid>
-      <description>官网介绍在此 简单步骤如下： 正常通过CD或者USB安装 如果无法通过硬盘启动，那么用CD/USB引导启动，选Try Ubuntu Without Installation 安装Boot-Repai</description>
+      <description>&lt;p&gt;官网介绍&lt;a href=&#34;https://help.ubuntu.com/community/UEFI&#34;&gt;在此&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单步骤如下：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;正常通过CD或者USB安装&lt;/li&gt;&#xA;&lt;li&gt;如果无法通过硬盘启动，那么用CD/USB引导启动，选&lt;code&gt;Try Ubuntu Without Installation&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;安装&lt;a href=&#34;https://help.ubuntu.com/community/Boot-Repair&#34;&gt;Boot-Repair 工具&lt;/a&gt;，然后执行&lt;/li&gt;&#xA;&lt;li&gt;再次硬盘启动。&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>怎么看windows是32位的还是64位的</title>
       <link>https://www.samrainhan.com/posts/2015-02-28-how-could-i-determine-that-windows-are-32bit-or-64bit/</link>
       <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-28-how-could-i-determine-that-windows-are-32bit-or-64bit/</guid>
-      <description>1.显示“系统属性”对话框 输入 Windows键 + Pause 2.看红框 WinXP Win7</description>
+      <description>&lt;h2 id=&#34;1显示系统属性对话框&#34;&gt;1.显示“系统属性”对话框&lt;/h2&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;Windows键 + Pause&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2看红框&#34;&gt;2.看红框&lt;/h2&gt;&#xA;&lt;h3 id=&#34;winxp&#34;&gt;WinXP&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://samrain.qiniudn.com/wxp.JPG&#34; alt=&#34;WinXP&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;win7&#34;&gt;Win7&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://samrain.qiniudn.com/w7.jpg&#34; alt=&#34;Win7&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

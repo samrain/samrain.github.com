@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-31-it-production-environment-regulations/</guid>
-      <description>分为2类人群：后台服务人员和IT运维人员 后台服务人员：在有门禁的专门房间内，通过特殊线路接入生产环境。进出房间必须每人使用各自的门禁卡。 IT</description>
+      <description>&lt;p&gt;分为2类人群：后台服务人员和IT运维人员&lt;/p&gt;&#xA;&lt;p&gt;后台服务人员：在有门禁的专门房间内，通过特殊线路接入生产环境。进出房间必须每人使用各自的门禁卡。&lt;/p&gt;&#xA;&lt;p&gt;IT运维人员：设立专业的远程控制室/计算机，进出/登录必须先邮件给相应审批人员/经理，经过审批后，发给控制室管理人员。然后IT运维人员填写进出登记表，然后通过远程控制机登录到生产环境后做相应操作。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

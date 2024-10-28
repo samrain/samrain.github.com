@@ -2,12 +2,15 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>会话状态Session State - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器" />
+	<meta name="description" content="
+InProc
+
+InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器中，因此其他服务器无法访问当前服务器会话状态数据。这还意味着一个应用程序池回收操作将导致会话状态的丢失。在不考虑Off选项的情况下，这种解决方案运行速度最快，但是，除非我们应用粘性会话机制，否则这种解决方案无法在Web farm环境中正常工作。如果使用了粘性会话机制、同时没有使用Web garden的话，那么InProc是一个可行的解决方案。" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="会话状态Session State">
-  <meta property="og:description" content="InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器">
+  <meta property="og:description" content="InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器中，因此其他服务器无法访问当前服务器会话状态数据。这还意味着一个应用程序池回收操作将导致会话状态的丢失。在不考虑Off选项的情况下，这种解决方案运行速度最快，但是，除非我们应用粘性会话机制，否则这种解决方案无法在Web farm环境中正常工作。如果使用了粘性会话机制、同时没有使用Web garden的话，那么InProc是一个可行的解决方案。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +21,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="会话状态Session State">
-  <meta name="twitter:description" content="InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器">
+  <meta name="twitter:description" content="InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器中，因此其他服务器无法访问当前服务器会话状态数据。这还意味着一个应用程序池回收操作将导致会话状态的丢失。在不考虑Off选项的情况下，这种解决方案运行速度最快，但是，除非我们应用粘性会话机制，否则这种解决方案无法在Web farm环境中正常工作。如果使用了粘性会话机制、同时没有使用Web garden的话，那么InProc是一个可行的解决方案。">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -111,22 +114,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

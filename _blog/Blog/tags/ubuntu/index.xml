@@ -13,56 +13,56 @@
       <link>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</link>
       <pubDate>Thu, 27 Oct 2022 09:28:32 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/</guid>
-      <description>问题 Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t</description>
+      <description>&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;&#xA;&lt;p&gt;Requesting to save current system state ERROR couldn&amp;rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &amp;ldquo;bpool&amp;rdquo; is 19%. Please remove some states manually to free up space.&lt;/p&gt;&#xA;&lt;h1 id=&#34;检查命令&#34;&gt;检查命令&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;df -h /&#xA;zfs list -o space rpool bpool&#xA;zfs list -t snapshot&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;解决问题命令&#34;&gt;解决问题命令:&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zfs list -t snapshot | grep autozsys | awk &amp;#39;{print $1}&amp;#39; | xargs -n1 sudo zfs destroy&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>UEFIh安装ubuntu后启动失败的补救措施</title>
       <link>https://www.samrainhan.com/posts/2016-03-30-save-ubuntu-with-uefih/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-30-save-ubuntu-with-uefih/</guid>
-      <description>使用 Boot-Repair 详见Ubuntu官网介绍：(https://help.ubuntu.com/community/Boot-Repair)</description>
+      <description>&lt;h2 id=&#34;使用-boot-repair&#34;&gt;使用 Boot-Repair&lt;/h2&gt;&#xA;&lt;p&gt;详见Ubuntu官网介绍：(&lt;a href=&#34;https://help.ubuntu.com/community/Boot-Repair&#34;&gt;https://help.ubuntu.com/community/Boot-Repair&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>ubuntu的链接收藏</title>
       <link>https://www.samrainhan.com/posts/2014-08-31-ubuntu-marks/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-08-31-ubuntu-marks/</guid>
-      <description>抓取音轨 Ubuntu下模拟器安装使用扫盲 五种开源协议的比较(BSD,Apache,GPL,LGPL,MIT) 王垠《完全用Linux工作》 Syncing your</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.longwin.com.tw/2010/08/linux-cd-mp3-convert-sound-juicer-2010/&#34;&gt;抓取音轨&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.ubuntuchina.com/viewthread.php?tid=1600&amp;amp;extra=page%3D1&#34;&gt;Ubuntu下模拟器安装使用扫盲&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.awflasher.com/blog/archives/939&#34;&gt;五种开源协议的比较(BSD,Apache,GPL,LGPL,MIT) &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://linux.chinaunix.net/techdoc/system/2009/02/09/1061554.shtml&#34;&gt;王垠《完全用Linux工作》&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.linux.com/news/embedded-mobile/mids/8210-syncing-your-blackberry-on-linux&#34;&gt;Syncing your BlackBerry on Linux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://fcitx.org/&#34;&gt;ubuntu上的中文输入法&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://hiker2008.blog.51cto.com/10867/113601&#34;&gt;Ubuntu看pdf中文乱码，装字库解决&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.zeuux.org/group/ubuntuchina/bbs/content/4118/&#34;&gt;使用Ubuntu One无缝同步你的文档、音乐、图片&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;amp;t=74723&#34;&gt;zub的书用什么读&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://spiritfrog.javaeye.com/blog/216768&#34;&gt;samba实现ubuntu跟windows文件共享&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?viewmode=compact&amp;amp;topic_id=9360&amp;amp;forum=3&#34;&gt;關於cpu及顯示卡自動降頻&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://hi.baidu.com/%D2%D7%CB%AE%BA%AEice/blog/item/47a6c75529795450d10906a2.html&#34;&gt;简单几步优化Ubuntu 降低CPU使用率&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://forum.ubuntu.org.cn/viewtopic.php?f=121&amp;amp;t=131609&amp;amp;p=806371&amp;amp;hilit=+diablo2#p806371&#34;&gt;教学关于暗黑问题&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://chenlei.is-programmer.com/posts/14419.html&#34;&gt;pdf转jpg或txt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://chenlei.is-programmer.com/posts/14419.html&#34;&gt;照片的处理、管理和浏览&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.arthurtoday.com/2010/07/ubuntu-pdf-html.html&#34;&gt;PDF 檔轉換成 HTML 檔&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>怎么在Ubuntu上安装LEMP（linux/nginx/MySQL/PHP）</title>
       <link>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</link>
       <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</guid>
-      <description>英文原帖在此:How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04 简化翻译如下 安装程序文件 运行sudo apt-get update 运行sudo apt-get install mysql-server php5-mysql nginx php5-fpm 配置MySQL 运行sudo mysql_install_db 运行s</description>
+      <description>&lt;h2 id=&#34;英文原帖在此how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-1204httpswwwdigitaloceancomcommunityarticleshow-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;英文原帖在此:&lt;a href=&#34;https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;简化翻译如下&#34;&gt;简化翻译如下&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安装程序文件&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get install mysql-server php5-mysql nginx php5-fpm&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;配置MySQL&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo mysql_install_db&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo /usr/bin/mysql_secure_installation&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;配置nginx&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo service nginx start&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速安装我的Lubuntu V2.0版</title>
       <link>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</link>
       <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-09-install-lubuntu-faster-again/</guid>
-      <description>Install 完全弱智图形化安装界面，如果是新手请选择自动分配空间. 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：</description>
+      <description>&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;完全弱智图形化安装界面，如果是新手请选择自动分配空间.&lt;/p&gt;&#xA;&lt;h2 id=&#34;更换软件源地址&#34;&gt;更换软件源地址&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;运行&lt;code&gt;software-properties-gtk&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击选择框【下载自：】，选择“其他站点&amp;hellip;..”&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速安装我的Lubuntu</title>
       <link>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/</guid>
-      <description>思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;完全弱智图形化安装界面，暂且不表&lt;/p&gt;&#xA;&lt;h2 id=&#34;更换软件源地址&#34;&gt;更换软件源地址&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;运行&lt;code&gt;software-properties-gtk&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;点击选择框【下载自：】，选择“其他站点&amp;hellip;..”&lt;/p&gt;</description>
     </item>
     <item>
       <title>怎么设置Terminator中的复制和粘帖快捷键</title>
       <link>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-03-25-how-to-set-the-terminator-copy-and-paste-shortcuts/</guid>
-      <description>思维导图文件下载 怎么设置Terminator中的复制和粘帖快捷键 修改配置文件~/.config/terminator/config</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIenhmbGo4aHVCbDg/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;怎么设置terminator中的复制和粘帖快捷键&#34;&gt;怎么设置Terminator中的复制和粘帖快捷键&lt;/h2&gt;&#xA;&lt;h3 id=&#34;修改配置文件configterminatorconfig&#34;&gt;修改配置文件~/.config/terminator/config&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>在Ubuntu上使用命令行CLI方式使用VPN</title>
       <link>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/</guid>
-      <description>思维导图文件下载 安装客户端 sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome 设置客户端 sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start 拨号 sudo pon vpnname 使用 sudo addroute 挂断 sudo poff vpnname</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIbWRnWDNwT0NtcG8/edit&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装客户端&#34;&gt;安装客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-apt-get-install-pptpd-network-manager-pptp-network-manager-vpnc-network-manager-gnome&#34;&gt;sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome&lt;/h3&gt;&#xA;&lt;h2 id=&#34;设置客户端&#34;&gt;设置客户端&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pptpsetup---create-vpnname---server-ip---username-test---password-test---encrypt---start&#34;&gt;sudo pptpsetup &amp;ndash;create vpnname &amp;ndash;server ip &amp;ndash;username test &amp;ndash;password test &amp;ndash;encrypt &amp;ndash;start&lt;/h3&gt;&#xA;&lt;h2 id=&#34;拨号&#34;&gt;拨号&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-pon-vpnname&#34;&gt;sudo pon vpnname&lt;/h3&gt;&#xA;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-addroute&#34;&gt;sudo addroute&lt;/h3&gt;&#xA;&lt;h2 id=&#34;挂断&#34;&gt;挂断&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sudo-poff-vpnname&#34;&gt;sudo poff vpnname&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
       <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
-      <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
+      <description>&lt;p&gt;&lt;code&gt;LuaJIT&lt;/code&gt; 1.5.8.1后默认安装，是Lua的实时编译器&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ArrayVarNginxModule&lt;/code&gt; 在nginx配置文件中使用数组变量&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;AuthRequestNginxModule&lt;/code&gt; 身份验证，允许基于子请求的验证，它工作在接入阶段，因此可以很好地与其他接入模块（access，auth_basic）合作。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

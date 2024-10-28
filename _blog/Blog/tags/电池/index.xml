@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</guid>
-      <description>右击【开始】菜单，选择【命令提示符（管理员）】 输入 cd c:\ 输入 powercfg /batteryreport 输入 c:\battery-report.html,浏览器会显示文件内容</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;右击【开始】菜单，选择【命令提示符（管理员）】&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;cd c:\&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;powercfg  /batteryreport&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;c:\battery-report.html&lt;/code&gt;,浏览器会显示文件内容&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>如果在Win2012 R2上安装net framework 4.6.2报错怎么办</title>
       <link>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</guid>
-      <description>必须要在安装KB2919355 KB地址： https://support.microsoft.com/zh-cn/kb/2919355 安装顺序：KB2919442、clearcompressionflag.exe、KB2919355</description>
+      <description>&lt;p&gt;必须要在安装KB2919355&lt;/p&gt;&#xA;&lt;p&gt;KB地址： &lt;a href=&#34;https://support.microsoft.com/zh-cn/kb/2919355&#34;&gt;https://support.microsoft.com/zh-cn/kb/2919355&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装顺序：KB2919442、clearcompressionflag.exe、KB2919355、KB2932046、KB2959977、KB2937592、KB2938439、KB2934018&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

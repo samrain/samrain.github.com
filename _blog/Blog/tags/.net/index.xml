@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>在工程中添加引用NLog.dll 注意：必须要对应当前的Framework版本的NLog.dll 添加NLog.config并设置Copy to Output D</description>
+      <description>&lt;p&gt;在工程中添加引用&lt;code&gt;NLog.dll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意：必须要对应当前的Framework版本的NLog.dll&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;添加&lt;code&gt;NLog.config&lt;/code&gt;并设置&lt;code&gt;Copy to Output Directory&lt;/code&gt;为&lt;strong&gt;Copy always&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>asmx文件是干什么的</title>
       <link>https://www.samrainhan.com/posts/2015-03-11-asmx/</link>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-11-asmx/</guid>
-      <description>Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用</description>
+      <description>&lt;p&gt;Web service的基本概念是:客户端和服务端通过XML进行交互,在两头通过序列化和反序列化实现XML和对象的转换.服务端将供客户调用的接口用XML描述(如标准的WSDL),客户根据描述生成本地代理,通过代理向服务端发SOAP消息,调用服务.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

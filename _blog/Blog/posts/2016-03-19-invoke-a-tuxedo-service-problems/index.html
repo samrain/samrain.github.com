@@ -2,12 +2,24 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>解决调用Tuxedo服务问题 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all" />
+	<meta name="description" content="解决调用Tuxedo服务问题
+用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：
+
+System.ApplicationException: System.TypeInitializationException: The type initializer for &lsquo;Interface.Tuxedo.TuxedoHelper&rsquo; threw an exception. &mdash;&gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.
+at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+at System.Diagnostics.EventLog.SourceExists(String source)
+at Interface.Tuxedo.LogWirter.LogInfoEvent(String message)
+at Interface.Tuxedo.TuxedoHelper.GetConfig()
+at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig()
+at Interface.Tuxedo.TuxedoHelper..cctor()
+&mdash; End of inner exception stack trace &mdash;" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="解决调用Tuxedo服务问题">
-  <meta property="og:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for ‘Interface.Tuxedo.TuxedoHelper’ threw an exception. —&gt; System.Security.SecurityException: The source was not found, but some or all">
+  <meta property="og:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：
+System.ApplicationException: System.TypeInitializationException: The type initializer for ‘Interface.Tuxedo.TuxedoHelper’ threw an exception. —&gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security. at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate) at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate) at System.Diagnostics.EventLog.SourceExists(String source) at Interface.Tuxedo.LogWirter.LogInfoEvent(String message) at Interface.Tuxedo.TuxedoHelper.GetConfig() at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig() at Interface.Tuxedo.TuxedoHelper..cctor() — End of inner exception stack trace —">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +30,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="解决调用Tuxedo服务问题">
-  <meta name="twitter:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for ‘Interface.Tuxedo.TuxedoHelper’ threw an exception. —&gt; System.Security.SecurityException: The source was not found, but some or all">
+  <meta name="twitter:description" content="解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：
+System.ApplicationException: System.TypeInitializationException: The type initializer for ‘Interface.Tuxedo.TuxedoHelper’ threw an exception. —&gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security. at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate) at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate) at System.Diagnostics.EventLog.SourceExists(String source) at Interface.Tuxedo.LogWirter.LogInfoEvent(String message) at Interface.Tuxedo.TuxedoHelper.GetConfig() at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig() at Interface.Tuxedo.TuxedoHelper..cctor() — End of inner exception stack trace —">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -106,22 +119,23 @@ at Interface.Tuxedo.TuxedoHelper..cctor()
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

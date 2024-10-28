@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
-      <description>Why 一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装。于是就有了以下的内容：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

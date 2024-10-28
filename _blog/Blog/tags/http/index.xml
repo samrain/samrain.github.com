@@ -13,28 +13,28 @@
       <link>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</link>
       <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/</guid>
-      <description>String url=request.getScheme()+&amp;quot;://&amp;quot;; url+=request.getHeader(&amp;quot;host&amp;quot;); url+=request.getRequestURI(); if(request.getQueryString()!=null) url+=&amp;quot;?&amp;quot;+request.getQueryString();</description>
+      <description>&lt;pre&gt;&lt;code&gt;String url=request.getScheme()+&amp;quot;://&amp;quot;; &#xA;url+=request.getHeader(&amp;quot;host&amp;quot;); &#xA;url+=request.getRequestURI(); &#xA;if(request.getQueryString()!=null) &#xA;url+=&amp;quot;?&amp;quot;+request.getQueryString();&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>安装http_load</title>
       <link>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-26-install-httpload/</guid>
-      <description>下载源码包(http://acme.com/software/http_load/) install tar zxvf http_load*.gz cd http_load* make &amp;amp;&amp;amp; sudo make install</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;下载源码包(&lt;a href=&#34;http://acme.com/software/http_load/&#34;&gt;http://acme.com/software/http_load/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;install&lt;/p&gt;&#xA;&lt;p&gt;tar zxvf http_load*.gz&#xA;cd http_load*&#xA;make &amp;amp;&amp;amp; sudo make install&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>安装localtunnel(穿透内网工具)</title>
       <link>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-25-install-localtunnel/</guid>
-      <description>install sudo apt-get install npm sudo npm install -g localtunnel run lt 如果报错[/usr/bin/env: node: No such file or directory],那么运行 sudo ln -s /usr/bin/nodejs /usr/bin/node</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;install&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install npm&#xA;sudo npm install -g localtunnel&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;run&lt;/p&gt;&#xA;&lt;p&gt;lt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;如果报错[/usr/bin/env: node: No such file or directory],那么运行&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo ln -s /usr/bin/nodejs /usr/bin/node&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>304 Not Modified</title>
       <link>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</link>
       <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</guid>
-      <description>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户</description>
+      <description>&lt;p&gt;客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来缓冲的文档还可以继续使用。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

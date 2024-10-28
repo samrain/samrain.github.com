@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</link>
       <pubDate>Sun, 24 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/</guid>
-      <description>修改 web.xml &amp;lt;weblogic-web-app xmlns=&amp;quot;http://www.bea.com/ns/weblogic/weblogic-web-app&amp;quot;&amp;gt; &amp;lt;session-descriptor&amp;gt; &amp;lt;cookies-enabled&amp;gt;true&amp;lt;/cookies-enabled&amp;gt; &amp;lt;/session-descriptor&amp;gt; &amp;lt;session-config&amp;gt; &amp;lt;tracking-mode&amp;gt;COOKIE&amp;lt;/tracking-mode&amp;gt; &amp;lt;/session-config&amp;gt;</description>
+      <description>&lt;p&gt;修改 &lt;code&gt;web.xml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;weblogic-web-app xmlns=&amp;quot;http://www.bea.com/ns/weblogic/weblogic-web-app&amp;quot;&amp;gt;&#xA;&amp;lt;session-descriptor&amp;gt;&#xA;    &amp;lt;cookies-enabled&amp;gt;true&amp;lt;/cookies-enabled&amp;gt;&#xA;&amp;lt;/session-descriptor&amp;gt;&#xA;&#xA;&amp;lt;session-config&amp;gt;&#xA;    &amp;lt;tracking-mode&amp;gt;COOKIE&amp;lt;/tracking-mode&amp;gt;&#xA;&amp;lt;/session-config&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

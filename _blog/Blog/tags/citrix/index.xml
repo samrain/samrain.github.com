@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/</guid>
-      <description>运行以下脚本 #看是否硬盘分区是否已经装满 df -h #进入log目录 cd /var/log #看文件的大小 du -ksh *.* #删除大log文件 rm *.gz -f #重启xapi服务 service xapi stop service xapi start</description>
+      <description>&lt;p&gt;运行以下脚本&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;#看是否硬盘分区是否已经装满&#xA;df -h&#xA;&#xA;#进入log目录&#xA;cd /var/log&#xA;&#xA;#看文件的大小&#xA;du -ksh *.*&#xA;&#xA;#删除大log文件&#xA;rm *.gz -f&#xA;&#xA;#重启xapi服务&#xA;service xapi stop&#xA;service xapi start&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>citrix导出虚拟机</title>
       <link>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/</guid>
-      <description>xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva</description>
+      <description>&lt;pre&gt;&lt;code&gt;xe vm-export vm=&amp;quot;192.168.25.20(GUR)&amp;quot; filename=20.xva&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</link>
       <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-06-08-how-to-install-lemp-on-ubuntu/</guid>
-      <description>英文原帖在此:How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04 简化翻译如下 安装程序文件 运行sudo apt-get update 运行sudo apt-get install mysql-server php5-mysql nginx php5-fpm 配置MySQL 运行sudo mysql_install_db 运行s</description>
+      <description>&lt;h2 id=&#34;英文原帖在此how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-1204httpswwwdigitaloceancomcommunityarticleshow-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;英文原帖在此:&lt;a href=&#34;https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04&#34;&gt;How To Install Linux, nginx, MySQL, PHP (LEMP) stack on Ubuntu 12.04&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;简化翻译如下&#34;&gt;简化翻译如下&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安装程序文件&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo apt-get install mysql-server php5-mysql nginx php5-fpm&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;配置MySQL&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo mysql_install_db&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo /usr/bin/mysql_secure_installation&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;配置nginx&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;运行&lt;code&gt;sudo service nginx start&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

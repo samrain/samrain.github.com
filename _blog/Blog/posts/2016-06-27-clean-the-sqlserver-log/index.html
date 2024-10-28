@@ -2,12 +2,39 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>清理sqlserver数据库日志 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH" />
+	<meta name="description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询
+
+-- USE %DNName%
+
+-- GO
+
+-- SELECT file_id, name FROM sys.database_files;
+
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE --简单模式
+GO
+USE ％DNName％
+GO
+DBCC SHRINKFILE (N&#39;％DNName_Log%&#39; , 11, TRUNCATEONLY)
+
+GO
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL --还原为完全模式
+GO
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="清理sqlserver数据库日志">
-  <meta property="og:description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH">
+  <meta property="og:description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE --简单模式 GO USE ％DNName％ GO DBCC SHRINKFILE (N&#39;％DNName_Log%&#39; , 11, TRUNCATEONLY) GO USE [master] GO ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT GO ALTER DATABASE %DNName% SET RECOVERY FULL --还原为完全模式 GO">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +45,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="清理sqlserver数据库日志">
-  <meta name="twitter:description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH">
+  <meta name="twitter:description" content="-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询 -- USE %DNName% -- GO -- SELECT file_id, name FROM sys.database_files; USE [master] GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT GO ALTER DATABASE %DNName% SET RECOVERY SIMPLE --简单模式 GO USE ％DNName％ GO DBCC SHRINKFILE (N&#39;％DNName_Log%&#39; , 11, TRUNCATEONLY) GO USE [master] GO ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT GO ALTER DATABASE %DNName% SET RECOVERY FULL --还原为完全模式 GO">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -116,22 +143,23 @@ GO
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

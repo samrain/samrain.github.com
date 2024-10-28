@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</link>
       <pubDate>Tue, 05 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-05-simple-task-management/</guid>
-      <description>任务清单用excel编辑后导出为html放在WebServer上供大家访问 最重要的放在最上面 根据人员排序 如果一个功能是有多人配合完成的，需要</description>
+      <description>&lt;p&gt;任务清单用excel编辑后导出为html放在WebServer上供大家访问&lt;/p&gt;&#xA;&lt;p&gt;最重要的放在最上面&lt;/p&gt;&#xA;&lt;p&gt;根据人员排序&lt;/p&gt;&#xA;&lt;p&gt;如果一个功能是有多人配合完成的，需要在分解任务的时候也一起分解开。&lt;/p&gt;</description>
     </item>
     <item>
       <title>批量导出redmine任务并导入到google日历中</title>
       <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
-      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Redmine导出csv&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;修改导出的csv文件：export.csv&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;根据实际情况，删除已经安排重复活动的任务。&#xA;在每行开头填写该任务的短名，以便于记忆。&#xA;将【Start Date】列剪切到【Description】列&#xA;将【Start Time】列剪切到【Start Date】列&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

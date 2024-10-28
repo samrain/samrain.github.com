@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</link>
       <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-07-how-to-determine-the-app-image-size/</guid>
-      <description>Android碎片化严重，但它现在反而比iOS好处理。因为如今的Android屏幕逻辑像素已经趋于统一了：360x640，就看你设成几倍了。</description>
+      <description>&lt;p&gt;Android碎片化严重，但它现在反而比iOS好处理。因为如今的Android屏幕逻辑像素已经趋于统一了：360x640，就看你设成几倍了。想以xhdpi为准，就把DPI设成72x2=144。想以xxhdpi为准，就把DPI设成72x3=216。&lt;/p&gt;</description>
     </item>
     <item>
       <title>App的渠道推广</title>
       <link>https://www.samrainhan.com/posts/2015-06-28-promote-the-app-by-channels/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-28-promote-the-app-by-channels/</guid>
-      <description>1、上架 2、根据现有数据甄选最适合自家产品的优质渠道 3、研究渠道运营合作的活动规则，制定计划 4、商务跟进，争取能以内容运营为切入点，开展更深</description>
+      <description>&lt;p&gt;1、上架&lt;/p&gt;&#xA;&lt;p&gt;2、根据现有数据甄选最适合自家产品的优质渠道&lt;/p&gt;&#xA;&lt;p&gt;3、研究渠道运营合作的活动规则，制定计划&lt;/p&gt;&#xA;&lt;p&gt;4、商务跟进，争取能以内容运营为切入点，开展更深入的合作&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

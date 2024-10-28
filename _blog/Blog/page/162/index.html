@@ -64,11 +64,88 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/">投影幕布计算</a></h1>
+					<time>Mar 11, 2013</time>
+					<br><div class="description">
+	
+	<h4 id="对角线长度即为一般意义上的幕布大小比如150寸幕布即表示对角线长度为150寸381米100寸254m">对角线长度即为一般意义上的幕布大小，比如150寸幕布，即表示对角线长度为150寸=3.81米(100寸=2.54m)</h4>
+<ul>
+<li>如果是4:3，那么幕布为3.05*2.29</li>
+<li>如果是16:9，那么幕布为3.32*1.87</li>
+</ul>
+<h4 id="投影距离投影画面尺寸投影机镜头f值m芯片尺寸">投影距离=投影画面尺寸*投影机镜头f值（m）/芯片尺寸</h4>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-03-11-projector-screen-computing/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/">Git命令释义</a></h1>
 					<time>Jan 15, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 基本操作 init 初始化Git仓库 创建.git隐藏目录 add add . 添加目录和子目录下所有文件 add filename1 filename2 添加某些文件 commit commit -m 版本更新说明 提交版本，&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIRGFfRGdlYkJOU0k/edit">思维导图文件下载</a></p>
+<h2 id="基本操作">基本操作</h2>
+<h3 id="init">init</h3>
+<ul>
+<li>初始化Git仓库</li>
+<li>创建.git隐藏目录</li>
+</ul>
+<h3 id="add">add</h3>
+<ul>
+<li>add .
+添加目录和子目录下所有文件</li>
+<li>add filename1 filename2
+添加某些文件</li>
+</ul>
+<h3 id="commit">commit</h3>
+<ul>
+<li>commit -m 版本更新说明
+提交版本，并作简短说明</li>
+<li>commit
+提交版本，系统弹出默认编辑器供编写版本更新说明</li>
+</ul>
+<h3 id="config">config</h3>
+<ul>
+<li>config &ndash;global user.name 姓名
+自我介绍姓名</li>
+<li>config &ndash;global user.email 邮件
+自我介绍邮件</li>
+</ul>
+<h3 id="本地master重置到上一个版本">本地Master重置到上一个版本</h3>
+<ul>
+<li><code>git reset --hard origin/master</code></li>
+</ul>
+<h3 id="本地删除文件">本地删除文件</h3>
+<ul>
+<li><code>git rm tags</code></li>
+</ul>
+<h3 id="本地添加文件">本地添加文件</h3>
+<ul>
+<li><code>git add calc.py</code></li>
+</ul>
+<h3 id="本地确定完成">本地确定完成</h3>
+<ul>
+<li><code>git commit -m &quot;建立 源码目录及文档目录，并拷贝第一个程序进来&quot;</code></li>
+</ul>
+<h3 id="往github上传更新">往github上传更新</h3>
+<ul>
+<li><code>git push origin &lt;branch&gt;</code></li>
+</ul>
+<h3 id="开分支">开分支</h3>
+<ul>
+<li><code>git checkout -b branchname</code></li>
+</ul>
+<h3 id="返回主分支">返回主分支</h3>
+<ul>
+<li><code>git checkout master</code></li>
+</ul>
+<h3 id="编辑gitignore">编辑.gitignore</h3>
+<h3 id="clone">clone</h3>
+<h2 id="连接服务器上的git库比如github">连接服务器上的git库，比如Github</h2>
+<ul>
+<li>
+<p><code>git remote add origin &lt;server&gt;</code></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-git-command-interpretation/">Read more ⟶</a>
@@ -79,7 +156,92 @@
 					<time>Jan 15, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIT2t2cDlpMWI3anM/edit">思维导图文件下载</a></p>
+<h2 id="1下载mini安装包httpmirrors163comgentooreleasesamd64autobuildscurrent-install-amd64-minimalinstall-amd64-minimal-20121013iso">1<a href="http://mirrors.163.com/Gentoo/Releases/Amd64/Autobuilds/Current-install-amd64-minimal/install-amd64-minimal-20121013.iso">下载mini安装包</a></h2>
+<h2 id="2在virtualbox上建立gentoo64bit系统">2在Virtualbox上建立Gentoo64bit系统</h2>
+<h3 id="网络">网络</h3>
+<ul>
+<li>网卡1</li>
+<li>混杂模式
+全部允许</li>
+</ul>
+<h3 id="存储">存储</h3>
+<ul>
+<li>IDE控制器</li>
+<li>添加新盘
+下载好的安装包</li>
+</ul>
+<h2 id="3启动虚拟机">3启动虚拟机</h2>
+<h3 id="按f1">按F1</h3>
+<ul>
+<li>输入<code>gentoo</code></li>
+</ul>
+<h2 id="4设置网络">4设置网络</h2>
+<h3 id="mkdir-run"><code>mkdir /run</code></h3>
+<h3 id="dhcpcd-eth0"><code>dhcpcd eth0</code></h3>
+<h2 id="5验证网络">5验证网络</h2>
+<h3 id="ping-wwwgooglecom"><code>ping www.google.com</code></h3>
+<h2 id="6启动ssh">6启动SSH</h2>
+<h3 id="etcinitdsshd-start"><code>/etc/init.d/sshd start</code></h3>
+<h2 id="7修改root密码">7修改root密码</h2>
+<h3 id="passwd"><code>passwd</code></h3>
+<h2 id="8分区">8分区</h2>
+<h3 id="fdisk"><code>fdisk</code></h3>
+<h2 id="9安装stage3">9安装Stage3</h2>
+<h3 id="1下载文件">1下载文件</h3>
+<ul>
+<li><code>links http://www.gentoo.org/main/en/mirrors.xml</code>
+找到asia netease
+进入目录【releases/amd64/autobuilds】
+找到文件stage3-amd64-20121013.tar.bz2
+按D键</li>
+</ul>
+<h3 id="2安装文件">2安装文件</h3>
+<ul>
+<li><code>cd /mnt/gentoo</code></li>
+<li><code>tar xvjpf stage3-*.tar.bz2</code></li>
+</ul>
+<h2 id="10配置编译选项">10配置编译选项</h2>
+<h3 id="打开etcmakeconf">打开/etc/make.conf</h3>
+<ul>
+<li><code>nano -w /mnt/gentoo/etc/make.conf</code></li>
+<li>CFLAGS=&quot;-march=k8 -O2 -pipe&quot;   # EM64T应该使用-march=nocona # 两个变量使用相同的设置 CXXFLAGS=&quot;${CFLAGS}&quot;  # j后面的数字是CPU的数目加一 MAKEOPTS=&quot;-j2&quot;</li>
+</ul>
+<h2 id="11chroot">11Chroot</h2>
+<h3 id="选择境像站点">选择境像站点</h3>
+<ul>
+<li>使用mirrorselect更新GENTOO_MIRRORS变量
+<code>mirrorselect -i -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf</code></li>
+<li>使用mirrorselect选择rsync镜像站点
+<code>mirrorselect -i -r -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf</code></li>
+<li>再检查一下/mnt/gentoo/etc/make.conf里的设置</li>
+</ul>
+<h3 id="拷贝dns信息">拷贝DNS信息</h3>
+<ul>
+<li><code>cp -L /etc/resolv.conf /mnt/gentoo/etc/</code></li>
+</ul>
+<h3 id="挂载proc和dev文件系统">挂载/proc和/dev文件系统</h3>
+<ul>
+<li><code>mount -t proc none /mnt/gentoo/proc mount -o bind /dev /mnt/gentoo/dev</code></li>
+</ul>
+<h3 id="进入新的系统环境">进入新的系统环境</h3>
+<ul>
+<li>chroot到新环境里
+<code>chroot /mnt/gentoo /bin/bash env-update source /etc/profile export PS1=&amp;quot;(chroot) $PS1&amp;quot;</code></li>
+</ul>
+<h2 id="12配置portage">12配置Portage</h2>
+<h3 id="更新portage树">更新Portage树</h3>
+<ul>
+<li><code>emerge --sync --quiet</code></li>
+</ul>
+<h3 id="选择正确的profile">选择正确的Profile</h3>
+<ul>
+<li>验证系统profile
+<code>eselect profile list</code></li>
+<li>切换profile
+<code>eselect profile set 2</code></li>
+<li>切换到non-multilib profile</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/">Read more ⟶</a>
@@ -90,7 +252,17 @@
 					<time>Jan 15, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 安装客户端 sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome 设置客户端 sudo pptpsetup &ndash;create vpnname &ndash;server ip &ndash;username test &ndash;password test &ndash;encrypt &ndash;start 拨号 sudo pon vpnname 使用 sudo addroute 挂断 sudo poff vpnname&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIbWRnWDNwT0NtcG8/edit">思维导图文件下载</a></p>
+<h2 id="安装客户端">安装客户端</h2>
+<h3 id="sudo-apt-get-install-pptpd-network-manager-pptp-network-manager-vpnc-network-manager-gnome">sudo apt-get install pptpd network-manager-pptp network-manager-vpnc network-manager-gnome</h3>
+<h2 id="设置客户端">设置客户端</h2>
+<h3 id="sudo-pptpsetup---create-vpnname---server-ip---username-test---password-test---encrypt---start">sudo pptpsetup &ndash;create vpnname &ndash;server ip &ndash;username test &ndash;password test &ndash;encrypt &ndash;start</h3>
+<h2 id="拨号">拨号</h2>
+<h3 id="sudo-pon-vpnname">sudo pon vpnname</h3>
+<h2 id="使用">使用</h2>
+<h3 id="sudo-addroute">sudo addroute</h3>
+<h2 id="挂断">挂断</h2>
+<h3 id="sudo-poff-vpnname">sudo poff vpnname</h3>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/">Read more ⟶</a>
@@ -101,21 +273,212 @@
 					<time>Jan 15, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 1、确认旅行时间 错峰出行 3段时间 Green Season（05.01&ndash;10.31） High Season（11.01&ndash;&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIUUxMWWxNVTltMHM/edit">思维导图文件下载</a></p>
+<h2 id="1确认旅行时间">1、确认旅行时间</h2>
+<h3 id="错峰出行">错峰出行</h3>
+<h3 id="3段时间">3段时间</h3>
+<ul>
+<li>Green Season（05.01&ndash;10.31）</li>
+<li>High Season（11.01&ndash;12.20 01.16&ndash;04.30）</li>
+<li>Peak Season（12.21&ndash;01.15）</li>
+</ul>
+<h2 id="2确定出发时间">2、确定出发时间</h2>
+<h3 id="首先要从查机票开始确定好自己来回机票的时间">首先要从查机票开始，确定好自己来回机票的时间。</h3>
+<ul>
+<li><a href="https://www.airasia.com">www.airasia.com</a></li>
+<li><a href="https://www.yiqifei.com">www.yiqifei.com</a></li>
+<li><a href="https://www.ctrip.com">www.ctrip.com</a></li>
+<li><a href="https://www.12306.cn">www.12306.cn</a></li>
+</ul>
+<h2 id="3安排好整个行程同时确定回程时间">3、安排好整个行程，同时确定回程时间</h2>
+<h3 id="画流程图">画流程图</h3>
+<h3 id="可选行程">可选行程</h3>
+<ul>
+<li>a方案
+<ul>
+<li>参加周日集市</li>
+<li>丛林索道飞行、夜市</li>
+<li>骑大象、漂流、徒步、长颈族、泡吧</li>
+<li>逛古城各种寺庙、文华东方下午茶、SPA</li>
+<li>摩托车逛清迈大学、素贴山、素贴寺、普平宫、苗族村</li>
+<li>学做泰国菜、泡吧、SPA</li>
+</ul>
+</li>
+<li>b方案
+<ul>
+<li>香港－曼谷－清迈</li>
+<li>清迈古城漫步逛寺庙</li>
+<li>骑大象游丛林</li>
+<li>素贴山双龙寺，下午入住四季度假村</li>
+<li>白天游览四季度假村，晚上逛SUNDAY MARTET</li>
+<li>返程，清迈－曼谷－香港</li>
+</ul>
+</li>
+<li>c方案
+<ul>
+<li>素帖山+双龙寺Ssangyong Temple + 帕辛寺Wat Phra Singh + Night Bazzar</li>
+<li>柴迪隆寺Wat Chedi Luang + 清迈寺 Wat Chiang Man + Wat Monthian 寺 + 羅摩利寺Wat Lok Mee + 周六夜市 + 倒计时</li>
+<li>Wat Bupparam 寺 + 周日夜市</li>
+</ul>
+</li>
+</ul>
+<h3 id="景点">景点</h3>
+<ul>
+<li>景点：塔佩门（Tha Pae Gate）</li>
+<li>景点：松撇市场（Somphet Market）</li>
+<li>景点：Wat Lam Chang</li>
+<li>景点：清曼寺（Wat Chiang Man）</li>
+<li>景点：三王纪念碑（Anusawari Sam Kasat（Three Kings Monument）</li>
+<li>景点：清迈市立艺术文化中心（Chiang Mai City Arts &amp; Cultural Centre）</li>
+<li>景点：清迈女子监狱按摩馆（Lila Thai Massage Spa）</li>
+<li>景点：大佛塔寺（Wat Chedi Luang）</li>
+<li>景点：盼道寺（Wat Phan Tao）</li>
+<li>景点：帕邢寺（Wat Phra Singh）</li>
+<li>景点：清迈周日市集（Chiang Mai Sunday Walking Street）
+每周日下午15：00-23：00</li>
+<li>景点：清迈国家博物馆（Chiang Mai National Museum）</li>
+<li>景点：界遥寺（Wat Jet Yot）</li>
+<li>景点：清迈大学（Chiang Mai University，CMU）</li>
+<li>景点：宁曼海敏路艺术街区（Nimmanhaemin Road）</li>
+<li>景点：湄平河游船（Mae Ping River Cruise）</li>
+<li>景点：清迈泰国菜烹饪学校（Chiang Mai Thai Cookery School）</li>
+<li>景点：二手书店一条街（Chiang Mai Kao Road）</li>
+<li>景点：湄沙大象训练学校（Maesa Elephant Camp）</li>
+<li>景点：清迈日常夜市（Chiang Mai Night Bazaar）</li>
+<li>景点：丛林飞翔（Jungle Gliding）</li>
+</ul>
+<h3 id="饭店">饭店</h3>
+<ul>
+<li>其他：Huean Phen（老房子餐厅）</li>
+<li>其他：IBerry</li>
+<li>酒店：The Chedi Chiang Mai（清迈切蒂酒店）</li>
+<li>其他：Hong Taow Restaurant</li>
+</ul>
+<h2 id="4订灰机票">4、订灰机票</h2>
+<h3 id="合理安排转机时间就行记得考虑上飞机晚点的时间">合理安排转机时间就行，记得考虑上飞机晚点的时间</h3>
+<h3 id="亚航经常有大促">亚航经常有大促</h3>
+<h2 id="5订酒店">5、订酒店</h2>
+<h3 id="观念">观念</h3>
+<ul>
+<li>在可承受范围内，住最好的酒店</li>
+<li>位置最重要，要便于吃喝游玩</li>
+<li>其实是清洁度，出门在外，健康第一</li>
+<li>最后是价格</li>
+</ul>
+<h3 id="曼谷">曼谷</h3>
+<ul>
+<li>注重游玩的话，考山路 附近的</li>
+<li>注重购物血拼的话，Siam区的酒店</li>
+</ul>
+<h3 id="清迈">清迈</h3>
+<ul>
+<li>清迈的景点和夜市都集中在古城内和古城东南，而且清迈古城不大，可以选择住在古城内，或者佩塔门、清迈门附近</li>
+</ul>
+<h3 id="酒店比较">酒店比较</h3>
+<ul>
+<li>看图片和评价显得尤为重要</li>
+<li>一个酒店是否上档次，看酒店门脸就能略知一二。这里会用到google街景，很方便、很实用，可以看到酒店门脸以及周边环境。</li>
+</ul>
+<h3 id="各大网站">各大网站</h3>
+<ul>
+<li><a href="https://www.hotelscombined.cn/?languageCode=CS">www.hotelscombined.cn/?languageCode=CS</a></li>
+<li><a href="https://www.atsiam.com/en/">www.atsiam.com/en/</a></li>
+<li><a href="https://www.sawadee.com">www.sawadee.com</a></li>
+<li><a href="https://www.booking.com">www.booking.com</a></li>
+<li><a href="https://www.airasiago.com/zh-cn/">www.airasiago.com/zh-cn/</a></li>
+<li><a href="https://www.agoda.com">www.agoda.com</a></li>
+<li><a href="https://www.otel.com">www.otel.com</a>
+去www.facebook.com/otelcom获取9折优惠券</li>
+<li><a href="https://www.laterooms.com">www.laterooms.com</a></li>
+<li><a href="https://www.asiarooms.com">www.asiarooms.com</a></li>
+<li><a href="https://www.hoteltravel.com">www.hoteltravel.com</a></li>
+<li><a href="https://www.ratestogo.com">www.ratestogo.com</a></li>
+<li><a href="https://www.hotelclub.com">www.hotelclub.com</a></li>
+<li><a href="http://www.travelzoo.com/cn/international-hotels/">http://www.travelzoo.com/cn/international-hotels/</a></li>
+</ul>
+<h3 id="tips">Tips</h3>
+<ul>
+<li>a、订酒店时，先筛选出你心仪的酒店，然后再到各网站查询价格，下单。</li>
+<li>b、建议记录下每个网站给出的价格，方便比价。</li>
+<li>c、如果你过几天就出发上路，订酒店的动作就要加快了。价格好的房间就那么几间，别人订了，你就订不了。</li>
+<li>d、付款时，尽量走支付宝和银联；其次是Paypal；都没有的话，走VISA和MASTER会有汇率损失，还会收1.5%手续费，而且尽量付美元</li>
+</ul>
+<h3 id="分享">分享</h3>
+<ul>
+<li>Maninarakorn Hotel Chiang Mai：清迈酒店，atsiam预订，1030B一晚，含自助早餐和WIFI。</li>
+<li>Chiang Mai Gate Hotel也不错，价格更便宜。</li>
+<li>The Belle Resort：普吉岛酒店，在laterooms预订，1500B一晚，不含早餐</li>
+<li>Rayaburi Resort Racha Island Phuket：皇帝岛酒店，好像是个连锁的，在携程订的，609元一晚，含早餐，没有WIFI。</li>
+<li>Rikka Inn：曼谷酒店，1150B一晚，不含早餐，有WIFI，还有游泳池，貌似在天台上。酒店在著名的考山路</li>
+<li>Metro Resort Pratunam：曼谷酒店，也是帮朋友在sawadee订的，1750B一晚，含早餐、WIFI、还有保险箱.酒店选在了Siam区</li>
+</ul>
+<h2 id="6订其它票务如接机服务一日游等">6、订其它票务，如接机服务、一日游等</h2>
+<h3 id="骑大象包括竹筏观看大象表演骑大象骑牛车兰花园一顿中饭和往返交通">骑大象，包括竹筏、观看大象表演、骑大象、骑牛车、兰花园、一顿中饭和往返交通</h3>
+<ul>
+<li>800铢/人</li>
+</ul>
+<h3 id="texi到古城酒店">TEXI到古城酒店</h3>
+<ul>
+<li>120铢</li>
+</ul>
+<h3 id="双条">双条</h3>
+<ul>
+<li>20铢/人</li>
+<li>终点站上车要满10人开车</li>
+</ul>
+<h3 id="tutu">TUTU</h3>
+<ul>
+<li>100铢</li>
+</ul>
+<h3 id="椰子">椰子</h3>
+<ul>
+<li>25铢</li>
+</ul>
+<h3 id="自助火锅">自助火锅</h3>
+<ul>
+<li>110铢/人</li>
+</ul>
+<h3 id="落地签">落地签</h3>
+<ul>
+<li>1000铢/人</li>
+</ul>
+<h3 id="四季度假村">四季度假村</h3>
+<ul>
+<li>2000元/晚</li>
+</ul>
+<h3 id="双龙寺">双龙寺</h3>
+<ul>
+<li>30B/人</li>
+</ul>
+<h3 id="foot-massage">foot massage</h3>
+<ul>
+<li>200b/人</li>
+</ul>
+<h3 id="电话卡">电话卡</h3>
+<ul>
+<li>Truemove公司
+在泰国直接拨打电话即可，泰国国内没有漫游费，拨打回中国的电话号码为：00600+86+国内手机号码；拨打中国固定电话号码为：00600+86+区号+座机号码。
+手机上网，我们选择的是包日套餐和包小时套餐。方法：编辑短信D2（49B/天）发送至9789；编辑短信T3发送至9789（100 hours inclusively；349B/月），很快就能收到回复，包日套餐当天23：59结束。拨打#123#，系统将自动回复短信，告知余额</li>
+</ul>
+<h3 id="租摩托车">租摩托车</h3>
+<ul>
+<li>Mr. Order
+护照复印件一份及押金3000B，租金：200B/24小时，油需自己加</li>
+</ul>
+<h2 id="others">others</h2>
+<h3 id="上海飞曼谷全程3小时20分钟">上海飞曼谷全程3小时20分钟</h3>
+<ul>
+<li>东航（FM839→ MU548）</li>
+</ul>
+<h3 id="曼谷的入关会排起长龙">曼谷的入关会排起长龙</h3>
+<h3 id="曼谷到清迈1小时10分钟">曼谷到清迈1小时10分钟</h3>
+<ul>
+<li>Air Asia：FD 3236</li>
+</ul>
+<h3 id="免费清迈地图">免费清迈地图</h3>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-chiang-mai-travel-raiders/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">解密磁盘碎片</a></h1>
-					<time>Jan 15, 2013</time>
-					<br><div class="description">
-	
-	思维导图文件下载 WHY 磁盘驱动器上有很多扇区，每个扇区都能存放一小段数据。 文件，特别是大文件的存储需要占用很多不同的扇区。 假设现在你有很多个文件&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-disk-fragmentation/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +499,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

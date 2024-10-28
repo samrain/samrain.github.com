@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
       <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
-      <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
+      <description>&lt;p&gt;需要依次安装以下补丁：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;KB2919442&lt;/li&gt;&#xA;&lt;li&gt;clearcompressionflag.exe&lt;/li&gt;&#xA;&lt;li&gt;KB2919355&lt;/li&gt;&#xA;&lt;li&gt;KB2932046&lt;/li&gt;&#xA;&lt;li&gt;KB2959977&lt;/li&gt;&#xA;&lt;li&gt;KB2937592&lt;/li&gt;&#xA;&lt;li&gt;KB2938439&lt;/li&gt;&#xA;&lt;li&gt;KB2934018&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/2919355&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

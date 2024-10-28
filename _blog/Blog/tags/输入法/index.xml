@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
-      <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
+      <description>&lt;p&gt;因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把fcitx4删除干净 &lt;code&gt;sudo apt remove fcitx*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;安装fcitx5 &lt;code&gt;sudo apt install fcitx5 &lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;下载肥猫wiki词库文件zhwiki.dict，下载地址： &lt;a href=&#34;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&#34;&gt;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;词典文件复制到&lt;code&gt;~/.local/share/_fcitx5_/pinyin/dictionaries&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;li&gt;重启fcitx5&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>如何用搜狗拼音输入法在Windows上打出「」</title>
       <link>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</link>
       <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-24-input-chinese-quotes-in-windows-by-sougou-ime/</guid>
-      <description>如何用搜狗拼音输入法在Windows上打出「」 最近看了一篇blog（作者Hindy，链接在此）， 提倡中文引号应该用「」而不是‘’。我仔细考虑</description>
+      <description>&lt;h2 id=&#34;如何用搜狗拼音输入法在windows上打出a-idsec-5-namesec-5a&#34;&gt;如何用搜狗拼音输入法在Windows上打出「」&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;最近看了一篇blog（作者Hindy，&lt;a href=&#34;http://zhuanlan.zhihu.com/uicircle/20506092&#34;&gt;链接在此&lt;/a&gt;）， 提倡中文引号应该用「」而不是‘’。我仔细考虑了下，确实在美观和无歧义上可取。但是怎么能方便的输入「」呢？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

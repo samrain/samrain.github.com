@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/</link>
       <pubDate>Wed, 12 Sep 2018 10:54:11 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/</guid>
-      <description>1.检查是否符合编码标准的工具 FxCop，StyleCop和ReSharper 2.静态分析工具 Coverity，Sonar，CAT.NET和</description>
+      <description>&lt;h2 id=&#34;1检查是否符合编码标准的工具&#34;&gt;1.检查是否符合编码标准的工具&lt;/h2&gt;&#xA;&lt;p&gt;FxCop，StyleCop和ReSharper&lt;/p&gt;&#xA;&lt;h2 id=&#34;2静态分析工具&#34;&gt;2.静态分析工具&lt;/h2&gt;&#xA;&lt;p&gt;Coverity，Sonar，CAT.NET和Visual Studio代码分析&lt;/p&gt;&#xA;&lt;h2 id=&#34;3动态分析工具&#34;&gt;3.动态分析工具&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio提供了一些，包括并发可视化器，IntelliTrace和分析工具。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

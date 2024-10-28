@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
       <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
-      <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
+      <description>&lt;p&gt;常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：&lt;code&gt;System.Security.Cryptography&lt;/code&gt;。.NET Framework 中的数据加密算法仍然不够完全，如 IDEA、BLOWFISH、其它算法，如ElGamal、Deffie-Hellman、ECC 等，对于一些其它的数据校验算法支持也不够，如 CRC、SFV 等，开发人员只能去从早期代码做移植或者寻找第三方厂商的实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>常用加解密算法</title>
       <link>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</guid>
-      <description>1.常用密钥算法 密钥算法用来对敏感数据、摘要、签名等信息进行加密。 对称加密算法 DES（Data Encryption Standard） 数据加密标准，速度较快，适</description>
+      <description>&lt;h2 id=&#34;1常用密钥算法&#34;&gt;1.常用密钥算法&lt;/h2&gt;&#xA;&lt;p&gt;密钥算法用来对敏感数据、摘要、签名等信息进行加密。&lt;/p&gt;&#xA;&lt;h3 id=&#34;对称加密算法&#34;&gt;对称加密算法&lt;/h3&gt;&#xA;&lt;h4 id=&#34;desdata-encryption-standard&#34;&gt;DES（Data Encryption Standard）&lt;/h4&gt;&#xA;&lt;p&gt;数据加密标准，速度较快，适用于加密大量数据的场合&lt;/p&gt;&#xA;&lt;h4 id=&#34;3destriple-des&#34;&gt;3DES（Triple DES）&lt;/h4&gt;&#xA;&lt;p&gt;是基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

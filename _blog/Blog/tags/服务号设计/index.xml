@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</link>
       <pubDate>Sun, 06 Feb 2022 17:01:01 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-06-design-of-service-number/</guid>
-      <description>发送 及时发送通知信息给某人或某些人 定时发送通知信息给某人或某些人 通知信息包括 按照通知是否需要被通知人来执行分为 通告，知悉即可不需要执行 任务，</description>
+      <description>&lt;h1 id=&#34;发送&#34;&gt;发送&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;及时发送通知信息给某人或某些人&lt;/li&gt;&#xA;&lt;li&gt;定时发送通知信息给某人或某些人&lt;/li&gt;&#xA;&lt;li&gt;通知信息包括&#xA;&lt;ol&gt;&#xA;&lt;li&gt;按照通知是否需要被通知人来执行分为&#xA;&lt;ol&gt;&#xA;&lt;li&gt;通告，知悉即可不需要执行&lt;/li&gt;&#xA;&lt;li&gt;任务，要在规定时间完成规定工作&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;按照被通知人分为&#xA;&lt;ol&gt;&#xA;&lt;li&gt;部分员工&lt;/li&gt;&#xA;&lt;li&gt;部门全体员工&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;按照业务分为&#xA;&lt;ol&gt;&#xA;&lt;li&gt;产品新增订单&lt;/li&gt;&#xA;&lt;li&gt;产品客户端、云的新增功能&lt;/li&gt;&#xA;&lt;li&gt;产品相关的权益通知&lt;/li&gt;&#xA;&lt;li&gt;产品订单状态的跟进情况&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;回答&#34;&gt;回答&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;返回提问人和他相关的最近TOP5通知信息&lt;/li&gt;&#xA;&lt;li&gt;返回问题答案&lt;/li&gt;&#xA;&lt;li&gt;返回公司或部门制度&lt;/li&gt;&#xA;&lt;li&gt;返回业务流程&lt;/li&gt;&#xA;&lt;li&gt;记录每次提问的回复是否真正解决问题。把解决不好的问题收集起来，想办法获得正确答案并填写回去。&lt;/li&gt;&#xA;&lt;li&gt;记录咨询的问题，并能显示Top10&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;数据连接和计算&#34;&gt;数据连接和计算&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;通过服务号来建立服务号，优化服务号。比如通过和机器人对话，能建立后台知识库，能发消息，能提问题。没有后台管理界面，全部都在前台通过对话完成。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

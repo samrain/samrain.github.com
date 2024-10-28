@@ -2,12 +2,24 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>SQL Server High Availability Solution - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2" />
+	<meta name="description" content="SQLServer高可用性的几种方案
+
+Peer-to-Peer Replication 数据复制
+SQL Cluster Failover
+Log Shipping
+Mirroring
+AlwaysOn
+
+SQLServer不同版本AlwaysOn能拉动的服务器：
+
+SqlServer2012最多：4台 1主&#43;1同步&#43;2异步
+SqlServer2014最多：8台 1主&#43;2同步（一般建议1台，减少性能损失）&#43;5异步
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="SQL Server High Availability Solution">
-  <meta property="og:description" content="SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2">
+  <meta property="og:description" content="SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2012最多：4台 1主&#43;1同步&#43;2异步 SqlServer2014最多：8台 1主&#43;2同步（一般建议1台，减少性能损失）&#43;5异步">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -20,7 +32,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="SQL Server High Availability Solution">
-  <meta name="twitter:description" content="SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2">
+  <meta name="twitter:description" content="SQLServer高可用性的几种方案 Peer-to-Peer Replication 数据复制 SQL Cluster Failover Log Shipping Mirroring AlwaysOn SQLServer不同版本AlwaysOn能拉动的服务器： SqlServer2012最多：4台 1主&#43;1同步&#43;2异步 SqlServer2014最多：8台 1主&#43;2同步（一般建议1台，减少性能损失）&#43;5异步">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -107,22 +119,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

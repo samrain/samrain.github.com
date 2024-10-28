@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-15-import-tasks-in-redmine-to-google-calendar/</guid>
-      <description>Redmine导出csv 修改导出的csv文件：export.csv 根据实际情况，删除已经安排重复活动的任务。 在每行开头填写该任务的短名，以便</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Redmine导出csv&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;修改导出的csv文件：export.csv&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;根据实际情况，删除已经安排重复活动的任务。&#xA;在每行开头填写该任务的短名，以便于记忆。&#xA;将【Start Date】列剪切到【Description】列&#xA;将【Start Time】列剪切到【Start Date】列&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,21 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>解决bpool空间不够的问题 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="问题 Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t" />
+	<meta name="description" content="问题
+Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space.
+检查命令
+df -h /
+zfs list -o space rpool bpool
+zfs list -t snapshot
+解决问题命令:
+sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="解决bpool空间不够的问题">
-  <meta property="og:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t">
+  <meta property="og:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space.
+检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +27,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="解决bpool空间不够的问题">
-  <meta name="twitter:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space. 检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t">
+  <meta name="twitter:description" content="问题 Requesting to save current system state ERROR couldn’t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool “bpool” is 19%. Please remove some states manually to free up space.
+检查命令 df -h / zfs list -o space rpool bpool zfs list -t snapshot 解决问题命令: sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -96,22 +106,23 @@ zfs list -t snapshot
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

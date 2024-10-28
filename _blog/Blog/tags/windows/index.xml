@@ -13,105 +13,105 @@
       <link>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</link>
       <pubDate>Fri, 20 Jan 2023 20:49:49 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-01-20-kids-mode-on-win-and-macos/</guid>
-      <description>儿童模式是啥 有时也叫家长控制。 作为家长为了防止小孩沉迷网络、接触到超出年龄限制的内容而设置的一种具备限制性和监管性的系统模式，儿童模式在一定</description>
+      <description>&lt;h1 id=&#34;儿童模式是啥&#34;&gt;儿童模式是啥&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;有时也叫家长控制。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;作为家长为了防止小孩沉迷网络、接触到超出年龄限制的内容而设置的一种具备限制性和监管性的系统模式，儿童模式在一定程度上能实现儿童使用电子设备的自由，同时又能让家长放心孩子独立使用电子设备。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tips of Installing Net Framework 462 in WinServ2012</title>
       <link>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</link>
       <pubDate>Tue, 05 Jun 2018 09:45:19 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-06-05-tips-of-installing-net-framework-462-in-winserv2012/</guid>
-      <description>需要依次安装以下补丁： KB2919442 clearcompressionflag.exe KB2919355 KB2932046 KB2959977 KB2937592 KB2938439 KB2934018 补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/29</description>
+      <description>&lt;p&gt;需要依次安装以下补丁：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;KB2919442&lt;/li&gt;&#xA;&lt;li&gt;clearcompressionflag.exe&lt;/li&gt;&#xA;&lt;li&gt;KB2919355&lt;/li&gt;&#xA;&lt;li&gt;KB2932046&lt;/li&gt;&#xA;&lt;li&gt;KB2959977&lt;/li&gt;&#xA;&lt;li&gt;KB2937592&lt;/li&gt;&#xA;&lt;li&gt;KB2938439&lt;/li&gt;&#xA;&lt;li&gt;KB2934018&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;补丁KB下载URL：https://support.microsoft.com/zh-cn/kb/2919355&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何在Windows上看电池寿命</title>
       <link>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-display-battery-life-on-windows/</guid>
-      <description>右击【开始】菜单，选择【命令提示符（管理员）】 输入 cd c:\ 输入 powercfg /batteryreport 输入 c:\battery-report.html,浏览器会显示文件内容</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;右击【开始】菜单，选择【命令提示符（管理员）】&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;cd c:\&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;powercfg  /batteryreport&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;c:\battery-report.html&lt;/code&gt;,浏览器会显示文件内容&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>如何提高windows程序的性能</title>
       <link>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</guid>
-      <description>调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此</description>
+      <description>&lt;h1 id=&#34;调整windows服务器&#34;&gt;调整windows服务器&lt;/h1&gt;&#xA;&lt;h2 id=&#34;调整tcptimedwaitdelay&#34;&gt;调整TcpTimedWaitDelay&lt;/h2&gt;&#xA;&lt;p&gt;描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此时间间隔通称 TIME_WAIT 状态或两倍最大段生命周期（2MSL）状态。此时间期间，重新打开到客户机和服务器的连接的成本少于建立新连接。减少此条目的值允许 TCP/IP 更快地释放已关闭的连接，为新连接提供更多资源。如果运行的应用程序需要快速释放和创建新连接，而且由于 TIME_WAIT 中存在很多连接，导致低吞吐量，则调整此参数。 如何查看或设置： 使用 regedit 命令访问 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/ Services/TCPIP/Parameters 注册表子键并创建名为 TcpTimedWaitDelay 的新 REG_DWORD 值。 将此值设置为十进制 30，其为十六进制 0x0000001e。该值将等待时间设置为 30 秒。 停止并重新启动系统。 缺省值：0xF0，它将等待时间设置为 240 秒（4 分钟）。 建议值：最小值为 0x1E，它将等待时间设置为 30 秒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如果在Win2012 R2上安装net framework 4.6.2报错怎么办</title>
       <link>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-install-net-framework-4.6.2-in-windows2012r2/</guid>
-      <description>必须要在安装KB2919355 KB地址： https://support.microsoft.com/zh-cn/kb/2919355 安装顺序：KB2919442、clearcompressionflag.exe、KB2919355</description>
+      <description>&lt;p&gt;必须要在安装KB2919355&lt;/p&gt;&#xA;&lt;p&gt;KB地址： &lt;a href=&#34;https://support.microsoft.com/zh-cn/kb/2919355&#34;&gt;https://support.microsoft.com/zh-cn/kb/2919355&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装顺序：KB2919442、clearcompressionflag.exe、KB2919355、KB2932046、KB2959977、KB2937592、KB2938439、KB2934018&lt;/p&gt;</description>
     </item>
     <item>
       <title>利用命令强制结束Windows进程</title>
       <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
-      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;以管理员身份运行命令行模式&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;tasklist&lt;/code&gt; 显示目前的运行状况&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入&lt;/p&gt;&#xA;&lt;p&gt;taskkill /IM 进程名 /F&#xA;taskkill /PID 进程ID /F&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Chocolatey</title>
       <link>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-31-chocolatey/</guid>
-      <description>方便蛮方便，但是有几个缺点： 至少要在win7以上使用，因为要用到Powershell 如果在国内用，下载国外资源非常慢</description>
+      <description>&lt;p&gt;方便蛮方便，但是有几个缺点：&lt;/p&gt;&#xA;&lt;p&gt;至少要在win7以上使用，因为要用到Powershell&lt;/p&gt;&#xA;&lt;p&gt;如果在国内用，下载国外资源非常慢&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows上免费开源的SFTP服务器</title>
       <link>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</link>
       <pubDate>Sat, 21 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-21-free-and-open-source-sftp-server-on-windows/</guid>
-      <description>http://www.freesshd.com/</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.freesshd.com/&#34;&gt;http://www.freesshd.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>删除windows服务</title>
       <link>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</link>
       <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/</guid>
-      <description>sc delete 服务名 如果服务名中间有空格，就需要前后加引号。</description>
+      <description>&lt;p&gt;&lt;code&gt;sc delete 服务名&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果服务名中间有空格，就需要前后加引号。&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决调用Tuxedo服务问题</title>
       <link>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</link>
       <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</guid>
-      <description>解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all</description>
+      <description>&lt;h2 id=&#34;解决调用tuxedo服务问题&#34;&gt;解决调用Tuxedo服务问题&lt;/h2&gt;&#xA;&lt;p&gt;用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.&#xA;at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)&#xA;at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)&#xA;at System.Diagnostics.EventLog.SourceExists(String source)&#xA;at Interface.Tuxedo.LogWirter.LogInfoEvent(String message)&#xA;at Interface.Tuxedo.TuxedoHelper.GetConfig()&#xA;at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig()&#xA;at Interface.Tuxedo.TuxedoHelper..cctor()&#xA;&amp;mdash; End of inner exception stack trace &amp;mdash;&lt;/p&gt;</description>
     </item>
     <item>
       <title>删除Windows服务</title>
       <link>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-27-remove-windows-service/</guid>
-      <description>用sc.exe这个Windows命令 开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单： # (如果服务名中间有空格，就需</description>
+      <description>&lt;p&gt;用&lt;code&gt;sc.exe&lt;/code&gt;这个Windows命令&lt;/p&gt;&#xA;&lt;p&gt;开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# (如果服务名中间有空格，就需要前后加引号）&#xA;sc delete &amp;#34;服务名&amp;#34;  &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>英文Windows VPS 安装中文包</title>
       <link>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-14-install-chinese-language-on-win2k3/</guid>
-      <description>Why 国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;国外的VPS和服务器默认安装的服务器系统一般都是英文的Windows 2003 Web版或者Windows 2003 企业版。进去之后是英文的系统，而且由于国外VPS或服务器一般未安装东亚（中国韩国日本等国）语言支持，所以无法正常显示中文，因此我们需要使其支持中文，避免乱码。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在Win2008上部署 Windows SharePoint Services 3.0</title>
       <link>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-08-deploy-sps3.0-on-win2k8/</guid>
-      <description>Why 一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;一般来说SPS3.0都是安装在W2k3上的，但是W2k3已经没有support（W2k8也很快就要没有了），所以就会有需求要在W2k8上装。于是就有了以下的内容：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 服务快捷启动命令</title>
       <link>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-08-31-windows-service-quick-start-command/</guid>
-      <description>gpedit.msc－－－－－组策略 sndrec32－－－－－录音机 nslookup－－－－－地址侦测器 explorer－－－－－－打开资源</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;gpedit.msc－－－－－组策略&lt;/li&gt;&#xA;&lt;li&gt;sndrec32－－－－－录音机&lt;/li&gt;&#xA;&lt;li&gt;nslookup－－－－－地址侦测器&lt;/li&gt;&#xA;&lt;li&gt;explorer－－－－－－打开资源管理器&lt;/li&gt;&#xA;&lt;li&gt;logoff－－－－－－－注销命令&lt;/li&gt;&#xA;&lt;li&gt;tsshutdn－－－－－－秒倒计时关机命令&lt;/li&gt;&#xA;&lt;li&gt;lusrmgr.msc－－－－本机用户和组&lt;/li&gt;&#xA;&lt;li&gt;services.msc－－－本地服务设置&lt;/li&gt;&#xA;&lt;li&gt;oobe/msoobe /a－－－检查是否激活&lt;/li&gt;&#xA;&lt;li&gt;notepad－－－－－－打开记事本&lt;/li&gt;&#xA;&lt;li&gt;cleanmgr－－－－－－垃圾整理&lt;/li&gt;&#xA;&lt;li&gt;net start messenger－－开始信使服务&lt;/li&gt;&#xA;&lt;li&gt;compmgmt.msc－－－计算机管理&lt;/li&gt;&#xA;&lt;li&gt;net stop messenger－－停止信使服务－－－－－－－启动&lt;/li&gt;&#xA;&lt;li&gt;dvdplay－－－－－－播放器&lt;/li&gt;&#xA;&lt;li&gt;charmap－－－－－－启动字符映射表&lt;/li&gt;&#xA;&lt;li&gt;diskmgmt.msc－－－磁盘管理实用程序－－－－－－－－启动计算器&lt;/li&gt;&#xA;&lt;li&gt;dfrg.msc－－－－－－磁盘碎片整理程序&lt;/li&gt;&#xA;&lt;li&gt;chkdsk.exe－－－－－chkdsk磁盘检查&lt;/li&gt;&#xA;&lt;li&gt;devmgmt.msc－－－设备管理器&lt;/li&gt;&#xA;&lt;li&gt;regsvr32 /u *.dll－－－停止文件运行&lt;/li&gt;&#xA;&lt;li&gt;drwtsn32－－－－－系统医生&lt;/li&gt;&#xA;&lt;li&gt;rononce －－－－－秒关机&lt;/li&gt;&#xA;&lt;li&gt;dxdiag－－－－－－检查directx信息&lt;/li&gt;&#xA;&lt;li&gt;regedt32－－－－－注册表编辑器&lt;/li&gt;&#xA;&lt;li&gt;msconfig.exe－－－系统配置实用程序&lt;/li&gt;&#xA;&lt;li&gt;rsop.msc－－－－－－组策略结果集&lt;/li&gt;&#xA;&lt;li&gt;mem.exe－－－－－显示内存使用情况&lt;/li&gt;&#xA;&lt;li&gt;regedit.exe－－－－注册表&lt;/li&gt;&#xA;&lt;li&gt;winchat－－－－－－自带局域网聊天&lt;/li&gt;&#xA;&lt;li&gt;progman－－－－－－程序管理器&lt;/li&gt;&#xA;&lt;li&gt;winmsd－－－－－－系统信息&lt;/li&gt;&#xA;&lt;li&gt;perfmon.msc－－－－计算机性能监测程序&lt;/li&gt;&#xA;&lt;li&gt;winver－－－－－－检查windows版本&lt;/li&gt;&#xA;&lt;li&gt;sfc /scannow－－－－扫描错误并复原&lt;/li&gt;&#xA;&lt;li&gt;winver－－－－－－检查windows版本&lt;/li&gt;&#xA;&lt;li&gt;wmimgmt.msc－－－打开windows管理体系结构&lt;/li&gt;&#xA;&lt;li&gt;wupdmgr－－－－－windows更新程序脚本－－－－－－windows脚本宿主设置&lt;/li&gt;&#xA;&lt;li&gt;write－－－－－－－写字板&lt;/li&gt;&#xA;&lt;li&gt;winmsd－－－－－－系统信息&lt;/li&gt;&#xA;&lt;li&gt;wiaacmgr－－－－－扫描仪和照相机向导&lt;/li&gt;&#xA;&lt;li&gt;winchat－－－－－自带局域网聊天&lt;/li&gt;&#xA;&lt;li&gt;mem.exe－－－－－显示内存使用情况&lt;/li&gt;&#xA;&lt;li&gt;msconfig.exe－－－系统配置实用程序&lt;/li&gt;&#xA;&lt;li&gt;mplayer2－－－－－简易&lt;/li&gt;&#xA;&lt;li&gt;mspaint－－－－－－画图板&lt;/li&gt;&#xA;&lt;li&gt;mstsc－－－－－－远程桌面连接&lt;/li&gt;&#xA;&lt;li&gt;mplayer2－－－－－媒体播放机&lt;/li&gt;&#xA;&lt;li&gt;magnify－－－－－－放大镜实用程序－－－－－－－打开控制台&lt;/li&gt;&#xA;&lt;li&gt;mobsync－－－－－同步命令&lt;/li&gt;&#xA;&lt;li&gt;dxdiag－－－－－－检查directx信息&lt;/li&gt;&#xA;&lt;li&gt;drwtsn32－－－－－系统医生&lt;/li&gt;&#xA;&lt;li&gt;devmgmt.msc－－－设备管理器&lt;/li&gt;&#xA;&lt;li&gt;dfrg.msc－－－－－－磁盘碎片整理程序&lt;/li&gt;&#xA;&lt;li&gt;diskmgmt.msc－－－磁盘管理实用程序&lt;/li&gt;&#xA;&lt;li&gt;dcomcnfg－－－－－打开系统组件服务&lt;/li&gt;&#xA;&lt;li&gt;ddeshare－－－－－－打开共享设置&lt;/li&gt;&#xA;&lt;li&gt;dvdplay－－－－－－播放器&lt;/li&gt;&#xA;&lt;li&gt;net stop messenger－－停止信使服务&lt;/li&gt;&#xA;&lt;li&gt;net start messenger－－开始信使服务&lt;/li&gt;&#xA;&lt;li&gt;notepad－－－－－－打开记事本&lt;/li&gt;&#xA;&lt;li&gt;nslookup－－－－－－网络管理的工具向导&lt;/li&gt;&#xA;&lt;li&gt;ntbackup－－－－－－系统备份和还原&lt;/li&gt;&#xA;&lt;li&gt;narrator－－－－－－屏幕“讲述人”&lt;/li&gt;&#xA;&lt;li&gt;nyessmgr.msc－－－－移动存储管理器&lt;/li&gt;&#xA;&lt;li&gt;nyessoprq.msc－－－移动存储管理员操作请求&lt;/li&gt;&#xA;&lt;li&gt;netstat －－－－－命令检查接口&lt;/li&gt;&#xA;&lt;li&gt;syncapp－－－－－－创建一个公文包&lt;/li&gt;&#xA;&lt;li&gt;sysedit－－－－－－系统配置编辑器&lt;/li&gt;&#xA;&lt;li&gt;sigverif－－－－－－文件签名验证程序&lt;/li&gt;&#xA;&lt;li&gt;sndrec32－－－－－录音机&lt;/li&gt;&#xA;&lt;li&gt;shrpubw－－－－－创建共享文件夹&lt;/li&gt;&#xA;&lt;li&gt;secpol.msc－－－－本地安全策略&lt;/li&gt;&#xA;&lt;li&gt;syskey－－－－－－系统加密，一旦加密就不能解开，保护windows xp系统的双重密码&lt;/li&gt;&#xA;&lt;li&gt;services.msc－－－本地服务设置&lt;/li&gt;&#xA;&lt;li&gt;sndvol32－－－－－音量控制程序&lt;/li&gt;&#xA;&lt;li&gt;sfc.exe－－－－－－系统文件检查器&lt;/li&gt;&#xA;&lt;li&gt;sfc /scannow－－－windows文件保护&lt;/li&gt;&#xA;&lt;li&gt;tsshutdn－－－－－－秒倒计时关机命令&lt;/li&gt;&#xA;&lt;li&gt;tourstart－－－－－－简介（安装完成后出现的漫游程序）&lt;/li&gt;&#xA;&lt;li&gt;taskmgr－－－－－－任务管理器&lt;/li&gt;&#xA;&lt;li&gt;eventvwr－－－－－事件查看器&lt;/li&gt;&#xA;&lt;li&gt;eudcedit－－－－－造字程序&lt;/li&gt;&#xA;&lt;li&gt;explorer－－－－－打开资源管理器&lt;/li&gt;&#xA;&lt;li&gt;packager－－－－－对象包装程序&lt;/li&gt;&#xA;&lt;li&gt;perfmon.msc－－－－计算机性能监测程序&lt;/li&gt;&#xA;&lt;li&gt;progman－－－－－程序管理器&lt;/li&gt;&#xA;&lt;li&gt;regedit.exe－－－－注册表&lt;/li&gt;&#xA;&lt;li&gt;rsop.msc－－－－－组策略结果集&lt;/li&gt;&#xA;&lt;li&gt;regedt32－－－－－注册表编辑器&lt;/li&gt;&#xA;&lt;li&gt;rononce －－－－秒关机&lt;/li&gt;&#xA;&lt;li&gt;regsvr32 /u *.dll－－－停止文件运行&lt;/li&gt;&#xA;&lt;li&gt;regsvr32 /u zipfldr.dll－－取消支持&lt;/li&gt;&#xA;&lt;li&gt;cmd.exe－－－－－－－命令提示符&lt;/li&gt;&#xA;&lt;li&gt;chkdsk.exe－－－－－chkdsk磁盘检查&lt;/li&gt;&#xA;&lt;li&gt;ceryesgr.msc－－－－证书管理实用程序－－－－－－－－启动计算器&lt;/li&gt;&#xA;&lt;li&gt;charmap－－－－－－－启动字符映射表&lt;/li&gt;&#xA;&lt;li&gt;cliconfg－－－－－－－sql server 客户端网络实用程序&lt;/li&gt;&#xA;&lt;li&gt;clipbrd－－－－－－－剪贴板查看器－－－－－－－－启动&lt;/li&gt;&#xA;&lt;li&gt;compmgmt.msc－－－计算机管理&lt;/li&gt;&#xA;&lt;li&gt;cleanmgr－－－－－－垃圾整理&lt;/li&gt;&#xA;&lt;li&gt;ciadv.msc－－－－－－索引服务程序－－－－－－－－打开屏幕键盘&lt;/li&gt;&#xA;&lt;li&gt;odbcad32－－－－－－数据源管理器&lt;/li&gt;&#xA;&lt;li&gt;oobe/msoobe /a－－－－检查是否激活&lt;/li&gt;&#xA;&lt;li&gt;lusrmgr.msc－－－－本机用户和组&lt;/li&gt;&#xA;&lt;li&gt;logoff－－－－－－－注销命令&lt;/li&gt;&#xA;&lt;li&gt;iexpress－－－－－－木马捆绑工具，系统自带&lt;/li&gt;&#xA;&lt;li&gt;nslookup－－－－－－地址侦测器&lt;/li&gt;&#xA;&lt;li&gt;fsmgmt.msc－－－－－共享文件夹管理器&lt;/li&gt;&#xA;&lt;li&gt;utilman－－－－－－－辅助工具管理器&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>AutoHotkey如何在Win8上正常使用</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-how-to-autohotkey-interact-with-win8/</guid>
-      <description>在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。</description>
+      <description>&lt;h2 id=&#34;在启动autohotkey时使用管理员权限右键点击可执行文件或者快捷方式然后选择running-as-administrator&#34;&gt;在启动AutoHotkey时使用管理员权限：右键点击可执行文件或者快捷方式，然后选择【running as administrator】。&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

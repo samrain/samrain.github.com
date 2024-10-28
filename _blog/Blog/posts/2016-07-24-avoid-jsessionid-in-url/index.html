@@ -2,12 +2,22 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>避免URL中出现JSESSIONID - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="修改 web.xml &lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;" />
+	<meta name="description" content="修改 web.xml
+&lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt;
+&lt;session-descriptor&gt;
+    &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt;
+&lt;/session-descriptor&gt;
+
+&lt;session-config&gt;
+    &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt;
+&lt;/session-config&gt;
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="避免URL中出现JSESSIONID">
-  <meta property="og:description" content="修改 web.xml &lt;weblogic-web-app xmlns=&#34;http://www.bea.com/ns/weblogic/weblogic-web-app&#34;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;">
+  <meta property="og:description" content="修改 web.xml
+&lt;weblogic-web-app xmlns=&#34;http://www.bea.com/ns/weblogic/weblogic-web-app&#34;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +28,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="避免URL中出现JSESSIONID">
-  <meta name="twitter:description" content="修改 web.xml &lt;weblogic-web-app xmlns=&#34;http://www.bea.com/ns/weblogic/weblogic-web-app&#34;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;">
+  <meta name="twitter:description" content="修改 web.xml
+&lt;weblogic-web-app xmlns=&#34;http://www.bea.com/ns/weblogic/weblogic-web-app&#34;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -98,22 +109,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

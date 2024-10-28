@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</link>
       <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-17-noto-sans-hans/</guid>
-      <description>Why 由google和adobe联手发起的消灭豆腐字(NoTo) 工程 下载 官网下载 我的百度云盘 安装 1.下载zip文件 2.解压zip文件 linux下</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;由google和adobe联手发起的&lt;a href=&#34;http://finance.sina.com.cn/leadership/mroll/20141120/235320876720.shtml&#34;&gt;消灭豆腐字(NoTo) 工程&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;下载&#34;&gt;下载&lt;/h2&gt;&#xA;&lt;p&gt;官网&lt;a href=&#34;https://www.google.com/get/noto/#/family/noto-sans-hans&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;我的&lt;a href=&#34;http://pan.baidu.com/s/1hqFzJRu&#34;&gt;百度云盘&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;&#xA;&lt;p&gt;1.下载zip文件&lt;/p&gt;&#xA;&lt;p&gt;2.解压zip文件&lt;/p&gt;&#xA;&lt;h3 id=&#34;linux下安装&#34;&gt;linux下安装&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安装&lt;code&gt;gnome-font-viewer&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install gnome-font-viewer&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;选择需要安装的字体文件，然后右键选择用上面装的字体查看器打开&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

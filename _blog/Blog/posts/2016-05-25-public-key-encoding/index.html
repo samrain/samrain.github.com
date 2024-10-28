@@ -2,12 +2,26 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>公钥编码格式 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com" />
+	<meta name="description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。
+他们之间是可以进行转换的，可以参考：http://www.jensign.com/JavaScience/dotnet/JKeyNet/
+RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。
+ASN.1标准
+
+SubjectPublicKeyInfo数字证书格式(你提供的第一种格式）
+PKCS
+
+CryptoAPI标准
+
+CSP Parameter（后面的那种格式）
+CSP容器。
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="公钥编码格式">
-  <meta property="og:description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com">
+  <meta property="og:description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com/JavaScience/dotnet/JKeyNet/
+RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。
+ASN.1标准 SubjectPublicKeyInfo数字证书格式(你提供的第一种格式） PKCS CryptoAPI标准 CSP Parameter（后面的那种格式） CSP容器。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +32,9 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="公钥编码格式">
-  <meta name="twitter:description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com">
+  <meta name="twitter:description" content="公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com/JavaScience/dotnet/JKeyNet/
+RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。
+ASN.1标准 SubjectPublicKeyInfo数字证书格式(你提供的第一种格式） PKCS CryptoAPI标准 CSP Parameter（后面的那种格式） CSP容器。">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -101,22 +117,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

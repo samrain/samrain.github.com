@@ -2,12 +2,98 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Install Gentoo In Virtualbox - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新" />
+	<meta name="description" content="思维导图文件下载
+1下载mini安装包
+2在Virtualbox上建立Gentoo64bit系统
+网络
+
+网卡1
+混杂模式
+全部允许
+
+存储
+
+IDE控制器
+添加新盘
+下载好的安装包
+
+3启动虚拟机
+按F1
+
+输入gentoo
+
+4设置网络
+mkdir /run
+dhcpcd eth0
+5验证网络
+ping www.google.com
+6启动SSH
+/etc/init.d/sshd start
+7修改root密码
+passwd
+8分区
+fdisk
+9安装Stage3
+1下载文件
+
+links http://www.gentoo.org/main/en/mirrors.xml
+找到asia netease
+进入目录【releases/amd64/autobuilds】
+找到文件stage3-amd64-20121013.tar.bz2
+按D键
+
+2安装文件
+
+cd /mnt/gentoo
+tar xvjpf stage3-*.tar.bz2
+
+10配置编译选项
+打开/etc/make.conf
+
+nano -w /mnt/gentoo/etc/make.conf
+CFLAGS=&quot;-march=k8 -O2 -pipe&quot;   # EM64T应该使用-march=nocona # 两个变量使用相同的设置 CXXFLAGS=&quot;${CFLAGS}&quot;  # j后面的数字是CPU的数目加一 MAKEOPTS=&quot;-j2&quot;
+
+11Chroot
+选择境像站点
+
+使用mirrorselect更新GENTOO_MIRRORS变量
+mirrorselect -i -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf
+使用mirrorselect选择rsync镜像站点
+mirrorselect -i -r -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf
+再检查一下/mnt/gentoo/etc/make.conf里的设置
+
+拷贝DNS信息
+
+cp -L /etc/resolv.conf /mnt/gentoo/etc/
+
+挂载/proc和/dev文件系统
+
+mount -t proc none /mnt/gentoo/proc mount -o bind /dev /mnt/gentoo/dev
+
+进入新的系统环境
+
+chroot到新环境里
+chroot /mnt/gentoo /bin/bash env-update source /etc/profile export PS1=&amp;quot;(chroot) $PS1&amp;quot;
+
+12配置Portage
+更新Portage树
+
+emerge --sync --quiet
+
+选择正确的Profile
+
+验证系统profile
+eselect profile list
+切换profile
+eselect profile set 2
+切换到non-multilib profile
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Install Gentoo In Virtualbox">
-  <meta property="og:description" content="思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新">
+  <meta property="og:description" content="思维导图文件下载
+1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新盘 下载好的安装包 3启动虚拟机 按F1 输入gentoo 4设置网络 mkdir /run dhcpcd eth0 5验证网络 ping www.google.com 6启动SSH /etc/init.d/sshd start 7修改root密码 passwd 8分区 fdisk 9安装Stage3 1下载文件 links http://www.gentoo.org/main/en/mirrors.xml 找到asia netease 进入目录【releases/amd64/autobuilds】 找到文件stage3-amd64-20121013.tar.bz2 按D键 2安装文件 cd /mnt/gentoo tar xvjpf stage3-*.tar.bz2 10配置编译选项 打开/etc/make.conf nano -w /mnt/gentoo/etc/make.conf CFLAGS=&#34;-march=k8 -O2 -pipe&#34; # EM64T应该使用-march=nocona # 两个变量使用相同的设置 CXXFLAGS=&#34;${CFLAGS}&#34; # j后面的数字是CPU的数目加一 MAKEOPTS=&#34;-j2&#34; 11Chroot 选择境像站点 使用mirrorselect更新GENTOO_MIRRORS变量 mirrorselect -i -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf 使用mirrorselect选择rsync镜像站点 mirrorselect -i -r -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf 再检查一下/mnt/gentoo/etc/make.conf里的设置 拷贝DNS信息 cp -L /etc/resolv.conf /mnt/gentoo/etc/ 挂载/proc和/dev文件系统 mount -t proc none /mnt/gentoo/proc mount -o bind /dev /mnt/gentoo/dev 进入新的系统环境 chroot到新环境里 chroot /mnt/gentoo /bin/bash env-update source /etc/profile export PS1=&amp;quot;(chroot) $PS1&amp;quot; 12配置Portage 更新Portage树 emerge --sync --quiet 选择正确的Profile 验证系统profile eselect profile list 切换profile eselect profile set 2 切换到non-multilib profile">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +105,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Install Gentoo In Virtualbox">
-  <meta name="twitter:description" content="思维导图文件下载 1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新">
+  <meta name="twitter:description" content="思维导图文件下载
+1下载mini安装包 2在Virtualbox上建立Gentoo64bit系统 网络 网卡1 混杂模式 全部允许 存储 IDE控制器 添加新盘 下载好的安装包 3启动虚拟机 按F1 输入gentoo 4设置网络 mkdir /run dhcpcd eth0 5验证网络 ping www.google.com 6启动SSH /etc/init.d/sshd start 7修改root密码 passwd 8分区 fdisk 9安装Stage3 1下载文件 links http://www.gentoo.org/main/en/mirrors.xml 找到asia netease 进入目录【releases/amd64/autobuilds】 找到文件stage3-amd64-20121013.tar.bz2 按D键 2安装文件 cd /mnt/gentoo tar xvjpf stage3-*.tar.bz2 10配置编译选项 打开/etc/make.conf nano -w /mnt/gentoo/etc/make.conf CFLAGS=&#34;-march=k8 -O2 -pipe&#34; # EM64T应该使用-march=nocona # 两个变量使用相同的设置 CXXFLAGS=&#34;${CFLAGS}&#34; # j后面的数字是CPU的数目加一 MAKEOPTS=&#34;-j2&#34; 11Chroot 选择境像站点 使用mirrorselect更新GENTOO_MIRRORS变量 mirrorselect -i -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf 使用mirrorselect选择rsync镜像站点 mirrorselect -i -r -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf 再检查一下/mnt/gentoo/etc/make.conf里的设置 拷贝DNS信息 cp -L /etc/resolv.conf /mnt/gentoo/etc/ 挂载/proc和/dev文件系统 mount -t proc none /mnt/gentoo/proc mount -o bind /dev /mnt/gentoo/dev 进入新的系统环境 chroot到新环境里 chroot /mnt/gentoo /bin/bash env-update source /etc/profile export PS1=&amp;quot;(chroot) $PS1&amp;quot; 12配置Portage 更新Portage树 emerge --sync --quiet 选择正确的Profile 验证系统profile eselect profile list 切换profile eselect profile set 2 切换到non-multilib profile">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -177,22 +264,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

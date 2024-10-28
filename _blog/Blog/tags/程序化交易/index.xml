@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</link>
       <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-10-the-other-concepts-of-algorithmic-trading/</guid>
-      <description>报酬比原则 宏观环境影响 月周图表的技术趋势 咬定长期趋势 短线技术趋势判断 日线图表 3日/5日等短期均线的方向和角度 关键技术位置的评判 距离止损位置的</description>
+      <description>&lt;h2 id=&#34;报酬比原则&#34;&gt;报酬比原则&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;宏观环境影响&#xA;&lt;ul&gt;&#xA;&lt;li&gt;月周图表的技术趋势&lt;/li&gt;&#xA;&lt;li&gt;咬定长期趋势&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;短线技术趋势判断&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日线图表&lt;/li&gt;&#xA;&lt;li&gt;3日/5日等短期均线的方向和角度&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;关键技术位置的评判&lt;/li&gt;&#xA;&lt;li&gt;距离止损位置的分辨&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;一致性原则&#34;&gt;一致性原则&lt;/h2&gt;&#xA;&lt;p&gt;始终一贯&lt;/p&gt;</description>
     </item>
     <item>
       <title>程序化交易的一些概念</title>
       <link>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</link>
       <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-01-18-the-concepts-of-algorithmic-trading/</guid>
-      <description>#入市策略 趋势跟踪法 震荡期法 价格模式 #过滤策略 筛选出最具有交易价值的交易信号 #退出策略 目标盈利 跟踪止损 固定止损 #最后15分钟收益率，对次日股</description>
+      <description>&lt;p&gt;#入市策略&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;趋势跟踪法&lt;/li&gt;&#xA;&lt;li&gt;震荡期法&lt;/li&gt;&#xA;&lt;li&gt;价格模式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#过滤策略&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;筛选出最具有交易价值的交易信号&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#退出策略&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;目标盈利&lt;/li&gt;&#xA;&lt;li&gt;跟踪止损&lt;/li&gt;&#xA;&lt;li&gt;固定止损&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#最后15分钟收益率，对次日股指期货走势同向放大&#xA;#波动率&#xA;#机构和散户比&#xA;#市场倾向于回归平均值&#xA;#趋势性策略&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -64,11 +64,38 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/">SQL Server High Availability Solution</a></h1>
+					<time>May 19, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="sqlserver高可用性的几种方案">SQLServer高可用性的几种方案</h2>
+<ul>
+<li>Peer-to-Peer Replication 数据复制</li>
+<li>SQL Cluster Failover</li>
+<li>Log Shipping</li>
+<li>Mirroring</li>
+<li>AlwaysOn</li>
+</ul>
+<h2 id="sqlserver不同版本alwayson能拉动的服务器">SQLServer不同版本AlwaysOn能拉动的服务器：</h2>
+<ul>
+<li>SqlServer2012最多：4台 1主+1同步+2异步</li>
+<li>SqlServer2014最多：8台 1主+2同步（一般建议1台，减少性能损失）+5异步</li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-19-sql-server-high-availability-solution/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/">Emacs 中将文件编码转换为 UTF-8</a></h1>
 					<time>May 18, 2016</time>
 					<br><div class="description">
 	
-	打开一个文件后键盘依次输入 C-x C-m f utf-8 RET 或者用鼠标右键点击最左下角那个字母，比如 C ，这时会显示 Coding system for saving file (default chinese-gbk-dos): 然后输入 utf-8 后回车即可。&hellip;
+	<p>打开一个文件后键盘依次输入</p>
+<pre><code>C-x C-m f utf-8 RET
+</code></pre>
+<p>或者用鼠标右键点击最左下角那个字母，比如 <strong>C</strong> ，这时会显示 <strong>Coding system for saving file (default chinese-gbk-dos):</strong><br>
+然后输入 <strong>utf-8</strong> 后回车即可。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-18-change-to-utf8-in-emacs/">Read more ⟶</a>
@@ -79,7 +106,9 @@
 					<time>May 17, 2016</time>
 					<br><div class="description">
 	
-	流量是可以随时切换的 如果恢复时间能控制得非常好，可能整个故障控制力就非常强。 用户通过代理来访问数据中心，代理如果检测到数据中心出现问题，它会&hellip;
+	<h2 id="流量是可以随时切换的">流量是可以随时切换的</h2>
+<p>如果恢复时间能控制得非常好，可能整个故障控制力就非常强。</p>
+<p>用户通过代理来访问数据中心，代理如果检测到数据中心出现问题，它会自动把流量导入到另一个数据中心。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-17-system-keepalive-on-different-areas-of-alibaba/">Read more ⟶</a>
@@ -90,7 +119,12 @@
 					<time>May 13, 2016</time>
 					<br><div class="description">
 	
-	微博的异地多活经验学习笔记 基于业务写消息到Queue 在线容量评估、分级上线、快速流量均衡等能力 问题 各机房之间的延时 这套方案中，每个机房的缓存&hellip;
+	<h1 id="微博的异地多活经验学习笔记a-idsec-1-namesec-1a">微博的异地多活经验学习笔记<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="基于业务写消息到queuea-idsec-1-1-namesec-1-1a">基于业务写消息到Queue<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="在线容量评估分级上线快速流量均衡等能力a-idsec-1-2-namesec-1-2a">在线容量评估、分级上线、快速流量均衡等能力<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="问题a-idsec-1-3-namesec-1-3a">问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="各机房之间的延时a-idsec-1-3-1-namesec-1-3-1a">各机房之间的延时<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<p>这套方案中，每个机房的缓存是完全独立的，由每个机房的Processor（专门负责消息处理的程序，类Storm）根据收到的消息进行缓存更新。由于消息不会重复分发，而且信息完备，所以MytriggerQ方案存在的缓存更新脏数据问题就解决了。而当缓存不存在时，会穿透到MySQL从库，然后进行回种。可能出现的问题是，缓存穿透，但是MySQL从库如果此时出现延迟，这样就会把脏数据种到缓存中。我们的解决方案是做一个延时10分钟的消息队列，然后由一个处理程序来根据这个消息做数据的重新载入。一般从库延时时间不超过10分钟，而10分钟内的脏数据在微博的业务场景下也是可以接受的。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-13-keep-live-between-different-areas-about-weibo/">Read more ⟶</a>
@@ -101,21 +135,11 @@
 					<time>May 12, 2016</time>
 					<br><div class="description">
 	
-	sc delete 服务名 如果服务名中间有空格，就需要前后加引号。&hellip;
+	<p><code>sc delete 服务名</code></p>
+<p>如果服务名中间有空格，就需要前后加引号。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-12-delete-windows-service/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/">牛B个人网站</a></h1>
-					<time>May 11, 2016</time>
-					<br><div class="description">
-	
-	程序员 http://www.clarkduvall.com/&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +160,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</link>
       <pubDate>Wed, 12 Sep 2018 19:47:17 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/</guid>
-      <description>sql如下： SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date FROM sys.indexes i INNER JOIN sys.objects o ON i.object_id = o.object_id WHERE o.type_desc = &#39;USER_TABLE&#39; AND i.type_desc = &#39;HEAP&#39; ORDER BY o.name GO 参考： https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/ https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/</description>
+      <description>&lt;p&gt;sql如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date&#xA;FROM sys.indexes i&#xA;INNER JOIN sys.objects o&#xA;ON i.object_id = o.object_id&#xA;WHERE o.type_desc = &#39;USER_TABLE&#39;&#xA;AND i.type_desc = &#39;HEAP&#39;&#xA;ORDER BY o.name&#xA;GO&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;参考：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/&#34;&gt;https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/&#34;&gt;https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

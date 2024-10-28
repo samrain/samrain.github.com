@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-12-26-how-to-improve-perfomance-of-windows-service/</guid>
-      <description>调整windows服务器 调整TcpTimedWaitDelay 描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此</description>
+      <description>&lt;h1 id=&#34;调整windows服务器&#34;&gt;调整windows服务器&lt;/h1&gt;&#xA;&lt;h2 id=&#34;调整tcptimedwaitdelay&#34;&gt;调整TcpTimedWaitDelay&lt;/h2&gt;&#xA;&lt;p&gt;描述：确定 TCP/IP 可释放已关闭连接并重用其资源前，必须经过的时间。关闭和释放之间的此时间间隔通称 TIME_WAIT 状态或两倍最大段生命周期（2MSL）状态。此时间期间，重新打开到客户机和服务器的连接的成本少于建立新连接。减少此条目的值允许 TCP/IP 更快地释放已关闭的连接，为新连接提供更多资源。如果运行的应用程序需要快速释放和创建新连接，而且由于 TIME_WAIT 中存在很多连接，导致低吞吐量，则调整此参数。 如何查看或设置： 使用 regedit 命令访问 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/ Services/TCPIP/Parameters 注册表子键并创建名为 TcpTimedWaitDelay 的新 REG_DWORD 值。 将此值设置为十进制 30，其为十六进制 0x0000001e。该值将等待时间设置为 30 秒。 停止并重新启动系统。 缺省值：0xF0，它将等待时间设置为 240 秒（4 分钟）。 建议值：最小值为 0x1E，它将等待时间设置为 30 秒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>优化Web网站性能</title>
       <link>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</link>
       <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</guid>
-      <description>静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</link>
       <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-06-configuration-assemblyinfo/</guid>
-      <description>其实等同于可以在VS上选择项目的属性，其中有个 ～{Assembly Information..}～ 按钮，单击后修改窗口上的值。 对于版本号Ass</description>
+      <description>&lt;p&gt;其实等同于可以在VS上选择项目的属性，其中有个 ～{Assembly Information..}～ 按钮，单击后修改窗口上的值。&lt;/p&gt;&#xA;&lt;p&gt;对于版本号AssemblyVersion，格式为 &lt;code&gt;“{Major}.{Minor}.{Build}.{Revision}”&lt;/code&gt; 。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

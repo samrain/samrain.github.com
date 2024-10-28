@@ -2,12 +2,77 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>服务商认证流程 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通" />
+	<meta name="description" content="
+@startuml
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam TitleFontSize 50
+skinparam titleBackgroundColor Aqua-CadetBlue
+title:服务商认证流程
+
+|有意愿的专业技术服务商|
+start
+:提交申请表;
+|渠道部区域负责人|
+if(初审) then (不通过)
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|渠道部区域负责人|
+:发给技术再次审核;
+endif
+|服务部区域负责人|
+if(上门现场考核) then  (通过)
+|有意愿的专业技术服务商|
+:提供2名技术人员跟随学习2个月;
+else(不通过)
+|服务部区域负责人|
+:通知现场考核不通过意见和理由;
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+endif
+|服务部区域负责人|
+if(评审2名技术人员的技术能力和学习期间表现) then   (不通过)
+|服务部区域负责人|
+:通知现场考核不通过意见和理由;
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|服务部区域负责人|
+:通知渠道部;
+endif
+|渠道部区域负责人|
+if(决定是否和这家服务商签约) then (不通过)
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|渠道部区域负责人|
+:通知签约;
+endif
+|有意愿的专业技术服务商|
+:签约;
+stop
+floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、
+@enduml
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="服务商认证流程">
-  <meta property="og:description" content="@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通">
+  <meta property="og:description" content="@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通过) |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |渠道部区域负责人| :发给技术再次审核; endif |服务部区域负责人| if(上门现场考核) then (通过) |有意愿的专业技术服务商| :提供2名技术人员跟随学习2个月; else(不通过) |服务部区域负责人| :通知现场考核不通过意见和理由; |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end endif |服务部区域负责人| if(评审2名技术人员的技术能力和学习期间表现) then (不通过) |服务部区域负责人| :通知现场考核不通过意见和理由; |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |服务部区域负责人| :通知渠道部; endif |渠道部区域负责人| if(决定是否和这家服务商签约) then (不通过) |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |渠道部区域负责人| :通知签约; endif |有意愿的专业技术服务商| :签约; stop floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、 @enduml">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,7 +82,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="服务商认证流程">
-  <meta name="twitter:description" content="@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通">
+  <meta name="twitter:description" content="@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通过) |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |渠道部区域负责人| :发给技术再次审核; endif |服务部区域负责人| if(上门现场考核) then (通过) |有意愿的专业技术服务商| :提供2名技术人员跟随学习2个月; else(不通过) |服务部区域负责人| :通知现场考核不通过意见和理由; |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end endif |服务部区域负责人| if(评审2名技术人员的技术能力和学习期间表现) then (不通过) |服务部区域负责人| :通知现场考核不通过意见和理由; |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |服务部区域负责人| :通知渠道部; endif |渠道部区域负责人| if(决定是否和这家服务商签约) then (不通过) |渠道部区域负责人| :通知不通过意见和理由; |有意愿的专业技术服务商| :收到通知决定是否继续申请; end else (通过) |渠道部区域负责人| :通知签约; endif |有意愿的专业技术服务商| :签约; stop floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、 @enduml">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -150,22 +215,23 @@ floating note right: 定时参加培训，如果考试不过关，将会被取�
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

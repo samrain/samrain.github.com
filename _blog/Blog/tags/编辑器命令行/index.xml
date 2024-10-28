@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</link>
       <pubDate>Fri, 05 Feb 2021 15:29:33 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2021-02-05-how-to-use-micro/</guid>
-      <description>Micro使用心得 在一个界面上按照横向分割窗口 vsplit &#39;filename&#39; 在一个界面上按照纵向分割窗口 hsplit &#39;filename&#39; 安装filemanager插件，显示目录树 tree</description>
+      <description>&lt;h1 id=&#34;micro使用心得&#34;&gt;Micro使用心得&lt;/h1&gt;&#xA;&lt;h2 id=&#34;在一个界面上按照横向分割窗口&#34;&gt;在一个界面上按照横向分割窗口&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;vsplit &#39;filename&#39;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;在一个界面上按照纵向分割窗口&#34;&gt;在一个界面上按照纵向分割窗口&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;hsplit &#39;filename&#39;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装filemanager插件显示目录树&#34;&gt;安装filemanager插件，显示目录树&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;tree&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -64,11 +64,27 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/">会话状态Session State</a></h1>
+					<time>Jul 13, 2016</time>
+					<br><div class="description">
+	
+	<ol>
+<li>InProc</li>
+</ol>
+<p>InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器中，因此其他服务器无法访问当前服务器会话状态数据。这还意味着一个应用程序池回收操作将导致会话状态的丢失。在不考虑Off选项的情况下，这种解决方案运行速度最快，但是，除非我们应用粘性会话机制，否则这种解决方案无法在Web farm环境中正常工作。如果使用了粘性会话机制、同时没有使用Web garden的话，那么InProc是一个可行的解决方案。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/">VisualStudio Build和Rebuild的区别</a></h1>
 					<time>Jul 12, 2016</time>
 					<br><div class="description">
 	
-	Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。 Build只是针对有更改过的文件进行编译。 Clean+Bui&hellip;
+	<p>Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。</p>
+<p>Build只是针对有更改过的文件进行编译。</p>
+<p>Clean+Build是对选中的项目（如果选中Solution的话，全部Clean之后，再全部Build）先执行Clean再执行Build。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/">Read more ⟶</a>
@@ -79,7 +95,8 @@
 					<time>Jul 11, 2016</time>
 					<br><div class="description">
 	
-	CodeBehind 指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容&hellip;
+	<h2 id="codebehinda-idorgheadline19a">CodeBehind<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容，以实现代码隐藏功能。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/">Read more ⟶</a>
@@ -90,7 +107,7 @@
 					<time>Jul 10, 2016</time>
 					<br><div class="description">
 	
-	具体的做法就是在密码中加入一段&quot;随机化&quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其&hellip;
+	<p>具体的做法就是在密码中加入一段&quot;随机化&quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的&rsquo;随机&rsquo;字符串就是所谓的&rsquo;盐'.</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-10-encrypted-password/">Read more ⟶</a>
@@ -101,21 +118,26 @@
 					<time>Jul 9, 2016</time>
 					<br><div class="description">
 	
-	表单的元素 标签：告诉用户表单问题是什么； 输入框：供给用户填写答案信息； 动作：用户提交表单，即用户点击一个按钮或链接，执行一个操作； 帮助文字：&hellip;
+	<h2 id="表单的元素a-idorgheadline7a">表单的元素<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<ul>
+<li>标签：告诉用户表单问题是什么；</li>
+<li>输入框：供给用户填写答案信息；</li>
+<li>动作：用户提交表单，即用户点击一个按钮或链接，执行一个操作；</li>
+<li>帮助文字：为如何填写表单提供帮助；</li>
+<li>输入反馈：针对用户输入给出反馈，输入正确还是错误；</li>
+</ul>
+<h2 id="提高表单可用性a-idorgheadline18a">提高表单可用性<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="信息内容的合理组织a-idorgheadline8a">信息内容的合理组织<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<ul>
+<li>考虑用户填写表单的目的，哪些表单需要填写，去掉没必要的表单项，确定完表单内容。</li>
+<li>表单项并不是一个个从上到下无序罗列，而是根据表单内容，按照一定的逻辑，经过组织，分成不同的内容组，不同的主题。同时各个逻辑组和同一个主题的表单项，也是按照逻辑顺序或者用户熟悉的模式顺序，使用户浏览和填写自如。</li>
+<li>如果表单过长时，也可拆解成不同网页，类似于任务拆解，让用户一步步填写。</li>
+</ul>
+<h3 id="简化表单-突出重点a-idorgheadline9a">简化表单 突出重点<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<p>根据用户使用数据，适当将使用频次不高、或者提供给专业用户的高级表单项隐藏起来,保持表单的简洁，让绝大多数用户快速完成，避免大量的表单给用户的焦虑，而又满足了小众用户的需求。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-09-form-design/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-08-o2o-core/">O2O核心－重视和每个顾客的交流，和每个顾客建立良好关系</a></h1>
-					<time>Jul 8, 2016</time>
-					<br><div class="description">
-	
-	随着社交媒体的广泛普及，在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流的O2O方式已经变得很平&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-08-o2o-core/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +158,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

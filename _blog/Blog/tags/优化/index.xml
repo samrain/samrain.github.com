@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</link>
       <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/</guid>
-      <description>静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>优化ifelse和switch代码</title>
       <link>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</link>
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-10-optimization-of-ifelse-and-switch/</guid>
-      <description>概率高的放前面 嵌套Switch语句 概率高的放在一个switch 表驱动 最基本的解决办法就是把多个判断条件合成一个，也就是把若干个分支合成一个。</description>
+      <description>&lt;h2 id=&#34;概率高的放前面&#34;&gt;概率高的放前面&lt;/h2&gt;&#xA;&lt;h2 id=&#34;嵌套switch语句&#34;&gt;嵌套Switch语句&lt;/h2&gt;&#xA;&lt;p&gt;概率高的放在一个switch&lt;/p&gt;&#xA;&lt;h2 id=&#34;表驱动&#34;&gt;表驱动&lt;/h2&gt;&#xA;&lt;p&gt;最基本的解决办法就是把多个判断条件合成一个，也就是把若干个分支合成一个。但是在大多数情况下，条件判断的分支都是无法合并的。所以，我们需要把这个变化点通过别的途径封装起来，而不是采用if-else。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

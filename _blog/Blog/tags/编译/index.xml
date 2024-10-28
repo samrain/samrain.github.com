@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
-      <description>不想看到pdb文件 在编译时设置高级选项中 Output - Debug info 为 None Any CPU是什么意思 Visual Studio的编译选项 build下的platform有X64、Any</description>
+      <description>&lt;h2 id=&#34;不想看到pdb文件a-idorgheadline1a&#34;&gt;不想看到pdb文件&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在编译时设置高级选项中 &lt;code&gt;Output - Debug info&lt;/code&gt; 为 &lt;code&gt;None&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;any-cpu是什么意思a-idorgheadline2a&#34;&gt;Any CPU是什么意思&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio的编译选项 build下的platform有X64、Any CPU和x86。&lt;/p&gt;</description>
     </item>
     <item>
       <title>msbuild参数效果对比</title>
       <link>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-01-contrast-of-different-parameters-on-msbuild/</guid>
-      <description>结论 加/m的效果明显,而加/p:BuildlnParallel=true,并不明显. 试验数据 以下是在一台虚拟机上的测试结果,分配了4个CPU</description>
+      <description>&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;&#xA;&lt;p&gt;加&lt;code&gt;/m&lt;/code&gt;的效果明显,而加&lt;code&gt;/p:BuildlnParallel=true&lt;/code&gt;,并不明显.&lt;/p&gt;&#xA;&lt;h2 id=&#34;试验数据&#34;&gt;试验数据&lt;/h2&gt;&#xA;&lt;p&gt;以下是在一台虚拟机上的测试结果,分配了4个CPU,4G内存&lt;/p&gt;&#xA;&lt;p&gt;基本指令如下:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

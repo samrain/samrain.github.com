@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</link>
       <pubDate>Tue, 11 Sep 2018 11:33:28 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/</guid>
-      <description>迁移非系统数据库 use master go sp_detach_db &#39;非系统数据库&#39; go use master go sp_attach_db &#39;非系统数据库&#39;,&#39;C:\Sqldata\非系统数据库.mdf&#39;,&#39;C:\Sqldata\</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;迁移非系统数据库&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;  use master&#xA;  go&#xA;  sp_detach_db &#39;非系统数据库&#39;&#xA;  go&#xA;&#xA;&#xA;  use master&#xA;  go&#xA;  sp_attach_db &#39;非系统数据库&#39;,&#39;C:\Sqldata\非系统数据库.mdf&#39;,&#39;C:\Sqldata\非系统数据库.ldf&#39;&#xA;  go&#xA;&#xA;  重启Sqlserver&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;迁移系统数据库&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

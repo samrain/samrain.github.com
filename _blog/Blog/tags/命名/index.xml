@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-12-16-how-to-name-variables/</guid>
-      <description>#(转)一个查询网站，只要输入变量名称（中英文皆可），能够搜索到其他项目中用到的命名 http://unbug.github.io/codelf/</description>
+      <description>&lt;p&gt;#(转)一个查询网站，只要输入变量名称（中英文皆可），能够搜索到其他项目中用到的命名&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://unbug.github.io/codelf/&#34;&gt;http://unbug.github.io/codelf/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>软件开发文档命名规范</title>
       <link>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</link>
       <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-04-02-software-development-document-naming-conventions/</guid>
-      <description>思维导图文件下载 Why 统一规范便于管理 Who 本部门员工 外包厂商员工 What 规定之后部门及项目上的文档命名规范 How 文件名规范：执行组织编码-项目代号-文档类型</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIUWJkd1RidGFsR0E/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;统一规范便于管理&lt;/p&gt;&#xA;&lt;h2 id=&#34;who&#34;&gt;Who&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;本部门员工&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;外包厂商员工&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;规定之后部门及项目上的文档命名规范&lt;/p&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;文件名规范：执行组织编码-项目代号-文档类型-姓名-版本号.xxx&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;均用小写字母，各部分用减号“-”来分隔&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

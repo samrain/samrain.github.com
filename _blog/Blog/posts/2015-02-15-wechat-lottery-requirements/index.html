@@ -2,12 +2,61 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>微信抽奖需求 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景" />
+	<meta name="description" content="抽奖界面
+
+背景图片
+【还剩XX张】XX的颜色、字体和大小
+刮奖区背景颜色（刮奖前和刮奖后）
+刮奖区文字颜色、字体、大小和内容
+按钮【分享到朋友圈】背景颜色、文字颜色、字体、大小和内容
+按钮【领取门票】背景颜色、颜色、字体、大小和内容
+
+朋友圈分享界面
+
+图标文件
+标题内容
+点击触发的链接
+
+活动介绍界面
+
+标题
+时间
+微信号
+介绍图片
+介绍文字
+
+奖品设置界面
+
+奖品名称
+奖品数量
+中奖概率
+奖品等级（至少有一个0级，表示未抽中奖）
+是否开奖
+中奖祝语
+领奖联系信息（用竖线“|”隔开）
+匿名抽奖/关注抽奖
+如果关注抽奖，可以设置多久才能重新抽奖
+
+中奖名单界面
+
+起始时间（默认前1小时）
+截止时间（当前时间）
+下载按钮（点击后下载csv文件）
+
+微信公众平台参数设置界面
+
+微信公众号名称
+appid
+
+清空名单界面
+
+点击清空按钮，先备份数据库为文件保存在服务器上，然后将数据库中的数据清零
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-15-wechat-lottery-requirements/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="微信抽奖需求">
-  <meta property="og:description" content="抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景">
+  <meta property="og:description" content="抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景颜色、文字颜色、字体、大小和内容 按钮【领取门票】背景颜色、颜色、字体、大小和内容 朋友圈分享界面 图标文件 标题内容 点击触发的链接 活动介绍界面 标题 时间 微信号 介绍图片 介绍文字 奖品设置界面 奖品名称 奖品数量 中奖概率 奖品等级（至少有一个0级，表示未抽中奖） 是否开奖 中奖祝语 领奖联系信息（用竖线“|”隔开） 匿名抽奖/关注抽奖 如果关注抽奖，可以设置多久才能重新抽奖 中奖名单界面 起始时间（默认前1小时） 截止时间（当前时间） 下载按钮（点击后下载csv文件） 微信公众平台参数设置界面 微信公众号名称 appid 清空名单界面 点击清空按钮，先备份数据库为文件保存在服务器上，然后将数据库中的数据清零">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +67,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="微信抽奖需求">
-  <meta name="twitter:description" content="抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景">
+  <meta name="twitter:description" content="抽奖界面 背景图片 【还剩XX张】XX的颜色、字体和大小 刮奖区背景颜色（刮奖前和刮奖后） 刮奖区文字颜色、字体、大小和内容 按钮【分享到朋友圈】背景颜色、文字颜色、字体、大小和内容 按钮【领取门票】背景颜色、颜色、字体、大小和内容 朋友圈分享界面 图标文件 标题内容 点击触发的链接 活动介绍界面 标题 时间 微信号 介绍图片 介绍文字 奖品设置界面 奖品名称 奖品数量 中奖概率 奖品等级（至少有一个0级，表示未抽中奖） 是否开奖 中奖祝语 领奖联系信息（用竖线“|”隔开） 匿名抽奖/关注抽奖 如果关注抽奖，可以设置多久才能重新抽奖 中奖名单界面 起始时间（默认前1小时） 截止时间（当前时间） 下载按钮（点击后下载csv文件） 微信公众平台参数设置界面 微信公众号名称 appid 清空名单界面 点击清空按钮，先备份数据库为文件保存在服务器上，然后将数据库中的数据清零">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -138,22 +187,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

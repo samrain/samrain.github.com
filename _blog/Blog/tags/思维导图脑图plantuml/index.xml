@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</link>
       <pubDate>Thu, 28 Nov 2019 14:21:01 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/</guid>
-      <description>Plantuml源码如下： @startmindmap :思维导图示例 *_ 祖宗 [46] ** 大老爷 [4] *** 大伯 [4] **** 2019 [4] *****_ 4月 [1] *****_ 5月 [2] *****_ 6月 [1] ** 二老爷 [42] *** 二伯 [9] *** 三伯 [33] **** 2018 [1] **** 2019 [32] *****_ 3</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pic.superbed.cn/item/5ddf67248e0e2e3ee9ddac9b.png&#34;&gt;&lt;img src=&#34;https://pic.superbed.cn/item/5ddf67248e0e2e3ee9ddac9b.png&#34; alt=&#34;思维导图示例&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;plantuml源码如下&#34;&gt;Plantuml源码如下：&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;@startmindmap :思维导图示例&#xA;*_ 祖宗 [46]&#xA;** 大老爷  [4]&#xA;*** 大伯 [4]&#xA;**** 2019 [4]&#xA;*****_ 4月 [1]&#xA;*****_ 5月 [2]&#xA;*****_ 6月 [1]&#xA;** 二老爷 [42]&#xA;*** 二伯 [9]&#xA;*** 三伯 [33]&#xA;**** 2018 [1]&#xA;**** 2019 [32]&#xA;*****_ 3月 [5]&#xA;*****_ 4月 [4]&#xA;*****_ 5月 [2]&#xA;*****_ 6月 [15]&#xA;*****_ 7月 [6]&#xA;@endmindmap&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

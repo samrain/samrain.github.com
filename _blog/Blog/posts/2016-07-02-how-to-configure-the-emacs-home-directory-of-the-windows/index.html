@@ -2,12 +2,19 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>如何配置Emacs在windows中的HOME目录 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用" />
+	<meta name="description" content="建议采用2或3
+
+如果设置了环境变量 HOME ，那么就用它的值作为HOME目录
+如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录
+如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）。如果存在 C:\.emacs ，就用 C:\ 作为HOME目录~
+如果以上都不存在的话，就使用 &lt;system root&gt;\Users\&lt;user name&gt;\AppData\Roaming 作为HOME目录~（对于XP和较早windows用户，需要到 ～Documents and Settings～ 目录下去找）
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="如何配置Emacs在windows中的HOME目录">
-  <meta property="og:description" content="建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用">
+  <meta property="og:description" content="建议采用2或3
+如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）。如果存在 C:\.emacs ，就用 C:\ 作为HOME目录~ 如果以上都不存在的话，就使用 &lt;system root&gt;\Users\&lt;user name&gt;\AppData\Roaming 作为HOME目录~（对于XP和较早windows用户，需要到 ～Documents and Settings～ 目录下去找）">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +25,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="如何配置Emacs在windows中的HOME目录">
-  <meta name="twitter:description" content="建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用">
+  <meta name="twitter:description" content="建议采用2或3
+如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）。如果存在 C:\.emacs ，就用 C:\ 作为HOME目录~ 如果以上都不存在的话，就使用 &lt;system root&gt;\Users\&lt;user name&gt;\AppData\Roaming 作为HOME目录~（对于XP和较早windows用户，需要到 ～Documents and Settings～ 目录下去找）">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -95,22 +103,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

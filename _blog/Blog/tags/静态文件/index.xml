@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-06-harp/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-06-harp/</guid>
-      <description>What 官网在此 nodejs写的静态web服务器，号称零配置。 牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能</description>
+      <description>&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://harpjs.com/&#34;&gt;官网在此&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;nodejs写的静态web服务器，号称零配置。&lt;/p&gt;&#xA;&lt;p&gt;牛B的地方在于可以直接解析markdown文件为html页面并提供出来访问，同时还能先预先编译受支持的文件为html文件并保存起来。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,111 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>学习golang - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以" />
+	<meta name="description" content="思维导图文件下载
+安装
+
+windows
+
+下载
+解压到C盘
+设置环境变量
+set PATH=%PATH%;C:\Go\bin
+
+特色
+
+清晰并且简洁
+并行
+Channel
+快速
+安全
+标准格式化
+类型后置
+UTF-8
+开源
+开心
+
+Hello World
+
+package 开头
+
+独立运行的程序必须以package main开头
+
+
+import &lt;包名&gt;
+func main()
+
+构建
+使用go工具，例如：go build helloworld.go
+
+运行
+直接运行，例如：./helloworld
+
+变量
+
+var xxx 变量类型
+默认赋值为该类型的null值
+变量类型在变量名的后面
+可以一步内完成声明和赋值，变量类型由值推演出来:=
+可以用圆括号成组声明
+可以在一行内完成声明，用逗号隔开
+下划线是特殊变量名，表示任何赋给它的值都被丢弃
+未使用的变量在编译时会报错
+
+类型
+
+布尔类型
+bool
+数字类型
+
+int
+
+根据硬件决定，32位上是32位
+int8
+int16
+int32
+int64
+
+
+uint
+
+类似int
+byte
+uint8
+uint16
+uint32
+uint64
+
+
+float32
+float64
+混合使用要报错
+
+
+
+常量
+
+const XXX=aaa
+只能是数字、字符串或布尔值
+在编译时被创建
+可以用iota生成枚举值
+
+第一个是0
+下次使用增加1
+第一个常量为iota，第二个省略默认也等于iota
+
+
+可以用圆括号成组声明
+
+go env
+
+
+GOARCH" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2013-07-31-study-golang/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="学习golang">
-  <meta property="og:description" content="思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以">
+  <meta property="og:description" content="思维导图文件下载
+安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以package main开头 import &lt;包名&gt; func main() 构建 使用go工具，例如：go build helloworld.go 运行 直接运行，例如：./helloworld 变量 var xxx 变量类型 默认赋值为该类型的null值 变量类型在变量名的后面 可以一步内完成声明和赋值，变量类型由值推演出来:= 可以用圆括号成组声明 可以在一行内完成声明，用逗号隔开 下划线是特殊变量名，表示任何赋给它的值都被丢弃 未使用的变量在编译时会报错 类型 布尔类型 bool 数字类型 int 根据硬件决定，32位上是32位 int8 int16 int32 int64 uint 类似int byte uint8 uint16 uint32 uint64 float32 float64 混合使用要报错 常量 const XXX=aaa 只能是数字、字符串或布尔值 在编译时被创建 可以用iota生成枚举值 第一个是0 下次使用增加1 第一个常量为iota，第二个省略默认也等于iota 可以用圆括号成组声明 go env GOARCH">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +117,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="学习golang">
-  <meta name="twitter:description" content="思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以">
+  <meta name="twitter:description" content="思维导图文件下载
+安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以package main开头 import &lt;包名&gt; func main() 构建 使用go工具，例如：go build helloworld.go 运行 直接运行，例如：./helloworld 变量 var xxx 变量类型 默认赋值为该类型的null值 变量类型在变量名的后面 可以一步内完成声明和赋值，变量类型由值推演出来:= 可以用圆括号成组声明 可以在一行内完成声明，用逗号隔开 下划线是特殊变量名，表示任何赋给它的值都被丢弃 未使用的变量在编译时会报错 类型 布尔类型 bool 数字类型 int 根据硬件决定，32位上是32位 int8 int16 int32 int64 uint 类似int byte uint8 uint16 uint32 uint64 float32 float64 混合使用要报错 常量 const XXX=aaa 只能是数字、字符串或布尔值 在编译时被创建 可以用iota生成枚举值 第一个是0 下次使用增加1 第一个常量为iota，第二个省略默认也等于iota 可以用圆括号成组声明 go env GOARCH">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -295,22 +395,23 @@ uint8</li>
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

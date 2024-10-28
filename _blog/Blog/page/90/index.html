@@ -64,11 +64,26 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-23-praise-children/">赞美孩子</a></h1>
+					<time>Jul 23, 2016</time>
+					<br><div class="description">
+	
+	<p>你付出努力，你该得到它</p>
+<p>你一定会为自己感到骄傲</p>
+<p>你对此感觉如何</p>
+<p>你自己能找到解决问题的方法</p>
+<p>我相信你的判断</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-23-praise-children/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/">站点发布时序图</a></h1>
 					<time>Jul 22, 2016</time>
 					<br><div class="description">
 	
-	&hellip;
+	<p><img src="//samrain.qiniudn.com/%E5%8F%91%E5%B8%83%E6%97%B6%E5%BA%8F%E5%9B%BE.jpg" alt="img"></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/">Read more ⟶</a>
@@ -79,7 +94,31 @@
 					<time>Jul 21, 2016</time>
 					<br><div class="description">
 	
-	编辑 etc/network/interfaces 将dhcp 一行屏蔽 # The primary network interface auto eth0 #iface eth0 inet dhcp 添加和静态ip有关的参数 # The primary network interface iface eth0 inet static address 192.168.0.10 netmask 255.255.255.0 gateway 192.168.0.1 编辑 /etc/resolv.conf ，设置dns nameserver 202.96.134.133 nameserver 202.106.0.20 ubuntu下&hellip;
+	<h2 id="编辑-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="将dhcp-一行屏蔽a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<pre><code># The primary network interface
+
+auto eth0
+
+#iface eth0 inet dhcp
+</code></pre>
+<h3 id="添加和静态ip有关的参数a-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<pre><code># The primary network interface
+
+iface eth0 inet static
+
+address 192.168.0.10
+
+netmask 255.255.255.0
+
+gateway 192.168.0.1
+</code></pre>
+<h2 id="编辑-etcresolvconf-设置dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>nameserver 202.96.134.133
+
+nameserver 202.106.0.20
+</code></pre>
+<p>ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 <code>/etc/ppp/peers/dsl-provider</code> 注释掉userpeerdns这一行即可</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Read more ⟶</a>
@@ -90,7 +129,7 @@
 					<time>Jul 20, 2016</time>
 					<br><div class="description">
 	
-	M-X org-add-note&hellip;
+	<p>M-X org-add-note</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Read more ⟶</a>
@@ -101,21 +140,10 @@
 					<time>Jul 19, 2016</time>
 					<br><div class="description">
 	
-	https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx&hellip;
+	<p><a href="https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx">https://www.xxx.com/adfs/ls/IdpInitiatedSignon.aspx</a></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-19-check-whether-the-adfs-service-effectively/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/">优化Web网站性能</a></h1>
-					<time>Jul 18, 2016</time>
-					<br><div class="description">
-	
-	静态文件名称上加上版本号或者md5值，并且设置过期时间为最大（一般为1年），这样可以消灭304，减少网络流量&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-18-optimizing-web-site-performance/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +164,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

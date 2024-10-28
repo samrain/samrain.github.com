@@ -2,12 +2,24 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>使用cpufreq降低CPU功耗 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设" />
+	<meta name="description" content="##安装
+sudo apt-get install cpufrequtils
+##查看当前CPU状态
+cpufreq-info
+设置参数
+-d  minimum frequency,
+-u  maximum frequency,
+-f  specific frequency (userspace governor must be set first) and
+-g  governor （ondemand conservative userspace powersave powersave）
+-c  specific CPU.
+##设置为ondemand" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-02-02-use-cpufreq-reducing-cpu-power-consumption/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="使用cpufreq降低CPU功耗">
-  <meta property="og:description" content="##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设">
+  <meta property="og:description" content="##安装
+sudo apt-get install cpufrequtils ##查看当前CPU状态
+cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设置为ondemand">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +31,9 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="使用cpufreq降低CPU功耗">
-  <meta name="twitter:description" content="##安装 sudo apt-get install cpufrequtils ##查看当前CPU状态 cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设">
+  <meta name="twitter:description" content="##安装
+sudo apt-get install cpufrequtils ##查看当前CPU状态
+cpufreq-info 设置参数 -d minimum frequency, -u maximum frequency, -f specific frequency (userspace governor must be set first) and -g governor （ondemand conservative userspace powersave powersave） -c specific CPU. ##设置为ondemand">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -105,22 +119,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

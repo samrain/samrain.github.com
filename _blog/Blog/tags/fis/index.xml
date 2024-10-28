@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</link>
       <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-11-three-types-of-ability-on-baidu-front-team/</guid>
-      <description>有了这三种语言能力，你的团队前端工业化水平将有很大的提升。 ##资源定位 获取任何开发中所使用资源的线上路径。 可以有效的分离开发路径与部署路径之</description>
+      <description>&lt;p&gt;有了这三种语言能力，你的团队前端工业化水平将有很大的提升。&lt;/p&gt;&#xA;&lt;p&gt;##资源定位&#xA;获取任何开发中所使用资源的线上路径。&lt;/p&gt;&#xA;&lt;p&gt;可以有效的分离开发路径与部署路径之间的关系，工程师不再关心资源部署到线上之后去了哪里，变成了什么名字，这些都可以通过配置来指定。而工程师只需要使用相对路径来定位自己的开发资源即可。这样的好处是 资源可以发布到任何静态资源服务器的任何路径上而不用担心线上运行时找不到它们，而且 代码 具有很强的可移植性，甚至可以从一个产品线移植到另一个产品线而不用担心线上部署不一致的问题。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

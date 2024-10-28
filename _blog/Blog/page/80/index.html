@@ -64,11 +64,147 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-06-13-list-of-presales/">售前检查清单</a></h1>
+					<time>Jun 13, 2019</time>
+					<br><div class="description">
+	
+	<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">名称</th>
+          <th style="text-align: right">数量</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">笔记本电脑(带好电源)</td>
+          <td style="text-align: right">1</td>
+          <td>主要做实际环境演示效果</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">视频转换头</td>
+          <td style="text-align: right">1</td>
+          <td>根据电脑的接口，可以是VGA转hdmi，或者hdmi转VGA，或者dp转hdmi，或者迷你dp转hdmi，或者雷电转hdmi</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">视频线</td>
+          <td style="text-align: right">1</td>
+          <td>根据转换头准备</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">手机</td>
+          <td style="text-align: right">1</td>
+          <td>主要做讲演示文稿用</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAD</td>
+          <td style="text-align: right">1</td>
+          <td>作为手机的备份，也可以作为第二个屏幕给客户，用来显示演示</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">演示的案例</td>
+          <td style="text-align: right">实际需要</td>
+          <td>事先想好的能在现场演示的案例，必须要事先操练好</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">宣传资料</td>
+          <td style="text-align: right">至少2套</td>
+          <td>每套资料用一个纸袋携带，里面放不同的产品手册</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">名片</td>
+          <td style="text-align: right">至少10张</td>
+          <td>交换名片</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">话术手册</td>
+          <td style="text-align: right">1</td>
+          <td>演示前做复习</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">演示文件</td>
+          <td style="text-align: right">1</td>
+          <td>用移动版WPS的会议功能进行</td>
+      </tr>
+  </tbody>
+</table>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-13-list-of-presales/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">服务商认证流程</a></h1>
 					<time>Jun 12, 2019</time>
 					<br><div class="description">
 	
-	@startuml skinparam titleBorderRoundCorner 15 skinparam titleBorderThickness 2 skinparam titleBorderColor red skinparam TitleFontSize 50 skinparam titleBackgroundColor Aqua-CadetBlue title:服务商认证流程 |有意愿的专业技术服务商| start :提交申请表; |渠道部区域负责人| if(初审) then (不通&hellip;
+	<p><a href="https://pic.superbed.cn/item/5d0118ba451253d178250889.jpg"><img src="https://pic.superbed.cn/item/5d0118ba451253d178250889" alt="服务商认证流程"></a></p>
+<pre tabindex="0"><code>@startuml
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor red
+skinparam TitleFontSize 50
+skinparam titleBackgroundColor Aqua-CadetBlue
+title:服务商认证流程
+
+|有意愿的专业技术服务商|
+start
+:提交申请表;
+|渠道部区域负责人|
+if(初审) then (不通过)
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|渠道部区域负责人|
+:发给技术再次审核;
+endif
+|服务部区域负责人|
+if(上门现场考核) then  (通过)
+|有意愿的专业技术服务商|
+:提供2名技术人员跟随学习2个月;
+else(不通过)
+|服务部区域负责人|
+:通知现场考核不通过意见和理由;
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+endif
+|服务部区域负责人|
+if(评审2名技术人员的技术能力和学习期间表现) then   (不通过)
+|服务部区域负责人|
+:通知现场考核不通过意见和理由;
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|服务部区域负责人|
+:通知渠道部;
+endif
+|渠道部区域负责人|
+if(决定是否和这家服务商签约) then (不通过)
+|渠道部区域负责人|
+:通知不通过意见和理由;
+|有意愿的专业技术服务商|
+:收到通知决定是否继续申请;
+end
+else (通过)
+|渠道部区域负责人|
+:通知签约;
+endif
+|有意愿的专业技术服务商|
+:签约;
+stop
+floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、
+@enduml
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">Read more ⟶</a>
@@ -79,7 +215,20 @@
 					<time>Jun 11, 2019</time>
 					<br><div class="description">
 	
-	桌面图片*1 ppt*1 拖线板*1 针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。 笔记本电脑，win* 1，linux* 1，mac*&hellip;
+	<ul>
+<li>桌面图片*1</li>
+<li>ppt*1</li>
+<li>拖线板*1</li>
+<li>针对不同的用户，准备至少三套以上的话术，用来介绍三种以上的产品组合。</li>
+<li>笔记本电脑，win* 1，linux* 1，mac* 1</li>
+<li>pad，ipad* 1，android* 1</li>
+<li>手机，apple* 1，android* 1</li>
+<li>公司logo的贴纸若干</li>
+<li>测试账号* 1</li>
+<li>准备调查问卷多套</li>
+<li>展会记录，包括服务人数，遗留问题，用户聚焦点等</li>
+<li>市场部准备采访或者领导讲话时，需要专门的演示课件，怕影响使用</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-11-list-of-exhibition/">Read more ⟶</a>
@@ -90,7 +239,7 @@
 					<time>Jun 11, 2019</time>
 					<br><div class="description">
 	
-	拱北过关》赌场班车去银河》shopping》赌场班车》新葡京》西望洋花园》妈阁庙》郑家大屋》下环街市》圣老楞佐教堂》岗顶前地》河东图书馆》议&hellip;
+	<p>拱北过关》赌场班车去银河》shopping》赌场班车》新葡京》西望洋花园》妈阁庙》郑家大屋》下环街市》圣老楞佐教堂》岗顶前地》河东图书馆》议事厅前地》仁慈堂大楼》玫瑰圣母堂》东望洋灯塔》来来超级市场》望厦炮台》林则徐纪念馆》拱北过关</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-11-macau-tour-route/">Read more ⟶</a>
@@ -101,21 +250,11 @@
 					<time>Jun 8, 2019</time>
 					<br><div class="description">
 	
-	https://doc.rust-lang.org/stable/rust-by-example/hello.html https://kaisery.github.io/trpl-zh-cn/&hellip;
+	<p><a href="https://doc.rust-lang.org/stable/rust-by-example/hello.html">https://doc.rust-lang.org/stable/rust-by-example/hello.html</a></p>
+<p><a href="https://kaisery.github.io/trpl-zh-cn/">https://kaisery.github.io/trpl-zh-cn/</a></p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-08-rust-guide/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-04-26-c9-move-to-aws-c9/">Cloud9 Move to Aws C9</a></h1>
-					<time>Apr 26, 2019</time>
-					<br><div class="description">
-	
-	hello world&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2019-04-26-c9-move-to-aws-c9/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +275,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

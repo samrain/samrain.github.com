@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</link>
       <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-17-help-of-wsdl-exe/</guid>
-      <description>wsdl.exe 使用 ASP.NET，根据 WSDL 协定文件、XSD 架构和 .discomap 发现文档，为 Xml Web Services 客户端和 Xml Web Services 生成代码的实用工具。此工具可以与 disco.exe 一起使用。 参数 wsdl.exe &amp;lt</description>
+      <description>&lt;h2 id=&#34;wsdlexe&#34;&gt;wsdl.exe&lt;/h2&gt;&#xA;&lt;p&gt;使用 ASP.NET，根据 WSDL 协定文件、XSD 架构和 .discomap 发现文档，为 Xml Web Services 客户端和 Xml Web Services 生成代码的实用工具。此工具可以与 disco.exe 一起使用。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参数&#34;&gt;参数&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;wsdl.exe &amp;lt;选项&amp;gt; &amp;lt;URL 或路径&amp;gt; &amp;lt;URL 或路径&amp;gt; ...&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

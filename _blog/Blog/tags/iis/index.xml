@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</link>
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-13-iis-session-state-session-state/</guid>
-      <description>InProc InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;InProc&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;InProc选项支持在进程内保存会话状态，实际上是在w3wp.exe工作进程中保存会话状态。这意味着保存会话状态数据将分别保存在每台服务器中，因此其他服务器无法访问当前服务器会话状态数据。这还意味着一个应用程序池回收操作将导致会话状态的丢失。在不考虑Off选项的情况下，这种解决方案运行速度最快，但是，除非我们应用粘性会话机制，否则这种解决方案无法在Web farm环境中正常工作。如果使用了粘性会话机制、同时没有使用Web garden的话，那么InProc是一个可行的解决方案。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

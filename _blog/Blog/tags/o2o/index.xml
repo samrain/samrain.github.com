@@ -13,21 +13,21 @@
       <link>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</link>
       <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-08-o2o-core/</guid>
-      <description>随着社交媒体的广泛普及，在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流的O2O方式已经变得很平</description>
+      <description>&lt;p&gt;随着社交媒体的广泛普及，在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流的O2O方式已经变得很平常。值得注意的是，在社交媒体上，每个顾客都将成为一个自媒体，他的态度很容易影响他身边的一群人，你的顾客的购买力和他在社交媒体上的影响力是不怎么对称的，那些偶尔买了你一次商品的顾客或者从来都不买你商品的人的声音力量也是不容忽视的。所以，无印良品重视和每个顾客的交流，把和每个顾客建立良好关系作为 O2O 的核心，重视和每个顾客的交流，和每个顾客建立良好关系．&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何通过修改文件配置Git远程链接</title>
       <link>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</link>
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-06-09-config-git-in-the-remote-site/</guid>
-      <description>修改文件.git/config，在[remote &amp;quot;origin&amp;quot;]一节中将url=改为远程链接。例如url = git@github.com:samrain/samrain.github.com.git 然后执行g</description>
+      <description>&lt;p&gt;修改文件&lt;code&gt;.git/config&lt;/code&gt;，在&lt;code&gt;[remote &amp;quot;origin&amp;quot;]&lt;/code&gt;一节中将&lt;code&gt;url=&lt;/code&gt;改为远程链接。例如&lt;code&gt;url = git@github.com:samrain/samrain.github.com.git&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后执行&lt;code&gt;git pull&lt;/code&gt;即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我看O2O</title>
       <link>https://www.samrainhan.com/posts/2014-06-08-o2o/</link>
       <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-06-08-o2o/</guid>
-      <description>核心 重视和每个顾客的交流，和每个顾客建立良好关系 方式 在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺</description>
+      <description>&lt;h2 id=&#34;核心&#34;&gt;核心&lt;/h2&gt;&#xA;&lt;p&gt;重视和每个顾客的交流，和每个顾客建立良好关系&lt;/p&gt;&#xA;&lt;h2 id=&#34;方式&#34;&gt;方式&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;在Facebook 和 Twitte 上发起话题讨论，向参与话题的顾客发放优惠券等奖励活动向线下实体店铺引流&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -64,11 +64,31 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/">使用黄金比例来布局</a></h1>
+					<time>Jun 13, 2016</time>
+					<br><div class="description">
+	
+	<p>黄金比例基于斐波那契数列，在自然界的造化物中得以完美体验，比例基本为1:1.618</p>
+<p><img src="//samrain.qiniudn.com/fibonaccispiral.jpg" alt="img"></p>
+<p>黄金比例工具</p>
+<ul>
+<li><a href="https://itunes.apple.com/us/app/goldenratio-tool-for-every/id485258055?mt=12">goledenRATIO</a></li>
+<li><a href="http://www.pearsonified.com/typography/">Golden Ratio Typography Calculator</a></li>
+<li><a href="http://www.thismanslife.co.uk/projects/phiculator/">Phicalculator</a></li>
+<li><a href="http://atrise.com/golden-section/">Atrise Golden Section</a></li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-13-use-the-golden-ratio-to-layout/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/">citrix导出虚拟机</a></h1>
 					<time>Jun 12, 2016</time>
 					<br><div class="description">
 	
-	xe vm-export vm=&quot;192.168.25.20(GUR)&quot; filename=20.xva&hellip;
+	<pre><code>xe vm-export vm=&quot;192.168.25.20(GUR)&quot; filename=20.xva
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-12-export-virtual-machine-on-citrix/">Read more ⟶</a>
@@ -79,7 +99,28 @@
 					<time>Jun 11, 2016</time>
 					<br><div class="description">
 	
-	#新建一个文件pwd,保存密码,这里放在当前目录下,内容为438affed14a718add39f0c7729016828 echo 438affed14a718add39f0c7729016828 &gt; pwd &amp;&amp; chmod 600 pwd #&hellip;
+	<pre><code>#新建一个文件pwd,保存密码,这里放在当前目录下,内容为438affed14a718add39f0c7729016828
+echo 438affed14a718add39f0c7729016828 &gt; pwd &amp;&amp; chmod 600 pwd
+
+# 测试,看服务器上有那些文件
+rsync --list-only --port=43814 bkmaster@192.168.1.80::test --password-file=pwd
+
+# 备份文件
+# a表示archive模式,等于-rlptgoD
+# z表示压缩后再传,--compress-level=9表示用第9级压缩,目前是最高级
+# B表示校验时按照固定大小的块来比较，--block-size表示块大小，一般取512,1024,2048
+# P表示断点续传
+# c表示强制进行校验
+# --protocol表示采用的tcp协议字段号，这里取29
+# --progress 输出每个文件的同步时数据
+# --delay-updates表示最后一起更新
+# --delete 如果服务端有文件删除那么客户端同步删除
+# --port 用那个端口
+# --password-file用那个密码文件,里面只有一行数据,就是密码
+# bkmaster代表用户名
+# ::test表示调用配置文件中那段的备份信息
+rsync -azcP --compress-level=9 --protocol=29 --delete --port=43814 --password-file=pwd bkmaster@192.168.1.80::test ~/下载/test/etc
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-11-rsync-client-script-for-cwrsync-on-windows/">Read more ⟶</a>
@@ -90,7 +131,14 @@
 					<time>Jun 10, 2016</time>
 					<br><div class="description">
 	
-	# 1.设置ssh自动登录 # 2.测试，看服务器上有那些文件 rsync -e &quot;ssh&quot; --list-only 3:/home/vsmaster/rsynctest/ # 3.同步 rsync -aczP --compress-level=9 --protocol=29 --delete -e &quot;ssh&quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/&hellip;
+	<pre><code># 1.设置ssh自动登录
+
+# 2.测试，看服务器上有那些文件
+rsync -e &quot;ssh&quot; --list-only 3:/home/vsmaster/rsynctest/
+
+# 3.同步
+rsync -aczP --compress-level=9 --protocol=29 --delete -e &quot;ssh&quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/">Read more ⟶</a>
@@ -101,21 +149,17 @@
 					<time>Jun 9, 2016</time>
 					<br><div class="description">
 	
-	下载cwRsyncServer4.1.0 http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip 添加用户 用户名: bkmaster 密码: 438affed14a718add39f0c7729016828 安装cwRsyncServer 安装时指定用户名和密码为以上添加好的用户 运&hellip;
+	<h2 id="下载cwrsyncserver410a-idorgheadline11a">下载cwRsyncServer4.1.0<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p><a href="http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip">http://www.backupassist.com/rsync/cwRsyncServer_4.1.0_Installer.zip</a></p>
+<h2 id="添加用户a-idorgheadline12a">添加用户<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>用户名: bkmaster</p>
+<p>密码: 438affed14a718add39f0c7729016828</p>
+<h2 id="安装cwrsyncservera-idorgheadline13a">安装cwRsyncServer<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>安装时指定用户名和密码为以上添加好的用户</p>
+<p>运行services.msc,找到服务RsyncServer,状态应该是手动并且未启动.请设置为自动启动,并启动它.</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/">使用tsunami-udp备份</a></h1>
-					<time>Jun 8, 2016</time>
-					<br><div class="description">
-	
-	在需要备份的服务器上 安装tsunami-udp 下载 http://pan.baidu.com/s/1mgHXmXU 安装 make &amp;&amp; sudo make install 启动tsunami-udp: cd ~/Downloads/virtualbox-bk//141125 &amp;&amp; tsunamid * 在备份服务器上 tsunami connect 192.168.1.5 get *&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +180,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

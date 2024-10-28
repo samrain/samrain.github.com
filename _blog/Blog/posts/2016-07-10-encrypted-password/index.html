@@ -2,12 +2,12 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>加密密码 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="具体的做法就是在密码中加入一段&quot;随机化&quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其" />
+	<meta name="description" content="具体的做法就是在密码中加入一段&quot;随机化&quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的&rsquo;随机&rsquo;字符串就是所谓的&rsquo;盐&#39;." />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-07-10-encrypted-password/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="加密密码">
-  <meta property="og:description" content="具体的做法就是在密码中加入一段&#34;随机化&#34;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其">
+  <meta property="og:description" content="具体的做法就是在密码中加入一段&#34;随机化&#34;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的’随机’字符串就是所谓的’盐&#39;.">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +18,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="加密密码">
-  <meta name="twitter:description" content="具体的做法就是在密码中加入一段&#34;随机化&#34;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其">
+  <meta name="twitter:description" content="具体的做法就是在密码中加入一段&#34;随机化&#34;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的’随机’字符串就是所谓的’盐&#39;.">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -96,22 +96,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

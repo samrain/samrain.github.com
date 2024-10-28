@@ -2,12 +2,52 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Puma&#43;Nginx&#43;Mariadb&#43;Redmine - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp;" />
+	<meta name="description" content="
+以下均在Ubuntu 1404.2 LTS 上运行过。
+redmine目录放在/home/redmine下。
+
+1. Ruby
+install 基础库
+sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+install rbenv
+mkdir /home/redmine &amp;&amp; cd /home/redmine
+git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+## 把rbenv加到shell的path中，然后重启shell
+echo &#39;export PATH=&#34;/home/redmine/.rbenv/bin:$PATH&#34;&#39; &gt;&gt; ~/.bashrc
+echo &#39;eval &#34;$(rbenv init -)&#34;&#39; &gt;&gt; ~/.bashrc
+exec $SHELL -l
+
+## 检查rbenv是否ok
+type rbenv
+install Ruby
+## 看当前能安装的ruby版本
+## 如果报没有install命令，可以查看下目录执行 .rbenv/plugins/ruby-build/install.sh安装
+rbenv install -l
+
+## 安装当前最新的稳定版本
+## 比如2015-1-4时是2.2.0,但是由于后面使用redmine时有些插件报错，所以降级到2.1.5。编译超级慢，下载源码时有时会因为GFW无法下载，我后来用了土方法，重新启动。
+rbenv install 2.1.5
+
+## 设置ruby全局版本为这个
+rbenv global 2.1.5
+check Ruby
+## 确认下当前ruby版本号是否和设置的全局版本一致
+ruby -v
+
+## 如果不一致，那么执行以下2行代码
+rbenv rehash
+rbenv global 2.1.5
+2. Mariadb
+基础库
+安装过程中会要求输入MariaDB的root用户密码" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="Puma&#43;Nginx&#43;Mariadb&#43;Redmine">
-  <meta property="og:description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp;">
+  <meta property="og:description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。
+1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp; cd /home/redmine git clone git://github.com/sstephenson/rbenv.git ~/.rbenv git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build ## 把rbenv加到shell的path中，然后重启shell echo &#39;export PATH=&#34;/home/redmine/.rbenv/bin:$PATH&#34;&#39; &gt;&gt; ~/.bashrc echo &#39;eval &#34;$(rbenv init -)&#34;&#39; &gt;&gt; ~/.bashrc exec $SHELL -l ## 检查rbenv是否ok type rbenv install Ruby ## 看当前能安装的ruby版本 ## 如果报没有install命令，可以查看下目录执行 .rbenv/plugins/ruby-build/install.sh安装 rbenv install -l ## 安装当前最新的稳定版本 ## 比如2015-1-4时是2.2.0,但是由于后面使用redmine时有些插件报错，所以降级到2.1.5。编译超级慢，下载源码时有时会因为GFW无法下载，我后来用了土方法，重新启动。 rbenv install 2.1.5 ## 设置ruby全局版本为这个 rbenv global 2.1.5 check Ruby ## 确认下当前ruby版本号是否和设置的全局版本一致 ruby -v ## 如果不一致，那么执行以下2行代码 rbenv rehash rbenv global 2.1.5 2. Mariadb 基础库 安装过程中会要求输入MariaDB的root用户密码">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +59,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Puma&#43;Nginx&#43;Mariadb&#43;Redmine">
-  <meta name="twitter:description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。 1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp;">
+  <meta name="twitter:description" content="以下均在Ubuntu 1404.2 LTS 上运行过。 redmine目录放在/home/redmine下。
+1. Ruby install 基础库 sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev install rbenv mkdir /home/redmine &amp;&amp; cd /home/redmine git clone git://github.com/sstephenson/rbenv.git ~/.rbenv git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build ## 把rbenv加到shell的path中，然后重启shell echo &#39;export PATH=&#34;/home/redmine/.rbenv/bin:$PATH&#34;&#39; &gt;&gt; ~/.bashrc echo &#39;eval &#34;$(rbenv init -)&#34;&#39; &gt;&gt; ~/.bashrc exec $SHELL -l ## 检查rbenv是否ok type rbenv install Ruby ## 看当前能安装的ruby版本 ## 如果报没有install命令，可以查看下目录执行 .rbenv/plugins/ruby-build/install.sh安装 rbenv install -l ## 安装当前最新的稳定版本 ## 比如2015-1-4时是2.2.0,但是由于后面使用redmine时有些插件报错，所以降级到2.1.5。编译超级慢，下载源码时有时会因为GFW无法下载，我后来用了土方法，重新启动。 rbenv install 2.1.5 ## 设置ruby全局版本为这个 rbenv global 2.1.5 check Ruby ## 确认下当前ruby版本号是否和设置的全局版本一致 ruby -v ## 如果不一致，那么执行以下2行代码 rbenv rehash rbenv global 2.1.5 2. Mariadb 基础库 安装过程中会要求输入MariaDB的root用户密码">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -274,22 +315,23 @@ ruby script/rails server webrick -e production
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

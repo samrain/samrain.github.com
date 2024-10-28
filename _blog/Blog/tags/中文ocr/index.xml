@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</link>
       <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2013-05-07-ocr-in-linux/</guid>
-      <description>思维导图文件下载 安装tesseract-ocr 包安装 sudo apt-get install tesseract-ocr 源码安装 google站点 安装tesseract-ocr的中文语言包 下载tesse</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/file/d/0B1DrsqrLRzeIMzg3c2ZfM1RPNFk/edit?usp=sharing&#34;&gt;思维导图文件下载&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装tesseract-ocr&#34;&gt;安装tesseract-ocr&lt;/h2&gt;&#xA;&lt;h3 id=&#34;包安装&#34;&gt;包安装&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt-get install tesseract-ocr&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;源码安装&#34;&gt;源码安装&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.google.com/p/tesseract-ocr/&#34;&gt;google站点&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;安装tesseract-ocr的中文语言包&#34;&gt;安装tesseract-ocr的中文语言包&lt;/h2&gt;&#xA;&lt;p&gt;下载&lt;a href=&#34;https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.chi_sim.tar.gz&amp;amp;can=2&amp;amp;q=&#34;&gt;tesseract-ocr-3.02.chi_sim.tar.gz&lt;/a&gt;&#xA;解压到目录/usr/share/tesseract-ocr/tessdata/&lt;/p&gt;&#xA;&lt;h2 id=&#34;识别&#34;&gt;识别&lt;/h2&gt;&#xA;&lt;p&gt;运行&lt;code&gt;tesseract *.jpeg output.filename -l chi_sim&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;-l chi_sim&lt;/code&gt;指明语言是中文简体&lt;/li&gt;&#xA;&lt;li&gt;详细用法看man&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;一般识别图像，如果有pdf那么必须转换为图像&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

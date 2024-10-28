@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2024-05-30-demand-assessment-process/</link>
       <pubDate>Thu, 30 May 2024 20:53:58 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2024-05-30-demand-assessment-process/</guid>
-      <description>mermaid代码如下： --- title: 需求评估常规流程 --- flowchart TD 开始--&amp;gt;a[客户提问题] a--&amp;gt;b[客户已有产品能否解决] b--&amp;gt;|否</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.kdocs.cn/api/v3/office/copy/MERwanVWWWVWMTN3MVhTZlZSUElFYWdHTG1HamFKTE5ZeEJJNlRFQThUbzBBbFppZ0Vid0NvSHE5cng2SHU2cS9qaVBsQjg5d014Zk1DOUVCd3dObmgxVDcxNGM4SVNtL252eXQrVmQrV3NPUjZLelhMYmk2RVNvL2NncGRCaHE1ZEx5QzcxZFNNYVU1R0dxbUtIYVgrY1dub1ozWkN6cm8zVHBQbmsxS2JKWUxDdFZUNTVmeThtZldmZ3NqKzh5TXJFazhDU3NLN0MvN0Urd0tObkRzcVBPdHg1ZjJ3YzlLaUhlUm9oaWFCdmRRSklyNlFTeUVpcTEvZjloT0xHdWRoNUM4clY4d3U4PQ==/attach/object/WZCFADQZADQDS?&#34; alt=&#34;需求评估流程&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;mermaid代码如下：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;--- &#xA;title: 需求评估常规流程 &#xA;---&#xA;&#xA;flowchart TD&#xA;开始--&amp;gt;a[客户提问题]&#xA;a--&amp;gt;b[客户已有产品能否解决]&#xA;b--&amp;gt;|否|id8[是否在合同范围内]&#xA;b--&amp;gt;|是|id7[&amp;#34;提供解决方案，&#xA;询问客户是否满意&amp;#34;]&#xA;id7--&amp;gt;|满意|id10[结束]&#xA;id7--&amp;gt;|不满意|a&#xA;id8--&amp;gt;|是|id1[用标品是否能解决问题]&#xA;id8--&amp;gt;|否|id9[&amp;#34;告诉客户不在合同范围内，&#xA;要么本期不做，&#xA;要么走需求变更&amp;#34;]&#xA;id9--&amp;gt;id10&#xA;id1--&amp;gt;|能|id7&#xA;id1--&amp;gt;|不能|id2[用计划中的功能是否能解决问题]&#xA;id2--&amp;gt;|能|id6[排期是否能满足项目DDL]&#xA;id6--&amp;gt;|能|id7&#xA;id6--&amp;gt;|不能|id4[是否能二开解决问题]&#xA;id2--&amp;gt;|不能|id3[是否能开发新功能]&#xA;id3--&amp;gt;|能|确定排期--&amp;gt;id6&#xA;id3--&amp;gt;|不能|id4&#xA;id4--&amp;gt;|能|服务商给出概要设计和开发计划--&amp;gt;id7&#xA;id4--&amp;gt;|不能|明确告诉客户做不了--&amp;gt;id10&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>JTBD</title>
       <link>https://www.samrainhan.com/posts/2023-03-18-jtbd/</link>
       <pubDate>Sat, 18 Mar 2023 20:29:37 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-03-18-jtbd/</guid>
-      <description>JTBD（job-to-be-done，想要达成之事）* 克里斯坦森教授在案例分享中提到彼得德鲁克的一句话： “消费者买的产品，在部分情况下，都</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;JTBD（job-to-be-done，想要达成之事）*&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;克里斯坦森教授在案例分享中提到彼得德鲁克的一句话：&lt;/p&gt;&#xA;&lt;p&gt;“消费者买的产品，在部分情况下，都不是那个公司认为它自己在卖的东西。”&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/</guid>
-      <description>QPS = 请求数/秒 每天80%的访问集中在20%峰值时间 ( 总PV数 * 80% ) / ( 每天秒数 * 20% ) = 峰值时间每秒请求数(QPS) 峰值时间每秒请求数(QPS</description>
+      <description>&lt;p&gt;QPS = 请求数/秒&lt;/p&gt;&#xA;&lt;p&gt;每天80%的访问集中在20%峰值时间&lt;/p&gt;&#xA;&lt;p&gt;( 总PV数 * 80% ) / ( 每天秒数 * 20% ) = 峰值时间每秒请求数(QPS)&lt;/p&gt;&#xA;&lt;p&gt;峰值时间每秒请求数(QPS) / 单台机器QPS   = 需要的机器&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

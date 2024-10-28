@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-20-publish-services-of-intarnet-on-internet/</guid>
-      <description>ngrok 这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。 下载 https://ngrok.com/download 配置 编辑配置文件 ngrok.config auth_token: dxW21sgRz-DscM932vgkDxe http_proxy: &amp;quot;http://192.168.16.41:60002&amp;quot; tunnels: calibre-server: subdomain: samebook proto: https: 8080 其中</description>
+      <description>&lt;h2 id=&#34;ngroka-idsec-4-1-namesec-4-1a&#34;&gt;ngrok&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;这个是一个用来把内网服务公布到公网的开源程序，但是很不幸的是被炝了。以下是如何配置使用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;下载a-idsec-4-1-1-namesec-4-1-1a&#34;&gt;下载&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ngrok.com/download&#34;&gt;https://ngrok.com/download&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;配置a-idsec-4-1-2-namesec-4-1-2a&#34;&gt;配置&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;&#xA;&lt;p&gt;编辑配置文件 ngrok.config&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,20 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>配置ubuntu上拼音输入法Fcitx5 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc" />
+	<meta name="description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。
+
+把fcitx4删除干净 sudo apt remove fcitx*
+安装fcitx5 sudo apt install fcitx5 
+下载肥猫wiki词库文件zhwiki.dict，下载地址： https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases
+词典文件复制到~/.local/share/_fcitx5_/pinyin/dictionaries。
+重启fcitx5
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="配置ubuntu上拼音输入法Fcitx5">
-  <meta property="og:description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc">
+  <meta property="og:description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。
+把fcitx4删除干净 sudo apt remove fcitx* 安装fcitx5 sudo apt install fcitx5 下载肥猫wiki词库文件zhwiki.dict，下载地址： https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases 词典文件复制到~/.local/share/_fcitx5_/pinyin/dictionaries。 重启fcitx5">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -20,7 +28,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="配置ubuntu上拼音输入法Fcitx5">
-  <meta name="twitter:description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc">
+  <meta name="twitter:description" content="因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。
+把fcitx4删除干净 sudo apt remove fcitx* 安装fcitx5 sudo apt install fcitx5 下载肥猫wiki词库文件zhwiki.dict，下载地址： https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases 词典文件复制到~/.local/share/_fcitx5_/pinyin/dictionaries。 重启fcitx5">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -102,22 +111,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

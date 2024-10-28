@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</guid>
-      <description>A记录 将域名指向一个ip地址（仅IPV4） 双线解析 假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来</description>
+      <description>&lt;h3 id=&#34;a记录&#34;&gt;A记录&lt;/h3&gt;&#xA;&lt;p&gt;将域名指向一个ip地址（仅IPV4）&lt;/p&gt;&#xA;&lt;h3 id=&#34;双线解析&#34;&gt;双线解析&lt;/h3&gt;&#xA;&lt;p&gt;假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来访问。&lt;/p&gt;&#xA;&lt;h3 id=&#34;cname记录&#34;&gt;CNAME记录&lt;/h3&gt;&#xA;&lt;p&gt;将域名指向另一个域名，再由另一个域名提供ip地址，就需要添加CNAME记录。最常用到CNAME的情况包括：做CDN，做企业邮局。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DNS工具</title>
       <link>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</link>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-30-dns-tools/</guid>
-      <description>域名健康诊断 dnspod.cn 我的PC上最优DNS服务器是哪个? dnspod.cn</description>
+      <description>&lt;h3 id=&#34;域名健康诊断-dnspodcnhttpssupportdnspodcntoolstoolsdomainxxxxx&#34;&gt;域名健康诊断 &lt;a href=&#34;https://support.dnspod.cn/Tools/tools/?domain=XXX.xx&#34;&gt;dnspod.cn&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;我的pc上最优dns服务器是哪个-dnspodcnhttpipdnspodcn&#34;&gt;我的PC上最优DNS服务器是哪个? &lt;a href=&#34;http://ip.dnspod.cn&#34;&gt;dnspod.cn&lt;/a&gt;&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

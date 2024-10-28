@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</link>
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/</guid>
-      <description>nohup/setsid 无疑是临时需要时最方便的方法 disown 能帮助我们来事后补救当前已经在运行了的作业 screen 则是在大批量操作时不二的选择了。 详细见：http://www.i</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;nohup/setsid 无疑是临时需要时最方便的方法&lt;/li&gt;&#xA;&lt;li&gt;disown 能帮助我们来事后补救当前已经在运行了的作业&lt;/li&gt;&#xA;&lt;li&gt;screen 则是在大批量操作时不二的选择了。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;详细见：&lt;a href=&#34;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html&#34;&gt;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

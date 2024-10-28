@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</link>
       <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-19-invoke-a-tuxedo-service-problems/</guid>
-      <description>解决调用Tuxedo服务问题 用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错： System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all</description>
+      <description>&lt;h2 id=&#34;解决调用tuxedo服务问题&#34;&gt;解决调用Tuxedo服务问题&lt;/h2&gt;&#xA;&lt;p&gt;用C#开发了一个服务发布到IIS中，其中有调用Tuxedo服务时报错：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;System.ApplicationException: System.TypeInitializationException: The type initializer for &amp;lsquo;Interface.Tuxedo.TuxedoHelper&amp;rsquo; threw an exception. &amp;mdash;&amp;gt; System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.&#xA;at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)&#xA;at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)&#xA;at System.Diagnostics.EventLog.SourceExists(String source)&#xA;at Interface.Tuxedo.LogWirter.LogInfoEvent(String message)&#xA;at Interface.Tuxedo.TuxedoHelper.GetConfig()&#xA;at Interface.Tuxedo.TuxedoHelper.GetTuxedoConfig()&#xA;at Interface.Tuxedo.TuxedoHelper..cctor()&#xA;&amp;mdash; End of inner exception stack trace &amp;mdash;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

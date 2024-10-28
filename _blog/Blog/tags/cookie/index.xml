@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-15-set-cookie-is-httponly/</guid>
-      <description>对于 .NET 2.0 应用可以在web.config中启用 HttpOnly &amp;lt;httpCookies httpOnlyCookies=&amp;quot;true&amp;quot;&amp;gt;</description>
+      <description>&lt;p&gt;对于 .NET 2.0 应用可以在web.config中启用 HttpOnly&#xA;&lt;code&gt;&amp;lt;httpCookies httpOnlyCookies=&amp;quot;true&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

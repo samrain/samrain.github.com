@@ -2,12 +2,13 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>解决ubuntu下面的openjdk1.6的中文显示问题 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是" />
+	<meta name="description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是发现配置文件“fontconfig.properties”，于是想自己改改看吧，必须用管理员权限：sudo gedit fontconfig.properties
+修改了其中# Chinese fonts下面的代码，改好后是这样的：" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2014-08-29-solve-ubuntu-following-openjdk1.6-the-chinese-display-problems/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="解决ubuntu下面的openjdk1.6的中文显示问题">
-  <meta property="og:description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是">
+  <meta property="og:description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是发现配置文件“fontconfig.properties”，于是想自己改改看吧，必须用管理员权限：sudo gedit fontconfig.properties 修改了其中# Chinese fonts下面的代码，改好后是这样的：">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +19,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="解决ubuntu下面的openjdk1.6的中文显示问题">
-  <meta name="twitter:description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是">
+  <meta name="twitter:description" content="一开始按照网上的指导，去找到目录“/usr/lib/jvm/java-6-openjdk/jre/lib”，发现里面没有目录fonts，但是发现配置文件“fontconfig.properties”，于是想自己改改看吧，必须用管理员权限：sudo gedit fontconfig.properties 修改了其中# Chinese fonts下面的代码，改好后是这样的：">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -100,22 +101,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

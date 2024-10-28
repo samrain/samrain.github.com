@@ -2,12 +2,52 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>如何记录日志 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即" />
+	<meta name="description" content="
+
+
+
+
+
+日志类型
+Fatal
+最高等级：重要的东西关闭了
+Error
+
+应用报错/崩溃
+用户使用受影响
+修复需要人工干预
+
+Warn
+
+不正确的行为但是应用还在运行
+用户使用受影响但是不需要立即人工干预
+
+Info
+
+正常的行为像发送邮件，更新用户配置文件等。
+系统生命周期事件 (系统启动、 停止)
+会话生命周期事件 (登录、 注销等)
+边界事件 (数据库调用，远程 API 调用)
+典型的业务异常 (由于坏凭据登录失败)
+生产中的任何其他事件在此处
+
+Debug
+
+有助于跟踪问题，特别是在开发和 QA 阶段期间的任何消息
+
+Trace
+
+开始方法 X，结束方法 X 等
+不经常用
+使用会导致大量的日志
+例如一个大循环中记录某个状态
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-03-22-how-to-log/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="如何记录日志">
-  <meta property="og:description" content="日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即">
+  <meta property="og:description" content="日志类型 Fatal 最高等级：重要的东西关闭了
+Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即人工干预 Info 正常的行为像发送邮件，更新用户配置文件等。 系统生命周期事件 (系统启动、 停止) 会话生命周期事件 (登录、 注销等) 边界事件 (数据库调用，远程 API 调用) 典型的业务异常 (由于坏凭据登录失败) 生产中的任何其他事件在此处 Debug 有助于跟踪问题，特别是在开发和 QA 阶段期间的任何消息 Trace 开始方法 X，结束方法 X 等 不经常用 使用会导致大量的日志 例如一个大循环中记录某个状态">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,7 +57,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="如何记录日志">
-  <meta name="twitter:description" content="日志类型 Fatal 最高等级：重要的东西关闭了 Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即">
+  <meta name="twitter:description" content="日志类型 Fatal 最高等级：重要的东西关闭了
+Error 应用报错/崩溃 用户使用受影响 修复需要人工干预 Warn 不正确的行为但是应用还在运行 用户使用受影响但是不需要立即人工干预 Info 正常的行为像发送邮件，更新用户配置文件等。 系统生命周期事件 (系统启动、 停止) 会话生命周期事件 (登录、 注销等) 边界事件 (数据库调用，远程 API 调用) 典型的业务异常 (由于坏凭据登录失败) 生产中的任何其他事件在此处 Debug 有助于跟踪问题，特别是在开发和 QA 阶段期间的任何消息 Trace 开始方法 X，结束方法 X 等 不经常用 使用会导致大量的日志 例如一个大循环中记录某个状态">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -125,22 +166,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

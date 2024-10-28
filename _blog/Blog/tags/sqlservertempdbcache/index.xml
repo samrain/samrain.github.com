@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</link>
       <pubDate>Wed, 12 Sep 2018 20:23:16 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</guid>
-      <description>sql脚本如下： USE [master]; GO alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB); GO /* Adding three additional files */ USE [master]; GO ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0); GO</description>
+      <description>&lt;p&gt;sql脚本如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;USE [master];&#xA;GO&#xA;alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB);&#xA;GO&#xA;/* Adding three additional files */&#xA;USE [master];&#xA;GO&#xA;ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0);&#xA;GO&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

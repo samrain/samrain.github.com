@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</link>
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-09-resize-virtual-disk-of-virtualbox/</guid>
-      <description>WHY 为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;WHY&lt;/h2&gt;&#xA;&lt;p&gt;为了同事做了一个Win7的64位的虚拟机，根据默认设置了动态分配25G空间。结果在实际用的过程中发现空间远远不够，坑爹的VS就要几乎9G了，&lt;strong&gt;受不鸟了&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

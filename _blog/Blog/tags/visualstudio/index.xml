@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</link>
       <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-12-the-difference-between-build-and-rebuild-in-visualstudio/</guid>
-      <description>Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。 Build只是针对有更改过的文件进行编译。 Clean+Bui</description>
+      <description>&lt;p&gt;Rebuild是对Solution下的所有项目，逐个进行 Clean+Build。&lt;/p&gt;&#xA;&lt;p&gt;Build只是针对有更改过的文件进行编译。&lt;/p&gt;&#xA;&lt;p&gt;Clean+Build是对选中的项目（如果选中Solution的话，全部Clean之后，再全部Build）先执行Clean再执行Build。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

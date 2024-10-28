@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-07-21-tsung/</link>
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-21-tsung/</guid>
-      <description>Tsung 是一个压力测试工具，使用Erlang写成。官网在此：http://tsung.erlang-projects.org/ 可以测试包括HTTP</description>
+      <description>&lt;p&gt;Tsung 是一个压力测试工具，使用Erlang写成。官网在此：&lt;a href=&#34;&#34;&gt;http://tsung.erlang-projects.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;可以测试包括HTTP, WebDAV, PostgreSQL, MySQL, LDAP, and XMPP/Jabber等服务器。针对 HTTP 测试，Tsung 支持 HTTP 1.0/1.1 ，包含一个代理模式的会话记录、支持 GET、POST 和 PUT 以及 DELETE 方法，支持 Cookie 和基本的 WWW 认证，同时还支持 SSL。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

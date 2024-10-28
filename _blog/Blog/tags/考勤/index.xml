@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</link>
       <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-12-23-attenda-system-proposal/</guid>
-      <description>why 面临如下问题： 复杂的网络环境下联网 考勤点分散,全国甚至世界范围内 人员指纹数据自动备份 考勤机容量有限，人数多无法直接使用 人员调动时不需要重新</description>
+      <description>&lt;h1 id=&#34;why&#34;&gt;why&lt;/h1&gt;&#xA;&lt;p&gt;面临如下问题：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;复杂的网络环境下联网&lt;/li&gt;&#xA;&lt;li&gt;考勤点分散,全国甚至世界范围内&lt;/li&gt;&#xA;&lt;li&gt;人员指纹数据自动备份&lt;/li&gt;&#xA;&lt;li&gt;考勤机容量有限，人数多无法直接使用&lt;/li&gt;&#xA;&lt;li&gt;人员调动时不需要重新登记和录入指纹&lt;/li&gt;&#xA;&lt;li&gt;希望不受限制地在网络上的任意一台考勤机上考勤&lt;/li&gt;&#xA;&lt;li&gt;希望通过WEB考勤系统，实现整个集团考勤的实时管理与监控（包括分布在各地的分公司）&lt;/li&gt;&#xA;&lt;li&gt;上级部门的领导可实时查看下级部门人员的到岗，考勤，请假情况&lt;/li&gt;&#xA;&lt;li&gt;各地分公司可以独立进行人员管理，但人员的考勤数据要向总部实时传送&lt;/li&gt;&#xA;&lt;li&gt;集团总部可以对各地考勤机进行监控与管理&lt;/li&gt;&#xA;&lt;li&gt;员工可以通过考勤系统进行自主的请假申请&lt;/li&gt;&#xA;&lt;li&gt;其他网络应用需求&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;what&#34;&gt;what&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;处在不同地域的公司的各个分支机构，可以获得按自己公司的需求将考勤数据上传到总部Web考勤管理系统服务器上；&lt;/li&gt;&#xA;&lt;li&gt;通过Web考勤管理系统，集团总部可以及时了解整个集团公司，包括各个分支部机构地考勤情况，获取所有人的出勤明细信息；&lt;/li&gt;&#xA;&lt;li&gt;公司的员工亦可通过登录Web考勤管理系统，进行个人考勤查询、班次查询和请假查询等。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;how&#34;&gt;how&lt;/h1&gt;&#xA;&lt;p&gt;由考勤机主动发起向服务器连接和数据传送请求：支持复杂的网络接入方式：如ADSL／ISDN／远程Modem拨号接入、ISP专线等等。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

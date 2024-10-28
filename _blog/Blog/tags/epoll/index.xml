@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2010-03-24-what-the-epoll/</guid>
-      <description>传统的select以及poll的效率会因为 在线人数的线形递增而导致呈二次乃至三次方的下降. 自从Linux提供了/dev/epoll的 设备以及</description>
+      <description>&lt;p&gt;传统的select以及poll的效率会因为 在线人数的线形递增而导致呈二次乃至三次方的下降.&#xA;自从Linux提供了/dev/epoll的 设备以及后来2.6内核中对/dev/epoll设备的访问的封装（System Epoll）之后，这种现象得到了大大的缓解.&#xA;总共不过4个 API：epoll_create, epoll_ctl, epoll_wait和close。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

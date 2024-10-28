@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</link>
       <pubDate>Fri, 03 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/</guid>
-      <description>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。 r： 读 4 w：写 2 x： 执行 1 -： 无 0 rwx合起来就是4+2+1</description>
+      <description>&lt;p&gt;文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。&lt;/p&gt;&#xA;&lt;p&gt;r： 读     4&lt;/p&gt;&#xA;&lt;p&gt;w：写     2&lt;/p&gt;&#xA;&lt;p&gt;x： 执行 1&lt;/p&gt;&#xA;&lt;p&gt;-：  无     0&lt;/p&gt;&#xA;&lt;p&gt;rwx合起来就是4+2+1=7&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;# 要改变文件权限，可使用下面命令：&#xA;chmod 777 x.file&#xA;&#xA;# 看目录情况：&#xA;ls -l&#xA;&#xA;# 要改变文件所属组，可使用下面命令&#xA;chown :users conkyrc.sample&#xA;&#xA;# 要改变文件所属用户，可使用下面命令&#xA;chown user conkyrc.sample&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;要修改目录，使用 -R参数就可以了，方法和前面一样。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

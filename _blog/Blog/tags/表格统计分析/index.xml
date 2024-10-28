@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</link>
       <pubDate>Sun, 13 Feb 2022 11:23:28 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-02-13-convert-between-1d-and-2d-tables/</guid>
-      <description>一维转二维 使用数据透视图即可，按照需求选择行和列。 特别需要注意的是，「值」的计数项中要设置为求和，且「值」的数据必须是数字，不能是中文或者英</description>
+      <description>&lt;h1 id=&#34;一维转二维&#34;&gt;一维转二维&lt;/h1&gt;&#xA;&lt;p&gt;使用数据透视图即可，按照需求选择行和列。&lt;/p&gt;&#xA;&lt;p&gt;特别需要注意的是，「值」的&lt;em&gt;计数项&lt;/em&gt;中要设置为&lt;strong&gt;求和&lt;/strong&gt;，且「值」的数据必须是数字，不能是中文或者英文。&lt;/p&gt;&#xA;&lt;h1 id=&#34;二维转一维&#34;&gt;二维转一维&lt;/h1&gt;&#xA;&lt;p&gt;还是使用数据透视图，但是在第一步的时候选择&lt;strong&gt;使用多重合并计算区域&lt;/strong&gt;，后面一直next，直到在新sheet中显示透视图。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

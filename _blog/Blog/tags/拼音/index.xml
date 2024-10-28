@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2023 22:02:55 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-08-16-configure-pinyin-input-method-fcitx5-on-ubuntu/</guid>
-      <description>因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。 把fc</description>
+      <description>&lt;p&gt;因为搜狗输入法只能支持到Ubuntu2004版，百度输入法也同样不可用。为了能方便输入，所以在Ubuntu2204上安装Fcitx5。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把fcitx4删除干净 &lt;code&gt;sudo apt remove fcitx*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;安装fcitx5 &lt;code&gt;sudo apt install fcitx5 &lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;下载肥猫wiki词库文件zhwiki.dict，下载地址： &lt;a href=&#34;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&#34;&gt;https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;词典文件复制到&lt;code&gt;~/.local/share/_fcitx5_/pinyin/dictionaries&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;li&gt;重启fcitx5&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

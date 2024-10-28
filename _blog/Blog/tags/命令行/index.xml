@@ -13,21 +13,21 @@
       <link>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</link>
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-30-using-the-command-forces-over-windows-process/</guid>
-      <description>以管理员身份运行命令行模式 输入 tasklist 显示目前的运行状况 输入 taskkill /IM 进程名 /F taskkill /PID 进程ID /F</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;以管理员身份运行命令行模式&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入 &lt;code&gt;tasklist&lt;/code&gt; 显示目前的运行状况&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;输入&lt;/p&gt;&#xA;&lt;p&gt;taskkill /IM 进程名 /F&#xA;taskkill /PID 进程ID /F&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>linux 命令行工具</title>
       <link>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</link>
       <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-20-linux-command-line-tool/</guid>
-      <description>看网络状况 iftop &amp;amp; iptraf</description>
+      <description>&lt;h3 id=&#34;看网络状况&#34;&gt;看网络状况&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;iftop &amp;amp; iptraf&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>转换图形文件在linux命令行方式</title>
       <link>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</guid>
-      <description>安装ImageMagick 将当前目录下的图片文件按照文件名排序后合成pdf convert *.png out.pdf 缩小文件尺寸 convert -resize 50%x50% *.jpg</description>
+      <description>&lt;h2 id=&#34;安装imagemagickhttpwwwimagemagickorg-官网&#34;&gt;安装&lt;a href=&#34;http://www.imagemagick.org/&#34; title=&#34;官网&#34;&gt;ImageMagick&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;将当前目录下的图片文件按照文件名排序后合成pdf&#34;&gt;将当前目录下的图片文件按照文件名排序后合成pdf&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert *.png out.pdf&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;缩小文件尺寸&#34;&gt;缩小文件尺寸&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert -resize 50%x50%  *.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

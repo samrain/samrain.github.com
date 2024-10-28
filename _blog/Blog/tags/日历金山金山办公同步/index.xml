@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2022-01-20-configuring-kingsoft-calendar-and-mobile-calendar-synchronization/</link>
       <pubDate>Thu, 20 Jan 2022 21:52:37 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-01-20-configuring-kingsoft-calendar-and-mobile-calendar-synchronization/</guid>
-      <description>官方指南如下： https://www.kdocs.cn/l/crdCJ5aVi6Pt 我重点说一下我手机是怎么设置同步的： 生成我的金山日历CalDav配置信息：打开日历首页→设置→找到CalDAV设置，选择需要</description>
+      <description>&lt;h1 id=&#34;官方指南如下-httpswwwkdocscnlcrdcj5avi6pt&#34;&gt;官方指南如下： &lt;a href=&#34;https://www.kdocs.cn/l/crdCJ5aVi6Pt&#34;&gt;https://www.kdocs.cn/l/crdCJ5aVi6Pt&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;我重点说一下我手机是怎么设置同步的：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;生成我的金山日历CalDav配置信息：打开日历&lt;strong&gt;首页&lt;/strong&gt;→&lt;strong&gt;设置&lt;/strong&gt;→找到&lt;strong&gt;CalDAV设置&lt;/strong&gt;，选择需要同步的设备，点击生成即可获取帐号&lt;/li&gt;&#xA;&lt;li&gt;我手机是Realme Q3Pro，非小米，所以必须要额外安装一个app。我装的是DavX5，下载地址： &lt;a href=&#34;https://f-droid.org/packages/at.bitfire.davdroid/&#34;&gt;https://f-droid.org/packages/at.bitfire.davdroid/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;安装完后根据这篇指南来配置一下， &lt;a href=&#34;https://www.larksuite.com/hc/zh-CN/articles/360043178793&#34;&gt;https://www.larksuite.com/hc/zh-CN/articles/360043178793&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;在DavX5中点击&lt;strong&gt;添加→添加账户→使用URL和用户名登录&lt;/strong&gt;，输入上方获取的用户名，密码，服务的地址即可完成。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;注意目前同步日程仅支持查看不支持编辑&#34;&gt;注意：目前同步日程仅支持查看，不支持编辑。&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

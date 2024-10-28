@@ -64,11 +64,37 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-28-webfont/">webfont</a></h1>
+					<time>Jul 28, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="英文-比较适合用webfonta-idorgheadline57a">英文 比较适合用webfont<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>webfont比较小，一共就26个字母，几十K</p>
+<h2 id="中文-比较适合用本地字体a-idorgheadline60a">中文 比较适合用本地字体<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>webfont比较大，几M</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-28-webfont/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-27-some-excerpts/">一些摘录</a></h1>
 					<time>Jul 27, 2016</time>
 					<br><div class="description">
 	
-	把宝押在人身上而不是想法上 最有效地缩短生产周期的方法就是压缩在制品数量。 我们应该去理解为什么他们会提出这样的需求，而不是着急着去寻找解决方案&hellip;
+	<h2 id="把宝押在人身上而不是想法上a-idorgheadline32a">把宝押在人身上而不是想法上<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="最有效地缩短生产周期的方法就是压缩在制品数量a-idorgheadline33a">最有效地缩短生产周期的方法就是压缩在制品数量。<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="我们应该去理解为什么他们会提出这样的需求而不是着急着去寻找解决方案a-idorgheadline34a">我们应该去理解为什么他们会提出这样的需求，而不是着急着去寻找解决方案。<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="我需要找产品ui设计师ios开发android开发运营a-idorgheadline35a">我需要找产品、UI设计师、iOS开发、Android开发、运营。<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>这个人必须喜欢车，谈起车两眼放光，不然就别谈了，干没兴趣的领域太苦逼了。
+这个人是个玩家。
+这个人很靠谱，靠谱不是自己说的，而是别人说靠谱的那种。
+这个人应该是年轻人，做移动产品必须是年轻人，大学生也挺好。关键是心理年龄年轻。
+这个人是火象星座、风向星座。因为现在团队需要这样的人搭配。
+这个人有用心做过的东西，在哪做的，是什么都没所谓，我们想听他眉飞色舞地讲。
+这个人非常热爱自己要做的领域，认为自己会成为最好的产品经理，认为自己的设计独树一帜，觉得别人的代码都是狗屎而且自己写得确实不像狗屎，觉得如果做母婴之类的运营不如去死。
+这个人情商不高，搞不定大公司复杂的屁事儿，从心里瞧不起只靠写PPT活着的货。
+这个人想换工作，可是觉得杭州好像除了那几家就没地方去了，又懒得去帝都魔都。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-27-some-excerpts/">Read more ⟶</a>
@@ -79,7 +105,10 @@
 					<time>Jul 26, 2016</time>
 					<br><div class="description">
 	
-	http://115.29.194.28:52687/ http://115.29.194.28:52687/mobile 用户名：guest 密码：ibook&hellip;
+	<p><a href="http://115.29.194.28:52687/">http://115.29.194.28:52687/</a></p>
+<p><a href="http://115.29.194.28:52687/mobile">http://115.29.194.28:52687/mobile</a></p>
+<p>用户名：guest</p>
+<p>密码：ibook</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-26-my-online-library/">Read more ⟶</a>
@@ -90,7 +119,58 @@
 					<time>Jul 25, 2016</time>
 					<br><div class="description">
 	
-	查询当前数据库的表上索引碎片情况，按照严重程度顺序排列 USE DBNAME; SELECT DB_NAME() AS DatbaseName , SCHEMA_NAME(o.Schema_ID) AS SchemaName , OBJECT_NAME(s.[object_id]) AS TableName , i.name AS IndexName , ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id =&hellip;
+	<h2 id="查询当前数据库的表上索引碎片情况按照严重程度顺序排列a-idorgheadline28a">查询当前数据库的表上索引碎片情况，按照严重程度顺序排列<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>USE DBNAME;
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation
+FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id;
+
+SELECT * FROM #TempFragmentation ORDER BY [Fragmentation %] DESC;
+
+DROP TABLE #TempFragmentation;
+</code></pre>
+<h2 id="查询当前数据库的表上从来没有使用过的索引a-idorgheadline29a">查询当前数据库的表上从来没有使用过的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED 
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(O.Schema_ID) AS SchemaName 
+, OBJECT_NAME(I.object_id) AS TableName 
+, I.name AS IndexName 
+INTO #TempNeverUsedIndexes 
+FROM sys.indexes I INNER JOIN sys.objects O ON I.object_id = O.object_id
+
+
+SELECT * FROM #TempNeverUsedIndexes 
+ORDER BY DatbaseName, SchemaName, TableName, IndexName
+
+
+DROP TABLE #TempNeverUsedIndexes
+</code></pre>
+<h2 id="查询当前数据库的表上使用的比较少的索引a-idorgheadline30a">查询当前数据库的表上使用的比较少的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
+SELECT 
+DB_NAME() AS DatabaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, s.user_updates 
+, s.system_seeks + s.system_scans + s.system_lookups AS [System USAGE] INTO #TempUnusedIndexes
+FROM sys.dm_db_index_usage_stats s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id ;
+SELECT TOP 20 *
+FROM #TempUnusedIndexes ORDER BY [user_updates] DESC ;
+DROP TABLE #TempUnusedIndexes
+</code></pre>
+<h2 id="重建索引对于碎片比较厉害的索引效果比重组要好a-idorgheadline31a">重建索引，对于碎片比较厉害的索引，效果比重组要好<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>ALTER INDEX [INDEX_NAME] ON Table_Name REBUILD PARTITION = ALL WITH ( PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, ONLINE = OFF, SORT_IN_TEMPDB = OFF )
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">Read more ⟶</a>
@@ -101,21 +181,19 @@
 					<time>Jul 24, 2016</time>
 					<br><div class="description">
 	
-	修改 web.xml &lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt; &lt;session-descriptor&gt; &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt; &lt;/session-descriptor&gt; &lt;session-config&gt; &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt; &lt;/session-config&gt;&hellip;
+	<p>修改 <code>web.xml</code></p>
+<pre><code>&lt;weblogic-web-app xmlns=&quot;http://www.bea.com/ns/weblogic/weblogic-web-app&quot;&gt;
+&lt;session-descriptor&gt;
+    &lt;cookies-enabled&gt;true&lt;/cookies-enabled&gt;
+&lt;/session-descriptor&gt;
+
+&lt;session-config&gt;
+    &lt;tracking-mode&gt;COOKIE&lt;/tracking-mode&gt;
+&lt;/session-config&gt;
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-23-praise-children/">赞美孩子</a></h1>
-					<time>Jul 23, 2016</time>
-					<br><div class="description">
-	
-	你付出努力，你该得到它 你一定会为自己感到骄傲 你对此感觉如何 你自己能找到解决问题的方法 我相信你的判断&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-23-praise-children/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +214,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

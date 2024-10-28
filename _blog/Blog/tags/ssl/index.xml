@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</link>
       <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</guid>
-      <description>##SSL握手过程 通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交</description>
+      <description>&lt;p&gt;##SSL握手过程&#xA;通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交换。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

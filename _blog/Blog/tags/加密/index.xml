@@ -13,49 +13,49 @@
       <link>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</link>
       <pubDate>Wed, 04 Oct 2023 09:08:51 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2023-10-04-simple-solution-for-plaintext-encryption/</guid>
-      <description>自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。 使用这个密码用A</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;自己想一个8位密码（密码最好是无意义，包含大小写和数字，建议可以先用AES无密码生成一次密文，然后取最后一位等号前的8位）。&lt;/li&gt;&#xA;&lt;li&gt;使用这个密码用AES算法加密明文得到一串字符。&lt;/li&gt;&#xA;&lt;li&gt;把这串字符用Base64编码。&lt;/li&gt;&#xA;&lt;li&gt;把8位密码填入到生成字符串的最后一位等号之前。&lt;/li&gt;&#xA;&lt;li&gt;加密完成。&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>加密密码</title>
       <link>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-10-encrypted-password/</guid>
-      <description>具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其</description>
+      <description>&lt;p&gt;具体的做法就是在密码中加入一段&amp;quot;随机化&amp;quot;的字符串,然后再进行哈希化.这样就将原来的同样明文映射到同样密文的规则打乱了,其中混入的&amp;rsquo;随机&amp;rsquo;字符串就是所谓的&amp;rsquo;盐&#39;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>公钥编码格式</title>
       <link>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</link>
       <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/</guid>
-      <description>公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com</description>
+      <description>&lt;h1 id=&#34;公钥的编码格式有asn1标准也有cryptoapi标准a-idorgheadline3a&#34;&gt;公钥的编码格式有ASN.1标准，也有CryptoAPI标准。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;他们之间是可以进行转换的，可以参考：&lt;a href=&#34;http://www.jensign.com/JavaScience/dotnet/JKeyNet/&#34;&gt;http://www.jensign.com/JavaScience/dotnet/JKeyNet/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;asn1标准a-idorgheadline1a&#34;&gt;ASN.1标准&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SubjectPublicKeyInfo数字证书格式(你提供的第一种格式）&lt;/li&gt;&#xA;&lt;li&gt;PKCS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cryptoapi标准a-idorgheadline2a&#34;&gt;CryptoAPI标准&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CSP Parameter（后面的那种格式）&lt;/li&gt;&#xA;&lt;li&gt;CSP容器。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>RSA算法在.net中实现</title>
       <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</guid>
-      <description>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击</description>
+      <description>&lt;p&gt;RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击的考验，逐渐为人们接受，普遍认为是目前最优秀的公钥方案之一。RSA的安全性依赖于大数的因子分解，但并没有从理论上证明破译RSA的难度与大数分解难度等价。&lt;/p&gt;</description>
     </item>
     <item>
       <title>常用加解密算法的.net实现</title>
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
       <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
-      <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
+      <description>&lt;p&gt;常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：&lt;code&gt;System.Security.Cryptography&lt;/code&gt;。.NET Framework 中的数据加密算法仍然不够完全，如 IDEA、BLOWFISH、其它算法，如ElGamal、Deffie-Hellman、ECC 等，对于一些其它的数据校验算法支持也不够，如 CRC、SFV 等，开发人员只能去从早期代码做移植或者寻找第三方厂商的实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSL介绍</title>
       <link>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</link>
       <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-06-16-introduce-of-ssl/</guid>
-      <description>##SSL握手过程 通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交</description>
+      <description>&lt;p&gt;##SSL握手过程&#xA;通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交换。&lt;/p&gt;</description>
     </item>
     <item>
       <title>常用加解密算法</title>
       <link>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-13-commonly-used-encryption-algorithm/</guid>
-      <description>1.常用密钥算法 密钥算法用来对敏感数据、摘要、签名等信息进行加密。 对称加密算法 DES（Data Encryption Standard） 数据加密标准，速度较快，适</description>
+      <description>&lt;h2 id=&#34;1常用密钥算法&#34;&gt;1.常用密钥算法&lt;/h2&gt;&#xA;&lt;p&gt;密钥算法用来对敏感数据、摘要、签名等信息进行加密。&lt;/p&gt;&#xA;&lt;h3 id=&#34;对称加密算法&#34;&gt;对称加密算法&lt;/h3&gt;&#xA;&lt;h4 id=&#34;desdata-encryption-standard&#34;&gt;DES（Data Encryption Standard）&lt;/h4&gt;&#xA;&lt;p&gt;数据加密标准，速度较快，适用于加密大量数据的场合&lt;/p&gt;&#xA;&lt;h4 id=&#34;3destriple-des&#34;&gt;3DES（Triple DES）&lt;/h4&gt;&#xA;&lt;p&gt;是基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

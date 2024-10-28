@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</link>
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-08-how-to-update-nodejs/</guid>
-      <description>What 升级nodejs到0.12。 Why 今天收到通知nodejs稳定版stable终于升到了0.12，对于我这个不升不舒服斯基来说，又要up咯。 How 安</description>
+      <description>&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;升级nodejs到0.12。&lt;/p&gt;&#xA;&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;今天收到通知nodejs稳定版stable终于升到了0.12，对于我这个不升不舒服斯基来说，又要up咯。&lt;/p&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安装cnpm&#xA;珍惜生命远离npm，哈哈，主要是出国网络不给力，幸好淘宝做了一个镜像(&lt;a href=&#34;http://npm.taobao.org/&#34;&gt;地址在此&lt;/a&gt;)。让我们先装上再说：&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo npm install -g cnpm --registry=https://registry.npm.taobao.org&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;注意：由于我是ubuntu，所以都在命令前加上&lt;code&gt;sudo&lt;/code&gt;。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

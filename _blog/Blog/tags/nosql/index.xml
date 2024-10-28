@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-16-mongodb/</link>
       <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-16-mongodb/</guid>
-      <description>Install 官网在此：http://www.mongodb.org 官网下载地址：http://www.mongodb.org/downloads win</description>
+      <description>&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;官网在此：&lt;a href=&#34;http://www.mongodb.org&#34;&gt;http://www.mongodb.org&lt;/a&gt;&#xA;官网下载地址：&lt;a href=&#34;http://www.mongodb.org/downloads&#34;&gt;http://www.mongodb.org/downloads&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;windows64位版本包含2个：&lt;code&gt;64-bit&lt;/code&gt;和&lt;code&gt;64-bit legacy&lt;/code&gt;。根据官方文档介绍，&lt;code&gt;64-bit legacy&lt;/code&gt;是装在win2008、win2003以及win vista上的；而&lt;code&gt;64-bit&lt;/code&gt;是装在win2008 R2及以上。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

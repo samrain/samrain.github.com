@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-how-could-we-search-the-secondary-level-domain/</guid>
-      <description>请替换[XXX.com]为需要的域名 http://www.baidu.com/#wd=site%3A[XXX.com] http://webscan.360.cn/sub/index/?url=[XXX.com]</description>
+      <description>&lt;h2 id=&#34;请替换xxxcom为需要的域名&#34;&gt;请替换[XXX.com]为需要的域名&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;http://www.baidu.com/#wd=site%3A[XXX.com]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;http://webscan.360.cn/sub/index/?url=[XXX.com]&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

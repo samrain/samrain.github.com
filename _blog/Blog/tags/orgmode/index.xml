@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</link>
       <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-25-set-auto-wrap-on-org-mode-of-emacs/</guid>
-      <description>orgmode中设置自动换行 最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写ma</description>
+      <description>&lt;h2 id=&#34;orgmode中设置自动换行a-idsec-3-namesec-3a&#34;&gt;orgmode中设置自动换行&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;最近迷上了用orgmode写文章，但是渐渐发现有个小问题——一行文字太长了却不能自动换行。之前emacs上写markdown时是可以自动换行的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

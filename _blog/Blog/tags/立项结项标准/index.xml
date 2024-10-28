@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2022-02-09-project-initiation-closing-criteria/</link>
       <pubDate>Wed, 09 Feb 2022 19:20:31 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2022-02-09-project-initiation-closing-criteria/</guid>
-      <description>一、标准项目立项 商务条件：客户体量不小于XXXX人，且有明确服务费。 方案条件：我方提供的产品方案可以满足产品落地要求。方案包含：需求解决方案</description>
+      <description>&lt;h1 id=&#34;一标准项目立项&#34;&gt;一、标准项目立项&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;商务条件：客户体量不小于XXXX人，且有明确服务费。&lt;/li&gt;&#xA;&lt;li&gt;方案条件：我方提供的产品方案可以满足产品落地要求。方案包含：需求解决方案，高可用高负载方案，容灾方案，集成对接方案，账号及单点对接方案，运维方案，安全漏洞处理方案，升级扩容方案。&lt;/li&gt;&#xA;&lt;li&gt;客户环境条件：&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;需求条件，需求与产品匹配度，需求边界是否清晰。&lt;/li&gt;&#xA;&lt;li&gt;硬件条件，硬件可以满足软件产品要求，CPU，内存，硬盘，存储设备等。&lt;/li&gt;&#xA;&lt;li&gt;网络条件，内外网带宽情况，异地多中心之间网络满足度。&lt;/li&gt;&#xA;&lt;li&gt;运维要求，客户运维要求，满足条件才可进场部署生产环境。明确压测报告，日志要求和监控告警要求等。&lt;/li&gt;&#xA;&lt;li&gt;安全要求，明确客户对产品的安全要求，安全漏洞等级与修复周期要求，等保要求，安全渗透测试，加密要求。&lt;/li&gt;&#xA;&lt;li&gt;软件要求，明确是否需要接入客户中间件系统，比如，数据库，Redis等。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;二非标准项目立项&#34;&gt;二、非标准项目立项&lt;/h1&gt;&#xA;&lt;p&gt;对于无法满足标准的项目的，明确提出不满足的条件，由项目评审委员会进行项目立项评审，评审完成后，给出超出标准所产生的成本估算，并明确成本出处，由上级部门领导进行立项审批。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

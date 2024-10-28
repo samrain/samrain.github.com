@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</link>
       <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-01-cobbler-network-installation-environment-for-linux/</guid>
-      <description>What 官网在此 Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。 How 该工具使用python开发，小</description>
+      <description>&lt;h2 id=&#34;what&#34;&gt;What&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://fedorahosted.org/cobbler/&#34;&gt;官网在此&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cobbler是一个快速网络安装linux的服务，而且在经过调整也可以支持网络安装windows。&lt;/p&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;&#xA;&lt;p&gt;该工具使用python开发，小巧轻便（才15k行代码），使用简单的命令即可完成PXE网络安装环境的配置，同时还可以管理DHCP，DNS，以及yum包镜像。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

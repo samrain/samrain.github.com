@@ -64,11 +64,81 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Nmap初体验</a></h1>
+					<time>Sep 3, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIQ1g2bmk0aGh2S0U/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="what">What</h2>
+<h3 id="网络扫描工具通过隐秘手法推断获得运行的服务器端口及服务信息">网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息</h3>
+<h2 id="where">where</h2>
+<h3 id="攻黑客常用扫描工具用来找到攻击范围而后精确爆破">攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破</h3>
+<h3 id="防管理员日常维护工具找到目前的漏洞第一时间修复它">防:管理员日常维护工具，找到目前的漏洞，第一时间修复它</h3>
+<h2 id="how">how</h2>
+<h3 id="install">install</h3>
+<ul>
+<li>具体参见<a href="http://nmap.org/download.html">官网</a></li>
+<li>Ubuntu安装办法
+<ul>
+<li>sudo apt-get install alien</li>
+<li>下载最新的Nmap、Ncat、Nping、Zenmap的RPM包</li>
+<li>sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm</li>
+<li>sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb</li>
+</ul>
+</li>
+</ul>
+<h3 id="启动方式">启动方式</h3>
+<ul>
+<li>命令行:nmap</li>
+<li>图形界面:Zenmap</li>
+</ul>
+<h3 id="自带10种扫描方式">自带10种扫描方式</h3>
+<ul>
+<li>Intense scan
+(nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出</li>
+<li>Intense scan plus UDP
+(nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描</li>
+<li>Intense scan,all TCP ports
+(nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围</li>
+<li>Intense scan,no ping
+(nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描</li>
+<li>Ping scan
+(nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描</li>
+<li>Quick scan
+(nmap -T4 -F) 快速的扫描 -F 快速模式。</li>
+<li>Quick scan plus
+(nmap -sV -T4 -O -F &ndash;version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 &ndash;version-light 设定侦测等级为2。</li>
+<li>Quick traceroute
+(nmap -sn &ndash;traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。</li>
+<li>Regular scan
+规则扫描</li>
+<li>Slow comprehensive scan
+(nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 &ndash;script all) 慢速全面扫描。</li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-network-security-tools/">十大网络安全工具</a></h1>
 					<time>Sep 3, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 黑客的Linux:Backtrack 恶意软件分析工具 Virustotal.com Jotti.com 漏洞检测框架:Metasploit 端口扫描工具:Nmap 网络流量分析&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITWxoOXU1bXpTNXc/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="黑客的linuxbacktrack">黑客的Linux:Backtrack</h2>
+<h2 id="恶意软件分析工具">恶意软件分析工具</h2>
+<ul>
+<li>Virustotal.com</li>
+<li>Jotti.com</li>
+</ul>
+<h2 id="漏洞检测框架metasploit">漏洞检测框架:Metasploit</h2>
+<h2 id="端口扫描工具nmap">端口扫描工具:Nmap</h2>
+<h2 id="网络流量分析工具wireshark">网络流量分析工具:Wireshark</h2>
+<h2 id="sql注入攻击测试工具acunetix">SQL注入攻击测试工具:Acunetix</h2>
+<h2 id="web应用测试工具burp-suite">Web应用测试工具:Burp Suite</h2>
+<h2 id="windows平台密码工具cain-and-abel">windows平台密码工具:Cain and Abel</h2>
+<h2 id="加密工具truecrypt">加密工具:TrueCrypt</h2>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-network-security-tools/">Read more ⟶</a>
@@ -79,7 +149,9 @@
 					<time>Sep 3, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing">思维导图文件下载</a></p>
+<p>原本在Ubuntu1204上活蹦乱跳的，但是自从装了Lubuntu以后就歇菜了，曾经试图搞搞但是未果。后来事情太多就不弄了。
+上周末晚脑抽就想试试看，结果试了半个多小时终于成功了。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-mdad-mini-resurrection/">Read more ⟶</a>
@@ -90,7 +162,91 @@
 					<time>Jul 31, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 Coding Practice | 编程实践 基础篇 Clean Code《代码整洁之道》 Pragmatic Unit Testing《单元测试之道》 The Productive Programmer《卓有成效的程序员》&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIbVpLZWlEZ2kycjA/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="coding-practice--编程实践">Coding Practice | 编程实践</h2>
+<h3 id="基础篇">基础篇</h3>
+<ul>
+<li>Clean Code《代码整洁之道》</li>
+<li>Pragmatic Unit Testing《单元测试之道》</li>
+<li>The Productive Programmer《卓有成效的程序员》</li>
+<li>Test-Driven Development By Example《测试驱动开发》</li>
+<li>Clean Coder《程序员的职业素养》</li>
+<li>The Art of Readable Code《编写可读代码的艺术》</li>
+</ul>
+<h3 id="进阶篇">进阶篇</h3>
+<ul>
+<li>Refactoring To Patterns《重构与模式》</li>
+<li>Implementation Patterns《实现模式》</li>
+<li>Code Completed《代码大全》</li>
+<li>The Pragmatic Programmer《程序员修炼之道》</li>
+</ul>
+<h3 id="高级篇">高级篇</h3>
+<ul>
+<li>Structure and Interpretation of Computer Programs《计算机程序的构造和解释》</li>
+<li>Working Effectively with Legacy Code《修改代码的艺术》</li>
+</ul>
+<h2 id="architecture--design--架构与设计">Architecture &amp; Design | 架构与设计</h2>
+<h3 id="基础篇-1">基础篇</h3>
+<ul>
+<li>Agile Software Development 《敏捷软件开发：原则、实践与模式》</li>
+<li>Head First Design Patterns《深入浅出设计模式》</li>
+<li>Design Patterns 《设计模式》</li>
+</ul>
+<h3 id="进阶篇-1">进阶篇</h3>
+<ul>
+<li>The Art of UNIX Programming 《Unix编程艺术》</li>
+<li>Practical API Design 《框架设计的艺术》</li>
+<li>Domain Specific Languages 《领域特定语言》</li>
+<li>Patterns of Enterprise Application Architecture 《企业应用架构模式》</li>
+</ul>
+<h3 id="高级篇-1">高级篇</h3>
+<ul>
+<li>Release It</li>
+<li>Domain-Driven Design 《领域驱动设计》</li>
+<li>Enterprise Integration Patterns《企业集成模式》</li>
+<li>Beautiful Architecture《架构之美》</li>
+<li>Pattern-Oriented Software Architecture《面向模式的软件架构》</li>
+</ul>
+<h2 id="methodology--方法学">Methodology | 方法学</h2>
+<h3 id="基础篇-2">基础篇</h3>
+<ul>
+<li>User Stories Applied《用户故事与敏捷方法》</li>
+<li>The Gold Mine《金矿》</li>
+<li>Scrum and XP From the Trenches《硝烟中的Scrum和XP》</li>
+<li>Continuous Integration《持续集成》</li>
+<li>Extreme Programming Explained《解析极限编程》</li>
+</ul>
+<h3 id="进阶篇-2">进阶篇</h3>
+<ul>
+<li>Lean Thinking《精益思想》</li>
+<li>Continuous Delivery《持续交付》</li>
+<li>How Google Tests Software</li>
+<li>Agile Testing</li>
+<li>Extreme Programming Refactored《重构极限编程》</li>
+</ul>
+<h3 id="高级篇-2">高级篇</h3>
+<ul>
+<li>Specification By Example</li>
+</ul>
+<h2 id="thought--leadership--思想与领导力">Thought &amp; Leadership | 思想与领导力</h2>
+<h3 id="基础篇-3">基础篇</h3>
+<ul>
+<li>The Effective Executive《卓有成效的管理者》</li>
+<li>Are Your Lights On?《你的灯亮着吗》</li>
+<li>Becoming A Technical Leader《成为技术领导者》</li>
+</ul>
+<h3 id="进阶篇-3">进阶篇</h3>
+<ul>
+<li>The Fifth Discipline《第五项修炼》</li>
+<li>The Design Of Business</li>
+<li>Management 3.0《管理3.0：培养和提升敏捷领导力》</li>
+<li>Presentation To Win</li>
+<li>The McKinsey Way《麦肯锡方法》</li>
+</ul>
+<h3 id="高级篇-3">高级篇</h3>
+<ul>
+<li>Thinking, Fast and Slow《思考快与慢》</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-thoughtworks-china-programmer-reading-radar/">Read more ⟶</a>
@@ -101,21 +257,58 @@
 					<time>Jul 31, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 企业研究开发组织管理情况 五个管理制度 票据 专利 年份 转化成果 转化年份 科技成果转化证明材料 软件产品证书 科技综合实力 技术产权 科研成果&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIRVhRZE81ek9VTDg/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="企业研究开发组织管理情况">企业研究开发组织管理情况</h2>
+<h3 id="五个管理制度">五个管理制度</h3>
+<ul>
+<li>票据</li>
+</ul>
+<h2 id="专利">专利</h2>
+<h3 id="年份">年份</h3>
+<h3 id="转化成果">转化成果</h3>
+<h3 id="转化年份">转化年份</h3>
+<h3 id="科技成果转化证明材料">科技成果转化证明材料</h3>
+<h3 id="软件产品证书">软件产品证书</h3>
+<h2 id="科技综合实力">科技综合实力</h2>
+<h3 id="技术产权">技术产权</h3>
+<h3 id="科研成果">科研成果</h3>
+<h3 id="科研人员">科研人员</h3>
+<h2 id="注意事项">注意事项</h2>
+<h3 id="销售收入不等于全收入">销售收入不等于全收入</h3>
+<h3 id="必须彩色扫描">必须彩色扫描</h3>
+<h3 id="工作指引">工作指引</h3>
+<ul>
+<li>打分</li>
+</ul>
+<h3 id="审计指引">审计指引</h3>
+<ul>
+<li>财务怎么做</li>
+</ul>
+<h3 id="一级目录二级目录三级目录">一级目录/二级目录/三级目录</h3>
+<h2 id="技术先进性企业">技术先进性企业</h2>
+<h3 id="50以上收入来自境外">50%以上收入来自境外</h3>
+<h2 id="申报过程">申报过程</h2>
+<h3 id="在全国高新技术企业管理工作网上申报">在全国高新技术企业管理工作网上申报</h3>
+<ul>
+<li>而后得到22位受理号</li>
+</ul>
+<h3 id="上海验证打勾">上海验证打勾</h3>
+<h3 id="上海科委网">上海科委网</h3>
+<ul>
+<li>设置密码，忘记了找区县科委</li>
+<li>不要填写错误：企业名称和税务登记证号</li>
+<li>基本信息变化：找23111537 金老师</li>
+</ul>
+<h3 id="主管部门区县科委">主管部门：区县科委</h3>
+<h3 id="会计事务所">会计事务所</h3>
+<ul>
+<li>15万到0.5万</li>
+<li>研发专项审计</li>
+<li>名单中选</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-how-to-be-a-high-tech-company/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-07-31-study-golang/">学习golang</a></h1>
-					<time>Jul 31, 2013</time>
-					<br><div class="description">
-	
-	思维导图文件下载 安装 windows 下载 解压到C盘 设置环境变量 set PATH=%PATH%;C:\Go\bin 特色 清晰并且简洁 并行 Channel 快速 安全 标准格式化 类型后置 UTF-8 开源 开心 Hello World package 开头 独立运行的程序必须以&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-study-golang/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +329,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

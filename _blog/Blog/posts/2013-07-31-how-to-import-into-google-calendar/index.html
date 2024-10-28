@@ -2,12 +2,43 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>怎样导入google日历 - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成" />
+	<meta name="description" content="思维导图文件下载
+使用csv文件，数据用逗号隔开
+如果数据有多行，用双引号包围
+第一行必须是如下
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+目前做法
+1.从redmine上导出成csv文件
+
+注意导出列只能是【主题】【开始日期】【计划完成日期】
+导出界面上必须在【描述】打勾
+我已经自定义查询【待导入google日历】
+
+2.导入到google drive
+
+我的模版
+
+3.在google drive上修改
+
+将第二列和第三列数据左移一列
+把描述移动到【Description】
+
+4.下载为【CSV格式】
+5.导入google日历
+
+点击右上角齿轮标志&gt;进入【设置】
+点击【日历】
+点击【导入日历】
+选择刚下载好的文件，然后选择准备导入的日历
+点击【导入】
+系统提示成功表示导入成功
+" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2013-07-31-how-to-import-into-google-calendar/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="怎样导入google日历">
-  <meta property="og:description" content="思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成">
+  <meta property="og:description" content="思维导图文件下载
+使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成csv文件 注意导出列只能是【主题】【开始日期】【计划完成日期】 导出界面上必须在【描述】打勾 我已经自定义查询【待导入google日历】 2.导入到google drive 我的模版 3.在google drive上修改 将第二列和第三列数据左移一列 把描述移动到【Description】 4.下载为【CSV格式】 5.导入google日历 点击右上角齿轮标志&gt;进入【设置】 点击【日历】 点击【导入日历】 选择刚下载好的文件，然后选择准备导入的日历 点击【导入】 系统提示成功表示导入成功">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -19,7 +50,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="怎样导入google日历">
-  <meta name="twitter:description" content="思维导图文件下载 使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成">
+  <meta name="twitter:description" content="思维导图文件下载
+使用csv文件，数据用逗号隔开 如果数据有多行，用双引号包围 第一行必须是如下 Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private 目前做法 1.从redmine上导出成csv文件 注意导出列只能是【主题】【开始日期】【计划完成日期】 导出界面上必须在【描述】打勾 我已经自定义查询【待导入google日历】 2.导入到google drive 我的模版 3.在google drive上修改 将第二列和第三列数据左移一列 把描述移动到【Description】 4.下载为【CSV格式】 5.导入google日历 点击右上角齿轮标志&gt;进入【设置】 点击【日历】 点击【导入日历】 选择刚下载好的文件，然后选择准备导入的日历 点击【导入】 系统提示成功表示导入成功">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -122,22 +154,23 @@
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

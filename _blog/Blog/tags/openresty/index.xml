@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</link>
       <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</guid>
-      <description>openresty管理命令 #重启 nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload #关闭 nginx -c ~/下载/wor</description>
+      <description>&lt;h1 id=&#34;openresty管理命令a-idorgheadline7a&#34;&gt;openresty管理命令&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;#重启&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload&lt;/p&gt;&#xA;&lt;p&gt;#关闭&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s quit&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenResty第三方模块</title>
       <link>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</link>
       <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-03-07-openresty-third-party-modules/</guid>
-      <description>LuaJIT 1.5.8.1后默认安装，是Lua的实时编译器 ArrayVarNginxModule 在nginx配置文件中使用数组变量 AuthRequestNginxModule 身份验证，允许基于子请求的验证，它工作在接入阶段，因此</description>
+      <description>&lt;p&gt;&lt;code&gt;LuaJIT&lt;/code&gt; 1.5.8.1后默认安装，是Lua的实时编译器&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ArrayVarNginxModule&lt;/code&gt; 在nginx配置文件中使用数组变量&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;AuthRequestNginxModule&lt;/code&gt; 身份验证，允许基于子请求的验证，它工作在接入阶段，因此可以很好地与其他接入模块（access，auth_basic）合作。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

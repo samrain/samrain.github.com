@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-04-22-connect-type/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-22-connect-type/</guid>
-      <description>websocket全双工通信协议 可以穿透防火墙，有安全隐患 polling 轮询 大量无效数据包 cnmet 长连接 占用服务器带宽和资源</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;websocket全双工通信协议&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;可以穿透防火墙，有安全隐患&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;polling 轮询&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;大量无效数据包&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;cnmet 长连接&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;占用服务器带宽和资源&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</link>
       <pubDate>Sun, 24 Jan 2021 13:54:58 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2021-01-24-view-file-and-folder-size-under-linux/</guid>
-      <description>Linux下查看文件和文件夹大小 1. 查看系统中文件的使用情况 df -h 2. 查看当前目录下各个文件及目录占用空间大小 du -sh *</description>
+      <description>&lt;h1 id=&#34;linux下查看文件和文件夹大小&#34;&gt;Linux下查看文件和文件夹大小&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-查看系统中文件的使用情况&#34;&gt;1. 查看系统中文件的使用情况&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-查看当前目录下各个文件及目录占用空间大小&#34;&gt;2. 查看当前目录下各个文件及目录占用空间大小&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;du -sh *&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

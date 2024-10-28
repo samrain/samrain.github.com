@@ -64,11 +64,38 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/">客户营销流程最佳实践</a></h1>
+					<time>Dec 12, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://drive.google.com/file/d/0B1DrsqrLRzeISnNNNDJWaGN4NGM/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="1研究客户也许就是你自己寻找他觉得不爽的地方">1.研究客户（也许就是你自己），寻找他觉得不爽的地方</h2>
+<h2 id="2问客户想不想爽">2.问客户想不想爽</h2>
+<h2 id="3客户说想">3.客户说想</h2>
+<h2 id="4我们提时间计划预算和目标">4.我们提时间计划、预算和目标</h2>
+<h2 id="5我们和客户一起努力">5.我们和客户一起努力</h2>
+<h2 id="6达成目标客户很爽">6.达成目标：客户很爽</h2>
+<h2 id="7我们和客户一起回顾可以继续从1开始">7.我们和客户一起回顾，可以继续从1开始&hellip;&hellip;.</h2>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/">快速安装我的Lubuntu</a></h1>
 					<time>Oct 16, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 Install 完全弱智图形化安装界面，暂且不表 更换软件源地址 运行software-properties-gtk 点击选择框【下载自：】，选&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="install">Install</h2>
+<p>完全弱智图形化安装界面，暂且不表</p>
+<h2 id="更换软件源地址">更换软件源地址</h2>
+<ul>
+<li>
+<p>运行<code>software-properties-gtk</code></p>
+</li>
+<li>
+<p>点击选择框【下载自：】，选择“其他站点&hellip;..”</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/">Read more ⟶</a>
@@ -79,7 +106,35 @@
 					<time>Sep 10, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 Why 今日我终于又将编辑器从ST2换成了Emacs，主要原因就是ST2不支持linux上输入中文。但是之前在ST2编辑markd&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="why">Why</h2>
+<h3 id="今日我终于又将编辑器从st2换成了emacs主要原因就是st2不支持linux上输入中文但是之前在st2编辑markdown文件非常爽所以这个在emacs上必须有">今日我终于又将编辑器从ST2换成了Emacs，主要原因就是ST2不支持linux上输入中文。但是之前在ST2编辑markdown文件非常爽，所以这个在emacs上必须有</h3>
+<h2 id="how">How</h2>
+<h3 id="install">Install</h3>
+<ul>
+<li>假定你的emacs的配置文件的目录为<code>~/.emacs.d</code>，以下简称ConfDir</li>
+<li>下载文件<a href="http://jblevins.org/git/markdown-mode.git/plain/markdown-mode.el">markdown-mode.el</a>到ConfDir</li>
+<li>修改ConfDir/init.el，添加以下代码
+<ul>
+<li><code>(autoload 'markdown-mode &quot;markdown-mode&quot; 	&quot;Major mode for editing Markdown files&quot; t) </code></li>
+<li><code>(add-to-list 'auto-mode-alist '(&quot;\\.markdown\\'&quot;. markdown-mode)) </code></li>
+<li><code>(add-to-list 'auto-mode-alist '(&quot;\\.md\\'&quot;. markdown-mode)) </code></li>
+<li><code>;;;;设置emacs中打开url的工具是chromium，如果是其他浏览器那么替换掉名称。之前没有设置时会导致预览md转换成的html会直接用emacs打开而不是浏览器</code></li>
+<li><code>(setq browse-url-browser-function 'browse-url-generic       browse-url-generic-program &quot;chromium-browser&quot;) </code>
+<code>;;;;如果是linux中,默认安装python，同时也会安装markdown_py命令用来将markdown转化为html，在这里使用了该命令来预览</code></li>
+<li><code>(custom-set-variables  ;; custom-set-variables was added by Custom.  ;; If you edit it by hand, you could mess it up, so be careful.  ;; Your init file should contain only one such instance.  ;; If there is more than one, they won't work right.  '(markdown-command &quot;markdown_py&quot;)) (custom-set-faces  ;; custom-set-faces was added by Custom.  ;; If you edit it by hand, you could mess it up, so be careful.  ;; Your init file should contain only one such instance.  ;; If there is more than one, they won't work right.  )</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="use">Use</h3>
+<ul>
+<li>预览<code>C-c C-c p</code></li>
+<li>在当前目录保存为html <code>C-c C-c e</code></li>
+</ul>
+<h3 id="参考">参考</h3>
+<ul>
+<li><a href="https://www.evernote.com/shard/s11/sh/3b648e87-99ba-4b53-bb3c-c29612f7bb08/70120a0cf91f2cba180a86469d99416c">网上搜索到的</a></li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/">Read more ⟶</a>
@@ -90,7 +145,7 @@
 					<time>Sep 10, 2013</time>
 					<br><div class="description">
 	
-	在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软&hellip;
+	<p>在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软件不支持/软件支持，没有类似字体。转换试验如下：</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/">Read more ⟶</a>
@@ -101,21 +156,177 @@
 					<time>Sep 5, 2013</time>
 					<br><div class="description">
 	
-	思维导图文件下载 露营 帐篷 地布 帐篷 铝箔地席防潮垫 亮面向上 防潮垫 发泡 充气 睡袋 不同季节用不同睡袋 工具 帐篷灯 手电筒 牙刷 牙膏 绳子 毛巾 药品 感冒药 发烧药 烫&hellip;
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIdXhTRDlrd29xZm8/edit?usp=sharing">思维导图文件下载</a></p>
+<p><img src="http://samrain.qiniudn.com/%E9%9C%B2%E8%90%A5%E7%83%A7%E7%83%A4%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99.jpeg" alt="露营烧烤准备材料" title="露营烧烤准备材料"></p>
+<p><img src="http://samrain.qiniudn.com/%E5%B8%90%E7%AF%B7%E7%A4%BA%E6%84%8F%E5%9B%BE.jpeg" alt="帐篷示意图" title="帐篷示意图"></p>
+<h2 id="露营">露营</h2>
+<h3 id="帐篷">帐篷</h3>
+<ul>
+<li>地布</li>
+<li>帐篷</li>
+<li>铝箔地席防潮垫
+<ul>
+<li>亮面向上</li>
+</ul>
+</li>
+<li>防潮垫
+<ul>
+<li>发泡</li>
+<li>充气</li>
+</ul>
+</li>
+<li>睡袋
+<ul>
+<li>不同季节用不同睡袋</li>
+</ul>
+</li>
+</ul>
+<h3 id="工具">工具</h3>
+<ul>
+<li>帐篷灯</li>
+<li>手电筒</li>
+<li>牙刷</li>
+<li>牙膏</li>
+<li>绳子</li>
+<li>毛巾</li>
+</ul>
+<h3 id="药品">药品</h3>
+<ul>
+<li>感冒药</li>
+<li>发烧药</li>
+<li>烫伤药</li>
+<li>酒精</li>
+<li>碘酒</li>
+<li>蚊不叮</li>
+<li>风油精</li>
+<li>抗菌素治拉肚子</li>
+<li>防晒霜</li>
+<li>纱布</li>
+<li>止血带</li>
+</ul>
+<h2 id="烧烤">烧烤</h2>
+<h3 id="炉具">炉具</h3>
+<ul>
+<li>买一个
+<ul>
+<li>户外烤架</li>
+<li>锅</li>
+<li>木杆</li>
+</ul>
+</li>
+<li>搭一个
+<ul>
+<li>挖个洞</li>
+<li>砖</li>
+<li>石</li>
+</ul>
+</li>
+<li>租一个</li>
+</ul>
+<h3 id="燃料">燃料</h3>
+<ul>
+<li>固体酒精
+<ul>
+<li>一个炉子一块</li>
+</ul>
+</li>
+<li>木炭
+<ul>
+<li>每个炉子烧3小时需5公斤</li>
+</ul>
+</li>
+<li>报纸
+<ul>
+<li>引燃</li>
+</ul>
+</li>
+<li>干草
+<ul>
+<li>引燃</li>
+</ul>
+</li>
+<li>木头
+<ul>
+<li>篝火</li>
+</ul>
+</li>
+</ul>
+<h3 id="生货">生货</h3>
+<ul>
+<li>购买前按照人数计算，比如每人2个鸡翅，5串羊肉</li>
+<li>比较难熟的建议先煮成半熟/全熟。比如鸡胗，玉米</li>
+<li>为了味道好，建议先腌制至少一晚上</li>
+</ul>
+<h3 id="调料">调料</h3>
+<ul>
+<li>不要买的太多，正好用完最好</li>
+<li>烧烤汁</li>
+<li>耗油</li>
+<li>番茄酱</li>
+<li>辣椒粉</li>
+<li>胡椒粉</li>
+<li>生抽</li>
+<li>豆瓣酱</li>
+<li>芝麻油</li>
+</ul>
+<h3 id="工具-1">工具</h3>
+<ul>
+<li>刷子</li>
+<li>筷子
+<ul>
+<li>公筷
+比较长，翻转/拿取/分配烤串</li>
+<li>私筷
+用自己喜欢的</li>
+</ul>
+</li>
+<li>签子
+<ul>
+<li>竹签</li>
+<li>木签</li>
+<li>钢签</li>
+</ul>
+</li>
+<li>锡箔纸</li>
+<li>打火机</li>
+<li>勺子
+<ul>
+<li>公勺
+大勺子</li>
+<li>私勺
+用自己喜欢的</li>
+</ul>
+</li>
+<li>碟子
+<ul>
+<li>公用，放待分配的食物</li>
+</ul>
+</li>
+<li>碗
+<ul>
+<li>用自己喜欢的</li>
+</ul>
+</li>
+<li>牙签</li>
+<li>开水壶</li>
+<li>热水瓶</li>
+<li>菜刀</li>
+<li>菜板</li>
+<li>锅刷</li>
+<li>凳子</li>
+<li>餐垫</li>
+<li>垃圾桶</li>
+<li>垃圾袋</li>
+<li>野餐桌</li>
+<li>大桶饮用水</li>
+<li>水杯</li>
+<li>挡风板</li>
+<li>折叠水桶</li>
+<li>折叠脸盆</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-05-prepare-materials-for-camping-and-bbq/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Nmap初体验</a></h1>
-					<time>Sep 3, 2013</time>
-					<br><div class="description">
-	
-	思维导图文件下载 What 网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息 where 攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破 防:管&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +347,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

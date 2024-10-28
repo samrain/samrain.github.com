@@ -13,21 +13,21 @@
       <link>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</link>
       <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-02-how-to-configure-the-emacs-home-directory-of-the-windows/</guid>
-      <description>建议采用2或3 如果设置了环境变量 HOME ，那么就用它的值作为HOME目录 如果存在注册表键值 HKCU\SOFTWARE\GNU\Emacs\HOME ，就用它的值作为HOME目录 如果存在注册表键值 HKLM\SOFTWARE\GNU\Emacs\HOME ，就用</description>
+      <description>&lt;p&gt;建议采用2或3&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;如果设置了环境变量 &lt;strong&gt;&lt;strong&gt;HOME&lt;/strong&gt;&lt;/strong&gt; ，那么就用它的值作为HOME目录&lt;/li&gt;&#xA;&lt;li&gt;如果存在注册表键值 &lt;code&gt;HKCU\SOFTWARE\GNU\Emacs\HOME&lt;/code&gt; ，就用它的值作为HOME目录&lt;/li&gt;&#xA;&lt;li&gt;如果存在注册表键值 &lt;code&gt;HKLM\SOFTWARE\GNU\Emacs\HOME&lt;/code&gt; ，就用它的值作为HOME目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）。如果存在 &lt;code&gt;C:\.emacs&lt;/code&gt; ，就用 &lt;code&gt;C:\&lt;/code&gt; 作为HOME目录~&lt;/li&gt;&#xA;&lt;li&gt;如果以上都不存在的话，就使用 &lt;code&gt;&amp;lt;system root&amp;gt;\Users\&amp;lt;user name&amp;gt;\AppData\Roaming&lt;/code&gt; 作为HOME目录~（对于XP和较早windows用户，需要到 ～Documents and Settings～ 目录下去找）&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>双网卡一块上网另一块上局域网</title>
       <link>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-03-18-access-internet-with-the-first-network-card-and-access-lan-with-the-second-card/</guid>
-      <description>双网卡一块上网另一块上局域网</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;双网卡一块上网另一块上局域网&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>DNS解析参数配置说明</title>
       <link>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-07-31-dns-configuration-instructions/</guid>
-      <description>A记录 将域名指向一个ip地址（仅IPV4） 双线解析 假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来</description>
+      <description>&lt;h3 id=&#34;a记录&#34;&gt;A记录&lt;/h3&gt;&#xA;&lt;p&gt;将域名指向一个ip地址（仅IPV4）&lt;/p&gt;&#xA;&lt;h3 id=&#34;双线解析&#34;&gt;双线解析&lt;/h3&gt;&#xA;&lt;p&gt;假设双线机房的两种线路为电信、联通，要让联通用户通过联通线路来访问，电信用户通过电信线路来访问。&lt;/p&gt;&#xA;&lt;h3 id=&#34;cname记录&#34;&gt;CNAME记录&lt;/h3&gt;&#xA;&lt;p&gt;将域名指向另一个域名，再由另一个域名提供ip地址，就需要添加CNAME记录。最常用到CNAME的情况包括：做CDN，做企业邮局。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

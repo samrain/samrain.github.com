@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</link>
       <pubDate>Tue, 11 Sep 2018 12:16:33 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</guid>
-      <description>用管理员权限启动PowerShell，然后执行以下脚本： Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}</description>
+      <description>&lt;p&gt;用管理员权限启动PowerShell，然后执行以下脚本：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

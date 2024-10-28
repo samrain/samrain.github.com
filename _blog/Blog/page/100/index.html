@@ -64,11 +64,51 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Linux的目录和文件权限</a></h1>
+					<time>Jun 3, 2016</time>
+					<br><div class="description">
+	
+	<p>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。</p>
+<p>r： 读     4</p>
+<p>w：写     2</p>
+<p>x： 执行 1</p>
+<p>-：  无     0</p>
+<p>rwx合起来就是4+2+1=7</p>
+<pre><code># 要改变文件权限，可使用下面命令：
+chmod 777 x.file
+
+# 看目录情况：
+ls -l
+
+# 要改变文件所属组，可使用下面命令
+chown :users conkyrc.sample
+
+# 要改变文件所属用户，可使用下面命令
+chown user conkyrc.sample
+</code></pre>
+<p>要修改目录，使用 -R参数就可以了，方法和前面一样。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/">IOS开发环境配置学习手册</a></h1>
 					<time>Jun 2, 2016</time>
 					<br><div class="description">
 	
-	准备 一台Mac电脑（OSX升级到10.10），安装最新的XCode。 上developer.apple.com 到为每个人申请开发证书 为每个产品&hellip;
+	<h2 id="准备a-idorgheadline20a">准备<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>一台Mac电脑（OSX升级到10.10），安装最新的XCode。</p>
+<h2 id="上developerapplecoma-idorgheadline26a">上developer.apple.com<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="到为每个人申请开发证书a-idorgheadline21a">到为每个人申请开发证书<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="为每个产品申请生产证书a-idorgheadline22a">为每个产品申请生产证书<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="配置应用权限a-idorgheadline23a">配置应用权限<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="添加测试机器a-idorgheadline24a">添加测试机器<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="新建项目从配置里选择生成文件并下载到本地a-idorgheadline25a">新建项目从配置里选择生成文件，并下载到本地<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h2 id="用xcode打开文件就能开始开发了a-idorgheadline27a">用XCode打开文件就能开始开发了<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="附录a-idorgheadline33a">附录<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="app审核a-idorgheadline28a">APP审核<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<p>新 1W-2W 升级 3D-5D</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/">Read more ⟶</a>
@@ -79,7 +119,10 @@
 					<time>Jun 1, 2016</time>
 					<br><div class="description">
 	
-	QPS = 请求数/秒 每天80%的访问集中在20%峰值时间 ( 总PV数 * 80% ) / ( 每天秒数 * 20% ) = 峰值时间每秒请求数(QPS) 峰值时间每秒请求数(QPS&hellip;
+	<p>QPS = 请求数/秒</p>
+<p>每天80%的访问集中在20%峰值时间</p>
+<p>( 总PV数 * 80% ) / ( 每天秒数 * 20% ) = 峰值时间每秒请求数(QPS)</p>
+<p>峰值时间每秒请求数(QPS) / 单台机器QPS   = 需要的机器</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-01-qps-and-pv-and-machine-number/">Read more ⟶</a>
@@ -90,7 +133,9 @@
 					<time>May 31, 2016</time>
 					<br><div class="description">
 	
-	方便蛮方便，但是有几个缺点： 至少要在win7以上使用，因为要用到Powershell 如果在国内用，下载国外资源非常慢&hellip;
+	<p>方便蛮方便，但是有几个缺点：</p>
+<p>至少要在win7以上使用，因为要用到Powershell</p>
+<p>如果在国内用，下载国外资源非常慢</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-31-chocolatey/">Read more ⟶</a>
@@ -101,21 +146,64 @@
 					<time>May 30, 2016</time>
 					<br><div class="description">
 	
-	配置文件范例fis-conf.js //fis.config.set('modules.postpackager', 'simple'); //Step 2. 取消下面的注释开启pack人工干预 //fis.config.set('pack', { // 'pkg/lib.js': [ // '/lib/mod.js', // '/modules/underscore/**.js', // '/modules/backbone/**.js', // '/modules/jquery/**.js', // '/modules/vendor/**.js', // '/modules/common/**.js' // ] //}); //Step 3. 取消下面的注释可以开&hellip;
+	<p>配置文件范例fis-conf.js</p>
+<pre><code>//fis.config.set('modules.postpackager', 'simple');
+
+//Step 2. 取消下面的注释开启pack人工干预
+//fis.config.set('pack', {
+//    'pkg/lib.js': [
+//        '/lib/mod.js',
+//        '/modules/underscore/**.js',
+//        '/modules/backbone/**.js',
+//        '/modules/jquery/**.js',
+//        '/modules/vendor/**.js',
+//        '/modules/common/**.js'
+//    ]
+//});
+
+//Step 3. 取消下面的注释可以开启simple对零散资源的自动合并
+//fis.config.set('settings.postpackager.simple.autoCombine', true);
+
+
+//Step 4. 取消下面的注释开启图片合并功能
+fis.config.set('roadmap.path', [{
+    reg: '**.css',
+    useSprite: true
+}]);
+fis.config.set('settings.spriter.csssprites.margin', 20);
+
+fis.config.merge({
+        roadmap : {
+            //domain : {
+                //所有css文件添加http://localhost:8080作为域名
+            //    '**.css' : 'http://localhost:8080'
+            //},
+            path : [
+                {
+                    //所有的js文件
+                    reg : '**.js',
+                    //发布到/static/js/xxx目录下
+                    release : '/static/js$&amp;'
+                },
+                {
+                    //所有的css文件
+                    reg : '**.css',
+                    //发布到/static/css/xxx目录下
+                    release : '/static/css$&amp;'
+                },
+                {
+                    //所有image目录下的.png，.gif文件
+                    reg : /^\/images\/(.*\.(?:png|gif))/i,
+                    //发布到/static/pic/xxx目录下
+                    release : '/static/pic/$1'
+                }
+            ]
+        }
+    });
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-30-fis/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">在Chrome中调试nodejs</a></h1>
-					<time>May 29, 2016</time>
-					<br><div class="description">
-	
-	install 安装node-inspector插件 sudo npm install -g node-inspector Getting start node-debug XXX.js 会自动启动chrome（Chromium）浏览器访问http://127.0.0.1&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +224,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</guid>
-      <description>避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要</description>
+      <description>&lt;h2 id=&#34;避免使用arraylist&#34;&gt;避免使用ArrayList。&lt;/h2&gt;&#xA;&lt;p&gt;因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要拆箱回实际的类型。建议使用自定义的集合类型代替ArrayList。.net 2.0提供了一个新的类型，叫泛型，这是一个强类型，使用泛型集合就可以避免了封箱和拆箱的发生，提高了性能。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

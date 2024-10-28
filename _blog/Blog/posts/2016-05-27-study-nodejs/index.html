@@ -2,12 +2,23 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>学习node.js - sam的小窝</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出" />
+	<meta name="description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。
+
+require
+
+加载和使用别的模块，传入一个模块名，返回一个模块导出对象。
+模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。
+模块名中的.js扩展名可以省略。
+
+
+exports
+
+当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2016-05-27-study-nodejs/">
   <meta property="og:site_name" content="sam的小窝">
   <meta property="og:title" content="学习node.js">
-  <meta property="og:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出">
+  <meta property="og:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出对象。 模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。 模块名中的.js扩展名可以省略。 exports 当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -18,7 +29,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="学习node.js">
-  <meta name="twitter:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出">
+  <meta name="twitter:description" content="每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出对象。 模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。 模块名中的.js扩展名可以省略。 exports 当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。">
 <script src="https://www.samrainhan.com/js/feather.min.js"></script>
 	
 	
@@ -301,22 +312,23 @@ https官方文档： <a href="http://nodejs.org/api/https.html">http://nodejs.or
 		</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script></div>
     </body>
 </html>

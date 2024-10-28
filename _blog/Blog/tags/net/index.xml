@@ -13,21 +13,21 @@
       <link>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/</guid>
-      <description>RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击</description>
+      <description>&lt;p&gt;RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击的考验，逐渐为人们接受，普遍认为是目前最优秀的公钥方案之一。RSA的安全性依赖于大数的因子分解，但并没有从理论上证明破译RSA的难度与大数分解难度等价。&lt;/p&gt;</description>
     </item>
     <item>
       <title>常用加解密算法的.net实现</title>
       <link>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</link>
       <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-03-common-encryption-algorithm-by-net-implement/</guid>
-      <description>常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：System.Secu</description>
+      <description>&lt;p&gt;常见的加密和编码算法都已经在 .NET Framework中得到了实现，为编码人员提供了极大的便利性，实现这些算法的名称空间是：&lt;code&gt;System.Security.Cryptography&lt;/code&gt;。.NET Framework 中的数据加密算法仍然不够完全，如 IDEA、BLOWFISH、其它算法，如ElGamal、Deffie-Hellman、ECC 等，对于一些其它的数据校验算法支持也不够，如 CRC、SFV 等，开发人员只能去从早期代码做移植或者寻找第三方厂商的实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>NET性能优化注意事项</title>
       <link>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-12-net-performance-optimization/</guid>
-      <description>避免使用ArrayList。 因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要</description>
+      <description>&lt;h2 id=&#34;避免使用arraylist&#34;&gt;避免使用ArrayList。&lt;/h2&gt;&#xA;&lt;p&gt;因为任何对象添加到ArrayList都要封箱为System.Object类型，从ArrayList取出数据时，要拆箱回实际的类型。建议使用自定义的集合类型代替ArrayList。.net 2.0提供了一个新的类型，叫泛型，这是一个强类型，使用泛型集合就可以避免了封箱和拆箱的发生，提高了性能。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

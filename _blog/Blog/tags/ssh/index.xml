@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-02-19-ssh-the-server-without-password/</guid>
-      <description>Why 维护多台linux服务器, 需要ssh进行操作，每次都要输入 ssh user@x.x.x.x并输入密码OOXX#*&amp;amp;^%, 是一件很浪费时间</description>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;&#xA;&lt;p&gt;维护多台linux服务器, 需要&lt;code&gt;ssh&lt;/code&gt;进行操作，每次都要输入 &lt;code&gt;ssh user@x.x.x.x&lt;/code&gt;并输入密码&lt;code&gt;OOXX#*&amp;amp;^%&lt;/code&gt;, 是一件很浪费时间的事.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

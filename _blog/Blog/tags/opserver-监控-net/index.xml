@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</link>
       <pubDate>Mon, 10 Sep 2018 20:51:30 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-10-install-opserver/</guid>
-      <description>1 build报错 需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x</description>
+      <description>&lt;p&gt;1 build报错&lt;/p&gt;&#xA;&lt;p&gt;需要将其他目录下的【Microsoft.WebApplication.targets】目录复制到【C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\WebApplications】下&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

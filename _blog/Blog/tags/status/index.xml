@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</link>
       <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-07-20-304-not-modified/</guid>
-      <description>客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户</description>
+      <description>&lt;p&gt;客户端有缓冲的文件并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来缓冲的文档还可以继续使用。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

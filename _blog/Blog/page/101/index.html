@@ -64,11 +64,30 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">在Chrome中调试nodejs</a></h1>
+					<time>May 29, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="installa-idorgheadline34a">install<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>安装node-inspector插件</p>
+<pre><code>sudo npm install -g node-inspector
+</code></pre>
+<h2 id="getting-starta-idorgheadline35a">Getting start<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>node-debug XXX.js
+</code></pre>
+<p>会自动启动chrome（Chromium）浏览器访问<a href="http://127.0.0.1:8080/debug?port=5858">http://127.0.0.1:8080/debug?port=5858</a>，这时就可以设置断点进行调试了。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/">调试emacs配置错误</a></h1>
 					<time>May 28, 2016</time>
 					<br><div class="description">
 	
-	M-x toggle-debug-on-error&hellip;
+	<pre><code>M-x toggle-debug-on-error
+</code></pre>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-28-debugging-emacs-configuration-error/">Read more ⟶</a>
@@ -79,7 +98,18 @@
 					<time>May 27, 2016</time>
 					<br><div class="description">
 	
-	每个模块都有require、exports、module三个预先定义好的变量可供使用。 require 加载和使用别的模块，传入一个模块名，返回一个模块导出&hellip;
+	<h1 id="每个模块都有requireexportsmodule三个预先定义好的变量可供使用a-idorgheadline1a">每个模块都有require、exports、module三个预先定义好的变量可供使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<ul>
+<li>require
+<ul>
+<li>加载和使用别的模块，传入一个模块名，返回一个模块导出对象。</li>
+<li>模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。</li>
+<li>模块名中的.js扩展名可以省略。</li>
+</ul>
+</li>
+<li>exports</li>
+</ul>
+<p>当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-27-study-nodejs/">Read more ⟶</a>
@@ -90,7 +120,9 @@
 					<time>May 26, 2016</time>
 					<br><div class="description">
 	
-	在墙壁上贴上不同的标语，每个标语是一个不同的主题。 让团队成员选择：懂的站左边，不懂的站右边。 然后不懂的人从懂的组中选择一人结成搭档共同学习这&hellip;
+	<p>在墙壁上贴上不同的标语，每个标语是一个不同的主题。</p>
+<p>让团队成员选择：懂的站左边，不懂的站右边。</p>
+<p>然后不懂的人从懂的组中选择一人结成搭档共同学习这个主题。</p>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-26-team-learning-simple-tips/">Read more ⟶</a>
@@ -101,21 +133,22 @@
 					<time>May 25, 2016</time>
 					<br><div class="description">
 	
-	公钥的编码格式有ASN.1标准，也有CryptoAPI标准。 他们之间是可以进行转换的，可以参考：http://www.jensign.com&hellip;
+	<h1 id="公钥的编码格式有asn1标准也有cryptoapi标准a-idorgheadline3a">公钥的编码格式有ASN.1标准，也有CryptoAPI标准。<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<p>他们之间是可以进行转换的，可以参考：<a href="http://www.jensign.com/JavaScience/dotnet/JKeyNet/">http://www.jensign.com/JavaScience/dotnet/JKeyNet/</a></p>
+<p>RSA非对象加密在同一种填充模式和保持相同字节顺序下的加解密结果是相同的。</p>
+<h2 id="asn1标准a-idorgheadline1a">ASN.1标准<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<ul>
+<li>SubjectPublicKeyInfo数字证书格式(你提供的第一种格式）</li>
+<li>PKCS</li>
+</ul>
+<h2 id="cryptoapi标准a-idorgheadline2a">CryptoAPI标准<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<ul>
+<li>CSP Parameter（后面的那种格式）</li>
+<li>CSP容器。</li>
+</ul>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-25-public-key-encoding/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">RSA算法在.net中实现</a></h1>
-					<time>May 24, 2016</time>
-					<br><div class="description">
-	
-	RSA算法是第一个能同时用于加密和数字签名的算法，也易于理解和操作。 RSA是被研究得最广泛的公钥算法，从提出到现在已近二十年，经历了各种攻击&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-24-rsa-algorithm-in-net-realized/">Read more ⟶</a>
 				</section>
 				
 				
@@ -136,22 +169,23 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="" rel="me" title="github"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"><i data-feather=""></i></a>
-    <a class="border"></a><a class="soc" href="" rel="me" title="email"><i data-feather=""></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2024  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <div style="display: flex"><a class="soc" href="" rel="me" title="github"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="linkedin"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a><a class="soc" href="" rel="me" title="email"
+            ><i data-feather=""></i
+        ></a>
+        <a class="border"></a></div>
+    <div class="footer-info">
+        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        with <a href="https://gohugo.io">Hugo</a>
+    </div>
 </footer>
-
-
-  
-
-
-<script>
-  feather.replace()
+  <script>
+    feather.replace();
 </script>
 		</div>
 		

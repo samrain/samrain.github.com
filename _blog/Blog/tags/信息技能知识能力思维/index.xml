@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</link>
       <pubDate>Tue, 26 Jan 2021 17:29:53 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2021-01-26-information-skills-knowledge-ability-thinking/</guid>
-      <description>信息、技能、知识、能力、思维 @startuml title 数据-&amp;gt;信息:工具收集 信息-&amp;gt;技能:模板和练习 信息-&amp;gt;知识:归纳总结，实践出真知 知识-&amp;g</description>
+      <description>&lt;h1 id=&#34;信息技能知识能力思维&#34;&gt;信息、技能、知识、能力、思维&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://img.imgdb.cn/item/600fe2003ffa7d37b389dbef.png&#34;&gt;&lt;img src=&#34;https://img.imgdb.cn/item/600fe2003ffa7d37b389dbef.png&#34; alt=&#34;信息、技能、知识、能力、思维&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;@startuml&#xA;&#xA;title &#xA;数据-&amp;gt;信息:工具收集&#xA;信息-&amp;gt;技能:模板和练习&#xA;信息-&amp;gt;知识:归纳总结，实践出真知&#xA;知识-&amp;gt;能力:厚积薄发&#xA;数据-&amp;gt;思维:影响&#xA;信息-&amp;gt;思维:影响&#xA;技能-&amp;gt;思维:影响&#xA;知识-&amp;gt;思维:影响&#xA;能力-&amp;gt;思维:影响&#xA;@enduml&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
