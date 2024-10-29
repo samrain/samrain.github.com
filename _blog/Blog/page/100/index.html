@@ -64,6 +64,22 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/">让linux进程在后台可靠运行的几种方法</a></h1>
+					<time>Jun 4, 2016</time>
+					<br><div class="description">
+	
+	<ul>
+<li>nohup/setsid 无疑是临时需要时最方便的方法</li>
+<li>disown 能帮助我们来事后补救当前已经在运行了的作业</li>
+<li>screen 则是在大批量操作时不二的选择了。</li>
+</ul>
+<p>详细见：<a href="http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html">http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html</a></p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Linux的目录和文件权限</a></h1>
 					<time>Jun 3, 2016</time>
 					<br><div class="description">
@@ -139,71 +155,6 @@ chown user conkyrc.sample
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-31-chocolatey/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-30-fis/">FIS 前端发布工具 百度出品</a></h1>
-					<time>May 30, 2016</time>
-					<br><div class="description">
-	
-	<p>配置文件范例fis-conf.js</p>
-<pre><code>//fis.config.set('modules.postpackager', 'simple');
-
-//Step 2. 取消下面的注释开启pack人工干预
-//fis.config.set('pack', {
-//    'pkg/lib.js': [
-//        '/lib/mod.js',
-//        '/modules/underscore/**.js',
-//        '/modules/backbone/**.js',
-//        '/modules/jquery/**.js',
-//        '/modules/vendor/**.js',
-//        '/modules/common/**.js'
-//    ]
-//});
-
-//Step 3. 取消下面的注释可以开启simple对零散资源的自动合并
-//fis.config.set('settings.postpackager.simple.autoCombine', true);
-
-
-//Step 4. 取消下面的注释开启图片合并功能
-fis.config.set('roadmap.path', [{
-    reg: '**.css',
-    useSprite: true
-}]);
-fis.config.set('settings.spriter.csssprites.margin', 20);
-
-fis.config.merge({
-        roadmap : {
-            //domain : {
-                //所有css文件添加http://localhost:8080作为域名
-            //    '**.css' : 'http://localhost:8080'
-            //},
-            path : [
-                {
-                    //所有的js文件
-                    reg : '**.js',
-                    //发布到/static/js/xxx目录下
-                    release : '/static/js$&amp;'
-                },
-                {
-                    //所有的css文件
-                    reg : '**.css',
-                    //发布到/static/css/xxx目录下
-                    release : '/static/css$&amp;'
-                },
-                {
-                    //所有image目录下的.png，.gif文件
-                    reg : /^\/images\/(.*\.(?:png|gif))/i,
-                    //发布到/static/pic/xxx目录下
-                    release : '/static/pic/$1'
-                }
-            ]
-        }
-    });
-</code></pre>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-30-fis/">Read more ⟶</a>
 				</section>
 				
 				
