@@ -64,6 +64,102 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/">Install Gentoo In Virtualbox</a></h1>
+					<time>Jan 15, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIT2t2cDlpMWI3anM/edit">思维导图文件下载</a></p>
+<h2 id="1下载mini安装包httpmirrors163comgentooreleasesamd64autobuildscurrent-install-amd64-minimalinstall-amd64-minimal-20121013iso">1<a href="http://mirrors.163.com/Gentoo/Releases/Amd64/Autobuilds/Current-install-amd64-minimal/install-amd64-minimal-20121013.iso">下载mini安装包</a></h2>
+<h2 id="2在virtualbox上建立gentoo64bit系统">2在Virtualbox上建立Gentoo64bit系统</h2>
+<h3 id="网络">网络</h3>
+<ul>
+<li>网卡1</li>
+<li>混杂模式
+全部允许</li>
+</ul>
+<h3 id="存储">存储</h3>
+<ul>
+<li>IDE控制器</li>
+<li>添加新盘
+下载好的安装包</li>
+</ul>
+<h2 id="3启动虚拟机">3启动虚拟机</h2>
+<h3 id="按f1">按F1</h3>
+<ul>
+<li>输入<code>gentoo</code></li>
+</ul>
+<h2 id="4设置网络">4设置网络</h2>
+<h3 id="mkdir-run"><code>mkdir /run</code></h3>
+<h3 id="dhcpcd-eth0"><code>dhcpcd eth0</code></h3>
+<h2 id="5验证网络">5验证网络</h2>
+<h3 id="ping-wwwgooglecom"><code>ping www.google.com</code></h3>
+<h2 id="6启动ssh">6启动SSH</h2>
+<h3 id="etcinitdsshd-start"><code>/etc/init.d/sshd start</code></h3>
+<h2 id="7修改root密码">7修改root密码</h2>
+<h3 id="passwd"><code>passwd</code></h3>
+<h2 id="8分区">8分区</h2>
+<h3 id="fdisk"><code>fdisk</code></h3>
+<h2 id="9安装stage3">9安装Stage3</h2>
+<h3 id="1下载文件">1下载文件</h3>
+<ul>
+<li><code>links http://www.gentoo.org/main/en/mirrors.xml</code>
+找到asia netease
+进入目录【releases/amd64/autobuilds】
+找到文件stage3-amd64-20121013.tar.bz2
+按D键</li>
+</ul>
+<h3 id="2安装文件">2安装文件</h3>
+<ul>
+<li><code>cd /mnt/gentoo</code></li>
+<li><code>tar xvjpf stage3-*.tar.bz2</code></li>
+</ul>
+<h2 id="10配置编译选项">10配置编译选项</h2>
+<h3 id="打开etcmakeconf">打开/etc/make.conf</h3>
+<ul>
+<li><code>nano -w /mnt/gentoo/etc/make.conf</code></li>
+<li>CFLAGS=&quot;-march=k8 -O2 -pipe&quot;   # EM64T应该使用-march=nocona # 两个变量使用相同的设置 CXXFLAGS=&quot;${CFLAGS}&quot;  # j后面的数字是CPU的数目加一 MAKEOPTS=&quot;-j2&quot;</li>
+</ul>
+<h2 id="11chroot">11Chroot</h2>
+<h3 id="选择境像站点">选择境像站点</h3>
+<ul>
+<li>使用mirrorselect更新GENTOO_MIRRORS变量
+<code>mirrorselect -i -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf</code></li>
+<li>使用mirrorselect选择rsync镜像站点
+<code>mirrorselect -i -r -o &amp;gt;&amp;gt; /mnt/gentoo/etc/make.conf</code></li>
+<li>再检查一下/mnt/gentoo/etc/make.conf里的设置</li>
+</ul>
+<h3 id="拷贝dns信息">拷贝DNS信息</h3>
+<ul>
+<li><code>cp -L /etc/resolv.conf /mnt/gentoo/etc/</code></li>
+</ul>
+<h3 id="挂载proc和dev文件系统">挂载/proc和/dev文件系统</h3>
+<ul>
+<li><code>mount -t proc none /mnt/gentoo/proc mount -o bind /dev /mnt/gentoo/dev</code></li>
+</ul>
+<h3 id="进入新的系统环境">进入新的系统环境</h3>
+<ul>
+<li>chroot到新环境里
+<code>chroot /mnt/gentoo /bin/bash env-update source /etc/profile export PS1=&amp;quot;(chroot) $PS1&amp;quot;</code></li>
+</ul>
+<h2 id="12配置portage">12配置Portage</h2>
+<h3 id="更新portage树">更新Portage树</h3>
+<ul>
+<li><code>emerge --sync --quiet</code></li>
+</ul>
+<h3 id="选择正确的profile">选择正确的Profile</h3>
+<ul>
+<li>验证系统profile
+<code>eselect profile list</code></li>
+<li>切换profile
+<code>eselect profile set 2</code></li>
+<li>切换到non-multilib profile</li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-01-15-install-gentoo-in-virtualbox/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-01-15-use-vpn-by-cli-command-on-ubuntu/">在Ubuntu上使用命令行CLI方式使用VPN</a></h1>
 					<time>Jan 15, 2013</time>
 					<br><div class="description">
@@ -430,62 +526,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2012-12-28-2013-new-year-day-spa-tour/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2012-12-28-list-of-tourism-scenic-area/">旅游风景区清单</a></h1>
-					<time>Dec 28, 2012</time>
-					<br><div class="description">
-	
-	<p><a href="https://docs.google.com/open?id=0B1DrsqrLRzeISDFnbTVFZjgwSTQ">思维导图文件下载</a></p>
-<h1 id="安徽">安徽</h1>
-<ul>
-<li>
-<p>黄山</p>
-<pre><code>  醉温泉
-</code></pre>
-</li>
-<li>
-<p>泾县</p>
-<pre><code>  赤滩
-
-  黄田
-
-  查济
-
-  桃花潭
-</code></pre>
-</li>
-<li>
-<p>绩溪</p>
-<pre><code>  胡宗宪尚书府
-</code></pre>
-</li>
-<li>
-<p>歙县</p>
-<pre><code>  呈坎
-
-  唐模
-
-  棠樾牌坊群
-
-  徽州古城
-
-  徽园
-
-  渔梁
-</code></pre>
-</li>
-<li>
-<p>屯溪</p>
-<pre><code>  花山石窟
-
-  老街</code></pre>
-</li>
-</ul>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2012-12-28-list-of-tourism-scenic-area/">Read more ⟶</a>
 				</section>
 				
 				

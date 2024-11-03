@@ -64,6 +64,33 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/">xen客户端无法连上服务 by citrix</a></h1>
+					<time>Jun 21, 2016</time>
+					<br><div class="description">
+	
+	<p>运行以下脚本</p>
+<pre><code>#看是否硬盘分区是否已经装满
+df -h
+
+#进入log目录
+cd /var/log
+
+#看文件的大小
+du -ksh *.*
+
+#删除大log文件
+rm *.gz -f
+
+#重启xapi服务
+service xapi stop
+service xapi start
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-21-xen-client-unable-to-access-services-by-citrix/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-20-java-code-for-http-requests-the-entire-url/">Java代码获取http请求的整个URL</a></h1>
 					<time>Jun 20, 2016</time>
 					<br><div class="description">
@@ -115,21 +142,6 @@ url+=&quot;?&quot;+request.getQueryString();
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-17-solve-the-problem-of-parallel-downloads/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-16-learn-openresty/">learn openresty</a></h1>
-					<time>Jun 16, 2016</time>
-					<br><div class="description">
-	
-	<h1 id="openresty管理命令a-idorgheadline7a">openresty管理命令<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<p>#重启
-nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload</p>
-<p>#关闭
-nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s quit</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-16-learn-openresty/">Read more ⟶</a>
 				</section>
 				
 				
