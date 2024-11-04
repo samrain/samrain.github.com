@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>文档,生命周期, on sam的小窝</title>
+    <title>文档,生命周期 on sam的小窝</title>
     <link>https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
-    <description>Recent content in 文档,生命周期, on sam的小窝</description>
+    <description>Recent content in 文档,生命周期 on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jul 2019 15:37:45 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 12:08:42 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/tags/%E6%96%87%E6%A1%A3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>文档全生命周期管理</title>
-      <link>https://www.samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</link>
-      <pubDate>Tue, 09 Jul 2019 15:37:45 +0800</pubDate>
-      <guid>https://www.samrainhan.com/posts/2019-07-09-document-full-lifecycle-management/</guid>
-      <description>&lt;h1 id=&#34;文档生命周期文件从产生直至因丧失作用而被销毁或者因具有长远历史价值而被档案馆永久保存的整体运动过程&#34;&gt;文档生命周期：文件从产生直至因丧失作用而被销毁或者因具有长远历史价值而被档案馆永久保存的整体运动过程。&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pic.superbed.cn/item/5d04ad9f451253d1787984ca.png&#34;&gt;&lt;img src=&#34;https://pic.superbed.cn/item/5d04ad9f451253d1787984ca&#34; alt=&#34;文档全生命周期管理&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <title>文档的生命周期（阶段&#43;定义&#43;支持的技术和应用）</title>
+      <link>https://www.samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</link>
+      <pubDate>Thu, 12 Dec 2019 12:08:42 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2019-12-12-document-life-cycle-phase-definition-supported-technologies-and-applications/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pic3.superbed.cn/item/5df1bdcd1f8f59f4d63e85ea.png&#34;&gt;&lt;img src=&#34;https://pic3.superbed.cn/item/5df1bdcd1f8f59f4d63e85ea.png&#34; alt=&#34;文档的生命周期&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
