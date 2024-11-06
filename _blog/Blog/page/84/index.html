@@ -64,6 +64,22 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/">在Emacs中按照黄金分割比例调整屏幕</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	<p>after install golden ratio package,let&rsquo;s add it:</p>
+<pre><code>(use-package golden-ratio
+  :ensure t
+  :diminish golden-ratio-mode
+  :init
+  (golden-ratio-mode 1))</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-what-is-bosun/">Bosun go编写的跨平台监控系统</a></h1>
 					<time>Sep 12, 2018</time>
 					<br><div class="description">
@@ -138,35 +154,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a></h1>
-					<time>Sep 11, 2018</time>
-					<br><div class="description">
-	
-	<ul>
-<li>
-<p>迁移非系统数据库</p>
-<pre><code>  use master
-  go
-  sp_detach_db '非系统数据库'
-  go
-
-
-  use master
-  go
-  sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\非系统数据库.ldf'
-  go
-
-  重启Sqlserver
-</code></pre>
-</li>
-<li>
-<p>迁移系统数据库</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">Read more ⟶</a>
 				</section>
 				
 				
