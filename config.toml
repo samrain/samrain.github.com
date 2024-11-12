@@ -22,6 +22,8 @@ hasCJKLanguage = true
 	enableRSS = true
 	enableToc = true
 
+	ignoreLogs = ['warning-goldmark-raw-html']
+
 	enableDisqus = true
 	disqusShortname = "samrainblogbygithub"
 
@@ -125,7 +127,7 @@ hasCJKLanguage = true
 
 [permalinks]
   post = "/:year/:month/:title/"
-  
+
 # summaryLength = 2
 
 # Main menu which appears below site header.
