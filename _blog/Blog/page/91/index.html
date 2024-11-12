@@ -64,6 +64,68 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">整理SqlServer表上索引碎片</a></h1>
+					<time>Jul 25, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="查询当前数据库的表上索引碎片情况按照严重程度顺序排列a-idorgheadline28a">查询当前数据库的表上索引碎片情况，按照严重程度顺序排列<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>USE DBNAME;
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation
+FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id;
+
+SELECT * FROM #TempFragmentation ORDER BY [Fragmentation %] DESC;
+
+DROP TABLE #TempFragmentation;
+</code></pre>
+<h2 id="查询当前数据库的表上从来没有使用过的索引a-idorgheadline29a">查询当前数据库的表上从来没有使用过的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED 
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(O.Schema_ID) AS SchemaName 
+, OBJECT_NAME(I.object_id) AS TableName 
+, I.name AS IndexName 
+INTO #TempNeverUsedIndexes 
+FROM sys.indexes I INNER JOIN sys.objects O ON I.object_id = O.object_id
+
+
+SELECT * FROM #TempNeverUsedIndexes 
+ORDER BY DatbaseName, SchemaName, TableName, IndexName
+
+
+DROP TABLE #TempNeverUsedIndexes
+</code></pre>
+<h2 id="查询当前数据库的表上使用的比较少的索引a-idorgheadline30a">查询当前数据库的表上使用的比较少的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
+SELECT 
+DB_NAME() AS DatabaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, s.user_updates 
+, s.system_seeks + s.system_scans + s.system_lookups AS [System USAGE] INTO #TempUnusedIndexes
+FROM sys.dm_db_index_usage_stats s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id ;
+SELECT TOP 20 *
+FROM #TempUnusedIndexes ORDER BY [user_updates] DESC ;
+DROP TABLE #TempUnusedIndexes
+</code></pre>
+<h2 id="重建索引对于碎片比较厉害的索引效果比重组要好a-idorgheadline31a">重建索引，对于碎片比较厉害的索引，效果比重组要好<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>ALTER INDEX [INDEX_NAME] ON Table_Name REBUILD PARTITION = ALL WITH ( PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, ONLINE = OFF, SORT_IN_TEMPDB = OFF )
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">避免URL中出现JSESSIONID</a></h1>
 					<time>Jul 24, 2016</time>
 					<br><div class="description">
@@ -142,17 +204,6 @@ nameserver 202.106.0.20
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Emacs 添加一条org</a></h1>
-					<time>Jul 20, 2016</time>
-					<br><div class="description">
-	
-	<p>M-X org-add-note</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Read more ⟶</a>
 				</section>
 				
 				
