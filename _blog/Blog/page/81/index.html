@@ -64,6 +64,21 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/">NFS的缺点</a></h1>
+					<time>Jun 20, 2019</time>
+					<br><div class="description">
+	
+	<h2 id="1-单点故障如果nfs-server宕机所有客户端无法连接">1. 单点故障，如果nfs server宕机，所有客户端无法连接</h2>
+<h2 id="2-高并发场合nfs效率低2千万的pv日网站不是瓶颈除非网站架构性能太差">2. 高并发场合，NFS效率低（2千万的PV/日网站不是瓶颈，除非网站架构性能太差）</h2>
+<h2 id="3-客户端认证时候基于ip和主机名权限是根绝id识别安全性一般放置于内网比较好">3. 客户端认证时候基于ip和主机名，权限是根绝ID识别，安全性一般，（放置于内网比较好）</h2>
+<h2 id="4-nfs数据传输是明文对数据完整性不做完整">4. NFS数据传输是明文，对数据完整性不做完整</h2>
+<h2 id="5-多台机器挂载nfs时候连接管理麻烦尤其服务器端出问题所有nfs-客户端都是挂掉状态">5. 多台机器挂载NFS时候，连接管理麻烦，尤其服务器端出问题，所有NFS 客户端都是挂掉状态</h2>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-20-defects-of-nfs/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-06-18-matrix-of-wps/">WPS产品矩阵</a></h1>
 					<time>Jun 18, 2019</time>
 					<br><div class="description">
@@ -439,82 +454,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-13-list-of-presales/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">服务商认证流程</a></h1>
-					<time>Jun 12, 2019</time>
-					<br><div class="description">
-	
-	<p><a href="https://pic.superbed.cn/item/5d0118ba451253d178250889.jpg"><img src="https://pic.superbed.cn/item/5d0118ba451253d178250889" alt="服务商认证流程"></a></p>
-<pre tabindex="0"><code>@startuml
-skinparam titleBorderRoundCorner 15
-skinparam titleBorderThickness 2
-skinparam titleBorderColor red
-skinparam TitleFontSize 50
-skinparam titleBackgroundColor Aqua-CadetBlue
-title:服务商认证流程
-
-|有意愿的专业技术服务商|
-start
-:提交申请表;
-|渠道部区域负责人|
-if(初审) then (不通过)
-|渠道部区域负责人|
-:通知不通过意见和理由;
-|有意愿的专业技术服务商|
-:收到通知决定是否继续申请;
-end
-else (通过)
-|渠道部区域负责人|
-:发给技术再次审核;
-endif
-|服务部区域负责人|
-if(上门现场考核) then  (通过)
-|有意愿的专业技术服务商|
-:提供2名技术人员跟随学习2个月;
-else(不通过)
-|服务部区域负责人|
-:通知现场考核不通过意见和理由;
-|渠道部区域负责人|
-:通知不通过意见和理由;
-|有意愿的专业技术服务商|
-:收到通知决定是否继续申请;
-end
-endif
-|服务部区域负责人|
-if(评审2名技术人员的技术能力和学习期间表现) then   (不通过)
-|服务部区域负责人|
-:通知现场考核不通过意见和理由;
-|渠道部区域负责人|
-:通知不通过意见和理由;
-|有意愿的专业技术服务商|
-:收到通知决定是否继续申请;
-end
-else (通过)
-|服务部区域负责人|
-:通知渠道部;
-endif
-|渠道部区域负责人|
-if(决定是否和这家服务商签约) then (不通过)
-|渠道部区域负责人|
-:通知不通过意见和理由;
-|有意愿的专业技术服务商|
-:收到通知决定是否继续申请;
-end
-else (通过)
-|渠道部区域负责人|
-:通知签约;
-endif
-|有意愿的专业技术服务商|
-:签约;
-stop
-floating note right: 定时参加培训，如果考试不过关，将会被取消服务商资格！、
-@enduml
-</code></pre>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2019-06-12-service-provider-certification-process/">Read more ⟶</a>
 				</section>
 				
 				

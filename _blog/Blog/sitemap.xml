@@ -2,20 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.samrainhan.com/tags/ai/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
     <loc>https://www.samrainhan.com/categories/</loc>
-    <lastmod>2024-11-12T18:38:25+08:00</lastmod>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/gtd/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/im/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/</loc>
-    <lastmod>2024-11-12T18:38:25+08:00</lastmod>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/</loc>
-    <lastmod>2024-11-12T18:38:25+08:00</lastmod>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/</loc>
-    <lastmod>2024-11-12T18:38:25+08:00</lastmod>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/categories/work/</loc>
-    <lastmod>2024-11-12T18:38:25+08:00</lastmod>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/wps/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/posts/2024-11-15-use-woa-to-build-my-gtd-toolchain/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
+  </url><url>
+    <loc>https://www.samrainhan.com/tags/%E5%B7%A5%E5%85%B7%E9%93%BE/</loc>
+    <lastmod>2024-11-15T21:38:06+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/</loc>
     <lastmod>2024-11-12T18:38:25+08:00</lastmod>
@@ -127,9 +148,6 @@
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E9%87%91%E8%9E%8D/</loc>
     <lastmod>2024-10-27T23:45:45+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/ai/</loc>
-    <lastmod>2024-08-08T09:30:01+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%9C%BA%E6%99%AF/</loc>
     <lastmod>2024-08-08T09:30:01+08:00</lastmod>
@@ -461,9 +479,6 @@
     <loc>https://www.samrainhan.com/posts/2023-09-25-airscript/</loc>
     <lastmod>2023-09-25T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/tags/wps/</loc>
-    <lastmod>2023-09-25T09:32:11+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/tags/%E9%87%91%E5%B1%B1/</loc>
     <lastmod>2023-09-25T09:32:11+08:00</lastmod>
   </url><url>
@@ -617,9 +632,6 @@
     <loc>https://www.samrainhan.com/tags/%E9%BB%91%E8%89%B2/</loc>
     <lastmod>2023-09-06T23:08:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.samrainhan.com/tags/im/</loc>
-    <lastmod>2023-09-05T10:46:05+08:00</lastmod>
-  </url><url>
     <loc>https://www.samrainhan.com/posts/2023-09-05-enterprise-customer-cases-of-the-three-major-ims/</loc>
     <lastmod>2023-09-05T10:46:05+08:00</lastmod>
   </url><url>
@@ -660,9 +672,6 @@
     <lastmod>2023-08-30T10:20:15+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/posts/2023-08-29-the-romance-of-the-three-kingdoms-of-the-enterprise-office-collaboration-platform/</loc>
-    <lastmod>2023-08-29T10:13:02+08:00</lastmod>
-  </url><url>
-    <loc>https://www.samrainhan.com/tags/%E5%8D%8F%E4%BD%9C/</loc>
     <lastmod>2023-08-29T10:13:02+08:00</lastmod>
   </url><url>
     <loc>https://www.samrainhan.com/tags/%E5%B9%B3%E5%8F%B0/</loc>
