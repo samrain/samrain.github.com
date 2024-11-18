@@ -6,8 +6,15 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 Nov 2024 22:46:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 09:51:15 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>跟研发团队沟通需求常用的一些话</title>
+      <link>https://www.samrainhan.com/posts/2024-11-17-some-commonly-used-sentences-when-communicating-requirements-with-the-rd-team/</link>
+      <pubDate>Sun, 17 Nov 2024 09:51:15 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-11-17-some-commonly-used-sentences-when-communicating-requirements-with-the-rd-team/</guid>
+      <description>&lt;p&gt;1.业务问题到底是什么&lt;/p&gt;&#xA;&lt;p&gt;2.问题要解决吗&lt;/p&gt;&#xA;&lt;p&gt;3.该不该现在解决&lt;/p&gt;&#xA;&lt;p&gt;4.用户角度会怎么用功能&lt;/p&gt;&#xA;&lt;p&gt;5.怎么最小成本适应客户需求变化&lt;/p&gt;&#xA;&lt;p&gt;6.有没有更好的方案&lt;/p&gt;&#xA;&lt;p&gt;7.能不能再简单点&lt;/p&gt;&#xA;&lt;p&gt;8.能不能再快点&lt;/p&gt;</description>
+    </item>
     <item>
       <title>洗地机使用心得</title>
       <link>https://www.samrainhan.com/posts/2024-11-16-my-experience-of-using-floor-washers/</link>
