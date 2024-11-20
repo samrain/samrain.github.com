@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</link>
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>&lt;p&gt;after install golden ratio package,let&amp;rsquo;s add it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;(use-package golden-ratio&#xA;  :ensure t&#xA;  :diminish golden-ratio-mode&#xA;  :init&#xA;  (golden-ratio-mode 1))&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;after install golden ratio package,let&amp;rsquo;s add it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;(use-package golden-ratio&#xA;  :ensure t&#xA;  :diminish golden-ratio-mode&#xA;  :init&#xA;  (golden-ratio-mode 1))&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

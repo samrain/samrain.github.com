@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2021-06-22-make-startup-items-in-ubuntu-mate/</link>
       <pubDate>Tue, 22 Jun 2021 11:59:58 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2021-06-22-make-startup-items-in-ubuntu-mate/</guid>
-      <description>&lt;h1 id=&#34;ubuntu-mate-制作启动项用终端运行编辑器micro&#34;&gt;ubuntu-mate 制作启动项，用终端运行编辑器micro&lt;/h1&gt;&#xA;&lt;pre&gt;&lt;code&gt;mate-terminal --hide-menubar --maximize  -t &amp;quot;Micro&amp;quot; --working-directory=~/下载 -x micro ~/下载/tmp.md&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;h1 id=&#34;ubuntu-mate-制作启动项用终端运行编辑器micro&#34;&gt;ubuntu-mate 制作启动项，用终端运行编辑器micro&lt;/h1&gt;&#xA;&lt;pre&gt;&lt;code&gt;mate-terminal --hide-menubar --maximize  -t &amp;quot;Micro&amp;quot; --working-directory=~/下载 -x micro ~/下载/tmp.md&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

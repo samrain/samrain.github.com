@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
       <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</guid>
-      <description>&lt;p&gt;&lt;code&gt;--dbName为数据库名&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;use dbName&#xA;&#xA;BACKUP LOG dbName To DISK = N&#39;nul&#39;&#xA;&#xA;go&#xA;&#xA;dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&#xA;dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)&#xA;&#xA;go&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;--dbName为数据库名&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;use dbName&#xA;&#xA;BACKUP LOG dbName To DISK = N&#39;nul&#39;&#xA;&#xA;go&#xA;&#xA;dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&#xA;dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>整理SqlServer表上索引碎片</title>

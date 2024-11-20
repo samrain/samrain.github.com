@@ -1770,7 +1770,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</link>
       <pubDate>Wed, 12 Sep 2018 20:23:16 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-add-2-files-to-tempdb-for-caching/</guid>
-      <description>&lt;p&gt;sql脚本如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;USE [master];&#xA;GO&#xA;alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB);&#xA;GO&#xA;/* Adding three additional files */&#xA;USE [master];&#xA;GO&#xA;ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0);&#xA;GO&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;sql脚本如下：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;USE [master];&#xA;GO&#xA;alter database tempdb modify file (name=&#39;tempdev&#39;, size = 8GB);&#xA;GO&#xA;/* Adding three additional files */&#xA;USE [master];&#xA;GO&#xA;ALTER DATABASE [tempdb] ADD FILE (NAME = N&#39;tempdev2&#39;, FILENAME = N&#39;E:\SQLDATA\tempdev2.ndf&#39; , SIZE = 8GB , FILEGROWTH = 0);&#xA;GO&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>如何找到没有聚集索引的表</title>
@@ -1798,7 +1798,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</link>
       <pubDate>Wed, 12 Sep 2018 09:56:20 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-12-resize-your-windows-to-the-golden-ratio-in-emacs/</guid>
-      <description>&lt;p&gt;after install golden ratio package,let&amp;rsquo;s add it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;(use-package golden-ratio&#xA;  :ensure t&#xA;  :diminish golden-ratio-mode&#xA;  :init&#xA;  (golden-ratio-mode 1))&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;after install golden ratio package,let&amp;rsquo;s add it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;(use-package golden-ratio&#xA;  :ensure t&#xA;  :diminish golden-ratio-mode&#xA;  :init&#xA;  (golden-ratio-mode 1))&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Bosun go编写的跨平台监控系统</title>
@@ -1812,7 +1812,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</link>
       <pubDate>Tue, 11 Sep 2018 12:16:33 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-11-recursively-queries-a-file-in-a-directory-and-outputs-it-as-a-full-path/</guid>
-      <description>&lt;p&gt;用管理员权限启动PowerShell，然后执行以下脚本：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;用管理员权限启动PowerShell，然后执行以下脚本：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Get-ChildItem -Recurse *.dll -path c:\test|%{$_.FullName}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>在rsync时避免同步某些文件</title>
@@ -1826,7 +1826,7 @@
       <link>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</link>
       <pubDate>Tue, 11 Sep 2018 11:40:50 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;    `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/`&#xA;&#xA;    if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and        OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1)&#xA;    DROP PROCEDURE [dbo].[存储过程名]&#xA;    GO&#xA;&#xA;&#xA;    SET ANSI_NULLS ON&#xA;    GO&#xA;&#xA;&#xA;    SET QUOTED_IDENTIFIER ON&#xA;    GO&#xA;&#xA;    CREATE PROCEDURE [dbo].[存储过程名]&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;pre&gt;&lt;code&gt;    `/****** Object: StoredProcedure [dbo].[存储过程名] Script Date: 2018-08-31 11:09 ******/`&#xA;&#xA;    if exists (select top(1) id from sysobjects where id = object_id(N&#39;存储过程名&#39;) and        OBJECTPROPERTY(id, N&#39;IsProcedure&#39;) = 1)&#xA;    DROP PROCEDURE [dbo].[存储过程名]&#xA;    GO&#xA;&#xA;&#xA;    SET ANSI_NULLS ON&#xA;    GO&#xA;&#xA;&#xA;    SET QUOTED_IDENTIFIER ON&#xA;    GO&#xA;&#xA;    CREATE PROCEDURE [dbo].[存储过程名]&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>如果用脚本迁移SQLServer数据库</title>
@@ -1868,7 +1868,7 @@
       <link>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</link>
       <pubDate>Sat, 30 Jun 2018 14:30:17 +0800</pubDate>
       <guid>https://www.samrainhan.com/posts/2018-06-30-clear-logs-of-sqlserver-alwayson/</guid>
-      <description>&lt;p&gt;&lt;code&gt;--dbName为数据库名&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;use dbName&#xA;&#xA;BACKUP LOG dbName To DISK = N&#39;nul&#39;&#xA;&#xA;go&#xA;&#xA;dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&#xA;dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)&#xA;&#xA;go&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;--dbName为数据库名&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;use dbName&#xA;&#xA;BACKUP LOG dbName To DISK = N&#39;nul&#39;&#xA;&#xA;go&#xA;&#xA;dbcc shrinkfile(dbName_log,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&#xA;dbcc shrinkdatabase(dbName,0, TRUNCATEONLY)&#xA;&#xA;go&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>QQ 微信和WPS在移动端的协作场景</title>
