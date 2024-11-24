@@ -64,6 +64,82 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-26-my-online-library/">我的网上图书馆</a></h1>
+					<time>Jul 26, 2016</time>
+					<br><div class="description">
+	
+	<p><a href="http://115.29.194.28:52687/">http://115.29.194.28:52687/</a></p>
+<p><a href="http://115.29.194.28:52687/mobile">http://115.29.194.28:52687/mobile</a></p>
+<p>用户名：guest</p>
+<p>密码：ibook</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-26-my-online-library/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">整理SqlServer表上索引碎片</a></h1>
+					<time>Jul 25, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="查询当前数据库的表上索引碎片情况按照严重程度顺序排列a-idorgheadline28a">查询当前数据库的表上索引碎片情况，按照严重程度顺序排列<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>USE DBNAME;
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, ROUND(s.avg_fragmentation_in_percent,2) AS [Fragmentation %] INTO #TempFragmentation
+FROM sys.dm_db_index_physical_stats(db_id(), NULL, NULL, NULL, NULL) s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id;
+
+SELECT * FROM #TempFragmentation ORDER BY [Fragmentation %] DESC;
+
+DROP TABLE #TempFragmentation;
+</code></pre>
+<h2 id="查询当前数据库的表上从来没有使用过的索引a-idorgheadline29a">查询当前数据库的表上从来没有使用过的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED 
+SELECT 
+DB_NAME() AS DatbaseName 
+, SCHEMA_NAME(O.Schema_ID) AS SchemaName 
+, OBJECT_NAME(I.object_id) AS TableName 
+, I.name AS IndexName 
+INTO #TempNeverUsedIndexes 
+FROM sys.indexes I INNER JOIN sys.objects O ON I.object_id = O.object_id
+
+
+SELECT * FROM #TempNeverUsedIndexes 
+ORDER BY DatbaseName, SchemaName, TableName, IndexName
+
+
+DROP TABLE #TempNeverUsedIndexes
+</code></pre>
+<h2 id="查询当前数据库的表上使用的比较少的索引a-idorgheadline30a">查询当前数据库的表上使用的比较少的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
+SELECT 
+DB_NAME() AS DatabaseName 
+, SCHEMA_NAME(o.Schema_ID) AS SchemaName 
+, OBJECT_NAME(s.[object_id]) AS TableName 
+, i.name AS IndexName 
+, s.user_updates 
+, s.system_seeks + s.system_scans + s.system_lookups AS [System USAGE] INTO #TempUnusedIndexes
+FROM sys.dm_db_index_usage_stats s
+INNER JOIN sys.indexes i ON s.[object_id] = i.[object_id] AND s.index_id = i.index_id
+INNER JOIN sys.objects o ON i.object_id = O.object_id ;
+SELECT TOP 20 *
+FROM #TempUnusedIndexes ORDER BY [user_updates] DESC ;
+DROP TABLE #TempUnusedIndexes
+</code></pre>
+<h2 id="重建索引对于碎片比较厉害的索引效果比重组要好a-idorgheadline31a">重建索引，对于碎片比较厉害的索引，效果比重组要好<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>ALTER INDEX [INDEX_NAME] ON Table_Name REBUILD PARTITION = ALL WITH ( PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, ONLINE = OFF, SORT_IN_TEMPDB = OFF )
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-25-sort-sqlserver-table-index-fragments/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-24-avoid-jsessionid-in-url/">避免URL中出现JSESSIONID</a></h1>
 					<time>Jul 24, 2016</time>
 					<br><div class="description">
@@ -107,52 +183,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-22-site-release-sequence-diagram/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Linux系统下设置静态IP</a></h1>
-					<time>Jul 21, 2016</time>
-					<br><div class="description">
-	
-	<h2 id="编辑-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="将dhcp-一行屏蔽a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
-<pre><code># The primary network interface
-
-auto eth0
-
-#iface eth0 inet dhcp
-</code></pre>
-<h3 id="添加和静态ip有关的参数a-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
-<pre><code># The primary network interface
-
-iface eth0 inet static
-
-address 192.168.0.10
-
-netmask 255.255.255.0
-
-gateway 192.168.0.1
-</code></pre>
-<h2 id="编辑-etcresolvconf-设置dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<pre><code>nameserver 202.96.134.133
-
-nameserver 202.106.0.20
-</code></pre>
-<p>ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 <code>/etc/ppp/peers/dsl-provider</code> 注释掉userpeerdns这一行即可</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Emacs 添加一条org</a></h1>
-					<time>Jul 20, 2016</time>
-					<br><div class="description">
-	
-	<p>M-X org-add-note</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Read more ⟶</a>
 				</section>
 				
 				

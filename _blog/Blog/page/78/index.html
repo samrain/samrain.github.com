@@ -64,6 +64,59 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">.NET项目编译脚本</a></h1>
+					<time>Dec 12, 2019</time>
+					<br><div class="description">
+	
+	<h2 id="编译整体项目-compile">编译整体项目 compile</h2>
+<pre tabindex="0"><code>call %dir-of-bat%%filename-of-get-last-version%
+call %dir-of-bat%%filename-of-clean-sln%
+call %dir-of-bat%%filename-of-rebulid-sln%
+</code></pre><h2 id="获取最新代码-get-last-version">获取最新代码 get-last-version</h2>
+<pre tabindex="0"><code>call &#34;d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat&#34;
+tf get %dir-of-code% /recursive
+</code></pre><h2 id="清理工程-clean-sln">清理工程 clean-sln</h2>
+<pre tabindex="0"><code>msbuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Clean /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
+</code></pre><h2 id="重新编译工程-rebulid-sln">重新编译工程 rebulid-sln</h2>
+<pre tabindex="0"><code>MSBuild %dir-of-sln-code%%name-of-sln% /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild /p:Configuration=Release /fl /flp:errorsonly;Append;logfile=%filename-of-compile-log%
+</code></pre><h2 id="发布工程">发布工程</h2>
+<pre tabindex="0"><code>msbuild %dir-of-code%%name-of-project%\%name-of-project%.csproj /nologo /noconlog /m /p:BuildlnParallel=true /t:Rebuild;ResolveReferences;_CopyWebApplication /p:Configuration=Release /p:OutDir=%dir-of-deploy%%name-of-project% /fl /flp:errorsonly;Append;logfile=%filename-of-log%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-pdb%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-defaultpublish%%name-of-project%%dir-of-bin%%filename-of-nlog%
+</code></pre><h2 id="发布网站">发布网站</h2>
+<pre tabindex="0"><code>aspnet_compiler /nologo -f -c -v /%name-of-project% -p %dir-of-code%%name-of-project% %dir-of-deploy%%name-of-project%
+
+del /f /q %dir-of-deploy%%name-of-project%%dir-of-bin%%filename-of-pdb%
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2019-12-12-net-project-compilation-script/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/">青海7日大环线</a></h1>
+					<time>Dec 12, 2019</time>
+					<br><div class="description">
+	
+	<h2 id="d1西宁-黑泉水库-大坂山-门源油菜花-岗什卡雪峰远观-祁连">D1：西宁-黑泉水库-大坂山-门源油菜花-岗什卡雪峰（远观）-祁连</h2>
+<p>祁连新世纪宾馆 360元 全 15297126212</p>
+<h2 id="d2祁连县-卓尔山-阿柔大寺-祁连草原-俄博古城遗址-扁都口-张掖丹霞">D2：祁连县-卓尔山-阿柔大寺-祁连草原-俄博古城遗址-扁都口-张掖丹霞</h2>
+<p>张掖彩虹山宾馆 248元 100定 13830688971</p>
+<h2 id="d3张掖丹霞-嘉峪关-瓜州-敦煌">D3：张掖丹霞-嘉峪关-瓜州-敦煌</h2>
+<p>敦煌清和客栈 240元 全 13309376526</p>
+<h2 id="d4敦煌-莫高窟-呜沙山月牙泉-沙州夜市-敦煌">D4：敦煌-莫高窟-呜沙山月牙泉-沙州夜市-敦煌</h2>
+<p>敦煌清和客栈 240元 全 13309376526</p>
+<p>莫高窟预订 <a href="http://www.mgk.org.cn/">http://www.mgk.org.cn/</a></p>
+<h2 id="d5敦煌-阿克塞-当金山-敦煌雅丹玉门关或阳关青海雅丹-柳路公路-大柴旦">D5：敦煌-阿克塞-当金山-敦煌雅丹+玉门关（或阳关+青海雅丹）-柳路公路-大柴旦</h2>
+<p>大柴旦华英宾馆 320元 200定 13309777123</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2019-12-12-qinghai-7th-great-circle-line/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-12-07-stepps/">stepps 疯传</a></h1>
 					<time>Dec 7, 2019</time>
 					<br><div class="description">
@@ -181,79 +234,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2019-12-05-pre-sale-information-collectionform/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/">思维导图示例</a></h1>
-					<time>Nov 28, 2019</time>
-					<br><div class="description">
-	
-	<p><a href="https://pic.superbed.cn/item/5ddf67248e0e2e3ee9ddac9b.png"><img src="https://pic.superbed.cn/item/5ddf67248e0e2e3ee9ddac9b.png" alt="思维导图示例"></a></p>
-<h1 id="plantuml源码如下">Plantuml源码如下：</h1>
-<pre tabindex="0"><code>@startmindmap :思维导图示例
-*_ 祖宗 [46]
-** 大老爷  [4]
-*** 大伯 [4]
-**** 2019 [4]
-*****_ 4月 [1]
-*****_ 5月 [2]
-*****_ 6月 [1]
-** 二老爷 [42]
-*** 二伯 [9]
-*** 三伯 [33]
-**** 2018 [1]
-**** 2019 [32]
-*****_ 3月 [5]
-*****_ 4月 [4]
-*****_ 5月 [2]
-*****_ 6月 [15]
-*****_ 7月 [6]
-@endmindmap
-</code></pre>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2019-11-28-example-of-mindmap-by-plantuml/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/">甘特图范例</a></h1>
-					<time>Nov 28, 2019</time>
-					<br><div class="description">
-	
-	<p><a href="https://pic.superbed.cn/item/5ddf634d8e0e2e3ee9dd1f6b.png"><img src="https://pic.superbed.cn/item/5ddf634d8e0e2e3ee9dd1f6b.png" alt="甘特图范例"></a></p>
-<h1 id="plantuml源码如下">Plantuml源码如下：</h1>
-<pre tabindex="0"><code>@startgantt 甘特图范例
-saturday are closed
-sunday are closed
-
-
-Project starts the 2019/08/19
--- 分析设计阶段 --
-[需求分析] as [t1]  on {李寻欢} lasts 2 days
-[需求评审] on {周芷若}  happens at [t1]&#39;s end
-[概要设计] as [t2] on {李寻欢} lasts 3 days
-[t2] starts at [t1]&#39;s end
--- 开发阶段 --
-[功能A] as [t3] on {李寻欢} lasts 3 days
-[t3] starts at [t2]&#39;s end
-[功能B] as [t4] on {白发魔女} lasts 3 days
-[t4] starts at [t2]&#39;s end
-[功能C] as [t5] on {研发甲} lasts 3 days
-[t5] starts at [t2]&#39;s end
--- 测试阶段 --
-[功能测试] as [t6] on {李寻欢}{白发魔女} lasts 3 days
-[t6] starts at [t5]&#39;s end
-[联调测试{李寻欢}] as [t7] lasts 1 days
-[t7] starts at [t6]&#39;s end
-[测试评审] on {周芷若} happens at [t7]&#39;s end
--- 上线阶段 --
-[正式上线] as [t8]  on {李寻欢:50%}{周芷若:50%} lasts 1 days
-[t8] starts at [t7]&#39;s end
-@endgantt
-</code></pre>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2019-11-28-example-of-gant-by-plantuml/">Read more ⟶</a>
 				</section>
 				
 				

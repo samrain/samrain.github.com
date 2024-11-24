@@ -64,6 +64,66 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/">IT运维外包调查问卷</a></h1>
+					<time>Dec 12, 2013</time>
+					<br><div class="description">
+	
+	<p>#IT运维外包调查问卷
+##基本信息</p>
+<ul>
+<li>
+<p>企业名称</p>
+</li>
+<li>
+<p>联系人姓名</p>
+</li>
+<li>
+<p>联系人职务</p>
+</li>
+<li>
+<p>联系人手机</p>
+</li>
+<li>
+<p>联系人Email
+##人员</p>
+</li>
+<li>
+<p>总人数</p>
+</li>
+<li>
+<p>平均办公室人数
+##工作情况介绍</p>
+</li>
+<li>
+<p>上下班时间</p>
+</li>
+<li>
+<p>有无经常性加班</p>
+</li>
+<li>
+<p>节假日安排</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-12-12-it-operation-outsourcing-survey/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/">IT运维外包调查问卷</a></h1>
+					<time>Dec 12, 2013</time>
+					<br><div class="description">
+	
+	<p>#向OpenFire和Spark说再见</p>
+<pre><code>由于人力和服务器资源整合，运行了一年多的OpenFire已于上周关闭。
+回想过程中的酸甜苦辣，特此撰文纪念。
+</code></pre>
+<h2 id="why">why</h2>
+<p>由于对QQ的一贯敌视，MSN的落寞，出于反对IM对工作的打断，但是对于团队来说又必须有一个及时信息传递体制，能够第一时间进行通知和沟通交流。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-12-12-say-bye-to-openfire/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-12-12-park-intelligent-solutions/">园区智能化方案</a></h1>
 					<time>Dec 12, 2013</time>
 					<br><div class="description">
@@ -228,56 +288,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/">用Emacs编辑Markdown</a></h1>
-					<time>Sep 10, 2013</time>
-					<br><div class="description">
-	
-	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing">思维导图文件下载</a></p>
-<h2 id="why">Why</h2>
-<h3 id="今日我终于又将编辑器从st2换成了emacs主要原因就是st2不支持linux上输入中文但是之前在st2编辑markdown文件非常爽所以这个在emacs上必须有">今日我终于又将编辑器从ST2换成了Emacs，主要原因就是ST2不支持linux上输入中文。但是之前在ST2编辑markdown文件非常爽，所以这个在emacs上必须有</h3>
-<h2 id="how">How</h2>
-<h3 id="install">Install</h3>
-<ul>
-<li>假定你的emacs的配置文件的目录为<code>~/.emacs.d</code>，以下简称ConfDir</li>
-<li>下载文件<a href="http://jblevins.org/git/markdown-mode.git/plain/markdown-mode.el">markdown-mode.el</a>到ConfDir</li>
-<li>修改ConfDir/init.el，添加以下代码
-<ul>
-<li><code>(autoload 'markdown-mode &quot;markdown-mode&quot; 	&quot;Major mode for editing Markdown files&quot; t) </code></li>
-<li><code>(add-to-list 'auto-mode-alist '(&quot;\\.markdown\\'&quot;. markdown-mode)) </code></li>
-<li><code>(add-to-list 'auto-mode-alist '(&quot;\\.md\\'&quot;. markdown-mode)) </code></li>
-<li><code>;;;;设置emacs中打开url的工具是chromium，如果是其他浏览器那么替换掉名称。之前没有设置时会导致预览md转换成的html会直接用emacs打开而不是浏览器</code></li>
-<li><code>(setq browse-url-browser-function 'browse-url-generic       browse-url-generic-program &quot;chromium-browser&quot;) </code>
-<code>;;;;如果是linux中,默认安装python，同时也会安装markdown_py命令用来将markdown转化为html，在这里使用了该命令来预览</code></li>
-<li><code>(custom-set-variables  ;; custom-set-variables was added by Custom.  ;; If you edit it by hand, you could mess it up, so be careful.  ;; Your init file should contain only one such instance.  ;; If there is more than one, they won't work right.  '(markdown-command &quot;markdown_py&quot;)) (custom-set-faces  ;; custom-set-faces was added by Custom.  ;; If you edit it by hand, you could mess it up, so be careful.  ;; Your init file should contain only one such instance.  ;; If there is more than one, they won't work right.  )</code></li>
-</ul>
-</li>
-</ul>
-<h3 id="use">Use</h3>
-<ul>
-<li>预览<code>C-c C-c p</code></li>
-<li>在当前目录保存为html <code>C-c C-c e</code></li>
-</ul>
-<h3 id="参考">参考</h3>
-<ul>
-<li><a href="https://www.evernote.com/shard/s11/sh/3b648e87-99ba-4b53-bb3c-c29612f7bb08/70120a0cf91f2cba180a86469d99416c">网上搜索到的</a></li>
-</ul>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-10-edit-markdown-file-with-emacs/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/">解决pdf文件不能在nook2上观看问题</a></h1>
-					<time>Sep 10, 2013</time>
-					<br><div class="description">
-	
-	<p>在lubuntu上使用Evince打开时自动用系统字体替代了pdf中指明但未嵌入的字体，但是拷贝到nook2上无法观看，怀疑是nook2上软件不支持/软件支持，没有类似字体。转换试验如下：</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-10-watch-pdf-file-without-typefaces-on-nook2/">Read more ⟶</a>
 				</section>
 				
 				
