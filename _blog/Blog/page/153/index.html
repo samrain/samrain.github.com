@@ -64,6 +64,24 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/">客户营销流程最佳实践</a></h1>
+					<time>Dec 12, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://drive.google.com/file/d/0B1DrsqrLRzeISnNNNDJWaGN4NGM/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="1研究客户也许就是你自己寻找他觉得不爽的地方">1.研究客户（也许就是你自己），寻找他觉得不爽的地方</h2>
+<h2 id="2问客户想不想爽">2.问客户想不想爽</h2>
+<h2 id="3客户说想">3.客户说想</h2>
+<h2 id="4我们提时间计划预算和目标">4.我们提时间计划、预算和目标</h2>
+<h2 id="5我们和客户一起努力">5.我们和客户一起努力</h2>
+<h2 id="6达成目标客户很爽">6.达成目标：客户很爽</h2>
+<h2 id="7我们和客户一起回顾可以继续从1开始">7.我们和客户一起回顾，可以继续从1开始&hellip;&hellip;.</h2>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-12-12-customer-marketing-process-best-practices/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-10-16-install-lubuntu-faster/">快速安装我的Lubuntu</a></h1>
 					<time>Oct 16, 2013</time>
 					<br><div class="description">
@@ -309,63 +327,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-05-prepare-materials-for-camping-and-bbq/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Nmap初体验</a></h1>
-					<time>Sep 3, 2013</time>
-					<br><div class="description">
-	
-	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIQ1g2bmk0aGh2S0U/edit?usp=sharing">思维导图文件下载</a></p>
-<h2 id="what">What</h2>
-<h3 id="网络扫描工具通过隐秘手法推断获得运行的服务器端口及服务信息">网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息</h3>
-<h2 id="where">where</h2>
-<h3 id="攻黑客常用扫描工具用来找到攻击范围而后精确爆破">攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破</h3>
-<h3 id="防管理员日常维护工具找到目前的漏洞第一时间修复它">防:管理员日常维护工具，找到目前的漏洞，第一时间修复它</h3>
-<h2 id="how">how</h2>
-<h3 id="install">install</h3>
-<ul>
-<li>具体参见<a href="http://nmap.org/download.html">官网</a></li>
-<li>Ubuntu安装办法
-<ul>
-<li>sudo apt-get install alien</li>
-<li>下载最新的Nmap、Ncat、Nping、Zenmap的RPM包</li>
-<li>sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm</li>
-<li>sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb</li>
-</ul>
-</li>
-</ul>
-<h3 id="启动方式">启动方式</h3>
-<ul>
-<li>命令行:nmap</li>
-<li>图形界面:Zenmap</li>
-</ul>
-<h3 id="自带10种扫描方式">自带10种扫描方式</h3>
-<ul>
-<li>Intense scan
-(nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出</li>
-<li>Intense scan plus UDP
-(nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描</li>
-<li>Intense scan,all TCP ports
-(nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围</li>
-<li>Intense scan,no ping
-(nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描</li>
-<li>Ping scan
-(nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描</li>
-<li>Quick scan
-(nmap -T4 -F) 快速的扫描 -F 快速模式。</li>
-<li>Quick scan plus
-(nmap -sV -T4 -O -F &ndash;version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 &ndash;version-light 设定侦测等级为2。</li>
-<li>Quick traceroute
-(nmap -sn &ndash;traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。</li>
-<li>Regular scan
-规则扫描</li>
-<li>Slow comprehensive scan
-(nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 &ndash;script all) 慢速全面扫描。</li>
-</ul>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Read more ⟶</a>
 				</section>
 				
 				

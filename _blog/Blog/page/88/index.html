@@ -64,6 +64,35 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">如果用脚本迁移SQLServer数据库</a></h1>
+					<time>Sep 11, 2018</time>
+					<br><div class="description">
+	
+	<ul>
+<li>
+<p>迁移非系统数据库</p>
+<pre><code>  use master
+  go
+  sp_detach_db '非系统数据库'
+  go
+
+
+  use master
+  go
+  sp_attach_db '非系统数据库','C:\Sqldata\非系统数据库.mdf','C:\Sqldata\非系统数据库.ldf'
+  go
+
+  重启Sqlserver
+</code></pre>
+</li>
+<li>
+<p>迁移系统数据库</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-migrate-sqlserver-database/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-switch-screen-between-black-and-white-and-color/">让您的屏幕在黑白和彩色之间自由切换</a></h1>
 					<time>Sep 11, 2018</time>
 					<br><div class="description">
@@ -150,24 +179,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-10-surface-crash-self-help/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/">怎么在PowerShell中启停站点</a></h1>
-					<time>Sep 10, 2018</time>
-					<br><div class="description">
-	
-	<ul>
-<li>启动</li>
-</ul>
-<p><code>start-website -name &quot;&quot;</code></p>
-<ul>
-<li>停止</li>
-</ul>
-<p><code>stop-website -name &quot;&quot;</code></p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-10-start-or-stop-sites-by-powershell/">Read more ⟶</a>
 				</section>
 				
 				

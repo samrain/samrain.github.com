@@ -64,6 +64,35 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Linux的目录和文件权限</a></h1>
+					<time>Jun 3, 2016</time>
+					<br><div class="description">
+	
+	<p>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。</p>
+<p>r： 读     4</p>
+<p>w：写     2</p>
+<p>x： 执行 1</p>
+<p>-：  无     0</p>
+<p>rwx合起来就是4+2+1=7</p>
+<pre><code># 要改变文件权限，可使用下面命令：
+chmod 777 x.file
+
+# 看目录情况：
+ls -l
+
+# 要改变文件所属组，可使用下面命令
+chown :users conkyrc.sample
+
+# 要改变文件所属用户，可使用下面命令
+chown user conkyrc.sample
+</code></pre>
+<p>要修改目录，使用 -R参数就可以了，方法和前面一样。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-02-ios-development-environment-configuration-manual/">IOS开发环境配置学习手册</a></h1>
 					<time>Jun 2, 2016</time>
 					<br><div class="description">
@@ -175,24 +204,6 @@ fis.config.merge({
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-30-fis/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">在Chrome中调试nodejs</a></h1>
-					<time>May 29, 2016</time>
-					<br><div class="description">
-	
-	<h2 id="installa-idorgheadline34a">install<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<p>安装node-inspector插件</p>
-<pre><code>sudo npm install -g node-inspector
-</code></pre>
-<h2 id="getting-starta-idorgheadline35a">Getting start<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<pre><code>node-debug XXX.js
-</code></pre>
-<p>会自动启动chrome（Chromium）浏览器访问<a href="http://127.0.0.1:8080/debug?port=5858">http://127.0.0.1:8080/debug?port=5858</a>，这时就可以设置断点进行调试了。</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/">Read more ⟶</a>
 				</section>
 				
 				
