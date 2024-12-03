@@ -64,6 +64,41 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Linux系统下设置静态IP</a></h1>
+					<time>Jul 21, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="编辑-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="将dhcp-一行屏蔽a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<pre><code># The primary network interface
+
+auto eth0
+
+#iface eth0 inet dhcp
+</code></pre>
+<h3 id="添加和静态ip有关的参数a-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<pre><code># The primary network interface
+
+iface eth0 inet static
+
+address 192.168.0.10
+
+netmask 255.255.255.0
+
+gateway 192.168.0.1
+</code></pre>
+<h2 id="编辑-etcresolvconf-设置dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>nameserver 202.96.134.133
+
+nameserver 202.106.0.20
+</code></pre>
+<p>ubuntu下重启后会被回退，自动恢复默认值。我们需要这样做：修改 <code>/etc/ppp/peers/dsl-provider</code> 注释掉userpeerdns这一行即可</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-21-set-a-static-ip-in-linux/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-20-add-a-orgmode-note-in-emacs/">Emacs 添加一条org</a></h1>
 					<time>Jul 20, 2016</time>
 					<br><div class="description">
@@ -123,17 +158,6 @@ And 总价是82.1元
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-17-bdd-example/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-07-16-business-cooperation-in-the-market/">业务合作中的市场执行</a></h1>
-					<time>Jul 16, 2016</time>
-					<br><div class="description">
-	
-	<p>我们之所以将业务合作称为项目，无论是业务合作方式是互为代理、发展兼职团队、成立新的销售公司、发展产业微联盟还是运营外包，整体计划都会发生人员、资金、时间、信息的资源重组。这些资源随整体计划启动而汇聚，到计划实施完成而分解。具有动态管理的特点。</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-07-16-business-cooperation-in-the-market/">Read more ⟶</a>
 				</section>
 				
 				
