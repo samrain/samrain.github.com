@@ -64,6 +64,36 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/">使用tsunami-udp备份</a></h1>
+					<time>Jun 8, 2016</time>
+					<br><div class="description">
+	
+	<h2 id="在需要备份的服务器上a-idorgheadline18a">在需要备份的服务器上<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="安装tsunami-udpa-idorgheadline16a">安装tsunami-udp<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<ul>
+<li>下载</li>
+</ul>
+<p><a href="http://pan.baidu.com/s/1mgHXmXU">http://pan.baidu.com/s/1mgHXmXU</a></p>
+<ul>
+<li>
+<p>安装</p>
+<p>make &amp;&amp; sudo make install</p>
+</li>
+</ul>
+<h3 id="启动tsunami-udpa-idorgheadline17a">启动tsunami-udp:<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<pre><code>cd ~/Downloads/virtualbox-bk//141125 &amp;&amp; tsunamid *
+</code></pre>
+<h2 id="在备份服务器上a-idorgheadline19a">在备份服务器上<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>tsunami
+connect 192.168.1.5
+get *
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-08-tsunami-udp/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-07-openwrt/">openwrt的功能</a></h1>
 					<time>Jun 7, 2016</time>
 					<br><div class="description">
@@ -117,35 +147,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-04-reliable-methods-of-linux-process-running-in-the-background/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Linux的目录和文件权限</a></h1>
-					<time>Jun 3, 2016</time>
-					<br><div class="description">
-	
-	<p>文件和目录的权限表示，是用rwx这三个字符来代表所有者、用户组和其他用户的权限。</p>
-<p>r： 读     4</p>
-<p>w：写     2</p>
-<p>x： 执行 1</p>
-<p>-：  无     0</p>
-<p>rwx合起来就是4+2+1=7</p>
-<pre><code># 要改变文件权限，可使用下面命令：
-chmod 777 x.file
-
-# 看目录情况：
-ls -l
-
-# 要改变文件所属组，可使用下面命令
-chown :users conkyrc.sample
-
-# 要改变文件所属用户，可使用下面命令
-chown user conkyrc.sample
-</code></pre>
-<p>要修改目录，使用 -R参数就可以了，方法和前面一样。</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-03-directory-and-file-permissions-for-linux/">Read more ⟶</a>
 				</section>
 				
 				

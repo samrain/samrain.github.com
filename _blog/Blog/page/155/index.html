@@ -64,6 +64,63 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Nmap初体验</a></h1>
+					<time>Sep 3, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIQ1g2bmk0aGh2S0U/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="what">What</h2>
+<h3 id="网络扫描工具通过隐秘手法推断获得运行的服务器端口及服务信息">网络扫描工具，通过隐秘手法推断获得运行的服务器、端口及服务信息</h3>
+<h2 id="where">where</h2>
+<h3 id="攻黑客常用扫描工具用来找到攻击范围而后精确爆破">攻:黑客常用扫描工具，用来找到攻击范围，而后精确爆破</h3>
+<h3 id="防管理员日常维护工具找到目前的漏洞第一时间修复它">防:管理员日常维护工具，找到目前的漏洞，第一时间修复它</h3>
+<h2 id="how">how</h2>
+<h3 id="install">install</h3>
+<ul>
+<li>具体参见<a href="http://nmap.org/download.html">官网</a></li>
+<li>Ubuntu安装办法
+<ul>
+<li>sudo apt-get install alien</li>
+<li>下载最新的Nmap、Ncat、Nping、Zenmap的RPM包</li>
+<li>sudo alien nmap*.rpm ncat*.rpm nping*.rpm zenmap*.rpm</li>
+<li>sudo dpkg -install nmap*.deb ncat*.deb nping*.deb zenmap*.deb</li>
+</ul>
+</li>
+</ul>
+<h3 id="启动方式">启动方式</h3>
+<ul>
+<li>命令行:nmap</li>
+<li>图形界面:Zenmap</li>
+</ul>
+<h3 id="自带10种扫描方式">自带10种扫描方式</h3>
+<ul>
+<li>Intense scan
+(nmap -T4 -A -v) 一般来说，Intense scan可以满足一般扫描 -T4 加快执行速度 -A 操作系统及版本探测 -v 显示详细的输出</li>
+<li>Intense scan plus UDP
+(nmap -sS -sU -T4 -A -v) 即UDP扫描 -sS TCP SYN 扫描 -sU UDP 扫描</li>
+<li>Intense scan,all TCP ports
+(nmap -p 1-65536 -T4 -A -v) 扫描所有TCP端口，范围在1-65535，试图扫描所有端口的开放情况，速度比较慢。 -p 指定端口扫描范围</li>
+<li>Intense scan,no ping
+(nmap -T4 -A -v -Pn) 非ping扫描 -Pn 非ping扫描</li>
+<li>Ping scan
+(nmap -sn) Ping 扫描 优点：速度快。 缺点：容易被防火墙屏蔽，导致无扫描结果 -sn ping扫描</li>
+<li>Quick scan
+(nmap -T4 -F) 快速的扫描 -F 快速模式。</li>
+<li>Quick scan plus
+(nmap -sV -T4 -O -F &ndash;version-light) 快速扫描加强模式 -sV 探测端口及版本服务信息。 -O 开启OS检测 &ndash;version-light 设定侦测等级为2。</li>
+<li>Quick traceroute
+(nmap -sn &ndash;traceroute) 路由跟踪 -sn Ping扫描，关闭端口扫描 -traceroute 显示本机到目标的路由跃点。</li>
+<li>Regular scan
+规则扫描</li>
+<li>Slow comprehensive scan
+(nmap -sS -sU -T4 -A -v -PE -PP -PS80,443,-PA3389,PU40125 -PY -g 53 &ndash;script all) 慢速全面扫描。</li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-09-03-first-experience-of-nmap/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-09-03-network-security-tools/">十大网络安全工具</a></h1>
 					<time>Sep 3, 2013</time>
 					<br><div class="description">
@@ -252,115 +309,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-how-to-be-a-high-tech-company/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-07-31-study-golang/">学习golang</a></h1>
-					<time>Jul 31, 2013</time>
-					<br><div class="description">
-	
-	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIWWhKUnVDbTJJSUE/edit?usp=sharing">思维导图文件下载</a></p>
-<h2 id="安装">安装</h2>
-<!-- raw HTML omitted -->
-<h3 id="windows">windows</h3>
-<ul>
-<li><a href="http://code.google.com/p/go/downloads/list?q=OpSys-Windows+Type%3DArchive">下载</a></li>
-<li>解压到C盘</li>
-<li>设置环境变量
-set PATH=%PATH%;C:\Go\bin</li>
-</ul>
-<h2 id="特色">特色</h2>
-<ul>
-<li>清晰并且简洁</li>
-<li>并行</li>
-<li>Channel</li>
-<li>快速</li>
-<li>安全</li>
-<li>标准格式化</li>
-<li>类型后置</li>
-<li>UTF-8</li>
-<li>开源</li>
-<li>开心</li>
-</ul>
-<h2 id="hello-world">Hello World</h2>
-<ul>
-<li>package <!-- raw HTML omitted -->开头
-<ul>
-<li>独立运行的程序必须以package main开头</li>
-</ul>
-</li>
-<li>import &lt;包名&gt;</li>
-<li>func main()</li>
-</ul>
-<h2 id="构建">构建</h2>
-<pre><code>使用go工具，例如：go build helloworld.go
-</code></pre>
-<h2 id="运行">运行</h2>
-<pre><code>直接运行，例如：./helloworld
-</code></pre>
-<h2 id="变量">变量</h2>
-<ul>
-<li>var xxx 变量类型</li>
-<li>默认赋值为该类型的null值</li>
-<li>变量类型在变量名的后面</li>
-<li>可以一步内完成声明和赋值，变量类型由值推演出来:=</li>
-<li>可以用圆括号成组声明</li>
-<li>可以在一行内完成声明，用逗号隔开</li>
-<li>下划线是特殊变量名，表示任何赋给它的值都被丢弃</li>
-<li>未使用的变量在编译时会报错</li>
-</ul>
-<h2 id="类型">类型</h2>
-<ul>
-<li>布尔类型
-bool</li>
-<li>数字类型
-<ul>
-<li>int
-<ul>
-<li>根据硬件决定，32位上是32位</li>
-<li>int8</li>
-<li>int16</li>
-<li>int32</li>
-<li>int64</li>
-</ul>
-</li>
-<li>uint
-<ul>
-<li>类似int</li>
-<li>byte
-uint8</li>
-<li>uint16</li>
-<li>uint32</li>
-<li>uint64</li>
-</ul>
-</li>
-<li>float32</li>
-<li>float64</li>
-<li>混合使用要报错</li>
-</ul>
-</li>
-</ul>
-<h2 id="常量">常量</h2>
-<ul>
-<li>const XXX=aaa</li>
-<li>只能是数字、字符串或布尔值</li>
-<li>在编译时被创建</li>
-<li>可以用iota生成枚举值
-<ul>
-<li>第一个是0</li>
-<li>下次使用增加1</li>
-<li>第一个常量为iota，第二个省略默认也等于iota</li>
-</ul>
-</li>
-<li>可以用圆括号成组声明</li>
-</ul>
-<h2 id="go-env">go env</h2>
-<ul>
-<li>
-<p>GOARCH</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-study-golang/">Read more ⟶</a>
 				</section>
 				
 				
