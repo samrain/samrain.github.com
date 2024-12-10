@@ -64,6 +64,31 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/">在rsync时避免同步某些文件</a></h1>
+					<time>Sep 11, 2018</time>
+					<br><div class="description">
+	
+	<ul>
+<li>
+<p>list.exclude</p>
+<pre><code>  Config/dll.config
+  Logger.config
+</code></pre>
+</li>
+<li>
+<p>rsync4test.bat</p>
+<pre><code>  set PATH=%PATH%;C:\Program Files (x86)\cwRsync\bin\
+
+  rsync -azcP --compress-level=9 --protocol=29 --delete /cygdrive/c/test/ rsync://localhost:18731/test --exclude-from=list.exclude
+</code></pre>
+</li>
+</ul>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-exclude-some-files-while-rsyncing/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-update-stored-procedures/">更新SQLServer存储过程的脚本模版</a></h1>
 					<time>Sep 11, 2018</time>
 					<br><div class="description">
@@ -177,17 +202,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-list-to-go-abroad/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">产品经理的核心价值是什么</a></h1>
-					<time>Sep 11, 2018</time>
-					<br><div class="description">
-	
-	<p>发现用户的需求并定义客户价值，同时准确传递这个需求与价值给团队成员，并推动团队去很好的满足这个需求最终将价值传递出去。</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-11-what-is-the-core-value-of-the-product-manager/">Read more ⟶</a>
 				</section>
 				
 				
