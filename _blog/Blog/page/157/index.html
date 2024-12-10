@@ -64,6 +64,215 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-07-31-play-emacs/">玩转Emacs</a></h1>
+					<time>Jul 31, 2013</time>
+					<br><div class="description">
+	
+	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing">思维导图文件下载</a></p>
+<h2 id="快捷键">快捷键</h2>
+<h3 id="粘帖c-y">粘帖:c-y</h3>
+<h3 id="新建打开文件c-x-c-f">新建/打开文件:c-x c-f</h3>
+<h3 id="替换打开的文件c-x-c-v">替换打开的文件:c-x c-v</h3>
+<h3 id="保存文件-c-x-c-s">保存文件: c-x c-s</h3>
+<h3 id="写文件需要输入文件名回车默认不变-c-x-c-w">写文件(需要输入文件名，回车默认不变): c-x c-w</h3>
+<h3 id="关闭buffer-c-x-k">关闭buffer: c-x k</h3>
+<h3 id="撤销c-_或c-x-u">撤销:c-_或c-x u</h3>
+<h3 id="退出c-x-c-c">退出:c-x c-c</h3>
+<h3 id="分割屏幕为2个c-x-2">分割屏幕为2个:c-x 2</h3>
+<h3 id="当前窗口最大化c-x-1">当前窗口最大化:c-x 1</h3>
+<h3 id="切换窗口c-x-o">切换窗口:c-x o</h3>
+<h3 id="切换bufferc-x-b">切换buffer:c-x b</h3>
+<h3 id="buffer清单c-x-c-b">buffer清单:c-x c-b</h3>
+<h3 id="操作另外一个-window-用的函数c-x-4">操作另外一个 window 用的函数:c-x 4</h3>
+<h3 id="操纵其他frame-的-函数c-x-5">操纵其他frame 的 函数:c-x 5</h3>
+<h3 id="执行某个函数m-x-输入函数名">执行某个函数:m-x 输入函数名</h3>
+<h3 id="把一个文件插入到另一个文件中c-x-i">把一个文件插入到另一个文件中:c-x i</h3>
+<h3 id="简单的目录清单c-u-c-x-c-d或c-x-c-d">简单的目录清单:c-u c-x c-d或c-x c-d</h3>
+<h3 id="查看unix命令帮助m-x-man">查看Unix命令帮助:m-x man</h3>
+<h3 id="修改了emacs配置不用重启m-x-eval-buffer">修改了emacs配置不用重启:M-x eval-buffer</h3>
+<h3 id="删除文本c-d或del">删除文本:c-d或Del</h3>
+<h3 id="删除单词m-d">删除单词:m-d</h3>
+<h3 id="删除本行文本c-k">删除本行文本:c-k</h3>
+<ul>
+<li>删除一行文本:c-k c-k</li>
+</ul>
+<h3 id="删除从行首到光标位置文本m----c-k">删除从行首到光标位置文本:m- - c-k</h3>
+<h3 id="恢复最近一次删除内容c-y">恢复最近一次删除内容:c-y</h3>
+<h3 id="依次恢复删除内容-m-y">依次恢复删除内容 m-y</h3>
+<h2 id="牛b的emacsvc">牛B的EmacsVC</h2>
+<h3 id="进行下一个合理的vc操作c-x-v-v">进行下一个合理的VC操作:c-x v v</h3>
+<ul>
+<li>让当前文件进 入下一个正常的版本控制状态</li>
+<li>当你提交的时候，Emacs会弹出一个buffer让你填写日志,填完后按c-c c-c</li>
+</ul>
+<h3 id="恢复操作恢复到上一次check-out的-状态并解除锁定c-x-v-u">恢复操作,恢复到上一次check out的 状态并解除锁定:c-x v u</h3>
+<h3 id="显示一个目录下所有注册到版本控制下的文件c-x-v-d">显示一个目录下所有注册到版本控制下的文件:c-x v d</h3>
+<ul>
+<li>执行VC命令可以不用加C-x前缀</li>
+</ul>
+<h3 id="产生一个diff报告c-x-v-">产生一个diff报告:c-x v =</h3>
+<h3 id="取出当前buffer在仓库里的指定版本并在另外一个窗口中显示出来c-x-v-">取出当前buffer在仓库里的指定版本并在另外一个窗口中显示出来:c-x v ~</h3>
+<h3 id="显示一个文件的历史和日志c-x-v-l">显示一个文件的历史和日志:c-x v l</h3>
+<h3 id="把文件注册到版本控制系统里面去-c-x-v-i">把文件注册到版本控制系统里面去: c-x v i</h3>
+<h3 id="在文件里面插入version-control-headersc-x-v-h">在文件里面插入version control headers:c-x v h</h3>
+<h3 id="check-out一个named-project快照c-x-v-r">check out一个named project快照:c-x v r</h3>
+<ul>
+<li>一个工程的快照就是把一个工程里面各个文件的某个版本号联系在一起而得到的 一个单元，大多数的版本控制允许你用一个符号名称来标记一个快照</li>
+</ul>
+<h3 id="创建一个named-project快照c-x-v-s">创建一个named project快照:c-x v s</h3>
+<h3 id="丢弃一个已经保存的版本c-x-v-c">丢弃一个已经保存的版本:c-x v c</h3>
+<h3 id="更新一个gnu-style的changelog文件c-x-v-a">更新一个GNU-style的ChangeLog文件:c-x v a</h3>
+<h3 id="mode-line上会显示这个文件所-使用的version-control系统的名字以及这个文件的版本号当两者之间是一个-时说明这个文件还没有check-out是时说明已经-被-check-out">mode line上会显示这个文件所 使用的version control系统的名字以及这个文件的版本号.当两者之间是一个“-”时，说明这个文件还没有check out，是“:”时说明已经 被 check out</h3>
+<h3 id="要比较的文件名以及两个-版本号c-u-c-x-v-">要比较的文件名以及两个 版本号:C-u C-x v =</h3>
+<h2 id="ediff">Ediff</h2>
+<h3 id="ediff是emacs里面非常丰富强大的一个的一个模块">Ediff是Emacs里面非常丰富强大的一个的一个模块</h3>
+<h3 id="启动的三种办法">启动的三种办法</h3>
+<ul>
+<li>用 vc-resolve-conflicts 启动 Ediff 来解决冲突</li>
+<li>手工启动 Ediff 来比较两个文件，比如你手动获取的某几个版本的文件</li>
+<li>用 ediff-revision 启动 Ediff 来比较版本之间的异同</li>
+</ul>
+<h2 id="tramp">TRAMP</h2>
+<h3 id="用于远程文件编辑">用于远程文件编辑</h3>
+<pre><code> /host:filename
+ /user@host:filename
+ /user@host#port:filename
+ /method:user@host:filename
+ /method:user@host#port:filename
+ 例如：本地root权限文件用/sudo@host#post:filename
+ 其他电脑FTP目录文件/ftp:user@host#port:filename
+</code></pre>
+<h2 id="一般说明">一般说明</h2>
+<h3 id="在emacs文档中">在Emacs文档中:</h3>
+<h3 id="c--意思是按住-ctrol-键">C- 意思是按住 Ctrol 键</h3>
+<h3 id="m--意指-meta-键-在大多数键盘上指-alt-键">M- 意指 Meta 键 (在大多数键盘上指 Alt 键)</h3>
+<h3 id="del-意指退格键-不是-删除delete-key">DEL 意指退格键 (不是 删除(Delete) key)</h3>
+<h3 id="ret-意指回车键--spc-意指空格键">RET 意指回车键  SPC 意指空格键</h3>
+<h3 id="esc-意指escape键">ESC 意指Escape键</h3>
+<h3 id="tab-意指tab键-像-c-m--or-m-c-这样连在一起的意味着同时按住-control-和-meta-键">TAB 意指Tab键 像 “C-M-” (or “M-C”) 这样连在一起的意味着同时按住 Control 和 Meta 键</h3>
+<h2 id="特殊">特殊</h2>
+<h3 id="输入换页符">输入换页符</h3>
+<ul>
+<li>c-q c-l</li>
+</ul>
+<h3 id="重复执行命令m-nn是重复次数">重复执行命令:m-n(n是重复次数)</h3>
+<ul>
+<li>例如:m-500 c-n表示向下移动500行</li>
+</ul>
+<h3 id="重复执行命令c-u-nn是重复次数">重复执行命令:c-u n(n是重复次数)</h3>
+<ul>
+<li>例如:c-u 500 c-n表示向下移动500行</li>
+<li>如果没有输入n，那么默认执行4次</li>
+<li>如果输入c-u c-u，那么执行16次</li>
+</ul>
+<h3 id="重新绘制画面c-l">重新绘制画面:c-l</h3>
+<h2 id="光标移动">光标移动</h2>
+<h3 id="上c-p">上:c-p</h3>
+<h3 id="下c-n">下:c-n</h3>
+<h3 id="左c-b">左:c-b</h3>
+<h3 id="右c-f">右:c-f</h3>
+<h3 id="到行尾c-e">到行尾:c-e</h3>
+<h3 id="到行首c-a">到行首:c-a</h3>
+<h3 id="右移一个单词m-f">右移一个单词:m-f</h3>
+<h3 id="左移一个单词m-b">左移一个单词:m-b</h3>
+<h3 id="右移一个句子m-e">右移一个句子:m-e</h3>
+<h3 id="左移一个句子m-a">左移一个句子:m-a</h3>
+<h3 id="下移一个段落m-">下移一个段落:m-}</h3>
+<h3 id="上移一个段落m-">上移一个段落:m-{</h3>
+<h3 id="如果有分页符到上一页-c-x">如果有分页符，到上一页 c-x[</h3>
+<h3 id="如果有分页符到下一页-c-x">如果有分页符，到下一页 c-x]</h3>
+<h3 id="向上移动一屏m-v或pgup">向上移动一屏:m-v或PgUp</h3>
+<h3 id="向下移动一屏c-v或pgdn">向下移动一屏:c-v或PgDn</h3>
+<h3 id="到达文件开头m-或home">到达文件开头:m-&lt;或Home</h3>
+<h3 id="到达文件结尾m-或end">到达文件结尾:m-&gt;或End</h3>
+<h3 id="快速到达第n行m-x-goto-line-n">快速到达第n行:m-x goto-line n</h3>
+<h3 id="快速到达第n个字符m-x-goto-char-n">快速到达第n个字符:m-x goto-char n</h3>
+<h2 id="帮助">帮助</h2>
+<h3 id="完整文档c-h-i">完整文档:c-h i</h3>
+<h3 id="快速指南c-h-t或f1-t或m-x-help">快速指南:c-h t或F1 t或m-x help</h3>
+<ul>
+<li>k －鍵盤設定為何？</li>
+<li>f －函式功能為何？</li>
+<li>m －在目前模式下的鍵盤設定為何？</li>
+<li>w －某個函式設定到哪個鍵上?</li>
+<li>a －和某個字串相關的函式？</li>
+</ul>
+<h3 id="查询所有前缀的快捷键按了前缀后再输入c-h就会提示">查询所有前缀的快捷键:按了前缀后再输入c-h就会提示</h3>
+<h3 id="查询函数m-x-apropos">查询函数:m-x apropos</h3>
+<h3 id="获取命令列表-m-x-命令首字母-tab">获取命令列表: m-x 命令首字母 <!-- raw HTML omitted --></h3>
+<h3 id="显示使用的包清单m-x-list-packages">显示使用的包清单:m-x list-packages</h3>
+<h3 id="显示变量值f1-v-变量名">显示变量值:F1-v 变量名</h3>
+<h2 id="组合键">组合键</h2>
+<h3 id="常用键c-nn是任何键">常用键:c-n(n是任何键)</h3>
+<h3 id="次常用键m-nn是任何键">次常用键:m-n(n是任何键)</h3>
+<h3 id="其他常用键c-x-something">其他常用键:c-x something</h3>
+<h3 id="特殊命令c-c-something">特殊命令:c-c something</h3>
+<h3 id="无法绑定的命令m-x-long-command-name">无法绑定的命令:m-x long-command-name</h3>
+<h2 id="shell模式">Shell模式</h2>
+<h3 id="翻到上一条执行过的命令m-p">翻到上一条执行过的命令:m-p</h3>
+<h3 id="翻到更早执行过的命令m-n">翻到更早执行过的命令:m-n</h3>
+<h3 id="自动删除上一个命令的执行输出c-c-c-o">自动删除上一个命令的执行输出:c-c c-o</h3>
+<h2 id="dir模式">Dir模式</h2>
+<h3 id="进入模式c-x-f或c-x-d">进入模式:c-x f或c-x d</h3>
+<h3 id="向下移动空格或c-n或n">向下移动:空格或c-n或n</h3>
+<h3 id="向上移动del或c-p或p">向上移动:Del或c-p或p</h3>
+<h3 id="预览文件内容返回vq或c-c">预览文件内容/返回:v/q或c-c</h3>
+<ul>
+<li>搜索:s</li>
+</ul>
+<h3 id="修改文件内容f">修改文件内容:f</h3>
+<h3 id="给文件加上待删除标志d">给文件加上待删除标志:d</h3>
+<h3 id="撤销标志u">撤销标志:u</h3>
+<h3 id="批量删除文件x">批量删除文件:x</h3>
+<h3 id="立刻删除文件d">立刻删除文件:D</h3>
+<h3 id="复制文件c">复制文件:C</h3>
+<h3 id="重命名文件r">重命名文件:R</h3>
+<h3 id="压缩解压z">压缩/解压:Z</h3>
+<h3 id="比较文件内容先标记后按">比较文件内容:先标记后按=</h3>
+<h3 id="文件上运行unix命令">文件上运行Unix命令:!</h3>
+<h3 id="给文件加上待操作标志m">给文件加上待操作标志:m</h3>
+<h3 id="用正则表达式选取文件m正则表达式">用正则表达式选取文件:%m正则表达式</h3>
+<h3 id="创建子目录">创建子目录:+</h3>
+<h3 id="对多个文件进行查询和替换q">对多个文件进行查询和替换:Q</h3>
+<h3 id="从磁盘上重新读入目录g">从磁盘上重新读入目录:g</h3>
+<h3 id="打印文件p">打印文件:P</h3>
+<h3 id="提出q">提出:q</h3>
+<h2 id="块编辑模式">块编辑模式</h2>
+<h3 id="启动cua模式m-x-cua-mode">启动cua模式:m-x cua-mode</h3>
+<h3 id="启动块编辑c回车">启动块编辑:c+回车</h3>
+<h3 id="剪切c-x">剪切:c-x</h3>
+<h3 id="复制c-c">复制:c-c</h3>
+<h3 id="粘帖c-v">粘帖:c-v</h3>
+<h2 id="改变配色方案">改变配色方案</h2>
+<h3 id="安装color-themeel">安装color-theme.el</h3>
+<h3 id="输入m-x-color-theme-select选择配色方案">输入m-x color-theme-select选择配色方案</h3>
+<h2 id="操作文本块">操作文本块</h2>
+<h3 id="剪切c-w或shift-del">剪切:c-w或shift-del</h3>
+<h3 id="全选c-x-h">全选:c-x h</h3>
+<h3 id="选择整段m-h">选择整段:m-h</h3>
+<h3 id="选择某段鼠标左键按住拖动">选择某段:鼠标左键按住拖动</h3>
+<h3 id="选择当前页面c-x-c-p">选择当前页面:c-x c-p</h3>
+<h2 id="编辑技巧">编辑技巧</h2>
+<h3 id="交换两个字符位置光标移动到第二个字符然后c-t">交换两个字符位置:光标移动到第二个字符然后c-t</h3>
+<h3 id="交换两个单词位置光标移动到两个单词中间空白处然后m-t">交换两个单词位置:光标移动到两个单词中间空白处然后m-t</h3>
+<h3 id="交换两行位置c-x-c-t">交换两行位置:c-x c-t</h3>
+<h3 id="单词首字母改为大写光标移动到首字母然后m-c">单词首字母改为大写:光标移动到首字母然后m-c</h3>
+<h3 id="单词全部改为大写光标移动到首字母然后m-u">单词全部改为大写:光标移动到首字母然后m-u</h3>
+<h3 id="单词全部改为小写光标移动到首字母m-l">单词全部改为小写:光标移动到首字母m-l</h3>
+<h3 id="处理光标到词尾部分字符">处理光标到词尾部分字符</h3>
+<h3 id="进入退出改写模式insert键">进入/退出改写模式:insert键</h3>
+<h3 id="用文件内容替换缓冲区m-x-revert-buffer">用文件内容替换缓冲区:m-x revert-buffer</h3>
+<h3 id="放弃当前命令c-g">放弃当前命令:c-g</h3>
+<h3 id="撤销上一次编辑c-x-u或c-_或c-">撤销上一次编辑:c-x u或c-_或c-/</h3>
+<h3 id="从自动保存备份文件恢复内容m-x-recover-file">从自动保存备份文件恢复内容:m-x recover-file</h3>
+<h3 id="一般每隔300次击键自动保存一次">一般每隔300次击键自动保存一次</h3>
+<h3 id="重命名bufferm-x-rename-buffer">重命名buffer:m-x rename-buffer</h3>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2013-07-31-play-emacs/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-07-31-what-is-the-value-of-doing-the-government-high-tech-project/">申报政府科技项目的价值</a></h1>
 					<time>Jul 31, 2013</time>
 					<br><div class="description">
@@ -212,21 +421,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2013-05-15-mapreduce/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/">制作ppt的非office工具</a></h1>
-					<time>May 9, 2013</time>
-					<br><div class="description">
-	
-	<p><a href="https://docs.google.com/file/d/0B1DrsqrLRzeIV1Q3OFJ2MUxoNzg/edit?usp=sharing">思维导图文件下载</a></p>
-<h2 id="inkscapehttpszhwikipediaorgwikiinkscape--sozi"><a href="https://zh.wikipedia.org/wiki/Inkscape">inkscape</a> + sozi</h2>
-<p>inkscape是矢量文件编辑工具，Sozi是 inkscape 的外掛.使用SVG和JS来播放图片和文字</p>
-<p>转<a href="http://people.ofset.org/~ckhung/mm/">如何制作</a></p>
-<p>优点：不需要做编程方面的培训，有跨平台工具编辑，编辑过程直观简单</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2013-05-09-non-office-tools-to-make-ppt/">Read more ⟶</a>
 				</section>
 				
 				

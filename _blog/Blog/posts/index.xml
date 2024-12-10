@@ -6,8 +6,15 @@
     <description>Recent content in Posts on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Dec 2024 22:59:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 10:44:56 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>存在型模式</title>
+      <link>https://www.samrainhan.com/posts/2024-12-10-existence-oriented-pattern/</link>
+      <pubDate>Tue, 10 Dec 2024 10:44:56 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-12-10-existence-oriented-pattern/</guid>
+      <description>&lt;p&gt;马克斯·亨齐克（Max Hunziger）提到过的一种象征来描述存在型模式最为恰当：当光线透过一只蓝色玻璃杯时，这只杯子呈现为蓝色，因为它吸收了所有其他颜色的光，不让它们通过。也就是说，我们之所以称这只玻璃杯为“蓝色”的，恰恰是因为它并不保留蓝色的光波。它之所以拥有这个名称，不是因为它所占有的东西，而是因为它所给出的东西。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PAAS趋势</title>
       <link>https://www.samrainhan.com/posts/2024-12-07-trends-of-paas/</link>
