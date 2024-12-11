@@ -6,8 +6,15 @@
     <description>Recent content in WPS on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 15 Nov 2024 21:38:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 14:40:50 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/tags/wps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多维表的一些概念</title>
+      <link>https://www.samrainhan.com/posts/2024-12-11-some-concepts-of-multi-dimensional-tables/</link>
+      <pubDate>Wed, 11 Dec 2024 14:40:50 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-12-11-some-concepts-of-multi-dimensional-tables/</guid>
+      <description>&lt;p&gt;双向关联：在单元格中，引用另外一个表的记录，默认只显示引用记录的第一个字段内容。注：支持设置‘自动关联或‘手动关联？；手工关联支持进一步指定来源于某个视图。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用WPS协作来制作我的GTD工具链</title>
       <link>https://www.samrainhan.com/posts/2024-11-15-use-woa-to-build-my-gtd-toolchain/</link>

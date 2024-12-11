@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>多维表 on sam的小窝</title>
+    <link>https://www.samrainhan.com/tags/%E5%A4%9A%E7%BB%B4%E8%A1%A8/</link>
+    <description>Recent content in 多维表 on sam的小窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Dec 2024 14:40:50 +0800</lastBuildDate>
+    <atom:link href="https://www.samrainhan.com/tags/%E5%A4%9A%E7%BB%B4%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多维表的一些概念</title>
+      <link>https://www.samrainhan.com/posts/2024-12-11-some-concepts-of-multi-dimensional-tables/</link>
+      <pubDate>Wed, 11 Dec 2024 14:40:50 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2024-12-11-some-concepts-of-multi-dimensional-tables/</guid>
+      <description>&lt;p&gt;双向关联：在单元格中，引用另外一个表的记录，默认只显示引用记录的第一个字段内容。注：支持设置‘自动关联或‘手动关联？；手工关联支持进一步指定来源于某个视图。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
