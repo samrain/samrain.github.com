@@ -6,7 +6,8 @@ categories = ["work"]
 draft = false
 +++
 
-生成的图片在此：https://kdocs.cn/l/cvxr13rl89eh
+生成的图片在此： https://kdocs.cn/l/cvxr13rl89eh
+
 D2的代码在此：
 
 ```
