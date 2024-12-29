@@ -64,6 +64,29 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">如何找到没有聚集索引的表</a></h1>
+					<time>Sep 12, 2018</time>
+					<br><div class="description">
+	
+	<p>sql如下：</p>
+<pre><code>SELECT TOP 1000 o.name, i.type_desc, o.type_desc, o.create_date
+FROM sys.indexes i
+INNER JOIN sys.objects o
+ON i.object_id = o.object_id
+WHERE o.type_desc = 'USER_TABLE'
+AND i.type_desc = 'HEAP'
+ORDER BY o.name
+GO
+</code></pre>
+<p>参考：</p>
+<p><a href="https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/">https://www.mssqltips.com/sqlservertip/2510/sql-server-tables-without-a-clustered-index/</a></p>
+<p><a href="https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/">https://www.brentozar.com/blitz/heaps-tables-without-primary-key-clustered-index/</a></p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-look-for-sql-server-tables-without-a-clustered-index/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-the-continuous-delivery-maturity-model/">持续实施成熟度模型</a></h1>
 					<time>Sep 12, 2018</time>
 					<br><div class="description">
@@ -110,25 +133,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-code-inspection-tool-for-net/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/">怎样生成唯一ID</a></h1>
-					<time>Sep 12, 2018</time>
-					<br><div class="description">
-	
-	<h2 id="1-数据库自增长序列或字段">1. 数据库自增长序列或字段</h2>
-<p>最常见的方式。利用数据库，全数据库唯一。</p>
-<p>优点：</p>
-<ul>
-<li>
-<p>简单，代码方便，性能可以接受。</p>
-</li>
-<li>
-<p>数字ID天然排序，对分页或者需要排序的结果很有帮助。</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2018-09-12-how-to-make-unique-id/">Read more ⟶</a>
 				</section>
 				
 				

@@ -64,6 +64,18 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2015-06-29-coins-games/">硬币游戏</a></h1>
+					<time>Jun 29, 2015</time>
+					<br><div class="description">
+	
+	<h2 id="-1枚硬币2人">① 1枚硬币×2人</h2>
+<p>规则：A 、 B 两人打算玩这么一个游戏。首先， A 选择一个长度为 n 的正反序列，然后 B 再选择另一个长度为 n 的正反序列。之后，不断抛掷硬币，哪名玩家所选的正反序列最先出现，哪名玩家就获胜。</p>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2015-06-29-coins-games/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2015-06-28-promote-the-app-by-channels/">App的渠道推广</a></h1>
 					<time>Jun 28, 2015</time>
 					<br><div class="description">
@@ -140,56 +152,6 @@ $Todo$ 如果想要把笔记备份到google硬盘上：通过分享邮件到samr
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2015-06-25-how-do-interview/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/">Puma&#43;Nginx&#43;Mariadb&#43;Redmine</a></h1>
-					<time>Jun 24, 2015</time>
-					<br><div class="description">
-	
-	<blockquote>
-<p>以下均在Ubuntu 1404.2 LTS 上运行过。
-redmine目录放在<code>/home/redmine</code>下。</p>
-</blockquote>
-<h2 id="1-ruby">1. Ruby</h2>
-<h3 id="install-基础库">install 基础库</h3>
-<pre tabindex="0"><code>sudo apt-get install git autoconf bison curl build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
-</code></pre><h3 id="install-rbenv">install rbenv</h3>
-<pre tabindex="0"><code>mkdir /home/redmine &amp;&amp; cd /home/redmine
-git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-
-## 把rbenv加到shell的path中，然后重启shell
-echo &#39;export PATH=&#34;/home/redmine/.rbenv/bin:$PATH&#34;&#39; &gt;&gt; ~/.bashrc
-echo &#39;eval &#34;$(rbenv init -)&#34;&#39; &gt;&gt; ~/.bashrc
-exec $SHELL -l
-
-## 检查rbenv是否ok
-type rbenv
-</code></pre><h3 id="install-ruby">install Ruby</h3>
-<pre tabindex="0"><code>## 看当前能安装的ruby版本
-## 如果报没有install命令，可以查看下目录执行 .rbenv/plugins/ruby-build/install.sh安装
-rbenv install -l
-
-## 安装当前最新的稳定版本
-## 比如2015-1-4时是2.2.0,但是由于后面使用redmine时有些插件报错，所以降级到2.1.5。编译超级慢，下载源码时有时会因为GFW无法下载，我后来用了土方法，重新启动。
-rbenv install 2.1.5
-
-## 设置ruby全局版本为这个
-rbenv global 2.1.5
-</code></pre><h3 id="check-ruby">check Ruby</h3>
-<pre tabindex="0"><code>## 确认下当前ruby版本号是否和设置的全局版本一致
-ruby -v
-
-## 如果不一致，那么执行以下2行代码
-rbenv rehash
-rbenv global 2.1.5
-</code></pre><h2 id="2-mariadb">2. Mariadb</h2>
-<h3 id="基础库">基础库</h3>
-<p>安装过程中会要求输入MariaDB的root用户密码</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2015-06-24-puma-nginx-mariadb-redmine/">Read more ⟶</a>
 				</section>
 				
 				
