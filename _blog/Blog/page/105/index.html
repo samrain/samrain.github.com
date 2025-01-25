@@ -64,6 +64,24 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/">rsync客户端脚本For linux</a></h1>
+					<time>Jun 10, 2016</time>
+					<br><div class="description">
+	
+	<pre><code># 1.设置ssh自动登录
+
+# 2.测试，看服务器上有那些文件
+rsync -e &quot;ssh&quot; --list-only 3:/home/vsmaster/rsynctest/
+
+# 3.同步
+rsync -aczP --compress-level=9 --protocol=29 --delete -e &quot;ssh&quot; 3:/home/vsmaster/rsynctest/ ~/下载/test/
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-10-rsync-client-script/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-09-cwrsyncserver/">安装cwRsyncServer</a></h1>
 					<time>Jun 9, 2016</time>
 					<br><div class="description">
@@ -140,17 +158,6 @@ get *
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-06-how-to-backup-kindee-kis/">Read more ⟶</a>
 				</section>
 				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/">得到当前电脑的公网IP</a></h1>
-					<time>Jun 5, 2016</time>
-					<br><div class="description">
-	
-	<p><a href="http://www.whatismyip.com/">http://www.whatismyip.com/</a></p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-05-get-current-computer-network-ip/">Read more ⟶</a>
-				</section>
-				
 				
 
 <ul class="pagination">
@@ -180,7 +187,7 @@ get *
         ></a>
         <a class="border"></a></div>
     <div class="footer-info">
-        2024  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
+        2025  <a href="https://github.com/athul/archie">Archie Theme</a> | Built
         with <a href="https://gohugo.io">Hugo</a>
     </div>
 </footer>

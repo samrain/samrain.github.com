@@ -5,8 +5,9 @@ tags = ["锻炼","Tabata","HIIT","拉伸"]
 categories = ["family"]
 draft = false
 +++
-最好的生活，无非就是：
+# 人生唯有读书和运动不可辜负！
 
+最好的生活，无非就是：
 - 于阅读间，参悟人生，洞察自我；
 - 在运动中，摒弃浮躁，克服万难；
 - 于独处时，探寻真理，提升修养；
@@ -21,7 +22,7 @@ draft = false
 总体：热身2分钟+练习4分钟+拉伸5～10分钟
 
 热身2分钟：
-- 最伟大的拉伸（World's Greatest Stretch）：每侧腿做 3-5 次，每次扭转躯干时保持 2-3 秒，然后换另一侧。。
+- 最伟大的拉伸（World's Greatest Stretch【最伟大的拉伸，一个可以搞定所有问题的动作！】 https://www.bilibili.com/video/BV1JW4y1z7FH/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f）：每侧腿做 3-5 次，每次扭转躯干时保持 2-3 秒，然后换另一侧。。
 - 开合跳（Jumping Jacks）：30秒，双脚跳开同时双手举过头顶击掌，然后跳回原位。
 
 练习4分钟：
@@ -32,7 +33,7 @@ draft = false
 - 下肢（前后）：后撤步交替触踵深蹲、交替后撤步箭步蹲、箭步蹲跳
 - 核心：仰卧举腿、侧平举、黑寡妇提膝
 
-拉伸（参见[跑后拉伸](https://www.bilibili.com/video/BV14N4geeEZc/?spm_id_from=333.999.0.0&vd_source=1365ef8a26e92eef06dd34c1c3c81c1c)每侧15秒）：
+拉伸（每侧15秒，[详见：跑后拉伸](https://www.bilibili.com/video/BV14N4geeEZc/?spm_id_from=333.999.0.0&vd_source=1365ef8a26e92eef06dd34c1c3c81c1c)）：
 - 交叉体侧拉伸（Cross body stretch）：每侧20秒，站立或坐姿，将一只手臂伸直横过身体。用另一只手按住伸直手臂的上臂，轻轻向身体方向拉。
 - 肱三头肌拉伸（Triceps stretch）：每侧20秒，站立或坐姿，将一只手臂向上伸直，然后弯曲肘部，手掌放在对侧肩胛骨上。用另一只手轻轻按压肘部，增加拉伸感。
 - 胸部拉伸（Chest stretch）：每侧20秒，站在门框或墙壁旁，将一只手臂伸直，手掌贴在门框或墙壁上。身体向前倾，感受胸部的拉伸。
@@ -44,7 +45,5 @@ draft = false
 
 如果时间允许，建议按照以下20个动作进行拉伸，全部做完10分钟。
 ![静态拉伸20发](http://www.kdocs.cn/api/v3/office/copy/NnBuVlVZMFFZSjZweno1NzA2MUd2L3ovREVYZ3RjVTVHUEdVaGtYTHU0cFJpQ2ZzSjkxTVU2cE5YM25USGNocFRlRVA3Nk5qREpvK0R2dmtCRG9saytjbW84cUhwYkx4MzRLQTdGUzYwNWlYN1VKQmo0T0F1NnNYK1VLTGlBalN6VW1pTU5ZeEtwYis2a0pmbmp0QjJ3MzZJNldYTlVwcGhtcHBhTnlqU3RZQnNjUWw2TG1IRmlQNTFYQ1V6MWJaejUrTGxnSnB4NG1FVytCaU9nL3pya1NLeC9KQzNGWnU0NDlIdWlLbkxzQ3EzT1pxVkFKM3ZleEd1d0RzTTE1Z2gxVTNvNGIrZkU4PQ==/attach/object/65IPFXY5ADACO?)
-
-人生唯有读书和运动不可辜负！
 
 新的一年，愿你勇敢追梦，不负韶华。愿你在奋斗的路上披荆斩棘，收获属于自己的辉煌。愿每一天都充满阳光与力量，每一刻都值得铭记。新年快乐，未来可期！
