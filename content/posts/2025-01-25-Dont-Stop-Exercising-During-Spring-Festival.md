@@ -33,8 +33,7 @@ draft = false
 - 下肢（前后）：[反向箭步蹲](https://www.bilibili.com/video/BV1rb411J7KB/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)、[弓步](https://www.bilibili.com/video/BV1FE421c7YY/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)、[交替箭步蹲跳](https://www.bilibili.com/video/BV1qB4y1W787/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
 - 核心：[仰卧两头起](https://www.bilibili.com/video/BV1WD421G7Lb/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)、[侧平举](https://www.bilibili.com/video/BV1YT421y7Hm/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)、[登山](https://www.bilibili.com/video/BV1n9kjYFEzh/?share_source=copy_web&vd_source=d3fddfedc5e35e4868e7708c16c1752f)
 
-拉伸（每侧15秒）：
+拉伸5分钟：[![静态拉伸](https://s21.ax1x.com/2025/01/25/pEEtWp8.jpg)](https://imgse.com/i/pEEtWp8)
 
-![静态拉伸](http://inews.gtimg.com/newsapp_bt/0/2470590549/641)
 
 新的一年，愿你勇敢追梦，不负韶华。愿你在奋斗的路上披荆斩棘，收获属于自己的辉煌。愿每一天都充满阳光与力量，每一刻都值得铭记。新年快乐，未来可期！
