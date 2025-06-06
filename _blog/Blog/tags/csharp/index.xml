@@ -27,7 +27,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-11-codefile-and-codebehide-difference/</guid>
-      <description>&lt;h2 id=&#34;codebehinda-idorgheadline19a&#34;&gt;CodeBehind&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容，以实现代码隐藏功能。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;codebehind&#34;&gt;CodeBehind&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;指定包含与页关联的类的已编译文件的名称,编译完后所有cs中的代码打包进dll.该属性不能在运行时使用.提供此属性是为了与以前版本的 ASP.NET 的兼容，以实现代码隐藏功能。&lt;/p&gt;</description>
     </item>
     <item>
       <title>配置AssemblyInfo.cs</title>
@@ -41,14 +41,14 @@
       <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
-      <description>&lt;h2 id=&#34;不想看到pdb文件a-idorgheadline1a&#34;&gt;不想看到pdb文件&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在编译时设置高级选项中 &lt;code&gt;Output - Debug info&lt;/code&gt; 为 &lt;code&gt;None&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;any-cpu是什么意思a-idorgheadline2a&#34;&gt;Any CPU是什么意思&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio的编译选项 build下的platform有X64、Any CPU和x86。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;不想看到pdb文件&#34;&gt;不想看到pdb文件&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在编译时设置高级选项中 &lt;code&gt;Output - Debug info&lt;/code&gt; 为 &lt;code&gt;None&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;any-cpu是什么意思&#34;&gt;Any CPU是什么意思&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio的编译选项 build下的platform有X64、Any CPU和x86。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nlog心得</title>
       <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>&lt;p&gt;在工程中添加引用&lt;code&gt;NLog.dll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意：必须要对应当前的Framework版本的NLog.dll&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;添加&lt;code&gt;NLog.config&lt;/code&gt;并设置&lt;code&gt;Copy to Output Directory&lt;/code&gt;为&lt;strong&gt;Copy always&lt;/strong&gt;。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在工程中添加引用&lt;code&gt;NLog.dll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意：必须要对应当前的Framework版本的NLog.dll&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;添加&lt;code&gt;NLog.config&lt;/code&gt;并设置&lt;code&gt;Copy to Output Directory&lt;/code&gt;为&lt;strong&gt;Copy always&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>wsdl帮助</title>

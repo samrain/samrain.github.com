@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2015-05-11-nlog/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2015-05-11-nlog/</guid>
-      <description>&lt;p&gt;在工程中添加引用&lt;code&gt;NLog.dll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意：必须要对应当前的Framework版本的NLog.dll&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;添加&lt;code&gt;NLog.config&lt;/code&gt;并设置&lt;code&gt;Copy to Output Directory&lt;/code&gt;为&lt;strong&gt;Copy always&lt;/strong&gt;。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在工程中添加引用&lt;code&gt;NLog.dll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意：必须要对应当前的Framework版本的NLog.dll&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;添加&lt;code&gt;NLog.config&lt;/code&gt;并设置&lt;code&gt;Copy to Output Directory&lt;/code&gt;为&lt;strong&gt;Copy always&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

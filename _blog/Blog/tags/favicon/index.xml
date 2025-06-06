@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-27-favicon-ico/</guid>
-      <description>&lt;h2 id=&#34;默认放在服务器根目录下a-idsec-5-9-namesec-5-9a&#34;&gt;默认放在服务器根目录下&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;lt;link rel=&amp;ldquo;shortcut icon&amp;rdquo; href=&lt;a href=&#34;http://www.example.com/favicon.ico&#34;&gt;http://www.example.com/favicon.ico&lt;/a&gt;&amp;gt;`&lt;/p&gt;&#xA;&lt;h2 id=&#34;优化性能a-idsec-5-10-namesec-5-10a&#34;&gt;优化性能&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;配置favicon.ico的位置，保证能访问到&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;默认放在服务器根目录下&#34;&gt;默认放在服务器根目录下&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;如果要换位置，在服务器上可以设置；同时也可以在网页上设置，比如在head部分加入link，比如 `&amp;lt;link rel=&amp;ldquo;shortcut icon&amp;rdquo; href=&lt;a href=&#34;http://www.example.com/favicon.ico&#34;&gt;http://www.example.com/favicon.ico&lt;/a&gt;&amp;gt;`&lt;/p&gt;&#xA;&lt;h2 id=&#34;优化性能&#34;&gt;优化性能&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;配置favicon.ico的位置，保证能访问到&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

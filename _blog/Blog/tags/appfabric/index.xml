@@ -13,14 +13,14 @@
       <link>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</link>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-14-resolve-appfabric-problem-errorcode-errca0016/</guid>
-      <description>&lt;h1 id=&#34;尝试解决appfabric问题-errorcodeerrca0016substatuses0001连接终止可能是由于服务器或网络问题或序列化对象大小大于服务器上的-maxbuffersize该请求的结果未知a-idsec-4-namesec-4a&#34;&gt;尝试解决AppFabric问题： ErrorCode&lt;!-- raw HTML omitted --&gt;:SubStatus&lt;!-- raw HTML omitted --&gt;:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的 MaxBufferSize。该请求的结果未知。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在客户端和服务端配置文件中加上&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;尝试解决appfabric问题-errorcodesubstatus连接终止可能是由于服务器或网络问题或序列化对象大小大于服务器上的-maxbuffersize该请求的结果未知&#34;&gt;尝试解决AppFabric问题： ErrorCode&lt;!-- raw HTML omitted --&gt;:SubStatus&lt;!-- raw HTML omitted --&gt;:连接终止，可能是由于服务器或网络问题，或序列化对象大小大于服务器上的 MaxBufferSize。该请求的结果未知。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在客户端和服务端配置文件中加上&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决AppFabric问题 ErrorCode&lt;ERRCA0017&gt;:SubStatus&lt;ES0005&gt;</title>
       <link>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-04-13-resolve-appfabric-problem-errorcode-errca0017/</guid>
-      <description>&lt;h1 id=&#34;解决appfabric问题-errorcodeerrca0017substatuses0005发生临时故障请稍后重试-存储存在争用情况a-idsec-3-namesec-3a&#34;&gt;解决AppFabric问题 ErrorCode&lt;!-- raw HTML omitted --&gt;:SubStatus&lt;!-- raw HTML omitted --&gt;:发生临时故障。请稍后重试。 (存储存在争用情况。)&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;1.升级AppFabric到1.1&lt;/p&gt;&#xA;&lt;p&gt;下载链接：&lt;a href=&#34;https://www.microsoft.com/zh-cn/download/details.aspx?id=27115&#34;&gt;https://www.microsoft.com/zh-cn/download/details.aspx?id=27115&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;解决appfabric问题-errorcodesubstatus发生临时故障请稍后重试-存储存在争用情况&#34;&gt;解决AppFabric问题 ErrorCode&lt;!-- raw HTML omitted --&gt;:SubStatus&lt;!-- raw HTML omitted --&gt;:发生临时故障。请稍后重试。 (存储存在争用情况。)&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;1.升级AppFabric到1.1&lt;/p&gt;&#xA;&lt;p&gt;下载链接：&lt;a href=&#34;https://www.microsoft.com/zh-cn/download/details.aspx?id=27115&#34;&gt;https://www.microsoft.com/zh-cn/download/details.aspx?id=27115&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

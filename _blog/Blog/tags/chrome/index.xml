@@ -20,14 +20,14 @@
       <link>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</link>
       <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-29-debugging-in-chrome-nodejs/</guid>
-      <description>&lt;h2 id=&#34;installa-idorgheadline34a&#34;&gt;install&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;安装node-inspector插件&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo npm install -g node-inspector&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;getting-starta-idorgheadline35a&#34;&gt;Getting start&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;node-debug XXX.js&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;会自动启动chrome（Chromium）浏览器访问&lt;a href=&#34;http://127.0.0.1:8080/debug?port=5858&#34;&gt;http://127.0.0.1:8080/debug?port=5858&lt;/a&gt;，这时就可以设置断点进行调试了。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;install&#34;&gt;install&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;安装node-inspector插件&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo npm install -g node-inspector&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;getting-start&#34;&gt;Getting start&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;node-debug XXX.js&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;会自动启动chrome（Chromium）浏览器访问&lt;a href=&#34;http://127.0.0.1:8080/debug?port=5858&#34;&gt;http://127.0.0.1:8080/debug?port=5858&lt;/a&gt;，这时就可以设置断点进行调试了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>学习node.js</title>
       <link>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</link>
       <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-05-27-study-nodejs/</guid>
-      <description>&lt;h1 id=&#34;每个模块都有requireexportsmodule三个预先定义好的变量可供使用a-idorgheadline1a&#34;&gt;每个模块都有require、exports、module三个预先定义好的变量可供使用。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;require&#xA;&lt;ul&gt;&#xA;&lt;li&gt;加载和使用别的模块，传入一个模块名，返回一个模块导出对象。&lt;/li&gt;&#xA;&lt;li&gt;模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。&lt;/li&gt;&#xA;&lt;li&gt;模块名中的.js扩展名可以省略。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;exports&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;每个模块都有requireexportsmodule三个预先定义好的变量可供使用&#34;&gt;每个模块都有require、exports、module三个预先定义好的变量可供使用。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;require&#xA;&lt;ul&gt;&#xA;&lt;li&gt;加载和使用别的模块，传入一个模块名，返回一个模块导出对象。&lt;/li&gt;&#xA;&lt;li&gt;模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。&lt;/li&gt;&#xA;&lt;li&gt;模块名中的.js扩展名可以省略。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;exports&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;当前模块的导出对象，用于导出模块公有方法和属性。别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象。&lt;/p&gt;</description>
     </item>
     <item>
       <title>chrome开发者工具模拟各种浏览器在各种手持终端上显示效果</title>

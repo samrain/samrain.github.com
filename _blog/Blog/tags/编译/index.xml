@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-07-01-the-c-sharp-compiler-tip/</guid>
-      <description>&lt;h2 id=&#34;不想看到pdb文件a-idorgheadline1a&#34;&gt;不想看到pdb文件&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在编译时设置高级选项中 &lt;code&gt;Output - Debug info&lt;/code&gt; 为 &lt;code&gt;None&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;any-cpu是什么意思a-idorgheadline2a&#34;&gt;Any CPU是什么意思&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio的编译选项 build下的platform有X64、Any CPU和x86。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;不想看到pdb文件&#34;&gt;不想看到pdb文件&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;在编译时设置高级选项中 &lt;code&gt;Output - Debug info&lt;/code&gt; 为 &lt;code&gt;None&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;any-cpu是什么意思&#34;&gt;Any CPU是什么意思&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Visual Studio的编译选项 build下的platform有X64、Any CPU和x86。&lt;/p&gt;</description>
     </item>
     <item>
       <title>msbuild参数效果对比</title>

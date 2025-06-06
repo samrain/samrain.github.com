@@ -68,7 +68,7 @@
 					<time>Jul 25, 2016</time>
 					<br><div class="description">
 	
-	<h2 id="查询当前数据库的表上索引碎片情况按照严重程度顺序排列a-idorgheadline28a">查询当前数据库的表上索引碎片情况，按照严重程度顺序排列<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+	<h2 id="查询当前数据库的表上索引碎片情况按照严重程度顺序排列">查询当前数据库的表上索引碎片情况，按照严重程度顺序排列<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>USE DBNAME;
 SELECT 
 DB_NAME() AS DatbaseName 
@@ -84,7 +84,7 @@ SELECT * FROM #TempFragmentation ORDER BY [Fragmentation %] DESC;
 
 DROP TABLE #TempFragmentation;
 </code></pre>
-<h2 id="查询当前数据库的表上从来没有使用过的索引a-idorgheadline29a">查询当前数据库的表上从来没有使用过的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="查询当前数据库的表上从来没有使用过的索引">查询当前数据库的表上从来没有使用过的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED 
 SELECT 
 DB_NAME() AS DatbaseName 
@@ -101,7 +101,7 @@ ORDER BY DatbaseName, SchemaName, TableName, IndexName
 
 DROP TABLE #TempNeverUsedIndexes
 </code></pre>
-<h2 id="查询当前数据库的表上使用的比较少的索引a-idorgheadline30a">查询当前数据库的表上使用的比较少的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="查询当前数据库的表上使用的比较少的索引">查询当前数据库的表上使用的比较少的索引<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
 SELECT 
 DB_NAME() AS DatabaseName 
@@ -117,7 +117,7 @@ SELECT TOP 20 *
 FROM #TempUnusedIndexes ORDER BY [user_updates] DESC ;
 DROP TABLE #TempUnusedIndexes
 </code></pre>
-<h2 id="重建索引对于碎片比较厉害的索引效果比重组要好a-idorgheadline31a">重建索引，对于碎片比较厉害的索引，效果比重组要好<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="重建索引对于碎片比较厉害的索引效果比重组要好">重建索引，对于碎片比较厉害的索引，效果比重组要好<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>ALTER INDEX [INDEX_NAME] ON Table_Name REBUILD PARTITION = ALL WITH ( PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, ONLINE = OFF, SORT_IN_TEMPDB = OFF )
 </code></pre>&hellip;
 	
@@ -176,15 +176,15 @@ DROP TABLE #TempUnusedIndexes
 					<time>Jul 21, 2016</time>
 					<br><div class="description">
 	
-	<h2 id="编辑-etcnetworkinterfacesa-idorgheadline25a">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="将dhcp-一行屏蔽a-idorgheadline23a">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+	<h2 id="编辑-etcnetworkinterfaces">编辑 <code>etc/network/interfaces</code><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="将dhcp-一行屏蔽">将dhcp 一行屏蔽<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code># The primary network interface
 
 auto eth0
 
 #iface eth0 inet dhcp
 </code></pre>
-<h3 id="添加和静态ip有关的参数a-idorgheadline24a">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="添加和静态ip有关的参数">添加和静态ip有关的参数<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <pre><code># The primary network interface
 
 iface eth0 inet static
@@ -195,7 +195,7 @@ netmask 255.255.255.0
 
 gateway 192.168.0.1
 </code></pre>
-<h2 id="编辑-etcresolvconf-设置dnsa-idorgheadline26a">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="编辑-etcresolvconf-设置dns">编辑 <code>/etc/resolv.conf</code> ，设置dns<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <pre><code>nameserver 202.96.134.133
 
 nameserver 202.106.0.20

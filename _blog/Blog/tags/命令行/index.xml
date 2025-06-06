@@ -27,7 +27,7 @@
       <link>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2014-05-25-convert-graphics-files-on-cli-of-linux/</guid>
-      <description>&lt;h2 id=&#34;安装imagemagickhttpwwwimagemagickorg-官网&#34;&gt;安装&lt;a href=&#34;http://www.imagemagick.org/&#34; title=&#34;官网&#34;&gt;ImageMagick&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;将当前目录下的图片文件按照文件名排序后合成pdf&#34;&gt;将当前目录下的图片文件按照文件名排序后合成pdf&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert *.png out.pdf&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;缩小文件尺寸&#34;&gt;缩小文件尺寸&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert -resize 50%x50%  *.jpg&lt;/code&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;安装imagemagick&#34;&gt;安装&lt;a href=&#34;http://www.imagemagick.org/&#34; title=&#34;官网&#34;&gt;ImageMagick&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;将当前目录下的图片文件按照文件名排序后合成pdf&#34;&gt;将当前目录下的图片文件按照文件名排序后合成pdf&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert *.png out.pdf&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;缩小文件尺寸&#34;&gt;缩小文件尺寸&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;convert -resize 50%x50%  *.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -5,7 +5,6 @@
 	<meta name="description" content="在工程中添加引用NLog.dll
 
 注意：必须要对应当前的Framework版本的NLog.dll
-
 添加NLog.config并设置Copy to Output Directory为Copy always。" />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://www.samrainhan.com/posts/2015-05-11-nlog/">
@@ -79,8 +78,7 @@
 		<section class="body">
 			<p>在工程中添加引用<code>NLog.dll</code></p>
 <blockquote>
-<p><strong>注意：必须要对应当前的Framework版本的NLog.dll</strong></p>
-</blockquote>
+<p><strong>注意：必须要对应当前的Framework版本的NLog.dll</strong></p></blockquote>
 <p>添加<code>NLog.config</code>并设置<code>Copy to Output Directory</code>为<strong>Copy always</strong>。</p>
 <p>在每个Class中都初始化一个私有静态实例</p>
 <pre tabindex="0"><code>private static Logger logger = LogManager.GetCurrentClassLogger();

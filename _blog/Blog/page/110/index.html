@@ -68,11 +68,11 @@
 					<time>May 13, 2016</time>
 					<br><div class="description">
 	
-	<h1 id="微博的异地多活经验学习笔记a-idsec-1-namesec-1a">微博的异地多活经验学习笔记<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="基于业务写消息到queuea-idsec-1-1-namesec-1-1a">基于业务写消息到Queue<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h2 id="在线容量评估分级上线快速流量均衡等能力a-idsec-1-2-namesec-1-2a">在线容量评估、分级上线、快速流量均衡等能力<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h2 id="问题a-idsec-1-3-namesec-1-3a">问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="各机房之间的延时a-idsec-1-3-1-namesec-1-3-1a">各机房之间的延时<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+	<h1 id="微博的异地多活经验学习笔记">微博的异地多活经验学习笔记<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="基于业务写消息到queue">基于业务写消息到Queue<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="在线容量评估分级上线快速流量均衡等能力">在线容量评估、分级上线、快速流量均衡等能力<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="问题">问题<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="各机房之间的延时">各机房之间的延时<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>这套方案中，每个机房的缓存是完全独立的，由每个机房的Processor（专门负责消息处理的程序，类Storm）根据收到的消息进行缓存更新。由于消息不会重复分发，而且信息完备，所以MytriggerQ方案存在的缓存更新脏数据问题就解决了。而当缓存不存在时，会穿透到MySQL从库，然后进行回种。可能出现的问题是，缓存穿透，但是MySQL从库如果此时出现延迟，这样就会把脏数据种到缓存中。我们的解决方案是做一个延时10分钟的消息队列，然后由一个处理程序来根据这个消息做数据的重新载入。一般从库延时时间不超过10分钟，而10分钟内的脏数据在微博的业务场景下也是可以接受的。</p>&hellip;
 	
 </div>
@@ -96,8 +96,8 @@
 					<time>May 11, 2016</time>
 					<br><div class="description">
 	
-	<h1 id="程序员a-idsec-5-namesec-5a">程序员<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="httpwwwclarkduvallcoma-idsec-5-1-namesec-5-1a"><a href="http://www.clarkduvall.com/">http://www.clarkduvall.com/</a><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>&hellip;
+	<h1 id="程序员">程序员<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2><a href="http://www.clarkduvall.com/">http://www.clarkduvall.com/</a><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>&hellip;
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-05-11-the-wonderful-personal-sites/">Read more ⟶</a>
@@ -108,17 +108,17 @@
 					<time>May 6, 2016</time>
 					<br><div class="description">
 	
-	<h1 id="背景介绍a-idsec-6-namesec-6a">背景介绍<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="浦发银行美国运通白金卡简称浦发ae白官网a-idsec-6-1-namesec-6-1a">浦发银行美国运通白金卡(简称浦发AE白)官网<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+	<h1 id="背景介绍">背景介绍<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="浦发银行美国运通白金卡简称浦发ae白官网">浦发银行美国运通白金卡(简称浦发AE白)官网<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p><a href="http://www.spdbccc.com.cn/zh/wap/newwap/meiyun/index.html#rd">http://www.spdbccc.com.cn/zh/wap/newwap/meiyun/index.html#rd</a></p>
-<h2 id="网上大家的内容收集a-idsec-6-2-namesec-6-2a">网上大家的内容收集<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="网上大家的内容收集">网上大家的内容收集<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p><a href="https://zhuanlan.zhihu.com/p/20679319">https://zhuanlan.zhihu.com/p/20679319</a>
 <a href="http://www.eee.com/article-3318.html">http://www.eee.com/article-3318.html</a>
 <a href="http://www.flyertea.com/article-7995-1.html">http://www.flyertea.com/article-7995-1.html</a></p>
-<h1 id="一次性a-idsec-7-namesec-7a">一次性<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
-<h2 id="必做a-idsec-7-1-namesec-7-1a">必做<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
-<h3 id="安装浦大喜奔appa-idsec-7-1-1-namesec-7-1-1a">安装浦大喜奔APP<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
-<h3 id="绑定浦发银行信用卡中心微信号spdbccc4008208788a-idsec-7-1-2-namesec-7-1-2a">绑定浦发银行信用卡中心微信号(spdbccc4008208788)<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h1 id="一次性">一次性<!-- raw HTML omitted --><!-- raw HTML omitted --></h1>
+<h2 id="必做">必做<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h3 id="安装浦大喜奔app">安装浦大喜奔APP<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
+<h3 id="绑定浦发银行信用卡中心微信号spdbccc4008208788">绑定浦发银行信用卡中心微信号(spdbccc4008208788)<!-- raw HTML omitted --><!-- raw HTML omitted --></h3>
 <p>如果碰到报错： <code>您已关闭网银简化版</code> ，那么请登录个人网银后开通 <strong>理财版</strong></p>&hellip;
 	
 </div>
@@ -130,9 +130,9 @@
 					<time>May 3, 2016</time>
 					<br><div class="description">
 	
-	<h2 id="在线反馈a-idsec-5-2-namesec-5-2a">在线反馈<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+	<h2 id="在线反馈">在线反馈<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>在线反馈系统，用户可以点击很明显的按钮，然后留言，指出自己的不爽和意见。系统会自动发送邮件给我的邮箱。</p>
-<h2 id="主动给用户打回访电话a-idsec-5-3-namesec-5-3a">主动给用户打回访电话<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="主动给用户打回访电话">主动给用户打回访电话<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>因为可以看到用户的在线状态，而且很多用户后台留有手机，挑选几个在线的用户，打个电话过去。</p>&hellip;
 	
 </div>

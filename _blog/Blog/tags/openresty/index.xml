@@ -13,7 +13,7 @@
       <link>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</link>
       <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://www.samrainhan.com/posts/2016-06-16-learn-openresty/</guid>
-      <description>&lt;h1 id=&#34;openresty管理命令a-idorgheadline7a&#34;&gt;openresty管理命令&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;#重启&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload&lt;/p&gt;&#xA;&lt;p&gt;#关闭&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s quit&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;openresty管理命令&#34;&gt;openresty管理命令&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;&#xA;&lt;p&gt;#重启&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s reload&lt;/p&gt;&#xA;&lt;p&gt;#关闭&#xA;nginx -c ~/下载/work/conf/mycard.conf -p ~/下载/work/ -s quit&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenResty第三方模块</title>
