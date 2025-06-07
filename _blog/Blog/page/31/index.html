@@ -64,6 +64,25 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">解决bpool空间不够的问题</a></h1>
+					<time>Oct 27, 2022</time>
+					<br><div class="description">
+	
+	<h1 id="问题">问题</h1>
+<p>Requesting to save current system state ERROR couldn&rsquo;t save system state: Minimum free space to take a snapshot and preserve ZFS performance is 20%. Free space on pool &ldquo;bpool&rdquo; is 19%. Please remove some states manually to free up space.</p>
+<h1 id="检查命令">检查命令</h1>
+<pre tabindex="0"><code>df -h /
+zfs list -o space rpool bpool
+zfs list -t snapshot
+</code></pre><h1 id="解决问题命令">解决问题命令:</h1>
+<pre tabindex="0"><code>sudo zfs list -t snapshot | grep autozsys | awk &#39;{print $1}&#39; | xargs -n1 sudo zfs destroy
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2022-10-27-solve-the-problem-of-insufficient-bpool-space/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-10-12-eight-principles-of-balanced-diet/">平衡膳食八准则</a></h1>
 					<time>Oct 12, 2022</time>
 					<br><div class="description">
@@ -188,24 +207,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2022-09-19-what-is-pmo/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2022-09-15-rugby-personal-equipment-list/">橄榄球个人装备清单</a></h1>
-					<time>Sep 15, 2022</time>
-					<br><div class="description">
-	
-	<h1 id="橄榄球个人装备清单">橄榄球个人装备清单</h1>
-<ol>
-<li>运动上衣、运动裤、运动袜,最好是快干型,可更换为足球袜。</li>
-<li>橄榄球鞋或AG短钉/塑料碎钉足球鞋。 (请勿穿长钉足球鞋)</li>
-<li>护膝和护肘</li>
-<li>橄榄球手套</li>
-<li>专业护具(头盔、肩甲、球衣、防撞裤、球包、牙套)</li>
-</ol>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2022-09-15-rugby-personal-equipment-list/">Read more ⟶</a>
 				</section>
 				
 				
