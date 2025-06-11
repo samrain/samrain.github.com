@@ -64,6 +64,37 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2021-03-20-resize-swap/">扩大swap大小</a></h1>
+					<time>Mar 20, 2021</time>
+					<br><div class="description">
+	
+	<h1 id="扩大swap大小">扩大swap大小</h1>
+<p>代码如下：</p>
+<pre tabindex="0"><code>swapon -s
+free -m
+sudo swapoff /swapfile
+swapon -s
+free -m
+fallocate -l 8G /swap
+sudo fallocate -l 8G /swap
+du -sh /swap
+chown root:root /swap
+sudo chown root:root /swap
+sudo chmod 600 /swap
+mkswap -L swap /swap
+sudo mkswap -L swap /swap
+swapon /swap
+sudo swapon /swap
+free -h
+sudo micro /etc/fstab
+free -m
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2021-03-20-resize-swap/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2021-03-17-service-provider-assessment-checklist/">服务商考核清单</a></h1>
 					<time>Mar 17, 2021</time>
 					<br><div class="description">
@@ -350,54 +381,6 @@ endlegend
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2021-03-14-operational-tasks/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2021-03-13-operation/">运营</a></h1>
-					<time>Mar 13, 2021</time>
-					<br><div class="description">
-	
-	<h1 id="运营">运营</h1>
-<p><a href="https://img.imgdb.cn/item/6046ec0d5aedab222c574904.png"><img src="https://img.imgdb.cn/item/6046ec0d5aedab222c574904.png" alt="运营"></a></p>
-<pre tabindex="0"><code>运营
-	准备
-		对自家产品有所理解
-			产品定位
-			能解决用户什么样的需求
-			用户会在什么样的场景下使用自家产品
-			自家产品在行业里地位如何
-			商业模式又是什么样的
-			自家产品将来又有哪些发展方向
-			及时知道行业里的变化、自家产品定位和服务上的变化
-		对所运营的用户有所理解
-			用户基本画像
-				用户的基本属性，例如年龄、性别、所在的地域、所用的机型
-				用户的文化程度、上网习惯、对内容的偏好
-			基础数据
-			用户访谈
-		了解产品数据现状
-		清楚核心KPI及其计算公式
-			DAU=总用户×转化率
-		竞品策略及其数据
-	工具
-		思维导图
-			制定运营策略
-		表格
-			基本数据记录
-			细化数据记录
-			具体文案的数据
-			运营日志
-			待办事项
-		文字
-			运营规范
-				该怎么做
-				不能怎么做
-			经验总结
-				怎样做才能做得更好
-</code></pre>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2021-03-13-operation/">Read more ⟶</a>
 				</section>
 				
 				

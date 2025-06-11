@@ -64,6 +64,44 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/">清理sqlserver数据库日志</a></h1>
+					<time>Jun 27, 2016</time>
+					<br><div class="description">
+	
+	<pre><code>-- %DNName_Log% 如果不知道在sys.database_files里是什么名字的话，可以用以下注释的语句进行查询
+
+-- USE %DNName%
+
+-- GO
+
+-- SELECT file_id, name FROM sys.database_files;
+
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY SIMPLE --简单模式
+GO
+USE ％DNName％
+GO
+DBCC SHRINKFILE (N'％DNName_Log%' , 11, TRUNCATEONLY)
+
+GO
+
+USE [master]
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL WITH NO_WAIT
+GO
+ALTER DATABASE %DNName% SET RECOVERY FULL --还原为完全模式
+GO
+</code></pre>&hellip;
+	
+</div>
+					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-27-clean-the-sqlserver-log/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-26-start-the-virtual-machine-soundlessly-with-virtualbox/">virtualbox静默启动虚拟机</a></h1>
 					<time>Jun 26, 2016</time>
 					<br><div class="description">
@@ -118,18 +156,6 @@
 	
 </div>
 					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-23-how-can-a-better-programming/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/">2台iPhone同时响铃</a></h1>
-					<time>Jun 22, 2016</time>
-					<br><div class="description">
-	
-	<p>ios8.2升级后碰到2台IPHONE在同一个wifi下，一台来电，另一台也一起响铃</p>
-<p>设置-FaceTime-iPhone蜂窝移动网络通话关掉</p>&hellip;
-	
-</div>
-					<a class="readmore" href="https://www.samrainhan.com/posts/2016-06-22-2-iphone-ring-at-the-same-time/">Read more ⟶</a>
 				</section>
 				
 				

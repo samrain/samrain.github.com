@@ -6,8 +6,15 @@
     <description>Recent content in Work on sam的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Dec 2024 07:33:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jun 2025 00:57:22 +0800</lastBuildDate>
     <atom:link href="https://www.samrainhan.com/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>和OPPO手机同步WPS日历</title>
+      <link>https://www.samrainhan.com/posts/2025-06-07-sync-wps-calendar-with-oppo-phone/</link>
+      <pubDate>Sun, 08 Jun 2025 00:57:22 +0800</pubDate>
+      <guid>https://www.samrainhan.com/posts/2025-06-07-sync-wps-calendar-with-oppo-phone/</guid>
+      <description>&lt;p&gt;在OPPO手机上可以用原生日历APP同步WPS日历。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;怎么获得帐号信息&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;访问WPS日历&lt;a href=&#34;https://365.kdocs.cn/rili/&#34;&gt;https://365.kdocs.cn/rili/&lt;/a&gt;，点右上角三个点，再点【设置】，拖动到最下面，点击【点击进入CalDAV设置】。然后点击“生成”按钮，会弹出一个框，上面有三部分信息（服务器地址、用户名、密码），请全部拷贝另存到别的文件中。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;怎么同步WPS日历&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;打开【日历】，点右上角三个点，再点【日程同步与导入】，屏幕上拖动到最下面，点击【CalDAV帐号】，填入刚刚获得的帐号信息，最后点“添加”按钮即可。如果失败，可以多试几次。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>非端项目简易流程</title>
       <link>https://www.samrainhan.com/posts/2024-12-18-simple-process-for-non-terminal-projects/</link>
